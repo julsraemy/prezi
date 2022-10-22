@@ -3,6 +3,7 @@ marp: true
 theme: gaia
 class: invert
 paginate: true
+_paginate: false
 ---
 
 # Linked Art within PIA
