@@ -60,9 +60,14 @@ We explore the phases of the analogue and digital archive from the perspectives 
 # PIA
 #### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
 
+- SGV_05 Atlas
+- SGV_10 Familie Kreis
+- SGV_12 Ernst Brunner
+
 https://archiv.sgv-sstp.ch 
 
 ---
+
 
 # PIA
 #### User interface (prototype based on Omeka S)
