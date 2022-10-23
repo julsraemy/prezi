@@ -7,7 +7,6 @@ keywords: LOUD, Linked Art, IIIF, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
 theme: gaia
 class: invert
-backgroundColor: black
 paginate: true
 _paginate: false
 ---
@@ -26,7 +25,7 @@ _paginate: false
 
 # PhD Working Title
 
-*Linked Open Usable Data in the Humanities: Perspectives on Interoperability and Knowledge Representation*
+*Linked Open Usable Data in the Humanities: Perspectives on Knowledge Representation and Interoperability*
 
 https://phd.julsraemy.ch
 
