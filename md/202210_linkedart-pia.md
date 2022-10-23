@@ -15,7 +15,7 @@ _paginate: false
 
 # Linked Art at PIA
 [Julien A. Raemy](https://julsraemy.ch)
-19.10.2022 | Linked Art WG Call
+02.11.2022 | Linked Art WG Call
 
 <!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
 
@@ -25,7 +25,7 @@ _paginate: false
 
 # PhD Working Title
 
-*Linked Open Usable Data in the Humanities: Perspectives on Knowledge Representation and Interoperability*
+***Linked Open Usable Data in the Humanities***: *Perspectives on Knowledge Representation and Interoperability*
 
 https://phd.julsraemy.ch
 
@@ -45,9 +45,9 @@ https://phd.julsraemy.ch
 
 # PIA
 
-- Cultural Anthropology: Institute for Cultural Anthropology and European Ethnology, University of Basel
-- Technology: Digital Humanities Lab, University of Basel
-- Design: Bern Academy of the Arts, Bern University of Applied Sciences
+- **Cultural Anthropology**: Institute for Cultural Anthropology and European Ethnology, University of Basel
+- **Technology**: Digital Humanities Lab, University of Basel
+- **Design**: Bern Academy of the Arts, Bern University of Applied Sciences
 
 https://about.participatory-archives.ch/ 
 https://data.snf.ch/grants/grant/193788 
