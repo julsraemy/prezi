@@ -13,8 +13,8 @@ _paginate: false
 
 <!-- _class: lead -->
 
-# Linked Art at PIA
-[Julien A. Raemy](https://julsraemy.ch)
+# <!-- fit --> Linked Art at PIA
+[Julien A. Raemy](https://julsraemy.ch) | PhD Candidate in DH, University of Basel
 02.11.2022 | Linked Art WG Call
 
 <!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
@@ -24,16 +24,18 @@ _paginate: false
 <!-- footer: 'Julien A. Raemy | Linked Art at PIA' -->
 
 # PhD Working Title
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 ***Linked Open Usable Data in the Humanities***: *Perspectives on Knowledge Representation and Interoperability*
 
-https://phd.julsraemy.ch
+[PhD Website](https://phd.julsraemy.ch)
 
 <!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
 
 --- 
 
 # Agenda
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 - Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
 - PIA goes LOUD
@@ -44,51 +46,56 @@ https://phd.julsraemy.ch
 --- 
 
 <!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
-# PIA
+
+# <!-- fit --> PIA
 
 ---
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-# PIA
+# PIA Teams
 
 - **Cultural Anthropology**: Institute for Cultural Anthropology and European Ethnology, University of Basel
 - **Technology**: Digital Humanities Lab, University of Basel
 - **Design**: Bern Academy of the Arts, Bern University of Applied Sciences
 
-https://about.participatory-archives.ch/ 
-https://data.snf.ch/grants/grant/193788 
+[Project Website](https://about.participatory-archives.ch/) 
 
 <!-- PIA is a Sinergia project funded by the Swiss National Science Foundation (SNSF) led by the University of Basel, the Uni, the Bern Academy of the Arts, and the Swiss Society for Folklore Studies. PIA wants to connect the world of data and things in an interdisciplinary manner. 
 
 We explore the phases of the analogue and digital archive from the perspectives of cultural anthropology, technology and design. The common goal of this project is to design a visual interface with machine learning-based tools to make it easy to annotate, contextualize, organize, and link both images and their meta-information, to deliberately encourage the participatory use of archives. -->
 
 ---
-# PIA
-#### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-- SGV_05 Atlas
-- SGV_10 Familie Kreis
-- SGV_12 Ernst Brunner
+### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
+
+- **SGV_05 Atlas der Schweizerischen Volkskunde** - Cartography
+- **SGV_10 Familie Kreis** - Vernacular Photography
+- **SGV_10 Familie Kreis** - Photojournalism
 
 https://archiv.sgv-sstp.ch 
 
 ---
 
-# PIA
-#### User interface (prototype based on Omeka S)
+### PIA User interface
 
-https://participatory-archives.ch/ 
+[Prototype based on Omeka S](https://participatory-archives.ch/) 
+
+![bg right:70% contain](../assets/pia-omeka.png)
 
 --- 
 
 <!-- _class: lead -->
 
-# PIA goes LOUD
+# <!-- fit --> PIA goes LOUD
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-# PIA goes LOUD
-#### Why do we need Linked Art at PIA?
+### Why do we need Linked Art at PIA?
 
 - Data reconciliation
 - Event-based model inherited from CIDOC-CRM
@@ -98,44 +105,46 @@ https://participatory-archives.ch/
 
 ---
 
-# PIA goes LOUD
-#### Bulding an infrastructure with several interfaces
+<!-- _footer: " " -->
+
+![bg contain](../assets/pia_iiif_mirador.png)
 
 ---
 
-# PIA goes LOUD
-#### International Image Interoperability Framework (IIIF)
+<!-- _footer: " " -->
+
+![bg contain](../assets/pia_iiif_workflow.jpg)
+
+<!-- IIIF Workflow within PIA -->
 
 ---
 
-# PIA goes LOUD
-#### IIIF Workflow within PIA
+### Web Annotation Data Model
 
 ---
 
-# PIA goes LOUD
-#### Web Annotation Data Model
+### Web Annotation Data Model
 
----
 
-# PIA goes LOUD
-#### Web Annotation Data Model
 
 ---
 
 <!-- _class: lead -->
 
-# Linked Art
+# <!-- fit --> Linked Art
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 
-# Linked Art
-#### First serialisation attempts
+### First serialisation attempts
 
 ---
 
-# Linked Art
-#### Linked Art and IIIF
+<!-- _footer: " " -->
+
+![bg contain](../assets/IIIF-LA.png)
+
+<!-- Linked Art and IIIF -->
 
 ---
 
@@ -147,21 +156,24 @@ https://participatory-archives.ch/
 <!-- _class: lead -->
 
 # Collaboration with the Linked Art II Project
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 
-# Collaboration with the Linked Art II Project
-#### What has been done
+### Something else
 
 ---
 
-# Collaboration with the Linked Art II Project
-#### Something else
+### What has been done
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 ---
 
-# Collaboration with the Linked Art II Project
-#### Workflow
+### Something else
+
+---
+
+### Workflow
 
 https://github.com/tgra/Linked-Art-Collection-Data-Workflow 
 
@@ -169,22 +181,32 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 
 <!-- _class: lead -->
 
-# Future Work
+# <!-- fit --> Future Work
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 
-# Future Work
-#### Endpoints
-
-Amendment of the workflow created by Tanya Gray is needed.
+### Endpoints
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 1. Deployment of the PIA Linked Art API at https://data.participatory-archives.ch. The PIA JSON API will be deprecated, but still accessible (at https://json.participatory-archives.ch)
-2. Source: PIA JSON API → Omeka S API (JSON-LD) or DaSCH Service Platform API (JSON-LD, Turtle, RDF/XML)
+2. Workflow Source: PIA JSON API → 
+    - Omeka S API (JSON-LD) *or* 
+    - DaSCH Service Platform API (JSON-LD, Turtle, RDF/XML)
 
 ---
 
-# Future Work
-#### Templates 
+### Templates 
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 - Updating and creating new boilerplates for each top-level entity
 - Generic vs specific: another workflow? Software?
+
+---
+
+# Image Credits
+- [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115. 
+- [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
+- ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
+
+All these images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
