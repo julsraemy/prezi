@@ -41,6 +41,12 @@ https://phd.julsraemy.ch
 - Collaboration with the Linked Art II project
 - Future Work
 
+--- 
+
+<!-- _class: lead -->
+
+# PIA
+
 ---
 
 # PIA
@@ -68,11 +74,16 @@ https://archiv.sgv-sstp.ch
 
 ---
 
-
 # PIA
 #### User interface (prototype based on Omeka S)
 
 https://participatory-archives.ch/ 
+
+--- 
+
+<!-- _class: lead -->
+
+# PIA goes LOUD
 
 ---
 
@@ -112,6 +123,12 @@ https://participatory-archives.ch/
 
 ---
 
+<!-- _class: lead -->
+
+# Linked Art
+
+---
+
 # Linked Art
 #### First serialisation attempts
 
@@ -124,6 +141,12 @@ https://participatory-archives.ch/
 
 # Linked Art
 #### Something else
+
+---
+
+<!-- _class: lead -->
+
+# Collaboration with the Linked Art II Project
 
 ---
 
@@ -144,9 +167,24 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 
 ---
 
+<!-- _class: lead -->
+
 # Future Work
 
+---
+
+# Future Work
+#### Endpoints
+
+Amendment of the workflow created by Tanya Gray is needed.
+
+1. Deployment of the PIA Linked Art API at https://data.participatory-archives.ch. The PIA JSON API will be deprecated, but still accessible (at https://json.participatory-archives.ch)
+2. Source: PIA JSON API → Omeka S API (JSON-LD) or DaSCH Service Platform API (JSON-LD, Turtle, RDF/XML)
+
+---
+
+# Future Work
+#### Templates 
+
 - Updating and creating new boilerplates for each top-level entity
-- Amendment of the workflow created by Tanya Gray
-    - PIA JSON API → Omeka S API (JSON-LD) or DaSCH Service Platform API (JSON-LD, Turtle, RDF/XML)
-- Deployment of the PIA Linked Art API at https://data.participatory-archives.ch instead of https://linkedart.participatory-archives.ch (as the JSON API will be deprecated, but still accessible at https://json.participatory-archives.ch/) 
+- Generic vs specific: another workflow? Software?

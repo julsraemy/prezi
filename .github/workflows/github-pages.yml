@@ -38,7 +38,7 @@ jobs:
         run: CHROME_PATH=$(node -e "console.log(require('puppeteer').executablePath())") npm run build
         env:
           # Please update URL if you want to use custom domain
-          URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
+          URL: https://julsraemy.ch/${{ github.event.repository.name }}
 
           # Recommend to set lang for your deck to get better rendering for Open Graph image
           LANG: en-US
