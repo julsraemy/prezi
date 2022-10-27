@@ -5,6 +5,7 @@ title: Linked Art at PIA
 description: This presentation is about the deployment of Linked Art within the PIA research project
 keywords: LOUD, Linked Art, IIIF, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
+url: https://julsraemy.ch/prezi/linked-art.html
 theme: gaia
 class: invert
 paginate: true
@@ -83,7 +84,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 [Prototype based on Omeka S](https://participatory-archives.ch/) 
 
-![bg right:70% contain](../assets/pia-omeka.png)
+![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
 
 --- 
 
@@ -95,7 +96,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 ---
 <!-- _footer: " " -->
 
-![bg contain](../assets/pia_iiif_workflow.jpg)
+![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_workflow.jpg)
 
 <!-- IIIF Workflow within PIA -->
 
@@ -103,13 +104,13 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 <!-- _footer: " " -->
 
-![bg contain](../assets/pia_iiif_mirador.png)
+![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
 
 ---
 
 ### Web Annotation Data Model
 
-![bg auto](../assets/anno-model.png)
+![bg auto](https://julsraemy.ch/prezi/assets/anno-model.png)
 
 ---
 
@@ -241,7 +242,7 @@ Black and White Negative modelled as a `DigitalObject`
 
 <!-- _footer: " " -->
 
-![bg contain](../assets/IIIF-LA.png)
+![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
 
 <!-- Linked Art and IIIF -->
 
@@ -598,7 +599,7 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 
 <!-- _footer: " " -->
 
-![bg contain](../assets/Linked-Art-Collection-Data-Workflow.png)
+![bg contain](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow.png)
 
 <!-- The intermediate JSON data format is transformed to Linked Art with Python functions that define ‘patterns’ for representing different aspects of photographic collection data as Linked Art.  -->
 
