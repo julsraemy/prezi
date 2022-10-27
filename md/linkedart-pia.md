@@ -24,10 +24,12 @@ _paginate: false
 
 <!-- footer: 'Julien A. Raemy | Linked Art at PIA' -->
 
-# PhD Working Title
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-***Linked Open Usable Data in the Humanities***: *Perspectives on Knowledge Representation and Interoperability*
+# Linked Open Usable Data in the Humanities
+#### <!-- fit --> Perspectives on Semantics and Interoperability
+
+(Working title)
 
 [PhD Website](https://phd.julsraemy.ch)
 
