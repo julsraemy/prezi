@@ -192,7 +192,7 @@ https://github.com/Participatory-Image-Archives/linkedart
 | **LA API Endpoint**   | **SSFS Class** | **Relevance to PIA**                                                      |
 |-----------------------|----------------|---------------------------------------------------------------------------|
 | People                | `sgv:Agent`    | Differentiate the different Agents                                        |
-| Physical Objects      | `sgv:Object`   | "Everything that can easily be held in one's hands"                       |
+| Physical Objects (HMO)     | `sgv:Object`   | "Everything that can easily be held in one's hands"                       |
 | Places                | None           | Not as top-level entity. Geonames -> Thesaurus of Geographic Names (TGN)? |
 | Provenance Activities | `sgv:Event`    | TBD                                                                       |
 
@@ -596,9 +596,21 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 
 ---
 
+<!-- _footer: " " -->
+
 ![bg contain](../assets/Linked-Art-Collection-Data-Workflow.png)
 
 <!-- The intermediate JSON data format is transformed to Linked Art with Python functions that define ‘patterns’ for representing different aspects of photographic collection data as Linked Art.  -->
+
+---
+### What has been done on the PIA side
+
+- Boilerplates (JSON-LD + in some cases SVG)
+    - `DigitalObject`
+    - `HumanMadeObject`
+    - `Set`
+- Preliminary mappings of our several data models (old and new SSFS, PIA)
+- Alignment of some terms against the AAT
 
 ---
 
