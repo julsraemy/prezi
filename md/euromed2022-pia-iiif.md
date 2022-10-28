@@ -25,7 +25,7 @@ Limassol, Cyprus | 07.11.2022
 
 [![width:500px](https://zenodo.org/badge/DOI/10.5281/zenodo.7194021.svg)](https://doi.org/10.5281/zenodo.7194021)
 
-<!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
+<!-- This presentation is about the deployment of IIIF within the PIA research project  -->
 
 --- 
 
@@ -48,11 +48,11 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 #### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
 
+Developing a Citizen Science platform on the basis of:
+
 - **SGV_05 Atlas der Schweizerischen Volkskunde** - Cartography
 - **SGV_10 Familie Kreis** - Vernacular Photography
 - **SGV_12 Ernst Brunner** - Photojournalism
-
-[https://archiv.sgv-sstp.ch](https://archiv.sgv-sstp.ch)
 
 ---
 ![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
@@ -89,11 +89,18 @@ https://iiif.io/api/presentation
 
 ---
 
-![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/viewersupport.svg)
+![bg right:47% contain](https://julsraemy.ch/prezi/assets/viewersupport.svg)
 
-# <!-- fit --> IIIF Cookbook and Viewer Support (October 2022)
+### IIIF Cookbook and Viewer Support
 
+the IIIF community has been keeping a [Cookbook of recipes](https://iiif.io/api/cookbook/recipe/) highlighting different patterns 
 
+As of October 2022, 42 unique cookbook recipes have been approved by
+the Technical Review Committee and four viewers are listed.
+
+<!-- After the release of the IIIF Presentation API 3.0, the IIIF community has been keeping a Cookbook of recipes highlighting different patterns (by types of
+content, by properties, by topic, etc.) within IIIF resources (mostly Manifests) to give examples of implementation, to show the diversity of IIIF use cases or to encourage people publishing IIIF resources to follow these recipes which
+are vetted by the Technical Review Committee. -->
 
 ---
 
@@ -139,6 +146,8 @@ Our main database is managed through Omeka S -->
 
 `Internationalization and Multi-language Values` → Metadata in all official Swiss languages
 
+<!-- To build our IIIF resources, we have created boilerplates (or templates) that bring together many of the patterns presented in the cookbook recipes. -->
+
 ---
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
@@ -156,6 +165,8 @@ Our main database is managed through Omeka S -->
 <!-- _footer: " " -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+
+<!-- For object comparison, displaying annotations, as well as manipulating images, we decided to opt for Mirador. New cookbook recipes will be integrated into PIA, such as relevant patterns facilitating the display of geographical metadata within or pointing to maps. This monitoring work is indeed simplified as one of us is a member of the IIIF TRC, but a more automated setting without necessarily going through each recipe or the viewer matrix should in our opinion be sought -->
 
 ---
 
