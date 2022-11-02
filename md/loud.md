@@ -1,11 +1,11 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: Linked Art at PIA
-description: This presentation is about the deployment of Linked Art within the PIA research project
-keywords: LOUD, Linked Art, IIIF, PIA
+title: Linked Open Usable Data (LOUD)
+description: This presentation is about Linked Open Usable Data (LOUD) and how we have been implementing LOUD Standards (IIIF, Web Annotation Data Model, Linked Art) within the PIA research project
+keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://julsraemy.ch/prezi/linked-art.html
+url: https://julsraemy.ch/prezi/loud-humanities.html
 theme: gaia
 class: invert
 paginate: true
@@ -14,47 +14,48 @@ _paginate: false
 
 <!-- _class: lead -->
 
-# <!-- fit --> Linked Art at PIA
-[Julien A. Raemy](https://julsraemy.ch) | PhD Candidate in DH, University of Basel
-02.11.2022 | Linked Art WG Call
+# <!-- fit --> Linked Open Usable Data
+[Julien A. Raemy](https://julsraemy.ch), PhD Candidate in Digital Humanities
+DHLab, University of Basel
+
+RISE Internal Talk | 23 November 2022
 
 <!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
-
---- 
-
-<!-- footer: 'Julien A. Raemy | Linked Art at PIA' -->
-
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-
-# Linked Open Usable Data in the Humanities
-#### <!-- fit --> Perspectives on Semantics and Interoperability
-
-(Working title)
-
-[PhD Website](https://phd.julsraemy.ch)
-
-<!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
 
 --- 
 
 # Agenda
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-- Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
+- Context
+- Linked Open Usable Data (LOUD)
+  - International Image Interoperability Framework (IIIF)
+  - Web Annotation Data Model
+  - Linked Art
 - PIA goes LOUD
-- Linked Art
-- Collaboration with the Linked Art II project
-- Future Work
 
---- 
+<!-- footer: 'Julien A. Raemy | LOUD' -->
+
+---
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 
-# <!-- fit --> PIA
+# <!-- fit --> Context
 
 ---
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+## Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
+
+Research project funded by the Swiss National Science Foundation (SNSF) under the Sinergia scheme (2021-2025)
+
+[Project Website](https://about.participatory-archives.ch/) 
+
+---
+
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 # PIA Teams
@@ -62,8 +63,6 @@ _paginate: false
 - **Cultural Anthropology**: Institute for Cultural Anthropology and European Ethnology, University of Basel
 - **Technology**: Digital Humanities Lab, University of Basel
 - **Design**: Bern Academy of the Arts, Bern University of Applied Sciences
-
-[Project Website](https://about.participatory-archives.ch/) 
 
 <!-- PIA is a Sinergia project funded by the Swiss National Science Foundation (SNSF) led by the University of Basel, the Uni, the Bern Academy of the Arts, and the Swiss Society for Folklore Studies. PIA wants to connect the world of data and things in an interdisciplinary manner. 
 
@@ -74,21 +73,48 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 #### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
 
-- **SGV_05 Atlas der Schweizerischen Volkskunde** - Cartography
-- **SGV_10 Familie Kreis** - Vernacular Photography
-- **SGV_12 Ernst Brunner** - Photojournalism
+- Cartography - **SGV_05 Atlas der Schweizerischen Volkskunde**
+- Vernacular Photography - **SGV_10 Familie Kreis**
+- Photojournalism - **SGV_12 Ernst Brunner**
 
 [https://archiv.sgv-sstp.ch](https://archiv.sgv-sstp.ch)
 
 ---
 
-### PIA User interface
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-[Prototype based on Omeka S](https://participatory-archives.ch/) 
+# Linked Open Usable Data in the Humanities
+#### <!-- fit --> Perspectives on Semantics and Interoperability
 
-![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
+[PhD Thesis](https://phd.julsraemy.ch) supervised by: 
+- Peter Fornaro (University of Basel)
+- Walter Leimgruber (University of Basel)
+- Robert Sanderson (Yale University)
+
+<!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
 
 --- 
+
+<!-- _class: lead -->
+
+# <!-- fit --> LOUD
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+---
+
+
+---
+
+---
+
+### Web Annotation Data Model
+
+![bg auto](https://julsraemy.ch/prezi/assets/anno-model.png)
+
+---
+
+
+---
 
 <!-- _class: lead -->
 
@@ -107,12 +133,6 @@ We explore the phases of the analogue and digital archive from the perspectives 
 <!-- _footer: " " -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
-
----
-
-### Web Annotation Data Model
-
-![bg auto](https://julsraemy.ch/prezi/assets/anno-model.png)
 
 ---
 
@@ -158,6 +178,12 @@ We explore the phases of the analogue and digital archive from the perspectives 
       }
     },
 ```
+--- 
+### PIA User interface
+
+[Prototype based on Omeka S](https://participatory-archives.ch/) 
+
+![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
 
 ---
 
@@ -177,6 +203,7 @@ _Conveying semantically enriched events and as a benchmark against other collect
 - Being part of a community of developers/scholars
 - Potential aggregation capabilities
 - Additional (LOUD) access point
+
 
 ---
 
