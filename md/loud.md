@@ -86,7 +86,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 # Linked Open Usable Data in the Humanities
 #### <!-- fit --> Perspectives on Semantics and Interoperability
 
-[PhD Thesis](https://phd.julsraemy.ch) supervised by: 
+PhD Thesis - https://phd.julsraemy.ch - supervised by: 
 - Peter Fornaro (University of Basel)
 - Walter Leimgruber (University of Basel)
 - Robert Sanderson (Yale University)

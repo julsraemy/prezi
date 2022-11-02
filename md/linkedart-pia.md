@@ -29,9 +29,10 @@ _paginate: false
 # Linked Open Usable Data in the Humanities
 #### <!-- fit --> Perspectives on Semantics and Interoperability
 
-(Working title)
-
-[PhD Website](https://phd.julsraemy.ch)
+PhD Thesis - https://phd.julsraemy.ch - supervised by: 
+- Peter Fornaro (University of Basel)
+- Walter Leimgruber (University of Basel)
+- Robert Sanderson (Yale University)
 
 <!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
 
