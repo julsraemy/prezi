@@ -18,9 +18,9 @@ _paginate: false
 [Julien A. Raemy](https://julsraemy.ch), PhD Candidate in Digital Humanities
 DHLab, University of Basel
 
-RISE Internal Talk | 23 November 2022
+Research & Infrastructure Support (RISE) Internal Talk | 23.11.2022
 
-<!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
+<!-- This presentation is about Linked Open Usable Data (LOUD) and was created for a Research & Infrastructure Support (RISE) Internl Talk at the University of Basel -->
 
 --- 
 
@@ -81,6 +81,17 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 https://linked.art/loud/
 
 ---
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# LOUD Standards
+Examples of specifications following the LOUD design principles:
+
+- IIIF (especially the Presentation API 3.0)
+- Web Annotation Data Model
+- Linked Art
+
+---
 ![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
 
 # <!-- fit --> International Image Interoperability Framework
@@ -91,6 +102,35 @@ https://linked.art/loud/
 [Core IIIF APIs](https://iiif.io/api/): Image and Presentation APIs
 
 ---
+![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+# <!-- fit -->  IIIF Design Principles (1)
+
+1. Scope Design Through Shared Use Cases
+2. Select Solutions That Are as Simple as Possible and No Simpler
+3. Intelligently Manage Ramping Up
+4. Avoid Dependency on Specific Technologies
+5. Use Resource Oriented Design
+6. Don’t Break Web Caches
+7. Follow Linked Data Principles
+
+---
+
+![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+# <!-- fit -->  IIIF Design Principles (2)
+
+8. Design for JSON-LD First
+9. Use Existing Standards Where Possible
+10. Follow Existing Best Practices
+11. Separate Concerns, Loosely Couple APIs
+12. Define Success, Not Failure
+13. Design for Worldwide Use
+
+[→ IIIF Design Principles](https://iiif.io/api/annex/notes/design_principles/)
+
+---
+
 ![bg right:45% auto width:95%](https://iiif.io/api/image/3.0/img/transformation.png)
 
 ## IIIF Image API
@@ -115,12 +155,27 @@ https://iiif.io/api/presentation
 
 ---
 
+![bg right:40% width:480px](https://julsraemy.ch/prezi/assets/anno-model.png)
+
+# Web Annotation Data Model 
+
+The Web Annotation Data Model (WADM) derives from the Open Annotation Specification.
+
+https://www.w3.org/TR/annotation-model/
 
 ---
 
-### Web Annotation Data Model
+![bg right:40% width:480px](https://julsraemy.ch/prezi/assets/anno-model.png)
 
-![bg auto](https://julsraemy.ch/prezi/assets/anno-model.png)
+## WADM Motivations 
+
+_To uderstand the reasons why the Annotation was created, or why the Textual Body was included in the Annotation._
+
+Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
+
+---
+# Linked Art
+
 
 ---
 
@@ -232,13 +287,6 @@ We explore the phases of the analogue and digital archive from the perspectives 
     },
 ```
 --- 
-### PIA User interface
-
-[Prototype based on Omeka S](https://participatory-archives.ch/) 
-
-![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
-
----
 
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
@@ -646,32 +694,6 @@ Black and White Negative modelled as a `DigitalObject`
 
 ---
 
-### Linked Art II
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-- Collaboration between PIA and the University of Oxford over the Summer 2022 after completion of a survey (centred on the application of Linked Art)
-- Workflow for the transformation of photographic collection data to Linked Art
-
-https://linked.art/community/projects/linkedartii/
-
-<!-- Building upon participation in the Linked Art community, PIA have collaborated with the University of Oxford to create a workflow for transforming cultural heritage collection data into Linked Art that is reusable by the widest possible audience. For the already digitised Family Kreis and Ernst Brunner collections, boilerplates - to echo the IIIF Cookbook recipe process to some extent - have been generated for the different object types to demonstrate the range of Linked Art patterns needed for the workflow.  -->
-
----
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-#### Linked Art Collection Data Workflow
-
-Python Scripts:
-1. Query an API for collection data
-2. Transform collection data to an intermediate JSON data format
-3. Transform JSON data to Linked Art
-
-https://github.com/tgra/Linked-Art-Collection-Data-Workflow 
-
-<!-- The process separates out the steps of getting the collection data from source, mapping the data to an intermediate data file, and the final transformation of the collection data to Linked Art.  -->
-
----
-
 <!-- _footer: " " -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow.png)
@@ -679,32 +701,12 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 <!-- The intermediate JSON data format is transformed to Linked Art with Python functions that define ‘patterns’ for representing different aspects of photographic collection data as Linked Art.  -->
 
 ---
-### What has been done on the PIA side
 
-- Boilerplates (JSON-LD + in some cases SVG)
-    - `DigitalObject`
-    - `HumanMadeObject`
-    - `Set`
-- Preliminary mappings of our several data models (old and new SSFS, PIA)
-- Alignment of some terms against the AAT
+### PIA User interface
 
----
+[Prototype based on Omeka S](https://participatory-archives.ch/) 
 
-### Endpoints
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-1. Deployment of the PIA Linked Art API at https://data.participatory-archives.ch. The PIA JSON API will be deprecated, but still accessible (at https://json.participatory-archives.ch)
-2. Workflow Source: PIA JSON API → 
-    - Omeka S API (JSON-LD) *or* 
-    - DaSCH Service Platform API (JSON-LD, Turtle, RDF/XML)
-
----
-
-### Templates 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-- Updating and creating new boilerplates for each (useful) top-level entity
-- Generic vs specific: another workflow? Software?
+![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
 
 ---
 
@@ -713,13 +715,11 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
 - [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
-- ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
 These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
