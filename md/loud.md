@@ -24,14 +24,26 @@ RISE Internal Talk | 23 November 2022
 
 --- 
 
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+# Linked Open Usable Data in the Humanities
+#### <!-- fit --> Perspectives on Semantics and Interoperability
+
+PhD Thesis - https://phd.julsraemy.ch - supervised by: 
+- Peter Fornaro (University of Basel)
+- Walter Leimgruber (University of Basel)
+- Robert Sanderson (Yale University)
+
+<!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
+
+--- 
+
 # Agenda
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-- Context
+- Preamble
 - Linked Open Usable Data (LOUD)
-  - International Image Interoperability Framework (IIIF)
-  - Web Annotation Data Model
-  - Linked Art
+- Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
 - PIA goes LOUD
 
 <!-- footer: 'Julien A. Raemy | LOUD' -->
@@ -42,7 +54,82 @@ RISE Internal Talk | 23 November 2022
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 
-# <!-- fit --> Context
+# <!-- fit --> Preamble
+
+---
+
+
+
+
+<!-- _class: lead -->
+
+# <!-- fit --> LOUD
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+---
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# LOUD Design Principles
+
+- The right Abstraction for the audience
+- Few Barriers to entry
+- Comprehensible by introspection
+- Documentation with working examples
+- Few Exceptions, instead many consistent patterns
+
+https://linked.art/loud/
+
+---
+![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+# <!-- fit --> International Image Interoperability Framework
+
+- A model for presenting and annotating content
+- A global community that develops shared application programming interfaces (APIs), implements them in software, and exposes interoperable content
+
+[Core IIIF APIs](https://iiif.io/api/): Image and Presentation APIs
+
+---
+![bg right:45% auto width:95%](https://iiif.io/api/image/3.0/img/transformation.png)
+
+## IIIF Image API
+
+It specifies a RESTful web service that returns an image in response to a standard HTTP(S) request.
+- Image Request
+- Image Information (JSON-LD)
+
+https://iiif.io/api/image
+
+---
+![bg right:45% auto width:95%](https://iiif.io/api/assets/images/data-model.png)
+
+## IIIF Presentation API
+
+It is a JSON-LD based web service which provides the necessary information about the object or collection structure and layout.
+
+https://iiif.io/api/presentation
+
+
+<!-- The purpose of the API is to display descriptive information that is intended for humans and does not aim to provide semantic metadata for search engines -->
+
+---
+
+
+---
+
+### Web Annotation Data Model
+
+![bg auto](https://julsraemy.ch/prezi/assets/anno-model.png)
+
+---
+
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+
+# <!-- fit --> PIA
 
 ---
 
@@ -78,40 +165,6 @@ We explore the phases of the analogue and digital archive from the perspectives 
 - Photojournalism - **SGV_12 Ernst Brunner**
 
 [https://archiv.sgv-sstp.ch](https://archiv.sgv-sstp.ch)
-
----
-
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-
-# Linked Open Usable Data in the Humanities
-#### <!-- fit --> Perspectives on Semantics and Interoperability
-
-PhD Thesis - https://phd.julsraemy.ch - supervised by: 
-- Peter Fornaro (University of Basel)
-- Walter Leimgruber (University of Basel)
-- Robert Sanderson (Yale University)
-
-<!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
-
---- 
-
-<!-- _class: lead -->
-
-# <!-- fit --> LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
-
-
----
-
----
-
-### Web Annotation Data Model
-
-![bg auto](https://julsraemy.ch/prezi/assets/anno-model.png)
-
----
 
 
 ---
@@ -187,12 +240,6 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 ---
 
-<!-- _class: lead -->
-
-# <!-- fit --> Linked Art
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 ##### Why do we need/want Linked Art at PIA?
@@ -250,30 +297,14 @@ Black and White Negative modelled as a `DigitalObject`
 
 ### Needed properties/patterns for our `DigitalObject`
 
-- `member_of` → Collection (SGV_12)
+- `member_of` → Collection (SGV_12) - Pointing a `Set`
 - `subject_of` → Web Pages / IIIF Manifest
-- `access_point` → IIIF Image API
 - `current_owner`→ SSFS Photographic Archives
 - `created_by` → Through the digitisation of a negative
 - `produced_by` → Production of the negative
 - `digitally_shows` → Visual Content
 - `identified_by` → Names and Identifiers
-
----
-
-<!-- _footer: " " -->
-<!-- _backgroundColor: white-->
-
-![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/modelling/digital/12033.svg)  
-
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
-
-<!-- Linked Art and IIIF -->
+- `access_point` → IIIF Image API
 
 ---
 
@@ -343,35 +374,7 @@ Black and White Negative modelled as a `DigitalObject`
 ```
 ---
 
-```json
-"access_point": [
-    {
-      "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg",
-      "type": "DigitalObject",
-      "_label": "Image in full resolution"
-    }
-  ],
-  "digitally_available_via": [
-    {
-      "type": "DigitalService",
-      "_label": "IIIF Image API",
-      "format": "application/ld+json",
-      "access_point": [
-        {
-          "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/info.json",
-          "type": "DigitalObject"
-        }
-      ],
-      "conforms_to": [
-        {
-          "id": "http://iiif.io/api/image/3/context.json",
-          "type": "InformationObject"
-        }
-      ]
-    }
-  ]
-```
----
+
 
 ```json
     {
@@ -408,6 +411,7 @@ Black and White Negative modelled as a `DigitalObject`
 
 ---
 
+
 ```json
   "current_owner": [
     {
@@ -425,6 +429,7 @@ Black and White Negative modelled as a `DigitalObject`
   ],
 ```
 ---
+
 
 ```json
   "created_by": {
@@ -593,10 +598,51 @@ Black and White Negative modelled as a `DigitalObject`
 
 ---
 
-<!-- _class: lead -->
+```json
+"access_point": [
+    {
+      "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg",
+      "type": "DigitalObject",
+      "_label": "Image in full resolution"
+    }
+  ],
+  "digitally_available_via": [
+    {
+      "type": "DigitalService",
+      "_label": "IIIF Image API",
+      "format": "application/ld+json",
+      "access_point": [
+        {
+          "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/info.json",
+          "type": "DigitalObject"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/image/3/context.json",
+          "type": "InformationObject"
+        }
+      ]
+    }
+  ]
+```
+---
 
-# Collaboration with the Linked Art II Project
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+
+<!-- _footer: " " -->
+<!-- _backgroundColor: white-->
+
+![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/modelling/digital/12033.svg)  
+
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
+
+<!-- Linked Art and IIIF -->
 
 ---
 
@@ -641,13 +687,6 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
     - `Set`
 - Preliminary mappings of our several data models (old and new SSFS, PIA)
 - Alignment of some terms against the AAT
-
----
-
-<!-- _class: lead -->
-
-# <!-- fit --> Future Work
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 

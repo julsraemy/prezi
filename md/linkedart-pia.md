@@ -224,30 +224,14 @@ Black and White Negative modelled as a `DigitalObject`
 
 ### Needed properties/patterns for our `DigitalObject`
 
-- `member_of` → Collection (SGV_12)
+- `member_of` → Collection (SGV_12) - Pointing a `Set`
 - `subject_of` → Web Pages / IIIF Manifest
-- `access_point` → IIIF Image API
 - `current_owner`→ SSFS Photographic Archives
 - `created_by` → Through the digitisation of a negative
 - `produced_by` → Production of the negative
 - `digitally_shows` → Visual Content
 - `identified_by` → Names and Identifiers
-
----
-
-<!-- _footer: " " -->
-<!-- _backgroundColor: white-->
-
-![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/modelling/digital/12033.svg)  
-
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
-
-<!-- Linked Art and IIIF -->
+- `access_point` → IIIF Image API
 
 ---
 
@@ -317,35 +301,7 @@ Black and White Negative modelled as a `DigitalObject`
 ```
 ---
 
-```json
-"access_point": [
-    {
-      "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg",
-      "type": "DigitalObject",
-      "_label": "Image in full resolution"
-    }
-  ],
-  "digitally_available_via": [
-    {
-      "type": "DigitalService",
-      "_label": "IIIF Image API",
-      "format": "application/ld+json",
-      "access_point": [
-        {
-          "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/info.json",
-          "type": "DigitalObject"
-        }
-      ],
-      "conforms_to": [
-        {
-          "id": "http://iiif.io/api/image/3/context.json",
-          "type": "InformationObject"
-        }
-      ]
-    }
-  ]
-```
----
+
 
 ```json
     {
@@ -382,6 +338,7 @@ Black and White Negative modelled as a `DigitalObject`
 
 ---
 
+
 ```json
   "current_owner": [
     {
@@ -399,6 +356,7 @@ Black and White Negative modelled as a `DigitalObject`
   ],
 ```
 ---
+
 
 ```json
   "created_by": {
@@ -564,6 +522,54 @@ Black and White Negative modelled as a `DigitalObject`
       ]
     },
 ```
+
+---
+
+```json
+"access_point": [
+    {
+      "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg",
+      "type": "DigitalObject",
+      "_label": "Image in full resolution"
+    }
+  ],
+  "digitally_available_via": [
+    {
+      "type": "DigitalService",
+      "_label": "IIIF Image API",
+      "format": "application/ld+json",
+      "access_point": [
+        {
+          "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/info.json",
+          "type": "DigitalObject"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/image/3/context.json",
+          "type": "InformationObject"
+        }
+      ]
+    }
+  ]
+```
+---
+
+
+
+<!-- _footer: " " -->
+<!-- _backgroundColor: white-->
+
+![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/modelling/digital/12033.svg)  
+
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
+
+<!-- Linked Art and IIIF -->
 
 ---
 
