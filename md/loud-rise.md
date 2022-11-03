@@ -193,6 +193,9 @@ https://iiif.io/api/presentation
 
 ---
 
+
+---
+
 ![bg right:40% width:480px](https://julsraemy.ch/prezi/assets/anno-model.png)
 
 # Web Annotation Data Model 
@@ -212,19 +215,41 @@ _To uderstand the reasons why the Annotation was created, or why the Textual Bod
 Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 
 ---
-# Linked Art
 
-_[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along ith other commonl-ussed RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._ 
-
-[Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
-
----
 <!-- _footer: ' ' -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
+<!-- Abstraction Standards / Implementation Standards "A profile is a selection of appropriate abstractions, to encode, the scope of what can be described. An API is a selection of appropriate technologies, to give access to the data managed using the profile." (Robert Sanderson) -->
+
 ---
 
+# Linked Art
+
+_[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along with other commonl-ussed RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._ 
+
+[Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
+
+---
+
+# Linked Art
+
+| Level         | Linked Art                      |
+|----------------|---------------------------------|
+| **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Ontology**   | RDF encoding of CRM 7.1, plus extensions       |
+| **Vocabulary** | Getty Vocabularies (mainly AAT) |
+| **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
+| **API**        | JSON-LD                         |
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+
+
+[Sanderson 2019](https://www.slideshare.net/azaroth42/standards-and-communities-connected-people-consistent-data-usable-applications)
+
+---
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
