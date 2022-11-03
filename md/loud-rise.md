@@ -187,6 +187,12 @@ https://iiif.io/api/presentation
 
 ---
 
+<!-- _footer: ' ' -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+
+---
+
 ![bg right:40% width:480px](https://julsraemy.ch/prezi/assets/anno-model.png)
 
 # Web Annotation Data Model 
@@ -213,8 +219,9 @@ _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses J
 [Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
 
 ---
-![bg right:40% width:480px](https://julsraemy.ch/prezi/assets/la-model.svg)
+<!-- _footer: ' ' -->
 
+![bg contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
 ---
 
