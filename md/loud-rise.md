@@ -57,11 +57,30 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 # <!-- fit --> Preamble
 
 ---
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 # The usual suspects
 
 - Open Science / Open Access
 - FAIR Data Principles
 - Linked Open Data
+
+---
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# The usual suspects
+
+- Open Science / Open Access → **Movement**
+- FAIR Data Principles → **Environment/System**
+- Linked Open Data → **Content**
+
+---
+
+# From Linked Open Data (LOD) to Linked Open Usable Data (LOUD)
+
+
 
 ---
 
