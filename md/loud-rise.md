@@ -99,7 +99,7 @@ Examples of specifications following the LOUD design principles:
 - A model for presenting and annotating content
 - A global community that develops shared application programming interfaces (APIs), implements them in software, and exposes interoperable content
 
-[Core IIIF APIs](https://iiif.io/api/): Image and Presentation APIs
+https://iiif.io
 
 ---
 ![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
@@ -130,6 +130,24 @@ Examples of specifications following the LOUD design principles:
 [→ IIIF Design Principles](https://iiif.io/api/annex/notes/design_principles/)
 
 ---
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
+
+---
+
+# IIIF Specifications
+
+- **Image API**
+- **Presentation API**
+- Authentication API
+- Change Discovery API
+- Content Search API
+- Content State API
+
+_The Image and Presentation APIs are referred to as the core IIIF APIs_
+
+---
 
 ![bg right:45% auto width:95%](https://iiif.io/api/image/3.0/img/transformation.png)
 
@@ -140,6 +158,20 @@ It specifies a RESTful web service that returns an image in response to a standa
 - Image Information (JSON-LD)
 
 https://iiif.io/api/image
+
+---
+
+- Base URI
+`{scheme}://{server}{/prefix}/{identifier}`
+
+- Image Request
+`{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
+https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg
+
+- Image Information (Metadata)
+`{$BASE}/info.json`
+https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
+
 
 ---
 ![bg right:45% auto width:95%](https://iiif.io/api/assets/images/data-model.png)
@@ -175,6 +207,13 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 
 ---
 # Linked Art
+
+_[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along ith other commonl-ussed RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._ 
+
+[Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
+
+---
+![bg right:40% width:480px](https://julsraemy.ch/prezi/assets/la-model.svg)
 
 
 ---
