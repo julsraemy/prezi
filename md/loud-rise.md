@@ -57,8 +57,13 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 # <!-- fit --> Preamble
 
 ---
+# The usual suspects
 
+- Open Science / Open Access
+- FAIR Data Principles
+- Linked Open Data
 
+---
 
 
 <!-- _class: lead -->
@@ -244,8 +249,13 @@ _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses J
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+#### Main Design Principle of Linked Art
 
+- Linked Art is focused on usability, not full precision / completeness
+- Consistently solves actual challenges from real data
+- Development is iterative, as new use cases are found
+
+![bg right width:600px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
 
 [Sanderson 2019](https://www.slideshare.net/azaroth42/standards-and-communities-connected-people-consistent-data-usable-applications)
 
