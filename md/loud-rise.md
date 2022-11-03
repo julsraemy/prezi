@@ -62,25 +62,25 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 # The usual suspects
 
-- Open Science / Open Access
-- FAIR Data Principles
-- Linked Open Data
-
----
-
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-
-# The usual suspects
-
 - Open Science / Open Access → **Movement**
 - FAIR Data Principles → **Environment/System**
-- Linked Open Data → **Content**
+- Linked Open Data (LOD) → **Content**
 
 ---
 
-# From Linked Open Data (LOD) to Linked Open Usable Data (LOUD)
+<!-- _footer: ' ' -->
 
+# LOD
 
+![bg contain](https://5stardata.info/images/5-star-steps.png)
+
+---
+
+# From LOD to LOUD
+
+- LOD is too focused on publishing data. Our data needs to be reused to be meaningful and valuable.
+
+- Linked Open Usable Data (LOUD) seeks a balance that takes into account the needs for data completeness and accuracy (ontological construction) and pragmatic concerns (ease of use, scalability)
 
 ---
 
@@ -173,6 +173,12 @@ _The Image and Presentation APIs are referred to as the core IIIF APIs_
 
 ---
 
+<!-- _footer: ' ' -->
+
+![bg auto](https://training.iiif.io/iiif-online-workshop/day-one/img/apis.png)
+
+---
+
 ![bg right:45% auto width:95%](https://iiif.io/api/image/3.0/img/transformation.png)
 
 ## IIIF Image API
@@ -211,12 +217,12 @@ https://iiif.io/api/presentation
 
 ---
 
-<!-- _footer: ' ' -->
-
-![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
 
 ---
 
+<!-- _footer: ' ' -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
 
 ---
 
@@ -256,7 +262,7 @@ _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses J
 
 ---
 
-# Linked Art
+## Linked Art Model Fundamentals
 
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
@@ -264,7 +270,15 @@ _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses J
 | **Ontology**   | RDF encoding of CRM 7.1, plus extensions       |
 | **Vocabulary** | Getty Vocabularies (mainly AAT) |
 | **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
-| **API**        | JSON-LD                         |
+| **API**        | JSON-LD, following REST and web patterns                         |
+
+---
+
+## Linked Art Model Components 
+
+_Basic Patterns, Object, People and Organizations, Places, Digital Integration, Provenance of Objects, Collections and Sets, Exhibitions of Objects, Primary Sources of Information, Assertion level metadata, Dataset level metadata_
+
+https://linked.art/model/
 
 ---
 
@@ -279,6 +293,7 @@ _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses J
 [Sanderson 2019](https://www.slideshare.net/azaroth42/standards-and-communities-connected-people-consistent-data-usable-applications)
 
 ---
+
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
