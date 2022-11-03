@@ -5,7 +5,7 @@ title: Linked Open Usable Data (LOUD)
 description: This presentation is about Linked Open Usable Data (LOUD) and how we have been implementing LOUD Standards (IIIF, Web Annotation Data Model, Linked Art) within the PIA research project
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://julsraemy.ch/prezi/loud-humanities.html
+url: https://julsraemy.ch/prezi/loud-rise.html
 theme: gaia
 class: invert
 paginate: true
@@ -72,7 +72,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 # LOD
 
-![bg contain](https://5stardata.info/images/5-star-steps.png)
+![bg width:900px](https://5stardata.info/images/5-star-steps.png)
 
 ---
 
@@ -160,6 +160,8 @@ https://iiif.io
 
 ---
 
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 # IIIF Specifications
 
 - **Image API**
@@ -217,6 +219,7 @@ https://iiif.io/api/presentation
 
 ---
 
+![bg width:1070px](https://julsraemy.ch/prezi/assets/presentationapi-resources.png)
 
 ---
 
@@ -262,7 +265,7 @@ _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses J
 
 ---
 
-## Linked Art Model Fundamentals
+### Linked Art Model Fundamentals
 
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
@@ -274,7 +277,9 @@ _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses J
 
 ---
 
-## Linked Art Model Components 
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+### Linked Art Model Components 
 
 _Basic Patterns, Object, People and Organizations, Places, Digital Integration, Provenance of Objects, Collections and Sets, Exhibitions of Objects, Primary Sources of Information, Assertion level metadata, Dataset level metadata_
 
