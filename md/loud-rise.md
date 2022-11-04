@@ -844,11 +844,13 @@ https://linked.art/community/projects/linkedartii/
 2. Map
 3. Transform
 
+<!-- An intermediate JSON data format is used so that the transformation step can be reused with different collection data sources. The intermediate JSON data files are transformed to a Linked Art representation of the PIA templates for the photographic object types. Using the Python library Cromulent to create basic Linked Art representations, the Python functions encode larger building block-type representations of the photographic object types, e.g. name, web page, and digital service. Together, the functions encode the photographic object types as defined in the PIA templates, and offer the opportunity for reuse with photographic object types in other collection data, as well as for different cultural heritage objects that share the same properties. -->
+
 ---
 
 ![bg width:1000px](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow-detailed.png)
 
-<!-- An intermediate JSON data format is used so that the transformation step can be reused with different collection data sources. The intermediate JSON data files are transformed to a Linked Art representation of the PIA templates for the photographic object types. Using the Python library Cromulent to create basic Linked Art representations, the Python functions encode larger building block-type representations of the photographic object types, e.g. name, web page, and digital service. Together, the functions encode the photographic object types as defined in the PIA templates, and offer the opportunity for reuse with photographic object types in other collection data, as well as for different cultural heritage objects that share the same properties. -->
+<!-- PIA Linked Art data workflow designed for reuse with different data sources and object types. In a situation common to many collecting institutions, the digital systems used to maintain catalogues and other records do not remain unchanged indefinitely; planning and preparation for such migrations may take months or years. At PIA migration to a new data model and API was planned, to be realised after implementation of the Linked Art workflow. This presented both a challenge, but also an opportunity: to design a workflow which can be reconfigured and reused with different data sources and APIs. -->
 
 ---
 
