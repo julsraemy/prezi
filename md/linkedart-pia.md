@@ -5,7 +5,7 @@ title: Linked Art at PIA
 description: This presentation is about the deployment of Linked Art within the PIA research project
 keywords: LOUD, Linked Art, IIIF, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://julsraemy.ch/prezi/linked-art.html
+url: https://julsraemy.ch/prezi/linkedart-pia.html
 theme: gaia
 class: invert
 paginate: true
@@ -16,7 +16,7 @@ _paginate: false
 
 # <!-- fit --> Linked Art at PIA
 [Julien A. Raemy](https://julsraemy.ch) | PhD Candidate in DH, University of Basel
-02.11.2022 | Linked Art WG Call
+Last updated: 2 November 2022
 
 <!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
 
