@@ -608,7 +608,7 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 
 <!-- _footer: " " -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow.png)
+![bg contain](https://julsraemy.ch/prezi/assets/LinkedArtTransformationWorfklow.png)
 
 <!-- The intermediate JSON data format is transformed to Linked Art with Python functions that define ‘patterns’ for representing different aspects of photographic collection data as Linked Art.  -->
 
