@@ -16,7 +16,7 @@ _paginate: false
 
 # <!-- fit --> Linked Art at PIA
 [Julien A. Raemy](https://julsraemy.ch) | PhD Candidate in DH, University of Basel
-Last updated: 2 November 2022
+Last updated: 4 November 2022
 
 <!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
 
@@ -608,7 +608,7 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 
 <!-- _footer: " " -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/LinkedArtTransformationWorfklow.png)
+![bg auto](https://julsraemy.ch/prezi/assets/LinkedArtTransformationWorfklow.png)
 
 <!-- The intermediate JSON data format is transformed to Linked Art with Python functions that define ‘patterns’ for representing different aspects of photographic collection data as Linked Art.  -->
 
@@ -646,6 +646,17 @@ https://github.com/tgra/Linked-Art-Collection-Data-Workflow
 
 - Updating and creating new boilerplates for each (useful) top-level entity
 - Generic vs specific: another workflow? Software?
+
+---
+
+# Acknowledgements
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+
+Many thanks to:
+
+- Rob Sanderson who helped me create some of the Linked Art boilerplates/templates
+- Tanya Gray for her work on the Linked Art Collection Data Workflow
+- Kevin Page, PI of the Linked Art II project
 
 ---
 
