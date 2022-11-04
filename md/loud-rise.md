@@ -45,6 +45,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - Linked Open Usable Data (LOUD)
 - Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
 - PIA goes LOUD
+- Collaboration with the Linked Art II project (University of Oxford)
 
 <!-- footer: 'Julien A. Raemy | LOUD' -->
 
@@ -814,11 +815,40 @@ Black and White Negative modelled as a `DigitalObject`
 
 ---
 
-<!-- _footer: " " -->
+<!-- _class: lead -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow.png)
+# Collaboration with the Linked Art II Project (University of Oxford)
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
-<!-- The intermediate JSON data format is transformed to Linked Art with Python functions that define ‘patterns’ for representing different aspects of photographic collection data as Linked Art.  -->
+---
+
+### Linked Art II
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+
+- Collaboration between PIA and the University of Oxford over the Summer 2022 after completion of a survey (centred on the application of Linked Art)
+- Workflow for the transformation of photographic collection data to Linked Art
+
+https://linked.art/community/projects/linkedartii/
+
+<!-- Building upon participation in the Linked Art community, PIA have collaborated with the University of Oxford to create a workflow for transforming cultural heritage collection data into Linked Art that is reusable by the widest possible audience. For the already digitised Family Kreis and Ernst Brunner collections, boilerplates - to echo the IIIF Cookbook recipe process to some extent - have been generated for the different object types to demonstrate the range of Linked Art patterns needed for the workflow.  -->
+
+---
+
+### High-level overview
+
+[Linked Art Collection Worfklow](https://github.com/tgra/Linked-Art-Collection-Data-Workflow)
+
+![bg right:70% width:900px ](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow.png)
+
+1. Query
+2. Map
+3. Transform
+
+---
+
+![bg width:1000px](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow-detailed.png)
+
+<!-- An intermediate JSON data format is used so that the transformation step can be reused with different collection data sources. The intermediate JSON data files are transformed to a Linked Art representation of the PIA templates for the photographic object types. Using the Python library Cromulent to create basic Linked Art representations, the Python functions encode larger building block-type representations of the photographic object types, e.g. name, web page, and digital service. Together, the functions encode the photographic object types as defined in the PIA templates, and offer the opportunity for reuse with photographic object types in other collection data, as well as for different cultural heritage objects that share the same properties. -->
 
 ---
 
@@ -835,11 +865,13 @@ Black and White Negative modelled as a `DigitalObject`
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
 - [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
+- ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
 These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 

@@ -575,7 +575,7 @@ Black and White Negative modelled as a `DigitalObject`
 
 <!-- _class: lead -->
 
-# Collaboration with the Linked Art II Project
+# Collaboration with the Linked Art II Project (University of Oxford)
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
@@ -591,26 +591,22 @@ https://linked.art/community/projects/linkedartii/
 <!-- Building upon participation in the Linked Art community, PIA have collaborated with the University of Oxford to create a workflow for transforming cultural heritage collection data into Linked Art that is reusable by the widest possible audience. For the already digitised Family Kreis and Ernst Brunner collections, boilerplates - to echo the IIIF Cookbook recipe process to some extent - have been generated for the different object types to demonstrate the range of Linked Art patterns needed for the workflow.  -->
 
 ---
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
-#### Linked Art Collection Data Workflow
+#### High-level overview
 
-Python Scripts:
-1. Query an API for collection data
-2. Transform collection data to an intermediate JSON data format
-3. Transform JSON data to Linked Art
+[Linked Art Collection Worfklow](https://github.com/tgra/Linked-Art-Collection-Data-Workflow)
 
-https://github.com/tgra/Linked-Art-Collection-Data-Workflow 
+![bg right:70% width:900px ](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow.png)
 
-<!-- The process separates out the steps of getting the collection data from source, mapping the data to an intermediate data file, and the final transformation of the collection data to Linked Art.  -->
+1. Query
+2. Map
+3. Transform
 
 ---
 
-<!-- _footer: " " -->
+![bg width:1000px](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow-detailed.png)
 
-![bg auto](https://julsraemy.ch/prezi/assets/LinkedArtTransformationWorfklow.png)
-
-<!-- The intermediate JSON data format is transformed to Linked Art with Python functions that define ‘patterns’ for representing different aspects of photographic collection data as Linked Art.  -->
+<!-- An intermediate JSON data format is used so that the transformation step can be reused with different collection data sources. The intermediate JSON data files are transformed to a Linked Art representation of the PIA templates for the photographic object types. Using the Python library Cromulent to create basic Linked Art representations, the Python functions encode larger building block-type representations of the photographic object types, e.g. name, web page, and digital service. Together, the functions encode the photographic object types as defined in the PIA templates, and offer the opportunity for reuse with photographic object types in other collection data, as well as for different cultural heritage objects that share the same properties. -->
 
 ---
 ### What has been done on the PIA side
