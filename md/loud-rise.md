@@ -24,7 +24,7 @@ Research & Infrastructure Support (RISE) Internal Talk | 23.11.2022
 
 --- 
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 # Linked Open Usable Data in the Humanities
 #### <!-- fit --> Perspectives on Semantics and Interoperability
@@ -39,13 +39,14 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 --- 
 
 # Agenda
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 - Preamble
 - Linked Open Usable Data (LOUD)
 - Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
 - PIA goes LOUD
 - Collaboration with the Linked Art II project (University of Oxford)
+- PhD Data Model
 
 <!-- footer: 'Julien A. Raemy | LOUD' -->
 
@@ -224,7 +225,9 @@ https://iiif.io/api/presentation
 
 ---
 
-<!-- _footer: ' ' -->
+![bg contain](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
+
+---
 
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
 
@@ -250,19 +253,29 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 
 ---
 
+# <!-- fit --> Linked Art
+
+![bg right:30% contain](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
+Linked Art is a community collaborating to define a metadata application profile (the model) for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
+
+https://linked.art
+
+---
+
+# Extensive Definition
+
+> _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along with other commonl-ussed RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._  
+
+[Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
+
+---
+
 <!-- _footer: ' ' -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
 <!-- Abstraction Standards / Implementation Standards "A profile is a selection of appropriate abstractions, to encode, the scope of what can be described. An API is a selection of appropriate technologies, to give access to the data managed using the profile." (Robert Sanderson) -->
-
----
-
-# Linked Art
-
-> _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along with other commonl-ussed RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._  
-
-[Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
 
 ---
 
@@ -278,13 +291,48 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 
 ---
 
-![bg right:30% contain](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+#### Model Components 
 
-### Linked Art Model Components 
+Basic Patterns, Object, People and Organizations, Places, Digital Integration, Provenance of Objects, Collections and Sets, Exhibitions of Objects, Primary Sources of Information, Assertion level metadata, Dataset level metadata
 
-_Basic Patterns, Object, People and Organizations, Places, Digital Integration, Provenance of Objects, Collections and Sets, Exhibitions of Objects, Primary Sources of Information, Assertion level metadata, Dataset level metadata_
+#### API Format
 
-https://linked.art/model/
+JSON-LD, Shared Constructs, Entity Endpoints, JSON Schema, Ecosystem Endpoints, Class Reference
+
+<!-- The model can be treated as interlinking components that describe aspects of the events of interest. The model, or application profile, defines the aspects of the conceptual model, ontologies and vocabulary terms that are used by Linked Art. It is not defined with respect to any specific technical method of interaction, for retrieving, updating, harvesting, searching or browsing, allowing many different possible implementations. This API has been designed with several design principles in mind to ensure that it is as usable as possible for software developers. -->
+
+---
+
+### Linked Art API Endpoints (1)
+
+- `Concepts` - _Types, Materials, Languages, and others, as full records rather than external references_
+- `Digital Objects` - _Images, services and other digital objects
+Events - Events and other non-specific activities that are related but not part of other entities_
+- `Groups` - _Groups and Organizations_
+- `People` - _People_
+- `Physical Objects` - _Physical things, including artworks, buildings or other architecture, books, parts of objects, and more_
+
+
+<!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
+
+---
+
+### Linked Art API Endpoints (2)
+
+- `Places` - _Geographic places_
+- `Provenance Activities` - _The various events that take place during the history of a physical thing_
+- `Sets` - _Sets, including Collections and sets of objects used for exhibitions_
+- `Textual Works` - _Texts worthy of description as distinct entities, such as the content carried by a book or journal article_
+- `Visual Works` - _Image content worthy of description as distinct entities, such as the image shown by a painting or drawing_
+
+
+<!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://linked.art/api/1.0/endpoint/physical_object/object_properties.png)
 
 ---
 
@@ -461,6 +509,12 @@ Black and White Negative modelled as a `DigitalObject`
 
 - https://archiv.sgv-sstp.ch/resource/422236
 - https://participatory-archives.ch/s/explore/item/232922
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://linked.art/api/1.0/endpoint/digital_object/digital_properties.png)
 
 ---
 
@@ -859,6 +913,45 @@ https://linked.art/community/projects/linkedartii/
 [Prototype based on Omeka S](https://participatory-archives.ch/) 
 
 ![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
+
+---
+
+<!-- _class: lead -->
+
+# PhD Data Model
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+---
+# Rationale
+
+Leveraging Linked Art as/for:
+
+- a meta level of my thesis to describe the dissertation and its chapters/sections
+- the notebook entries that will be published on https://phd.julsraemy.ch
+- the concepts that are not available via the Getty vocabularies
+- the actors (people and groups) involved within the PIA research project and my thesis. 
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/phd-datamodel-overview.svg)
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/text/0.svg)
+
+---
+
+# From modelling to deployment
+
+- [Linked Art templates](https://github.com/julsraemy/linked-art-modelling) for five top-level entities
+- Simple Data Model on https://phd.julsraemy.ch (Omeka S), mostly leveraging Schema.org (for the properties) as well as CIDOC-CRM and Linked Art (for the classes)
+- Mapping between the Omeka-S API (event-based models are not supported) and the Linked Art API based on the templates
+- Developping a dedicated ETL (_extract, transform, load_) workflow
+- Forthcoming Linked Art deployment at `https://data.julsraemy.ch`
 
 ---
 
