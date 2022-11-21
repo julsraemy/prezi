@@ -265,7 +265,7 @@ https://linked.art
 
 # Extensive Definition
 
-> _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along with other commonl-ussed RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._  
+> _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along with other commonly-used RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._  
 
 [Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
 
@@ -497,6 +497,12 @@ _Conveying semantically enriched events and as a benchmark against other collect
 | Visual              | None                           | It isn't planned to be leveraged as a top-level entity within PIA.   |
 
 https://github.com/Participatory-Image-Archives/linkedart
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/assets/pia_linkedartmodel.svg)
 
 ---
 
