@@ -16,7 +16,9 @@ _paginate: false
 
 # <!-- fit --> Linked Art at PIA
 [Julien A. Raemy](https://julsraemy.ch) | PhD Candidate in DH, University of Basel
-Last updated: 4 November 2022
+[![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
+
+Last updated: 22 November 2022
 
 <!-- This presentation is about the deployment of Linked Art within the PIA research project  -->
 
@@ -35,17 +37,6 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - Robert Sanderson (Yale University)
 
 <!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
-
---- 
-
-# Agenda
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-
-- Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
-- PIA goes LOUD
-- Linked Art
-- Collaboration with the Linked Art II project
-- Future Work
 
 --- 
 
@@ -90,6 +81,108 @@ We explore the phases of the analogue and digital archive from the perspectives 
 ![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
 
 --- 
+
+<!-- _class: lead -->
+
+# <!-- fit --> Linked Art
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+---
+
+# <!-- fit --> Linked Art
+
+![bg right:30% contain](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
+Linked Art is a community collaborating to define a metadata application profile (the model) for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
+
+https://linked.art
+
+---
+
+# Extensive Definition
+
+> _[Linked Art](https://linked.art) is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along with other commonly-used RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._  
+
+[Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
+
+---
+
+<!-- _footer: ' ' -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/la-model.svg)
+
+<!-- Abstraction Standards / Implementation Standards "A profile is a selection of appropriate abstractions, to encode, the scope of what can be described. An API is a selection of appropriate technologies, to give access to the data managed using the profile." (Robert Sanderson) -->
+
+---
+
+### Linked Art Model Fundamentals
+
+| Level         | Linked Art                      |
+|----------------|---------------------------------|
+| **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Ontology**   | RDF encoding of CRM 7.1, plus extensions       |
+| **Vocabulary** | Getty Vocabularies (mainly AAT) |
+| **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
+| **API**        | JSON-LD, following REST and web patterns                         |
+
+---
+
+#### Model Components 
+
+Basic Patterns, Object, People and Organizations, Places, Digital Integration, Provenance of Objects, Collections and Sets, Exhibitions of Objects, Primary Sources of Information, Assertion level metadata, Dataset level metadata
+
+#### API Format
+
+JSON-LD, Shared Constructs, Entity Endpoints, JSON Schema, Ecosystem Endpoints, Class Reference
+
+<!-- The model can be treated as interlinking components that describe aspects of the events of interest. The model, or application profile, defines the aspects of the conceptual model, ontologies and vocabulary terms that are used by Linked Art. It is not defined with respect to any specific technical method of interaction, for retrieving, updating, harvesting, searching or browsing, allowing many different possible implementations. This API has been designed with several design principles in mind to ensure that it is as usable as possible for software developers. -->
+
+---
+
+### Linked Art API Endpoints (1)
+
+- `Concepts` - _Types, Materials, Languages, and others, as full records rather than external references_
+- `Digital Objects` - _Images, services and other digital objects
+Events - Events and other non-specific activities that are related but not part of other entities_
+- `Groups` - _Groups and Organizations_
+- `People` - _People_
+- `Physical Objects` - _Physical things, including artworks, buildings or other architecture, books, parts of objects, and more_
+
+
+<!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
+
+---
+
+### Linked Art API Endpoints (2)
+
+- `Places` - _Geographic places_
+- `Provenance Activities` - _The various events that take place during the history of a physical thing_
+- `Sets` - _Sets, including Collections and sets of objects used for exhibitions_
+- `Textual Works` - _Texts worthy of description as distinct entities, such as the content carried by a book or journal article_
+- `Visual Works` - _Image content worthy of description as distinct entities, such as the image shown by a painting or drawing_
+
+
+<!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://linked.art/api/1.0/endpoint/physical_object/object_properties.png)
+
+---
+
+#### Main Design Principle of Linked Art
+
+- Linked Art is focused on usability, not full precision / completeness
+- Consistently solves actual challenges from real data
+- Development is iterative, as new use cases are found
+
+![bg right width:600px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+
+[Sanderson 2019](https://www.slideshare.net/azaroth42/standards-and-communities-connected-people-consistent-data-usable-applications)
+
+---
 
 <!-- _class: lead -->
 
@@ -164,7 +257,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 <!-- _class: lead -->
 
-# <!-- fit --> Linked Art
+# Implementation of Linked Art
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
@@ -207,6 +300,12 @@ _Conveying semantically enriched events and as a benchmark against other collect
 | Visual              | None                           | It isn't planned to be leveraged as a top-level entity within PIA.   |
 
 https://github.com/Participatory-Image-Archives/linkedart
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/assets/pia_linkedartmodel.svg)
 
 ---
 
