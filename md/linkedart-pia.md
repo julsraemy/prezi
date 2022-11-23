@@ -265,7 +265,7 @@ Events - Events and other non-specific activities that are related but not part 
 
 ##### Why do we need/want Linked Art at PIA?
 
-_Conveying semantically enriched events and as a benchmark against other collections leveraging this model_
+_Conveying semantically enriched events and as a benchmark against other collections leveraging this model_ 
 
 - Event-based model inherited from CIDOC-CRM
 - Being part of a community of developers/scholars
@@ -299,7 +299,7 @@ _Conveying semantically enriched events and as a benchmark against other collect
 | Text                | None                           | Could be used for the Atlas of Swiss Folkflore                       |
 | Visual              | None                           | It isn't planned to be leveraged as a top-level entity within PIA.   |
 
-https://github.com/Participatory-Image-Archives/linkedart
+[![GitHub](https://img.shields.io/static/v1?label=GitHub&message=PIA%20Linked%20Art&color=181717&logo=github)](https://github.com/Participatory-Image-Archives/linkedart)
 
 ---
 

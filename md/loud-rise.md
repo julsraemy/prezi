@@ -35,7 +35,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - Walter Leimgruber (University of Basel)
 - Robert Sanderson (Yale University)
 
-<!-- It is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS). The theoretical framework of the thesis is situated through and beyond an Actor-Network Theory (ANT) lens.  -->
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
 
 --- 
 
@@ -69,6 +69,8 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - FAIR Data Principles → **Environment/System**
 - Linked Open Data (LOD) → **Content**
 
+<!-- From the point of view of principles or technologies that I think are necessary, here are the ones which I consider worth mentioning. Open Science / Open Access, FAIR Data Principles and Linked Open Data. They have different focuses and one that I think is most useful within my thesis is the last one as I am most interested in interoperability and creating a semantic framework not only for humans but also for machines.  -->
+
 ---
 
 <!-- _footer: ' ' -->
@@ -77,6 +79,13 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 ![bg width:900px](https://5stardata.info/images/5-star-steps.png)
 
+<!-- 5-star open data scheme 
+1) make your stuff available on the Web (whatever format) under an open license
+2) make it available as structured data
+3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
+4) use URIs to denote things, so that people can point at your stuff
+5) link your data to other data to provide context -->
+
 ---
 
 # From LOD to LOUD
@@ -84,6 +93,9 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - LOD is too focused on publishing data. Our data needs to be reused to be meaningful and valuable.
 
 - Linked Open Usable Data (LOUD) seeks a balance that takes into account the needs for data completeness and accuracy (ontological construction) and pragmatic concerns (ease of use, scalability)
+
+<!-- Linked Open Data has been around for many years. Resource Description Framework (RDF) is the underlying technology where assertions in triples are being produced.  LOD has come under some criticism in terms of its uptake and often LOD projects have not been sustained for very long. LOD projects have mainly been concerned with the publication and consumption of data and geared towards an expert audience with knowledge of RDF. Here the audience is slightly different as they are intended for developers and the best way to give them data is to create APIs. LOUD is also an attempt to balance the trade-offs between completeness and precision of expression and the usability of the resulting data constructs. -->
+
 
 ---
 
@@ -107,6 +119,9 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 https://linked.art/loud/
 
+<!-- The overall idea of LOUD is to make data easy to use for humans, especially for developers. JSON-LD allows for some mapping of ontological constructs into JSON, which is the lingua-franca of modern developers and is a cornerstone technology of LOUD. Five design principles to promote data consumption have been conceived. 
+To be part of the Web, not just on the Web.  -->
+
 ---
 
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
@@ -128,6 +143,8 @@ Examples of specifications following the LOUD design principles:
 
 https://iiif.io
 
+<!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
+
 ---
 ![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
 
@@ -140,6 +157,16 @@ https://iiif.io
 5. Use Resource Oriented Design
 6. Don’t Break Web Caches
 7. Follow Linked Data Principles
+
+<!-- The IIIF Design Principles should be used as a guide for ongoing and future work in order to promote consistency across the growing number of IIIF specifications. 
+
+Some of them:
+
+1) IIIF specifications are shaped by shared, documented, and well-understood use cases. Shared understanding promotes interoperability, and the specifications are more likely to be implemented if the results solve real, not speculative, problems. Assessment of use cases is a key factor in the process of determining which features should be included or prioritized.
+
+4) IIIF specifications should avoid placing undue value on one technology or format over another, unless there is a clear benefit and the choice does not pose a significant barrier to entry
+
+-->
 
 ---
 
@@ -181,6 +208,8 @@ _The Image and Presentation APIs are referred to as the core IIIF APIs_
 <!-- _footer: ' ' -->
 
 ![bg auto](https://training.iiif.io/iiif-online-workshop/day-one/img/apis.png)
+
+<!-- The two core specifications are the Image API and the Presentation API. The former is a web service for manipulating an image through a URL and the latter "specifies the information needed to drive a remote viewing experience". -->
 
 ---
 
@@ -241,6 +270,13 @@ https://iiif.io/api/presentation
 The Web Annotation Data Model (WADM) derives from the Open Annotation Specification.
 
 https://www.w3.org/TR/annotation-model/
+
+<!-- The Web Annotation Data Model was created alongside a vocabulary and a protocol by a dedicated W3C group that reworked the Open Annotation specification, developed in 2013, "(...) [specifying] an interoperable framework for creating associations between related resources, called annotations, using a methodology that conforms to the Architecture of the World Wide Web". 
+
+Its operating principle is based on the division of an annotation into two distinct parts: the body, which corresponds to the resource on which one seeks to annotate something, and the target, which represents the object being annotated.
+
+We will see an example later on.
+ -->
 
 ---
 
@@ -497,7 +533,7 @@ _Conveying semantically enriched events and as a benchmark against other collect
 | Text                | None                           | Could be used for the Atlas of Swiss Folkflore                       |
 | Visual              | None                           | It isn't planned to be leveraged as a top-level entity within PIA.   |
 
-https://github.com/Participatory-Image-Archives/linkedart
+[![GitHub](https://img.shields.io/static/v1?label=GitHub&message=PIA%20Linked%20Art&color=181717&logo=github)](https://github.com/Participatory-Image-Archives/linkedart)
 
 ---
 
@@ -567,6 +603,8 @@ Black and White Negative modelled as a `DigitalObject`
   ],
 ```
 
+<!-- `member_of` → Collection (SGV_12) -->
+
 ---
 
 ```json
@@ -602,6 +640,8 @@ Black and White Negative modelled as a `DigitalObject`
       ]
     },
 ```
+
+<!-- `subject_of` → Web Page (SSFS) -->
 ---
 
 
@@ -639,6 +679,8 @@ Black and White Negative modelled as a `DigitalObject`
   ],
 ```
 
+<!-- `subject_of` → IIIF Manifest -->
+
 ---
 
 
@@ -658,6 +700,7 @@ Black and White Negative modelled as a `DigitalObject`
     }
   ],
 ```
+<!-- `current_owner`→ SSFS Photographic Archives -->
 ---
 
 
@@ -684,6 +727,8 @@ Black and White Negative modelled as a `DigitalObject`
           }
         ],
 ```
+<!-- `created_by` → Through the digitisation of a negative -->
+
 ---
 
 ```json
@@ -721,6 +766,8 @@ Black and White Negative modelled as a `DigitalObject`
             }
           }
 ```
+<!-- `created_by` → Through the digitisation of a negative -->
+
 ---
 
 ```json
@@ -761,6 +808,8 @@ Black and White Negative modelled as a `DigitalObject`
           },
 
 ```
+
+<!-- `produced_by` → Production of the negative -->
 
 ---
 
@@ -825,6 +874,7 @@ Black and White Negative modelled as a `DigitalObject`
       ]
     },
 ```
+<!-- `identified_by` → Names and Identifiers -->
 
 ---
 
@@ -856,6 +906,8 @@ Black and White Negative modelled as a `DigitalObject`
     }
   ]
 ```
+<!-- `access_point` → IIIF Image API -->
+
 ---
 
 
@@ -897,13 +949,13 @@ https://linked.art/community/projects/linkedartii/
 
 ### High-level overview
 
-[Linked Art Collection Worfklow](https://github.com/tgra/Linked-Art-Collection-Data-Workflow)
-
 ![bg right:70% width:900px ](https://julsraemy.ch/prezi/assets/Linked-Art-Collection-Data-Workflow.png)
 
 1. Query
 2. Map
 3. Transform
+
+[![GitHub](https://img.shields.io/static/v1?label=GitHub&message=Linked%20Art%20Collection%20Worfklow&color=181717&logo=github)](https://github.com/tgra/Linked-Art-Collection-Data-Workflow)
 
 <!-- An intermediate JSON data format is used so that the transformation step can be reused with different collection data sources. The intermediate JSON data files are transformed to a Linked Art representation of the PIA templates for the photographic object types. Using the Python library Cromulent to create basic Linked Art representations, the Python functions encode larger building block-type representations of the photographic object types, e.g. name, web page, and digital service. Together, the functions encode the photographic object types as defined in the PIA templates, and offer the opportunity for reuse with photographic object types in other collection data, as well as for different cultural heritage objects that share the same properties. -->
 
@@ -954,10 +1006,9 @@ Leveraging Linked Art as/for:
 
 # From modelling to deployment
 
-- [Linked Art templates](https://github.com/julsraemy/linked-art-modelling) for five top-level entities
+- Linked Art templates for five top-level entities [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=Linked%20Art%20Modelling&color=181717&logo=github)](https://github.com/julsraemy/linked-art-modelling)
 - Simple Data Model on https://phd.julsraemy.ch (Omeka S), mostly leveraging Schema.org (for the properties) as well as CIDOC-CRM and Linked Art (for the classes)
-- Mapping between the Omeka-S API (event-based models are not supported) and the Linked Art API based on the templates
-- Developping a dedicated ETL (_extract, transform, load_) workflow
+- Developping a dedicated ETL (_extract, transform, load_) workflow such as a mapping between the Omeka S API and the Linked Art API
 - Forthcoming Linked Art deployment at `https://data.julsraemy.ch`
 
 ---
