@@ -28,7 +28,7 @@ Last updated: 22 November 2022
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-# Linked Open Usable Data for Cultural Heritage
+### Linked Open Usable Data for Cultural Heritage and Digital Humanities
 #### <!-- fit --> Perspectives on Semantics and Interoperability
 
 PhD Thesis - https://phd.julsraemy.ch - supervised by: 
