@@ -1,11 +1,11 @@
 ---
-marp: false
+marp: true
 author: Julien A. Raemy
-title: Linked Open Usable Data (LOUD)
-description: This presentation is about Linked Open Usable Data (LOUD) and how we have been implementing LOUD Standards (IIIF, Web Annotation Data Model, Linked Art) within the PIA research project
+title: Linked Open Usable Data (LOUD) for Cultural Heritage and Digital Humanities
+description: This presentation is about my PhD Thesis
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://julsraemy.ch/prezi/loud-rise.html
+url: https://julsraemy.ch/prezi/loud-midway.html
 theme: gaia
 class: invert
 paginate: true
@@ -14,100 +14,100 @@ _paginate: false
 
 <!-- _class: lead -->
 
-# <!-- fit --> Linked Open Usable Data
+#  Linked Open Usable Data for Cultural Heritage and Digital Humanities
+### Perspectives on Semantics and Interoperability
 [Julien A. Raemy](https://julsraemy.ch), PhD Candidate in Digital Humanities
 DHLab, University of Basel
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 
-Research & Infrastructure Support (RISE) Internal Talk | 23.11.2022
+PhD Midway Meeting | Wednesday, 1 February 2023
 
 <!-- This presentation is about Linked Open Usable Data (LOUD) and was created for a Research & Infrastructure Support (RISE) Internl Talk at the University of Basel -->
 
 --- 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-
-### Linked Open Usable Data for Cultural Heritage and Digital Humanities
-#### <!-- fit --> Perspectives on Semantics and Interoperability
-
-PhD Thesis - https://phd.julsraemy.ch - supervised by: 
-- Peter Fornaro (University of Basel)
-- Walter Leimgruber (University of Basel)
-- Robert Sanderson (Yale University)
-
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
-
---- 
-
 # Agenda
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-- Preamble
-- Linked Open Usable Data (LOUD)
-- Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
-- PIA goes LOUD
-- Collaboration with the Linked Art II project (University of Oxford)
+15:00 - 15:25 Current state
+15:25 - 15:50 Discussion
+15:50 - 16:10 Dissertation's structure (ToC)
+16:10 - 16:30 Theoretical Framework (ANT)
+16:30 - 16:50 Methodology and Empirical Research
+16:50 - 17:00 Next steps
+
+<!-- footer: 'Julien A. Raemy | PhD Midway Meeting' -->
+
+---
+
+<!-- _class: lead -->
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+
+# <!-- fit --> Current state
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# <!-- fit --> Academic credits (ECTS)
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# Working title
+
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# Research Scope
+
+- Research Questions
+- Hypotheses
+- Objectives
+
+---
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# PhD Website
+
+- Thesis Summary
 - PhD Data Model
+- Notebook Entries
+- Research Outputs
 
-<!-- footer: 'Julien A. Raemy | LOUD' -->
-
----
-
-<!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
-
-# <!-- fit --> Preamble
-
----
-
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-
-# The usual suspects
-
-- Open Science / Open Access → **Movement**
-- FAIR Data Principles → **Environment/System**
-- Linked Open Data (LOD) → **Content**
-
-<!-- From the point of view of principles or technologies that I think are necessary, here are the ones which I consider worth mentioning. Open Science / Open Access, FAIR Data Principles and Linked Open Data. They have different focuses and one that I think is most useful within my thesis is the last one as I am most interested in interoperability and creating a semantic framework not only for humans but also for machines.  -->
-
----
-
-<!-- _footer: ' ' -->
-
-# LOD
-
-![bg width:900px](https://5stardata.info/images/5-star-steps.png)
-
-<!-- 5-star open data scheme 
-1) make your stuff available on the Web (whatever format) under an open license
-2) make it available as structured data
-3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
-4) use URIs to denote things, so that people can point at your stuff
-5) link your data to other data to provide context -->
-
----
-
-# From LOD to LOUD
-
-- LOD is too focused on publishing data. Our data needs to be reused to be meaningful and valuable.
-
-- Linked Open Usable Data (LOUD) seeks a balance that takes into account the needs for data completeness and accuracy (ontological construction) and pragmatic concerns (ease of use, scalability)
-
-<!-- Linked Open Data has been around for many years. Resource Description Framework (RDF) is the underlying technology where assertions in triples are being produced.  LOD has come under some criticism in terms of its uptake and often LOD projects have not been sustained for very long. LOD projects have mainly been concerned with the publication and consumption of data and geared towards an expert audience with knowledge of RDF. Here the audience is slightly different as they are intended for developers and the best way to give them data is to create APIs. LOUD is also an attempt to balance the trade-offs between completeness and precision of expression and the usability of the resulting data constructs. -->
-
+https://phd.julsraemy.ch 
 
 ---
 
 
 <!-- _class: lead -->
 
-# <!-- fit --> LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+# <!-- fit --> Discussion
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+# My questions
+
+---
+
+# Your questions
+
+---
+
+
+<!-- _class: lead -->
+
+# <!-- fit --> Dissertation's structure
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 # LOUD Design Principles
 
@@ -124,7 +124,7 @@ To be part of the Web, not just on the Web.  -->
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 # LOUD Standards
 Examples of specifications following the LOUD design principles:
@@ -190,7 +190,7 @@ Some of them:
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 # IIIF Specifications
 
@@ -387,14 +387,14 @@ Events - Events and other non-specific activities that are related but not part 
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 
 # <!-- fit --> PIA
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 ## Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
 
@@ -404,7 +404,7 @@ Research project funded by the Swiss National Science Foundation (SNSF) under th
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 # PIA Teams
 
@@ -417,7 +417,7 @@ Research project funded by the Swiss National Science Foundation (SNSF) under th
 We explore the phases of the analogue and digital archive from the perspectives of cultural anthropology, technology and design. The common goal of this project is to design a visual interface with machine learning-based tools to make it easy to annotate, contextualize, organize, and link both images and their meta-information, to deliberately encourage the participatory use of archives. -->
 
 ---
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 #### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
 
@@ -433,7 +433,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 <!-- _class: lead -->
 
 # <!-- fit --> PIA goes LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 <!-- _footer: " " -->
@@ -494,7 +494,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 ```
 --- 
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 ##### Why do we need/want Linked Art at PIA?
 
@@ -931,12 +931,12 @@ Black and White Negative modelled as a `DigitalObject`
 <!-- _class: lead -->
 
 # Collaboration with the Linked Art II Project (University of Oxford)
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 
 ### Linked Art II
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 - Collaboration between PIA and the University of Oxford over the Summer 2022 after completion of a survey (centred on the application of Linked Art)
 - Workflow for the transformation of photographic collection data to Linked Art
@@ -978,7 +978,7 @@ https://linked.art/community/projects/linkedartii/
 <!-- _class: lead -->
 
 # PhD Data Model
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ---
 # Rationale
