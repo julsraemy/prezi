@@ -88,29 +88,6 @@ https://phd.julsraemy.ch
 
 ---
 
-<!-- _footer: " " -->
-
-![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/phd-datamodel-overview.svg)
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/text/diss-0.svg)
-
----
-
-# PhD Data Model Rationale
-
-Leveraging Linked Art as/for:
-
-- a meta level of my thesis to describe the dissertation and its chapters/sections
-- the notebook entries that will be published on https://phd.julsraemy.ch
-- the concepts that are not available via the Getty vocabularies
-- the actors (people and groups) involved within the PIA research project and my thesis. 
-
----
-
 # Working title of the dissertation
 
 0. _Deploying a Citizen Science Infrastructure with Linked Open Usable Data Standards_
@@ -158,45 +135,6 @@ Leveraging Linked Art as/for:
 
 <!-- _class: lead -->
 
-# <!-- fit --> Theoretical Framework
-### Through and beyond an Actor-Network Theory (ANT) Lens
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-
-# Theoretical Framework
-
-- Implosion of the Boundaries: Objects have Agency
-- Assembling the Collective
-- The Translation Process
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-
-##  Actor-Network Theory (Latour, Akrich, Callon, Law)
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-
-# <!-- fit --> Situated Knowledges (Haraway)
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-
-# <!-- fit -->  Boundary Objects (Star & Griesemer)
-
----
-
-<!-- _class: lead -->
-
 # Research Scope, Methodology and Empirical Research
 ![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
@@ -219,21 +157,24 @@ Leveraging Linked Art as/for:
 - PIA as a Laboratory → Deployment of LOUD within PIA
 - Yale's LUX → LUX: Deployment and Data Consistency of a Large-Scale LOUD Application
 
-See [Overall Methods](https://docs.google.com/spreadsheets/d/1MNcoRj5sL0H7Z6u1kgdi_UjkAKcfOwYh-Irm392TIzQ/edit?usp=sharing)
+---
+
+[![bg contain](https://julsraemy.ch/prezi/assets/methods-phdigital.png)](https://docs.google.com/spreadsheets/d/1MNcoRj5sL0H7Z6u1kgdi_UjkAKcfOwYh-Irm392TIzQ/edit#gid=0)
 
 ---
-<!-- _footer: " " -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/methods-phdigital.png)
-
-
----
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
+# Next slides
 
-# Empirical Research
+### <!-- fit --> A few examples of what has been done
+
+- Slide 17: IIIF Community Overview `Objective 02`
+- Slides 18-19: PhD Data Model `Objective 04`
+- Slide 20: IIIF Resource Generation for PIA `Objective 06`
 
 ---
+
 <!-- _footer: " " -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
@@ -246,16 +187,95 @@ I have tried to provide an overview of the different actors showing the relation
 
 <!-- _footer: " " -->
 
+![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/phd-datamodel-overview.svg)
+
+<!-- 
+
+- a meta level of my thesis to describe the dissertation and its chapters/sections
+- the notebook entries that will be published on https://phd.julsraemy.ch
+- the concepts that are not available via the Getty vocabularies
+- the actors (people and groups) involved within the PIA research project and my thesis. 
+
+-->
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/text/diss-0.svg)
+
+
+
+---
+
+<!-- _footer: " " -->
+
 ![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_workflow.jpg)
 
 <!-- IIIF Workflow within PIA -->
 
 ---
 
-<!-- _footer: " " -->
 
-![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/assets/pia_linkedartmodel.svg)
+<!-- _class: lead -->
 
+# <!-- fit --> Theoretical Framework
+### Through and beyond an Actor-Network Theory (ANT) Lens
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+---
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+
+
+# Theoretical Framework
+
+Sections of the chapter:
+
+- Implosion of the Boundaries: Objects have Agency
+- Assembling the Collective
+- The Translation Process
+
+_→ The goal is to look and discuss all findings with an ANT-like lens_
+
+<!-- 
+
+1) Demonstrating how non-human entities have agency.; 
+2) Identifying the human and non-human actors participating in the process;
+3) Investigating how the concept of translation is carried out, i.e. the process that allows a network to be represented by a single entity.
+
+-->
+
+---
+
+
+###  Actor-Network Theory (Latour, Akrich, Callon, Law)
+
+> *Actor-Network Theory (ANT) aims at describing the very nature of societies. But to do so it does not limit itself to human individual actors, but extent the word actor - or actant - to non-human, non-individual entities* 
+
+[Latour 1996](https://www.jstor.org/stable/40878163)
+
+---
+
+###  Situated Knowledges (Haraway)
+
+> *Situated knowledges are about communities, not about isolated individuals. The only way to find a larger vision is to be somewhere in particular. The science question in feminism is about objectivity as positioned rationality. Its images are not the products of escape and transcendence of limits (the view from above) but the joining of partial views and halting voices into a collective subject position that promises a vision of the means of ongoing finite embodiment, of living within limits and contradictions-of views from somewhere.*
+
+[Haraway 1998](https://www.jstor.org/stable/3178066)
+
+---
+
+###  Boundary Objects (Star & Griesemer)
+
+> *Objects which are both plastic enough to adapt to local needs and constraints of the several parties employing them, yet robust enough to maintain a common identity across sites. They are weakly structured in common use, and become strongly structured in individual-site use. They may be abstract or concrete. They have different meanings in different social worlds but their structure is common enough to more than one world to make them recognizable, a means of translation.*
+
+[Star & Griesemer 1989](https://www.jstor.org/stable/285080)
+
+---
+
+![bg contain 62%](https://julsraemy.ch/assets/images/star_boundaryobject.svg)
+
+
+Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch/posts/2022/10/05/boundary-objects-iiif-dariah/)
 
 ---
 
@@ -269,7 +289,28 @@ I have tried to provide an overview of the different actors showing the relation
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 
-# Upcoming and Possible papers
+# After this meeting
+
+- Amending the research scope, methodology and empirical research on the spreadsheet and on Overleaf
+- Updating the ToC on Overleaf
+- Adding new information on the PhD Website
+- Sending a new version of the doctoral agreement to the Faculty (with updated working title)
+
+---
+
+# Upcoming presentations/papers
+
+- EuroMed 2022: *Implementation of the IIIF Presentation API 3.0 based on Software Support: Use Case of an Incremental IIIF Deployment within a Citizen Science Project* - with Adrian
+- DHNB 2023: *Community and Interoperability at the Core of Sustaining Image Archives* - with Ulrike, Peter and Max 
+- Journal on Computing and Cultural Heritage (JOCCH): *Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning* - with Murielle and Florian / Awaiting Reviewer Assignment 
+
+---
+
+# Possible presentations/papers
+
+- DH2023 (Poster): *Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow* - with Tanya Gray, Alwyn Collinson and Kevin Page (Oxford) / Pending
+- *Situating LOUD* 
+- *Using the Linked Art Validator against Yale's LUX data*
 
 ---
 
