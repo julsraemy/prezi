@@ -64,8 +64,15 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 
 ## Important documents/links
 
-- [PhD Website](https://phd.julsraemy.ch )
-- Overleaf
+- **Overleaf**, an online LaTeX editor used for writing, editing and publishing scientific documents
+- **PhD Website**, based on Omeka S, an open-source content management system for online digital collections
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/overleaf-phdigital.png)
+
 
 ---
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
@@ -199,30 +206,25 @@ Leveraging Linked Art as/for:
 
 # Research Scope
 
-- Research Questions
-- Hypotheses
-- Objectives
+- 5 Research Questions and 5 Hypotheses
+- 8 Objectives
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+# Methodology → Empirical Research
 
-# Methodology
+- Situating LOUD → Epistemological Foundations and Perception of LOUD
+- The social fabrics of IIIF and Linked Art → Assessement of the Practices of the IIIF and Linked Art Communities
+- PhD Data Model → Linked Art Modelling and Publishing as a Reflective Exercise
+- PIA as a Laboratory → Deployment of LOUD within PIA
+- Yale's LUX → LUX: Deployment and Data Consistency of a Large-Scale LOUD Application
 
-##### Investigation Approaches (1)
-- Situating LOUD
-- The social fabrics of community-driven standards
-- PIA as a Laboratory
-- Yale's LUX
-
-
+See [Overall Methods](https://docs.google.com/spreadsheets/d/1MNcoRj5sL0H7Z6u1kgdi_UjkAKcfOwYh-Irm392TIzQ/edit?usp=sharing)
 
 ---
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+<!-- _footer: " " -->
 
-
-# Methodology
-##### Data Collection, Modelling and Analysis (2)
+![bg contain](https://julsraemy.ch/prezi/assets/methods-phdigital.png)
 
 
 ---
