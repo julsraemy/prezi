@@ -49,7 +49,7 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
-# <!-- fit --> Academic progress
+##  Academic progress
 
 |                                        | ECTS (PhD) | ECTS (Master) |
 |----------------------------------------|------------|---------------|
