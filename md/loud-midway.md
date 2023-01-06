@@ -159,7 +159,7 @@ https://phd.julsraemy.ch
 
 ---
 
-[![bg contain](https://julsraemy.ch/prezi/assets/methods-phdigital.png)](https://docs.google.com/spreadsheets/d/1MNcoRj5sL0H7Z6u1kgdi_UjkAKcfOwYh-Irm392TIzQ/edit#gid=0)
+![bg contain](https://julsraemy.ch/prezi/assets/methods-phdigital.png)
 
 ---
 
