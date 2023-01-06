@@ -320,7 +320,8 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 # Short visit at Yale?
 
 - For Objectives 7 and 8
-- 
+- To have a point of comparison with PIA
+- October 2023?
 
 ---
 
