@@ -49,13 +49,13 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
-##  Academic progress
+###  Academic progress
 
 |                                        | ECTS (PhD) | ECTS (Master) |
 |----------------------------------------|------------|---------------|
 | **Required on the doctoral agreement** | **12**     | **6**         |
 | Obtained (Jan 2023)                | 22         | 6             |
-| Pending for validation                 | 3          | 0             |
+| Pending                 | 3          | 0             |
 | **Expected (March 2023)**              | **25**     | **6**         |
 
 ---
@@ -309,8 +309,8 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 # Possible presentations/papers
 
 - DH2023 (Poster): *Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow* - with Tanya Gray, Alwyn Collinson and Kevin Page (Oxford) / Pending
-- *Situating LOUD* 
-- *Using the Linked Art Validator against Yale's LUX data*
+- *Situating LOUD / Data Models as Actors* 
+- *Using the Linked Art Validator against Yale's LUX data / Reasoning with Linked Art*
 
 ---
 
