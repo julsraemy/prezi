@@ -72,14 +72,6 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 [https://archiv.sgv-sstp.ch](https://archiv.sgv-sstp.ch)
 
----
-
-### PIA User interface
-
-[Prototype based on Omeka S](https://participatory-archives.ch/) 
-
-![bg right:70% contain](https://julsraemy.ch/prezi/assets/pia-omeka.png)
-
 --- 
 
 <!-- _class: lead -->
@@ -770,5 +762,5 @@ Many thanks to:
 - [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
-These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 

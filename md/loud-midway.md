@@ -317,11 +317,18 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 
-# Short visit at Yale?
+# Short visit(s) at Yale?
 
+##### Week of 15 May 2023
+
+- A few days
+- Linked Art face-to-face meeting
+
+##### Around September/October 2023?
+
+- A couple of weeks, a month?
 - For Objectives 7 and 8
 - To have a point of comparison with PIA
-- October 2023?
 
 ---
 
@@ -338,5 +345,5 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 - [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
-These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
