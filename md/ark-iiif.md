@@ -75,9 +75,11 @@ https://khirin-i.rekihaku.ac.jp/iiif/nmjh_rekimin_h/13348049_02.tif/info.json
 
 ### IIIF Image API expressed via identifiers
 
-> [The identifier] may be an ARK, URN, filename, or other identifier. Special characters must be URI encoded.
+> [The identifier] may be an ARK, URN, filename, or other identifier.
 
-https://iiif.io/api/image/3.0/#2-uri-syntax
+> The API places no restrictions on the form of the identifiers that a server may use or support. All special characters (e.g. `?` or `#`) must be URI encoded to avoid unpredictable client behaviors. The URI syntax relies upon slash (`/`) separators.
+
+<!-- URI Syntax (part 2) - Identifiers (part 3) -->
 
 ---
 
@@ -101,7 +103,13 @@ https://iiif.io/api/presentation/3.0/#61-uri-recommendations
 ### Congruence of ARK extensions and IIIF paths
 
 - ARK suffixes (extensions), which are used to refer to sub-objects in a hierarchy and to variant formats, are a natural fit for IIIF, with the Image API parameters expressed as path extensions.
-- Because ARKs permit suffix passthrough, it is possible to register just the top-level resolvable ARK to support an infinite number of resolvable suffix combinations.
+- Because ARKs permit [suffix passthrough](https://n2t.net/e/suffix_passthrough.html), it is possible to register just the top-level resolvable ARK to support an infinite number of resolvable suffix combinations.
+
+---
+
+![bg contain](https://n2t.net/e/images/learn_spt_in_action.gif)
+
+<!-- Suffix Passthrough makes every ARK the root of its own "namespace". Any provider-added (or user-added) suffix, which is a common way to form sub-object identifiers, will be passed through to the stored target object. For example, a dataset with X component parts and just this one "ancestor" ARK, -->
 
 ---
 
