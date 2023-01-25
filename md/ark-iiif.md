@@ -22,6 +22,10 @@ IIIF Community Call | Wednesday, 25 January 2023
 
 --- 
 
+![bg contain 90%](https://gallica.bnf.fr/iiif/ark:%2F12148%2Fbtv1b8449691v%2Ff29/2131,4016,1467,948/full/0/default.jpg)
+
+---
+
 # <!-- fit --> ARK and IIIF
 
 - Open communities
@@ -33,8 +37,7 @@ IIIF Community Call | Wednesday, 25 January 2023
 
 ---
 
----
-
+![bg contain](https://julsraemy.ch/prezi/assets/ARK_anatomy_IIIF_syntax.png)
 
 ---
 
@@ -277,16 +280,9 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg)
 
 ### Image Credits
-- [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
-- [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
-- [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
-- ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
+A rectangular detail region of interest (coordinates 2131,4016,1467,948) requested via [IIIF-compliant path elements]((https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg)) from the folio 29 of:
 
-These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
-
+_Grande Bible hitoriale complétée. Maître du livre d'heures de Johanette Ravenelle._ 1395-1401. BnF Département des Manuscrits. Français 159. https://gallica.bnf.fr/ark:/12148/btv1b8449691v
