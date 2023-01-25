@@ -26,6 +26,15 @@ IIIF Community Call | Wednesday, 25 January 2023
 
 ---
 
+# Background
+
+- Ben Brumfield, Sara Brumfield, Andy Irving, Rachael Kotarski, Joseph Padfield, Julien A. Raemy, Anne McLaughlin, & Frances Madden. PIDs in IIIF Webinar. Persistent Identifiers in IIIF. 26 October 2021. https://doi.org/10.5281/zenodo.5780055
+- RAEMY, Julien Antoine, JUNG, John, and KUNZE, John. Images and the promise of ARKs with IIIF. ARK Alliance. 23 November 2022. https://arks.org/blog/images-and-the-promise-of-arks-with-iiif/
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+
 # <!-- fit --> ARK and IIIF
 
 - Open communities
@@ -37,252 +46,88 @@ IIIF Community Call | Wednesday, 25 January 2023
 
 ---
 
+![bg right:45% auto width:95%](https://iiif.io/api/image/3.0/img/transformation.png)
+
+## IIIF Image API
+
+It specifies a RESTful web service that returns an image in response to a standard HTTP(S) request.
+- Image Request
+- Image Information (JSON-LD)
+
+https://iiif.io/api/image
+
+---
+
+- Base URI
+`{scheme}://{server}{/prefix}/{identifier}`
+
+- Image Request
+`{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
+https://khirin-i.rekihaku.ac.jp/iiif/nmjh_rekimin_h/13348049_02.tif/376,940,1700,2037/full/0/default.jpg
+
+- Image Information (Metadata)
+`{$BASE}/info.json`
+https://khirin-i.rekihaku.ac.jp/iiif/nmjh_rekimin_h/13348049_02.tif/info.json
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+
+### IIIF Image API expressed via identifiers
+
+> [The identifier] may be an ARK, URN, filename, or other identifier. Special characters must be URI encoded.
+
+https://iiif.io/api/image/3.0/#2-uri-syntax
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+
+### IIIF Presentation API expressed via identifiers
+
+> While any HTTP(S) URI is technically acceptable for any of the resources in the API, there are several best practices for designing the URIs for the resources. (...) Once published, they should be as persistent and unchanging as possible.
+
+https://iiif.io/api/presentation/3.0/#61-uri-recommendations
+
+
+---
+
 ![bg contain](https://julsraemy.ch/prezi/assets/ARK_anatomy_IIIF_syntax.png)
 
 ---
 
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
 
----
-<!-- _class: lead -->
+### Congruence of ARK extensions and IIIF paths
 
-# <!-- fit --> Dissertation's structure
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-
-# A pretty standard ToC
-
-1. Introduction
-2. Context
-3. Literature Review
-4. Theoretical Framework
-5. Methodology
-6. Empirical Research
-7. Discussion
-8. Conclusion
+- ARK suffixes (extensions), which are used to refer to sub-objects in a hierarchy and to variant formats, are a natural fit for IIIF, with the Image API parameters expressed as path extensions.
+- Because ARKs permit suffix passthrough, it is possible to register just the top-level resolvable ARK to support an infinite number of resolvable suffix combinations.
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
 
+### ARKs and IIIF in practice
 
-# Literature Review
-
-### <!-- fit --> Interlinking Cultural Heritage Data
-
-1. Scientific Movements and Principles
-2. Open Web Platform and Linked Data
-3. Linked Open Usable Data
-4. Characterising Semantics and Interoperability for Digital Humanities
+- Many organizations use the ARK and IIIF specifications, sometimes in conjunction. Examples include the BnF, the British Library, Durham University Library, DaSCH, etc.
+- The application of ARKs within a IIIF ecosystem can go beyond the Image and Presentation APIs.
 
 ---
 
-<!-- _class: lead -->
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
 
-# Research Scope, Methodology and Empirical Research
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+### Some questions
 
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-# Research Scope
-
-- 5 Research Questions and 5 Hypotheses
-- 8 Objectives
+ - Do we need best practices for using ARKs with IIIF?
+ - Reserved URI characters in the IIIF Image API? (cf. [ARK Specification Character Repertoires](https://www.ietf.org/archive/id/draft-kunze-ark-36.html#name-character-repertoires))
+ - What about annotations?
 
 ---
 
-# Methodology → Empirical Research
-
-- Situating LOUD → Epistemological Foundations and Perception of LOUD
-- The social fabrics of IIIF and Linked Art → Assessement of the Practices of the IIIF and Linked Art Communities
-- PhD Data Model → Linked Art Modelling and Publishing as a Reflective Exercise
-- PIA as a Laboratory → Deployment of LOUD within PIA
-- Yale's LUX → LUX: Deployment and Data Consistency of a Large-Scale LOUD Application
-
----
-
-![bg contain](https://julsraemy.ch/prezi/assets/methods-phdigital.png)
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-# Next slides
-
-### <!-- fit --> A few examples of what has been done
-
-- Slide 17: IIIF Community Overview `Objective 02`
-- Slides 18-19: PhD Data Model `Objective 04`
-- Slide 20: IIIF Resource Generation for PIA `Objective 06`
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
-
-<!-- IIIF Community Overview: IIIF is a community-driven effort which is sometimes rather confusing to grasp quickly given the number of different committees, groups and denominations involved.
-
-I have tried to provide an overview of the different actors showing the relationships and sometimes the deliverables. -->
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/phd-datamodel-overview.svg)
-
-<!-- 
-
-- a meta level of my thesis to describe the dissertation and its chapters/sections
-- the notebook entries that will be published on https://phd.julsraemy.ch
-- the concepts that are not available via the Getty vocabularies
-- the actors (people and groups) involved within the PIA research project and my thesis. 
-
--->
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/text/diss-0.svg)
-
-
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_workflow.jpg)
-
-<!-- IIIF Workflow within PIA -->
-
----
-
-
-<!-- _class: lead -->
-
-# <!-- fit --> Theoretical Framework
-### Through and beyond an Actor-Network Theory (ANT) Lens
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-
-# Theoretical Framework
-
-Sections of the chapter:
-
-- Implosion of the Boundaries: Objects have Agency
-- Assembling the Collective
-- The Translation Process
-
-_→ The goal is to look and discuss all findings with an ANT-like lens_
-
-<!-- 
-
-1) Demonstrating how non-human entities have agency.; 
-2) Identifying the human and non-human actors participating in the process;
-3) Investigating how the concept of translation is carried out, i.e. the process that allows a network to be represented by a single entity.
-
--->
-
----
-
-
-###  Actor-Network Theory (Latour, Akrich, Callon, Law)
-
-> *Actor-Network Theory (ANT) aims at describing the very nature of societies. But to do so it does not limit itself to human individual actors, but extent the word actor - or actant - to non-human, non-individual entities* 
-
-[Latour 1996](https://www.jstor.org/stable/40878163)
-
----
-
-###  Situated Knowledges (Haraway)
-
-> *Situated knowledges are about communities, not about isolated individuals. The only way to find a larger vision is to be somewhere in particular. The science question in feminism is about objectivity as positioned rationality. Its images are not the products of escape and transcendence of limits (the view from above) but the joining of partial views and halting voices into a collective subject position that promises a vision of the means of ongoing finite embodiment, of living within limits and contradictions-of views from somewhere.*
-
-[Haraway 1998](https://www.jstor.org/stable/3178066)
-
----
-
-###  Boundary Objects (Star & Griesemer)
-
-> *Objects which are both plastic enough to adapt to local needs and constraints of the several parties employing them, yet robust enough to maintain a common identity across sites. They are weakly structured in common use, and become strongly structured in individual-site use. They may be abstract or concrete. They have different meanings in different social worlds but their structure is common enough to more than one world to make them recognizable, a means of translation.*
-
-[Star & Griesemer 1989](https://www.jstor.org/stable/285080)
-
----
-
-![bg contain 62%](https://julsraemy.ch/assets/images/star_boundaryobject.svg)
-
-
-Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch/posts/2022/10/05/boundary-objects-iiif-dariah/)
-
----
-
-<!-- _class: lead -->
-
-# <!-- fit --> Next steps
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-
-# After this meeting
-
-- Amending the research scope, methodology and empirical research on the spreadsheet and on Overleaf
-- Updating the ToC on Overleaf
-- Adding new information on the PhD Website
-- Sending a new version of the doctoral agreement to the Faculty (with updated working title)
-
----
-
-# Upcoming presentations/papers
-
-- EuroMed 2022: *Implementation of the IIIF Presentation API 3.0 based on Software Support: Use Case of an Incremental IIIF Deployment within a Citizen Science Project* - with Adrian
-- DHNB 2023: *Community and Interoperability at the Core of Sustaining Image Archives* - with Ulrike, Peter and Max 
-- Journal on Computing and Cultural Heritage (JOCCH): *Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning* - with Murielle and Florian / Awaiting Reviewer Assignment 
-
----
-
-# Possible presentations/papers
-
-- DH2023 (Poster): *Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow* - with Tanya Gray, Alwyn Collinson and Kevin Page (Oxford) / Pending
-- *Situating LOUD / Data Models as Actors* 
-- *Using the Linked Art Validator against Yale's LUX data / Reasoning with Linked Art*
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-
-# Short visit(s) at Yale?
-
-##### Week of 15 May 2023
-
-- A few days
-- Linked Art face-to-face meeting
-
-##### Around September/October 2023?
-
-- A couple of weeks, a month?
-- For Objectives 7 and 8
-- To have a point of comparison with PIA
-
----
-
-<!-- _footer: " " -->
 
 ![bg opacity:.2](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
 
 ### Image Credits
-A rectangular detail region of interest (coordinates 2131,4016,1467,948) requested via [IIIF-compliant path elements]((https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg)) from the folio 29 of:
-
-_Grande Bible hitoriale complétée. Maître du livre d'heures de Johanette Ravenelle._ 1395-1401. BnF Département des Manuscrits. Français 159. https://gallica.bnf.fr/ark:/12148/btv1b8449691v
+- A rectangular detail region of interest (coordinates 2131,4016,1467,948) requested via [IIIF-compliant path elements](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg) from the folio 29 of: _Grande Bible hitoriale complétée. Maître du livre d'heures de Johanette Ravenelle._ 1395-1401. BnF Département des Manuscrits. Français 159. https://gallica.bnf.fr/ark:/12148/btv1b8449691v
+- _[Beton - Brücke]_. Biasca, date unknown. Ernst Brunner. SGV_12N_26488. Swiss Society for Folfklore Studies. CC BY-NC. https://archiv.sgv-sstp.ch/resource/448723
