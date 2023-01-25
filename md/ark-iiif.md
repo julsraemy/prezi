@@ -31,18 +31,20 @@ IIIF Community Call | Wednesday, 25 January 2023
 - Ben Brumfield, Sara Brumfield, Andy Irving, Rachael Kotarski, Joseph Padfield, Julien A. Raemy, Anne McLaughlin, & Frances Madden. PIDs in IIIF Webinar. Persistent Identifiers in IIIF. 26 October 2021. https://doi.org/10.5281/zenodo.5780055
 - RAEMY, Julien Antoine, JUNG, John, and KUNZE, John. Images and the promise of ARKs with IIIF. ARK Alliance. 23 November 2022. https://arks.org/blog/images-and-the-promise-of-arks-with-iiif/
 
+<!-- footer: 'Julien A. Raemy | ARKs and IIIF' -->
+
 ---
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
 
-# <!-- fit --> ARK and IIIF
+# ARKs and IIIF
 
-- Open communities
+- Open communities that maintain standards/infrastructure
+    - [ARK Alliance](https://arks.org/)
+    - [IIIF Community](https://iiif.io/community/) / [IIIF Consortium](https://iiif.io/community/consortium/)
 - Prevalent in the Cultural Heritage field
 - Highly flexible in terms of associated metadata
 - No (direct) fees
-
-<!-- footer: 'Julien A. Raemy | ARKs and IIIF' -->
 
 ---
 
@@ -107,7 +109,9 @@ https://iiif.io/api/presentation/3.0/#61-uri-recommendations
 
 ---
 
-![bg contain](https://n2t.net/e/images/learn_spt_in_action.gif)
+# Suffix Passthrough
+
+![bg contain 70%](https://n2t.net/e/images/learn_spt_in_action.gif)
 
 <!-- Suffix Passthrough makes every ARK the root of its own "namespace". Any provider-added (or user-added) suffix, which is a common way to form sub-object identifiers, will be passed through to the stored target object. For example, a dataset with X component parts and just this one "ancestor" ARK, -->
 
