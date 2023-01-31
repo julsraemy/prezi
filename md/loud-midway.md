@@ -49,14 +49,12 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
-###  Academic progress
+##  Academic progress
 
 |                                        | ECTS (PhD) | ECTS (Master) |
 |----------------------------------------|------------|---------------|
-| **Required on the doctoral agreement** | **12**     | **6**         |
-| Obtained (Jan 2023)                | 22         | 6             |
-| Pending                 | 3          | 0             |
-| **Expected (March 2023)**              | **25**     | **6**         |
+| Required on the doctoral agreement | 12     | 6         |
+| Obtained (Jan 2023)                | 25         | 6             |
 
 ---
 
