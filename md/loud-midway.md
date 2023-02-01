@@ -22,7 +22,7 @@ DHLab, University of Basel
 
 PhD Midway Meeting | Wednesday, 1 February 2023
 
-<!-- This presentation is about Linked Open Usable Data (LOUD) and was created for a Research & Infrastructure Support (RISE) Internl Talk at the University of Basel -->
+<!-- This presentation is about the current state of my PhD in Digital Humanities -->
 
 --- 
 
@@ -36,6 +36,20 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 - **16:50** Next steps
 
 <!-- footer: 'Julien A. Raemy | PhD Midway Meeting' -->
+
+<!-- As you have seen on the Google Doc agenda, I have planned two hours for this call and hopefully we will have enough time for discussion after each segment, ideally up to 15 minutes for questions and remarks for each part.  -->
+
+---
+
+# Meeting Goals
+![bg opacity:.17](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+- Giving an update
+- Setting research directions for 2023
+    - To be able to start writing the literature review
+    - To refine the research quetions and objectives
+
+<!-- The goals of this meeting are to give you an update of where I stand, knowing that I am halfway through the PhD and setting the overal research directions for this year, but also for 2024.  -->
 
 ---
 
@@ -56,6 +70,8 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 | Required on the doctoral agreement | 12     | 6         |
 | Obtained (Jan 2023)                | 25         | 6             |
 
+<!-- As you can see I have earned enough credits, but this is to ensure that if I want to enroll into a doctoral program at the University, I still have enough flexibility to do it without taking new courses. -->
+
 ---
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
@@ -65,12 +81,16 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 - **Overleaf**, an online LaTeX editor used for writing, editing and publishing scientific documents
 - **PhD Website**, based on Omeka S, an open-source content management system for online digital collections
 
+<!-- There are two main documents or links that you can always access. I write my dissertation on Overleaf, an online LaTeX editor and I have decided to set up a dedicated website. -->
+
 ---
 
 <!-- _footer: " " -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/overleaf-phdigital.png)
 
+
+<!-- Here is how it looks like, with the editor on the left-hand side and the output, which is a PDF, on the right-hand side. -->
 
 ---
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
@@ -84,6 +104,8 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 
 https://phd.julsraemy.ch 
 
+<!-- The website has four components. It's not only a website that describe what I've been doing and what I intend to do, but also a sort of meta exercise. -->
+
 ---
 
 # Working title of the dissertation
@@ -94,40 +116,7 @@ https://phd.julsraemy.ch
 0. **Linked Open Usable Data for Cultural Heritage and Digital Humanities: Perspectives on Semantics and Interoperability**
 0. ?
 
----
-<!-- _class: lead -->
-
-# <!-- fit --> Dissertation's structure
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-
-# A pretty standard ToC
-
-1. Introduction
-2. Context
-3. Literature Review
-4. Theoretical Framework
-5. Methodology
-6. Empirical Research
-7. Discussion
-8. Conclusion
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-
-
-# Literature Review
-
-### <!-- fit --> Interlinking Cultural Heritage Data
-
-1. Scientific Movements and Principles
-2. Open Web Platform and Linked Data
-3. Linked Open Usable Data
-4. Characterising Semantics and Interoperability for Digital Humanities
+<!-- I am mostly happy with the new working title but I like to have one that sticks for the upcoming two years as it greatly helps for the structure. -->
 
 ---
 
@@ -145,6 +134,8 @@ https://phd.julsraemy.ch
 - 5 Research Questions and 5 Hypotheses
 - 8 Objectives
 
+<!-- As you may have seen on the PDF or the dedicated spreadsheet, I set up five research question, each with their hypothesis, as well as eight objectives. -->
+
 ---
 
 # Methodology → Empirical Research
@@ -155,9 +146,13 @@ https://phd.julsraemy.ch
 - PIA as a Laboratory → Deployment of LOUD within PIA
 - Yale's LUX → LUX: Deployment and Data Consistency of a Large-Scale LOUD Application
 
+<!-- For the research question and hypothesis pair, there is also a chapter in the Methodology and a chapter in the Empirical Research -->
+
 ---
 
 ![bg contain](https://julsraemy.ch/prezi/assets/methods-phdigital.png)
+
+<!-- And I think I will switch to the Google Sheet to get a better overview. -->
 
 ---
 
@@ -202,7 +197,7 @@ I have tried to provide an overview of the different actors showing the relation
 
 ![bg contain](https://raw.githubusercontent.com/julsraemy/linked-art-modelling/main/text/diss-0.svg)
 
-
+<!-- PhD Data Model. Example of the dissertation -->
 
 ---
 
@@ -214,6 +209,43 @@ I have tried to provide an overview of the different actors showing the relation
 
 ---
 
+<!-- _class: lead -->
+
+# <!-- fit --> Dissertation's structure
+![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# A pretty standard ToC
+
+1. Introduction
+2. Context
+3. Literature Review
+4. Theoretical Framework
+5. Methodology
+6. Empirical Research
+7. Discussion
+8. Conclusion
+
+<!-- Here are the main chapters of the PhD. You have received a more extensive, which is actually an ouptut in PDF that I generated from Overleaf a couple of weeks ago. What is quite important -->
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+
+# Literature Review
+
+### <!-- fit --> Interlinking Cultural Heritage Data
+
+1. Scientific Movements and Principles
+2. Open Web Platform and Linked Data
+3. Linked Open Usable Data
+4. Characterising Semantics and Interoperability for Digital Humanities
+
+---
 
 <!-- _class: lead -->
 
