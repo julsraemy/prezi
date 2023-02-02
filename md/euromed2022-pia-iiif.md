@@ -179,7 +179,7 @@ Our main database is managed through Omeka S -->
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
-These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). 
+These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). 
 
 Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 

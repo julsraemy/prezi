@@ -28,7 +28,7 @@ Last updated: 22 November 2022
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-### Linked Open Usable Data for Cultural Heritage and Digital Humanities
+## Linked Open Usable Data for Cultural Heritage
 #### <!-- fit --> Perspectives on Semantics and Interoperability
 
 PhD Thesis - https://phd.julsraemy.ch - supervised by: 
@@ -762,5 +762,5 @@ Many thanks to:
 - [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
-These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 

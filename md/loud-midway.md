@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: Linked Open Usable Data (LOUD) for Cultural Heritage and Digital Humanities
+title: Linked Open Usable Data (LOUD) for Cultural Heritage
 description: This presentation is about my PhD Thesis
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
@@ -14,8 +14,8 @@ _paginate: false
 
 <!-- _class: lead -->
 
-#  Linked Open Usable Data for Cultural Heritage and Digital Humanities
-### Perspectives on Semantics and Interoperability
+# <!-- fit -->  Linked Open Usable Data for Cultural Heritage
+#### Perspectives on Semantics and Interoperability
 [Julien A. Raemy](https://julsraemy.ch), PhD Candidate in Digital Humanities
 DHLab, University of Basel
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
@@ -110,11 +110,10 @@ https://phd.julsraemy.ch
 
 # Working title of the dissertation
 
-0. _Deploying a Citizen Science Infrastructure with Linked Open Usable Data Standards_
 0. _Deploying a Citizen Humanities Infrastructure with Linked Open Usable Data (LOUD) Standards: Perspectives on Interoperability and Knowledge Representation_
 0. _Linked Open Usable Data for Citizen Science_
-0. **Linked Open Usable Data for Cultural Heritage and Digital Humanities: Perspectives on Semantics and Interoperability**
-0. ?
+0. _Linked Open Usable Data for Cultural Heritage and Digital Humanities_
+0. **Linked Open Usable Data for Cultural Heritage: Perspectives on Semantics and Interoperability**
 
 <!-- I am mostly happy with the new working title but I like to have one that sticks for the upcoming two years as it greatly helps for the structure. -->
 
@@ -375,5 +374,5 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 - [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
-These images are part of the [photographic archives of the Swiss Society for Folfklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
