@@ -142,4 +142,4 @@ https://iiif.io/api/presentation/3.0/#61-uri-recommendations
 
 ### Image Credits
 - A rectangular detail region of interest (coordinates 2131,4016,1467,948) requested via [IIIF-compliant path elements](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg) from the folio 29 of: _Grande Bible hitoriale complétée. Maître du livre d'heures de Johanette Ravenelle._ 1395-1401. BnF Département des Manuscrits. Français 159. https://gallica.bnf.fr/ark:/12148/btv1b8449691v
-- _[Beton - Brücke]_. Biasca, date unknown. Ernst Brunner. SGV_12N_26488. Swiss Society for Folfklore Studies. CC BY-NC. https://archiv.sgv-sstp.ch/resource/448723
+- _[Beton - Brücke]_. Biasca, date unknown. Ernst Brunner. SGV_12N_26488. Swiss Society for Folklore Studies. CC BY-NC. https://archiv.sgv-sstp.ch/resource/448723
