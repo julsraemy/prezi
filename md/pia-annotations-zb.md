@@ -57,15 +57,56 @@ Developing a Citizen Science platform on the basis of:
 - **SGV_12 Ernst Brunner** - Photojournalism
 
 ---
+
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+### Linked Open Usable Data for Cultural Heritage
+#### <!-- fit --> Perspectives on Semantics and Interoperability
+
+PhD Thesis - https://phd.julsraemy.ch - supervised by: 
+- Peter Fornaro (University of Basel)
+- Walter Leimgruber (University of Basel)
+- Robert Sanderson (Yale University)
+
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
+
+--- 
+
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
-## Something
+## PIA Infrastructure / APIs
+
+At the moment:
+
+- IIIF Image API 3.0
+- IIIF Presentation API 3.0
+- Omeka S API
+
+In the future:
+
+- Linked Art API 1.0
+- IIIF Change Discovery API 1.0
 
 ---
 
 <!-- _footer: " " -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/pia-archi-high-level.jpg)
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+
+## Annotations
+
+- Machine Learning: Leveraging [vitrivr](https://vitrivr.org/) to detect objects
+- From humans: a proof-of-concept still needs to be undertaken
+
+---
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/vitrivr-co-embedding.png)
 
 ---
 
