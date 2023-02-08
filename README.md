@@ -2,6 +2,7 @@
 
  Slide decks created using [Marp](https://marp.app) via [Marp CLI](https://github.com/marp-team/marp-cli):
 
+- 20 February 2023 - [Machine Learning-based Annotations Embedded into IIIF Presentation API 3.0 Resources: Use Case from the PIA Research Project](https://julsraemy.ch/prezi/pia-annotations-zb.html)
 - 1 February 2023 - [PhD Midway Meeting](https://julsraemy.ch/prezi/loud-midway.html)
 - 25 January 2023 - [The intersection of Archival Resource Keys (ARKs) and IIIF resources](https://julsraemy.ch/prezi/ark-iiif.html)
 - 23 November 2022 - [Linked Open Usable Data (LOUD)](https://julsraemy.ch/prezi/loud-rise.html)

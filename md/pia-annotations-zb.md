@@ -29,7 +29,7 @@ DHLab, University of Basel
 
 --- 
 
-<!-- footer: 'Julien A. Raemy | University of Basel' -->
+<!-- footer: 'Julien A. Raemy' -->
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
@@ -90,8 +90,6 @@ In the future:
 
 ---
 
-<!-- _footer: " " -->
-
 ![bg contain](https://julsraemy.ch/prezi/assets/pia-archi-high-level.jpg)
 
 ---
@@ -103,14 +101,19 @@ In the future:
 - Machine Learning: Leveraging [vitrivr](https://vitrivr.org/) to detect objects
 - From humans: a proof-of-concept still needs to be undertaken
 
+The goal is that all these annotation outputs are compatible with the Web Annotation Data Model.
+
 ---
-<!-- _footer: " " -->
 
 ![bg contain](https://julsraemy.ch/prezi/assets/vitrivr-co-embedding.png)
 
 ---
 
-<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/SGV_12N_19783-objects.jpeg)
+
+---
+
 
 ![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_workflow.jpg)
 
@@ -119,17 +122,13 @@ application consumes metadata from our repositories.
 Our main database is managed through Omeka S -->
 
 ---
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
-## Something
+## Presentation API 3.0 Resources
 
+- Manifest: `https://iiif.participatory-archives.ch/<id>/manifest.json`
+- AnnotationPage: `https://iiif.participatory-archives.ch/annotations/<id>-<listid>.json`
 
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
-
-### Something else
-
+Example of a Manifest displayed in our Mirador instance: https://mirador.participatory-archives.ch/?manifest=https://iiif.participatory-archives.ch/SGV_12N_19783/manifest.json
 
 ---
 
