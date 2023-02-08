@@ -63,9 +63,9 @@ Developing a Citizen Science platform on the basis of:
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+<!-- _footer: " " -->
 
-## Something
+![bg contain](https://julsraemy.ch/prezi/assets/pia-archi-high-level.jpg)
 
 ---
 
@@ -127,7 +127,7 @@ Our main database is managed through Omeka S -->
 
 <!-- _footer: " " -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+![bg contain](https://julsraemy.ch/prezi/assets/pia-mirador-anno.png)
 
 <!-- For object comparison, displaying annotations, as well as manipulating images, we decided to opt for Mirador. New cookbook recipes will be integrated into PIA, such as relevant patterns facilitating the display of geographical metadata within or pointing to maps. This monitoring work is indeed simplified as one of us is a member of the IIIF TRC, but a more automated setting without necessarily going through each recipe or the viewer matrix should in our opinion be sought -->
 
