@@ -98,14 +98,10 @@ In the future:
 
 ## Annotations
 
-- Machine Learning: Leveraging [vitrivr](https://vitrivr.org/) to detect objects
+- Machine Learning: Leveraging [vitrivr](https://vitrivr.org/) to detect objects (_Faster R-CNN Inception Resnet V2_)
 - From humans: a proof-of-concept still needs to be undertaken
 
 The goal is that all these annotation outputs are compatible with the Web Annotation Data Model.
-
----
-
-![bg contain](https://julsraemy.ch/prezi/assets/vitrivr-co-embedding.png)
 
 ---
 
