@@ -122,8 +122,29 @@ https://iiif.io/community/
 
 ---
 
+<!-- _footer: "All images come from the Art Institute Chicago's platform and are IIIF-compliant, check the source code" -->
+
+![bg opacity:.4](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
+![bg opacity:.4](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
+![bg opacity:.4](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
+
+# <!-- fit --> Images are fundamental carriers of information
+
+<!-- So why do we need IIIF? Digital images are fundamental carriers of information across the fields of cultural heritage, STEM, and others. They help us understand complex processes through visualization. They grab our attention and help us quickly understand abstract concepts. They help document many the past--and the  present--and preserve it for the future. They are also ubiquitous: we interact with thousands of them every day both in real life and on the web. In short, images are important and we interact with large volumes of them online. 
+
+Image 1: Female Figurine, Chupicuaro, 500/300 B.C
+Image 2: Vision of Saint Gregory, unknown artist, n.d.
+Image 3: Iyo Province: Saijo, Utagawa Hiroshige, 1855
+-->
 
 ---
+
+![bg right:50%](https://julsraemy.ch/prezi/assets/silos.png)
+
+# <!-- fit --> The problem
+#### A world of silos and duplication
+
+Image delivery on the Web has historically been hard, slow, expensive, disjointed, and locked-up in silos.
 
 ---
 
