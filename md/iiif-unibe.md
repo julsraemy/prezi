@@ -160,19 +160,48 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+<!-- _footer: "https://purl.stanford.edu/hs631zg4177" -->
+
+### Deep zoom with large images
+
+![bg contain 60%](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/compare.gif)
+<!-- _footer: "Library of Congress | https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35 " -->
+
+
+### Compare objects
+
+![bg contain 60%](https://julsraemy.ch/prezi/assets/compare.gif)
 
 ---
 
+<!-- _footer: "https://demos.biblissima.fr/chateauroux/demo/" -->
+
+### Reunify
+
+![bg contain 60%](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
+
 ---
+<!-- _footer: "Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library." -->
+
+### Search within
+
+![bg contain 57%](https://julsraemy.ch/prezi/assets/content-search.gif)
 
 ---
 
-<!-- _footer: " " -->
+<!-- _footer: "https://courses.edx.org/courses/course-v1:HarvardX+MCB64.1x+2T2016/d16e07a5cec442eeb7cd9dfcb695dce0/" -->
+
+### Annotate
+
+![bg contain 55%](https://julsraemy.ch/prezi/assets/harvard-anno.gif)
+
+
+---
+
+<!-- _footer: "https://courses.edx.org/courses/course-v1:HarvardX+MCB64.1x+2T2016/d16e07a5cec442eeb7cd9dfcb695dce0/" -->
 
 ![bg contain](https://iiif.io/assets/uploads/ddmal_section.gif)
 
