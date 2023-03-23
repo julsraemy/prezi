@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: The International Image Interoperability Framework (IIIF) - community-driven standards to deliver, view and annotate digital objects
 description: This presentation is about the International Image Interoperability Framework (IIIF) and was given at the University of Bern in April 2023
 keywords: LOUD, IIIF, Web Annotation Data Model, PIA
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png
 url: https://julsraemy.ch/prezi/iiif-unibe.html
 theme: gaia
 class: invert
