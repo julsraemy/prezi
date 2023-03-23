@@ -47,6 +47,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - What does IIIF do?
 - How does IIIF work?
 - Try it yourself
+- Web Annotation Data Model
 - PIA IIIF Annotation Workflow
 
 <!-- footer: 'Julien A. Raemy | IIIF' -->
@@ -177,6 +178,13 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 ---
 
+<!-- _footer: "https://www.theleidencollection.com/viewer/david-and-uriah/" -->
+
+
+![bg contain 75%](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
+
+---
+
 <!-- _footer: "https://demos.biblissima.fr/chateauroux/demo/" -->
 
 ![bg contain 62%](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
@@ -209,22 +217,21 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 ---
 
-<!-- _footer: "http://storiiies.cogapp.com/
-" -->
+<!-- _footer: "http://storiiies.cogapp.com/" -->
 
 ![bg contain 65%](https://julsraemy.ch/prezi/assets/storiiies.gif)
 
 ---
 
-<!-- _footer: " " -->
+<!-- _footer: "https://canvas-panel.netlify.app/#/examples/" -->
 
-![bg contain 74%](https://iiif.io/assets/uploads/ddmal_section.gif)
+![bg contain 65%](https://julsraemy.ch/prezi/assets/oceanlines.gif)
 
 ---
 
 <!-- _footer: "https://ddmal.music.mcgill.ca/IIIF-AV-player/" -->
 
-![bg contain 74%](https://iiif.io/assets/uploads/ddmal_section.gif)
+![bg contain 72%](https://iiif.io/assets/uploads/ddmal_section.gif)
 
 ---
 
@@ -236,6 +243,8 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 ---
 
+<!-- _footer: " " -->
+
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
 
 ---
@@ -244,9 +253,6 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
-
----
 
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 
@@ -313,6 +319,49 @@ https://iiif.io/api/presentation
 
 ---
 
+<!-- _footer: ' ' -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
+
+---
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-tools.png)
+
+
+---
+<!-- _footer: ' ' -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+
+
+---
+
+<!-- _class: lead -->
+
+# <!-- fit --> Try it yourself
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+---
+
+# Exercise
+
+- Find IIIF-compliant resources (`Manifest` or `Collection`)
+- Display them in a IIIF viewer
+- Compare severals IIIF Manifests on Mirador
+
+Guides to find IIIF resources and how to use viewers: https://guides.iiif.io/ 
+
+---
+
+<!-- _class: lead -->
+
+# <!-- fit --> Web Annotation Data Model
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+---
+
+
 ![bg right:40% width:480px](https://julsraemy.ch/prezi/assets/anno-model.png)
 
 # Web Annotation Data Model 
@@ -342,17 +391,67 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 
 <!-- _class: lead -->
 
-# <!-- fit --> Try it yourself
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-
----
-
----
-
-<!-- _class: lead -->
-
 # <!-- fit --> PIA IIIF Annotation Workflow
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+# PIA
+
+[Participatory Knowledge Practices in Analogue and Digital Image Archives](https://about.participatory-archives.ch/)
+
+- Institute for Cultural Anthropology and European Ethnology, University of Basel
+- Digital Humanities Lab, University of Basel
+- Bern Academy of the Arts, Bern University of Applied Sciences
+
+<!-- PIA is a Sinergia project funded by the Swiss National Science Foundation (SNSF) led by the University of Basel, the Uni, the Bern Academy of the Arts, and the Swiss Society for Folklore Studies. PIA wants to connect the world of data and things in an interdisciplinary manner. 
+
+We explore the phases of the analogue and digital archive from the perspectives of cultural anthropology, technology and design. The common goal of this project is to design a visual interface with machine learning-based tools to make it easy to annotate, contextualize, organize, and link both images and their meta-information, to deliberately encourage the participatory use of archives. -->
+
+---
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+#### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
+
+Developing a Citizen Science platform on the basis of:
+
+- **SGV_05 Atlas der Schweizerischen Volkskunde** - Cartography
+- **SGV_10 Familie Kreis** - Vernacular Photography
+- **SGV_12 Ernst Brunner** - Photojournalism
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+
+## PIA Infrastructure / APIs
+
+At the moment:
+
+- IIIF Image API 3.0
+- IIIF Presentation API 3.0
+- Omeka S API
+
+In the future:
+
+- Linked Art API 1.0
+- IIIF Change Discovery API 1.0
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/pia-archi-high-level.jpg)
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+
+## Annotations
+
+- Machine Learning: Leveraging [vitrivr](https://vitrivr.org/) to detect objects (_Faster R-CNN Inception Resnet V2_)
+- From humans: a proof-of-concept still needs to be undertaken
+
+The goal is that all these annotation outputs are compatible with the Web Annotation Data Model.
 
 ---
 
@@ -364,6 +463,15 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 ![bg contain](https://julsraemy.ch/prezi/assets/pia_iiif_workflow.jpg)
 
 <!-- IIIF Workflow within PIA -->
+
+---
+
+## Presentation API 3.0 Resources
+
+- Manifest: `https://iiif.participatory-archives.ch/<id>/manifest.json`
+- AnnotationPage: `https://iiif.participatory-archives.ch/annotations/<id>-<listid>.json`
+
+Example of a Manifest displayed in our Mirador instance: https://mirador.participatory-archives.ch/?manifest=https://iiif.participatory-archives.ch/SGV_12N_19783/manifest.json
 
 ---
 
