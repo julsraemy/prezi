@@ -49,7 +49,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - Try it yourself
 - Annotation Workflow within the PIA research project
 
-<!-- footer: 'Julien A. Raemy | LOUD' -->
+<!-- footer: 'Julien A. Raemy | IIIF - 04.04.2023' -->
 
 ---
 
@@ -60,22 +60,10 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 # <!-- fit --> What is IIIF?
 
 ---
-
-![bg contain](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
-
-
----
-
-
-<!-- _class: lead -->
-
-# <!-- fit --> LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-
----
 ![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
 
-# <!-- fit --> International Image Interoperability Framework
+# <!-- fit --> International Image Interoperability Framework 
+(triple-eye-eff)
 
 - A model for presenting and annotating content
 - A global community that develops shared application programming interfaces (APIs), implements them in software, and exposes interoperable content
@@ -83,6 +71,16 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 https://iiif.io
 
 <!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-map.png)
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+
+
 
 ---
 ![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
