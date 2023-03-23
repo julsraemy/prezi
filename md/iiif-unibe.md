@@ -162,48 +162,69 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 <!-- _footer: "https://purl.stanford.edu/hs631zg4177" -->
 
-### Deep zoom with large images
+![bg contain 80%](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
 
-![bg contain 60%](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+<!-- Deep zoom with large images -->
 
 ---
 
 <!-- _footer: "Library of Congress | https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35 " -->
 
 
-### Compare objects
+![bg contain 80%](https://julsraemy.ch/prezi/assets/compare.gif)
 
-![bg contain 60%](https://julsraemy.ch/prezi/assets/compare.gif)
+<!-- compare images -->
 
 ---
 
 <!-- _footer: "https://demos.biblissima.fr/chateauroux/demo/" -->
 
-### Reunify
+![bg contain 62%](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
 
-![bg contain 60%](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
+<!-- Reunify -->
 
 ---
 <!-- _footer: "Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library." -->
 
-### Search within
+![bg contain 73%](https://julsraemy.ch/prezi/assets/content-search.gif)
 
-![bg contain 57%](https://julsraemy.ch/prezi/assets/content-search.gif)
-
----
-
-<!-- _footer: "https://courses.edx.org/courses/course-v1:HarvardX+MCB64.1x+2T2016/d16e07a5cec442eeb7cd9dfcb695dce0/" -->
-
-### Annotate
-
-![bg contain 55%](https://julsraemy.ch/prezi/assets/harvard-anno.gif)
-
+<!-- Search within -->
 
 ---
 
-<!-- _footer: "https://courses.edx.org/courses/course-v1:HarvardX+MCB64.1x+2T2016/d16e07a5cec442eeb7cd9dfcb695dce0/" -->
+<!-- _footer: "HarvardX: MCB64.1x - Cell Biology: Mitochondria" -->
 
-![bg contain](https://iiif.io/assets/uploads/ddmal_section.gif)
+![bg contain 71%](https://julsraemy.ch/prezi/assets/harvard-anno.gif)
+
+<!-- Annotate -->
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
+
+<!-- Crowdsourcing - National Library of Wales -->
+
+
+---
+
+<!-- _footer: "http://storiiies.cogapp.com/
+" -->
+
+![bg contain 65%](https://julsraemy.ch/prezi/assets/storiiies.gif)
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain 74%](https://iiif.io/assets/uploads/ddmal_section.gif)
+
+---
+
+<!-- _footer: "https://ddmal.music.mcgill.ca/IIIF-AV-player/" -->
+
+![bg contain 74%](https://iiif.io/assets/uploads/ddmal_section.gif)
 
 ---
 
