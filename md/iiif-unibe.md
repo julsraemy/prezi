@@ -49,7 +49,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - Try it yourself
 - PIA IIIF Annotation Workflow
 
-<!-- footer: 'Julien A. Raemy | IIIF - 04.04.2023' -->
+<!-- footer: 'Julien A. Raemy | IIIF' -->
 
 ---
 
@@ -125,6 +125,12 @@ https://iiif.io/community/
 
 ---
 
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/silos-repos.png)
+
+---
+
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
@@ -135,8 +141,9 @@ https://iiif.io/community/
 
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
 
-
 ---
+
+![bg contain](https://julsraemy.ch/prezi/assets/compare.gif)
 
 ---
 
@@ -158,6 +165,7 @@ https://iiif.io/community/
 
 ---
 
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
 
 ---
 
@@ -274,6 +282,11 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 
 # <!-- fit --> PIA IIIF Annotation Workflow
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+---
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/SGV_12N_19783-objects.jpeg)
 
 ---
 
