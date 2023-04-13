@@ -32,8 +32,7 @@ University of Naples, Italy | 8 June 2023
 - Rationale
 - Sociotechnical assemblages
 - Across actor-networks
-- Situating Linked Open Usable Data (LOUD)
-- Discussion
+- Situating IIIF
 
 <!-- footer: 'Julien A. Raemy | The LOUD Social Fabrics of IIIF' -->
 
@@ -47,10 +46,10 @@ University of Naples, Italy | 8 June 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1500,/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 
-### Linked Open Usable Data for Cultural Heritage
-#### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
+## Linked Open Usable Data for Cultural Heritage
+##### Perspectives on Community Practices and Semantic Interoperability
 
 PhD Thesis - https://phd.julsraemy.ch - supervised by: 
 - Peter Fornaro (University of Basel)
@@ -62,13 +61,19 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 --- 
 
-# Through and beyond an ANT Lens
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+
+## Actor-Network Theory (ANT)
+
+Through and beyond an ANT Lens
 
 ---
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 
-# Survey
+## Methods
 
-Characterising the IIIF and Linked Art communities
+- Previous and current investigations
+- Survey on characterising the IIIF and Linked Art communities | finding out the enablers and inhibitors within the IIIF and Linked Art communities/working groups 
 
 
 ---
@@ -112,13 +117,19 @@ Characterising the IIIF and Linked Art communities
 
 ---
 
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+
 how the implementation of IIIF has progressed within cultural heritage institutions and the potential of the framework in relation to scientific movements and principles, such as Open Science, Citizen Science, FAIR as well as CARE
 
 ---
 
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+
 
 
 ---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
 
 ---
@@ -127,15 +138,19 @@ how the implementation of IIIF has progressed within cultural heritage instituti
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
-# <!-- fit --> Situating IIIF with regard to LOUD
+# <!-- fit --> Situating IIIF
+
+---
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+
+
+Over 10 years of IIIF practice
 
 ---
 
-Over 10 ears of IIIF practice
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
----
-
-
+IIIF Strategic Planning
 
 ---
 
