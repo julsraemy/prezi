@@ -5,7 +5,7 @@ title: The LOUD Social Fabrics of IIIF
 description: This presentation is an opportunity to delve into one of my research questions which is related to the practices of IIIF and Linked Art by drawing attention to the social fabrics that constitute these communities notably from the standpoint of the Actor-Network Theory (ANT), a constructivist approach widely spread in Science and Technology Studies (STS) which should help me to better comprehend the roles and relationships of all actors in the implementation of LOUD standards within the cultural heritage domain and more broadly across the Digital Humanities. It was presented at the 2023 IIIF Conference in Naples on 8 June 2023.
 keywords: LOUD, Social Fabrics, IIIF, Linked Art, STS, ANT, Latour
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://julsraemy.ch/prezi/loud-social-fabrics-iiif.html
+url: https://doi.org/10.5281/zenodo.7825411
 theme: gaia
 class: invert
 paginate: true
@@ -15,14 +15,13 @@ _paginate: false
 <!-- _class: lead -->
 
 # The LOUD Social Fabrics of IIIF
-
-
-Julien A. Raemy
-Digital Humanities Lab, University of Basel; DaSCH
+Julien A. Raemy (Digital Humanities Lab, University of Basel; DaSCH)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 
 2023 IIIF Annual Conference
 University of Naples, Italy | 8 June 2023
+
+[![width:400px](https://zenodo.org/badge/DOI/10.5281/zenodo.7825411.svg)](https://doi.org/10.5281/zenodo.7825411)
 
 --- 
 

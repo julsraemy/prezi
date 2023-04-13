@@ -2,6 +2,7 @@
 
  Slide decks created using [Marp](https://marp.app) via [Marp CLI](https://github.com/marp-team/marp-cli):
 
+- 8 June 2023 - [The LOUD Social Fabrics of IIIF](https://julsraemy.ch/prezi/loud-social-fabrics-iiif.html)
 - 4 April 2023 - [The International Image Interoperability Framework (IIIF): community-driven standards to deliver, view and annotate digital objects](https://julsraemy.ch/prezi/iiif-unibe.html)
 - 20 February 2023 - [Machine Learning-based Annotations Embedded into IIIF Presentation API 3.0 Resources: Use Case from the PIA Research Project](https://julsraemy.ch/prezi/pia-annotations-zb.html)
 - 1 February 2023 - [PhD Midway Meeting](https://julsraemy.ch/prezi/loud-midway.html)
