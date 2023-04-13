@@ -260,7 +260,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 - **Image API**
 - **Presentation API**
-- Authentication API
+- Authorization Flow API
 - Change Discovery API
 - Content Search API
 - Content State API
