@@ -60,6 +60,12 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+
+
+
+---
+
 <!-- "Assemblages are relational. " -->
 
 <!-- _footer: " " -->
@@ -73,13 +79,7 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
-# <!-- fit --> Across actor-networks
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
-
-how the implementation of IIIF has progressed within cultural heritage institutions and the potential of the framework in relation to scientific movements and principles, such as Open Science, Citizen Science, FAIR as well as CARE
+# <!-- fit --> LOUD
 
 ---
 
@@ -92,42 +92,28 @@ how the implementation of IIIF has progressed within cultural heritage instituti
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
 
----
-
-<!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-
-
-# <!-- fit --> Situating IIIF
-
----
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
-
-
-Over 10 years of IIIF practice
+...
 
 ---
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
-IIIF Strategic Planning
+...
 
 ---
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
-### Image Credits
-- [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
+### Crédits photographiques
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
 - [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
-These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+Ces images font partie des [archives photographiques de la Société suisse des traditions populaires (SSTP)](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
 
 
