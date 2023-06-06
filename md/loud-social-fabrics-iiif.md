@@ -157,11 +157,18 @@ Translation process: naming those associations. A Relation or association in ANT
 
 _Characterising the IIIF and Linked Art communities_
 
- :hourglass: 24 March to 7 May 2023
- :busts_in_silhouette: 79 Participants
- :memo: Survey report soon to be published
+:hourglass: 24 March to 7 May 2023
+:eight: Sections
+:computer: Google Forms
+:mega: Google Groups (IIIF-Discuss and Linked Art), Slack workspaces, Mailing lists (EuropeanaTech, Humanistica, Swisslib), Mastodon
 
+---
 
+## Some key results
+
+:busts_in_silhouette: 79 participants from 20 countries
+:hammer_and_pick: 52 individuals involved in IIIF or in both communities
+:memo: Survey report soon to be published
 
 ---
 
