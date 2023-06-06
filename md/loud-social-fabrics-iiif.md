@@ -156,7 +156,7 @@ Translation process: naming those associations. A Relation or association in ANT
 ## Survey
 _Characterising the IIIF and Linked Art communities_
 
-![bg contain right](https://julsraemy.ch/prezi/assets/survey_structure.svg)
+![bg contain right](https://julsraemy.ch/prezi/assets/survey_structure.png)
 
 :hourglass: 24 March to 7 May 2023
 :eight: Sections
