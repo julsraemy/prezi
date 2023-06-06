@@ -154,11 +154,11 @@ Translation process: naming those associations. A Relation or association in ANT
 ---
 
 ## Survey
-_Characterising the IIIF and Linked Art communities_
 
 ![bg contain right](https://julsraemy.ch/prezi/assets/survey_structure.svg)
 
 :hourglass: 24 March to 7 May 2023
+:dart: Individuals involved in IIIF and Linked Art, but also people that have heard of the communities/specifications
 :eight: Sections
 :computer: Google Forms
 :mega: Mailing lists, Slack workspaces, Mastodon
@@ -214,10 +214,11 @@ Something about IIIF Practice, Enablers, Inhibitors
 # <!-- fit --> Situating IIIF
 
 ---
+<!-- _class: lead -->
 
-## Movements and principles
+<!-- _footer: " " -->
 
-![bg](https://julsraemy.ch/prezi/assets/iiif_principles.svg)
+![bg contain](http://julsraemy.ch/prezi/assets/iiif_principles.svg)
 
 
 <!-- 
