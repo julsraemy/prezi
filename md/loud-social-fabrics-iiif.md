@@ -26,7 +26,7 @@ University of Naples, Italy | 8 June 2023
 --- 
 
 # Agenda
-![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 - Context
 - Sociotechnical assemblages
@@ -37,7 +37,7 @@ University of Naples, Italy | 8 June 2023
 
 ---
 
-![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 ## What was being sold
 
@@ -46,7 +46,7 @@ University of Naples, Italy | 8 June 2023
 
 ---
 
-![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 ## What you will get
 
@@ -56,14 +56,14 @@ University of Naples, Italy | 8 June 2023
 ---
 
 <!-- _class: lead -->
-![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Context
 
 ---
 
-![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 
 ## Linked Open Usable Data for Cultural Heritage
 ##### Perspectives on Community Practices and Semantic Interoperability
@@ -78,7 +78,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 --- 
 
-![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 
 ### PhD Methodology (some of it)
 
@@ -130,7 +130,7 @@ Translation process: naming those associations. A Relation or association in ANT
 ---
 
 <!-- _class: lead -->
-![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Sociotechnical assemblages
@@ -199,7 +199,7 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ---
 
-![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
 ## Enablers
 
@@ -214,6 +214,8 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ---
 
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
 ## Inhibitors
 
 ---
@@ -225,7 +227,7 @@ Something about involvement and where
 ---
 
 <!-- _class: lead -->
-![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Situating IIIF
@@ -247,14 +249,12 @@ principles. While the number of participants is significant, further exploration
 
 ---
 
-![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
-
 ## With regard to the IIIF Strategic Planning
 
 ---
 
 <!-- _class: lead -->
-![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Takeaways
@@ -271,10 +271,10 @@ principles. While the number of participants is significant, further exploration
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
