@@ -26,7 +26,7 @@ University of Naples, Italy | 8 June 2023
 --- 
 
 # Agenda
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 - Context
 - Sociotechnical assemblages
@@ -37,7 +37,7 @@ University of Naples, Italy | 8 June 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 ## What was being sold
 
@@ -46,7 +46,7 @@ University of Naples, Italy | 8 June 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 ## What you will get
 
@@ -56,14 +56,14 @@ University of Naples, Italy | 8 June 2023
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Context
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 
 ## Linked Open Usable Data for Cultural Heritage
 ##### Perspectives on Community Practices and Semantic Interoperability
@@ -78,9 +78,9 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 --- 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
 
-## PhD Methodology (some of it)
+### PhD Methodology (some of it)
 
 - **Situating Linked Open Usable Data**
     - Systematic Literature Review
@@ -92,7 +92,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 ---
 
-## Surveys
+### Surveys
 
 - IIIF-C Investigations → _rather from an organisational standpoint_
     - 2017 IIIF Basic and Extended Adopters Surveys
@@ -106,7 +106,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 ---
 
 
-## Actor-Network Theory (ANT)
+### Actor-Network Theory (ANT)
 
 > *Actor-Network Theory aims at describing the very nature of societies. But to do so it does not limit itself to human individual actors, but extent the word actor - or actant - to non-human, non-individual entities.* [Latour 1996](https://www.jstor.org/stable/40878163)
 
@@ -130,7 +130,7 @@ Translation process: naming those associations. A Relation or association in ANT
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Sociotechnical assemblages
@@ -174,35 +174,34 @@ Translation process: naming those associations. A Relation or association in ANT
 
 ![bg contain right](https://julsraemy.ch/prezi/assets/survey_map.png)
 
-:busts_in_silhouette: 79 participants from 20 countries  — 23 :us:, 12 :switzerland:, 9 :gb:, 7 :fr:, 6 :de:, 3 :belgium:/:ireland:, 2 :brazil:/:canada:/:mexico:
+:busts_in_silhouette: 79 participants from 20 countries
 :mortar_board: 66 individuals (83.5%) with at least a Master's degree
 :hammer_and_pick: 52 individuals (65.8%) involved in IIIF or in both communities
-:classical_building: 33 people from the GLAM sector and 26 from Academia
+:transgender_symbol: 50 Males (63.3%), 26 Females (32.9%)
+:classical_building: 33 GLAM, 26 Academia
 
----
+<!--
+79 participants from 20 countries  — 23 :us:, 12 :switzerland:, 9 :gb:, 7 :fr:, 6 :de:, 3 :belgium:/:ireland:, 2 :brazil:/:canada:/:mexico:
 
-## Across actor-networks
+Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say (3.8%)
 
-Something about involvement and where
+ -->
 
 ---
 
 ## Practices
 
-<!-- 
+
 - Asking the IIIF community or other participants often goes hand in hand with using the IIIF Slack for help and discussion.
-- Consulting IIIF websites and referring to documentation, GitHub or specific tools are common practices.
+- Consulting the IIIF website and referring to documentation, GitHub or specific tools are common practices.
 - Collaborating with experts within their organisation is often mentioned alongside seeking help from developers.
 - Reaching out to regional or local IIIF communities/events sometimes complements other practices.
 
--->
-
-
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
-## Enablers and Inhibitors
+## Enablers
 
 <!-- 
 
@@ -215,8 +214,18 @@ Something about involvement and where
 
 ---
 
+## Inhibitors
+
+---
+
+## Across actor-networks
+
+Something about involvement and where
+
+---
+
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Situating IIIF
@@ -238,14 +247,14 @@ principles. While the number of participants is significant, further exploration
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg right:30%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
 ## With regard to the IIIF Strategic Planning
 
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Takeaways
@@ -262,10 +271,10 @@ principles. While the number of participants is significant, further exploration
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](http://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
