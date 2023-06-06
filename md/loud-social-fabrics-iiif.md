@@ -174,11 +174,10 @@ Translation process: naming those associations. A Relation or association in ANT
 
 ![bg contain right](https://julsraemy.ch/prezi/assets/survey_map.png)
 
-:busts_in_silhouette: 79 participants from 20 countries 
-23 :us:, 12 :switzerland:, 9 :gb:, 7 :fr:, 6 :de:, 3 :belgium: / :ireland:, 2 :brazil: / :canada: / :mexico:
-:mortar_board: 66 individuals (83.5%) at least a Master's degree
+:busts_in_silhouette: 79 participants from 20 countries  — 23 :us:, 12 :switzerland:, 9 :gb:, 7 :fr:, 6 :de:, 3 :belgium:/:ireland:, 2 :brazil:/:canada:/:mexico:
+:mortar_board: 66 individuals (83.5%) with at least a Master's degree
 :hammer_and_pick: 52 individuals (65.8%) involved in IIIF or in both communities
-
+:classical_building: 33 people from the GLAM sector and 26 from Academia
 
 ---
 
