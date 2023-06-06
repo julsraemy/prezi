@@ -90,6 +90,15 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
     - Observations
     - Survey
 
+<!-- 
+
+Some of the methods that I leverage for my PhD thesis...
+
+
+Linked Art is an RDF application of the CIDOC Conceptual Reference Model using JSON-LD and the Getty vocabularies to describe cultural heritage objects and it's also a dedicated community.
+
+-->
+
 ---
 
 ### Surveys
@@ -203,12 +212,15 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ## Enablers
 
+:white_check_mark: Inclusive and collaborative nature
+:white_check_mark: Interoperable APIs and compatible implementations
+:white_check_mark: Openness and friendliness
+:white_check_mark: Commitment to providing resources and addressing needs
+
 <!-- 
 
 - The IIIF community's success stems from its inclusive and collaborative nature, the availability of interoperable APIs and compatible implementations, its openness and friendliness, and its commitment to providing resources and addressing specific needs.
-- Time constraints emerged as the primary barrier, with some participants (11) expressing a lack of time to engage more actively. The technical nature of IIIF was also mentioned as a barrier, with some individuals finding it challenging to grasp the terminology and complexities quickly. Limited technical knowledge and the steep learning curve were cited as additional obstacles to entry (6). Some participants highlighted the importance of in-person meetings for community building and specification development but noted the high costs associated with organising and attending such events (2). Lack of support from employers beyond a certain point and the perception of community work as separate from job responsibilities were mentioned as barriers to deeper involvement (3).
-- participants praised the IIIF community for its welcoming and generous attitude, successful implementation of the standard, and effective management structure. Suggestions for improvement included better communication, emphasis on accessibility, and simpler implementation methods.
-- Multiple dependencies
+- participants praised the IIIF community for its welcoming and generous attitude, successful implementation of the standard, and effective management structure.
 
 -->
 
@@ -217,6 +229,21 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 ## Inhibitors
+
+:no_entry: Time constraints for participants
+:no_entry: Technical complexity and learning curve
+:no_entry: High costs of in-person meetings
+:no_entry: Lack of employer support and recognition of community work
+
+
+<!-- 
+
+Time constraints emerged as the primary barrier, with some participants (11) expressing a lack of time to engage more actively. The technical nature of IIIF was also mentioned as a barrier, with some individuals finding it challenging to grasp the terminology and complexities quickly. Limited technical knowledge and the steep learning curve were cited as additional obstacles to entry (6). Some participants highlighted the importance of in-person meetings for community building and specification development but noted the high costs associated with organising and attending such events (2). Lack of support from employers beyond a certain point and the perception of community work as separate from job responsibilities were mentioned as barriers to deeper involvement (3).
+
+Suggestions for improvement included better communication, emphasis on accessibility, and simpler implementation methods.
+- Multiple dependencies
+
+-->
 
 ---
 
