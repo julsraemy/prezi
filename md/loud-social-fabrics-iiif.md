@@ -200,11 +200,17 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ## Practices
 
-
 - Asking the IIIF community or other participants often goes hand in hand with using the IIIF Slack for help and discussion.
 - Consulting the IIIF website and referring to documentation, GitHub or specific tools are common practices.
 - Collaborating with experts within their organisation is often mentioned alongside seeking help from developers.
 - Reaching out to regional or local IIIF communities/events sometimes complements other practices.
+
+
+<!-- 
+
+Participants frequently uses a combination of tools, such as image viewers (Mirador, UV), validators, documentation resources, and community platforms (Slack, GitHub). The IIIF specifications website, IIIF Awesome, and various training materials were also mentioned as valuable resources. The range of tools and services mentioned reflects the diverse needs and interests of the IIIF community, supporting collaboration, research, and implementation of IIIF specifications.
+
+-->
 
 ---
 
