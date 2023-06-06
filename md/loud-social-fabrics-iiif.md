@@ -37,6 +37,7 @@ University of Naples, Italy | 8 June 2023
 
 ---
 
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 ## What was being sold
 
@@ -44,6 +45,8 @@ University of Naples, Italy | 8 June 2023
 2. Exploring how the implementation of IIIF has progressed within cultural heritage institutions and the potential of the framework in relation to scientific movements and principles
 
 ---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 ## What you will get
 
@@ -75,13 +78,15 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 
 --- 
 
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+
 ## PhD Methodology (some of it)
 
-- **Situating Linked Open Usable Data (LOUD)**
+- **Situating Linked Open Usable Data**
     - Systematic Literature Review
     - Interviews
 - **The Social Fabrics of IIIF and Linked Art** 
-    - Analysing "primary" data (GitHub issues and call minutes)
+    - Analysing "primary" data (GitHub issues, call minutes)
     - Observations
     - Survey
 
@@ -165,11 +170,13 @@ Translation process: naming those associations. A Relation or association in ANT
 
 ---
 
-## Some key results
+## Who participated?
 
-:busts_in_silhouette: 79 participants from 20 countries
+![bg contain right](https://julsraemy.ch/prezi/assets/survey_map.png)
+
+:busts_in_silhouette: 79 participants from 20 countries 
+23 :us:, 12 :switzerland:, 9 :gb:, 7 :fr:, 6 :de:, 3 :belgium: / :ireland:, 2 :brazil: / :canada: / :mexico:
 :hammer_and_pick: 52 individuals involved in IIIF or in both communities
-:memo: Survey report soon to be published
 
 ---
 
@@ -247,6 +254,8 @@ principles. While the number of participants is significant, further exploration
 ## Pinning down the (LOUD) social fabrics of the (wider) IIIF community
 
 
+
+:memo: Survey report soon to be published
 
 ---
 
