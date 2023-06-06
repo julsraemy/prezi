@@ -176,13 +176,15 @@ Translation process: naming those associations. A Relation or association in ANT
 
 :busts_in_silhouette: 79 participants from 20 countries 
 23 :us:, 12 :switzerland:, 9 :gb:, 7 :fr:, 6 :de:, 3 :belgium: / :ireland:, 2 :brazil: / :canada: / :mexico:
-:hammer_and_pick: 52 individuals involved in IIIF or in both communities
+:mortar_board: 66 individuals (83.5%) at least a Master's degree
+:hammer_and_pick: 52 individuals (65.8%) involved in IIIF or in both communities
+
 
 ---
 
 ## Across actor-networks
 
-Something about IIIF Practice, Enablers, Inhibitors
+Something about involvement and where
 
 ---
 
