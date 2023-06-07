@@ -200,13 +200,7 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 <!-- _footer: " " -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/survey_communities.svg)
-
----
-
-<!-- _footer: " " -->
-
-![bg contain](http://julsraemy.ch/prezi/assets/survey_heatmap.svg)
+![bg contain](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
 
 ---
 
@@ -276,7 +270,7 @@ Suggestions for improvement included better communication, emphasis on accessibi
 
 <!-- _footer: " " -->
 
-![bg contain](http://julsraemy.ch/prezi/assets/iiif_principles.svg)
+![bg contain](https://julsraemy.ch/prezi/assets/iiif_principles.svg)
 
 
 <!-- 
