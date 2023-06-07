@@ -198,12 +198,24 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ---
 
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/survey_communities.svg)
+
+---
+
+## Across actor-networks
+
+![bg contain](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
+
+---
+
 ## Practices
 
 - Asking the IIIF community or other participants often goes hand in hand with using the IIIF Slack for help and discussion.
 - Consulting the IIIF website and referring to documentation, GitHub or specific tools are common practices.
 - Collaborating with experts within their organisation is often mentioned alongside seeking help from developers.
-- Reaching out to regional or local IIIF communities/events sometimes complements other practices.
+- Reaching out to regional or local IIIF communities/events sometimes complements other practices.2 
 
 
 <!-- 
@@ -253,12 +265,6 @@ Suggestions for improvement included better communication, emphasis on accessibi
 
 ---
 
-## Across actor-networks
-
-Something about involvement and where
-
----
-
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
@@ -282,9 +288,6 @@ principles. While the number of participants is significant, further exploration
 
 ---
 
-## With regard to the IIIF Strategic Planning
-
----
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
@@ -292,13 +295,27 @@ principles. While the number of participants is significant, further exploration
 
 # <!-- fit --> Takeaways
 
+Pinning down the (LOUD) social fabrics of IIIF in relation to the Strategic Planning
+
 ---
 
-## Pinning down the (LOUD) social fabrics of the (wider) IIIF community
+## Advocacy & Leadership
 
+- sdsdf
 
+## Technical Development
 
-:memo: Survey report soon to be published
+- Maintaining widely used IIIF-compliant viewers (Mirador, UV) is crucial for the success of the IIIF Community. 
+
+---
+
+## Community Development
+
+- The IIIF community is growing and evolving with new members joining regularly, while some long-standing members remain involved. However, newer individuals who joined in the past four to five years are not actively participating, particularly in TSGs. 
+
+## Membership & Value
+
+- sdf 
 
 ---
 
