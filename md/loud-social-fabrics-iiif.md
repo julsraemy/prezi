@@ -215,7 +215,7 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 - Asking the IIIF community or other participants often goes hand in hand with using the IIIF Slack for help and discussion.
 - Consulting the IIIF website and referring to documentation, GitHub or specific tools are common practices.
 - Collaborating with experts within their organisation is often mentioned alongside seeking help from developers.
-- Reaching out to regional or local IIIF communities/events sometimes complements other practices.2 
+- Reaching out to regional or local IIIF communities/events sometimes complements other practices.
 
 
 <!-- 
