@@ -23,18 +23,6 @@ University of Naples, Italy | 8 June 2023
 
 [![width:400px](https://zenodo.org/badge/DOI/10.5281/zenodo.7825411.svg)](https://doi.org/10.5281/zenodo.7825411)
 
---- 
-
-# Agenda
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
-
-- Context
-- Sociotechnical assemblages
-- Situating IIIF
-- Takeaways
-
-<!-- footer: 'Julien A. Raemy | The LOUD Social Fabrics of IIIF' -->
-
 ---
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
@@ -43,6 +31,8 @@ University of Naples, Italy | 8 June 2023
 
 1. Identifying the sociotechnical requirements for the establishment of community-driven initiatives
 2. Exploring how the implementation of IIIF has progressed within cultural heritage institutions and the potential of the framework in relation to scientific movements and principles
+
+<!-- footer: 'Julien A. Raemy | The LOUD Social Fabrics of IIIF' -->
 
 ---
 
@@ -88,7 +78,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 - **The Social Fabrics of IIIF and Linked Art** 
     - Analysing "primary" data (GitHub issues, call minutes)
     - Observations
-    - Survey
+    - Survey → _Characterising the IIIF and Linked Art communities_
 
 <!-- 
 
@@ -98,19 +88,6 @@ Some of the methods that I leverage for my PhD thesis...
 Linked Art is an RDF application of the CIDOC Conceptual Reference Model using JSON-LD and the Getty vocabularies to describe cultural heritage objects and it's also a dedicated community.
 
 -->
-
----
-
-### Surveys
-
-- IIIF-C Investigations → _rather from an organisational standpoint_
-    - 2017 IIIF Basic and Extended Adopters Surveys
-    - 2020 and 2023 IIIF Implementation Surveys
-
-- My own investigation → _rather at an individual level_
-    - 2023 Survey on characterising the IIIF and Linked Art communities
-
- <!-- macro/micro-level: not in my garden!  -->
 
 ---
 
@@ -146,15 +123,7 @@ Translation process: naming those associations. A Relation or association in ANT
 
 ---
 
-<!-- _footer: 'https://bit.ly/iiifmap' -->
-
-![bg contain 89%](https://julsraemy.ch/prezi/assets/iiif-map.png)
-
----
-
 ![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
-
-
 
 ---
 
@@ -174,8 +143,8 @@ Translation process: naming those associations. A Relation or association in ANT
 :hourglass: 24 March to 7 May 2023
 :dart: Individuals involved in IIIF and Linked Art, but also people that have heard of the communities/specifications
 :eight: Sections
-:computer: Google Forms
 :mega: Mailing lists, Slack workspaces, Mastodon
+:memo: Report to be soon published
 
 ---
 
@@ -202,19 +171,26 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ![bg contain](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
 
+<!-- 
+
+1) Belonging to a given commnity - before 2011
+2) People that have been active prior to 2021 tend to be more active
+
+-->
+
 ---
 
 ## Practices
 
-- Asking the IIIF community or other participants often goes hand in hand with using the IIIF Slack for help and discussion.
-- Consulting the IIIF website and referring to documentation, GitHub or specific tools are common practices.
+- Asking the IIIF community or other participants often goes hand in hand with using the **IIIF Slack** for help and discussion.
+- Consulting the **IIIF website** and referring to documentation, **GitHub** or specific tools are common practices.
 - Collaborating with experts within their organisation is often mentioned alongside seeking help from developers.
-- Reaching out to regional or local IIIF communities/events sometimes complements other practices.
+
 
 
 <!-- 
 
-Participants frequently uses a combination of tools, such as image viewers (Mirador, UV), validators, documentation resources, and community platforms (Slack, GitHub). The IIIF specifications website, IIIF Awesome, and various training materials were also mentioned as valuable resources. The range of tools and services mentioned reflects the diverse needs and interests of the IIIF community, supporting collaboration, research, and implementation of IIIF specifications.
+Participants frequently uses a combination of tools, such as image viewers (Mirador, UV), validators, documentation resources, and community platforms (Slack, GitHub). The IIIF specifications website, IIIF Awesome, and various training materials were also mentioned as valuable resources. The range of tools and services mentioned reflects the diverse needs and interests of the IIIF community. Also it marks all the dependecies.
 
 -->
 
@@ -282,6 +258,24 @@ principles. While the number of participants is significant, further exploration
 
 ---
 
+## IIIF and Linked Art
+
+- Both communities prioritise usable linked data (LOUD) by emphasising open API adoption.
+- Common individuals play important roles in both initiatives.
+- They collaborate on standards, development and meetings, fostering a culture of community-led work and shared knowledge.
+- IIIF has expanded into various domains, while Linked Art remains focused on art-related objects for a smaller audience.
+
+<!-- 
+
+- Both communities prioritise usability and the creation of usable linked data (or Linked Open Usable Data), with a shared emphasis on the adoption of APIs
+- There is recognition of the common involvement of individuals who play a significant role in both initiatives. 
+- They share a collaborative approach to standards, development, and meetings, fostering a culture of community-led work and shared knowledge.
+- IIIF has expanded beyond cultural heritage, branching out into other areas due to its generic and applicable technology. In contrast, Linked Art remains primarily focused on art-related objects, catering to a smaller audience.
+
+-->
+
+---
+
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
@@ -289,7 +283,7 @@ principles. While the number of participants is significant, further exploration
 
 # <!-- fit --> Takeaways
 
-Pinning down the (LOUD) social fabrics of IIIF in relation to the Strategic Planning
+Pinning down the social fabrics of the wider IIIF community in relation to the IIIF Strategic Planning
 
 ---
 
