@@ -204,9 +204,9 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ---
 
-## Across actor-networks
+<!-- _footer: " " -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
+![bg contain](http://julsraemy.ch/prezi/assets/survey_heatmap.svg)
 
 ---
 
@@ -301,11 +301,18 @@ Pinning down the (LOUD) social fabrics of IIIF in relation to the Strategic Plan
 
 ## Advocacy & Leadership
 
-- sdsdf
+- The survey did not adequately address this particular issue, highlighting the need for further investigations.
 
 ## Technical Development
 
-- Maintaining widely used IIIF-compliant viewers (Mirador, UV) is crucial for the success of the IIIF Community. 
+- The success of the IIIF Community relies heavily on the maintenance of essential IIIF-compliant viewers such as Mirador and UV. With an increasing number of individuals depending on these software tools, their continuous upkeep becomes absolutely vital.
+
+<!-- 
+
+Advocacy and Leadership: The interviews conducted within the launch of the LUX platform have yielded valuable insights that could potentially serve as a model or framework for similar contexts, despite not being directly related to IIIF.
+
+-->
+
 
 ---
 
@@ -315,7 +322,7 @@ Pinning down the (LOUD) social fabrics of IIIF in relation to the Strategic Plan
 
 ## Membership & Value
 
-- sdf 
+-  An area that demands significant attention is the aspect of costs associated with in-person meetings, along with the inadequate employer support in engaging with the IIIF community.
 
 ---
 
