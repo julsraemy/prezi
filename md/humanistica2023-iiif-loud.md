@@ -104,12 +104,15 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 # Les protocoles IIIF
 
+_Interfaces de programmation applicatives (API)_
 - **Image API**
 - **Presentation API**
 - Authorization Flow API
 - Change Discovery API
 - Content Search API
 - Content State API
+
+<!-- _footer: "https://iiif.io/api" -->
 
 ---
 
