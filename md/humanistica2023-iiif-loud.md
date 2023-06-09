@@ -46,7 +46,7 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
-## LOD
+## Linked Open Data (LOD)
 
 ![bg width:900px](https://5stardata.info/images/5-star-steps.png)
 
@@ -65,12 +65,12 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 ---
 
 <!-- _class: lead -->
-![bg width:500px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
-![bg contain](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+![bg width:460px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+![bg width:520px](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 ---
 
-![bg right:42% contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+![bg right:48% contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
 
 #### International Image Interoperability Framework
 
@@ -93,20 +93,24 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
-## Comment fonctionne IIIF?
-
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
 
 ---
 
-![bg right:25% contain](https://julsraemy.ch/prezi/assets/la-model.svg)
+![bg right:46% contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
 ## Linked Art
 
-- Initiative communautaire / groupe de travail approuvé par le comité international pour la documentation (CIDOC)
-- Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF publiée de CIDOC-CRM
-- Règles (patterns)
+- Initiative communautaire / groupe de travail du CIDOC
+- Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF publiée de CIDOC-CRM 7.1 + extensions
+- Sérialisation en JSON-LD, utilisation des vocabulaires Getty (AAT, ULAN, TGN)
+
+<!-- 
+
+- Règles/Patterns
 - Intégration facilitée d’objets et services numériques
+
+-->
 
 <!-- _footer: "https://linked.art" -->
 
