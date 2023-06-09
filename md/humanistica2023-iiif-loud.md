@@ -59,6 +59,8 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 - Le LOD est trop axé sur la publication de données. Nos données doivent être réutilisées pour avoir un sens et de la valeur.
 - Le Linked Open Usable Data (LOUD) cherche un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
+    - Cinq principes de conception (_design principles_)
+    - Standards : IIIF Presentation API 3.0, Linked Art API, Web Annotation Data Model
 
 <!-- _footer: "https://linked.art/loud" -->
 
@@ -97,13 +99,27 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
+
+![bg right:46% width:400px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+# Les protocoles IIIF
+
+- **Image API**
+- **Presentation API**
+- Authorization Flow API
+- Change Discovery API
+- Content Search API
+- Content State API
+
+---
+
 ![bg right:46% contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
 ## Linked Art
 
 - Initiative communautaire / groupe de travail du CIDOC
-- Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF publiée de CIDOC-CRM 7.1 + extensions
-- Sérialisation en JSON-LD, utilisation des vocabulaires Getty (AAT, ULAN, TGN)
+- Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF CIDOC-CRM 7.1
+- Modèle et API : sérialisation en JSON-LD, utilisation des vocabulaires Getty (AAT, ULAN, TGN)
 
 <!-- 
 
@@ -131,7 +147,7 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
-Video recording of LUX
+Video recording or screenshot of LUX
 
 
 <!-- 
