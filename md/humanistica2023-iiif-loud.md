@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: Les protocoles IIIF et les données ouvertes liées et utilisables (LOUD)
+title: Les données ouvertes liées et utilisables (LOUD) — Les protocoles IIIF et Linked Art 
 description: Cette présentation est réalisée dans le cadre d'une table ronde intitulée 'Ouvrir les musées au(x) numérique(s)' lors de la conférence Humanistica 2023 à Genève
 keywords: LOUD, IIIF, Humanités numériques, Musées
 image: https://julsraemy.ch/assets/images/portrait-px.png
@@ -14,8 +14,10 @@ _paginate: false
 
 <!-- _class: lead -->
 
-# Les protocoles IIIF et les données ouvertes liées et utilisables (LOUD)
-Julien A. Raemy (Digital Humanities Lab, Université de Bâle; DaSCH)
+# Les données ouvertes liées et utilisables (LOUD)
+### Les protocoles IIIF et Linked Art
+Julien A. Raemy 
+(Digital Humanities Lab, Université de Bâle; DaSCH)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 
 Humanistica 2023 | Ouvrir les musées au(x) numérique(s) 
@@ -24,10 +26,8 @@ Musée d'Art et d'Histoire de Genève | 26 Juin 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
-
-## Linked Open Usable Data for Cultural Heritage
-##### Perspectives on Community Practices and Semantic Interoperability
+# Linked Open Usable Data for Cultural Heritage
+### Perspectives on Community Practices and Semantic Interoperability
 
 Thèse de doctorat - https://phd.julsraemy.ch - encadré par : 
 - Peter Fornaro (University of Basel)
@@ -35,43 +35,6 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 - Robert Sanderson (Yale University)
 
 <!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
-
----
-
-
-
-<!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-
-
-# <!-- fit --> IIIF
-
----
-
-<!-- _footer: 'https://bit.ly/iiifmap' -->
-
-![bg contain 89%](https://julsraemy.ch/prezi/assets/iiif-map.png)
-
----
-
-![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
-
-
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
-
-
-
----
-
-<!-- "Assemblages are relational. " -->
-
-<!-- _footer: " " -->
-
-![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
-
 
 ---
 
@@ -83,37 +46,101 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+## LOD
 
+![bg width:900px](https://5stardata.info/images/5-star-steps.png)
+
+<!-- _footer: "https://5stardata.info/" -->
+
+---
+
+## LOUD 
+
+
+- Le LOD est trop axé sur la publication de données. Nos données doivent être réutilisées pour avoir un sens et de la valeur.
+- Le Linked Open Usable Data (LOUD) cherche un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
+
+<!-- _footer: "https://linked.art/loud" -->
+
+---
+
+<!-- _class: lead -->
+![bg width:500px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+![bg contain](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
+---
+
+![bg right:42% contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+
+#### International Image Interoperability Framework
+
+- Un modèle pour la présentation et annotation d’objets numériques
+- Une communauté, qui développe des API partagées, les implémentent dans des logiciels et exposent des contenus interopérables sur le Web
+
+
+
+<!-- _footer: "https://iiif.io" -->
+
+<!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
+
+---
+
+<!-- _footer: "https://www.theleidencollection.com/viewer/david-and-uriah/" -->
+
+
+![bg contain 75%](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
 
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+## Comment fonctionne IIIF?
 
-
-...
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
-
-...
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
 
 ---
 
-<!-- _footer: " " -->
+![bg right:25% contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+## Linked Art
 
-### Crédits photographiques
-- [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
-- [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
-- ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
+- Initiative communautaire / groupe de travail approuvé par le comité international pour la documentation (CIDOC)
+- Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF publiée de CIDOC-CRM
+- Règles (patterns)
+- Intégration facilitée d’objets et services numériques
 
-Ces images font partie des [archives photographiques de la Société suisse des traditions populaires (SSTP)](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+<!-- _footer: "https://linked.art" -->
+
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
+
+<!-- Linked Art and IIIF -->
+
+---
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+
+# <!-- fit --> LUX
+
+---
+
+Video recording of LUX
+
+
+<!-- 
+
+• Briser les silos (techniques) au sein de communautés (IIIF, Linked Art)
+• LOUD comme langage commun entre les institutions du patrimoine culturel et les scientifiques
+• Ne pas être seulement sur le web, en faire parti
+• LOD + API JSON(-LD) pour se faire comprendre de plusieurs publics
+
+-->
+
+<!-- _footer: "https://lux.collections.yale.edu/" -->
+
 
 
 
