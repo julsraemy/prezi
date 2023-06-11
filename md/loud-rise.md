@@ -922,7 +922,7 @@ Black and White Negative modelled as a `DigitalObject`
 
 <!-- _footer: " " -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
+![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
 
 <!-- Linked Art and IIIF -->
 
