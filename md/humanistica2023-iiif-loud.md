@@ -67,7 +67,7 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 ---
 
 <!-- _class: lead -->
-![bg width:460px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+![bg width:460px](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
 ![bg width:520px](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 ---
@@ -84,6 +84,14 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 <!-- _footer: "https://iiif.io" -->
 
 <!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
+
+---
+
+<!-- _footer: "https://purl.stanford.edu/hs631zg4177" -->
+
+![bg contain 80%](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+
+<!-- Deep zoom with large images -->
 
 ---
 
@@ -136,7 +144,11 @@ _Interfaces de programmation applicatives (API)_
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.png)
+![bg contain](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
 
 <!-- Linked Art and IIIF -->
 
