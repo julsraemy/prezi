@@ -100,11 +100,6 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ![bg contain 75%](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
 
-
----
-
-![bg contain](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
-
 ---
 
 
@@ -162,7 +157,7 @@ Yale Collections Discovery
 
 ---
 
-Video recording or screenshot of LUX
+![bg contain 80%](https://julsraemy.ch/prezi/assets/lux-demo.mp4)
 
 
 <!-- 
