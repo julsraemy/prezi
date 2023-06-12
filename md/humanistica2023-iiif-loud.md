@@ -67,14 +67,14 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 ---
 
 <!-- _class: lead -->
-![bg width:460px](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
-![bg width:520px](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+![bg 92%](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
+![bg 50%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 ---
 
-![bg right:48% contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+![bg right:44% contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
 
-#### International Image Interoperability Framework
+##### International Image Interoperability Framework (IIIF)
 
 - Un modèle pour la présentation et annotation d’objets numériques
 - Une communauté, qui développe des API partagées, les implémentent dans des logiciels et exposent des contenus interopérables sur le Web
@@ -108,11 +108,10 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 ---
 
 
-![bg right:46% contain](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
+![bg right:60% contain](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
 
-# Les protocoles IIIF
+#### Les protocoles IIIF
 
-_Interfaces de programmation applicatives (API)_
 - **Image API**
 - **Presentation API**
 - Authorization Flow API
@@ -124,13 +123,13 @@ _Interfaces de programmation applicatives (API)_
 
 ---
 
-![bg right:46% contain](https://julsraemy.ch/prezi/assets/la-model.svg)
+![bg right:54% contain](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
 
 ## Linked Art
 
 - Initiative communautaire / groupe de travail du CIDOC
 - Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF CIDOC-CRM 7.1
-- Modèle et API : sérialisation en JSON-LD, utilisation des vocabulaires Getty (AAT, ULAN, TGN)
+- Modèle et API : JSON-LD, vocabulaires Getty
 
 <!-- 
 
@@ -144,7 +143,7 @@ _Interfaces de programmation applicatives (API)_
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+![bg contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
 ---
 
