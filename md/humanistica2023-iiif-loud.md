@@ -158,7 +158,7 @@ Yale Collections Discovery
 
 ---
 
-![bg contain 80%](https://julsraemy.ch/prezi/assets/lux-demo.webm)
+![bg contain 80%](https://julsraemy.ch/prezi/assets/lux-demo.gif)
 
 
 <!-- 
