@@ -170,7 +170,7 @@ Yale Collections Discovery
 
 -->
 
-<!-- _footer: "https://lux.collections.yale.edu/" -->
+<!-- _footer: "LUX : https://lux.collections.yale.edu/ — [Lien pour une meilleure qualité de la vidéo](https://julsraemy.ch/prezi/assets/lux-demo.webm)"-->
 
 
 
