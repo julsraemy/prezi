@@ -23,7 +23,7 @@ Julien A. Raemy
 Humanistica 2023 | Ouvrir les musées au(x) numérique(s) 
 Musée d'Art et d'Histoire de Genève | 26 Juin 2023
 
-[![width:400px](https://zenodo.org/badge/DOI/10.5281/zenodo.8027955.svg)](https://doi.org/10.5281/zenodo.8027955)
+[![width:400px](https://zenodo.org/badge/DOI/10.5281/zenodo.8027954.svg)](https://doi.org/10.5281/zenodo.8027954)
 
 ---
 
@@ -170,7 +170,7 @@ Yale Collections Discovery
 
 -->
 
-<!-- _footer: "LUX : https://lux.collections.yale.edu/ — [Lien pour une meilleure qualité de la vidéo](https://julsraemy.ch/prezi/assets/lux-demo.webm)"-->
+<!-- _footer: "LUX : https://lux.collections.yale.edu/ — [Lien vers une résolution optimisée de la vidéo](https://julsraemy.ch/prezi/assets/lux-demo.webm)"-->
 
 
 
