@@ -25,7 +25,8 @@ Musée d'ethnographie de Genève | 31 août 2023
 ---
 
 # Linked Open Usable Data for Cultural Heritage
-### Perspectives on Community Practices and Semantic Interoperability
+#### Perspectives on Community Practices and Semantic Interoperability
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
 Thèse de doctorat - https://phd.julsraemy.ch - encadré par : 
 - Peter Fornaro (University of Basel)
@@ -36,37 +37,40 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
+# Déroulement
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+
+- Qu'est-ce qu'une API ?
+- International Image Interoperability Framework (IIIF)
+- Linked Art
+- Les principes de conception
+- Un écosystème LOUD
+- LUX
+
+---
+
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
-
-# <!-- fit --> LOUD
-
----
-
-## Linked Open Data (LOD)
-
-![bg width:900px](https://5stardata.info/images/5-star-steps.png)
-
-<!-- _footer: "https://5stardata.info/" -->
+# <!-- fit --> Qu'est-ce qu'une API?
+Interface de programmation applicative
+_Application programming interface_
 
 ---
-
-## LOUD 
-
-
-- Le LOD est trop axé sur la publication de données. Nos données doivent être réutilisées pour avoir un sens et de la valeur.
-- Le Linked Open Usable Data (LOUD) cherche un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
-    - Cinq principes de conception (_design principles_)
-    - Standards : IIIF Presentation API 3.0, Linked Art API, Web Annotation Data Model
-
-<!-- _footer: "https://linked.art/loud" -->
 
 ---
 
 <!-- _class: lead -->
 ![bg 92%](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
-![bg 50%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
+--- 
+
+---
+
+<!-- _class: lead -->
+![bg 60%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
+---
 
 ---
 
@@ -146,9 +150,40 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
+
+---
+
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
+
+# <!-- fit --> LOUD
+Linked Open Usable Data
+
+---
+
+## Linked Open Data (LOD)
+
+![bg width:900px](https://5stardata.info/images/5-star-steps.png)
+
+<!-- _footer: "https://5stardata.info/" -->
+
+---
+
+## LOUD 
+
+
+- Le LOD est trop axé sur la publication de données. Nos données doivent être réutilisées pour avoir un sens et de la valeur.
+- Le Linked Open Usable Data (LOUD) cherche un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
+    - Cinq principes de conception (_design principles_)
+    - Standards : IIIF Presentation API 3.0, Linked Art API, Web Annotation Data Model
+
+<!-- _footer: "https://linked.art/loud" -->
+
+---
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 # <!-- fit --> LUX
 Yale Collections Discovery 
