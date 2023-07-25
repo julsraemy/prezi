@@ -42,12 +42,8 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 - Axes d'exploration
 - International Image Interoperability Framework (IIIF)
-    - La communauté
-    - Les protocoles
-    - Les logiciels (libres)
 - Linked Art
-    - Linked Open Usable Data (LOUD)
-    - LUX
+- Adoption des pratiques communautaires de IIIF et Linked Art
 
 ---
 
