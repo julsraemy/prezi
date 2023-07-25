@@ -40,43 +40,38 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 # Déroulement
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-- Qu'est-ce qu'une API ?
+- Axes d'exploration
 - International Image Interoperability Framework (IIIF)
+    - La communauté
+    - Les protocoles
+    - Les logiciels (libres)
 - Linked Art
-- Les principes de conception
-- Un écosystème LOUD
-- LUX
+    - Linked Open Usable Data (LOUD)
+    - LUX
 
 ---
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
-# <!-- fit --> Qu'est-ce qu'une API?
-Interface de programmation applicative
-_Application programming interface_
+# <!-- fit --> Axes d'exploration
+
+---
+
+---
 
 ---
 
 ---
 
 <!-- _class: lead -->
-![bg 92%](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
+![bg 89%](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
 
 --- 
 
----
+![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
 
-<!-- _class: lead -->
-![bg 60%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
-
----
-
----
-
-![bg right:44% contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
-
-##### International Image Interoperability Framework (IIIF)
+### International Image Interoperability Framework (IIIF)
 
 - Un modèle pour la présentation et annotation d’objets numériques
 - Une communauté, qui développe des API partagées, les implémentent dans des logiciels et exposent des contenus interopérables sur le Web
@@ -86,6 +81,25 @@ _Application programming interface_
 <!-- _footer: "https://iiif.io" -->
 
 <!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
+
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> La communauté IIIF
+
+---
+
+
+---
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+## Pourquoi avons-nous besoin de IIIF ?
+
+---
+
 
 ---
 
@@ -104,6 +118,15 @@ _Application programming interface_
 
 ---
 
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> Les protocoles IIIF
+
+---
+
 
 ![bg right:60% contain](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
 
@@ -117,6 +140,28 @@ _Application programming interface_
 - Content State API
 
 <!-- _footer: "https://iiif.io/api" -->
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> IIIF Universe
+Les logiciels (libres) compatibles
+
+---
+
+---
+
+---
+
+<!-- _class: lead -->
+![bg 58%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
 
 ---
 
@@ -154,7 +199,7 @@ _Application programming interface_
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> LOUD
@@ -183,7 +228,7 @@ Linked Open Usable Data
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
 # <!-- fit --> LUX
 Yale Collections Discovery 
