@@ -124,7 +124,7 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 ---
 
 
-![bg right:60% contain](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
+![bg right:55% contain](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
 
 #### Les protocoles IIIF
 
