@@ -54,7 +54,21 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
+# <!-- fit --> Resource Description Framework (RDF)
 
+$$
+s \ \vec{p} \ o
+$$
+
+
+```
+<https://libreabc.ch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Event> .
+```
+
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
 
 ---
 
