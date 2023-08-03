@@ -14,9 +14,9 @@ _paginate: false
 
 <!-- _class: lead -->
 
-# Créer des API ouvertes : les pratiques et le tissu social des communautés IIIF et Linked Art
-Julien A. Raemy 
-(Digital Humanities Lab, Université de Bâle)
+# <!-- fit --> Créer des API ouvertes
+## Les pratiques et le tissu social des communautés IIIF et Linked Art
+Julien A. Raemy (Digital Humanities Lab, Université de Bâle)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 
 LibreABC – Journée des logiciels libres en Archives, Bibliothèques et Centres de documentation
@@ -54,7 +54,13 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 
 ---
 
+
+
 ---
+
+![bg contain](https://julsraemy.ch/prezi/assets/floridi_slms.svg)
+
+<!-- _footer: "The system-level-model-structure (SLMS) scheme according to Floridi (2008)" -->
 
 ---
 
