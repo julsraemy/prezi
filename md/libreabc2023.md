@@ -8,8 +8,7 @@ image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://doi.org/10.5281/zenodo.8178671
 theme: gaia
 class: invert
-paginate: true
-_paginate: false
+paginate: false
 ---
 
 <!-- _class: lead -->
@@ -234,7 +233,7 @@ Linked Open Usable Data
 ## LOUD 
 
 
-- Le LOD est trop axé sur la publication de données. Nos données doivent être réutilisées pour avoir un sens et de la valeur.
+- Le LOD est presque exclusivement axé sur la publication de données. Les données doivent être réutilisées pour avoir un sens et de la valeur.
 - Le Linked Open Usable Data (LOUD) cherche un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
     - Cinq principes de conception (_design principles_)
     - Standards : IIIF Presentation API 3.0, Linked Art API, Web Annotation Data Model
