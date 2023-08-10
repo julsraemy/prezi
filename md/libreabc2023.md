@@ -39,7 +39,7 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 # Déroulement
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-- Axes d'exploration
+- Axes d'exploration : exercice de déconstruction
 - International Image Interoperability Framework (IIIF)
 - Linked Art
 - Adoption des pratiques communautaires de IIIF et Linked Art
@@ -52,19 +52,24 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 # <!-- fit --> Axes d'exploration
 Exercice de déconstruction
 
----
-# Linked Open Usable Data (I)
-##### Au niveau de la philosophie du Web
+```
+I   — WWW / Linked (Open Usable) Data
+II  — Cultural Heritage
+III — Community Practices
+IV  — Semantic Interoperability
+```
 
-> The WWW project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**. It aims to allow information sharing within internationally dispersed teams, and the dissemination of information by support groups.
+---
+# <!-- fit --> $I$ – La philosophie du Web
+
+> The WWW project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
 
 <!-- _footer: "Tim Berners-Lee. WorldWideWeb - Executive Summary. 6 August 1991. https://archive.md/Lfopj" -->
 
 ---
-# Linked Open Usable Data (II)
-##### Au niveau des principes de conception du LOUD
+# <!-- fit --> $I$ – Principes de conception du LOUD
 
-```
+```properties
 A. La bonne abstraction en fonction du public 
 B. Peu d'obstacles à l'entrée 
 C. Compréhensible par introspection 
@@ -72,35 +77,24 @@ D. Documentation comportant des exemples concrets
 E. Peu d'exceptions, mais de nombreux modèles cohérents
 ```
 
-```properties
-A. The right Abstraction for the audience
-B. Few Barriers to entry
-C. Comprehensible by introspection
-D. Documentation with working examples
-E. Few Exceptions, instead many consistent patterns
-```
-
 <!-- _footer: "LOUD Design Principles. https://linked.art/loud" -->
 
 ---
-# Linked Open Usable Data (III)
-##### Au niveau de la syntaxe
+# <!-- fit --> $I$ – Syntaxe des triplets RDF
 
-Triplet RDF: sujet, prédicat et objet ($s \ \vec{p} \ o$)
+sujet, prédicat et objet ($s \ \vec{p} \ o$)
+
 
 
 ```
 <https://libreabc.ch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Event> .
 ```
 
-![bg contain](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
 
 
 ---
-# Linked Open Usable Data (IV)
-##### Au niveau de la sérialisation (JSON-LD)
 
-
+# <!-- fit --> $I$ – Sérialisation d'API JSON-LD
 
 ```json
 {
@@ -122,19 +116,26 @@ Triplet RDF: sujet, prédicat et objet ($s \ \vec{p} \ o$)
 
 ---
 
-# for Cultural Heritage
+# <!-- fit --> $I$ – Ecosystème et standards LOUD
+
+![bg 65%](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+
+---
+
+# <!-- fit --> $II$ – Patrimoine matériel, immatériel et naturel
 
 > Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
 
 <!-- _footer: "UNESCO. Culture for Development Indicators (2014)" -->
 
----
 
-![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/floridi_slms.svg)
+# <!-- fit --> $IV$ – Les niveaux d'abstraction (LoA)
+
+![bg 90%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
+![bg 93%](https://julsraemy.ch/prezi/assets/floridi_slms.svg)
 
 <!-- _footer: "The system-level-model-structure (SLMS) scheme according to Floridi (2008)" -->
 
