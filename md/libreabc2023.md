@@ -50,20 +50,83 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 # <!-- fit --> Axes d'exploration
+Exercice de déconstruction
 
 ---
+# Linked Open Usable Data (I)
+##### Au niveau de la philosophie du Web
 
-# <!-- fit --> Resource Description Framework (RDF)
+> The WWW project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**. It aims to allow information sharing within internationally dispersed teams, and the dissemination of information by support groups.
 
-$$
-s \ \vec{p} \ o
-$$
+<!-- _footer: "Tim Berners-Lee. WorldWideWeb - Executive Summary. 6 August 1991. https://archive.md/Lfopj" -->
+
+---
+# Linked Open Usable Data (II)
+##### Au niveau des principes de conception du LOUD
+
+```
+A. La bonne abstraction en fonction du public 
+B. Peu d'obstacles à l'entrée 
+C. Compréhensible par introspection 
+D. Documentation comportant des exemples concrets
+E. Peu d'exceptions, mais de nombreux modèles cohérents
+```
+
+```properties
+A. The right Abstraction for the audience
+B. Few Barriers to entry
+C. Comprehensible by introspection
+D. Documentation with working examples
+E. Few Exceptions, instead many consistent patterns
+```
+
+<!-- _footer: "LOUD Design Principles. https://linked.art/loud" -->
+
+---
+# Linked Open Usable Data (III)
+##### Au niveau de la syntaxe
+
+Triplet RDF: sujet, prédicat et objet ($s \ \vec{p} \ o$)
 
 
 ```
 <https://libreabc.ch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Event> .
 ```
 
+![bg contain](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
+
+
+---
+# Linked Open Usable Data (IV)
+##### Au niveau de la sérialisation (JSON-LD)
+
+
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json", 
+  "id": "https://data.example.org/event/42",
+  "type": "Activity",
+  "_label": "LibreABC – Journée des logiciels libres en Archives, Bibliothèques et Centres de documentation",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300054789", 
+      "type": "Type", 
+      "_label": "Conference"
+    }
+  ],
+  ...
+}
+```
+<!-- _footer: "Linked Art API: Event - https://linked.art/api/1.0/endpoint/event/" -->
+
+---
+
+# for Cultural Heritage
+
+> Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
+
+<!-- _footer: "UNESCO. Culture for Development Indicators (2014)" -->
 
 ---
 
