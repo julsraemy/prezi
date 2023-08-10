@@ -60,7 +60,7 @@ IV  — Semantic Interoperability
 ```
 
 ---
-# <!-- fit --> $I$ – La philosophie du Web
+# <!-- fit --> $I$ – Une vision ouverte du Web
 
 > The WWW project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
 
@@ -85,12 +85,12 @@ But : chercher un équilibre qui prend en compte les besoins en matière d’exh
 
 # <!-- fit --> $I$ – Sérialisation d'API JSON-LD
 
-Basé sur la syntaxe de triplets RDF ($s \ \vec{p} \ o$)
+Basé sur la syntaxe RDF ($s \ \vec{p} \ o$)
 
 ```json
 {
   "@context": "https://linked.art/ns/v1/linked-art.json", 
-  "id": "https://data.example.org/event/42",
+  "id": "https://example.org/event/42",
   "type": "Activity",
   "_label": "LibreABC – Journée des logiciels libres en Archives, Bibliothèques et Centres de documentation",
   "classified_as": [
@@ -107,9 +107,9 @@ Basé sur la syntaxe de triplets RDF ($s \ \vec{p} \ o$)
 
 ---
 
-# <!-- fit --> $I$ – Ecosystème et standards LOUD
+![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
 
-![bg 65%](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+<!-- Ecosystème et standards LOUD -->
 
 ---
 
@@ -120,6 +120,59 @@ Basé sur la syntaxe de triplets RDF ($s \ \vec{p} \ o$)
 <!-- _footer: "UNESCO. Culture for Development Indicators (2014)" -->
 
 
+
+---
+
+# <!-- fit --> $II$ – Représentation numérique et _embodiment_
+
+
+Masque d'homme (Zamble) datant probablement du début ou du milieu du 20e siècle de la culture Gouro en Côte d'Ivoire
+
+
+_embodiment_ $≡$  incarnation, incorporation, **corporéisation**, matérialisation 
+(Paquin 2019)
+
+
+![bg contain right:42%](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
+
+<!-- _footer: "https://www.artic.edu/artworks/239464" -->
+
+<!-- Ce masque, conservé à l'Art Institute Chicago, également connu sous le nom de Zamble, provenant du peuple Gouro en Côte d'Ivoire, revêt une double signification en tant que patrimoine culturel matériel et immatériel. En tant qu'objet tangible, le masque est un artefact physique fait de bois et de pigments, de tissu et de divers ornements, qui combine des caractéristiques animales et humaines représentant le savoir-faire artistique de ce peuple. D'autre part, en tant qu'objet culturel immatériel, le masque est porteur d'une profonde signification spirituelle et culturelle. Il joue un rôle important dans la commémoration du défunt lors des secondes funérailles d'un homme. Ces secondes funérailles sont organisées des mois, voire des années, après l'enterrement proprement dit, afin d'honorer le défunt et de se souvenir de lui. La préservation et l'appréciation des aspects matériels et immatériels du masque sont donc essentielles à sa pertinence culturelle. -->
+
+---
+
+#### $II$ / $III$ – Institutions
+
+Institutions impliqués au sein de la communauté IIIF, principalement des universités, bibliothèques et musées
+
+<!-- _footer: 'https://bit.ly/iiifmap' -->
+
+![bg contain right:55%](https://julsraemy.ch/prezi/assets/iiif-map.png)
+
+---
+
+### $III$
+
+![bg contain right:84%](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
+
+
+---
+
+### $III$
+
+![bg contain right:85%](https://iiif.io/assets/images/heroes/event_2.webp)
+
+
+
+---
+
+# <!-- fit --> $IV$ – Interopérabilité : essai de définition
+
+Perspective du W3C canalisée par Robert Sanderson et dans le but de positionner IIIF  à travers le prisme de l'interopérabilité :
+
+> L'interopérabilité est un état dans lequel deux ou plusieurs systèmes technologiques mis au point indépendamment et testés peuvent interagir avec succès en fonction de leur champ d'application grâce à la mise en oeuvre de normes convenues. 
+
+<!-- _footer: "Voir Etemad & Rivoal (2023). §6.3.2" -->
 
 ---
 
@@ -141,15 +194,6 @@ $
 ---
 
 
-# <!-- fit --> $IV$ – Les niveaux d'abstraction (LoA)
-
-![bg 63%](https://julsraemy.ch/prezi/assets/floridi_slms.svg)
-
-<!-- _footer: "Floridi (2008)" -->
-
-
----
-
 <!-- _class: lead -->
 ![bg 89%](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
 
@@ -168,15 +212,6 @@ $
 
 <!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
 
----
-
-<!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
-
-# <!-- fit --> La communauté IIIF
-
----
-
 
 ---
 <!-- _class: lead -->
@@ -186,6 +221,13 @@ $
 
 ---
 
+<!-- _footer: "Toutes les images proviennent du Art Institute of Chicago et sont conformes à IIIF, vérifiez le code source" -->
+
+![bg opacity:.4](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
+![bg opacity:.4](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
+![bg opacity:.4](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
+
+# <!-- fit --> Les images sont des vecteurs fondamentaux d'information
 
 ---
 
