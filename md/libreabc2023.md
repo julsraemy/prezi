@@ -64,7 +64,7 @@ IV  — Semantic Interoperability
 
 > The WWW project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
 
-<!-- _footer: "Tim Berners-Lee. WorldWideWeb - Executive Summary. 6 August 1991. https://archive.md/Lfopj" -->
+<!-- _footer: "Berners-Lee (1991)" -->
 
 ---
 # <!-- fit --> $I$ – Principes de conception du LOUD
@@ -77,24 +77,15 @@ D. Documentation comportant des exemples concrets
 E. Peu d'exceptions, mais de nombreux modèles cohérents
 ```
 
+But : chercher un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
+
 <!-- _footer: "LOUD Design Principles. https://linked.art/loud" -->
-
----
-# <!-- fit --> $I$ – Syntaxe des triplets RDF
-
-sujet, prédicat et objet ($s \ \vec{p} \ o$)
-
-
-
-```
-<https://libreabc.ch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Event> .
-```
-
-
 
 ---
 
 # <!-- fit --> $I$ – Sérialisation d'API JSON-LD
+
+Basé sur la syntaxe de triplets RDF ($s \ \vec{p} \ o$)
 
 ```json
 {
@@ -132,14 +123,30 @@ sujet, prédicat et objet ($s \ \vec{p} \ o$)
 
 ---
 
-# <!-- fit --> $IV$ – Les niveaux d'abstraction (LoA)
+# <!-- fit --> $IV$ – Information sémantique
 
-![bg 90%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
-![bg 93%](https://julsraemy.ch/prezi/assets/floridi_slms.svg)
+![bg contain right:45%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
 
-<!-- _footer: "The system-level-model-structure (SLMS) scheme according to Floridi (2008)" -->
+> Semantic Information is well-formed, meaningful, and truthful data.
+
+Pour toutes les données $x$, si $x$ est bien formé, significatif et véridique, alors $x$ représente de l'information sémantique :
+
+$
+\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow SI(x)
+$
+<!-- _footer: "Floridi (2011)" -->
+
+<!-- Truth-constituted  -->
 
 ---
+
+
+# <!-- fit --> $IV$ – Les niveaux d'abstraction (LoA)
+
+![bg 63%](https://julsraemy.ch/prezi/assets/floridi_slms.svg)
+
+<!-- _footer: "Floridi (2008)" -->
+
 
 ---
 
@@ -274,38 +281,6 @@ Les logiciels (libres) compatibles
 
 ---
 
-
----
-
-<!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
-
-
-# <!-- fit --> LOUD
-Linked Open Usable Data
-
----
-
-## Linked Open Data (LOD)
-
-![bg width:900px](https://5stardata.info/images/5-star-steps.png)
-
-<!-- _footer: "https://5stardata.info/" -->
-
----
-
-## LOUD 
-
-
-- Le LOD est presque exclusivement axé sur la publication de données. Les données doivent être réutilisées pour avoir un sens et de la valeur.
-- Le Linked Open Usable Data (LOUD) cherche un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
-    - Cinq principes de conception (_design principles_)
-    - Standards : IIIF Presentation API 3.0, Linked Art API, Web Annotation Data Model
-
-<!-- _footer: "https://linked.art/loud" -->
-
----
-
 <!-- _class: lead -->
 ![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
@@ -327,6 +302,10 @@ Yale Collections Discovery
 -->
 
 <!-- _footer: "LUX : https://lux.collections.yale.edu/ — [Lien vers une résolution optimisée de la vidéo](https://julsraemy.ch/prezi/assets/lux-demo.webm)"-->
+
+---
+
+# Bibliographie
 
 
 
