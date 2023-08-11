@@ -42,28 +42,22 @@ Thèse de doctorat encadré par :
 # Déroulement
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-* Axes d'exploration : exercice de déconstruction
+* Préambule : axes d'exploration
 * International Image Interoperability Framework (IIIF)
 * Linked Art
 * IIIF et Linked Art : bref aperçu du fonctionnement des communautés
 * LUX : Yale Collections Discovery 
 
-<!-- Je vais démarrer par un exercice de déconstruction du titre de ma thèse et cela donnera déjà quelques pistes de réflexion ou des axes d'exploration qui me semblent pertinents. Ensuite je vais tout de même vous expliquer ce que sont IIIF et Linked Art, puis un bref aperçu de comment ces communautés fonctionnent. Finalement, je vais brièvement vous présenter un cas concret avec LUX Cas d'utilisation d'une institution qui a mis en œuvre les API IIIF et Linked Art -->
+<!-- Je vais démarrer par un préambule qui donnera déjà quelques pistes de réflexion ou des axes d'exploration. Ensuite je vais tout de même vous expliquer ce que sont IIIF et Linked Art, puis un bref aperçu de comment ces communautés fonctionnent. Finalement, je vais brièvement vous présenter un cas concret avec LUX Cas d'utilisation d'une institution qui a mis en œuvre les API IIIF et Linked Art -->
 
 ---
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
-# <!-- fit --> Axes d'exploration
-Exercice de déconstruction
+# <!-- fit --> Préambule
+Axes d'exploration
 
-```
-I   — WWW / Linked (Open Usable) Data
-II  — Cultural Heritage
-III — Community Practices
-IV  — Semantic Interoperability
-```
 
 ---
 # <!-- fit --> $I$ – Une vision ouverte du Web
@@ -73,9 +67,9 @@ IV  — Semantic Interoperability
 <!-- _footer: "Berners-Lee (1991)" -->
 
 ---
-# <!-- fit --> $I$ – Principes de conception du LOUD
+# <!-- fit --> $II$ – Linked Open Usable Data (LOUD)
 
-Constat : Les projets autour du Linked Open Data (LOD) sont principalement concentrés sur la publication et la consommation de données.
+Principes de conception du LOUD :
 
 * A – La bonne abstraction en fonction du public 
 * B – Peu d'obstacles à l'entrée 
@@ -85,14 +79,14 @@ Constat : Les projets autour du Linked Open Data (LOD) sont principalement conce
 
 
 
-<!-- LOUD ou « données ouvertes liées et utilisables », est un terme et une démarche proposés par Robert Sanderson, un des initiateurs et éditeurs des standards IIIF et de Linked Art.  Une des premières intentions du LOUD est de permettre autant à la communauté scientifique qu’aux développeurs de logiciels d’accéder aux données. Il convient de trouver un équilibre qui prenne en compte les besoins en matière d’exhaustivité et de précision des données, qui dépend de la construction ontologique, et les préoccupations pragmatiques qui sont l’évolutivité et la facilitation d’utilisation. -->
+<!-- Constat : Les projets autour du Linked Open Data (LOD) sont principalement concentrés sur la publication et la consommation de données. LOUD ou « données ouvertes liées et utilisables », est un terme et une démarche proposés par Robert Sanderson, un des initiateurs et éditeurs des standards IIIF et de Linked Art.  Une des premières intentions du LOUD est de permettre autant à la communauté scientifique qu’aux développeurs de logiciels d’accéder aux données. Il convient de trouver un équilibre qui prenne en compte les besoins en matière d’exhaustivité et de précision des données, qui dépend de la construction ontologique, et les préoccupations pragmatiques qui sont l’évolutivité et la facilitation d’utilisation. -->
 
 
 <!-- _footer: "Traduction : Raemy (2022). Version orginale : LOUD Design Principles (https://linked.art/loud)" -->
 
 ---
 
-# <!-- fit --> $II$ – Patrimoine matériel, immatériel et naturel
+# <!-- fit --> $III$ – Patrimoine matériel, immatériel et naturel
 
 > Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
 
@@ -102,7 +96,7 @@ Constat : Les projets autour du Linked Open Data (LOD) sont principalement conce
 
 ---
 
-# <!-- fit --> $II$ – Représentation numérique et _embodiment_
+# <!-- fit --> $IV$ – Représentation numérique et _embodiment_
 
 
 Masque d'homme (Zamble) datant probablement du début ou du milieu du 20e siècle de la culture Gouro en Côte d'Ivoire
@@ -120,15 +114,8 @@ _embodiment_ $≡$  incarnation, incorporation, **corporéisation**, matérialis
 
 ---
 
-# $III$ – Se réunir
 
-![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
-![bg contain](https://julsraemy.ch/prezi/assets/linked-art-call.png)
-
----
-
-
-# <!-- fit --> $IV$ – Interopérabilité : essai de définition
+# <!-- fit --> $V$ – Interopérabilité : essai de définition
 
 Perspective du W3C canalisée par Robert Sanderson et dans le but de positionner IIIF  à travers le prisme de l'interopérabilité :
 
@@ -138,7 +125,7 @@ Perspective du W3C canalisée par Robert Sanderson et dans le but de positionner
 
 ---
 
-# <!-- fit --> $IV$ – Information sémantique
+# <!-- fit --> $VI$ – Information sémantique
 
 ![bg contain right:45%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
 
@@ -424,24 +411,35 @@ Bref aperçu du fonctionnement des communautés
 * Identification des scénarios ou cas d'utilisation
 * Synthèse du cas sur GitHub
 * Discussion et intégration ou non du cas d'utilisation au sein des spécifications
+  * Outils : Liste de discussion, Slack, Zoom
 * Evaluation sur la mise en œuvre
 
 &rarr; Transparence, Collaboration
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
+
+<!-- _footer: "https://iiif.io/community/trc/" -->
 
 ---
+# Se réunir
 
-![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
+![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
+![bg contain](https://julsraemy.ch/prezi/assets/linked-art-call.png)
 
 ---
 
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif-calendar.png)
 
 ---
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
+
+---
+
 <!-- _footer: "Raemy (2023)" -->
 
 ![bg 77% contain](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
@@ -506,8 +504,15 @@ Yale Collections Discovery
 
 ---
 
-# Bibliographie
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
+# Bibliographie et crédits photo
 
-
+- Bibliographie : https://www.zotero.org/groups/5145178/raemy-libreabc/library
+- Photographies de la société suisse des traditions populaires (SSTP). Licence : CC BY-NC 4.0
+  - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
+  - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
+  - [Katze]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19566
 
