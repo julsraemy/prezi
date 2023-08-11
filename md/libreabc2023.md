@@ -42,7 +42,8 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 * Axes d'exploration : exercice de déconstruction
 * International Image Interoperability Framework (IIIF)
 * Linked Art
-* Adoption des pratiques communautaires de IIIF et Linked Art
+* Bref aperçu du fonctionnement des communautés IIIF et Linked Art
+* LUX : Cas d'utilisation d'une institution qui a mis en œuvre des API LOUD
 
 ---
 
@@ -69,23 +70,26 @@ IV  — Semantic Interoperability
 ---
 # <!-- fit --> $I$ – Principes de conception du LOUD
 
-```properties
-A. La bonne abstraction en fonction du public 
-B. Peu d'obstacles à l'entrée 
-C. Compréhensible par introspection 
-D. Documentation comportant des exemples concrets
-E. Peu d'exceptions, mais de nombreux modèles cohérents
-```
+Constat : Les projets autour du Linked Open Data (LOD) sont principalement concentrés sur la publication et laconsommation de données
 
-But : chercher un équilibre qui prend en compte les besoins en matière d’exhaustivité et de précision des données (construction ontologique) et les préoccupations pragmatiques (facilité d’utilisation, évolutivité).
+* A – La bonne abstraction en fonction du public 
+* B – Peu d'obstacles à l'entrée 
+* C – Compréhensible par introspection 
+* D – Documentation comportant des exemples concrets
+* E – Peu d'exceptions, mais de nombreux modèles cohérents
 
-<!-- _footer: "LOUD Design Principles. https://linked.art/loud" -->
+
+
+<!-- LOUD ou « données ouvertes liées et utilisables », est un terme et une démarche proposés par Robert Sanderson, un des initiateurs et éditeurs des standards IIIF et de Linked Art.  Une des premières intentions du LOUD est de permettre autant à la communauté scientifique qu’aux développeurs de logiciels d’accéder aux données. Il convient de trouver un équilibre qui prenne en compte les besoins en matière d’exhaustivité et de précision des données, qui dépend de la construction ontologique, et les préoccupations pragmatiques qui sont l’évolutivité et la facilitation d’utilisation. -->
+
+
+<!-- _footer: "Traduction : Raemy (2022). Version orginale : LOUD Design Principles (https://linked.art/loud)" -->
 
 ---
 
-# <!-- fit --> $I$ – Sérialisation d'API JSON-LD
+## $I$ – JSON-LD
 
-Basé sur la syntaxe RDF ($s \ \vec{p} \ o$)
+_JavaScript Object Notation for Linked Data_ (JSON-LD), sérialisation JSON basé sur la syntaxe RDF ($s \ \vec{p} \ o$)
 
 ```json
 {
@@ -103,13 +107,7 @@ Basé sur la syntaxe RDF ($s \ \vec{p} \ o$)
   ...
 }
 ```
-<!-- _footer: "Linked Art API: Event - https://linked.art/api/1.0/endpoint/event/" -->
-
----
-
-![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
-
-<!-- Ecosystème et standards LOUD -->
+<!-- _footer: "Basé sur le modèle `Event` de l'API Linked Art : https://linked.art/api/1.0/endpoint/event/" -->
 
 ---
 
@@ -141,7 +139,7 @@ _embodiment_ $≡$  incarnation, incorporation, **corporéisation**, matérialis
 
 ---
 
-#### $II$ / $III$ – Institutions
+##### Adoption des standards IIIF et membres du consortium (IIIF-C)
 
 Institutions impliqués au sein de la communauté IIIF, principalement des universités, bibliothèques et musées
 
@@ -160,7 +158,8 @@ Institutions impliqués au sein de la communauté IIIF, principalement des unive
 
 ### $III$
 
-![bg contain right:85%](https://iiif.io/assets/images/heroes/event_2.webp)
+![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
+![bg contain](https://julsraemy.ch/prezi/assets/linked-art-call.png)
 
 
 
