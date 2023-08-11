@@ -8,7 +8,8 @@ image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://julsraemy.ch/prezi/sts-ch-2023.html
 theme: gaia
 class: invert
-paginate: false
+paginate: true
+_paginate: false
 ---
 
 <!-- _class: lead -->

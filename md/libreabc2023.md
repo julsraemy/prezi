@@ -8,7 +8,8 @@ image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://doi.org/10.5281/zenodo.8178671
 theme: gaia
 class: invert
-paginate: false
+paginate: true
+_paginate: false
 ---
 
 <!-- _class: lead -->
@@ -42,8 +43,8 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 * Axes d'exploration : exercice de déconstruction
 * International Image Interoperability Framework (IIIF)
 * Linked Art
-* Bref aperçu du fonctionnement des communautés IIIF et Linked Art
-* LUX : Cas d'utilisation d'une institution qui a mis en œuvre des API LOUD
+* IIIF et Linked Art : bref aperçu du fonctionnement des communautés
+* LUX, Yale Collections Discovery : cas d'utilisation d'une institution qui a mis en œuvre des API LOUD
 
 ---
 
@@ -87,9 +88,9 @@ Constat : Les projets autour du Linked Open Data (LOD) sont principalement conce
 
 ---
 
-## $I$ – JSON-LD
+# <!-- fit --> $I$ – JavaScript Object Notation for Linked Data (JSON-LD)
 
-_JavaScript Object Notation for Linked Data_ (JSON-LD), sérialisation JSON basé sur la syntaxe RDF ($s \ \vec{p} \ o$)
+JSON-LD : sérialisation JSON basée sur la syntaxe RDF ($s \ \vec{p} \ o$)
 
 ```json
 {
@@ -139,31 +140,13 @@ _embodiment_ $≡$  incarnation, incorporation, **corporéisation**, matérialis
 
 ---
 
-##### Adoption des standards IIIF et membres du consortium (IIIF-C)
-
-Institutions impliqués au sein de la communauté IIIF, principalement des universités, bibliothèques et musées
-
-<!-- _footer: 'https://bit.ly/iiifmap' -->
-
-![bg contain right:55%](https://julsraemy.ch/prezi/assets/iiif-map.png)
-
----
-
-### $III$
-
-![bg contain right:84%](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
-
-
----
-
-### $III$
+# <!-- fit --> $III$ - Mode hybride de réunions 
 
 ![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
 ![bg contain](https://julsraemy.ch/prezi/assets/linked-art-call.png)
 
-
-
 ---
+
 
 # <!-- fit --> $IV$ – Interopérabilité : essai de définition
 
@@ -213,6 +196,19 @@ $
 
 
 ---
+
+
+##### Adoption des standards IIIF et membres du consortium (IIIF-C)
+
+Institutions impliqués au sein de la communauté IIIF, principalement des universités, bibliothèques et musées
+
+<!-- _footer: 'https://bit.ly/iiifmap' -->
+
+![bg contain right:55%](https://julsraemy.ch/prezi/assets/iiif-map.png)
+
+
+---
+
 <!-- _class: lead -->
 ![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
@@ -319,6 +315,26 @@ Les logiciels (libres) compatibles
 ![bg contain](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
 
 <!-- Linked Art and IIIF -->
+
+---
+
+---
+
+---
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> IIIF et Linked Art 
+
+Bref aperçu du fonctionnement des communautés
+
+---
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
+
+---
 
 ---
 
