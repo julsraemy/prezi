@@ -28,11 +28,13 @@ Basel, Switzerland | 31 August 2023
 # Linked Open Usable Data for Cultural Heritage
 #### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
 
-PhD Thesis - https://phd.julsraemy.ch - supervised by: 
+PhD Thesis supervised by: 
 - Peter Fornaro (University of Basel)
 - Walter Leimgruber (University of Basel)
 - Robert Sanderson (Yale University)
 
 <!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
+
+<!-- _footer: "https://phd.julsraemy.ch" -->
 
 --- 
