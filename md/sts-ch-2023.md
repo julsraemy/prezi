@@ -38,3 +38,91 @@ PhD Thesis supervised by:
 <!-- _footer: "https://phd.julsraemy.ch" -->
 
 --- 
+
+# Agenda
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+
+* Preamble
+* The Semantic Web or the Web of Data
+* Interlinking Cultural Heritage Data
+* IIIF and Linked Art: two community-driven initiatives
+* Conclusion
+
+---
+
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> Preamble
+Something
+
+
+---
+
+
+
+---
+
+# Semantic Information
+
+> Semantic Information is well-formed, meaningful, and truthful data.
+
+For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information:
+
+$
+\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow SI(x)
+$
+<!-- _footer: "Luciano Floridi. _The Philosophy of Information_. Oxford University Press. Oxford ; New York, 2011" -->
+
+<!-- Something -->
+
+
+---
+
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> Interlinking Cultural Heritage Data
+
+
+---
+
+---
+---
+
+---
+---
+---
+
+---
+
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> IIIF and Linked Art
+Two community-driven initiatives
+
+
+---
+
+---
+---
+---
+
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> Conclusion
+
+
+---
+
+---
+
+---
+
+
