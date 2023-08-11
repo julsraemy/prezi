@@ -39,10 +39,10 @@ Thèse de doctorat - https://phd.julsraemy.ch - encadré par :
 # Déroulement
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-- Axes d'exploration : exercice de déconstruction
-- International Image Interoperability Framework (IIIF)
-- Linked Art
-- Adoption des pratiques communautaires de IIIF et Linked Art
+* Axes d'exploration : exercice de déconstruction
+* International Image Interoperability Framework (IIIF)
+* Linked Art
+* Adoption des pratiques communautaires de IIIF et Linked Art
 
 ---
 
