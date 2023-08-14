@@ -42,9 +42,8 @@ PhD Thesis supervised by:
 # Agenda
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-* Preamble
-* The Semantic Web or the Web of Data
-* Interlinking Cultural Heritage Data
+* Interlinking Data on the Web
+* Cultural Heritage Data 
 * IIIF and Linked Art: two community-driven initiatives
 * Conclusion
 
@@ -54,13 +53,47 @@ PhD Thesis supervised by:
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
-# <!-- fit --> Preamble
-Something
+# <!-- fit --> Interlinking Data on the Web
+Semantics, Interoperability, 
+Semantic Interoperability
 
 
 ---
 
+# An open vision of the Web
 
+> The [World Wide Web] project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
+
+<!-- _footer: "Tim Berners-Lee. _WorldWideWeb - executive summary_. 6 August 1991. https://archive.md/Lfopj" -->
+
+
+---
+
+# The Semantic Web or the Web of Data
+
+Stack of whatever
+
+---
+
+# <!-- fit --> Resource Description Framework (RDF)
+
+Subject, predicate, object ($s \ \vec{p} \ o$)
+
+---
+
+
+# Linked Open Data (LOD)
+
+![bg width:900px](https://5stardata.info/images/5-star-steps.png)
+
+<!-- 5-star open data scheme 
+1) make your stuff available on the Web (whatever format) under an open license
+2) make it available as structured data
+3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
+4) use URIs to denote things, so that people can point at your stuff
+5) link your data to other data to provide context -->
+
+<!-- _footer: "5-star deployment scheme for Open Data. https://5stardata.info" -->
 
 ---
 
@@ -73,10 +106,25 @@ For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ repr
 $
 \forall x \, [W(x) \land M(x) \land T(x)] \rightarrow SI(x)
 $
-<!-- _footer: "Luciano Floridi. _The Philosophy of Information_. Oxford University Press. Oxford ; New York, 2011" -->
+<!-- _footer: "Luciano Floridi. _The Philosophy of Information_. Oxford University Press. Oxford ; New York, 2011." -->
 
 <!-- Something -->
 
+
+---
+
+# (Cross-platform) Interoperability
+
+Perspective of the World Wide Web Consortium (W3C)* channeled by Robert Sanderson to position IIIF through the prism of interoperability:
+
+> Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
+
+<!-- _footer: "*Etemad & Rivoal. _W3C Process Document_. W3C. 2023. https://www.w3.org/Consortium/Process/" -->
+
+
+---
+
+# Semantic Interoperability
 
 ---
 
@@ -84,17 +132,41 @@ $
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
-# <!-- fit --> Interlinking Cultural Heritage Data
+# <!-- fit --> Cultural Heritage Data
 
 
 ---
 
----
----
+# Cultural Heritage
+
+> Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
+
+<!-- _footer: "UNESCO. Methodology Manual. 2014. https://n2t.net/ark:/48223/pf0000229608" -->
+
+<!-- UNESCO. Culture for Development Indicators. 
+
+Je passe maintenant dans un autre axe, autrement dit des principes au contenu même et pour moi il s'agit de définir ce que j'entends par patrimoine culturel, souvent délimités autour des concepts de matérialisation d'un objet ou d'une tradition. Dans un des rapports de l'UNESCO, le patrimoine culturel est compris comme un produit et un processuss comprenant également le patrimoine naturel, ce que je trouve assez pertinent lorsqu'on imagine les standards aidant à la description et à la dissémination des données comme étant agnostiques.
+
+  -->
 
 ---
+
+# <!-- fit --> Digital Representation and _embodiment_
+
+Masque d'homme (Zamble) datant probablement du début ou du milieu du 20e siècle de la culture Gouro en Côte d'Ivoire
+
+![bg contain right:28%](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
+
+<!-- _footer: "https://www.artic.edu/artworks/239464" -->
+
+
 ---
+
+Have a look at https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
+
 ---
+
+Biases
 
 ---
 
@@ -108,8 +180,23 @@ Two community-driven initiatives
 
 ---
 
+IIIF
+
 ---
+
+Linked Art
+
 ---
+
+Human and nonhuman, have a look at https://hal.science/hal-04106101
+
+
+---
+
+Boundary objects
+
+---
+
 ---
 
 
@@ -117,12 +204,12 @@ Two community-driven initiatives
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 # <!-- fit --> Conclusion
+Well-formed, meaningful, truthful and interoperable
 
 
 ---
 
 ---
 
----
 
 
