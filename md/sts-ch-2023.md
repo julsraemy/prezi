@@ -97,6 +97,16 @@ Subject, predicate, object ($s \ \vec{p} \ o$)
 
 ---
 
+# Data
+
+> Data are definable as constraining affordances, exploitable by a system as input of adequate queries that correctly semanticise them to produce information as output. 
+
+<!-- _footer: "Floridi (2005)" -->
+
+<!-- According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value.  -->
+
+---
+
 # Semantic Information
 
 > Semantic Information is well-formed, meaningful, and truthful data.
@@ -108,7 +118,11 @@ $
 $
 <!-- _footer: "Luciano Floridi. _The Philosophy of Information_. Oxford University Press. Oxford ; New York, 2011." -->
 
-<!-- Something -->
+<!-- The alethic nature, or modalities of truth, is the component that is the h
+
+In short, semantic information can also be described erotetically as data + queries.
+
+ -->
 
 
 ---
@@ -125,6 +139,10 @@ Perspective of the World Wide Web Consortium (W3C)* channeled by Robert Sanderso
 ---
 
 # Semantic Interoperability
+
+Combining insights from Floridi and Sanderson:
+
+> Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. This ensures shared meaning and context, enabling independently developed systems to interact successfully through agreed-upon standards.
 
 ---
 
@@ -151,9 +169,13 @@ Je passe maintenant dans un autre axe, autrement dit des principes au contenu m�
 
 ---
 
+
 # <!-- fit --> Digital Representation and _embodiment_
 
-Masque d'homme (Zamble) datant probablement du début ou du milieu du 20e siècle de la culture Gouro en Côte d'Ivoire
+
+Male Face Mask (Zamble). Possibly early or mid–20th century from the Guro culture in Ivory Coast
+
+_Representing a capricious and fearsome nature spirit, zamble is the name of a mask type that combines animal and human features, including antelope horns and the jaw of a dog or crocodile._ 
 
 ![bg contain right:28%](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
 
@@ -167,6 +189,14 @@ Have a look at https://www.artic.edu/digital-publications/37/perspectives-on-dat
 ---
 
 Biases
+
+---
+
+- Structured Data are “Representations”
+- Structured Data are Not a “Neutral Resource”
+- Structured Data May Not Be a “Democratizing Trend”
+
+https://doi.org/10.1515/opar-2023-0099
 
 ---
 
