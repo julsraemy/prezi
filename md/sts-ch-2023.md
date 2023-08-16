@@ -77,7 +77,7 @@ The Semantic Web is an extension of the World Wide Web, through standards, to ma
 
 ![bg contain right:40%](https://upload.wikimedia.org/wikipedia/commons/f/f3/Semantic_Web_Stack.png)
 
-<!-- This Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data. The Semantic Web offers major opportunities for scholarship as it allows data to be reasoned together, that is to be understood by machines via those RDF-based ontologies, a formal way to represent human-like knowledge.  -->
+<!-- This Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data. The Semantic Web offers major opportunities for scholarship as it allows data to be reasoned together, that is to be understood by machines via those RDF-based ontologies, a formal way to represent human-lik-e knowledge.  -->
 
 ---
 
@@ -110,9 +110,9 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
-# Semantic Information
+# <!-- fit -->Semantic Information
 
-![bg contain right:36%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
+![bg contain right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
 
 > Semantic Information is well-formed, meaningful, and truthful data.
 
@@ -122,7 +122,7 @@ $\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow SI(x)$
 
 
 
-<!-- _footer: "Luciano Floridi. _The Philosophy of Information_. OUP. 2011." -->
+<!-- _footer: "Floridi (2011)" -->
 
 <!-- 
 
