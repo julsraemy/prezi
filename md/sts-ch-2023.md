@@ -2,7 +2,7 @@
 marp: true
 author: Julien A. Raemy
 title: Situating Interlinked Cultural Heritage Data on the Web
-description: This presentation focuses on situating data produced by humans and nonhumans engaged in the cultural heritage field and published on the Web in line with the Open Science and Citizen Science movements.It aims to map the associations among various communities of practice, particularly within libraries, archives and museums, and the precarious balance between exhaustiveness and a rigid structure of data description versus the potential for multiplying assertions, bypassing cataloguing rules and their underlying postcolonial constructs. The openness and interconnection of data makes it possible to examine the form of description as well as the method of publication, and inevitably to analyse the biases linked to the associated vocabularies, For instance, the Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data and a Web standard since 2004. The Semantic Web offers major opportunities for the Humanities because it allows data to be reasoned together, to be understood by machines via RDF-based ontologies, a formal way to represent human-like knowledge. Developing infrastructures, or sites of assemblage, capable of creating and maintaining RDF statements and other related technologies or building on this standard to interconnect online records is not straightforward and requires a fair amount of socio-technical elements to be implemented. As a demonstration, I will look at the practices of two community-driven initiatives, mainly active in the cultural heritage field, through an Actor-Network Theory (ANT) lens, namely the International Image Interoperability Framework (IIIF) and Linked Art, which have developed shared specifications and related services on agreed-upon design principles.
+description: This presentation focuses on situating data produced by humans and nonhumans engaged in the cultural heritage field and published on the Web in line with the Open Science and Citizen Science movements. It aims to map the associations among various communities of practice, particularly within libraries, archives and museums, and the precarious balance between exhaustiveness and a rigid structure of data description versus the potential for multiplying assertions, bypassing cataloguing rules and their underlying postcolonial constructs. The openness and interconnection of data makes it possible to examine the form of description as well as the method of publication, and inevitably to analyse the biases linked to the associated vocabularies, For instance, the Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data and a Web standard since 2004. The Semantic Web offers major opportunities for the Humanities because it allows data to be reasoned together, to be understood by machines via RDF-based ontologies, a formal way to represent human-like knowledge. Developing infrastructures, or sites of assemblage, capable of creating and maintaining RDF statements and other related technologies or building on this standard to interconnect online records is not straightforward and requires a fair amount of socio-technical elements to be implemented. As a demonstration, I will look at the practices of two community-driven initiatives, mainly active in the cultural heritage field, through an Actor-Network Theory (ANT) lens, namely the International Image Interoperability Framework (IIIF) and Linked Art, which have developed shared specifications and related services on agreed-upon design principles.
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Semantic Web
 image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://doi.org/10.5281/zenodo.8250118
@@ -85,6 +85,8 @@ The Semantic Web is an extension of the World Wide Web, through standards, to ma
 
 Subject, predicate, object ($s \ \vec{p} \ o$)
 
+![bg 50%](https://julsraemy.ch/prezi/assets/rdf-sts.svg)
+
 <!-- With RDF, everything goes in threes, the data model contains so-called triples: that is subject, predicate, object that form graphs.
 Most of the components of these triples use Uniform Resource Identifiers (URIs) and are generally web-addressable, whether for naming subjects and objects (which may themselves also be objects of other triples) or relationships 
 
@@ -108,52 +110,49 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
-# Data
-
-> Data are definable as constraining affordances, exploitable by a system as input of adequate queries that correctly semanticise them to produce information as output. 
-
-<!-- _footer: "Floridi (2005)" -->
-
-<!-- According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value.  -->
-
----
-
 # Semantic Information
+
+![bg contain right:36%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
 
 > Semantic Information is well-formed, meaningful, and truthful data.
 
-For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information:
+For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information: 
 
-$
-\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow SI(x)
-$
-<!-- _footer: "Luciano Floridi. _The Philosophy of Information_. Oxford University Press. Oxford ; New York, 2011." -->
+$\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow SI(x)$
 
-<!-- The alethic nature, or modalities of truth, is the component that is the h
+
+
+<!-- _footer: "Luciano Floridi. _The Philosophy of Information_. OUP. 2011." -->
+
+<!-- 
+
+Data are definable as constraining affordances, exploitable by a system as input of adequate queries 
+
+
+The alethic nature, or modalities of truth, is the component that is the hardest to come by, to assess. 
+
 
 In short, semantic information can also be described erotetically as data + queries.
+
+According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value. 
+
 
  -->
 
 
 ---
 
-# (Cross-platform) Interoperability
-
-Perspective of the World Wide Web Consortium (W3C)* channeled by Robert Sanderson to position IIIF through the prism of interoperability:
-
-> Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
-
-<!-- _footer: "*Etemad & Rivoal. _W3C Process Document_. W3C. 2023. https://www.w3.org/Consortium/Process/" -->
-
-
----
-
 # Semantic Interoperability
 
-Combining insights from Floridi and Sanderson:
 
-> Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. This ensures shared meaning and context, enabling independently developed systems to interact successfully through agreed-upon standards.
+Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. 
+
+<!-- Combining insights from Floridi and Sanderson. 
+
+Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
+
+
+ -->
 
 ---
 
@@ -178,7 +177,22 @@ Je passe maintenant dans un autre axe, autrement dit des principes au contenu m�
 
   -->
 
+
 ---
+
+# Cultural Heritage Data
+
+Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying a rich and varied compilation of insights originating from a variety of disciplines, techniques, traditions, positions and technologies. It encompasses both tangible and intangible aspects of a society's culture. 
+
+<!--  
+
+Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying a rich and varied compilation of insights originating from a variety of disciplines, techniques, traditions, positions and technologies. It encompasses both tangible and intangible aspects of a society's culture.  These data, derived from a wide range of disciplines, offer a latent capacity to support the generation of knowledge relating to historical time periods, geospatial areas, as well as current and past human and nonhuman activities. They are collected, curated and maintained by various entities such as libraries, archives, museums, higher education institutions, non-governmental organisations, indigenous communities and local groups as well as by the wider public.
+
+-->
+
+---
+
+
 
 
 # <!-- fit --> Digital Representation and _embodiment_
@@ -192,21 +206,13 @@ _Representing a capricious and fearsome nature spirit, zamble is the name of a m
 
 <!-- _footer: "https://www.artic.edu/artworks/239464" -->
 
-
----
-
-Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying a rich and varied compilation of insights originating from a variety of disciplines, techniques, traditions, positions and technologies. It encompasses both tangible and intangible aspects of a society's culture.  These data, derived from a wide range of disciplines, offer a latent capacity to support the generation of knowledge relating to historical time periods, geospatial areas, as well as current and past human and nonhuman activities. They are collected, curated and maintained by various entities such as libraries, archives, museums, higher education institutions, non-governmental organisations, indigenous communities and local groups as well as by the wider public.
-
-
 ---
 
 Have a look at https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
 
 ---
 
-Biases
-
----
+# Biases and something
 
 - Structured Data are “Representations”
 - Structured Data are Not a “Neutral Resource”
@@ -240,8 +246,6 @@ Human and nonhuman, have a look at https://hal.science/hal-04106101
 ---
 
 Boundary objects
-
----
 
 ---
 
