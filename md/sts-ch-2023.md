@@ -81,11 +81,13 @@ The Semantic Web is an extension of the World Wide Web, through standards, to ma
 
 ---
 
-# <!-- fit --> Resource Description Framework (RDF)
+###  Resource Description Framework (RDF)
 
-Subject, predicate, object ($s \ \vec{p} \ o$)
+Subject, predicate, object
 
-![bg 50%](https://julsraemy.ch/prezi/assets/rdf-sts.svg)
+$s \ \vec{p} \ o$
+
+![bg contain right:50%](https://julsraemy.ch/prezi/assets/rdf-sts.svg)
 
 <!-- With RDF, everything goes in threes, the data model contains so-called triples: that is subject, predicate, object that form graphs.
 Most of the components of these triples use Uniform Resource Identifiers (URIs) and are generally web-addressable, whether for naming subjects and objects (which may themselves also be objects of other triples) or relationships 
@@ -98,6 +100,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 # Linked Open Data (LOD)
 
 ![bg width:900px](https://5stardata.info/images/5-star-steps.png)
+
 
 <!-- 5-star open data scheme 
 1) make your stuff available on the Web (whatever format) under an open license
