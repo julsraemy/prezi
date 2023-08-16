@@ -25,29 +25,12 @@ Basel, Switzerland | 31 August 2023
 
 --- 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-
-# Linked Open Usable Data for Cultural Heritage
-#### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
-
-PhD Thesis supervised by: 
-- Peter Fornaro (University of Basel)
-- Walter Leimgruber (University of Basel)
-- Robert Sanderson (Yale University)
-
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
-
-<!-- _footer: "https://phd.julsraemy.ch" -->
-
---- 
-
 # Agenda
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-* Interlinking Data on the Web
-* Cultural Heritage Data 
-* IIIF and Linked Art: two community-driven initiatives
-* Conclusion
+- Interlinking Data on the Web
+- Cultural Heritage Data 
+- The International Image Interoperability Framework (IIIF) and Linked Art
 
 ---
 
@@ -66,7 +49,7 @@ Semantic Interoperability
 
 > The [World Wide Web] project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
 
-<!-- _footer: "Tim Berners-Lee. _WorldWideWeb - executive summary_. 6 August 1991. https://archive.md/Lfopj" -->
+<!-- _footer: "Berners-Lee (1991)" -->
 
 
 ---
@@ -137,12 +120,12 @@ _For all $y$, for all $z$, if both $y$ and $z$ exhibit Semantic Interoperability
 
 
 $
-\forall y \, \forall z \, \big[ S(y) \land S(z) \land E(y, z) \big] 
+\forall y \, \forall z \, \big[ I(y) \land I(z) \land E(y, z) \big] 
 $
 
 $
 \rightarrow \big[ \forall x \, \big( W(x) \land M(x) \land T(x) \big) 
-\rightarrow E(y, z) \big]
+\rightarrow E(y, z) \land S(x) \big]
 $
 
 <!-- Combining insights from Floridi and Sanderson. 
@@ -189,11 +172,8 @@ In three parts...
 2.  These data, derived from a wide range of disciplines, offer **a latent capacity to support the generation of knowledge** relating to historical time periods, geospatial areas, as well as current and past human and nonhuman activities. 
 
 <!-- 
-- Structured Data are “Representations”
-- Structured Data are Not a “Neutral Resource”
-- Structured Data May Not Be a “Democratizing Trend”
 
-https://doi.org/10.1515/opar-2023-0099
+Something else...
 
 -->
 ---
@@ -204,11 +184,36 @@ https://doi.org/10.1515/opar-2023-0099
 
 <!-- _footer: "Rossenova & Di Franco (2022)" -->
 
----
 
-Homosaurus
 
 ---
+
+![bg](https://artic-web.imgix.net/d2c4713c-9f2e-4264-92f1-b9635a7cc12c/lozano_di_franco_hero.jpg?rect=1182%2C1037%2C1490%2C838&auto=format%2Ccompress&q=80&fit=crop&crop=faces%2Ccenter&w=3000&h=1687)
+
+---
+
+# <!-- fit --> Structured Data
+
+- Representations
+- Not Neutral Resources
+- May Not Be a Democratizing Trend
+
+![bg right:64% contain](https://www.degruyter.com/document/doi/10.1515/opar-2020-0220/asset/graphic/j_opar-2020-0220_fig_002.jpg)
+
+
+
+<!-- _footer: "Hacıgüzeller et al. (2021)" -->
+
+<!--
+
+- Structured Data are “Representations”
+- Structured Data are Not a “Neutral Resource”
+- Structured Data May Not Be a “Democratizing Trend”
+
+ -->
+
+---
+
 
 # <!-- fit  --> $III$ — Defining Cultural Heritage Data
 
@@ -218,29 +223,29 @@ Homosaurus
 
 ---
 
-Have a look at https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
+![bg contain 85%](https://julsraemy.ch/prezi/assets/iiif-map.png)
+
+<!-- _footer: 'IIIF Implementations and Consortium Map (June 2023). https://bit.ly/iiifmap' -->
 
 ---
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg 92%](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
+![bg 53%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
-# <!-- fit --> IIIF and Linked Art
-Two community-driven initiatives
 
 
 ---
 
-![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+![bg contain right](https://julsraemy.ch/prezi/assets/storiiies.gif)
 
-# <!-- fit --> International Image Interoperability Framework 
-(triple-eye-eff)
+# IIIF 
 
 - A model for presenting and annotating content
 - A global community that develops shared application programming interfaces (APIs), implements them in software, and exposes interoperable content
 
-<!-- footer: "https://iiif.io" -->
+<!-- _footer: "https://iiif.io" -->
 
 
 <!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
@@ -248,30 +253,59 @@ Two community-driven initiatives
 
 ---
 
-Linked Art
+# Linked Art
+
+![bg right contain](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+
+Linked Art is a community collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it. 
+
+<!-- _footer: "https://linked.art" -->
 
 ---
 
-Human and nonhuman, have a look at https://hal.science/hal-04106101
-
-
----
-
-Boundary objects
+ANT 
 
 ---
 
+## Bibliography
 
-<!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+```
 
-# <!-- fit --> Conclusion
-Well-formed, meaningful, truthful and interoperable
+Berners-Lee, Tim (1991, August 6). WorldWideWeb—Executive summary. https://archive.md/Lfopj
+
+Floridi, Lucioano (2011). The philosophy of information. Oxford University Press.
+
+Guillem, Anaïs & Gros, Antoine, & Deluca, Livio (2023). Faire parler les claveaux effondrés de la 
+cathédrale Notre-Dame de Paris. Recueil des communications du 4e colloque Humanistica. Humanistica 
+2023, Genève, Suisse. https://hal.science/hal-04106101
+
+Hacıgüzeller, Piraye & Taylor, James Stuart & Perry, Sara (2021). On the Emerging Supremacy 
+of Structured Digital Data in Archaeology: A Preliminary Assessment of Information, 
+Knowledge and Wisdom Left Behind. Open Archaeology, 7(1), 1709‑1730. https://doi.org/10.1515/opar-2020-0220
+
+Rossenova, Lozana & Di Franco, Karen (2022). Iterative Pasts and Linked Futures: A Feminist 
+Approach to Modeling Data in Archives and Collections of Artists’ Publishing. Perspectives on Data. 
+https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
+
+```
+
+--- 
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+# Linked Open Usable Data for Cultural Heritage
+#### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
+
+PhD Thesis supervised by: 
+- Peter Fornaro (University of Basel)
+- Walter Leimgruber (University of Basel)
+- Robert Sanderson (Yale University)
+
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
+
+<!-- _footer: "https://phd.julsraemy.ch" -->
 
 
----
-
----
 
 
 
