@@ -163,9 +163,22 @@ In three parts...
 
 ---
 
+# <!-- fit --> Notre-Dame's Keystones as Full-Fledged Actors
+
+
+![bg](https://julsraemy.ch/prezi/assets/guillem-claveaux.png)
+
+<!-- _footer: "Guillem, Gros & Deluca (2023)" -->
+
+<!--
+
+The restoration of Notre-Dame Cathedral in Paris is often told from various viewpoints, from stonecutters, conservators, archaeologists, and architects. This contribution shifts the perspective to two keystones from the nave's F29-30 double arch, destroyed in the 2019 fire. Viewing them not only as artefacts but as agents reveals their unique journey—once part of the vault, they fell, underwent diverse stages (burial, cleaning, digitization, restoration, etc.), and became active participants, echoing Actor-Network Theory principles. This approach links traditional narrative with information science, emphasizing the keystones' role as central actors in their history.
+
+  -->
+
+---
+
 # <!-- fit  --> $II$ — Defining Cultural Heritage Data
-
-
 
 ### Knowledge Latency
 
@@ -173,7 +186,7 @@ In three parts...
 
 <!-- 
 
-Something else...
+Every dataset embodies an underlying potential that research and interpretation bring to light. A noticeable divide, especially within cultural heritage, exists between the generation of data, description of it and its use, owing to the diverse array of unforeseen applications.
 
 -->
 ---
@@ -182,13 +195,24 @@ Something else...
 
 ![bg contain](https://artic-web.imgix.net/09fc275f-e14d-4277-af79-17f5b0dcf131/rossenova_difranco_fig01_DRAFT.jpg)
 
-<!-- _footer: "Rossenova & Di Franco (2022)" -->
+<!-- _footer: "Rossenova & Di Franco (2022). Five iterations of _Parts of a Body House_ from 1968 to 1972" -->
 
+<!-- With this example and a great article from Lozana Rossenova and Karen Di Franco about artists' books and specificall Parts of a Body House from Carolee Schneeman. Artists’ book collections were established in the libraries of art schools and museums in response to the rapid proliferation of such publications as art objects starting in the 1960s. Unlike other modes of artistic practice that were accessioned by curatorial departments, these items were largely gathered by libraries, which has made artists’ publishing subject to the definitions of the library catalog rather than those of the art collection “proper.” This situation is further complicated in the case of materials that have, for a variety of reasons, either evaded categorization completely, or been located in archives and described as archival items, or been classed as serials or journals, or ephemera. But many artists’ publications deliberately challenge the categories of library, archive, and collection catalogue alike -->
 
 
 ---
 
 ![bg](https://artic-web.imgix.net/d2c4713c-9f2e-4264-92f1-b9635a7cc12c/lozano_di_franco_hero.jpg?rect=1182%2C1037%2C1490%2C838&auto=format%2Ccompress&q=80&fit=crop&crop=faces%2Ccenter&w=3000&h=1687)
+
+<!-- 
+
+While the case-study research revealed the interconnections among the collections and publications activated by Schneemann’s contribution, these discrete iterations are sorted into different categories within a group of collection catalogs across institutions.
+
+For archives of nonstandard art objects such as net art or artists’ publishing (e.g., Schneemann’s work), the network model of LOD offers an opportunity to map out relations of embodied iterations that defy categorization (or canonization) and thus construct new, fuller and more nuanced histories around these materials.
+
+Rossenova & Di Franco (2022)
+
+ -->
 
 ---
 
@@ -206,9 +230,13 @@ Something else...
 
 <!--
 
-- Structured Data are “Representations”
-- Structured Data are Not a “Neutral Resource”
-- Structured Data May Not Be a “Democratizing Trend”
+Through a process of manual annotation and mapping of short excerpts from a variety of archaeological texts from Çatalhöyük [tʃaˈtaɫhœjyc] in Turkey to the CIDOC Conceptual Reference Model, a high-level ontology, they sought to examine and compare the representational affordances and resistances of data.
+
+Structured data (using CRM) fails to map the more natural modes of expression found in various types of archaeological text.
+
+- Structured Data are “Representations”: The implication is that data that do not conform to a consensus of the “norm” are hard to situate within any type of structured data.
+- Structured Data are Not a “Neutral Resource”: we need to consider (archaeological) databases that hold structured data not as containers of knowledge but rather as artefacts of previous (archaeological) knowledge making episodes, that is, digital technologies should be seen as having their own agency. As such, structured data sets embody their own set of socio-technical relationships and can't be neutral.
+- Structured Data May Not Be a “Democratizing Trend”. Data may be inadvertently promoting or reinforcing forms of social injustice. the ontology itself manages to strip away much of the context that provides the means by which wider audiences might derive relevance and meaning from the data should be a cause for concern. Not everyone Even as community-driven or participatory practices grow in popularity, the fundamental redesign of workflows, methods, and data to embed communities and community values at their core is still lacking 
 
  -->
 
@@ -238,6 +266,7 @@ Something else...
 
 ---
 
+
 ![bg contain right](https://julsraemy.ch/prezi/assets/storiiies.gif)
 
 # IIIF 
@@ -245,11 +274,17 @@ Something else...
 - A model for presenting and annotating content
 - A global community that develops shared application programming interfaces (APIs), implements them in software, and exposes interoperable content
 
-<!-- _footer: "https://iiif.io" -->
+<!-- _footer: "1) https://iiif.io — 2) Storiiies" -->
 
 
 <!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
 
+
+---
+![bg 96%](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+![bg 80%](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
+
+<!-- _footer: "1) IIIF Ecosystem — 2) https://www.theleidencollection.com/viewer/david-and-uriah/" -->
 
 ---
 
@@ -260,6 +295,18 @@ Something else...
 Linked Art is a community collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it. 
 
 <!-- _footer: "https://linked.art" -->
+
+<!--
+The model and API are based on appropriate international standards to ensure that they are interoperable and easy to use. Linked Art focuses on usability of the data as a primary consideration, such that it is easy to implement and maintain.
+
+Some of the LOUD Design Principles:
+B. Few Barriers to entry: it should be easy to get started.
+
+C. Comprehensible by Introspection: The data should be understandable to a large degree simply by looking at it,
+
+D. Documentation with working examples
+
+ -->
 
 ---
 
@@ -273,7 +320,7 @@ ANT
 
 Berners-Lee, Tim (1991, August 6). WorldWideWeb—Executive summary. https://archive.md/Lfopj
 
-Floridi, Lucioano (2011). The philosophy of information. Oxford University Press.
+Floridi, Luciano (2011). The philosophy of information. Oxford University Press.
 
 Guillem, Anaïs & Gros, Antoine, & Deluca, Livio (2023). Faire parler les claveaux effondrés de la 
 cathédrale Notre-Dame de Paris. Recueil des communications du 4e colloque Humanistica. Humanistica 
