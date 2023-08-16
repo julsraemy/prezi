@@ -118,7 +118,7 @@ Perspective du W3C (Etemad & Rivoal 2023) synthétisée par Robert Sanderson dan
 Pour toutes les données $x$, si $x$ est bien formé, significatif et véridique, alors $x$ représente de l'information sémantique :
 
 $
-\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow SI(x)
+\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)
 $
 <!-- _footer: "Floridi (2011)" -->
 
