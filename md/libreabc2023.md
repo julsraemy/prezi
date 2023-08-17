@@ -364,6 +364,10 @@ Bref aperçu du fonctionnement des communautés
 
 ---
 
+![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
+
+---
+
 ![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
 
 <!-- 
@@ -379,14 +383,15 @@ Transparence, Collaboration
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
-
----
-
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
 
 <!-- _footer: "https://iiif.io/community/trc/" -->
+
+---
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
 
 ---
 # Se réunir
@@ -400,10 +405,6 @@ Transparence, Collaboration
 
 ---
 
-
-![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
-
----
 
 <!-- _footer: "Raemy (2023)" -->
 
