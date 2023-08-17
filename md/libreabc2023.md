@@ -2,7 +2,7 @@
 marp: true
 author: Julien A. Raemy
 title: Créer des API ouvertes - les pratiques et le tissu social des communautés IIIF et Linked Art 
-description: Cette présentation sur les pratiques des communautés IIIF et Linked Art a été réalisée dans le cadre de la journée LibreABC qui s'est déroulée le 31 août 2023 au Musée d'ethnographie de Genève. 
+description: Cette présentation a été réalisée dans le cadre de la journée LibreABC qui s'est déroulée le 31 août 2023 au Musée d'ethnographie de Genève. La création et la maintenance d’interfaces de programmation applicative (API - application programming interface) ouvertes et partagées est une pratique courante dans le développement de logiciels et de technologies de l'information. Les communautés IIIF (International Image Interoperability Framework Consortium) et Linked Art — composés principalement d'individus travaillant dans des bibliothèques, archives, musées et universités — sont des exemples de communautés qui ont adopté cette pratique avec succès. Cela favorise la collaboration et le développement de logiciels compatibles, tout en encourageant la transparence et l'ouverture. Les membres de ces communautés s'engagent à assurer la qualité et l'interopérabilité de leurs API en se basant sur des cas pratiques communs et sur des standards web ouverts. Les API des communautés IIIF et Linked Art présentent un potentiel énorme pour les utilisateur·rice·x·s, qu'iels soient universitaires ou membres du grand public. Grâce à ces API, les utilisateur·rice·x·s peuvent facilement accéder à des collections patrimoniales numériques, ce qui ouvre de nouvelles opportunités pour la recherche, l'éducation et la créativité. En fin de compte, les API ouvertes contribuent à la création d'un écosystème numérique collaboratif et dynamique, qui peut bénéficier à la société dans son ensemble.
 keywords: API, IIIF, Linked Art, LOUD
 image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://doi.org/10.5281/zenodo.8178671
@@ -72,24 +72,8 @@ Axes d'exploration
 <!-- J'aimerais revenir à un événement qui s'est déroulé il y a maintenant plus de trente ans et qu'il est l'avènement du Web, créé non loin d'ici au CERN par Tim Berners-Lee. Dans l'un de ces emails, archivés par Internet Archive, Berners-Lee évoque que le projet du web avait débuté avec l'idée qu'une grande partie des informations académiques devrait être accessible librement à toutes et tous. -->
 
 ---
-# <!-- fit --> $II$ – Linked Open Usable Data (LOUD)
 
-Principes de conception du LOUD :
-
-* A – La bonne abstraction en fonction du public 
-* B – Peu d'obstacles à l'entrée 
-* C – Compréhensible par introspection 
-* D – Documentation comportant des exemples concrets
-* E – Peu d'exceptions, mais de nombreux modèles cohérents
-
-<!-- Le web a évolué mais l'idée d'un web sémantique remonte déjà à la fin des années 1990 avec la spécification du standard de syntaxe RDF (Resource Description Framework) et plus tard avec les principes du Linked Data dans les années 2000. Un constat, c'est que les projets autour du Linked Open Data (LOD) se sont principalement concentrés sur la publication et la consommation de données. LOUD ou « données ouvertes liées et utilisables », est un terme et une démarche qui veut mettre l'accent sur l'utilisabilité.  Une des premières intentions du LOUD est de permettre autant à la communauté scientifique qu’aux développeurs de logiciels d’accéder aux données. Il convient donc de trouver un équilibre qui prenne en compte les besoins en matière d’exhaustivité et de précision des données, qui dépend de la construction ontologique, et les préoccupations pragmatiques qui sont l’évolutivité et la facilitation d’utilisation. Cinq principes ont donc été créés autour du LOUD. -->
-
-
-<!-- _footer: "Traduction : Raemy (2022). Version orginale : LOUD Design Principles (https://linked.art/loud)" -->
-
----
-
-# <!-- fit --> $III$ – Patrimoine matériel, immatériel et naturel
+# <!-- fit --> $II$ – Patrimoine matériel, immatériel et naturel
 
 > Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
 
@@ -99,7 +83,7 @@ Principes de conception du LOUD :
 
 ---
 
-# <!-- fit --> $IV$ – Interopérabilité : essai de définition
+# <!-- fit --> $III$ – Interopérabilité : essai de définition
 
 Perspective du W3C (Etemad & Rivoal 2023) synthétisée par Robert Sanderson dans le but de positionner IIIF  à travers le prisme de l'interopérabilité :
 
@@ -109,7 +93,7 @@ Perspective du W3C (Etemad & Rivoal 2023) synthétisée par Robert Sanderson dan
 
 ---
 
-# <!-- fit --> $V$ – Information sémantique
+# <!-- fit --> $IV$ – Information sémantique
 
 ![bg contain right:45%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
 
@@ -120,7 +104,7 @@ Pour toutes les données $x$, si $x$ est bien formé, significatif et véridique
 $
 \forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)
 $
-<!-- _footer: "Floridi (2011); " -->
+<!-- _footer: "Floridi (2011); Chen & Floridi (2013)  " -->
 
 <!-- Que les systèmes puissent interagir entre eux, c'est une chose, mais il faut également que les données qui y transitent aient un sens et pour la défition de l'information sémantique, je me base sur les travaux de Luciano Floridi qui implique plusieurs éléments pour y parvenir que sont : être bien formé, significatif et véridique. Pour chacun de ces éléments, on peut imaginer plusieurs couches ou niveaux d'abstraction, que ça soit au niveau du format de fichier, des métadonnées associées, du processus du numérisation et les systèmes sous-jacents nécessaires pour parvenir à stocker et disséminer cette donnée. 
 
@@ -265,13 +249,9 @@ Les protocoles IIIF
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
+![bg contain](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
 
 <!--Les API fournissent un moyen structuré de connecter des systèmes. Autrement dit, dans une architecture client-serveur, si différents logiciels comprennent une API spécifique, on peut facilement les permuter. -->
-
----
-
-![bg contain](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
 
 ---
 
@@ -442,16 +422,25 @@ Bref aperçu du fonctionnement des communautés
 Yale Collections Discovery 
 
 ---
-# LUX
 
+![bg opacity:.2](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.2](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.2](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.2](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
+
+
+<!-- _footer: "Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery" -->
+
+
+<!-- Plateforme reposant sur une série de réalisations progressive. 
 - LUX est un outil de recherche et de découverte rassemblant des données disparates de Yale touchant au patrimoine culturel. 
-  - _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery, Archives at Yale_
 - La plateforme LUX se caractérise par ses nombreuses connexions, non seulement au sein des unités Yale, mais aussi au-delà, grâce à l'inclusion de sources de données externes (Wikidata, )
 
-<!-- Plateforme reposant sur une série de réalisations progressive -->
+Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery, Archives at Yale
 
+ -->
 
-<!-- _footer: "https://lux.collections.yale.edu/" -->
 
 ---
 
@@ -462,7 +451,10 @@ Yale Collections Discovery
 - Documentation et mise à disposition des chaînes de traitement, modélisation et correspondance des données
 - Base de données multimodale orientée documents (NoSQL) : MarkLogic Server
 
-&rarr; Toutes les composantes de LUX, y compris le code spécifique pour MarkLogic, sera rendu open source.
+<!-- Toutes les composantes de LUX, y compris le code spécifique pour MarkLogic, sera rendu open source.  -->
+
+
+<!-- _footer: "https://lux.collections.yale.edu/" -->
 
 ---
 

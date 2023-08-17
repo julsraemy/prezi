@@ -79,64 +79,6 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
-# <!-- fit -->Semantic Information
-
-![bg contain 95% right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
-
-> Semantic Information is well-formed, meaningful, and truthful data.
-
-_For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information:_ 
-
-$\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)$
-
-
-
-<!-- _footer: "Floridi (2011); Chen & Floridi (2013)" -->
-
-<!-- 
-
-Data are definable as constraining affordances, exploitable by a system as input of adequate queries 
-
-
-The alethic nature, or modalities of truth, is the component that is the hardest to come by, to assess. 
-
-
-In short, semantic information can also be described erotetically as data + queries.
-
-According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value. 
-
-
- -->
-
-
----
-
-# Semantic Interoperability
-
-
-Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. 
-
-_For all $y$, for all $z$, if both $y$ and $z$ exhibit Semantic Interoperability $I$ and there is a seamless exchange $E$ between $y$ and $z$, then for any data $x$ being exchanged between them, $x$ must be well-formed, meaningful, and truthful:_
-
-
-$
-\forall y \, \forall z \, \big[ I(y) \land I(z) \land E(y, z) \big] 
-$
-
-$
-\rightarrow \big[ \forall x \, \big( W(x) \land M(x) \land T(x) \big) 
-\rightarrow E(y, z) \land S(x) \big]
-$
-
-<!-- Combining insights from Floridi and Sanderson. 
-
-Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
-
-
- -->
-
----
-
 
 <!-- _class: lead -->
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
@@ -196,28 +138,20 @@ Every dataset embodies an underlying potential that research and interpretation 
 
 ![bg contain](https://artic-web.imgix.net/09fc275f-e14d-4277-af79-17f5b0dcf131/rossenova_difranco_fig01_DRAFT.jpg)
 
-<!-- _footer: "Rossenova & Di Franco (2022). Five iterations of _Parts of a Body House_ from 1968 to 1972" -->
-
-<!-- With this example and a great article from Lozana Rossenova and Karen Di Franco about artists' books and specificall Parts of a Body House from Carolee Schneeman. Artists’ book collections were established in the libraries of art schools and museums in response to the rapid proliferation of such publications as art objects starting in the 1960s. Unlike other modes of artistic practice that were accessioned by curatorial departments, these items were largely gathered by libraries, which has made artists’ publishing subject to the definitions of the library catalog rather than those of the art collection “proper.” This situation is further complicated in the case of materials that have, for a variety of reasons, either evaded categorization completely, or been located in archives and described as archival items, or been classed as serials or journals, or ephemera. But many artists’ publications deliberately challenge the categories of library, archive, and collection catalogue alike 
-
--->
-
-
----
-
-![bg](https://artic-web.imgix.net/d2c4713c-9f2e-4264-92f1-b9635a7cc12c/lozano_di_franco_hero.jpg?rect=1182%2C1037%2C1490%2C838&auto=format%2Ccompress&q=80&fit=crop&crop=faces%2Ccenter&w=3000&h=1687)
+<!-- _footer: "Rossenova & Di Franco (2022). Figure 1: Five iterations of _Parts of a Body House_ from 1968 to 1972." -->
 
 <!-- 
 
-While the case-study research revealed the interconnections among the collections and publications activated by Schneemann’s contribution, these discrete iterations are sorted into different categories within a group of collection catalogs across institutions.
+Rossenova and Di Franco's article delves into artists' books, focusing on Carolee Schneeman's "Parts of a Body House." Unlike traditional art acquisitions, artists' books landed in libraries of art institutions, following the 1960s' surge in their recognition as art objects. These collections don't fit neatly into curatorial realms; instead, they're cataloged under library definitions. The challenge intensifies when materials resist categorization or adopt archival, serial, or ephemeral labels. Many artists' publications purposefully defy conventional library, archive, and collection norms.
 
-For archives of nonstandard art objects such as net art or artists’ publishing (e.g., Schneemann’s work), the network model of LOD offers an opportunity to map out relations of embodied iterations that defy categorization (or canonization) and thus construct new, fuller and more nuanced histories around these materials.
+The study uncovered linked collections and publications from Schneeman's contributions, though these distinct versions find varying categorization across institution-specific catalogs.
 
-During community discussions, the sheer range of possible relations across editions, reinterpretations, serializations, or appropriations of publications proved challenging to describe completely within the structure of the LOD model.
+For unconventional art archives like artist's books, linked data's network model provides a means to chart relationships of indefinable embodied versions, constructing intricate histories beyond categorization or canonization.
 
-Rossenova & Di Franco (2022)
+However, community discussions revealed difficulty in fully describing the array of relationships across editions, reinterpretations, serializations, or appropriations of publications within the LOD model structure.
 
- -->
+-->
+
 
 ---
 
@@ -340,12 +274,8 @@ That was my last slide, dependencies to create a form of knowledge regime, on th
 ## Bibliography
 
 ```
+
 Berners-Lee, Tim (1991, August 6). WorldWideWeb—Executive summary. https://archive.md/Lfopj
-
-Chen, Min & Floridi, Luciano (2013). An analysis of information visualisation. Synthese, 190(16), 
-3421–3438. https://doi.org/10.1007/s11229-012-0183-y
-
-Floridi, Luciano (2011). The philosophy of information. Oxford University Press. ISBN 978-0-19-923238-3
 
 Guillem, Anaïs & Gros, Antoine, & Deluca, Livio (2023). Faire parler les claveaux effondrés de la 
 cathédrale Notre-Dame de Paris. Recueil des communications du 4e colloque Humanistica. Humanistica 
@@ -358,6 +288,7 @@ Knowledge and Wisdom Left Behind. Open Archaeology, 7(1), 1709‑1730. https://d
 Rossenova, Lozana & Di Franco, Karen (2022). Iterative Pasts and Linked Futures: A Feminist 
 Approach to Modeling Data in Archives and Collections of Artists’ Publishing. Perspectives on Data. 
 https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
+
 ```
 
 --- 
