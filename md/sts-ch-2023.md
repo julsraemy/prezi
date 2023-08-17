@@ -256,7 +256,7 @@ That could be a solution to some extent to democratise structured data, when mor
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications.svg)
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
 
 <!-- 
 

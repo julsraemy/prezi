@@ -364,15 +364,22 @@ Bref aperçu du fonctionnement des communautés
 
 ---
 
-# Cadre simplifié
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
 
-* Identification des scénarios ou cas d'utilisation
-* Synthèse du cas sur GitHub
-* Discussion et intégration ou non du cas d'utilisation au sein des spécifications
-  * Outils : Liste de discussion, Slack, Zoom
-* Evaluation sur la mise en œuvre
+<!-- 
 
-&rarr; Transparence, Collaboration
+Transparence, Collaboration
+
+- Identification des scénarios ou cas d'utilisation
+- Synthèse du cas sur GitHub
+- Discussion (généralement en ligne) et intégration ou non du cas d'utilisation au sein des spécifications
+- Evaluation sur la mise en œuvre
+
+ -->
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
 
 ---
 
