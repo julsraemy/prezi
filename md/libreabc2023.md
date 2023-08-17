@@ -45,11 +45,11 @@ Thèse de doctorat encadré par :
 # Déroulement
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-* Préambule : axes d'exploration
-* International Image Interoperability Framework (IIIF)
-* Linked Art
-* IIIF et Linked Art : bref aperçu du fonctionnement des communautés
-* LUX : Yale Collections Discovery 
+- Préambule : axes d'exploration
+- International Image Interoperability Framework (IIIF)
+- Linked Art
+- IIIF et Linked Art : bref aperçu du fonctionnement des communautés
+- LUX : Yale Collections Discovery 
 
 <!-- Je vais démarrer par un préambule qui donnera déjà quelques pistes de réflexion ou des axes d'exploration. Ensuite je vais tout de même vous expliquer ce que sont IIIF et Linked Art, puis un bref aperçu de comment ces communautés fonctionnent. Finalement, je vais brièvement vous présenter un cas concret avec LUX, la plateforme de Yale qui a mis en œuvre les API IIIF et Linked Art -->
 
@@ -120,7 +120,7 @@ Pour toutes les données $x$, si $x$ est bien formé, significatif et véridique
 $
 \forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)
 $
-<!-- _footer: "Floridi (2011)" -->
+<!-- _footer: "Floridi (2011); " -->
 
 <!-- Que les systèmes puissent interagir entre eux, c'est une chose, mais il faut également que les données qui y transitent aient un sens et pour la défition de l'information sémantique, je me base sur les travaux de Luciano Floridi qui implique plusieurs éléments pour y parvenir que sont : être bien formé, significatif et véridique. Pour chacun de ces éléments, on peut imaginer plusieurs couches ou niveaux d'abstraction, que ça soit au niveau du format de fichier, des métadonnées associées, du processus du numérisation et les systèmes sous-jacents nécessaires pour parvenir à stocker et disséminer cette donnée. 
 

@@ -66,7 +66,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 # The usual suspects
 
 - Open Science / Open Access → **Movement**
-- FAIR Data Principles → **Environment/System**
+- FAIR Data Principles / CARE Principles for Indigenous Data Governance → **Environment/System**
 - Linked Open Data (LOD) → **Content**
 
 <!-- From the point of view of principles or technologies that I think are necessary, here are the ones which I consider worth mentioning. Open Science / Open Access, FAIR Data Principles and Linked Open Data. They have different focuses and one that I think is most useful within my thesis is the last one as I am most interested in interoperability and creating a semantic framework not only for humans but also for machines.  -->
