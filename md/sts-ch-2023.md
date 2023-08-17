@@ -268,7 +268,6 @@ Structured data (using CRM) fails to map the more natural modes of expression fo
 ![bg 53%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 
-
 ---
 
 
@@ -311,6 +310,8 @@ C. Comprehensible by Introspection: The data should be understandable to a large
 
 D. Documentation with working examples
 
+That could be a solution to some extent to democratise structured data, when more accessible tools will be released. 
+
  -->
 
 ---
@@ -325,7 +326,12 @@ D. Documentation with working examples
 
 <!-- 
 
+Example: the release of the IIIF Image and Presentation APIs 3.0. 
+
+
 Tracing "from use cases to specifications" in IIIF and Linked Art reveals key actors: GitHub orchestrates, API specification is centrally mediated by JSON-LD context. Validators control compliance. Servers and clients align, each with distinct technical dependencies. Objects embody purpose. Human collectives - IIIF editors, etc - steer. JSON-LD's API mediates context; intermediaries channel. Technologies, with layered abstraction, interweave, revealing a complex ecosystem.
+
+That was my last slide, dependencies to create a form of knowledge regime, on the Web.  
 
  -->
 
@@ -365,6 +371,8 @@ https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-
 
 These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
+<!-- PIA: Context of my research - where we leverage three collections of the Swiss Society for Fokflore Studies. -->
+
 
 ---
 
@@ -378,7 +386,7 @@ PhD Thesis supervised by:
 - Walter Leimgruber (University of Basel)
 - Robert Sanderson (Yale University)
 
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of semantics and interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
 
 <!-- _footer: "https://phd.julsraemy.ch" -->
 
