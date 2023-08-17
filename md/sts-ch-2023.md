@@ -58,7 +58,7 @@ Semantic Interoperability
 
 The Semantic Web is an extension of the World Wide Web, through standards, to make it machine-readable.
 
-![bg contain right:40%](https://upload.wikimedia.org/wikipedia/commons/f/f3/Semantic_Web_Stack.png)
+![bg contain 95% right:40%](https://upload.wikimedia.org/wikipedia/commons/f/f3/Semantic_Web_Stack.png)
 
 <!-- This Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data. The Semantic Web offers major opportunities for scholarship as it allows data to be reasoned together, that is to be understood by machines via those RDF-based ontologies, a formal way to represent human-like knowledge.  -->
 
@@ -70,7 +70,7 @@ With RDF, everything goes in threes. Most of the triples' components have Unifor
 
 Syntax: subject, predicate, object $(s \ \vec{p} \ o)$
 
-![bg contain right:52%](https://julsraemy.ch/prezi/assets/rdf-sts.svg)
+![bg contain 95% right:52%](https://julsraemy.ch/prezi/assets/rdf-sts.svg)
 
 <!-- With RDF, everything goes in threes, the data model contains so-called triples: that is subject, predicate, object that form graphs.
 Most of the components of these triples use Uniform Resource Identifiers (URIs) and are generally web-addressable, whether for naming subjects and objects (which may themselves also be objects of other triples) or relationships 
@@ -81,7 +81,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 # <!-- fit -->Semantic Information
 
-![bg contain right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
+![bg contain 95% right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
 
 > Semantic Information is well-formed, meaningful, and truthful data.
 
@@ -91,7 +91,7 @@ $\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)$
 
 
 
-<!-- _footer: "Floridi (2011)" -->
+<!-- _footer: "Floridi (2011); Chen & Floridi (2013)" -->
 
 <!-- 
 
@@ -147,7 +147,7 @@ Interoperability is a state in which two or more tested, independently developed
 
 # <!-- fit  --> $I$ — Defining Cultural Heritage Data
 
-![bg contain right:28%](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
+![bg contain 95% right:28%](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
 
 ### Heterogeneity 
 
@@ -163,12 +163,13 @@ In three parts...
 
 ---
 
-# <!-- fit --> Notre-Dame's Keystones as Full-Fledged Actors
+##### Notre-Dame's Restoration 
 
+Keystones as Full-Fledged Actors
 
-![bg](https://julsraemy.ch/prezi/assets/guillem-claveaux.png)
+![bg contain right:73%](https://julsraemy.ch/prezi/assets/guillem-claveaux.png)
 
-<!-- _footer: "Guillem, Gros & Deluca (2023)" -->
+<!-- _footer: "Guillem et al. (2023)" -->
 
 <!--
 
@@ -197,7 +198,9 @@ Every dataset embodies an underlying potential that research and interpretation 
 
 <!-- _footer: "Rossenova & Di Franco (2022). Five iterations of _Parts of a Body House_ from 1968 to 1972" -->
 
-<!-- With this example and a great article from Lozana Rossenova and Karen Di Franco about artists' books and specificall Parts of a Body House from Carolee Schneeman. Artists’ book collections were established in the libraries of art schools and museums in response to the rapid proliferation of such publications as art objects starting in the 1960s. Unlike other modes of artistic practice that were accessioned by curatorial departments, these items were largely gathered by libraries, which has made artists’ publishing subject to the definitions of the library catalog rather than those of the art collection “proper.” This situation is further complicated in the case of materials that have, for a variety of reasons, either evaded categorization completely, or been located in archives and described as archival items, or been classed as serials or journals, or ephemera. But many artists’ publications deliberately challenge the categories of library, archive, and collection catalogue alike -->
+<!-- With this example and a great article from Lozana Rossenova and Karen Di Franco about artists' books and specificall Parts of a Body House from Carolee Schneeman. Artists’ book collections were established in the libraries of art schools and museums in response to the rapid proliferation of such publications as art objects starting in the 1960s. Unlike other modes of artistic practice that were accessioned by curatorial departments, these items were largely gathered by libraries, which has made artists’ publishing subject to the definitions of the library catalog rather than those of the art collection “proper.” This situation is further complicated in the case of materials that have, for a variety of reasons, either evaded categorization completely, or been located in archives and described as archival items, or been classed as serials or journals, or ephemera. But many artists’ publications deliberately challenge the categories of library, archive, and collection catalogue alike 
+
+-->
 
 
 ---
@@ -209,6 +212,8 @@ Every dataset embodies an underlying potential that research and interpretation 
 While the case-study research revealed the interconnections among the collections and publications activated by Schneemann’s contribution, these discrete iterations are sorted into different categories within a group of collection catalogs across institutions.
 
 For archives of nonstandard art objects such as net art or artists’ publishing (e.g., Schneemann’s work), the network model of LOD offers an opportunity to map out relations of embodied iterations that defy categorization (or canonization) and thus construct new, fuller and more nuanced histories around these materials.
+
+During community discussions, the sheer range of possible relations across editions, reinterpretations, serializations, or appropriations of publications proved challenging to describe completely within the structure of the LOD model.
 
 Rossenova & Di Franco (2022)
 
@@ -222,7 +227,7 @@ Rossenova & Di Franco (2022)
 - Not Neutral Resources
 - May Not Be a Democratizing Trend
 
-![bg right:64% contain](https://www.degruyter.com/document/doi/10.1515/opar-2020-0220/asset/graphic/j_opar-2020-0220_fig_002.jpg)
+![bg contain 95% right:64%](https://www.degruyter.com/document/doi/10.1515/opar-2020-0220/asset/graphic/j_opar-2020-0220_fig_002.jpg)
 
 
 
@@ -310,17 +315,31 @@ D. Documentation with working examples
 
 ---
 
-ANT 
+![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+
+<!-- One example of representation, with the different processes. Something that is often done to represent the various stages from the metadata source to the visualisation and how standards can interact with each other. -->
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications.svg)
+
+<!-- 
+
+Tracing "from use cases to specifications" in IIIF and Linked Art reveals key actors: GitHub orchestrates, API specification is centrally mediated by JSON-LD context. Validators control compliance. Servers and clients align, each with distinct technical dependencies. Objects embody purpose. Human collectives - IIIF editors, etc - steer. JSON-LD's API mediates context; intermediaries channel. Technologies, with layered abstraction, interweave, revealing a complex ecosystem.
+
+ -->
 
 ---
 
 ## Bibliography
 
 ```
-
 Berners-Lee, Tim (1991, August 6). WorldWideWeb—Executive summary. https://archive.md/Lfopj
 
-Floridi, Luciano (2011). The philosophy of information. Oxford University Press.
+Chen, Min & Floridi, Luciano (2013). An analysis of information visualisation. Synthese, 190(16), 
+3421–3438. https://doi.org/10.1007/s11229-012-0183-y
+
+Floridi, Luciano (2011). The philosophy of information. Oxford University Press. ISBN 978-0-19-923238-3
 
 Guillem, Anaïs & Gros, Antoine, & Deluca, Livio (2023). Faire parler les claveaux effondrés de la 
 cathédrale Notre-Dame de Paris. Recueil des communications du 4e colloque Humanistica. Humanistica 
@@ -333,15 +352,26 @@ Knowledge and Wisdom Left Behind. Open Archaeology, 7(1), 1709‑1730. https://d
 Rossenova, Lozana & Di Franco, Karen (2022). Iterative Pasts and Linked Futures: A Feminist 
 Approach to Modeling Data in Archives and Collections of Artists’ Publishing. Perspectives on Data. 
 https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
-
 ```
 
 --- 
 
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+## Image Credits
+- [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
+- [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
+
+These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+
+
+---
+
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
 # Linked Open Usable Data for Cultural Heritage
-#### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
+####  Perspectives on Community Practices and Semantic Interoperability
 
 PhD Thesis supervised by: 
 - Peter Fornaro (University of Basel)
