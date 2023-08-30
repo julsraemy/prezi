@@ -251,7 +251,9 @@ Les protocoles IIIF
 
 ![bg contain](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
 
-<!--Les API fournissent un moyen structuré de connecter des systèmes. Autrement dit, dans une architecture client-serveur, si différents logiciels comprennent une API spécifique, on peut facilement les permuter. -->
+<!--Les API fournissent un moyen structuré de connecter des systèmes.  C'est un ensemble normalisé de méthodes qui sert de façade par laquelle un logiciel offre des services à d'autres logiciels. Autrement dit, dans une architecture client-serveur, si différents logiciels comprennent une API spécifique, on peut facilement les permuter. -->
+
+<!-- _footer: "Les API fournissent un moyen structuré de connecter des systèmes." -->
 
 ---
 
@@ -295,7 +297,7 @@ Linked Art est une communauté et un groupe de travail du CIDOC qui collabore à
 
 <!-- _footer: "https://linked.art" -->
 
-<!-- CIDOC : Conseil international pour la documentation du Conseil international des musées -->
+<!-- CIDOC : Conseil international pour la documentation du Conseil international des musées. Linked Art, même si utilisé surtout dans un contexte muséal, peut complètement être utilisé dans un contexte archivistique ou bibliothéconomique, du moins comme un complément.  -->
 
 ---
 
@@ -309,15 +311,19 @@ Linked Art est une communauté et un groupe de travail du CIDOC qui collabore à
 | **Profile**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
 | **API**        | JSON-LD, style d'architecture REST              |
 
----
-
-![bg 60%](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
-
 <!-- - Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF CIDOC-CRM 7.1
 - Sérialisation en JSON-LD
 - Vocabulaires Getty (AAT, ULAN, TGN)
 - Règles/Patterns
 - Intégration facilitée d’objets et services numériques
+-->
+
+
+---
+
+![bg 60%](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+
+<!-- Modèle centré sur les événements
 -->
 
 <!-- _footer: "Raemy et al. (2023), adapté de Sanderson (2018)" -->
@@ -365,6 +371,12 @@ Bref aperçu du fonctionnement des communautés
 ---
 
 ![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
+
+<!-- 
+
+IIIF in a nutshell, cela peut parraître compliqué à première vue mais ça montre bien les relations entre outils et collectifs qui sont pour moi une machine assez bien huilée et qui demande des interactions quasi quotidienne.
+
+-->
 
 ---
 
