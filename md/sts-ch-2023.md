@@ -23,6 +23,11 @@ Basel, Switzerland | 31 August 2023
 
 [![width:400px](https://zenodo.org/badge/DOI/10.5281/zenodo.8250118.svg)](https://doi.org/10.5281/zenodo.8250118)
 
+<!-- 
+
+Hi everyone, my name is Julien Raemy, I am a Phd Candidate in Digital Humanities here at the University of Basel and I am very happy to be here present some reflections on cultural heritage data in the context of my thesis. 
+ -->
+
 --- 
 
 # Agenda
@@ -32,6 +37,11 @@ Basel, Switzerland | 31 August 2023
 - Cultural Heritage Data 
 - The International Image Interoperability Framework (IIIF) and Linked Art
 
+<!-- 
+
+I'm first going to talk about the ways that data can be interlinked on the web in terms of vision and standards, then I will deconstruct a little bit the definition of what is cultural heritage data with a few examples and finally talk about two communities active in the cultural heritage field that develop and maintain specifications, that goes often hand in hand with the Open Science, Open Access movement.
+ -->
+
 ---
 
 
@@ -39,8 +49,6 @@ Basel, Switzerland | 31 August 2023
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 # <!-- fit --> Interlinking Data on the Web
-Semantics, Interoperability, 
-Semantic Interoperability
 
 
 ---
@@ -51,6 +59,9 @@ Semantic Interoperability
 
 <!-- _footer: "Berners-Lee (1991)" -->
 
+<!-- 
+I'd like to start by mentioning an event that took place more than thirty years ago: the advent of the World Wide Web, created at CERN in Geneva by Tim Berners-Lee in 1989. In one of his email, archived by the Internet Archive, Berners-Lee mentions that the web project began with the idea that a large part of academic information should be freely available to everyone.
+-->
 
 ---
 
@@ -73,8 +84,9 @@ Syntax: subject, predicate, object $(s \ \vec{p} \ o)$
 ![bg contain 95% right:52%](https://julsraemy.ch/prezi/assets/rdf-sts.svg)
 
 <!-- With RDF, everything goes in threes, the data model contains so-called triples: that is subject, predicate, object that form graphs.
-Most of the components of these triples use Uniform Resource Identifiers (URIs) and are generally web-addressable, whether for naming subjects and objects (which may themselves also be objects of other triples) or relationships 
+Most of the components of these triples use Uniform Resource Identifiers (URIs) and are generally web-addressable, whether for naming subjects and objects (which may themselves also be objects of other triples) or relationships. 
 
+As for instance, in this graph where the subject, STS-CH is a conference, that it started today and will end tomorrow. This is a presentation in graph that can be represented in different forms and formats and understood by computers. 
  -->
 
 ---
@@ -84,6 +96,13 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
 # <!-- fit --> Cultural Heritage Data
+Heterogeneity, Knowledge Latency, Custodianship
+
+<!-- 
+
+From data to cultural heritage data. And I will divide this section into three parts, three keywords.
+
+ -->
 
 ---
 
@@ -97,7 +116,10 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 <!--  
 
-In three parts...
+Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying **a rich and varied compilation of insights  originating from a variety of disciplines, techniques, traditions, positions and technologies**. It encompasses both tangible and intangible aspects of a society's culture.
+
+And on the right-hand side, there is a Male Face Mask from the Guro culture that embody tangible and intangible aspects as it is worn n the occasion of a man’s second funeral.
+
 
 -->
 
@@ -115,7 +137,7 @@ Keystones as Full-Fledged Actors
 
 <!--
 
-The restoration of Notre-Dame Cathedral in Paris is often told from various viewpoints, from stonecutters, conservators, archaeologists, and architects. This contribution shifts the perspective to two keystones from the nave's F29-30 double arch, destroyed in the 2019 fire. Viewing them not only as artefacts but as agents reveals their unique journey—once part of the vault, they fell, underwent diverse stages (burial, cleaning, digitization, restoration, etc.), and became active participants, echoing Actor-Network Theory principles. This approach links traditional narrative with information science, emphasizing the keystones' role as central actors in their history.
+Another example, one coming from the restoration of Notre-Dame Cathedral in Paris. In this project, the restoration part is often told from various viewpoints, from stonecutters, conservators, archaeologists, and architects. A contribution from Anaïs Guillem, Antoine Gros and Livio DeLuca shifts the perspective by showcasing two keystones from the nave's F29-30 double arch, destroyed in the 2019 fire. Viewing them not only as artefacts but as agents that reveal their unique journey — once part of the vault, they fell, underwent diverse stages (burial, cleaning, digitization, restoration, etc.), and became active participants, echoing Actor-Network Theory principles.
 
   -->
 
