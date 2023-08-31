@@ -5,7 +5,7 @@ title: Situating Interlinked Cultural Heritage Data on the Web
 description: This presentation focuses on situating data produced by humans and nonhumans engaged in the cultural heritage field and published on the Web in line with the Open Science and Citizen Science movements. It aims to map the associations among various communities of practice, particularly within libraries, archives and museums, and the precarious balance between exhaustiveness and a rigid structure of data description versus the potential for multiplying assertions, bypassing cataloguing rules and their underlying postcolonial constructs. The openness and interconnection of data makes it possible to examine the form of description as well as the method of publication, and inevitably to analyse the biases linked to the associated vocabularies, For instance, the Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data and a Web standard since 2004. The Semantic Web offers major opportunities for the Humanities because it allows data to be reasoned together, to be understood by machines via RDF-based ontologies, a formal way to represent human-like knowledge. Developing infrastructures, or sites of assemblage, capable of creating and maintaining RDF statements and other related technologies or building on this standard to interconnect online records is not straightforward and requires a fair amount of socio-technical elements to be implemented. As a demonstration, I will look at the practices of two community-driven initiatives, mainly active in the cultural heritage field, through an Actor-Network Theory (ANT) lens, namely the International Image Interoperability Framework (IIIF) and Linked Art, which have developed shared specifications and related services on agreed-upon design principles.
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Semantic Web
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://doi.org/10.5281/zenodo.8250118
+url: https://doi.org/10.5281/zenodo.8250117
 theme: gaia
 class: invert
 paginate: true
@@ -21,7 +21,7 @@ Julien A. Raemy (Digital Humanities Lab, University of Basel)
 STS-CH 2023 Conference
 Basel, Switzerland | 31 August 2023
 
-[![width:400px](https://zenodo.org/badge/DOI/10.5281/zenodo.8250118.svg)](https://doi.org/10.5281/zenodo.8250118)
+[![width:400px](https://zenodo.org/badge/DOI/10.5281/zenodo.8250117.svg)](https://doi.org/10.5281/zenodo.8250117)
 
 <!-- 
 
@@ -285,13 +285,32 @@ That could be a solution to some extent to democratise structured data, when mor
 Example: the release of the IIIF Image and Presentation APIs 3.0. 
 
 
-Tracing "from use cases to specifications" in IIIF and Linked Art reveals key actors: GitHub orchestrates, API specification is centrally mediated by JSON-LD context. Validators control compliance. Servers and clients align, each with distinct technical dependencies. Objects embody purpose. Human collectives - IIIF editors, etc - steer. JSON-LD's API mediates context; intermediaries channel. Technologies, with layered abstraction, interweave, revealing a complex ecosystem.
-
-That was my last slide, dependencies to create a form of knowledge regime, on the Web.  
+Tracing "from use cases to specifications" in IIIF and Linked Art reveals key actors: GitHub, a platform where developers store and share software and its docmentation, orchestrates. API specification is also centrally mediated by format and representational (JSON-LD) context. Validators control compliance. Servers and clients align, each with distinct technical dependencies. Objects embody purpose. Human collectives - IIIF editors, etc - steer. JSON-LD's API mediates context; intermediaries channel. Technologies, with layered abstraction, interweave, revealing a complex ecosystem.
 
  -->
 
 ---
+
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+# Linked Open Usable Data for Cultural Heritage
+####  Perspectives on Community Practices and Semantic Interoperability
+
+PhD Thesis supervised by: 
+- Peter Fornaro (University of Basel)
+- Walter Leimgruber (University of Basel)
+- Robert Sanderson (Yale University)
+
+<!--
+That is my last slide, and I hope that I could highlight some of the dependencies to create a form of knowledge regime, on the Web.  
+
+ I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
+
+<!-- _footer: "https://phd.julsraemy.ch" -->
+
+--- 
+
 
 ## Bibliography
 
@@ -313,7 +332,9 @@ https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-
 
 ```
 
---- 
+
+
+---
 
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
@@ -326,22 +347,6 @@ These images are part of the [photographic archives of the Swiss Society for Fol
 
 <!-- PIA: Context of my research - where we leverage three collections of the Swiss Society for Fokflore Studies. -->
 
-
----
-
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-
-# Linked Open Usable Data for Cultural Heritage
-####  Perspectives on Community Practices and Semantic Interoperability
-
-PhD Thesis supervised by: 
-- Peter Fornaro (University of Basel)
-- Walter Leimgruber (University of Basel)
-- Robert Sanderson (Yale University)
-
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
-
-<!-- _footer: "https://phd.julsraemy.ch" -->
 
 
 
