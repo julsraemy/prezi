@@ -193,6 +193,10 @@ However, community discussions revealed difficulty in fully describing the array
 
 Through a process of manual annotation and mapping of short excerpts from a variety of archaeological texts from Çatalhöyük [tʃaˈtaɫhœjyc] in Turkey to the CIDOC Conceptual Reference Model, a high-level ontology, they sought to examine and compare the representational affordances and resistances of data.
 
+But here I must say what I mean when I say ontology in Computer Science. 
+
+An ontology is an explicit specification of a conceptualization. The term is borrowed from philosophy, where an ontology is a systematic account of Existence. For knowledge-based systems, what “exists” is exactly that which can be represented.
+
 Structured data (using CRM) fails to map the more natural modes of expression found in various types of archaeological text.
 
 - Structured Data are “Representations”: The implication is that data that do not conform to a consensus of the “norm” are hard to situate within any type of structured data.
