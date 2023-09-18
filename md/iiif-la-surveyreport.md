@@ -117,13 +117,8 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 ---
 
----
+![bg contain](https://julsraemy.ch/prezi/assets/survey-communities.svg)
 
-IIIF
-
----
-
-Linked Art
 
 ---
 
