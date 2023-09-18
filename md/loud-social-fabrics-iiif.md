@@ -144,7 +144,7 @@ Translation process: naming those associations. A Relation or association in ANT
 :dart: Individuals involved in IIIF and Linked Art, but also people that have heard of the communities/specifications
 :eight: Sections
 :mega: Mailing lists, Slack workspaces, Mastodon
-:memo: Report to be soon published
+:memo: https://hal.science/hal-04162572
 
 ---
 

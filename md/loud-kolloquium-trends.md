@@ -47,9 +47,9 @@ PhD Thesis supervised by:
 - Preamble
 - Interlinking Data on the Web
 - Cultural Heritage Data 
+- Linked Open Usable Data (LOUD)
 - International Image Interoperability Framework (IIIF)
 - Linked Art
-- Linked Open Usable Data (LOUD)
 
 ---
 
@@ -331,6 +331,45 @@ Structured data (using CRM) fails to map the more natural modes of expression fo
 
 3. They are collected, curated and maintained **by various entities** such as libraries, archives, museums, higher education institutions,non-governmental organisations, indigenous communities and local groups as well as by the wider public.
 
+---
+
+
+<!-- _class: lead -->
+
+# <!-- fit --> LOUD
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+Design Principles, Standards
+
+---
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# LOUD Design Principles
+
+- The right Abstraction for the audience
+- Few Barriers to entry
+- Comprehensible by introspection &rarr; **JSON-LD**
+- Documentation with working examples
+- Few Exceptions, instead many consistent patterns
+
+<!-- _footer: "https://linked.art/loud/" -->
+
+
+<!-- The overall idea of LOUD is to make data easy to use for humans, especially for developers. JSON-LD allows for some mapping of ontological constructs into JSON, which is the lingua-franca of modern developers and is a cornerstone technology of LOUD. Five design principles to promote data consumption have been conceived. 
+To be part of the Web, not just on the Web.  -->
+
+---
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# LOUD Standards
+Examples of specifications following the LOUD design principles:
+
+- IIIF (especially the Presentation API 3.0)
+- Web Annotation Data Model
+- Linked Art
+
 
 ---
 
@@ -364,15 +403,6 @@ Structured data (using CRM) fails to map the more natural modes of expression fo
 
 ---
 
----
-
-
-<!-- _class: lead -->
-
-# <!-- fit --> LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-
----
 
 ---
 
