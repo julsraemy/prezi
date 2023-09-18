@@ -268,7 +268,7 @@ principles. While the number of participants is significant, further exploration
 
 <!-- _class: lead -->
 
-![bg contain](https://julsraemy.ch/prezi/assets/linkedart_principles.svg)
+![bg contain](https://julsraemy.ch/prezi/assets/linked_art_principles.svg)
 
 ---
 
