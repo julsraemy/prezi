@@ -349,7 +349,7 @@ Design Principles, Standards
 
 - The right Abstraction for the audience
 - Few Barriers to entry
-- Comprehensible by introspection &rarr; **JSON-LD**
+- Comprehensible by introspection
 - Documentation with working examples
 - Few Exceptions, instead many consistent patterns
 
@@ -361,13 +361,13 @@ To be part of the Web, not just on the Web.  -->
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg fit right:30% opacity:0.7](https://json-ld.org/images/json-ld-logo.png)  
 
 # LOUD Standards
 Examples of specifications following the LOUD design principles:
 
 - IIIF (especially the Presentation API 3.0)
-- Web Annotation Data Model
+- W3C Web Annotation Data Model
 - Linked Art
 
 

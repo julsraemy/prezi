@@ -41,19 +41,45 @@ PhD Thesis supervised by:
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-
 # LOUD Standards
-(JSON-LD based) Specifications following the LOUD design principles:
+Specifications following the LOUD design principles:
 
-- IIIF (especially the Presentation API 3.0)
-- Web Annotation Data Model
+- International Image Interoperability Framework APIs (especially the IIIF Presentation API 3.0)
+- W3C Web Annotation Data Model
 - Linked Art
+
+![bg fit right:30% opacity:0.7](https://json-ld.org/images/json-ld-logo.png)  
 
 <!-- _footer: "https://linked.art/loud/" -->
 
 <!-- The overall idea of LOUD is to make data easy to use for humans, especially for developers. JSON-LD allows for some mapping of ontological constructs into JSON, which is the lingua-franca of modern developers and is a cornerstone technology of LOUD. Five design principles to promote data consumption have been conceived.  -->
 
+
+---
+
+
+```json
+{
+ "@context": "https://linked.art/ns/v1/linked-art.json", 
+ "id": "https://example.org/event/42",
+ "type": "Activity",
+ "_label": "DARIAH-CH Study Day 2023",
+ "classified_as": [
+    {
+    "id": "http://vocab.getty.edu/aat/300311353", 
+    "type": "Type", 
+    "_label": "Colloquium"
+    }
+  ],
+ "identified_by": [
+    {
+    "type": "Name",
+    "content": "DARIAH-CH Study Day 2023"
+    },
+  ],
+  ...
+}
+```
 
 ---
 
@@ -95,34 +121,7 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 <!-- _footer: "https://lux.collections.yale.edu" -->
 
 ---
-Nice diagram
 
----
-
-```json
-{
- "@context": "https://linked.art/ns/v1/linked-art.json", 
- "id": "https://example.org/event/42",
- "type": "Activity",
- "_label": "DARIAH-CH Study Day 2023",
- "classified_as": [
-    {
-    "id": "http://vocab.getty.edu/aat/300311353", 
-    "type": "Type", 
-    "_label": "Colloquium"
-    }
-  ],
- "identified_by": [
-    {
-    "type": "Name",
-    "content": "DARIAH-CH Study Day 2023"
-    },
-  ],
-  ...
-}
-```
-
----
 
 ![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
@@ -136,13 +135,11 @@ _What are DH worthy digital traces?_
 
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
-- [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
 These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
