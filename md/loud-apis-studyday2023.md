@@ -106,10 +106,14 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 ## The Social Fabrics of IIIF and Linked Art
 
+![bg fit](https://julsraemy.ch/prezi/assets/images/Research-Scope-Social-Fabrics.svg)
+
 
 ---
 
 ## PIA as a Laboratory
+
+![bg fit](https://julsraemy.ch/prezi/assets/images/Research-Scope-PIA.svg)
 
 
 <!-- _footer: "https://about.participatory-archives.ch/" -->
@@ -117,6 +121,8 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 ---
 
 ## Yale's LUX
+
+![bg fit](https://julsraemy.ch/prezi/assets/images/Research-Scope-LUX.svg)
 
 <!-- _footer: "https://lux.collections.yale.edu" -->
 
