@@ -104,15 +104,21 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 ---
 
+<!-- _backgroundColor: white -->
+
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-Social-Fabrics.svg)
 
 
 ---
 
+<!-- _backgroundColor: white -->
+
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-PIA.svg)
 
 
 ---
+
+<!-- _backgroundColor: white -->
 
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-LUX.svg)
 
