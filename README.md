@@ -2,6 +2,7 @@
 
  Slide decks created using [Marp](https://marp.app) via [Marp CLI](https://github.com/marp-team/marp-cli):
 
+- 20 September 2023 - [Summary of the survey report – Characterising the IIIF and Linked Art Communities](https://julsraemy.ch/prezi/iiif-la-surveyreport.html)
 - 31 August 2023 - [Situating Interlinked Cultural Heritage Data on the Web](https://julsraemy.ch/prezi/sts-ch-2023.html)
 - 31 August 2023 - [Créer des API ouvertes - les pratiques et le tissu social des communautés IIIF et Linked Art](https://julsraemy.ch/prezi/libreabc2023.html)
 - 26 June 2023 - [Les données ouvertes liées et utilisables (LOUD): les protocoles IIIF et Linked Art](https://julsraemy.ch/prezi/humanistica2023-iiif-loud.html)
