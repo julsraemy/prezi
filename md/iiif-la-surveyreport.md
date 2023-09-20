@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: Characterising the IIIF and Linked Art Communities – survey report
+title: Summary of the survey report – Characterising the IIIF and Linked Art Communities 
 description: Summary of the survey report "Characterising the IIIF and Linked Art Communities" presented during a Linked Art Working Group Call in September 2023.
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
@@ -14,8 +14,8 @@ _paginate: false
 
 <!-- _class: lead -->
 
-# <!-- fit -->  Characterising the IIIF and Linked Art Communities
-#### Survey report
+# <!-- fit -->  Summary of the survey report
+#### Characterising the IIIF and Linked Art Communities 
 [Julien A. Raemy](https://julsraemy.ch), PhD Candidate in Digital Humanities
 DHLab, University of Basel
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
@@ -82,9 +82,11 @@ PhD Thesis supervised by:
 
 ## Outputs
 
-:bookmark_tabs: Raemy, J. A. (2023a). Pseudoanonymised Dataset of the Characterising the IIIF and Linked Art communities survey (1.0) [Survey results]. Zenodo. https://doi.org/10.5281/zenodo.8143828
+:bar_chart: Raemy, J. A. (2023a). The LOUD Social Fabrics of IIIF. 2023 IIIF Annual Conference, Naples, Italy. 8 June 2023. https://doi.org/10.5281/zenodo.7825410
 
-:memo: Raemy, J. A. (2023b). Characterising the IIIF and Linked Art Communities: Survey report. [Report]. University of Basel. https://hal.science/hal-04162572
+:bookmark_tabs: Raemy, J. A. (2023b). Pseudonymised Dataset of the Characterising the IIIF and Linked Art communities survey (1.0) [Survey results]. Zenodo. https://doi.org/10.5281/zenodo.8143828
+
+:memo: Raemy, J. A. (2023c). Characterising the IIIF and Linked Art Communities: Survey report. [Report]. University of Basel. https://hal.science/hal-04162572
 
 
 ---
@@ -141,9 +143,9 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg w:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+![bg](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
-## IIIF
 
 ---
 
@@ -162,6 +164,12 @@ Participants frequently uses a combination of tools, such as image viewers (Mira
 -->
 
 ---
+
+![bg contain](https://julsraemy.ch/prezi/assets/survey-iiif-calls-attendance.png)
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/survey-iiif-tools-services.svg)
 
 ---
 
@@ -204,21 +212,50 @@ Suggestions for improvement included better communication, emphasis on accessibi
 
 ---
 
----
-
----
-
----
-
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg 70%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+![bg](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
-## Linked Art
+---
+
+## Practices
+
+Community Enagement through:
+
+1. Calls, Slack and mailing list
+2. GitHub issues and direct communication with Robert Sanderson
+3. Workshops
+
 
 ---
 
+![bg contain](https://julsraemy.ch/prezi/assets/survey-la-calls-attendance.png)
+
 ---
+
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+
+## Enablers
+
+:white_check_mark: Friendliness
+:white_check_mark: Openness
+:white_check_mark: Common Goal
+:white_check_mark: Small Community
+
+
+
+---
+
+![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+## Inhibitors
+
+:no_entry: Time constraints
+:no_entry: Lack of awareness
+:no_entry: Lack of tools and services
+:no_entry: Community/Leadership structure
 
 ---
 
@@ -236,6 +273,12 @@ Suggestions for improvement included better communication, emphasis on accessibi
 - Common individuals play important roles in both initiatives.
 - They collaborate on standards, development and meetings, fostering a culture of community-led work and shared knowledge.
 - IIIF has expanded into various domains, while Linked Art remains focused on art-related objects for a smaller audience.
+
+<!-- 
+The respondents drew parallels between the IIIF and Linked Art communities in terms of their focus on interoperability and linked data solutions in the cultural heritage sector . Both communities prioritise usability and the creation of usable linked data (or LOUD), with a shared emphasis on the adoption of APIs. There is recognition of the common involvement of individuals like Rob, who plays a significant role in both initiatives. Moreover, the communities are characterised by technical competence and an interest in leading-edge technologies. 
+
+IIIF has expanded beyond cultural heritage, branching out into other areas due to its generic and applicable technology. In contrast, Linked Art remains primarily focused on art-related objects, catering to a smaller audience.
+ -->
 
 ---
 
@@ -279,6 +322,23 @@ principles. While the number of participants is significant, further exploration
 
 ---
 
+## Level of awareness
+
+| Awareness (n=25)              | Count | Percentage (%) |
+|-------------------------------|-------|-----------------|
+| I have heard of both.         | 10    | 40              |
+| I have already heard of IIIF. | 11    | 44              |
+| I have already heard of Linked Art. | 0 | 0               |
+| I have never heard of either. | 4     | 16              |
+
+
+
+<!-- 
+
+Among the 25 survey respondents that stated that they were not involved in either communities, there were varying levels of awareness regarding IIIF and Linked Art.
+
+ -->
+
 ---
 
 
@@ -292,7 +352,15 @@ Insights
 
 ---
 
+- **Conducting targeted outreach efforts**
+Workshops, webinars, guidelines/documentation
 
+- **Fostering interoperability beyond art museums**
+
+- **Encouraging Active Participation**
+A more inclusive environment, tapping into the expertise of the Editorial Board (or revising it), define roles and responsibilities more clearly
+
+- **Encouraging Metadata Mappings and Compliant Tools/Services**
 
 ---
 
