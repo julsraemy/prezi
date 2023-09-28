@@ -41,7 +41,7 @@ PhD Thesis supervised by:
 
 ---
 
-# LOUD Standards
+## LOUD Standards
 Specifications following the LOUD design principles:
 
 - International Image Interoperability Framework APIs (especially the IIIF Presentation API 3.0)
@@ -93,14 +93,13 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 ---
 
-# Research Questions
+![bg right](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
 
-1. What are the sociotechnical requirements for developing specifications in line with the LOUD design principles? 
-&rarr; **The Social Fabrics of IIIF and Linked Art**
-2. How can we assess whether IIIF and Linked Art APIs facilitate reuse and participation?
-&rarr; **PIA as a Laboratory**
-3. How easy-to-adopt and scalable are LOUD standards for Cultural Heritage Institutions?
-&rarr; **Yale's LUX**
+## A three-act empirical structure
+
+1. The Social Fabrics of IIIF and Linked Art
+2. PIA as a Laboratory
+3. Yale's LUX
 
 ---
 
@@ -108,6 +107,7 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-Social-Fabrics.svg)
 
+<!-- _paginate: false -->
 
 ---
 
@@ -115,12 +115,16 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-PIA.svg)
 
+<!-- _paginate: false -->
+
 
 ---
 
 <!-- _backgroundColor: white -->
 
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-LUX.svg)
+
+<!-- _paginate: false -->
 
 ---
 
@@ -137,11 +141,13 @@ _What are DH worthy digital traces?_
 
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
-### Image Credits
+## Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
+- Luzerner Studenten studieren das Luzerner Bauernhaus. Kanton Luzern, August 1958. Ernst Brunner. SGV_12N_44825
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
 
 These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
