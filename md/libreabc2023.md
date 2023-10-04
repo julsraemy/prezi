@@ -77,7 +77,7 @@ Axes d'exploration
 
 > Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
 
-<!-- _footer: "UNESCO. Culture for Development Indicators (2014)" -->
+<!-- _footer: "[UNESCO. Culture for Development Indicators (2014)](https://n2t.net/ark:/48223/pf0000229608)" -->
 
 <!-- Je passe maintenant dans un autre axe, autrement dit des principes au contenu même et pour moi il s'agit de définir ce que j'entends par patrimoine culturel, souvent délimités autour des concepts de matérialisation d'un objet ou d'une tradition. Dans un des rapports de l'UNESCO, le patrimoine culturel est compris comme un produit et un processuss comprenant également le patrimoine naturel, ce que je trouve assez pertinent lorsqu'on imagine les standards aidant à la description et à la dissémination des données comme étant agnostiques. -->
 
@@ -104,7 +104,7 @@ Pour toutes les données $x$, si $x$ est bien formé, significatif et véridique
 $
 \forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)
 $
-<!-- _footer: "Floridi (2011); Chen & Floridi (2013)  " -->
+<!-- _footer: "Floridi (2011); [Chen & Floridi (2013)](https://doi.org/10.1007/s11229-012-0183-y)  " -->
 
 <!-- Que les systèmes puissent interagir entre eux, c'est une chose, mais il faut également que les données qui y transitent aient un sens et pour la défition de l'information sémantique, je me base sur les travaux de Luciano Floridi qui implique plusieurs éléments pour y parvenir que sont : être bien formé, significatif et véridique. Pour chacun de ces éléments, on peut imaginer plusieurs couches ou niveaux d'abstraction, que ça soit au niveau du format de fichier, des métadonnées associées, du processus du numérisation et les systèmes sous-jacents nécessaires pour parvenir à stocker et disséminer cette donnée. 
 
@@ -326,7 +326,7 @@ Linked Art est une communauté et un groupe de travail du CIDOC qui collabore à
 <!-- Modèle centré sur les événements
 -->
 
-<!-- _footer: "Raemy et al. (2023), adapté de Sanderson (2018)" -->
+<!-- _footer: "[Raemy et al. (2023)](https://doi.org/10.5281/zenodo.7878358), adapté de [Sanderson (2018)](https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018)" -->
 
 ---
 
@@ -418,7 +418,7 @@ Transparence, Collaboration
 ---
 
 
-<!-- _footer: "Raemy (2023)" -->
+<!-- _footer: "[Raemy (2023)](https://hal.science/hal-04162572)" -->
 
 ![bg 77% contain](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
 
@@ -466,15 +466,17 @@ Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale 
 
 # Basé sur des standards
 
-- Standards ouverts : Linked Art, IIIF, W3C Activity Streams (tous sérialisés en JSON-LD)
+- Standards ouverts : Linked Art, IIIF, W3C Activity Streams – tous sérialisés en JSON-LD 
 - Technologies communes : Python, JavaScript, Node.js, React, AWS
 - Documentation et mise à disposition des chaînes de traitement, modélisation et correspondance des données
 - Base de données multimodale orientée documents (NoSQL) : MarkLogic Server
 
+&rarr; LUX adhère aux principes du _Linked Open Usable Data (LOUD)_ 
+
 <!-- Toutes les composantes de LUX, y compris le code spécifique pour MarkLogic, sera rendu open source.  -->
 
 
-<!-- _footer: "https://lux.collections.yale.edu/" -->
+<!-- _footer: "https://lux.collections.yale.edu/. Voir [Raemy & Sanderson (2023)](https://doi.org/10.48550/arXiv.2309.16635)" -->
 
 ---
 
@@ -500,7 +502,7 @@ Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale 
 
 # Bibliographie et crédits photo
 
-- Bibliographie : https://www.zotero.org/groups/5145178/raemy-libreabc/library
+- Bibliographie complète sur Zotero : https://www.zotero.org/groups/5145178/raemy-libreabc/library
 - Photographies de la société suisse des traditions populaires (SSTP). Licence : CC BY-NC 4.0
   - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
   - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
