@@ -433,6 +433,8 @@ Transparence, Collaboration
 
 ![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
 
+<!-- _footer: "[Felsing et al. (2023)](https://journals.uio.no/dhnbpub/article/view/10649)" -->
+
 ---
 
 <!-- _class: lead -->
