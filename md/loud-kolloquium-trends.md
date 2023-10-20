@@ -50,6 +50,7 @@ PhD Thesis supervised by:
 - Linked Open Usable Data (LOUD)
 - International Image Interoperability Framework (IIIF)
 - Linked Art
+- LUX
 
 ---
 
@@ -396,7 +397,267 @@ Examples of specifications following the LOUD design principles:
 
 ---
 
+<!-- _footer: 'https://bit.ly/iiifmap' -->
+
+![bg contain 89%](https://julsraemy.ch/prezi/assets/iiif-map.png)
+
+
 ---
+
+
+![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
+
+---
+![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+# IIIF Community
+
+#### International leaders from:
+- Museums & Galleries
+- Aggregators/Facilitators
+- Universities & Research Institutions
+- State and National Libraries
+
+---
+![bg right:30% width:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+# IIIF Community
+
+#### Community and Technical Specification Groups
+- CGs: 3D, A/V, Archives, Design, Manuscripts, Maps, Museums, Newspapers, Outreach
+- TSGs: 3D, Authentication, Content Search, Discovery, Maps
+
+https://iiif.io/community/ 
+
+---
+
+
+
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif_community_overview.svg)
+
+
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+## Why do we need IIIF ?
+
+---
+
+<!-- _footer: "All images come from the Art Institute Chicago's platform and are IIIF-compliant, check the source code" -->
+
+![bg opacity:.4](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
+![bg opacity:.4](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
+![bg opacity:.4](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
+
+# <!-- fit --> Images are fundamental carriers of information
+
+<!-- So why do we need IIIF? Digital images are fundamental carriers of information across the fields of cultural heritage, STEM, and others. They help us understand complex processes through visualization. They grab our attention and help us quickly understand abstract concepts. They help document many the past--and the  present--and preserve it for the future. They are also ubiquitous: we interact with thousands of them every day both in real life and on the web. In short, images are important and we interact with large volumes of them online. 
+
+Image 1: Female Figurine, Chupicuaro, 500/300 B.C
+Image 2: Vision of Saint Gregory, unknown artist, n.d.
+Image 3: Iyo Province: Saijo, Utagawa Hiroshige, 1855
+-->
+
+---
+
+![bg right:50%](https://julsraemy.ch/prezi/assets/silos.png)
+
+# <!-- fit --> The problem
+#### A world of silos and duplication
+
+Image delivery on the Web has historically been hard, slow, expensive, disjointed, and locked-up in silos.
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/silos-repos.png)
+
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+
+# <!-- fit --> What does IIIF do?
+
+---
+
+<!-- _footer: "https://purl.stanford.edu/hs631zg4177" -->
+
+![bg contain 80%](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+
+<!-- Deep zoom with large images -->
+
+---
+
+<!-- _footer: "Library of Congress | https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35 " -->
+
+
+![bg contain 80%](https://julsraemy.ch/prezi/assets/compare.gif)
+
+<!-- compare images -->
+
+---
+
+<!-- _footer: "https://www.theleidencollection.com/viewer/david-and-uriah/" -->
+
+
+![bg contain 75%](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
+
+---
+
+<!-- _footer: "https://demos.biblissima.fr/chateauroux/demo/" -->
+
+![bg contain 62%](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
+
+<!-- Reunify -->
+
+---
+<!-- _footer: "Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library." -->
+
+![bg contain 73%](https://julsraemy.ch/prezi/assets/content-search.gif)
+
+<!-- Search within -->
+
+---
+
+<!-- _footer: "HarvardX: MCB64.1x - Cell Biology: Mitochondria" -->
+
+![bg contain 71%](https://julsraemy.ch/prezi/assets/harvard-anno.gif)
+
+<!-- Annotate -->
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
+
+<!-- Crowdsourcing - National Library of Wales -->
+
+
+---
+
+<!-- _footer: "http://storiiies.cogapp.com/" -->
+
+![bg contain 65%](https://julsraemy.ch/prezi/assets/storiiies.gif)
+
+---
+
+<!-- _footer: "https://canvas-panel.netlify.app/#/examples/" -->
+
+![bg contain 65%](https://julsraemy.ch/prezi/assets/oceanlines.gif)
+
+---
+
+<!-- _footer: "https://ddmal.music.mcgill.ca/IIIF-AV-player/" -->
+
+![bg contain 72%](https://iiif.io/assets/uploads/ddmal_section.gif)
+
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+
+# <!-- fit --> How does IIIF work?
+
+---
+
+<!-- _footer: " " -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
+
+---
+
+![bg contain](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
+
+---
+
+
+![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+
+# IIIF Specifications
+
+- **Image API**
+- **Presentation API**
+- Authorization Flow API
+- Change Discovery API
+- Content Search API
+- Content State API
+
+_The Image and Presentation APIs are referred to as the core IIIF APIs_
+
+---
+
+<!-- _footer: ' ' -->
+
+![bg auto](https://training.iiif.io/iiif-online-workshop/day-one/img/apis.png)
+
+<!-- The two core specifications are the Image API and the Presentation API. The former is a web service for manipulating an image through a URL and the latter "specifies the information needed to drive a remote viewing experience". -->
+
+---
+
+![bg right:45% auto width:95%](https://iiif.io/api/image/3.0/img/transformation.png)
+
+## IIIF Image API
+
+It specifies a RESTful web service that returns an image in response to a standard HTTP(S) request.
+- Image Request
+- Image Information (JSON-LD)
+
+https://iiif.io/api/image
+
+---
+
+- Base URI
+`{scheme}://{server}{/prefix}/{identifier}`
+
+- Image Request
+`{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
+https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg
+
+- Image Information (Metadata)
+`{$BASE}/info.json`
+https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
+
+
+---
+![bg right:45% auto width:95%](https://iiif.io/api/assets/images/data-model.png)
+
+## IIIF Presentation API
+
+It is a JSON-LD based web service which provides the necessary information about the object or collection structure and layout.
+
+https://iiif.io/api/presentation
+
+
+<!-- The purpose of the API is to display descriptive information that is intended for humans and does not aim to provide semantic metadata for search engines -->
+
+---
+
+![bg width:1070px](https://julsraemy.ch/prezi/assets/presentationapi-resources.png)
+
+---
+
+<!-- _footer: ' ' -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
+
+---
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-tools.png)
+
+
+---
+<!-- _footer: ' ' -->
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+
+
 
 ---
 
@@ -407,24 +668,164 @@ Examples of specifications following the LOUD design principles:
 
 ---
 
+# <!-- fit --> Linked Art
+
+Linked Art is a community collaborating to define a metadata application profile (the model) for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
+
+<!-- _footer: "https://linked.art" -->
+
 ---
+
+# Extensive Definition
+
+> _Linked Art is an RDF profile of the CIDOC-CRM that uses JSON-LD and the Getty Vocabularies to describe object-based cultural heritage in an event-based framework for consumption by software applications. It uses a subset of classes from the CIDOC-CRM ontology along with other commonly-used RDF ontologies to provide interoperable patterns and models that can be interpreted either as JSON or as RDF._  
+
+<!-- _footer: "[Newbury 2018](https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf)
+" -->
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/la-model.svg)
+
+<!-- Abstraction Standards / Implementation Standards "A profile is a selection of appropriate abstractions, to encode, the scope of what can be described. An API is a selection of appropriate technologies, to give access to the data managed using the profile." (Robert Sanderson) -->
+
+---
+
+
+### Linked Art Model Fundamentals
+
+| Level         | Linked Art                      |
+|----------------|---------------------------------|
+| **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Ontology**   | RDF encoding of CRM 7.1, plus extensions       |
+| **Vocabulary** | Getty Vocabularies (mainly AAT) |
+| **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
+| **API**        | JSON-LD, following REST and web patterns                         |
 
 
 ---
 
+![bg 62%](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+
+<!-- Event-based model
+-->
+
+<!-- _footer: "[Raemy et al. (2023)](https://doi.org/10.5281/zenodo.7878358), adapted from [Sanderson (2018)](https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018)" -->
+
+
+
 ---
+
+![bg right:50%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg)
+
+## Schwyzer Fasnacht
+
+Black and White Negative modelled as a `DigitalObject`
+
+- Title: [Schwyzer Fasnacht]
+- Creator: Ernst Brunner
+- Place: Schwyz
+- Date: 1937
+- Identifiers: SGV_12N_00001, AA1
+
+
+
+<!-- _footer: "https://archiv.sgv-sstp.ch/resource/422236" --> 
+
+---
+
+### Needed properties/patterns for our `DigitalObject`
+
+- `member_of` → Collection (SGV_12) - Pointing a `Set`
+- `subject_of` → Web Pages / IIIF Manifest
+- `current_owner`→ SSFS Photographic Archives
+- `created_by` → Through the digitisation of a negative
+- `produced_by` → Production of the negative
+- `digitally_shows` → Visual Content
+- `identified_by` → Names and Identifiers
+- `access_point` → IIIF Image API
+
+---
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json", 
+  "id": "https://data.participatory-archives.ch/digital/12033",
+  "type": "DigitalObject",
+  "_label": "PIA ID 12033 - [Schwyzer Fasnacht]",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302", 
+      "type": "Type", 
+      "_label": "Digital Image"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://data.participatory-archives.ch/set/12",
+      "type": "Set",
+      "_label": "SGV_12 (Ernst Brunner)",
+      "classified_as": [
+        {
+        "id": "http://vocab.getty.edu/aat/300025976",
+        "type": "Type",
+        "_label": "Collection"
+        }
+      ]
+    }
+  ],
+```
+
+
+---
+
+
+![bg 94%](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> LUX
+Yale Collections Discovery 
+
+---
+
+![bg opacity:.2](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.2](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.2](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.2](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
+<!-- _footer: "Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery" -->
+
+---
+
+# Based on standards
+
+- Open Standards : Linked Art, IIIF, W3C Activity Streams 
+- Widespread technologies : Python, JavaScript, Node.js, React, AWS
+- Multimodal database (NoSQL) : MarkLogic Server
+
+&rarr; LUX adheres to the _Linked Open Usable Data (LOUD)_ design principles
+
+
+---
+
+![bg contain 80%](https://julsraemy.ch/prezi/assets/lux-demo.gif)
+
+<!-- _footer: "[Link to optimised video resolution](https://julsraemy.ch/prezi/assets/lux-demo.webm)"-->
+
 
 ---
 
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
-- [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
-- ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
+- [Katze]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19566
 
 These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
