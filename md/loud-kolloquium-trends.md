@@ -373,6 +373,12 @@ Examples of specifications following the LOUD design principles:
 
 ---
 
+![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+
+<!-- _footer: "[Felsing et al. (2023)](https://journals.uio.no/dhnbpub/article/view/10649)" -->
+
+---
+
 <!-- _class: lead -->
 ![bg 89%](https://julsraemy.ch/prezi/assets/IIIF-logo-stacked.png)
 

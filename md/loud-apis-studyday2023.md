@@ -134,7 +134,7 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 ## Open questions and mitigations
 _What are DH worthy digital traces?_
 
-- Why don't all universities/departments in Switzerland offer institutional Git repositories? &rarr; **Standard GitHub and Codeberg accounts**
+- Why can't all universities/departments provide accessible IaaS and institutional Git repositories? &rarr; **Own infrastructure / Standard GitHub and Codeberg accounts**
 - Who will maintain online the Linked Art API endpoints I developed? &rarr; **Self-publishing**
 
 ---
