@@ -51,6 +51,7 @@ PhD Thesis supervised by:
 - International Image Interoperability Framework (IIIF)
 - Linked Art
 - LUX
+- Conclusion
 
 ---
 
@@ -816,6 +817,17 @@ Yale Collections Discovery
 
 <!-- _footer: "[Link to optimised video resolution](https://julsraemy.ch/prezi/assets/lux-demo.webm)"-->
 
+
+---
+
+<!-- _class: lead -->
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+
+# <!-- fit --> Conclusion
+
+---
+
+Common denominator stuff
 
 ---
 
