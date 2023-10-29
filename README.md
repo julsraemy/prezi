@@ -2,6 +2,7 @@
 
  Slide decks created using [Marp](https://marp.app) via [Marp CLI](https://github.com/marp-team/marp-cli):
 
+- 1 November 2023 - [Linked Open Usable Data for Cultural Heritage](https://julsraemy.ch/prezi/loud-colloquium-trends-dh.html)
 - 20 October 2023 – [LOUD APIs](https://julsraemy.ch/prezi/loud-apis-studyday2023.html)
 - 20 September 2023 – [Summary of the survey report – Characterising the IIIF and Linked Art Communities](https://julsraemy.ch/prezi/iiif-la-surveyreport.html)
 - 31 August 2023 – [Situating Interlinked Cultural Heritage Data on the Web](https://julsraemy.ch/prezi/sts-ch-2023.html)

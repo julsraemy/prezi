@@ -41,6 +41,8 @@ PhD Thesis supervised by:
 
 ---
 
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 # Agenda
 
 - Preamble
@@ -66,7 +68,7 @@ PhD Thesis supervised by:
 ---
 
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 # <!-- fit --> Movements, Principles, Linked Data
 
@@ -93,7 +95,7 @@ $\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)$
 
 
 
-<!-- _footer: "Floridi (2011); Chen & Floridi (2013)" -->
+<!-- _footer: "Floridi (2011); [Chen & Floridi (2013)](https://doi.org/10.1007/s11229-012-0183-y)" -->
 
 <!-- 
 
@@ -163,7 +165,7 @@ Interoperability is a state in which two or more tested, independently developed
 
 > The [World Wide Web] project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
 
-<!-- _footer: "Berners-Lee (1991)" -->
+<!-- _footer: "[Berners-Lee (1991)](https://archive.md/Lfopj)" -->
 
 
 ---
@@ -234,7 +236,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 > Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
 
-<!-- _footer: "UNESCO. Culture for Development Indicators (2014)" -->
+<!-- _footer: "[UNESCO. Culture for Development Indicators (2014)](https://n2t.net/ark:/48223/pf0000229608)" -->
 
 
 ---
@@ -264,7 +266,7 @@ Keystones as Full-Fledged Actors
 
 ![bg contain right:73%](https://julsraemy.ch/prezi/assets/guillem-claveaux.png)
 
-<!-- _footer: "Guillem et al. (2023)" -->
+<!-- _footer: "[Guillem et al. (2023)](https://hal.science/hal-04106101)" -->
 
 <!--
 
@@ -291,7 +293,7 @@ Every dataset embodies an underlying potential that research and interpretation 
 
 ![bg contain](https://artic-web.imgix.net/09fc275f-e14d-4277-af79-17f5b0dcf131/rossenova_difranco_fig01_DRAFT.jpg)
 
-<!-- _footer: "Rossenova & Di Franco (2022). Five iterations of _Parts of a Body House_ from 1968 to 1972" -->
+<!-- _footer: "[Rossenova & Di Franco (2022)](https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures). Five iterations of _Parts of a Body House_ from 1968 to 1972" -->
 
 <!-- With this example and a great article from Lozana Rossenova and Karen Di Franco about artists' books and specificall Parts of a Body House from Carolee Schneeman. Artists’ book collections were established in the libraries of art schools and museums in response to the rapid proliferation of such publications as art objects starting in the 1960s. Unlike other modes of artistic practice that were accessioned by curatorial departments, these items were largely gathered by libraries, which has made artists’ publishing subject to the definitions of the library catalog rather than those of the art collection “proper.” This situation is further complicated in the case of materials that have, for a variety of reasons, either evaded categorization completely, or been located in archives and described as archival items, or been classed as serials or journals, or ephemera. But many artists’ publications deliberately challenge the categories of library, archive, and collection catalogue alike 
 
@@ -326,7 +328,7 @@ Rossenova & Di Franco (2022)
 
 
 
-<!-- _footer: "Hacıgüzeller et al. (2021)" -->
+<!-- _footer: "[Hacıgüzeller et al. (2021)](https://doi.org/10.1515/opar-2020-0220)" -->
 
 <!--
 
@@ -443,7 +445,8 @@ Examples of specifications following the LOUD design principles:
 - CGs: 3D, A/V, Archives, Design, Manuscripts, Maps, Museums, Newspapers, Outreach
 - TSGs: 3D, Authentication, Content Search, Discovery, Maps
 
-https://iiif.io/community/ 
+
+<!-- _footer: "https://iiif.io/community/ " -->
 
 ---
 
@@ -625,7 +628,8 @@ It specifies a RESTful web service that returns an image in response to a standa
 - Image Request
 - Image Information (JSON-LD)
 
-https://iiif.io/api/image
+
+<!-- _footer: "https://iiif.io/api/image" -->
 
 ---
 
@@ -648,7 +652,9 @@ https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
 
 It is a JSON-LD based web service which provides the necessary information about the object or collection structure and layout.
 
-https://iiif.io/api/presentation
+<!-- _footer: "https://iiif.io/api/presentation" -->
+
+
 
 
 <!-- The purpose of the API is to display descriptive information that is intended for humans and does not aim to provide semantic metadata for search engines -->
@@ -755,7 +761,6 @@ Linked Art is a community collaborating to define a metadata application profile
 
 ---
 
-
 ![bg 94%](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
 
 ---
@@ -769,6 +774,7 @@ Events - Events and other non-specific activities that are related but not part 
 - `People` - _People_
 - `Physical Objects` - _Physical things, including artworks, buildings or other architecture, books, parts of objects, and more_
 
+<!-- _footer: "https://linked.art/api/1.0/" -->
 
 <!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
 
@@ -782,6 +788,7 @@ Events - Events and other non-specific activities that are related but not part 
 - `Textual Works` - _Texts worthy of description as distinct entities, such as the content carried by a book or journal article_
 - `Visual Works` - _Image content worthy of description as distinct entities, such as the image shown by a painting or drawing_
 
+<!-- _footer: "https://linked.art/api/1.0/" -->
 
 <!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
 
@@ -877,11 +884,24 @@ Yale Collections Discovery
 
 &rarr; LUX adheres to the _Linked Open Usable Data (LOUD)_ design principles
 
+<!-- _footer: "https://lux.collections.yale.edu/" -->
+
 ---
 
-![bg contain 60%](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+![bg contain 64%](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
 
 <!-- _footer: "[Raemy & Sanderson 2023](https://doi.org/10.48550/arXiv.2309.16635)"-->
+
+<!-- 
+
+Harvest: It runs nightly and is triggered by an operating system level scheduler to poll each stream to find and retrieve records that have changed since the previous harvest.
+Transform: The records are passed through source specific transformation routines in order to either map from arbitrary data formats, or to validate and clean up records already provided in Linked Art. 
+Reconcile: This process is conducted to discover further identities from the various datasets to be able to collect all information about a particular entity eventually into a single record.
+Re-Identify: It maps the original \acp{URI} of the records to the internal identifiers.
+Merge: The records from multiple sources that have been mapped to the same identifier are merged together to form the single record.
+Load: The resulting dataset is then annotated with some additional features for indexing and exported to MarkLogic.
+
+-->
 
 ---
 
@@ -901,6 +921,8 @@ Semantic Interoperability
 
 ---
 
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 # <!-- fit --> Some concluding thoughts about LOUD
 
 - Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
@@ -916,11 +938,13 @@ An important proposition arises from the observation that adherence to the \ac{L
 ---
 
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
+- [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
 - [Katze]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19566
 
