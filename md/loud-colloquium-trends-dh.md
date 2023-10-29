@@ -72,10 +72,11 @@ PhD Thesis supervised by:
 
 # <!-- fit --> Movements, Principles, Linked Data
 
-- Open Science, Open Scholarship / Citizen Science → **Movement**
-- FAIR Data Principles / CARE Principles for Indigenous Data Governance → **Environment/System**
-- Collections as Data → **Environment/System** and **Content**
-- Linked (Open Usable) Data → **Content**
+* Open Science, Open Scholarship / Citizen Science → **Movement**
+
+* FAIR Data Principles / CARE Principles for Indigenous Data Governance / Collections as Data → **Environment/System**
+
+* Linked (Open Usable) Data → **Content**
 
 <!-- From the point of view of principles or technologies that I think are necessary, here are the ones which I consider worth mentioning. Open Science / Open Scholarship, FAIR Data Principles and Linked Open Data. They have different focuses and one that I think is most useful within my thesis is the last one as I am most interested in interoperability and creating a semantic framework not only for humans but also for machines.  -->
 
