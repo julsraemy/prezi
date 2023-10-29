@@ -927,7 +927,7 @@ Semantic Interoperability
 
 - Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
 - LOUD APIs, when used in conjunction, enhances semantic interoperability, even if it comes at the cost of ontological purity.
-- Practices and standards that serve as a common denominator for cultural heritage institutions and research projects.
+- LOUD Practices and standards should serve as common denominators for cultural heritage institutions and research projects.
 
 <!-- 
 
