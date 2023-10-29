@@ -43,6 +43,7 @@ PhD Thesis supervised by:
 
 # Agenda
 
+- Preamble
 - Interlinking Data on the Web
   - Open Web
   - Cultural Heritage Data 
@@ -59,9 +60,11 @@ PhD Thesis supervised by:
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 
-# <!-- fit --> Interlinking Data on the Web
+# <!-- fit --> Preamble
+
 
 ---
+
 
 ![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
@@ -73,6 +76,77 @@ PhD Thesis supervised by:
 - Linked (Open Usable) Data → **Content**
 
 <!-- From the point of view of principles or technologies that I think are necessary, here are the ones which I consider worth mentioning. Open Science / Open Scholarship, FAIR Data Principles and Linked Open Data. They have different focuses and one that I think is most useful within my thesis is the last one as I am most interested in interoperability and creating a semantic framework not only for humans but also for machines.  -->
+
+
+---
+
+
+# <!-- fit -->Semantic Information
+
+![bg contain 95% right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
+
+> Semantic Information is well-formed, meaningful, and truthful data.
+
+_For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information:_ 
+
+$\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)$
+
+
+
+<!-- _footer: "Floridi (2011); Chen & Floridi (2013)" -->
+
+<!-- 
+
+Data are definable as constraining affordances, exploitable by a system as input of adequate queries 
+
+
+The alethic nature, or modalities of truth, is the component that is the hardest to come by, to assess. 
+
+
+In short, semantic information can also be described erotetically as data + queries.
+
+According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value. 
+
+
+ -->
+
+
+---
+
+# Semantic Interoperability
+
+
+Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. 
+
+_For all $y$, for all $z$, if both $y$ and $z$ exhibit Semantic Interoperability $I$ and there is a seamless exchange $E$ between $y$ and $z$, then for any data $x$ being exchanged between them, $x$ must be well-formed, meaningful, and truthful:_
+
+
+$
+\forall y \, \forall z \, \big[ I(y) \land I(z) \land E(y, z) \big] 
+$
+
+$
+\rightarrow \big[ \forall x \, \big( W(x) \land M(x) \land T(x) \big) 
+\rightarrow E(y, z) \land S(x) \big]
+$
+
+<!-- Combining insights from Floridi and Sanderson. 
+
+Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
+
+
+ -->
+
+
+---
+
+
+<!-- _class: lead -->
+![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+
+# <!-- fit --> Interlinking Data on the Web
+
 
 
 ---
@@ -628,6 +702,21 @@ Linked Art is a community collaborating to define a metadata application profile
 
 ---
 
+![bg right width:600px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+
+## <!-- fit --> Finding the right balance
+
+- Linked Art is focused on usability, not full precision / completeness
+- Consistently solves actual challenges from real data
+- Development is iterative, as new use cases are found
+
+
+
+<!-- _footer: "[Sanderson 2019](https://www.slideshare.net/azaroth42/standards-and-communities-connected-people-consistent-data-usable-applications)" -->
+
+
+---
+
 ![bg contain](https://julsraemy.ch/prezi/assets/la-model.svg)
 
 <!-- Abstraction Standards / Implementation Standards "A profile is a selection of appropriate abstractions, to encode, the scope of what can be described. An API is a selection of appropriate technologies, to give access to the data managed using the profile." (Robert Sanderson) -->
@@ -655,6 +744,46 @@ Linked Art is a community collaborating to define a metadata application profile
 
 <!-- _footer: "[Raemy et al. (2023)](https://doi.org/10.5281/zenodo.7878358), adapted from [Sanderson (2018)](https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018)" -->
 
+
+
+---
+
+<!-- _backgroundColor: white-->
+
+![bg contain](https://raw.githubusercontent.com/Participatory-Image-Archives/linkedart/main/modelling/digital/12033.svg)  
+
+
+---
+
+
+![bg 94%](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+
+---
+
+### Linked Art API Endpoints (1)
+
+- `Concepts` - _Types, Materials, Languages, and others, as full records rather than external references_
+- `Digital Objects` - _Images, services and other digital objects
+Events - Events and other non-specific activities that are related but not part of other entities_
+- `Groups` - _Groups and Organizations_
+- `People` - _People_
+- `Physical Objects` - _Physical things, including artworks, buildings or other architecture, books, parts of objects, and more_
+
+
+<!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
+
+---
+
+### Linked Art API Endpoints (2)
+
+- `Places` - _Geographic places_
+- `Provenance Activities` - _The various events that take place during the history of a physical thing_
+- `Sets` - _Sets, including Collections and sets of objects used for exhibitions_
+- `Textual Works` - _Texts worthy of description as distinct entities, such as the content carried by a book or journal article_
+- `Visual Works` - _Image content worthy of description as distinct entities, such as the image shown by a painting or drawing_
+
+
+<!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
 
 
 ---
@@ -723,10 +852,6 @@ Black and White Negative modelled as a `DigitalObject`
 ---
 
 
-![bg 94%](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
-
----
-
 <!-- _class: lead -->
 ![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
@@ -771,69 +896,17 @@ Semantic Interoperability
 
 ---
 
-# Community Practices
+# <!-- fit --> Some concluding thoughts about LOUD
 
----
-
-# <!-- fit -->Semantic Information
-
-![bg contain 95% right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
-
-> Semantic Information is well-formed, meaningful, and truthful data.
-
-_For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information:_ 
-
-$\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)$
-
-
-
-<!-- _footer: "Floridi (2011); Chen & Floridi (2013)" -->
+- Grassroots development of IIIF and Linked Art with collaboration and transparency.
+- LOUD standards, when used in conjunction, enhances semantic interoperability, even if it comes at the cost of ontological purity.
+- Common denominator between cultural heritage institutions and research projects.
 
 <!-- 
 
-Data are definable as constraining affordances, exploitable by a system as input of adequate queries 
+An important proposition arises from the observation that adherence to the \ac{LOUD} design principles makes specifications more likely to be adopted. The primary benefit of adopting \ac{LOUD} standards lies in their grassroots nature. The development and maintenance of \ac{LOUD} standards by dedicated communities are characterised by collaboration, consensus building, and transparency. This grassroots approach not only aligns with the core values of openness and collaboration within the \ac{DH} community but also serves as a common denominator between \ac{DH} practitioners and \acp{CHI}. This unique alignment fosters a sense of shared purpose and common ground. However, it's essential to acknowledge that while \ac{LOUD} and its associated standards, including IIIF, hold immense promise, their limited recognition in the wider socio-technical ecosystem may currently hinder their full potential impact.
 
-
-The alethic nature, or modalities of truth, is the component that is the hardest to come by, to assess. 
-
-
-In short, semantic information can also be described erotetically as data + queries.
-
-According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value. 
-
-
- -->
-
-
----
-
-# Semantic Interoperability
-
-
-Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. 
-
-_For all $y$, for all $z$, if both $y$ and $z$ exhibit Semantic Interoperability $I$ and there is a seamless exchange $E$ between $y$ and $z$, then for any data $x$ being exchanged between them, $x$ must be well-formed, meaningful, and truthful:_
-
-
-$
-\forall y \, \forall z \, \big[ I(y) \land I(z) \land E(y, z) \big] 
-$
-
-$
-\rightarrow \big[ \forall x \, \big( W(x) \land M(x) \land T(x) \big) 
-\rightarrow E(y, z) \land S(x) \big]
-$
-
-<!-- Combining insights from Floridi and Sanderson. 
-
-Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
-
-
- -->
-
- ---
-
-Common denominator stuff
+-->
 
 ---
 
