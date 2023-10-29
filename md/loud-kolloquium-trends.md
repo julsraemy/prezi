@@ -877,6 +877,11 @@ Yale Collections Discovery
 
 &rarr; LUX adheres to the _Linked Open Usable Data (LOUD)_ design principles
 
+---
+
+![bg contain 60%](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+
+<!-- _footer: "[Raemy & Sanderson 2023](https://doi.org/10.48550/arXiv.2309.16635)"-->
 
 ---
 
