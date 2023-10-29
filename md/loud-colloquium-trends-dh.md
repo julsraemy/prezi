@@ -5,7 +5,7 @@ title: Linked Open Usable Data for Cultural Heritage
 description: Presentation given in the context of the "Trends in Digital Humanities" Colloquium on 1 November 2023 at the University of Basel
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Semantic Web
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://julsraemy.ch/prezi/loud-kolloquium-trends.html
+url: https://julsraemy.ch/prezi/loud-colloquium-trends-dh.html
 theme: gaia
 class: invert
 paginate: true
