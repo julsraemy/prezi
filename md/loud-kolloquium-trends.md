@@ -1,8 +1,8 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: Linked Open Usable Data
-description: Presentation given in the context of the "Trends in den Digital Humanities" Colloquium on 1 November 2023 at the University of Basel
+title: Linked Open Usable Data for Cultural Heritage
+description: Presentation given in the context of the "Trends in Digital Humanities" Colloquium on 1 November 2023 at the University of Basel
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Semantic Web
 image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://julsraemy.ch/prezi/loud-kolloquium-trends.html
@@ -14,12 +14,12 @@ _paginate: false
 
 <!-- _class: lead -->
 
-# <!-- fit --> Linked Open Usable Data (LOUD)
+# <!-- fit --> Linked Open Usable Data for Cultural Heritage
 Julien A. Raemy 
 (Digital Humanities Lab, University of Basel)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 
-Colloquium: _Trends in den Digital Humanities_
+Trends in Digital Humanities
 Basel, Switzerland | 1 November 2023
 
 ---
@@ -42,16 +42,15 @@ PhD Thesis supervised by:
 ---
 
 # Agenda
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
 
-- Preamble
 - Interlinking Data on the Web
-- Cultural Heritage Data 
+  - Open Web
+  - Cultural Heritage Data 
 - Linked Open Usable Data (LOUD)
-- International Image Interoperability Framework (IIIF)
-- Linked Art
-- LUX
-- Conclusion
+  - International Image Interoperability Framework (IIIF)
+  - Linked Art
+  - LUX, Yale Collections Discovery
+- Perspectives
 
 ---
 
@@ -60,7 +59,7 @@ PhD Thesis supervised by:
 ![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 
-# <!-- fit --> Preamble
+# <!-- fit --> Interlinking Data on the Web
 
 ---
 
@@ -68,47 +67,20 @@ PhD Thesis supervised by:
 
 # <!-- fit --> Movements, Principles, Linked Data
 
-- Open Science / Open Access → **Movement**
+- Open Science, Open Scholarship / Citizen Science → **Movement**
 - FAIR Data Principles / CARE Principles for Indigenous Data Governance → **Environment/System**
+- Collections as Data → **Environment/System** and **Content**
 - Linked (Open Usable) Data → **Content**
 
-<!-- From the point of view of principles or technologies that I think are necessary, here are the ones which I consider worth mentioning. Open Science / Open Access, FAIR Data Principles and Linked Open Data. They have different focuses and one that I think is most useful within my thesis is the last one as I am most interested in interoperability and creating a semantic framework not only for humans but also for machines.  -->
-
----
-
-<!-- _footer: "5-star deployment scheme for Open Data. https://5stardata.info/" -->
-
-# Linked Open Data (LOD)
-
-![bg width:900px](https://5stardata.info/images/5-star-steps.png)
-
-<!-- 5-star open data scheme 
-1) make your stuff available on the Web (whatever format) under an open license
-2) make it available as structured data
-3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
-4) use URIs to denote things, so that people can point at your stuff
-5) link your data to other data to provide context -->
-
----
-
-# From LOD to LOUD
-
-- LOD is too focused on publishing data. Our data needs to be reused to be meaningful and valuable.
-
-- Linked Open Usable Data (LOUD) seeks a balance that takes into account the needs for data completeness and accuracy (ontological construction) and pragmatic concerns (ease of use, scalability)
-
-<!-- Linked Open Data has been around for many years. Resource Description Framework (RDF) is the underlying technology where assertions in triples are being produced.  LOD has come under some criticism in terms of its uptake and often LOD projects have not been sustained for very long. LOD projects have mainly been concerned with the publication and consumption of data and geared towards an expert audience with knowledge of RDF. Here the audience is slightly different as they are intended for developers and the best way to give them data is to create APIs. LOUD is also an attempt to balance the trade-offs between completeness and precision of expression and the usability of the resulting data constructs. -->
+<!-- From the point of view of principles or technologies that I think are necessary, here are the ones which I consider worth mentioning. Open Science / Open Scholarship, FAIR Data Principles and Linked Open Data. They have different focuses and one that I think is most useful within my thesis is the last one as I am most interested in interoperability and creating a semantic framework not only for humans but also for machines.  -->
 
 
 ---
-
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
 
-# <!-- fit --> Interlinking Data on the Web
-Semantics, Interoperability, 
-Semantic Interoperability
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+# Open Web
 
 
 ---
@@ -145,69 +117,39 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
  -->
 
----
-
-# <!-- fit -->Semantic Information
-
-![bg contain 95% right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
-
-> Semantic Information is well-formed, meaningful, and truthful data.
-
-_For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information:_ 
-
-$\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)$
-
-
-
-<!-- _footer: "Floridi (2011); Chen & Floridi (2013)" -->
-
-<!-- 
-
-Data are definable as constraining affordances, exploitable by a system as input of adequate queries 
-
-
-The alethic nature, or modalities of truth, is the component that is the hardest to come by, to assess. 
-
-
-In short, semantic information can also be described erotetically as data + queries.
-
-According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value. 
-
-
- -->
-
 
 ---
 
-# Semantic Interoperability
 
+<!-- _footer: "5-star deployment scheme for Open Data. https://5stardata.info/" -->
 
-Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. 
+# Linked Open Data (LOD)
 
-_For all $y$, for all $z$, if both $y$ and $z$ exhibit Semantic Interoperability $I$ and there is a seamless exchange $E$ between $y$ and $z$, then for any data $x$ being exchanged between them, $x$ must be well-formed, meaningful, and truthful:_
+![bg width:900px](https://5stardata.info/images/5-star-steps.png)
 
+<!-- 5-star open data scheme 
+1) make your stuff available on the Web (whatever format) under an open license
+2) make it available as structured data
+3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
+4) use URIs to denote things, so that people can point at your stuff
+5) link your data to other data to provide context -->
 
-$
-\forall y \, \forall z \, \big[ I(y) \land I(z) \land E(y, z) \big] 
-$
+---
 
-$
-\rightarrow \big[ \forall x \, \big( W(x) \land M(x) \land T(x) \big) 
-\rightarrow E(y, z) \land S(x) \big]
-$
+# From LOD to LOUD
 
-<!-- Combining insights from Floridi and Sanderson. 
+- LOD is too focused on publishing data. Our data needs to be reused to be meaningful and valuable.
 
-Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
+- Linked Open Usable Data (LOUD) seeks a balance that takes into account the needs for data completeness and accuracy (ontological construction) and pragmatic concerns (ease of use, scalability)
 
+<!-- Linked Open Data has been around for many years. Resource Description Framework (RDF) is the underlying technology where assertions in triples are being produced.  LOD has come under some criticism in terms of its uptake and often LOD projects have not been sustained for very long. LOD projects have mainly been concerned with the publication and consumption of data and geared towards an expert audience with knowledge of RDF. Here the audience is slightly different as they are intended for developers and the best way to give them data is to create APIs. LOUD is also an attempt to balance the trade-offs between completeness and precision of expression and the usability of the resulting data constructs. -->
 
- -->
 
 ---
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
 # <!-- fit --> Cultural Heritage Data
 
@@ -823,9 +765,73 @@ Yale Collections Discovery
 <!-- _class: lead -->
 ![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
 
-# <!-- fit --> Conclusion
+# <!-- fit --> Perspectives
+Community Practices
+Semantic Interoperability
 
 ---
+
+# Community Practices
+
+---
+
+# <!-- fit -->Semantic Information
+
+![bg contain 95% right:43%](https://www.researchgate.net/profile/Luciano-Floridi/publication/257666827/figure/fig2/AS:392780774952979@1470657642732/Floridis-original-information-map-redrawn-based-on-Floridi-2011.png)
+
+> Semantic Information is well-formed, meaningful, and truthful data.
+
+_For all data $x$, if $x$ is well-formed, meaningful, and truthful, then $x$ represents semantic information:_ 
+
+$\forall x \, [W(x) \land M(x) \land T(x)] \rightarrow S(x)$
+
+
+
+<!-- _footer: "Floridi (2011); Chen & Floridi (2013)" -->
+
+<!-- 
+
+Data are definable as constraining affordances, exploitable by a system as input of adequate queries 
+
+
+The alethic nature, or modalities of truth, is the component that is the hardest to come by, to assess. 
+
+
+In short, semantic information can also be described erotetically as data + queries.
+
+According to Trevor Owens (2011): Data are constructed artefacts, interpretable texts, processable information and can hold evidentiary value. 
+
+
+ -->
+
+
+---
+
+# Semantic Interoperability
+
+
+Semantic Interoperability can be defined as the seamless exchange of well-formed, meaningful, and truthful data between distinct systems. 
+
+_For all $y$, for all $z$, if both $y$ and $z$ exhibit Semantic Interoperability $I$ and there is a seamless exchange $E$ between $y$ and $z$, then for any data $x$ being exchanged between them, $x$ must be well-formed, meaningful, and truthful:_
+
+
+$
+\forall y \, \forall z \, \big[ I(y) \land I(z) \land E(y, z) \big] 
+$
+
+$
+\rightarrow \big[ \forall x \, \big( W(x) \land M(x) \land T(x) \big) 
+\rightarrow E(y, z) \land S(x) \big]
+$
+
+<!-- Combining insights from Floridi and Sanderson. 
+
+Interoperability is a state in which two or more tested, independently developed technological systems can interact successfully according to their scope through the implementation of agreed-upon standards.
+
+
+ -->
+
+ ---
 
 Common denominator stuff
 
