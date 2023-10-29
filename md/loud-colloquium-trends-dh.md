@@ -765,14 +765,14 @@ Linked Art is a community collaborating to define a metadata application profile
 
 ---
 
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 ### Linked Art API Endpoints (1)
 
 - `Concepts` - _Types, Materials, Languages, and others, as full records rather than external references_
 - `Digital Objects` - _Images, services and other digital objects
 Events - Events and other non-specific activities that are related but not part of other entities_
-- `Groups` - _Groups and Organizations_
-- `People` - _People_
-- `Physical Objects` - _Physical things, including artworks, buildings or other architecture, books, parts of objects, and more_
+- `Events` - _Events and other non-specific activities that are related but not part of other entities_
 
 <!-- _footer: "https://linked.art/api/1.0/" -->
 
@@ -780,9 +780,25 @@ Events - Events and other non-specific activities that are related but not part 
 
 ---
 
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 ### Linked Art API Endpoints (2)
 
+- `Groups` - _Groups and Organizations_
+- `People` - _People_
+- `Physical Objects` - _Physical things, including artworks, buildings or other architecture, books, parts of objects, and more_
 - `Places` - _Geographic places_
+
+<!-- _footer: "https://linked.art/api/1.0/" -->
+
+<!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
+
+---
+
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+### Linked Art API Endpoints (3)
+
 - `Provenance Activities` - _The various events that take place during the history of a physical thing_
 - `Sets` - _Sets, including Collections and sets of objects used for exhibitions_
 - `Textual Works` - _Texts worthy of description as distinct entities, such as the content carried by a book or journal article_
@@ -791,7 +807,6 @@ Events - Events and other non-specific activities that are related but not part 
 <!-- _footer: "https://linked.art/api/1.0/" -->
 
 <!-- The Linked Art API is made up of different endpoints, each of which has a defined structure for the format of the data that will be returned from it. These align (mostly) with the core classes of the model, and are structured according to the API design principles. -->
-
 
 ---
 
@@ -876,6 +891,8 @@ Yale Collections Discovery
 
 ---
 
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 # Based on standards
 
 - Open Standards : Linked Art, IIIF, W3C Activity Streams 
@@ -918,6 +935,41 @@ Load: The resulting dataset is then annotated with some additional features for 
 # <!-- fit --> Perspectives
 Community Practices
 Semantic Interoperability
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
+
+<!-- _footer: "https://iiif.io/community/trc/" -->
+
+---
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
+
+
+---
+
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-calendar.png)
+![bg contain](https://julsraemy.ch/prezi/assets/linked-art-call.png)
+
+---
+
+<!-- _footer: "[Raemy (2023)](https://hal.science/hal-04162572)" -->
+
+![bg 77% contain](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
+
+<!-- 
+
+1) Belonging to a given commnity - before 2011
+2) People that have been active prior to 2021 tend to be more active
+
+-->
 
 ---
 
