@@ -249,7 +249,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ### Heterogeneity 
 
-1. Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying **a rich and varied compilation of insights  originating from a variety of disciplines, techniques, traditions, positions and technologies**. It encompasses both tangible and intangible aspects of a society's culture. 
+1. Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying **a rich and varied compilation of insights  originating from a variety of disciplines, techniques, traditions, positions and technologies**. It encompasses both tangible and intangible aspects of a society's culture as well as natural heritage. 
 
 <!--  
 
@@ -281,7 +281,7 @@ The restoration of Notre-Dame Cathedral in Paris is often told from various view
 
 ### Knowledge Latency
 
-2.  These data, derived from a wide range of disciplines, offer **a latent capacity to support the generation of knowledge** relating to historical time periods, geospatial areas, as well as current and past human and nonhuman activities. 
+2.  These data, derived from a wide range of disciplines, offer **a latent capacity to support the generation of knowledge** relating to historical time periods, geospatial areas, as well as current and past human and non-human activities. 
 
 <!-- 
 
