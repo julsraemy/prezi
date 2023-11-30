@@ -267,9 +267,9 @@ To be part of the Web, not just on the Web.  -->
 # LOUD Standards
 Examples of specifications following the LOUD design principles:
 
-- International Image Interoperability Framework (IIIF)
+- **International Image Interoperability Framework (IIIF)**
 - W3C Web Annotation Data Model
-- Linked Art
+- **Linked Art**
 
 ---
 
@@ -294,59 +294,54 @@ Examples of specifications following the LOUD design principles:
 
 ---
 
-# Linked Art
+# <!-- fit --> Linked Art
 
-![bg right contain](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
-
-Linked Art is a community collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it. 
+Linked Art is a community collaborating to define a metadata application profile (the model) for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
 
 <!-- _footer: "https://linked.art" -->
 
-<!--
-The model and API are based on appropriate international standards to ensure that they are interoperable and easy to use. Linked Art focuses on usability of the data as a primary consideration, such that it is easy to implement and maintain.
+---
 
-Some of the LOUD Design Principles:
-B. Few Barriers to entry: it should be easy to get started.
+![bg 62%](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
 
-C. Comprehensible by Introspection: The data should be understandable to a large degree simply by looking at it,
+<!-- Event-based model
+-->
 
-D. Documentation with working examples
+<!-- _footer: "[Raemy et al. (2023)](https://doi.org/10.5281/zenodo.7878358), adapted from [Sanderson (2018)](https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018)" -->
 
-That could be a solution to some extent to democratise structured data, when more accessible tools will be released. 
-
- -->
 
 ---
 
-![bg contain](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+## Community Practices
 
-<!-- One example of representation, with the different processes. Something that is often done to represent the various stages from the metadata source to the visualisation and how standards can interact with each other. -->
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
+![bg contain](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
 
----
-
-![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
-
-<!-- 
-
-Example: the release of the IIIF Image and Presentation APIs 3.0. 
-
-
-Tracing "from use cases to specifications" in IIIF and Linked Art reveals key actors: GitHub, a platform where developers store and share software and its docmentation, orchestrates. API specification is also centrally mediated by format and representational (JSON-LD) context. Validators control compliance. Servers and clients align, each with distinct technical dependencies. Objects embody purpose. Human collectives - IIIF editors, etc - steer. JSON-LD's API mediates context; intermediaries channel. Technologies, with layered abstraction, interweave, revealing a complex ecosystem.
-
- -->
+<!-- _footer: "https://iiif.io/community/trc/" -->
 
 ---
 
-## LUX, Yale Collections Discovery
+![bg contain](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
+
+---
+
+## LUX: Yale Collections Discovery
 
 ![bg opacity:.2](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
 ![bg opacity:.2](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
 ![bg opacity:.2](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
 ![bg opacity:.2](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
 
-https://lux.collections.yale.edu/
+Yale University Library
+Yale Center for British Art
+Yale Peabody Museum
+Yale University Art Gallery
 
-<!-- _footer: "Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery" -->
+- 41 million resources
+- Platform based on open and shared standards (IIIF, Linked Art)
+
+
+<!-- _footer: "https://lux.collections.yale.edu/" -->
 
 ---
 
