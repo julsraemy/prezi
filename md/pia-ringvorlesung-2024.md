@@ -224,11 +224,10 @@ The Semantic Web is an extension of the World Wide Web, through standards, to ma
 
 #  Resource Description Framework (RDF)
 
-With RDF, everything goes in threes. Most of the triples' components have Uniform Resource Identifiers (URIs). 
+With RDF, everything goes in threes. Most of the triples' components have Uniform Resource Identifiers (URIs). Syntax: **subject, predicate, object** $(s \ \vec{p} \ o)$ 
 
-![center width:600px](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
+![center width:590px](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
 
-Syntax: subject, predicate, object $(s \ \vec{p} \ o)$
 
 <!-- With RDF, everything goes in threes, the data model contains so-called triples: that is subject, predicate, object that form graphs.
 Most of the components of these triples use Uniform Resource Identifiers (URIs) and are generally web-addressable, whether for naming subjects and objects (which may themselves also be objects of other triples) or relationships 
