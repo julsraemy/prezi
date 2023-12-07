@@ -226,7 +226,7 @@ The Semantic Web is an extension of the World Wide Web, through standards, to ma
 
 With RDF, everything goes in threes. Most of the triples' components have Uniform Resource Identifiers (URIs). 
 
-![center width:600px](https://julsraemy.ch/prezi/assets/rdf-sts.svg)
+![center width:600px](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
 
 Syntax: subject, predicate, object $(s \ \vec{p} \ o)$
 
