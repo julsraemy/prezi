@@ -300,7 +300,9 @@ To be part of the Web, not just on the Web.  -->
 
 # LOUD Systematic Review
 
+![center width:590px](https://julsraemy.ch/prezi/assets/loud-references-venn.svg)
 
+_To be published as part of the PhD Thesis_
 
 ---
 
