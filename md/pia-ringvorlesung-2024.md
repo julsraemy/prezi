@@ -216,7 +216,9 @@ Rossenova & Di Franco (2022)
 
 The Semantic Web is an extension of the World Wide Web, through standards, to make it machine-readable.
 
-![center width:360px](https://upload.wikimedia.org/wikipedia/commons/f/f3/Semantic_Web_Stack.png)
+![center width:530px](https://julsraemy.ch/prezi/assets/tweaked-semweb-layer-cake.webp)
+
+Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 <!-- This Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data. The Semantic Web offers major opportunities for scholarship as it allows data to be reasoned together, that is to be understood by machines via those RDF-based ontologies, a formal way to represent human-like knowledge.  -->
 
@@ -509,15 +511,24 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 <!-- _class: tinytext --> 
 
-# References
+# References $I$
 
 Berners-Lee, T. (1991, August 6). WorldWideWeb—Executive summary. Archive.Md. https://archive.md/Lfopj
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
 
+Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+
 Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 
 Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
+
+
+---
+
+<!-- _class: tinytext --> 
+
+# References $II$
 
 Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
 
@@ -528,8 +539,6 @@ Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018,
 Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
 
 UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United Nations Educational, Scientific and Cultural Organization. https://n2t.net/ark:/48223/pf0000229608
-
-
 
 
 ---

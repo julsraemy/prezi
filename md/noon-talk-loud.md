@@ -225,7 +225,9 @@ Rossenova & Di Franco (2022)
 
 The Semantic Web is an extension of the World Wide Web, through standards, to make it machine-readable.
 
-![center width:360px](https://upload.wikimedia.org/wikipedia/commons/f/f3/Semantic_Web_Stack.png)
+![center width:530px](https://julsraemy.ch/prezi/assets/tweaked-semweb-layer-cake.webp)
+
+Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 <!-- This Web, which has claimed to be a Semantic Web for several years now, has a centrepiece known as Resource Description Framework (RDF), a general method for describing and exchanging graph data. The Semantic Web offers major opportunities for scholarship as it allows data to be reasoned together, that is to be understood by machines via those RDF-based ontologies, a formal way to represent human-like knowledge.  -->
 
@@ -259,7 +261,6 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 5) link your data to other data to provide context -->
 
 ---
-
 
 <!-- footer: Linked Open Usable Data -->
 
@@ -442,6 +443,8 @@ An important proposition arises from the observation that adherence to the \ac{L
 Berners-Lee, T. (1991, August 6). WorldWideWeb—Executive summary. Archive.Md. https://archive.md/Lfopj
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
+
+Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
 Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
 
