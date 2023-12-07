@@ -35,7 +35,7 @@ University of Basel, Switzerland
 
 # PhD Thesis
 
-## Linked Open Usable Data for Cultural Heritage:   Perspectives on Community Practices and Semantic Interoperability
+## Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability
 
 Supervised by: 
 - Prof. Dr. Peter Fornaro (University of Basel)
@@ -298,6 +298,12 @@ To be part of the Web, not just on the Web.  -->
 
 ---
 
+# LOUD Systematic Review
+
+
+
+---
+
 ![center bg width:50% opacity:.1](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
 
 # International Image Interoperability Framework (IIIF) 
@@ -332,12 +338,11 @@ Storiiies: http://storiiies.cogapp.com/
 
 ---
 
-![center](https://dl.acm.org/cms/asset/9994962b-7596-4c1e-8ae3-42ab5a72d2e8/jocch-22-0204-f08.jpg)
+![center width:750px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
 
 # Machine-generated Annotations
 
-[Cornut et al., 2023]
-
+See Cornut et al. [2023]
 
 ---
 
