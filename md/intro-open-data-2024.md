@@ -198,7 +198,9 @@ https://www.snf.ch/en/dMILj9t4LNk8NwyR/topic/open-research-data
 
 # OGD in Switzerland
 
-https://www.bfs.admin.ch/bfs/fr/home/services/ogd/masterplan.html
+![center](https://julsraemy.ch/prezi/assets/ogd-masterplan.png)
+
+Masterplan Open Government Data 2024-2027 [OFS 2023]: https://www.bfs.admin.ch/bfs/fr/home/services/ogd/masterplan.html 
 
 ---
 
@@ -210,6 +212,16 @@ https://www.bfs.admin.ch/bfs/fr/home/services/ogd/masterplan.html
 
 [Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA) 2023]
 
+
+---
+
+# OGD in Switzerland
+
+
+
+i14y Interoperability platform: https://www.i14y.admin.ch/ 
+
+National Data Catalogue which ensures the efficient exchange of data between authorities, companies and citizens.
 
 ---
 
