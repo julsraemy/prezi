@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: 7C2-CT-4A Introduction to Open Data | Julien A. Raemy -->
+<!-- header: 7C2-CT-4A Introduction to Open Data | Julien A. Raemy | CC BY 4.0 -->
 
 <!-- _footer: Bachelor Information Science | Spring Semester 2023-2024 -->
 
@@ -40,7 +40,7 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 - Open Data?
 
 Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf der Alp Sura]_, Guarda [Black and White Negative]. SGV_12 Ernst Brunner. DL 89, SGV_12N_08589. [Photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/). Basel, Switzerland. 
-Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
@@ -84,18 +84,33 @@ This assignment is weighted at 20% of the 7C2-CT module.
 
 - Definitions
 - Typology
+- Purposes
+- Requirements
 - Licences
+- Technical means
 
 ---
 
 # Definitions
-
 
 ## Open(ness)
 
 > Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness)
 
 The Open Definition according to Open Knowledge: https://opendefinition.org/
+
+---
+
+# Definitions
+
+## Open(ness)
+
+- No limitations on access of any kind
+- No cost, no authentication, no national or institutional privileges
+
+&rarr; Knowledge funded by (i.e. produced under a mandate from) the public must benefit the public without any limitations
+
+[Scholger 2023]
 
 ---
 
@@ -159,6 +174,22 @@ The Open Definition according to Open Knowledge: https://opendefinition.org/
 
 ---
 
+# Typology
+
+## Disciplines
+
+- Cultural Heritage
+- Healthcare
+- Education
+- Transportation
+- Meteorology
+- Geospatial Information
+- Economic and Finance
+- Legal and Criminal Justice
+- Etc.
+
+---
+
 # Open Research Data (ORD)
 
 > Research data are the evidence that underpins the answer to the research question, and can be used to validate findings regardless of its form (e.g. print, digital, or physical). These might be quantitative information or qualitative statements collected by researchers in the course of their work by experimentation, observation, modelling, interview or other methods, or information derived from existing evidence. Data may be raw or primary (e.g. direct from measurement or collection) or derived from primary data for subsequent analysis or interpretation (e.g. cleaned up or as an extract from a larger data set), or derived from existing sources where the rights may be held by others. 
@@ -196,11 +227,23 @@ https://www.snf.ch/en/dMILj9t4LNk8NwyR/topic/open-research-data
 
 ---
 
+# Open Government Data (OGD)
+
+> The work of government involves collecting huge amounts of data, much of which is not confidential (economic data, demographic data, spending data, crime data, transport data, etc). The value of much of this data can be greatly enhanced by releasing it as open data, freeing it for re-use by business, research, civil society, data journalists, etc.
+
+Open Data Handbook [Open Knowledge 2016]: 
+https://opendatahandbook.org/glossary/en/terms/government-data/
+
+---
+
 # OGD in Switzerland
 
-![center](https://julsraemy.ch/prezi/assets/ogd-masterplan.png)
+![center width:700px](https://julsraemy.ch/prezi/assets/ogd-masterplan.png)
 
-Masterplan Open Government Data 2024-2027 [OFS 2023]: https://www.bfs.admin.ch/bfs/fr/home/services/ogd/masterplan.html 
+- Masterplan Open Government Data 2024-2027 [OFS 2023]: https://www.bfs.admin.ch/bfs/fr/home/services/ogd/masterplan.html 
+- i14y Interoperability platform: https://www.i14y.admin.ch/
+
+<!-- i14y: National Data Catalogue which ensures the efficient exchange of data between authorities, companies and citizens -->
 
 ---
 
@@ -215,29 +258,231 @@ Masterplan Open Government Data 2024-2027 [OFS 2023]: https://www.bfs.admin.ch/b
 
 ---
 
-# OGD in Switzerland
+# Purposes
 
+- Transparency and democratic control
+- Participation
+- Self-empowerment
+- Improved or new private products and services
+- Innovation
+- Improved efficiency and effectiveness of government services
+- Impact measurement of policies
+- New knowledge from combined data sources and patterns in large data volumes
 
-
-i14y Interoperability platform: https://www.i14y.admin.ch/ 
-
-National Data Catalogue which ensures the efficient exchange of data between authorities, companies and citizens.
+Open Data Handbook [Open Knowledge 2016] 
+https://opendatahandbook.org/guide/en/why-open-data/
 
 ---
 
-# Typology
+# Requirements
 
-## Purposes
+## Two main components
 
-- Transparency and Accountability
-- Innovation, Research and Development
-- Public Engagement and Participation
+1. **Legally open**: available under an open (data) license that permits anyone freely to access, reuse and redistribute
+2. **Technically open**: data is available for no more than the cost of reproduction and in machine-readable and bulk form.
+
+Open Data Handbook [Open Knowledge 2016] 
+https://opendatahandbook.org/glossary/en/terms/open-data/
 
 ---
 
 # Licences 
 
+## Copyright and Copyleft
+
+### Copyright
+- Grants creators exclusive rights to control use, reproduction, and distribution.
+- Designed to protect creators' economic interests; allows monetization of work.
+
+### Copyleft
+- Allows use, modification, and distribution with the condition of keeping works and derivatives open.
+- Promotes freedom, sharing of knowledge, and collaborative improvement.
+
+<!-- 
+Ownership and Control:
+
+Copyright grants the creator exclusive rights over their work, including the right to control how it's used, reproduced, and distributed. Others must obtain permission from the copyright holder to use the work, often requiring payment or adherence to specific conditions.
+Copyleft, on the other hand, is a concept in the realm of free and open-source software. It allows anyone to use, modify, and distribute the work, but with the stipulation that any derivative work must also be distributed under the same or compatible license terms. This ensures that the work and its derivatives remain free and open.
+Purpose and Philosophy:
+
+Copyright is designed to protect the economic interests of creators by granting them exclusive rights to monetize their work. It supports the traditional model of intellectual property rights.
+Copyleft is motivated by the idea of promoting freedom and sharing of knowledge. It is intended to keep creative works accessible and reusable for the public, encouraging collaborative improvement and innovation.
+
+ -->
+
 ---
+
+# Licences
+
+## Anglo-Saxon Copyright vs. European Author's Rights
+
+### Anglo-Saxon Copyright
+- Focuses on economic rights; treats copyright as transferable property.
+- Duration based on set years post-creation or author's life plus years.
+
+### European Author's Rights (_droit d'auteur / Urheberrecht_)
+- Emphasises moral rights alongside economic rights.
+- Grants inalienable moral rights to creators; duration includes lifetime plus post-death period (commonly 70 years).
+
+<!-- 
+Focus and Foundation:
+
+The Anglo-Saxon copyright system (common in countries like the U.S. and the U.K.) is largely focused on the economic rights of authors. It treats copyright as a type of property that can be bought, sold, or transferred, and emphasizes the monetary value of creative works.
+The European author's rights model places a stronger emphasis on the moral rights of the creator, alongside the economic rights. This includes the right to be recognized as the author of a work and to object to any distortion or modification that could harm the author's reputation.
+Duration and Transferability:
+
+In the Anglo-Saxon system, copyright is often seen as a more transferable and commercial asset. The duration of copyright is typically based on a set number of years post-creation or the author's life plus a certain number of years.
+The European model tends to grant authors inalienable moral rights that remain with the creator regardless of the economic rights being sold or transferred. The duration can also vary, but it usually includes the author's lifetime plus a period after their death (commonly 70 years in many European countries).
+
+ -->
+
+
+---
+
+# Licences 
+
+## Creative Commons (CC)
+
+- CC BY 4.0: Attribution
+- CC BY-SA 4.0: Attribution, Share Alike
+- CC BY-ND 4.0: Attribution, No Deritave Works
+- CC BY-NC 4.0: Attribution, No Commercial Use
+- CC BY-NC-SA 4.0: Attribution, No Commercial Use, Share Alike
+- CC BY-NC-ND 4.0: Attribution, No Commercial Use, No Derivative Works
+- Public Domain Dedication (CC0): No Rights Reserved
+- Public Domain Mark: No Known Copyright
+
+https://creativecommons.org/
+
+---
+
+# Licences 
+
+![center w:300px](https://upload.wikimedia.org/wikipedia/commons/e/e1/Creative_commons_license_spectrum.svg)
+
+Creative commons license spectrum [MJL 2020]
+
+---
+
+# Licences 
+
+## Rights Statements
+
+- 12 different rights statements that can be used by cultural heritage institutions
+- Three categories
+    - In Copyright: statements for works that are in copyright
+    - No Copyright: statements for works that are not in copyright
+    - Other: stateements for works where the copyright status is unclear
+
+https://rightsstatements.org/ 
+
+<!-- 
+The rights statements have been specifically developed for the needs of cultural heritage institutions and online cultural heritage aggregation platforms and are not intended to be used by individuals to license their own creations.
+
+ -->
+
+
+---
+
+# Licences
+
+## Open Data Commons Open Database License (ODbL)
+
+- Copyleft licence
+- Attribution and Share-Alike for Data/Databases
+
+https://opendatacommons.org/licenses/odbl/
+
+ODbL is somewhat equivalent to CC BY-SA [Santos 2020]. 
+
+## Public Domain Dedication and License (PDDL)
+
+- The PDDL places the data(base) in the public domain (waiving all rights)
+
+https://opendatacommons.org/licenses/pddl/
+
+<!-- 
+One of the specific features of this licence is that attribution is not required in the case of derived content that is not a database but is produced from one, such as graphics, diagrams or maps. [Santos 2020, citing Ball 2014]
+
+ -->
+
+---
+
+# Licences
+
+## Copyleft licences for software
+
+- GNU General Public License (GPL)
+- GNU Affero General Public License (AGPL)
+- Mozilla Public License (MPL)
+- MIT License
+- Apache License
+
+And others... &rarr; see for instance https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository 
+
+---
+
+# Licences
+
+## Recommendations for Open (Research) Data
+
+1. CC0 (to the fullest extent allowed by law, as a complete waiver is not feasible under Swiss regulations) 
+2. CC BY 4.0
+3. CC BY-SA 4.0
+
+[Santos 2020]
+
+For more information &rarr; Competence Center in Digital Law: https://www.ccdigitallaw.ch/ 
+
+---
+
+
+# Technical means
+
+## Important factors in providing structured data for machines
+
+- Formats
+- Metadata standards / schemas
+- Documentation
+- Protocols
+
+And of course the underlying infrastructure...
+
+---
+
+# Formats
+
+## Comma-separated values (CSV)
+
+---
+
+# Formats
+
+## Extensible Markup Language (XML)
+
+---
+
+# Formats
+
+## Terse RDF Triple Language (Turtle)
+
+---
+
+# Formats
+
+## JavaScript Object Notation (JSON)
+
+---
+
+# Formats
+
+## JavaScript Object Notation for Linked Data (JSON-LD)
+
+---
+
+
+
+
 
 <!-- footer: Associated Movements and Principles -->
 
@@ -322,7 +567,6 @@ R1. (Meta)data are richly described with a plurality of accurate and relevant at
 - R1.3. (Meta)data meet domain-relevant community standards
 
 
-
 ---
 
 # CARE 
@@ -340,6 +584,11 @@ CARE Principles for Indigenous Data Governance: https://www.gida-global.org/care
 10 Statements
 
 [Padilla et al. 2017; Padilla, Scates Kettler, & Shorish, 2023; Padilla, Scates Kettler, Varner, et al., 2023]
+
+---
+
+# Collections as Data 
+
 
 Checklist [Candela et al. 2023]
 
@@ -408,7 +657,7 @@ https://linked.art/loud/
 
 ---
 
-![bg center width:45% opacity:0.07](https://json-ld.org/images/json-ld-logo.png)  
+![bg width:40% opacity:0.07](https://json-ld.org/images/json-ld-logo.png)  
 
 # LOUD Standards
 
@@ -417,6 +666,55 @@ https://linked.art/loud/
 - International Image Interoperability Framework (IIIF)
 - W3C Web Annotation Data Model
 - Linked Art
+
+---
+
+<!-- footer: Platforms -->
+
+![bg 70% opacity:.15](https://opendata.swiss/images/swiss_map.svg)
+
+# opendata.swiss
+
+
+
+https://opendata.swiss/
+
+---
+
+# Open Data Basel-Stadt
+
+![bg 30% opacity:.15](https://data.bs.ch/assets/theme_image/ODBS_Logo_rund_gruen.png)
+
+https://data.bs.ch/ 
+
+---
+
+# Stadt Zürich Open Data
+
+![bg 50% opacity:.15](https://data.stadt-zuerich.ch/logo.svg)
+
+https://data.stadt-zuerich.ch/
+
+
+---
+
+# Open Data Portal of Geneva Public Transport
+
+![bg 40% opacity:.15](https://s3-eu-central-1.amazonaws.com/aws-ec2-eu-central-1-opendatasoft-staticfileset/tpg/logo)
+
+https://opendata.tpg.ch/
+
+
+---
+
+# European Data
+
+![bg 50% opacity:.15](https://data.europa.eu/themes/edp3/dist/ecl/preset-eu/dist/images/logo/standard-version/positive/logo-eu--en.svg)
+
+
+https://data.europa.eu/
+
+
 
 ---
 
@@ -438,14 +736,11 @@ Carroll, S. R., Herczog, E., Hudson, M., Russell, K., & Stall, S. (2021). Operat
 Chen, M., & Floridi, L. (2013). An analysis of information visualisation. Synthese, 190(16), 3421–3438. 
 https://doi.org/10.1007/s11229-012-0183-y
 
-Concordat Working Group. (2016). Concordat on Open Research Data. UK Research and Innovation. https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf
-
-
-
-
 ---
 
 # References $II$
+
+Concordat Working Group. (2016). Concordat on Open Research Data. UK Research and Innovation. https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
@@ -457,13 +752,18 @@ Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution
 
 OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
 
-Oxford English Dictionary. (2023). Metadata. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/7968104326
-
-Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of Science Policy and Capacity-Building (SC/PCB), UNESCO (France) presentation to Open Science Conference 2021, ZBW — Leibniz Information Centre for Economics, Germany. Own work. https://commons.wikimedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png
 
 ---
 
 # References $III$
+
+Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
+
+Oxford English Dictionary. (2023). Metadata. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/7968104326
+
+MJL. (2020). Creative commons license spectrum. https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg 
+
+Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of Science Policy and Capacity-Building (SC/PCB), UNESCO (France) presentation to Open Science Conference 2021, ZBW — Leibniz Information Centre for Economics, Germany. Own work. https://commons.wikimedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png
 
 Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
 
@@ -471,6 +771,16 @@ Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part
 
 Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data [White paper]. Internet Archive Canada. https://doi.org/10.5281/zenodo.8341519
 
+
+---
+
+# References $IV$
+
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
+Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://sonar.ch/global/documents/315159
+
+Scholger, W. (2023, October 20). Legal Aspects of Arts and Humanities Data. DARIAH-CH Study Day 2023, Bern, Switzerland. https://www.dariah.ch/_files/ugd/8756fc_af72e01542284294ac0b7cf5c6064160.pdf
+
 Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
+
