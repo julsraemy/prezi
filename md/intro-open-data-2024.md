@@ -298,6 +298,8 @@ https://opendatahandbook.org/glossary/en/terms/open-data/
 - Allows use, modification, and distribution with the condition of keeping works and derivatives open.
 - Promotes freedom, sharing of knowledge, and collaborative improvement.
 
+For further information about licences &rarr; Competence Center in Digital Law: https://www.ccdigitallaw.ch/ 
+
 <!-- 
 Ownership and Control:
 
@@ -420,19 +422,28 @@ One of the specific features of this licence is that attribution is not required
 
 And others... &rarr; see for instance https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository 
 
+
+
 ---
 
 # Licences
 
 ## Recommendations for Open (Research) Data
 
-1. CC0 (to the fullest extent allowed by law, as a complete waiver is not feasible under Swiss regulations) 
+1. **CC0** (to the fullest extent allowed by law, as a complete waiver is not feasible under Swiss regulations) 
 2. CC BY 4.0
 3. CC BY-SA 4.0
 
 [Santos 2020]
 
-For more information &rarr; Competence Center in Digital Law: https://www.ccdigitallaw.ch/ 
+---
+
+<!-- _footer: " " -->
+<!-- _header: " " -->
+
+
+![center w:550](https://julsraemy.ch/prezi/assets/santos-arbre.svg)
+
 
 ---
 
