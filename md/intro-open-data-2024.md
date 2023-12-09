@@ -778,7 +778,7 @@ Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Sta
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
-Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://sonar.ch/global/documents/315159
+Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
 
 Scholger, W. (2023, October 20). Legal Aspects of Arts and Humanities Data. DARIAH-CH Study Day 2023, Bern, Switzerland. https://www.dariah.ch/_files/ugd/8756fc_af72e01542284294ac0b7cf5c6064160.pdf
 
