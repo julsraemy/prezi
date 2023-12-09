@@ -442,8 +442,7 @@ And others... &rarr; see for instance https://docs.github.com/en/repositories/ma
 <!-- _header: " " -->
 
 
-![center w:550](https://julsraemy.ch/prezi/assets/santos-arbre.svg)
-
+![center bg fit](https://julsraemy.ch/prezi/assets/santos-arbre.svg)
 
 ---
 
