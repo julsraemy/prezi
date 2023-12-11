@@ -536,7 +536,9 @@ Data oriented principles
 
 ---
 
-# FAIR – Findable
+# FAIR
+
+## Findable
 
 F1. (Meta)data are assigned a globally unique and persistent identifier
 
@@ -548,7 +550,9 @@ F4. (Meta)data are registered or indexed in a searchable resource
 
 ---
 
-# FAIR – Accessible
+# FAIR
+
+## Accessible
 
 A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
 
@@ -560,7 +564,9 @@ A2. Metadata are accessible, even when the data are no longer available
 
 ---
 
-# FAIR – Interoperable
+# FAIR
+
+## Interoperable
 
 I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
 
@@ -570,7 +576,9 @@ I3. (Meta)data include qualified references to other (meta)data
 
 ---
 
-# FAIR – Reusable
+# FAIR
+
+## Reusable
 
 R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
 
@@ -598,7 +606,9 @@ Indigenous data sovereignty reinforces the rights to engage in decision-making i
 
 ---
 
-# CARE – Collective Benefit
+# CARE
+
+## Collective Benefit
 
 C1. For inclusive development and innovation
 
@@ -612,7 +622,9 @@ Data ecosystems shall be designed and function in ways that enable Indigenous Pe
 
 ---
 
-# CARE – Authority to Control
+# CARE
+
+## Authority to Control
 
 A1. Recognizing rights and interests 
 
@@ -628,7 +640,9 @@ Indigenous Peoples’ rights and interests in Indigenous data must be recognised
 
 ---
 
-# CARE – Responsibility
+# CARE
+
+## Responsibility
 
 R1. For positive relationships
 
@@ -644,7 +658,9 @@ Those working with Indigenous data have a responsibility to share how those data
 
 ---
 
-# CARE – Ethics
+# CARE
+
+## Ethics
 
 E1. For minimizing harm and maximizing benefit
 
