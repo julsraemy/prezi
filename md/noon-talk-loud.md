@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: Interconnected Resources on the Web | Julien A. Raemy  -->
+<!-- header: Interconnected Resources on the Web | Julien A. Raemy | [![w:35](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)  -->
 
 <!-- footer: G3S Noon-Talks | 19 December 2023 -->
 
@@ -436,7 +436,7 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 <!-- footer: References and Image Credits -->
 
-<!-- _class: tinytext --> 
+<!-- class: tinytext --> 
 
 # References
 
@@ -463,8 +463,10 @@ UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United N
 
 # Image Credits
 
-These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+## Cultural Anthropology Switzerland
 
-- [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
-- [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
-- [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. SGV_12N_08589
+These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the Swiss Society for Folklore Studies, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nd.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+- Brunner, Ernst. [Blick auf das Spalentor]. Basel, 1938. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_00115. Alte Bildnummer: AB 15 
+- Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53
+- Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89

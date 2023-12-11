@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: 7C2-CT-4A Introduction to Open Data | Julien A. Raemy | CC BY 4.0 -->
+<!-- header: 7C2-CT-4A Introduction to Open Data | Julien A. Raemy | [![w:35](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
 <!-- _footer: Bachelor Information Science | Spring Semester 2023-2024 -->
 
@@ -28,7 +28,7 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 
 <!-- footer: Preamble -->
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 # Preamble
 
@@ -39,8 +39,7 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 - Expectations of the course
 - Open Data?
 
-Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf der Alp Sura]_, Guarda [Black and White Negative]. SGV_12 Ernst Brunner. DL 89, SGV_12N_08589. [Photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/). Basel, Switzerland. 
-Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf der Alp Sura]_, Guarda [Black and White Negative]. SGV_12 Ernst Brunner. DL 89, SGV_12N_08589. [Photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/). Basel, Switzerland. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nd.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
@@ -57,6 +56,8 @@ Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
+![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 # Objectives
 
 1. To gain an understanding of Open Data, its essential aspects, and the principles of opening data;
@@ -69,8 +70,8 @@ Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Individual assignement 
 
-- Select an existing dataset on the https://opendata.swiss/ platform
-- Analyse, describe and identify the potential uses of the dataset
+- Select one or more datasets from one or several platforms discussed during the course (if several datasets are selected, there must be a common thread)
+- Analyse, describe and identify the potential uses of the dataset(s)
 - Attempt to associate your work with one or several aspects of the other courses covered by the cross-disciplinary module (communication, statistics, survey techniques).
 - Between 800 and 1,000 words (without references) **due by Thursday 28 March**
 
@@ -345,14 +346,14 @@ The European model tends to grant authors inalienable moral rights that remain w
 
 ## Creative Commons (CC)
 
-- CC BY 4.0: Attribution
-- CC BY-SA 4.0: Attribution, Share Alike
-- CC BY-ND 4.0: Attribution, No Deritave Works
-- CC BY-NC 4.0: Attribution, No Commercial Use
-- CC BY-NC-SA 4.0: Attribution, No Commercial Use, Share Alike
-- CC BY-NC-ND 4.0: Attribution, No Commercial Use, No Derivative Works
-- Public Domain Dedication (CC0): No Rights Reserved
-- Public Domain Mark: No Known Copyright
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/) CC BY 4.0: Attribution 
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/) CC BY-SA 4.0: Attribution, Share Alike
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nd.svg)](https://creativecommons.org/licenses/by-nd/4.0/) CC BY-ND 4.0: Attribution, No Deritave Works
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/) CC BY-NC 4.0: Attribution, No Commercial Use
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) CC BY-NC-SA 4.0: Attribution, No Commercial Use, Share Alike
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-nd.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) CC BY-NC-ND 4.0: Attribution, No Commercial Use, No Derivative Works
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/public-domain/cc0/) Public Domain Dedication (CC0): No Rights Reserved
+- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/publicdomain.svg)](https://creativecommons.org/public-domain/pdm/) Public Domain Mark: No Known Copyright
 
 https://creativecommons.org/
 
@@ -430,9 +431,9 @@ And others... &rarr; see for instance https://docs.github.com/en/repositories/ma
 
 ## Recommendations for Open (Research) Data
 
-1. **CC0** (to the fullest extent allowed by law, as a complete waiver is not feasible under Swiss regulations) 
-2. CC BY 4.0
-3. CC BY-SA 4.0
+1. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/public-domain/cc0/) **CC0** (to the fullest extent allowed by law, as a complete waiver is not feasible under Swiss regulations) 
+2. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/) CC BY 4.0
+3. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/) CC BY-SA 4.0
 
 [Santos 2020]
 
@@ -489,9 +490,6 @@ And of course the underlying infrastructure...
 ## JavaScript Object Notation for Linked Data (JSON-LD)
 
 ---
-
-
-
 
 
 <!-- footer: Associated Movements and Principles -->
@@ -681,6 +679,45 @@ https://linked.art/loud/
 
 <!-- footer: Platforms -->
 
+# Platforms
+
+
+---
+
+# SwissUbase
+
+![bg 25% opacity:.4](https://www.swissubase.ch/assets/full328x80.png)
+
+https://www.swissubase.ch/
+
+---
+
+# DaSCH Service Platform (DSP)
+
+![bg 40% opacity:.17](https://app.dasch.swiss/assets/images/dasch-mosaic-icon-color.svg)
+
+https://app.dasch.swiss/
+
+
+---
+
+# Yareta
+
+![bg 70% opacity:.17](https://yareta.unige.ch/assets/themes/yareta/toolbar-header-image.png)
+
+https://yareta.unige.ch/ 
+
+
+---
+
+# Zenodo
+
+![bg 30% opacity:.2](https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/theme/static/img/logos/zenodo-gradient-square.svg)
+
+
+
+---
+
 ![bg 70% opacity:.15](https://opendata.swiss/images/swiss_map.svg)
 
 # opendata.swiss
@@ -724,6 +761,22 @@ https://opendata.tpg.ch/
 
 https://data.europa.eu/
 
+
+
+---
+
+# DATA.GOV
+
+![bg 40% opacity:.12](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.svg)
+
+## The Home of the U.S. Government's Open Data
+
+- Platform launched in 2009
+- It provides access to datasets published by agencies across the federal government of the United States
+- Based on open source applications
+- Metadata displayed using [DCAT-US Schema v1.1](https://resources.data.gov/resources/dcat-us/)
+
+https://data.gov/
 
 
 ---
