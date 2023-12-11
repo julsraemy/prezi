@@ -530,9 +530,13 @@ FAIR Data Principles: https://www.go-fair.org/fair-principles/
 
 [Wilkinson et al. 2016]
 
+<!-- 
+Data oriented principles
+ -->
+
 ---
 
-# FAIR - Findable
+# FAIR – Findable
 
 F1. (Meta)data are assigned a globally unique and persistent identifier
 
@@ -544,7 +548,7 @@ F4. (Meta)data are registered or indexed in a searchable resource
 
 ---
 
-# FAIR - Accessible
+# FAIR – Accessible
 
 A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
 
@@ -556,7 +560,7 @@ A2. Metadata are accessible, even when the data are no longer available
 
 ---
 
-# FAIR - Interoperable
+# FAIR – Interoperable
 
 I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
 
@@ -566,7 +570,7 @@ I3. (Meta)data include qualified references to other (meta)data
 
 ---
 
-# FAIR - Reusable
+# FAIR – Reusable
 
 R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
 
@@ -587,6 +591,72 @@ CARE Principles for Indigenous Data Governance: https://www.gida-global.org/care
 
 [Carroll et al. 2020, 2021]
 
+<!-- 
+Indigenous data sovereignty reinforces the rights to engage in decision-making in accordance with Indigenous values and collective interests. 
+
+ -->
+
+---
+
+# CARE – Collective Benefit
+
+C1. For inclusive development and innovation
+
+C2. For improved governance and citizen engagement
+
+C3. For equitable outcomes
+
+<!-- 
+Data ecosystems shall be designed and function in ways that enable Indigenous Peoples to derive benefit from the data.
+ -->
+
+---
+
+# CARE – Authority to Control
+
+A1. Recognizing rights and interests 
+
+A2. Data for governance
+
+A3. Governance of data
+
+<!-- 
+Indigenous Peoples’ rights and interests in Indigenous data must be recognised and their authority to control such data be empowered. Indigenous data governance enables Indigenous Peoples and governing bodies to determine how Indigenous Peoples, as well as Indigenous lands, territories, resources, knowledges and geographical indicators, are represented and identified within data.
+
+ -->
+
+
+---
+
+# CARE – Responsibility
+
+R1. For positive relationships
+
+R2. For expanding capability and capacity
+
+R3. For Indigenous languages and worldviews
+
+
+<!-- 
+Those working with Indigenous data have a responsibility to share how those data are used to support Indigenous Peoples’ selfdetermination and collective benefit. Accountability requires meaningful and openly available evidence of these efforts and the benefits accruing to Indigenous Peoples.
+
+ -->
+
+---
+
+# CARE – Ethics
+
+E1. For minimizing harm and maximizing benefit
+
+E2. For justice
+
+E3. For future use
+
+<!-- 
+Indigenous Peoples’ rights and wellbeing should be the primary concern at all stages of the data life cycle and across the data ecosystem.
+ -->
+
+
 ---
 
 # Collections as Data 
@@ -601,6 +671,14 @@ CARE Principles for Indigenous Data Governance: https://www.gida-global.org/care
 
 
 Checklist [Candela et al. 2023]
+
+---
+
+# An Open Vision of the Web
+
+> The [World Wide Web] project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
+
+[Berners-Lee 1991]
 
 ---
 
@@ -716,13 +794,33 @@ https://yareta.unige.ch/
 
 ![bg 30% opacity:.2](https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/theme/static/img/logos/zenodo-gradient-square.svg)
 
+https://zenodo.org/
+
+---
+
+# re3data.org
+
+![bg 60% opacity:.08](https://upload.wikimedia.org/wikipedia/commons/f/fe/Re3data_Logo_RGB_72dpi.png)
+
+## Registry of Research Data Repositories
+
+- Platform launched in 2012
+- Registry that includes data repositories from various academic disciplines 
+- Embeddable widgets and tools
+    - Additional information, Data Accessibility, Terms of use and licences, Policy, Persistent Identifier (PID) system, Certification
+- It also provides an API to access the content
+- All metadata are available for open use under CC0
+
+http://www.re3data.org/
 
 
 ---
 
+# opendata.swiss
+
 ![bg 70% opacity:.15](https://opendata.swiss/images/swiss_map.svg)
 
-# opendata.swiss
+
 
 
 
@@ -789,6 +887,8 @@ https://data.gov/
 <!-- footer: References -->
 
 Alter, G., Rizzolo, F., & Schleidt, K. (2023). View points on data points: A shared vocabulary for cross-domain conversations on data and metadata. IASSIST Quarterly, 47(1), 1–39. https://doi.org/10.29173/iq1051
+
+Berners-Lee, T. (1991, August 6). WorldWideWeb — Executive summary. Archive.Md. https://archive.md/Lfopj
 
 Berners-Lee, T. (2006, July 27). Linked Data. W3C. https://www.w3.org/DesignIssues/LinkedData.html 
 
