@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: Interlinking Cultural Heritage Data | Julien A. Raemy | [![w:35 CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
+<!-- header: Interlinking Cultural Heritage Data | Julien A. Raemy | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
 <!-- _footer: PIA Lecture Series | 8 May 2024 -->
 
@@ -548,7 +548,7 @@ UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United N
 
 ## Cultural Anthropology Switzerland
 
-These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the Swiss Society for Folklore Studies, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nd.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the Swiss Society for Folklore Studies, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 - Brunner, Ernst. [Blick auf das Spalentor]. Basel, 1938. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_00115. Alte Bildnummer: AB 15 
 - Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53

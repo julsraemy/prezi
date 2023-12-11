@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: 7C2-CT-4A Introduction to Open Data | Julien A. Raemy | [![w:35](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
+<!-- header: 7C2-CT-4A Introduction to Open Data | Julien A. Raemy | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
 <!-- _footer: Bachelor Information Science | Spring Semester 2023-2024 -->
 
@@ -39,7 +39,7 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 - Expectations of the course
 - Open Data?
 
-Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf der Alp Sura]_, Guarda [Black and White Negative]. SGV_12 Ernst Brunner. DL 89, SGV_12N_08589. [Photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/). Basel, Switzerland. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nd.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf der Alp Sura]_, Guarda [Black and White Negative]. SGV_12 Ernst Brunner. DL 89, SGV_12N_08589. [Photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the Swiss Society for Folklore Studies, based in Basel, Switzerland. [![w:70](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
@@ -346,16 +346,18 @@ The European model tends to grant authors inalienable moral rights that remain w
 
 ## Creative Commons (CC)
 
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/) CC BY 4.0: Attribution 
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/) CC BY-SA 4.0: Attribution, Share Alike
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nd.svg)](https://creativecommons.org/licenses/by-nd/4.0/) CC BY-ND 4.0: Attribution, No Deritave Works
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/) CC BY-NC 4.0: Attribution, No Commercial Use
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) CC BY-NC-SA 4.0: Attribution, No Commercial Use, Share Alike
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-nd.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) CC BY-NC-ND 4.0: Attribution, No Commercial Use, No Derivative Works
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/public-domain/cc0/) Public Domain Dedication (CC0): No Rights Reserved
-- [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/publicdomain.svg)](https://creativecommons.org/public-domain/pdm/) Public Domain Mark: No Known Copyright
+- [![w:70](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) CC BY 4.0: Attribution 
+- [![w:70](https://julsraemy.ch/prezi/assets/cc-by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/) CC BY-SA 4.0: Attribution, Share Alike
+- [![w:70](https://julsraemy.ch/prezi/assets/cc-by-nd.svg)](https://creativecommons.org/licenses/by-nd/4.0/) CC BY-ND 4.0: Attribution, No Deritave Works
+- [![w:70](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/) CC BY-NC 4.0: Attribution, No Commercial Use
+- [![w:70](https://julsraemy.ch/prezi/assets/cc-by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) CC BY-NC-SA 4.0: Attribution, No Commercial Use, Share Alike
+- [![w:70](https://julsraemy.ch/prezi/assets/cc-by-nc-nd.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) CC BY-NC-ND 4.0: Attribution, No Commercial Use, No Derivative Works
+- [![w:70](https://julsraemy.ch/prezi/assets/cc0.svg)](https://creativecommons.org/public-domain/cc0/) Public Domain Dedication (CC0): No Rights Reserved
+- [![w:70](https://julsraemy.ch/prezi/assets/cc-pdm.svg)](https://creativecommons.org/public-domain/pdm/) Public Domain Mark: No Known Copyright
 
 https://creativecommons.org/
+
+
 
 ---
 

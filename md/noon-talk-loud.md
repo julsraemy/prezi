@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: Interconnected Resources on the Web | Julien A. Raemy | [![w:35](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)  -->
+<!-- header: Interconnected Resources on the Web | Julien A. Raemy | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/)  -->
 
 <!-- footer: G3S Noon-Talks | 19 December 2023 -->
 
@@ -342,9 +342,9 @@ Storiiies: http://storiiies.cogapp.com/
 
 ---
 
-![center width:750px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
-
 # Machine-generated Annotations
+
+![center width:750px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
 
 See Cornut et al. [2023]
 
@@ -465,7 +465,7 @@ UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United N
 
 ## Cultural Anthropology Switzerland
 
-These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the Swiss Society for Folklore Studies, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nd.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the Swiss Society for Folklore Studies, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 - Brunner, Ernst. [Blick auf das Spalentor]. Basel, 1938. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_00115. Alte Bildnummer: AB 15 
 - Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53
