@@ -1073,6 +1073,47 @@ Work on your assignment
 <!-- _header: " "  -->
 <!-- _footer: " "  -->
 
+## Showcases
+
+
+---
+
+<!-- footer: Showcases  -->
+
+
+---
+
+# Our World in Data
+
+https://ourworldindata.org/
+
+
+
+---
+
+# Infectious Diseases Dashboard
+
+https://idd.bag.admin.ch/
+
+---
+
+# Heile Preise
+
+https://heisse-preise.io/ 
+https://www.wired.com/story/heisse-preise-food-prices/ 
+
+---
+
+12 sunsets?
+
+
+---
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
 ## Perspectives
 
 ---
