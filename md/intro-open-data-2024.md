@@ -175,7 +175,7 @@ The Open Definition according to the Open Knowledge Network: https://opendefinit
 
 > Open data and content can be freely used, modified, and shared by anyone for any purpose.
 
-The Open Definition according to Open Knowledge: https://opendefinition.org/
+The Open Definition according to the Open Knowledge Network: https://opendefinition.org/
 
 
 ---
@@ -271,7 +271,6 @@ https://opendatahandbook.org/glossary/en/terms/government-data/
 > Les données sont mises en ligne gratuitement, en temps utile, sous une forme lisible par machine et dans un format ouvert. Elles peuvent être librement réutilisées, sous réserve d’obligations légales spéciales de mentionner la source des données.
 
 [Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA) 2023]
-
 
 ---
 
@@ -1014,6 +1013,12 @@ https://opendatabeer.ch/
 
 Something about data quality...
 
+https://opendatahandbook.org/solutions/en/Enable-Quality-Assessment/
+
+https://checklists.opquast.com/fr/assurance-qualite-web/download/
+
+https://data.winnipeg.ca/Organizational-Support-Services/Data-Quality-Score/73sq-j2qi/about_data
+
 ---
 
 Best practices
@@ -1035,11 +1040,15 @@ Best practices
 
 Some tools
 
+OpenRefine
+
 
 ---
 
 
 Some techniques
+
+ETL
 
 ---
 
