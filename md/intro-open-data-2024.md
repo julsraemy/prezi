@@ -780,6 +780,11 @@ https://linked.art/loud/
 
 ---
 
+## Hands-on exercise
+
+
+---
+
 # SwissUbase
 
 ![bg 25% opacity:.4](https://www.swissubase.ch/assets/full328x80.png)
@@ -819,6 +824,8 @@ https://zenodo.org/
 ![bg 60% opacity:.08](https://upload.wikimedia.org/wikipedia/commons/f/fe/Re3data_Logo_RGB_72dpi.png)
 
 ## Registry of Research Data Repositories
+
+
 
 - Platform launched in 2012
 - Registry that includes data repositories from various academic disciplines 
@@ -894,6 +901,16 @@ https://data.europa.eu/
 
 https://data.gov/
 
+
+---
+
+<!-- footer: Associations -->
+
+# Associations
+
+- Open Knowledge Network
+- Opendata.ch
+- Open Data Beer
 
 ---
 
