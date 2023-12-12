@@ -433,9 +433,9 @@ And others... &rarr; see for instance https://docs.github.com/en/repositories/ma
 
 ## Recommendations for Open (Research) Data
 
-1. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/public-domain/cc0/) **CC0** (to the fullest extent allowed by law, as a complete waiver is not feasible under Swiss regulations) 
-2. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/) CC BY 4.0
-3. [![w:70](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/) CC BY-SA 4.0
+1. [![w:70](https://julsraemy.ch/prezi/assets/cc0.svg)](https://creativecommons.org/public-domain/cc0/) **CC0** (to the fullest extent allowed by law, as a complete waiver is not feasible under Swiss regulations) 
+2. [![w:70](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) CC BY 4.0
+3. [![w:70](https://julsraemy.ch/prezi/assets/cc-by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/) CC BY-SA 4.0
 
 [Santos 2020]
 
