@@ -2,8 +2,8 @@
 marp: true
 author: Julien A. Raemy
 title: Introduction to Open Data
-description: This is the deck slides of the Introduction to Open Data course given at the Haute école de gestion de Genève in the context of the 
-keywords: HEG-GE, Information Science, Open Data, Open Science 
+description: This is the slide deck of the Introduction to Open Data course given at the Haute école de gestion de Genève (HEG-GE) in Carouge, Switzerland, as part of the Bachelor of Information Science curriculum
+keywords: HEG-GE, Information Science, Open Data, Open Science, Open Access, Licences, FAIR, CARE, Linked Data, Collections as Data 
 image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://julsraemy.ch/prezi/intro-open-data-2024.html
 theme: beam
@@ -13,9 +13,9 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: 7C2-CT-4A Introduction to Open Data | Julien A. Raemy | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
+<!-- header: Julien A. Raemy | **7C2-CT-4A Introduction to Open Data** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
-<!-- _footer: Bachelor Information Science | Spring Semester 2023-2024 -->
+<!-- _footer: HEG-GE Bachelor Information Science | Spring Semester 2023-2024 -->
 
 # Introduction to Open Data
 Julien A. Raemy (University of Basel / DaSCH)
@@ -897,6 +897,24 @@ https://data.gov/
 
 ---
 
+# _A multitude of tools_
+
+![](https://youtu.be/pOX9CrvAG7I)
+
+> For a better understanding of the past,
+Our images have to be enhanced,
+A new dialogue in three dimensions,
+Must have openness at its heart,
+For somewhere within the archive
+Of our aggregated minds
+Are a multitude of questions
+And a multitude of answers,
+Simply awaiting to be found.
+
+[Mr Gee 2023], Data Poet at EuropeanaTech 2023
+
+---
+
 # References $I$
 
 <!-- class: tinytext --> 
@@ -945,6 +963,8 @@ Oxford English Dictionary. (2023). Metadata. In Oxford English Dictionary (OED).
 MJL. (2020). Creative commons license spectrum. https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg 
 
 Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of Science Policy and Capacity-Building (SC/PCB), UNESCO (France) presentation to Open Science Conference 2021, ZBW — Leibniz Information Centre for Economics, Germany. Own work. https://commons.wikimedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png
+
+Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
 Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
 

@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: Interlinking Cultural Heritage Data | Julien A. Raemy | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
+<!-- header: Julien A. Raemy | **Interlinking Cultural Heritage Data** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
 <!-- _footer: PIA Lecture Series | 8 May 2024 -->
 
@@ -504,6 +504,24 @@ An important proposition arises from the observation that adherence to the \ac{L
 -->
 
 
+---
+
+# _A multitude of tools_
+
+![](https://youtu.be/pOX9CrvAG7I)
+
+> For a better understanding of the past,
+Our images have to be enhanced,
+A new dialogue in three dimensions,
+Must have openness at its heart,
+For somewhere within the archive
+Of our aggregated minds
+Are a multitude of questions
+And a multitude of answers,
+Simply awaiting to be found.
+
+[Mr Gee 2023], Data Poet at EuropeanaTech 2023
+
 
 ---
 
@@ -518,6 +536,8 @@ Berners-Lee, T. (1991, August 6). WorldWideWeb—Executive summary. Archive.Md. 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+
+Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
 Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 

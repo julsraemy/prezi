@@ -13,7 +13,7 @@ _paginate: false
 
 <!-- _class: title -->
 
-<!-- header: Interconnected Resources on the Web | Julien A. Raemy | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/)  -->
+<!-- header: Julien A. Raemy | **Interconnected Resources on the Web** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/)  -->
 
 <!-- footer: G3S Noon-Talks | 19 December 2023 -->
 
@@ -432,6 +432,26 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 -->
 
+
+---
+
+# _A multitude of tools_
+
+![](https://youtu.be/pOX9CrvAG7I)
+
+> For a better understanding of the past,
+Our images have to be enhanced,
+A new dialogue in three dimensions,
+Must have openness at its heart,
+For somewhere within the archive
+Of our aggregated minds
+Are a multitude of questions
+And a multitude of answers,
+Simply awaiting to be found.
+
+[Mr Gee 2023], Data Poet at EuropeanaTech 2023
+
+
 ---
 
 <!-- footer: References and Image Credits -->
@@ -445,6 +465,8 @@ Berners-Lee, T. (1991, August 6). WorldWideWeb—Executive summary. Archive.Md. 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+
+Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
 Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
 
