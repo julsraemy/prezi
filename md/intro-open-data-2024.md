@@ -30,9 +30,9 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 
 ![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
-# Preamble
-
 # Round of introductions
+
+## Introduce yourself
 
 - Name
 - Background
@@ -43,20 +43,30 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 
 ---
 
-<!-- footer: Course Overview -->
-
 # Course Outline
 
 | Date 	| Content 	|
 |------------	|----------------------------	|
-| 20.02.2024 	| Course Overview, Characteristics of Open Data, Associated Movements and Principles	|
-| 27.02.2024 	| 2. Course                  	|
-| 05.03.2024 	| 3. Course                  	|
-| 12.03.2024 	| 4. Course                  	|
+| 20.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
+| 27.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
+| 05.03.2024 	| [Data Quality and Best Practices](#data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
+| 12.03.2024 	| [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
 
 ---
 
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Course Overview
+
+---
+
+<!-- footer: Course Overview -->
+
 ![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
 
 # Objectives
 
@@ -64,11 +74,12 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 2. to learn how to find, analyse, and reuse open datasets;
 3. to learn the processes involved in preparing and publishing open datasets.
 
+
 ---
 
 # Assessment
 
-## Individual assignement 
+## Individual assignment 
 
 - Select one or more datasets from one or several platforms discussed during the course (if several datasets are selected, there must be a common thread)
 - Analyse, describe and identify the potential uses of the dataset(s)
@@ -79,9 +90,12 @@ This assignment is weighted at 20% of the 7C2-CT module.
 
 ---
 
-<!-- footer: Characteristics of Open Data -->
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
-# Characteristics of Open Data
+## Characteristics of Open Data
 
 - Definitions
 - Typology
@@ -92,13 +106,15 @@ This assignment is weighted at 20% of the 7C2-CT module.
 
 ---
 
+<!-- footer: Characteristics of Open Data -->
+
 # Definitions
 
 ## Open(ness)
 
 > Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness)
 
-The Open Definition according to Open Knowledge: https://opendefinition.org/
+The Open Definition according to the Open Knowledge Network: https://opendefinition.org/
 
 ---
 
@@ -493,10 +509,18 @@ And of course the underlying infrastructure...
 
 ---
 
+# Hands-on exercise $I$
 
-<!-- footer: Associated Movements and Principles -->
 
-# Associated Movements and Principles
+
+---
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Associated Movements and Principles
 
 - Open Science
 - FAIR Data Principles
@@ -505,6 +529,8 @@ And of course the underlying infrastructure...
 - Linked (Open) (Usable) Data
 
 ---
+
+<!-- footer: Associated Movements and Principles -->
 
 # Open Science 
 
@@ -773,21 +799,33 @@ https://linked.art/loud/
 
 ---
 
-<!-- footer: Platforms -->
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
-# Platforms
+## Platforms and Organisations
+
+---
+
+<!-- footer: Platforms and Organisations -->
+
+# Open Data Platforms
 
 
 ---
 
-## Hands-on exercise
-
-
----
 
 # SwissUbase
 
-![bg 25% opacity:.4](https://www.swissubase.ch/assets/full328x80.png)
+![bg 30% opacity:.11](https://www.swissubase.ch/assets/full328x80.png)
+
+##  National cross-disciplinary solution
+
+- Launched in 2021, superseding FORSbase
+- Operated by [FORS](https://forscenter.ch/) – Swiss Centre of Expertise in the Social Sciences – and the Universities of Lausanne, Neuchâtel and Zurich
+- Data catalogue, mostly from social sciences and linguistics 
+- Own metadata schema for studies, datasets, and data files, DOI at the dataset level
 
 https://www.swissubase.ch/
 
@@ -795,7 +833,14 @@ https://www.swissubase.ch/
 
 # DaSCH Service Platform (DSP)
 
-![bg 40% opacity:.17](https://app.dasch.swiss/assets/images/dasch-mosaic-icon-color.svg)
+## Swiss National Data and Service Center for the Humanities
+
+- Institutionalised in 2017 by the Digital Humanities Lab of the University of Basel
+- Operates as a national research infrastructure since 2021, primarily funded by the SNSF
+- Project-based data models that rely on a core base ontology (Knora)
+- RESTful API (JSON-LD), Archival Resource Keys (ARKs) with timestamps
+
+![bg 40% opacity:.15](https://app.dasch.swiss/assets/images/dasch-mosaic-icon-color.svg)
 
 https://app.dasch.swiss/
 
@@ -812,6 +857,8 @@ https://yareta.unige.ch/
 ---
 
 # Zenodo
+
+##
 
 ![bg 30% opacity:.2](https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/theme/static/img/logos/zenodo-gradient-square.svg)
 
@@ -831,8 +878,7 @@ https://zenodo.org/
 - Registry that includes data repositories from various academic disciplines 
 - Embeddable widgets and tools
     - Additional information, Data Accessibility, Terms of use and licences, Policy, Persistent Identifier (PID) system, Certification
-- It also provides an API to access the content
-- All metadata are available for open use under CC0
+- All metadata are available for open use under CC0. It also provides an API to access the content
 
 http://www.re3data.org/
 
@@ -904,15 +950,150 @@ https://data.gov/
 
 ---
 
-<!-- footer: Associations -->
-
-# Associations
+# Open Data Organisations
 
 - Open Knowledge Network
-- Opendata.ch
+- Opendata.ch 
 - Open Data Beer
 
 ---
+
+# Open Knowledge Network
+
+![bg 45% opacity:.1](https://okfn.org/assets/images/lg-okfn.svg)
+
+## A Global Network for Open Data
+
+- Launched in 2011
+- Foundation which comprises several established chapters, members, and contributors from around the world
+- Their mission is to create a fair, sustainable and open digital future, advancing open knowledge as a design principle beyond just data.
+
+https://okfn.org/
+
+---
+
+# Opendata.ch
+
+## Opendata.ch: Swiss Open Data Association
+
+- Founded in 2011
+- Swiss chapter of the Open Knowledge Network
+- Dedicated working group for the GLAM (Galleries, Libraries, Archives, Museums) sector: OpenGLAM
+
+![bg 40% opacity:.1](https://opendata.ch/wordpress/files/2021/11/opendata-logo-RGB-full-large.png)
+
+https://opendata.ch/
+
+---
+
+# Open Data Beer
+
+![bg 30% opacity:.25](https://opendatabeer.files.wordpress.com/2018/02/cropped-icon_transparent1.png)
+
+https://opendatabeer.ch/
+
+
+---
+
+# Hands-on exercise $II$
+
+
+---
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Data Quality and Best Practices
+
+
+---
+
+<!-- footer: Data Quality and Best Practices  -->
+
+Something about data quality...
+
+---
+
+Best practices
+
+
+---
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Tools and Techniques
+
+
+---
+
+<!-- footer: Tools and Techniques  -->
+
+Some tools
+
+
+---
+
+
+Some techniques
+
+---
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Assignment Workshop
+
+
+---
+
+<!-- footer: Assignment Workshop  -->
+
+Work on your assignment
+
+---
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Perspectives
+
+---
+
+
+<!-- footer: Perspectives  -->
+
+Something here
+
+
+---
+
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Conclusion
+
+
+---
+
+Something here as well
+
+
+
+---
+
+<!-- footer: Conclusion -->
 
 # _A multitude of tools_
 
