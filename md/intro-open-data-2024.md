@@ -50,7 +50,7 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 | 20.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
 | 27.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
 | 05.03.2024 	| [Data Quality and Best Practices](#data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
-| 12.03.2024 	| [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
+| 12.03.2024 	| [Showcases](#showcases), [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
 
 ---
 
