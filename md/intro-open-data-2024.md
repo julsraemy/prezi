@@ -244,6 +244,29 @@ https://www.snf.ch/en/dMILj9t4LNk8NwyR/topic/open-research-data
 
 ---
 
+# ORD in Switzerland
+
+## Vision
+
+> By facilitating access to and reuse of research data, ORD promotes better, more effective, and more impactful research for the benefit of society as a whole. Through the principles of open access and reusability of research data, ORD practices support transparent and reproducible research findings. Moreover, ORD fosters collaboration by promoting exchange among researchers across disciplines, legal systems and national borders, thus enabling creativity and innovation to thrive.  
+
+[Open Science Delegation 2021a]
+
+---
+
+# ORD in Switzerland
+
+## Action Areas 
+
+- Support researchers and research communities in imagining and adopting ORD practices
+- Development, promotion, and maintenance of financially sustainable basic infrastructures and services for all researchers 
+- Equipping researchers for ORD skills development and exchange of best practices
+- Building up systemic und supportive conditions for institutions and research communities 
+
+[Open Science Delegation 2021b]
+
+---
+
 # Open Government Data (OGD)
 
 > The work of government involves collecting huge amounts of data, much of which is not confidential (economic data, demographic data, spending data, crime data, transport data, etc). The value of much of this data can be greatly enhanced by releasing it as open data, freeing it for re-use by business, research, civil society, data journalists, etc.
@@ -430,7 +453,7 @@ One of the specific features of this licence is that attribution is not required
 
 # Licences
 
-## Copyleft licences for software
+## Licences for software
 
 - GNU General Public License (GPL)
 - GNU Affero General Public License (AGPL)
@@ -439,7 +462,6 @@ One of the specific features of this licence is that attribution is not required
 - Apache License
 
 And others... &rarr; see for instance https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository 
-
 
 
 ---
@@ -482,17 +504,85 @@ And of course the underlying infrastructure...
 
 ## Comma-separated values (CSV)
 
+
+```csv
+"TRANSPORT_TYPE";"TRANSPORT_MEAN";"TRAVEL_REASON";"SOCIO_DEMO_VARIABLE_TYPE";"SOCIO_DEMO_VARIABLE";"PERIOD_REF";"UNIT_MEAS";"VALUE";"OBS_CONFIDENCE";"OBS_STATUS"
+"TOT";"TOT";"ALL_REAS";"GEO";"CH";2015;"KM";36.8318;0.4602;"A"
+"TOT";"TOT";"WORK";"GEO";"CH";2015;"KM";8.8512;0.1995;"A"
+"TOT";"TOT";"SCHOOL";"GEO";"CH";2015;"KM";1.9104;0.1026;"A"
+"TOT";"TOT";"SHOP";"GEO";"CH";2015;"KM";4.7651;0.1346;"A"
+"TOT";"TOT";"LEISU";"GEO";"CH";2015;"KM";16.2548;0.3385;"A"
+"TOT";"TOT";"SERV_ACC";"GEO";"CH";2015;"KM";1.8462;0.0982;"A"
+"TOT";"TOT";"BUSIN";"GEO";"CH";2015;"KM";2.5514;0.1587;"A"
+"TOT";"TOT";"OTH_REAS";"GEO";"CH";2015;"KM";0.6527;0.0759;"A"
+"SOFT_MOB";"TOT";"ALL_REAS";"GEO";"CH";2015;"KM";2.8031;0.0440;"A"
+```
+
+Comportement de la population en matière de transports, tableaux de synthèse
+https://opendata.swiss/fr/perma/18084205@bundesamt-fur-statistik-bfs
+
 ---
 
 # Formats
 
 ## Extensible Markup Language (XML)
 
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+  <dcat:Dataset rdf:about="https://ckan.opendata.swiss/perma/121911@bundesamt-fur-statistik-bfs">
+    <dcat:keyword xml:lang="it">lavoro-e-reddito</dcat:keyword>
+    <dct:language>fr</dct:language>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://ckan.opendata.swiss/dataset/90beaddf-4f48-4211-9e34-ff68d4308f98/resource/f9eb3fb4-0a11-4a40-a995-0aa13f377011">
+        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by_ask"/>
+        <dcat:downloadURL rdf:resource="https://dam-api.bfs.admin.ch/hub/api/dam/assets/121910/master"/>
+        <dcat:accessURL rdf:resource="https://dam-api.bfs.admin.ch/hub/api/dam/assets/121910/master"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+        <dct:title xml:lang="de">Kanton Genf: Erwerbsleben und Ausbildung</dct:title>
+        <dct:identifier>121910-master@bundesamt-fur-statistik-bfs</dct:identifier>
+        <dct:language>de</dct:language>
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/application/vnd.ms-excel"/>
+        <dct:description xml:lang="de">Dieser Dataset präsentiert die Zahlen zu Erwerbsleben und Ausbildung (Eidgenössische Volkszählung 2000)</dct:description>
+        <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by_ask"/>
+      </dcat:Distribution>
+```
+
+Federal Statistical Office. Canton de Genève: Vie active et formation
+https://opendata.swiss/fr/perma/121911@bundesamt-fur-statistik-bfs
+
 ---
 
 # Formats
 
 ## Terse RDF Triple Language (Turtle)
+
+```
+@prefix ns1: <https://data.tg.ch/ld/ontologies/div-energie-6/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.tg.ch/ld/resources/div-energie-6/div-energie-6-record/1740b190a1beca6edcd04e0b143c380b885ee1de/> a ns1:div-energie-6-record ;
+    ns1:andere "2690"^^xsd:int ;
+    ns1:einwohner "266510"^^xsd:int ;
+    ns1:energiebezugsflaeche "25055573"^^xsd:int ;
+    ns1:erdgas "308728"^^xsd:int ;
+    ns1:erdoelbrennstoffe "307734"^^xsd:int ;
+    ns1:jahr "2015-01-01"^^xsd:date ;
+    ns1:kehricht "78654"^^xsd:int ;
+    ns1:total "1291573"^^xsd:int ;
+    ns1:treibstoffe "593764"^^xsd:int .
+```
+
+Kanton Thurgau. CO2-Gesamtemissionen nach Energieträgern (Ebene Kanton)
+https://data.tg.ch/explore/dataset/div-energie-6/
+
 
 ---
 
@@ -508,7 +598,24 @@ And of course the underlying infrastructure...
 
 ---
 
-# Hands-on exercise $I$
+# Metadata standards / schemas
+
+- Something 
+- Something
+
+
+---
+
+# Documentation
+
+---
+
+# Protocols
+
+
+---
+
+# Exercise $I$
 
 
 
@@ -521,7 +628,7 @@ And of course the underlying infrastructure...
 
 ## Associated Movements and Principles
 
-- Open Science
+- Open Access / Open Science
 - FAIR Data Principles
 - CARE Principles for Indigenous Data Governance
 - Collections as Data
@@ -531,11 +638,14 @@ And of course the underlying infrastructure...
 
 <!-- footer: Associated Movements and Principles -->
 
-# Open Science 
+# Open Access
 
-![center](https://upload.wikimedia.org/wikipedia/commons/2/28/Osc2021-unesco-open-science-no-gray.png)
+## Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities
 
-[Morrison 2021, citing Persic 2021]
+1. Authors and right holders must grant all users **a free, irrevocable, worldwide, right of access to, and a license to copy, use, distribute, transmit and display the work publicly** and to make and distribute derivative works, in any digital medium for any responsible purpose, subject to proper attribution of authorship as well as the right to make small numbers of printed copies for their personal use.
+2. A complete version of the work and all supplemental materials, including a copy of the permission as stated above, in **an appropriate standard electronic format is deposited in at least one online repository** using suitable technical standards.
+
+[Max Planck Society & European Cultural Heritage Online 2003]
 
 ---
 
@@ -544,6 +654,14 @@ And of course the underlying infrastructure...
 > Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.
 
 [FOSTER 2019]
+
+---
+
+# Open Science 
+
+![center](https://upload.wikimedia.org/wikipedia/commons/2/28/Osc2021-unesco-open-science-no-gray.png)
+
+[Morrison 2021, citing Persic 2021]
 
 ---
 
@@ -811,6 +929,31 @@ https://linked.art/loud/
 
 # Open Data Platforms
 
+## ORD Platforms
+
+- Registry: re3data.org
+- Cross-disciplinary: SwissUBase
+- Humanities: DaSCH Service Platform
+- Cross-institutional: OLOS
+- Institutional: Yareta
+- Generic: Zenodo
+
+---
+
+
+# re3data.org
+
+![bg 60% opacity:.08](https://upload.wikimedia.org/wikipedia/commons/f/fe/Re3data_Logo_RGB_72dpi.png)
+
+## Registry of Research Data Repositories
+
+- Platform launched in 2012
+- Registry that includes data repositories from various academic disciplines 
+- Embeddable widgets and tools
+    - Additional information, Data Accessibility, Terms of use and licences, Policy, Persistent Identifier (PID) system, Certification
+- All metadata are available for open use under CC0. It also provides an API to access the content
+
+http://www.re3data.org/
 
 ---
 
@@ -832,21 +975,38 @@ https://www.swissubase.ch/
 
 # DaSCH Service Platform (DSP)
 
+![bg 42% opacity:.12](https://app.dasch.swiss/assets/images/dasch-mosaic-icon-color.svg)
+
 ## Swiss National Data and Service Center for the Humanities
 
 - Institutionalised in 2017 by the Digital Humanities Lab of the University of Basel
-- Operates as a national research infrastructure since 2021, primarily funded by the SNSF
+- Operated as a national research infrastructure since 2021 by DaSCH and primarily funded by the SNSF
 - Project-based data models that rely on a core base ontology (Knora)
 - RESTful API (JSON-LD), Archival Resource Keys (ARKs) with timestamps
 
-![bg 40% opacity:.15](https://app.dasch.swiss/assets/images/dasch-mosaic-icon-color.svg)
-
 https://app.dasch.swiss/
 
+---
+
+# OLOS
+
+![bg 40% opacity:.14](https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/P-5_Services_Kommunikationsprojekt/OLOS/Logo_OLOS.png)
+
+## Consultation and archive portal of Switzerland
+
+- National instance deployed in 2021
+- Developed as part of the Data Life-Cycle Management (DLCM) project and operated by an association composed of the University of Fribourg, the HEG-GE and the HES-SO
+
+https://olos.swiss/
 
 ---
 
 # Yareta
+
+## Research Data Repository for Geneva's Higher Education Institutions
+
+- Platform launched in 2019
+- Developed as part of the DLCM project, based on OLOS, and operated by the University of Geneva
 
 ![bg 70% opacity:.17](https://yareta.unige.ch/assets/themes/yareta/toolbar-header-image.png)
 
@@ -857,30 +1017,33 @@ https://yareta.unige.ch/
 
 # Zenodo
 
-##
+## Generalist repository built at CERN
+
+- DOI per version
+- Anyone can deposit data, with or without embargo
 
 ![bg 30% opacity:.2](https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/theme/static/img/logos/zenodo-gradient-square.svg)
 
 https://zenodo.org/
 
+
 ---
 
-# re3data.org
+# Open Data Platforms
 
-![bg 60% opacity:.08](https://upload.wikimedia.org/wikipedia/commons/f/fe/Re3data_Logo_RGB_72dpi.png)
+## OGD Platforms
 
-## Registry of Research Data Repositories
+### Switzerland
 
+- National: opendata.swiss
+- Cantonal: Open Data Basel-Stadt
+- Municipal: Stadt Zürich Open Data
+- Public-Law Body: Open Data Portal of Geneva Public Transport
 
+### International
 
-- Platform launched in 2012
-- Registry that includes data repositories from various academic disciplines 
-- Embeddable widgets and tools
-    - Additional information, Data Accessibility, Terms of use and licences, Policy, Persistent Identifier (PID) system, Certification
-- All metadata are available for open use under CC0. It also provides an API to access the content
-
-http://www.re3data.org/
-
+- EU: European Data
+- USA: DATA.GOV
 
 ---
 
@@ -916,6 +1079,8 @@ https://data.stadt-zuerich.ch/
 # Open Data Portal of Geneva Public Transport
 
 ![bg 40% opacity:.15](https://s3-eu-central-1.amazonaws.com/aws-ec2-eu-central-1-opendatasoft-staticfileset/tpg/logo)
+
+## opendata.tpg
 
 https://opendata.tpg.ch/
 
@@ -994,7 +1159,7 @@ https://opendatabeer.ch/
 
 ---
 
-# Hands-on exercise $II$
+# Exercise $II$
 
 
 ---
@@ -1097,6 +1262,11 @@ https://idd.bag.admin.ch/
 
 ---
 
+<iframe src="https://data.bs.ch/explore/embed/dataset/100332/map/?disjunctive.name&sort=-id_verbot&location=14,47.56167,7.61078&basemap=9fffa5&static=false&datasetcard=false&scrollWheelZoom=false" width="400" height="300" frameborder="0"></iframe>
+
+
+---
+
 # Heile Preise
 
 https://heisse-preise.io/ 
@@ -1104,7 +1274,20 @@ https://www.wired.com/story/heisse-preise-food-prices/
 
 ---
 
-12 sunsets?
+# 12 sunsets: Exploring Ed Ruscha's Archive
+
+https://12sunsets.getty.edu/
+
+
+---
+
+
+# LUX: Yale Collections Discovery 
+
+![center](https://julsraemy.ch/prezi/assets/lux-demo.gif)
+
+[Link to optimised video resolution](https://julsraemy.ch/prezi/assets/lux-demo.webm)
+
 
 
 ---
@@ -1206,7 +1389,13 @@ OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD].
 
 Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
 
+Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Swiss_National_ORD_Strategy_en.pdf
+
+Open Science Delegation. (2021b). Swiss National Strategy Open Research Data: Action Plan. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/ActionPlanV1.0_December_2021_def.pdf
+
 Oxford English Dictionary. (2023). Metadata. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/7968104326
+
+Max Planck Society & European Cultural Heritage Online. (2003). Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities. Max Planck Society. https://openaccess.mpg.de/Berlin-Declaration
 
 MJL. (2020). Creative commons license spectrum. https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg 
 
@@ -1216,14 +1405,13 @@ Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTec
 
 Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
 
-Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part to Whole (p. 19) [Final Report]. Always Already Computational - Collections as Data. https://doi.org/10.5281/zenodo.10161976
-
-Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data [White paper]. Internet Archive Canada. https://doi.org/10.5281/zenodo.8341519
-
-
 ---
 
 # References $IV$
+
+Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part to Whole (p. 19) [Final Report]. Always Already Computational - Collections as Data. https://doi.org/10.5281/zenodo.10161976
+
+Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data [White paper]. Internet Archive Canada. https://doi.org/10.5281/zenodo.8341519
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
