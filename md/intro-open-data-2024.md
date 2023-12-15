@@ -52,6 +52,11 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 | 05.03.2024 	| [Data Quality and Best Practices](#data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
 | 12.03.2024 	| [Showcases](#showcases), [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
 
+<!-- 
+Courses take place over the course of four Tuesday afternoons
+
+ -->
+
 ---
 
 <!-- _backgroundColor: #465B64  -->
@@ -869,6 +874,22 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 
 ---
 
+# Collections as Data
+
+- Santa Barbara Statement [Padilla et al. 2017]
+- Vancouver Statement [Padilla, Scates Kettler, Varner, et al. 2023]
+- 10 principles
+
+https://collectionsasdata.github.io/statement/
+
+<!-- 
+The statement highlights the growing global engagement with collections as data. It promotes the responsible computational use of collections to empower memory, knowledge and data practitioners. It emphasises ethical concerns, openness and participatory design, as well as the need for transparent documentation and sustainable infrastructure. The statement, comprising of ten recommendations, also recognises the potential impact of data consumption by AI, and the importance of considering climate impacts and exploitative labour.
+
+ -->
+
+
+---
+
 # Collections as Data 
 
 ## 10 Principles
@@ -889,15 +910,24 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 9. Data as well as the data that describe those data are considered in scope. 
 10. The development of collections as data is an ongoing process and does not necessarily conclude with a final version. 
 
-[Padilla et al. 2017; Padilla, Scates Kettler, & Shorish, 2023; Padilla, Scates Kettler, Varner, et al., 2023]
+
+---
+
+# Collections as Data 
+
+## Something
+
+[Padilla, Scates Kettler, & Shorish, 2023] 
 
 
 ---
 
 # Collections as Data 
 
+## Checklist 
 
-Checklist [Candela et al. 2023]
+
+[Candela et al. 2023]
 
 ---
 
