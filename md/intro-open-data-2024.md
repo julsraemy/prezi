@@ -278,10 +278,11 @@ https://opendatahandbook.org/glossary/en/terms/government-data/
 
 # OGD in Switzerland
 
-![center width:700px](https://julsraemy.ch/prezi/assets/ogd-masterplan.png)
+![center width:600px](https://julsraemy.ch/prezi/assets/ogd-masterplan.png)
 
 - Masterplan Open Government Data 2024-2027 [OFS 2023]: https://www.bfs.admin.ch/bfs/fr/home/services/ogd/masterplan.html 
 - i14y Interoperability platform: https://www.i14y.admin.ch/
+- Digital Switzerland Strategy: https://digital.swiss/
 
 <!-- i14y: National Data Catalogue which ensures the efficient exchange of data between authorities, companies and citizens -->
 
@@ -491,8 +492,10 @@ And others... &rarr; see for instance https://docs.github.com/en/repositories/ma
 
 ## Important factors in providing structured data for machines
 
-- Formats
-- Metadata standards / schemas
+- Data(set) formats
+    - Text-based formats
+    - Binary-encoded formats
+- Metadata standards / schemas (to describe the dataset)
 - Documentation
 - Protocols
 
@@ -500,7 +503,39 @@ And of course the underlying infrastructure...
 
 ---
 
-# Formats
+# Text-based Formats
+
+## Plain Text (TXT)
+
+```
+WSe2			WS2			MoS2	
+
+dk	Intensity	dk	Intensity	dk	Intensity	
+
+855.87628	63	848.96433	-39	855.87628	372
+855.25787	72.25	848.34546	2	855.25787	424
+854.63942	64.25	847.72654	-39	854.63942	460
+854.02093	58	847.10759	-37	854.02093	362
+853.40239	66	846.4886	-28	853.40239	440
+```
+
+Sohier, T., Ponomarev, E., Gibertini, M., Berger, H., Marzari, N., Ubrig, N., & Morpurgo, A. F. (2019). _Enhanced Electron-Phonon Interaction in Multivalley Materials_ [Data set]. Université de Genève, Yareta. https://doi.org/10.26037/yareta:jlzyhiwj6vfjrnbza4bkvobjai
+
+File (extract): f1b.txt
+
+---
+
+# Text-based Formats
+
+## Markdown (MD)
+
+```
+```
+
+
+---
+
+# Text-based Formats
 
 ## Comma-separated values (CSV)
 
@@ -518,12 +553,11 @@ And of course the underlying infrastructure...
 "SOFT_MOB";"TOT";"ALL_REAS";"GEO";"CH";2015;"KM";2.8031;0.0440;"A"
 ```
 
-Comportement de la population en matière de transports, tableaux de synthèse
-https://opendata.swiss/fr/perma/18084205@bundesamt-fur-statistik-bfs
+Federal Statistical Office. _Comportement de la population en matière de transports, tableaux de synthèse_. https://opendata.swiss/fr/perma/18084205@bundesamt-fur-statistik-bfs
 
 ---
 
-# Formats
+# Text-based Formats
 
 ## Extensible Markup Language (XML)
 
@@ -555,12 +589,12 @@ https://opendata.swiss/fr/perma/18084205@bundesamt-fur-statistik-bfs
       </dcat:Distribution>
 ```
 
-Federal Statistical Office. Canton de Genève: Vie active et formation
+Federal Statistical Office. _Canton de Genève: Vie active et formation_
 https://opendata.swiss/fr/perma/121911@bundesamt-fur-statistik-bfs
 
 ---
 
-# Formats
+# Text-based Formats
 
 ## Terse RDF Triple Language (Turtle)
 
@@ -568,7 +602,8 @@ https://opendata.swiss/fr/perma/121911@bundesamt-fur-statistik-bfs
 @prefix ns1: <https://data.tg.ch/ld/ontologies/div-energie-6/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.tg.ch/ld/resources/div-energie-6/div-energie-6-record/1740b190a1beca6edcd04e0b143c380b885ee1de/> a ns1:div-energie-6-record ;
+<https://data.tg.ch/ld/resources/div-energie-6/div-energie-6-record/1740b190a1beca6edcd04e0b143c380b885ee1de/> 
+    a ns1:div-energie-6-record ;
     ns1:andere "2690"^^xsd:int ;
     ns1:einwohner "266510"^^xsd:int ;
     ns1:energiebezugsflaeche "25055573"^^xsd:int ;
@@ -580,21 +615,37 @@ https://opendata.swiss/fr/perma/121911@bundesamt-fur-statistik-bfs
     ns1:treibstoffe "593764"^^xsd:int .
 ```
 
-Kanton Thurgau. CO2-Gesamtemissionen nach Energieträgern (Ebene Kanton)
-https://data.tg.ch/explore/dataset/div-energie-6/
+Kanton Thurgau. _CO2-Gesamtemissionen nach Energieträgern (Ebene Kanton)_
+https://opendata.swiss/de/perma/div-energie-6@kanton-thurgau
 
 
 ---
 
-# Formats
+# Text-based Formats
 
 ## JavaScript Object Notation (JSON)
 
 ---
 
-# Formats
+# Text-based Formats
 
 ## JavaScript Object Notation for Linked Data (JSON-LD)
+
+---
+
+# Binary-encoded Formats
+
+Binary files are used to store non-text data, such as images, audio, or executable programs. These files do not contain human-readable text and are encoded in binary format.
+
+- Image Formats: BMP, GIF, JPEG, **JPEG2000**, PNG, **TIFF** 
+- Vector Graphics Formats: EPS, PSD, **SVG**
+- 3D Formats: 3MF, OBJ, STL
+- Audio Formats: AAC, **FLAC**, MP3, OGG, **WAV**
+- Video Formats: AVI, **FFV1/MKV**, MOV, MP4, WEBM
+- Documents: DOCX, ODT, PDF, **PDF/A**
+- Scientific Data Formats: CDF, DICOM, FITS
+- Archive File Formats: 7-ZIP, GZIP, **TAR**, **ZIP** 
+
 
 ---
 
@@ -820,9 +871,26 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 
 # Collections as Data 
 
-10 Statements
+## 10 Principles
+
+1. Collections as Data development aims to encourage computational use of digitised and born digital collections.
+2. Collections as Data stewards are guided by ongoing ethical commitments.
+3. Collections as Data stewards aim to lower barriers to use.
+4. Collections as Data designed for everyone serve no one.
+5. Shared documentation helps others find a path to doing the work. 
+6. Collections as Data should be made openly accessible by default, except in cases where ethical or legal obligations preclude it.
+
+---
+
+# Collections as Data 
+
+7. Collections as Data development values interoperability.
+8. Collections as Data stewards work transparently in order to develop trustworthy, long-lived collections.
+9. Data as well as the data that describe those data are considered in scope. 
+10. The development of collections as data is an ongoing process and does not necessarily conclude with a final version. 
 
 [Padilla et al. 2017; Padilla, Scates Kettler, & Shorish, 2023; Padilla, Scates Kettler, Varner, et al., 2023]
+
 
 ---
 
@@ -967,7 +1035,7 @@ http://www.re3data.org/
 - Launched in 2021, superseding FORSbase
 - Operated by [FORS](https://forscenter.ch/) – Swiss Centre of Expertise in the Social Sciences – and the Universities of Lausanne, Neuchâtel and Zurich
 - Data catalogue, mostly from social sciences and linguistics 
-- Own metadata schema for studies, datasets, and data files, DOI at the dataset level
+- Own metadata schema for studies, datasets, and data files, Digital Object Identifier (DOI) at the dataset level
 
 https://www.swissubase.ch/
 
@@ -996,8 +1064,10 @@ https://app.dasch.swiss/
 
 - National instance deployed in 2021
 - Developed as part of the Data Life-Cycle Management (DLCM) project and operated by an association composed of the University of Fribourg, the HEG-GE and the HES-SO
+- Dataset description based on the Datacite Metadata Schema
+- DOI at the dataset level
 
-https://olos.swiss/
+https://olos.swiss/portal/
 
 ---
 
