@@ -534,8 +534,27 @@ File (extract): f1b.txt
 
 ## Markdown (MD)
 
+```md
+# e-periodica OAI-PMH - Ethnology and Folklore
+This script was done to download the metadata of [e-periodica](https://www.e-periodica.ch/) through 
+their OAI-PMH endpoint (`https://www.e-periodica.ch/oai`) that could be interesting to the PIA research 
+project as we want to link our image-based collections to the e-periodica articles. 
+
+There are more than 16k metadata articles which have 
+the 390 `setSpec` (Ethnology, folklore) on e-periodica. Probably, the more relevant articles 
+come from the `Korrespondenzblättern der SGV` (more than 2k articles), divided into these three sources: 
+
+- https://www.e-periodica.ch/digbib/volumes?UID=sgv-001 
+- https://www.e-periodica.ch/digbib/volumes?UID=sgv-002
+- https://www.e-periodica.ch/digbib/volumes?UID=sgv-003 
+
+## Records in CSV
+- [All records](data/records.csv)
+- [Extract (SGV)](data/sgv.csv)
 ```
-```
+
+Raemy, J. A. (2023). e-periodica OAI-PMH - Ethnology and Folklore (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7777797
+File: README.MD
 
 
 ---
@@ -622,6 +641,7 @@ https://opendata.swiss/fr/perma/121911@bundesamt-fur-statistik-bfs
 
 Kanton Thurgau. _CO2-Gesamtemissionen nach Energieträgern (Ebene Kanton)_
 https://opendata.swiss/de/perma/div-energie-6@kanton-thurgau
+https://data.tg.ch/ld/resources/div-energie-6/div-energie-6-record/1740b190a1beca6edcd04e0b143c380b885ee1de/
 
 
 ---
@@ -630,11 +650,53 @@ https://opendata.swiss/de/perma/div-energie-6@kanton-thurgau
 
 ## JavaScript Object Notation (JSON)
 
+```json
+[{
+        "author": "Hemingway, Ernest",
+        "available_at": [
+            {
+                "isil": "AG0066"
+            }
+        ],
+        "bid": "AGR0005487",
+        "cited": [
+            "VEA1112819"
+        ],
+        "citing": [],
+        "dewey_classifications": null,
+```
+
+EPFL. Citations extracted from monographs about the history of Venice. https://opendata.swiss/de/perma/EPFL-LinkedBooksMonographs@openglam
+
 ---
 
 # Text-based Formats
 
 ## JavaScript Object Notation for Linked Data (JSON-LD)
+
+```json
+{
+  "id": "https://lux.collections.yale.edu/data/group/8b757ad2-f853-425e-a30d-19686aa779ee",
+  "type": "Group",
+  "_label": "American Academy of Arts and Sciences",
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "formed_by": {
+    "type": "Formation",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1780-05-04",
+          "classified_as": [
+            {
+              "id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+              "type": "Type",
+              "_label": "Display Title" }
+```
+
+LUX. American Academy of Arts and Sciences 
+https://lux.collections.yale.edu/data/group/8b757ad2-f853-425e-a30d-19686aa779ee
 
 ---
 
@@ -644,13 +706,19 @@ Binary files are used to store non-text data, such as images, audio, or executab
 
 - Image Formats: BMP, GIF, JPEG, **JPEG2000**, PNG, **TIFF** 
 - Vector Graphics Formats: EPS, PSD, **SVG**
-- 3D Formats: 3MF, OBJ, STL
+- 3D Formats: 3MF, GLB, GLTF, OBJ, STL
 - Audio Formats: AAC, **FLAC**, MP3, OGG, **WAV**
 - Video Formats: AVI, **FFV1/MKV**, MOV, MP4, WEBM
 - Documents: DOCX, ODT, PDF, **PDF/A**
 - Scientific Data Formats: CDF, DICOM, FITS
 - Archive File Formats: 7-ZIP, GZIP, **TAR**, **ZIP** 
 
+---
+
+![center w:400](https://iiif.dasch.swiss/0801/4VjgCwiTn8p-CTaooIqSZBO.jpx/full/1200,/0/default.jpg)
+
+1706-11-30_Verzaglia_Giuseppe-Bernoulli_Johann_I
+https://iiif.dasch.swiss/0801/4VjgCwiTn8p-CTaooIqSZBO.jpx/full/max/0/default.jpg
 
 ---
 
