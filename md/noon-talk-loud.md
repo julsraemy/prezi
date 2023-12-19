@@ -95,7 +95,6 @@ I'm first going to talk about the ways that data can be interlinked on the web i
     - Heterogeneity
     - Knowledge Latency
     - Custodianship
-- *Parts of a Body House*
 
 <!-- 
 
@@ -156,47 +155,6 @@ Every dataset embodies an underlying potential that research and interpretation 
 ## Custodianship 
 
 3. They are collected, curated and maintained **by various entities** such as libraries, archives, museums, higher education institutions,non-governmental organisations, indigenous communities and local groups as well as by the wider public.
-
----
-
-# _Parts of a Body House_ by Carolee Schneemann
-
-![center](https://artic-web.imgix.net/09fc275f-e14d-4277-af79-17f5b0dcf131/rossenova_difranco_fig01_DRAFT.jpg)
-
-[Rossenova & Di Franco 2022]
-
-<!-- 
-
-Rossenova and Di Franco's article delves into artists' books, focusing on Carolee Schneeman's "Parts of a Body House." Unlike traditional art acquisitions, artists' books landed in libraries of art institutions, following the 1960s' surge in their recognition as art objects. These collections don't fit neatly into curatorial realms; instead, they're cataloged under library definitions. The challenge intensifies when materials resist categorization or adopt archival, serial, or ephemeral labels. Many artists' publications purposefully defy conventional library, archive, and collection norms.
-
-The study uncovered linked collections and publications from Schneeman's contributions, though these distinct versions find varying categorization across institution-specific catalogs.
-
-For unconventional art archives like artist's books, linked data's network model provides a means to chart relationships of indefinable embodied versions, constructing intricate histories beyond categorization or canonization.
-
-However, community discussions revealed difficulty in fully describing the array of relationships across editions, reinterpretations, serializations, or appropriations of publications within the LOD model structure.
-
--->
-
----
-
-<!-- _footer: " " -->
-
-<!-- _header: " " -->
-
-
-![bg](https://artic-web.imgix.net/d2c4713c-9f2e-4264-92f1-b9635a7cc12c/lozano_di_franco_hero.jpg?rect=1182%2C1037%2C1490%2C838&auto=format%2Ccompress&q=80&fit=crop&crop=faces%2Ccenter&w=3000&h=1687)
-
-<!-- 
-
-While the case-study research revealed the interconnections among the collections and publications activated by Schneemann’s contribution, these discrete iterations are sorted into different categories within a group of collection catalogs across institutions.
-
-For archives of nonstandard art objects such as net art or artists’ publishing (e.g., Schneemann’s work), the network model of LOD offers an opportunity to map out relations of embodied iterations that defy categorization (or canonization) and thus construct new, fuller and more nuanced histories around these materials.
-
-During community discussions, the sheer range of possible relations across editions, reinterpretations, serializations, or appropriations of publications proved challenging to describe completely within the structure of the LOD model.
-
-Rossenova & Di Franco (2022)
-
- -->
 
 ---
 
@@ -432,26 +390,6 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 -->
 
-
----
-
-# _A multitude of tools_
-
-![](https://youtu.be/pOX9CrvAG7I)
-
-> For a better understanding of the past,
-Our images have to be enhanced,
-A new dialogue in three dimensions,
-Must have openness at its heart,
-For somewhere within the archive
-Of our aggregated minds
-Are a multitude of questions
-And a multitude of answers,
-Simply awaiting to be found.
-
-[Mr Gee 2023], Data Poet at EuropeanaTech 2023
-
-
 ---
 
 <!-- footer: References and Image Credits -->
@@ -466,11 +404,7 @@ Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practice
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
-Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
-
 Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
-
-Rossenova, L., & Di Franco, K. (2022). Iterative Pasts and Linked Futures: A Feminist Approach to Modeling Data in Archives and Collections of Artists’ Publishing. Perspectives on Data. https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
 
 Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
 
