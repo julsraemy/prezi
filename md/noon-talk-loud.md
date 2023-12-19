@@ -209,6 +209,11 @@ This dimension reinforces the essential role played by a variety of entities, pr
 
 [Berners-Lee 1991]
 
+<!-- 
+The web, created in 1989 by Tim Berners-Lee, started with the philosophy that much academic information should be freely available to anyone.
+
+ -->
+
 ---
 
 # The Semantic Web or _the Web of Data_
@@ -280,7 +285,11 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 https://linked.art/loud/
 
 
-<!-- The overall idea of LOUD is to make data easy to use for humans, especially for developers. JSON-LD allows for some mapping of ontological constructs into JSON, which is the lingua-franca of modern developers and is a cornerstone technology of LOUD. Five design principles to promote data consumption have been conceived. 
+<!--
+
+The Semantic Web remains a compelling concept, offering powerful capabilities for modelling reality, enabling computers to infer novel information more effectively. However, querying RDF graphs is complicated, requiring a prior understanding of the structure.
+
+ The overall idea of LOUD is to make data easy to use for humans, especially for developers. JSON-LD allows for some mapping of ontological constructs into JSON, which is the lingua-franca of modern developers and is a cornerstone technology of LOUD. Five design principles to promote data consumption have been conceived. 
 To be part of the Web, not just on the Web.  -->
 
 ---
@@ -294,6 +303,11 @@ To be part of the Web, not just on the Web.  -->
 - International Image Interoperability Framework (IIIF)
 - *W3C Web Annotation Data Model*
 - Linked Art
+
+<!-- 
+Three systems have been identified to adhere to the LOUD design principles. They are complementary and can be used either separately or in conjunction.
+
+ -->
 
 ---
 
@@ -310,7 +324,10 @@ To be part of the Web, not just on the Web.  -->
 https://iiif.io
 
 
-<!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
+<!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities. 
+
+An API is like a set of rules or protocols for how different software applications communicate and share data. It's similar to a common language or set of procedures that allows different programs to understand each other and work together efficiently.
+ -->
 
 ---
 
@@ -365,6 +382,11 @@ https://linked.art
 ![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
 
 [Raemy et al. 2023, adapted from Sanderson 2018]
+
+<!-- 
+The Linked Art data model, in its domain-specific application, particularly resonates with five facets: what, where, who, how, and when.  This focus facilitates a nuanced tracking and interpretation of the key aspects of data provenance.
+
+ -->
 
 ---
 
