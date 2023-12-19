@@ -47,13 +47,13 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 
 | Date 	| Content 	|
 |------------	|----------------------------	|
-| 20.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
-| 27.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
-| 05.03.2024 	| [Data Quality and Best Practices](#data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
-| 12.03.2024 	| [Showcases](#showcases), [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
+| 19.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
+| 26.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
+| 04.03.2024 	| [Data Quality and Best Practices](#data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
+| 11.03.2024 	| [Showcases](#showcases), [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
 
 <!-- 
-Courses take place over the course of four Tuesday afternoons
+Courses take place over the course of four Monday afternoons
 
  -->
 
@@ -89,7 +89,7 @@ Courses take place over the course of four Tuesday afternoons
 - Select one or more datasets from one or several platforms discussed during the course (if several datasets are selected, there must be a common thread)
 - Analyse, describe and identify the potential uses of the dataset(s)
 - Attempt to associate your work with one or several aspects of the other courses covered by the cross-disciplinary module (communication, statistics, survey techniques).
-- Between 800 and 1,000 words (without references) **due by Thursday 28 March**
+- Between 900 and 1,100 words (without references) **due by Thursday 28 March**
 
 This assignment is weighted at 20% of the 7C2-CT module.
 
@@ -1113,11 +1113,11 @@ https://linked.art/loud/
 
 ## Registry of Research Data Repositories
 
-- Platform launched in 2012
-- Registry that includes data repositories from various academic disciplines 
-- Embeddable widgets and tools
-    - Additional information, Data Accessibility, Terms of use and licences, Policy, Persistent Identifier (PID) system, Certification
-- All metadata are available for open use under CC0. It also provides an API to access the content
+* Platform launched in 2012
+* Registry that includes data repositories from various academic disciplines 
+* Embeddable widgets and tools
+    * Additional information, Data Accessibility, Terms of use and licences, Policy, Persistent Identifier (PID) system, Certification
+* All metadata are available for open use under CC0. It also provides an API to access the content
 
 http://www.re3data.org/
 
@@ -1130,10 +1130,11 @@ http://www.re3data.org/
 
 ##  National cross-disciplinary solution
 
-- Launched in 2021, superseding FORSbase
-- Operated by [FORS](https://forscenter.ch/) – Swiss Centre of Expertise in the Social Sciences – and the Universities of Lausanne, Neuchâtel and Zurich
-- Data catalogue, mostly from social sciences and linguistics 
-- Own metadata schema for studies, datasets, and data files, Digital Object Identifier (DOI) at the dataset level
+* Launched in 2021, superseding FORSbase
+* Operated by [FORS](https://forscenter.ch/) – Swiss Centre of Expertise in the Social Sciences – and the Universities of Lausanne, Neuchâtel and Zurich
+  * Data catalogue, mostly from social sciences and linguistics 
+* Own metadata schema for studies, datasets, and data files
+* Digital Object Identifier (DOI) at the dataset level
 
 https://www.swissubase.ch/
 
@@ -1145,10 +1146,10 @@ https://www.swissubase.ch/
 
 ## Swiss National Data and Service Center for the Humanities
 
-- Institutionalised in 2017 by the Digital Humanities Lab of the University of Basel
-- Operated as a national research infrastructure since 2021 by DaSCH and primarily funded by the SNSF
-- Project-based data models that rely on a core base ontology (Knora)
-- RESTful API (JSON-LD), Archival Resource Keys (ARKs) with timestamps
+* Institutionalised in 2017 by the Digital Humanities Lab of the University of Basel
+* Operated as a national research infrastructure since 2021 by DaSCH and primarily funded by the SNSF
+* Project-based data models that rely on a core base ontology (Knora), own metadata schema describing the whole project
+* RESTful API (JSON-LD), Archival Resource Keys (ARKs) with timestamps
 
 https://app.dasch.swiss/
 
@@ -1160,10 +1161,10 @@ https://app.dasch.swiss/
 
 ## Consultation and archive portal of Switzerland
 
-- National instance deployed in 2021
-- Developed as part of the Data Life-Cycle Management (DLCM) project and operated by an association composed of the University of Fribourg, the HEG-GE and the HES-SO
-- Dataset description based on the Datacite Metadata Schema
-- DOI at the dataset level
+* National instance deployed in 2021
+* Developed as part of the Data Life-Cycle Management (DLCM) project and operated by an association composed of the University of Fribourg, the HEG-GE and the HES-SO
+* Dataset description based on the Datacite Metadata Schema
+* DOI at the dataset level
 
 https://olos.swiss/portal/
 
@@ -1173,8 +1174,8 @@ https://olos.swiss/portal/
 
 ## Research Data Repository for Geneva's Higher Education Institutions
 
-- Platform launched in 2019
-- Developed as part of the DLCM project, based on OLOS, and operated by the University of Geneva
+* Platform launched in 2019
+* Developed as part of the DLCM project, based on OLOS, and operated by the University of Geneva
 
 ![bg 70% opacity:.17](https://yareta.unige.ch/assets/themes/yareta/toolbar-header-image.png)
 
@@ -1185,12 +1186,16 @@ https://yareta.unige.ch/
 
 # Zenodo
 
+![bg 45% opacity:.08](https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/theme/static/img/logos/zenodo-gradient-square.svg)
+
 ## Generalist repository built at CERN
 
-- DOI per version
-- Anyone can deposit data, with or without embargo
+* Created by the CERN to be a generic solution for storing data
+* Anyone can deposit data, with or without embargo
+* Own metadata schema
+* DOI per version
 
-![bg 30% opacity:.2](https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/theme/static/img/logos/zenodo-gradient-square.svg)
+
 
 https://zenodo.org/
 
@@ -1219,8 +1224,10 @@ https://zenodo.org/
 
 ![bg 70% opacity:.15](https://opendata.swiss/images/swiss_map.svg)
 
-
-
+* Platform something
+* For whom, for what
+* Applications
+* Metadata, PID
 
 
 https://opendata.swiss/
@@ -1231,6 +1238,11 @@ https://opendata.swiss/
 
 ![bg 30% opacity:.15](https://data.bs.ch/assets/theme_image/ODBS_Logo_rund_gruen.png)
 
+* Platform something
+* For whom, for what
+* Applications
+* Metadata, PID
+
 https://data.bs.ch/ 
 
 ---
@@ -1238,6 +1250,11 @@ https://data.bs.ch/
 # Stadt Zürich Open Data
 
 ![bg 50% opacity:.15](https://data.stadt-zuerich.ch/logo.svg)
+
+* Platform something
+* For whom, for what
+* Applications
+* Metadata, PID
 
 https://data.stadt-zuerich.ch/
 
@@ -1250,6 +1267,11 @@ https://data.stadt-zuerich.ch/
 
 ## opendata.tpg
 
+* Platform something
+* For whom, for what
+* Applications
+* Metadata, PID
+
 https://opendata.tpg.ch/
 
 
@@ -1258,6 +1280,11 @@ https://opendata.tpg.ch/
 # European Data
 
 ![bg 50% opacity:.15](https://data.europa.eu/themes/edp3/dist/ecl/preset-eu/dist/images/logo/standard-version/positive/logo-eu--en.svg)
+
+* Platform something
+* For whom, for what
+* Applications
+* Metadata, PID
 
 
 https://data.europa.eu/
@@ -1272,10 +1299,10 @@ https://data.europa.eu/
 
 ## The Home of the U.S. Government's Open Data
 
-- Platform launched in 2009
-- It provides access to datasets published by agencies across the federal government of the United States
-- Based on open source applications
-- Metadata displayed using [DCAT-US Schema v1.1](https://resources.data.gov/resources/dcat-us/)
+* Platform launched in 2009
+* It provides access to datasets published by agencies across the federal government of the United States
+* Based on open source applications
+* Metadata displayed using [DCAT-US Schema v1.1](https://resources.data.gov/resources/dcat-us/)
 
 https://data.gov/
 
@@ -1321,6 +1348,10 @@ https://opendata.ch/
 # Open Data Beer
 
 ![bg 30% opacity:.25](https://opendatabeer.files.wordpress.com/2018/02/cropped-icon_transparent1.png)
+
+- Founded...
+- What it is
+- Where it is
 
 https://opendatabeer.ch/
 
