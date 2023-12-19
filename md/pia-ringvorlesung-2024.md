@@ -144,7 +144,7 @@ Every dataset embodies an underlying potential that research and interpretation 
 
 ## Custodianship 
 
-3. They are collected, curated and maintained **by various entities** such as libraries, archives, museums, higher education institutions,non-governmental organisations, indigenous communities and local groups as well as by the wider public.
+3. They are collected, curated and maintained **by various entities** such as libraries, archives, museums, higher education institutions, non-governmental organisations, indigenous communities and local groups as well as by the wider public.
 
 ---
 
