@@ -15,7 +15,7 @@ _paginate: false
 
 <!-- header: Julien A. Raemy | **Interconnected Resources on the Web** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/)  -->
 
-<!-- footer: G3S Noon-Talks | 19 December 2023 -->
+<!-- footer: G3S Noon-Talk | 19 December 2023 -->
 
 #  Interconnected Resources on the Web: Unveiling Cultural Heritage through Linked Open Usable Data
 Julien A. Raemy (Digital Humanities Lab, University of Basel)
