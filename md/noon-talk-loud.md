@@ -52,7 +52,7 @@ https://phd.julsraemy.ch
     - Institute for Cultural Anthropology and European Ethnology, University of Basel
     - Digital Humanities Lab, University of Basel
     - Bern Academy of the Arts, Bern University of Applied Sciences
-- Based on three photographic collections from the Cultural Anthropology Switzerland's archives (*Fotoarchiv der Empirische Kulturwissenschaft Schweiz*)
+- Based on three photographic collections from the Cultural Anthropology Switzerland's archives (*Fotoarchiv der Empirischen Kulturwissenschaft Schweiz - EKWS*)
 
 https://about.participatory-archives.ch/
 
