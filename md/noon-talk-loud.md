@@ -20,6 +20,12 @@ _paginate: false
 #  Interconnected Resources on the Web: Unveiling Cultural Heritage through Linked Open Usable Data
 Julien A. Raemy (Digital Humanities Lab, University of Basel)
 
+<!-- 
+
+Hi everyone, my name is Julien Raemy and I am a PhD Candidate in Digital Humanities at the University of Basel. I'm happy to present what I'm doing as part of my thesis on Linked Open Usable Data for Cultural Heritage, but I'm not going to go into too much technical detail, but rather look at what I've already covered in my literature review and provide some overview of it.
+
+ -->
+
 ---
 
 <!-- footer: Preamble -->
@@ -37,7 +43,11 @@ PhD Thesis supervised by:
 
 https://phd.julsraemy.ch
 
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Cultural Anthropology Switzerland (CAS), formerly the Swiss Society for Folklore Studies (SSFS).  -->
+<!-- Here is the complete working title of my PhD thesis. I am looking into two perspectives, namely community practices and semantic interoperability. 
+
+I am affiliated with the doctoral programme of the Graduate School of Social Sciences and the main reason is that I would like to leverage a tehoretical framework using the Actor-Network Theory.
+
+ -->
 
 
 ---
@@ -57,7 +67,12 @@ https://phd.julsraemy.ch
 https://about.participatory-archives.ch/
 
 
-<!-- PIA is a Sinergia project funded by the Swiss National Science Foundation (SNSF) led by the University of Basel, the Uni, the Bern Academy of the Arts, and the Swiss Society for Folklore Studies. PIA wants to connect the world of data and things in an interdisciplinary manner. 
+<!-- 
+
+My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Cultural Anthropology Switzerland (CAS), formerly the Swiss Society for Folklore Studies (SSFS). 
+
+
+PIA is a Sinergia project funded by the Swiss National Science Foundation (SNSF) led by the University of Basel, the Uni, the Bern Academy of the Arts, and the Swiss Society for Folklore Studies. PIA wants to connect the world of data and things in an interdisciplinary manner. 
 
 We explore the phases of the analogue and digital archive from the perspectives of cultural anthropology, technology and design. The common goal of this project is to design a visual interface with machine learning-based tools to make it easy to annotate, contextualize, organize, and link both images and their meta-information, to deliberately encourage the participatory use of archives. -->
 
@@ -77,7 +92,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 <!-- 
 
-I'm first going to talk about the ways that data can be interlinked on the web in terms of vision and standards, then I will deconstruct a little bit the definition of what is cultural heritage data with a few examples and finally talk about two communities active in the cultural heritage field that develop and maintain specifications, that goes often hand in hand with the Open Science, Open Access movement.
+I'm first going to talk about the ways that data can be interlinked on the web in terms of vision and standards, then I will deconstruct a little bit the definition of what is cultural heritage data and finally talk about two communities active in the cultural heritage field that develop and maintain web standards. And then we'll have some time for discussion.
  -->
 
 ---
@@ -98,7 +113,7 @@ I'm first going to talk about the ways that data can be interlinked on the web i
 
 <!-- 
 
-From data to cultural heritage data. And I will divide this section into three parts, three keywords.
+From cultural heritage to cultural heritage data.
 
  -->
 
@@ -107,15 +122,30 @@ From data to cultural heritage data. And I will divide this section into three p
 
 # Tangible, Intangible, Natural
 
+![center bg width:360px opacity:.32](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
+
 > Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
 
 [UNESCO. Culture for Development Indicators 2014]
+
+
+Background image: Guro. (1900-1950). *Male Face Mask (Zamble)* [Wood and pigment]. Art Institute of Chicago, Chicago, IL, USA. https://www.artic.edu/artworks/239464
+
+<!-- 
+
+A broad definition of Cultural Heritage, often limited to its tangibility or materiality. 
+
+In thinking about the concept of cultural heritage, I find this definition particularly resonant. This broader perspective is motivated by my interest in Linked Open Usable Data standards as a research area, particularly because of their notable agnosticism towards data.
+
+The background image is a Male Face Mask from the Guro culture that embody tangible and intangible aspects as it is worn on the occasion of a man’s second funeral.
+
+ -->
 
 ---
 
 # $I$ — Defining Cultural Heritage Data
 
-![center bg width:360px opacity:.32](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
+
 
 ## Heterogeneity 
 
@@ -123,15 +153,9 @@ From data to cultural heritage data. And I will divide this section into three p
 
 <!--  
 
-Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying **a rich and varied compilation of insights  originating from a variety of disciplines, techniques, traditions, positions and technologies**. It encompasses both tangible and intangible aspects of a society's culture.
-
-And on the right-hand side, there is a Male Face Mask from the Guro culture that embody tangible and intangible aspects as it is worn n the occasion of a man’s second funeral.
-
+As a fundamental characteristic, heterogeneity signifies the diverse forms and origins that shape heritage. E.g. Different techniques and varying viewpoints in treating data modelling.
 
 -->
-
-Guro. (1900-1950). *Male Face Mask (Zamble)* [Wood and pigment]. Art Institute of Chicago, 
-Chicago, IL, USA. https://www.artic.edu/artworks/239464
 
 ---
 
@@ -145,6 +169,8 @@ Chicago, IL, USA. https://www.artic.edu/artworks/239464
 
 Every dataset embodies an underlying potential that research and interpretation bring to light. A noticeable divide, especially within cultural heritage, exists between the generation of data, description of it and its use, owing to the diverse array of unforeseen applications.
 
+This second characteristic also highlights the temporal dimension, presenting cultural heritage data as a repository of latent knowledge awaiting discovery and interpretation. Notably, not all artefacts are – or should be – digitised, and even among those that are, (mis)representation and challenges in interconnecting them persist.
+
 -->
 
 ---
@@ -155,6 +181,12 @@ Every dataset embodies an underlying potential that research and interpretation 
 ## Custodianship 
 
 3. They are collected, curated and maintained **by various entities** such as libraries, archives, museums, higher education institutions, non-governmental organisations, indigenous communities and local groups as well as by the wider public.
+
+<!-- 
+
+This dimension reinforces the essential role played by a variety of entities, predominantly CHIs, in safeguarding and managing resources, ensuring their preservation and accessibility for present and future generations. However, it's crucial to acknowledge the great divide in terms of resources, with indigenous and local communities often facing challenges in custodianship responsibilities.
+
+ -->
 
 ---
 

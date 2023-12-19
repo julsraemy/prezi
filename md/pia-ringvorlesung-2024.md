@@ -93,19 +93,31 @@ From data to cultural heritage data. And I will divide this section into three p
 
 ---
 
-
 # Tangible, Intangible, Natural
+
+![center bg width:360px opacity:.32](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
 
 > Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
 
 [UNESCO. Culture for Development Indicators 2014]
 
 
+Background image: Guro. (1900-1950). *Male Face Mask (Zamble)* [Wood and pigment]. Art Institute of Chicago, Chicago, IL, USA. https://www.artic.edu/artworks/239464
+
+<!-- 
+
+A broad definition of Cultural Heritage, often limited to its tangibility or materiality. 
+
+In thinking about the concept of cultural heritage, I find this definition particularly resonant. This broader perspective is motivated by my interest in Linked Open Usable Data standards as a research area, particularly because of their notable agnosticism towards data.
+
+The background image is a Male Face Mask from the Guro culture that embody tangible and intangible aspects as it is worn on the occasion of a man’s second funeral.
+
+ -->
+
 ---
 
 # $I$ — Defining Cultural Heritage Data
 
-![center bg width:360px opacity:.32](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
 
 ## Heterogeneity 
 
@@ -113,15 +125,9 @@ From data to cultural heritage data. And I will divide this section into three p
 
 <!--  
 
-Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying **a rich and varied compilation of insights  originating from a variety of disciplines, techniques, traditions, positions and technologies**. It encompasses both tangible and intangible aspects of a society's culture.
-
-And on the right-hand side, there is a Male Face Mask from the Guro culture that embody tangible and intangible aspects as it is worn n the occasion of a man’s second funeral.
-
+As a fundamental characteristic, heterogeneity signifies the diverse forms and origins that shape heritage. E.g. Different techniques and varying viewpoints in treating data modelling.
 
 -->
-
-Guro. (1900-1950). *Male Face Mask (Zamble)* [Wood and pigment]. Art Institute of Chicago, 
-Chicago, IL, USA. https://www.artic.edu/artworks/239464
 
 ---
 
@@ -135,6 +141,8 @@ Chicago, IL, USA. https://www.artic.edu/artworks/239464
 
 Every dataset embodies an underlying potential that research and interpretation bring to light. A noticeable divide, especially within cultural heritage, exists between the generation of data, description of it and its use, owing to the diverse array of unforeseen applications.
 
+This second characteristic also highlights the temporal dimension, presenting cultural heritage data as a repository of latent knowledge awaiting discovery and interpretation. Notably, not all artefacts are – or should be – digitised, and even among those that are, (mis)representation and challenges in interconnecting them persist.
+
 -->
 
 ---
@@ -145,6 +153,12 @@ Every dataset embodies an underlying potential that research and interpretation 
 ## Custodianship 
 
 3. They are collected, curated and maintained **by various entities** such as libraries, archives, museums, higher education institutions, non-governmental organisations, indigenous communities and local groups as well as by the wider public.
+
+<!-- 
+
+This dimension reinforces the essential role played by a variety of entities, predominantly CHIs, in safeguarding and managing resources, ensuring their preservation and accessibility for present and future generations. However, it's crucial to acknowledge the great divide in terms of resources, with indigenous and local communities often facing challenges in custodianship responsibilities.
+
+ -->
 
 ---
 
