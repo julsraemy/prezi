@@ -49,7 +49,7 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 |------------	|----------------------------	|
 | 19.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
 | 26.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
-| 04.03.2024 	| [Data Quality and Best Practices](#data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
+| 04.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
 | 11.03.2024 	| [Showcases](#showcases), [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
 
 <!-- 
@@ -1368,12 +1368,48 @@ https://opendatabeer.ch/
 <!-- _header: " "  -->
 <!-- _footer: " "  -->
 
-## Data Quality and Best Practices
+## Assessment, Data Quality, and Best Practices 
 
 
 ---
 
-<!-- footer: Data Quality and Best Practices  -->
+<!-- footer: Assessment, Data Quality, and Best Practices  -->
+
+# Open Data Maturity (ODM)
+
+## Annual assessment 
+
+Exercise done by the EU to measure the progress of European countries in promoting and facilitating the availability and reuse of public sector information (&rarr; OGD). It exists since 2015.
+
+1. **Policy** – It investigates the open data policies and strategies in place in the participating countries, the national governance models for managing open data and the measures applied to implement those policies and strategies. 
+2. **Impact** –  It analyses the willingness, preparedness and ability of countries to measure both the reuse of open data and the impact created through this reuse. 
+
+
+---
+
+# Open Data Maturity (ODM)
+
+## Annual assessment 
+
+3. **Portal** – It investigates the functionality of national open data portals, the extent to which users’ needs and behaviour are examined to improve the portal, the availability of open data across different domains and the approach to ensuring the portal’s sustainability. 
+4. **Quality** – It assesses the measures adopted by portal managers to ensure the systematic harvesting of metadata, the monitoring of metadata quality and compliance with the DCAT-AP metadata standard, and the quality of deployment of the published data on the national portal. 
+
+https://data.europa.eu/en/publications/open-data-maturity
+
+
+---
+
+# ODM 2023
+
+35 participating countries
+
+[Page et al. 2023]
+
+https://data.europa.eu/en/publications/open-data-maturity/2023
+
+---
+
+---
 
 Something about data quality...
 
@@ -1611,6 +1647,8 @@ Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (20
 Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part to Whole (p. 19) [Final Report]. Always Already Computational - Collections as Data. https://doi.org/10.5281/zenodo.10161976
 
 Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data [White paper]. Internet Archive Canada. https://doi.org/10.5281/zenodo.8341519
+
+Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2023). 2023 Open Data Maturity Report [ODM Report]. European Union. https://doi.org/10.2830/384422 
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
