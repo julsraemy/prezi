@@ -469,6 +469,55 @@ One of the specific features of this licence is that attribution is not required
 
 And others... &rarr; see for instance https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository 
 
+---
+
+![bg 40% opacity:.12](https://images.squarespace-cdn.com/content/v1/5c2a6d5c45776e85d1482a7e/1546750722018-T7QVBTM15DQMBJF6A62M/RAIL+Final.png?format=1500w)
+
+# Licences
+
+## Responsable AI Licenses (RAIL)
+
+- Responsible AI Pubs Licenses
+  - AIPubs Open RAIL-S
+  - AIPubs Open RAIL-M
+  - AIPubs Research-Use RAIL-S
+  - AIPubs Research-Use RAIL-M
+- Responsible AI End-User License (RAIL-A License)
+- Responsible AI Source Code License (Open RAIL-S License)
+- BigScience Open RAIL-M License (Open RAIL-M License)
+
+https://www.licenses.ai/
+
+<!-- 
+
+Responsible AI Licenses (RAIL) are a class of licenses designed to encourage the responsible use of an AI artifact being licensed by including a set of use restrictions applied to AI artifact. RAILs can be more or less restrictive depending on the aims of the licensor. For instance, a license can be RAIL while being a proprietary license, or a license just allowing the use of the AI feature for research purposes and without allowing distribution of derivative versions. 
+
+In contrast, Open & Responsible AI Licenses (OpenRAIL) are a subclass of RAIL licenses that permit free-of-charge open access and re-use of AI artifacts for commercial purposes, while including usage restrictions. Note that usage restrictions in RAIL Licenses also apply to any derivatives of AI artifact. 
+
+RAILs can be used to license data (D), Apps (A), models (M), and source code (S). depending on the AI feature(s) you are licensing, you will add suffix D, A, M, or S
+
+ -->
+
+---
+
+# Licences
+
+## Responsable AI Licenses (RAIL)
+
+![center w:650](https://images.squarespace-cdn.com/content/v1/5c2a6d5c45776e85d1482a7e/75c3197e-0305-4b25-9290-24691ed073b3/AIPubsLicense.png?format=2500w)
+
+
+---
+
+# Licences
+
+## I Hate AI License (IHAIL)
+
+- Based on CC BY 4.0
+- It prohibits the use of the material with Artifical Intelligence (AI) technologies while allowing sharing, adaptation, and commercial use under certain terms.
+
+https://ihateailicense.eu/
+
 
 ---
 
@@ -724,24 +773,153 @@ https://iiif.dasch.swiss/0801/4VjgCwiTn8p-CTaooIqSZBO.jpx/full/max/0/default.jpg
 
 # Metadata standards / schemas
 
-- Something 
-- Something
+- **Metadata standards** are sets of rules and guidelines that dictate how metadata should be formatted and used. They ensure consistency and interoperability across different systems and platforms.
+  - CIDOC Conceptual Reference Model (CIDOC-CRM), Dublin Core, Machine-Readable Cataloging (MARC), Preservation Metadata: Implementation Strategies (PREMIS)
+- **Metadata schemas** are specific implementations of metadata standards. They outline the structure, elements, and attributes of metadata for a specific purpose.
+  - Encoded Archival Description (EAD), Lightweight Information Describing Object (LIDO), Metadata Object Description Schema (MODS)
 
+<!-- 
+
+While standards provide the "what" and "why" of metadata, schemas offer the "how" for specific data types or field needs.
+
+ -->
+
+
+---
+
+# DCAT, DCAT-AP, DCAT-AP CH
+
+## Data Catalog Vocabulary (DCAT)
+
+- Resource Description Framework (RDF) vocabulary to facilitate interoperability between data catalogues published on the Web.
+- Current version: [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/)
+ 
+
+## Data Catalog Vocabulary Application Profile (DCAT-AP)
+
+Specifications based on DCAT for describing public sector datasets
+
+- DCAT Application Profile for data portals in Europe: [DCAT-AP 3.0](https://semiceu.github.io/DCAT-AP/releases/3.0.0/)
+- DCAT Application Profile for the United States of America: [DCAT-US - Version 3](https://doi-do.github.io/dcat-us/)
+- DCAT Application Profile for Data Portals in Switzerland (DCAT-AP CH): [eCH-0200]((https://ech.ch/fr/ech/ech-0200/2.0.0))
+
+
+<!-- 
+DCAT-AP CH is a subprofile of DCAT-AP
+ -->
+
+---
+
+# DCAT
+
+![bg 33%](https://www.w3.org/TR/vocab-dcat-3/images/dcat-all-attributes.svg)
+
+---
+
+# DCAT
+
+```
+ex:catalog
+  a dcat:Catalog ;
+  dcterms:title "Imaginary Catalog"@en ;
+  dcterms:title "Catálogo imaginario"@es ;
+  rdfs:label "Imaginary Catalog"@en ;
+  rdfs:label "Catálogo imaginario"@es ;
+  foaf:homepage <http://dcat.example.org/catalog> ;
+  dcterms:publisher ex:transparency-office ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>  ;
+  dcat:dataset ex:dataset-001 , ex:dataset-002 , ex:dataset-003 ;
+  .
+```
+
+https://www.w3.org/TR/vocab-dcat-3/#basic-example
+
+---
+
+# DCAT-AP CH
+
+```
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ---------- class Catalog --------------------------------------------------
+<https://swisstopo/opendata/catalog>
+  a dcat:Catalog ;
+
+  # mandatory properties
+  dct:description "Datenkatalog der Stadt Zurich"@de ;
+  dct:publisher <https://publishers/swisstopo> ;
+  dct:title "Open Data City of Zurich"@en ,
+            "Offene Daten der Stadt Zurich"@de .
+```
+
+https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#Class:Catalog
 
 ---
 
 # Documentation
 
+Comprehensive and understandable information about the data, including its source, structure, context, and how to use it effectively.
+
+## Types of Documentation 
+
+- Data field descriptions/data models
+- User guides
+- Metadata
+- Developer documentation
+- Source code documentation
+
+<!-- 
+
+Enhances Usability: Makes data more accessible and understandable to a wider audience, including non-experts and developers.
+Facilitates Data Quality and Trust: Offers transparency about the data’s sources, methodologies, and underlying code, building trust among users.
+Supports Data Integration and Development: Helps in combining data from different sources and in the development of applications using the open data.
+
+ -->
+
 ---
 
 # Protocols
+
+- **Application Programming Interface (API)**: mechanism that enable two software components to communicate with each other
+  - **Representational State Transfer (REST)**: a style of API that uses HTTP requests for communication. REST is stateless, _i.e. each request from a client to the server is treated as new. There is no stored memory of previous interactions. This means the server does not store any state about the client session on the server side_.
+  - **Simple Object Access Protocol (SOAP)**: a protocol used for exchanging structured information in web services, offering high security and transactional reliability. SOAP can support both stateless and stateful operations.
+- **File Transfer Protocol (FTP)**: used for the transfer of data files, particularly large datasets, from one host to another.
+
+<!-- 
+Set of rules and standards that govern the exchange and accessibility of open data through the internet.
+
+Enables Accessibility: Facilitates easy and standardized access to open data, essential for fostering innovation and transparency.
+Supports Interoperability: Ensures that open data from various sources can be integrated and used together efficiently.
+
+ -->
+
+---
+
+# Protocols
+
+- **Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)**: a protocol for harvesting metadata descriptions of records in an archive, particularly used in digital libraries.
+- **Really Simple Syndication or Rich Site Summary (RSS) / Atom Feeds**: used for regularly updating or publishing data that changes frequently. Feeds enable publishers to syndicate data automatically.
+- **SPARQL Protocol and RDF Query Language (SPARQL)**: used for querying and manipulating RDF
 
 
 ---
 
 # Exercise $I$
 
+## Conceptualising an Open Data Platform
 
+You create a new platform for open data. Imagine what kind of datasets you would accept and showcase one example. Please consider the following: 
+
+- Accepted datasets
+  - Criteria and subjects
+- Accepted licence(s)
+  - Open licence, possible restrictions
+- Accepted (meta)data formats
+- Metadata standard to describe the datasets
+- Protocols/Services available on the platform
 
 ---
 
@@ -1379,7 +1557,7 @@ https://opendatabeer.ch/
 
 ## Annual assessment 
 
-Exercise done by the EU to measure the progress of European countries in promoting and facilitating the availability and reuse of public sector information (&rarr; OGD). It exists since 2015.
+Exercise done by the EU to measure the progress of European countries in promoting and facilitating the availability and reuse of public sector information (&rarr; _mostly OGD_). It exists since 2015.
 
 1. **Policy** – It investigates the open data policies and strategies in place in the participating countries, the national governance models for managing open data and the measures applied to implement those policies and strategies. 
 2. **Impact** –  It analyses the willingness, preparedness and ability of countries to measure both the reuse of open data and the impact created through this reuse. 
@@ -1552,6 +1730,8 @@ Something here
 
 ## Conclusion
 
+<!-- footer: Conclusion -->
+
 
 ---
 
@@ -1561,7 +1741,6 @@ Something here as well
 
 ---
 
-<!-- footer: Conclusion -->
 
 # _A multitude of tools_
 
