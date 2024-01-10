@@ -787,7 +787,7 @@ While standards provide the "what" and "why" of metadata, schemas offer the "how
 
 ---
 
-# DCAT, DCAT-AP, DCAT-AP CH
+# Data Catalog Vocabulary (Application Profiles)
 
 ## Data Catalog Vocabulary (DCAT)
 
