@@ -103,6 +103,7 @@ This assignment is weighted at 20% of the 7C2-CT module.
 ## Characteristics of Open Data
 
 - Definitions
+- History
 - Typology
 - Purposes
 - Requirements
@@ -181,6 +182,51 @@ The Open Definition according to the Open Knowledge Network: https://opendefinit
 > Open data and content can be freely used, modified, and shared by anyone for any purpose.
 
 The Open Definition according to the Open Knowledge Network: https://opendefinition.org/
+
+---
+
+# History
+
+## Robert K. Merton (1910-2003)
+
+American sociologist, considered a founding father of modern sociology, said in 1942:
+
+> Each researcher must contribute to the 'common pot' and give up intellectual property rights to allow knowledge to move forward.
+
+https://en.wikipedia.org/wiki/Timeline_of_the_open-access_movement
+
+> While the term “open data” isn’t even 20 years old, the author puts the concept in a historical context; the idea that scientific research should be free to all was popularized by Robert King Merton in the early 1940s. Research (which produces data) should be shared freely for the common good.
+
+https://data.gov/blog/open-data-history/
+
+---
+
+# History
+
+## Timeline 
+
+- 1942: The concept starts with Robert K. Merton
+- 1995: The term 'Open Data' first appeared, related to the sharing of geophysical and environmental data.
+- November 2005: Open Knowledge Foundation creates the Open Definition
+- December 2007: The concept of open public data was discussed and defined in Sebastopol, CA, USA at a meeting of Internet activists. They identified 8 principles.
+- February 2009: Tim Berners-Lee presents [The next web](https://www.ted.com/talks/tim_berners_lee_the_next_web) at TED2009. He famously asked for "raw data now".
+
+https://devopedia.org/open-data
+https://www.opendatasoft.com/en/what-is-open-data-practical-guide/
+
+<!-- 
+
+"In December 2007, thirty thinkers and activists of the Internet held a meeting in Sebastopol, north of San Francisco. Their aim was to define the concept of open public data and have it adopted by the US presidential candidates.
+
+Among them, were two well-known figures: Tim O’Reilly and Lawrence Lessig. The first is familiar to the techies: this American author and editor is the originator of many vanguard computer and Internet movements; he defined and popularized expressions such as the open source and Web 2.0. Lawrence Lessig, Professor of Law at Stanford University (California), is the founder of Creative Commons licenses, based on the idea of copyleft and free dissemination of knowledge.
+
+Participants of the Sebastopol meeting mostly come from the free software and culture movements. These movements are at the heart of many innovations in the field of computers and the Internet over the last fifteen years. Some of these innovations are now familiar – think of the collaborative encyclopedia Wikipedia. Other open source creations are less known to the general public despite playing a fundamental role in online services: for instance, the Apache software for the servers is used to host most websites.
+
+Some activists and entrepreneurs who already used public data were attending the Sebastopol meeting too: Adrian Holovaty (the founder of EveryBlock, a localized information service) and Briton Tom Steinberg (initiator of the FixMyStreet site). One of the youngest of the group was no other than the late Aaron Swartz, inventor of the RSS and free knowledge activist. Together, they created the principles that allow us today to define and evaluate open public data." 
+
+Source: https://www.paristechreview.com/2013/03/29/brief-history-open-data/
+
+ -->
 
 
 ---
@@ -316,6 +362,45 @@ https://opendatahandbook.org/glossary/en/terms/government-data/
 
 Open Data Handbook [Open Knowledge 2016] 
 https://opendatahandbook.org/guide/en/why-open-data/
+
+---
+
+# Purposes
+
+## Open Government Data Principles
+
+1. Complete
+2. Primary
+3. Timely
+4. Accessible
+5. Machine processable
+6. Non-discriminatory
+7. Non-proprietary
+8. License-free
+
+https://public.resource.org/8_principles.html
+
+<!-- 
+Government data shall be considered open if it is made public in a way that complies with the principles below:
+
+1. Complete
+All public data is made available. Public data is data that is not subject to valid privacy, security or privilege limitations.
+2. Primary
+Data is as collected at the source, with the highest possible level of granularity, not in aggregate or modified forms.
+3. Timely
+Data is made available as quickly as necessary to preserve the value of the data.
+4. Accessible
+Data is available to the widest range of users for the widest range of purposes.
+5. Machine processable
+Data is reasonably structured to allow automated processing.
+6. Non-discriminatory
+Data is available to anyone, with no requirement of registration.
+7. Non-proprietary
+Data is available in a format over which no entity has exclusive control.
+8. License-free
+Data is not subject to any copyright, patent, trademark or trade secret regulation. Reasonable privacy, security and privilege restrictions may be allowed.
+
+ -->
 
 ---
 
@@ -812,6 +897,26 @@ DCAT-AP CH is a subprofile of DCAT-AP
 
 # DCAT
 
+## Seven classes ("entities")
+
+1. `dcat:Catalog` represents a catalogue, which is a dataset in which each individual item is a metadata record describing some resource
+2. `dcat:Resource` represents a dataset, a data service or any other resource that may be described by a metadata record in a catalogue.
+3. `dcat:Dataset` represents a collection of data, published or curated by a single agent or identifiable community. 
+4. `dcat:Distribution` represents an accessible form of a dataset such as a downloadable file.
+
+
+---
+
+5. `dcat:DataService` represents a collection of operations accessible through an interface (API) that provide access to one or more datasets or data processing functions.
+6. `dcat:DatasetSeries` is a dataset that represents a collection of datasets that are published separately, but share some characteristics that group them.
+7. `dcat:CatalogRecord` represents a metadata record in the catalogue, primarily concerning the registration information, such as who added the record and when.
+
+https://www.w3.org/TR/vocab-dcat-3/#dcat-scope
+
+---
+
+# DCAT
+
 ![bg 33%](https://www.w3.org/TR/vocab-dcat-3/images/dcat-all-attributes.svg)
 
 ---
@@ -930,7 +1035,7 @@ You create a new platform for open data. Imagine what kind of datasets you would
 
 ## Associated Movements and Principles
 
-- Open Access / Open Science
+- Open Access / Open Science / Open Scholarship
 - FAIR Data Principles
 - CARE Principles for Indigenous Data Governance
 - Collections as Data
@@ -964,6 +1069,30 @@ You create a new platform for open data. Imagine what kind of datasets you would
 ![center](https://upload.wikimedia.org/wikipedia/commons/2/28/Osc2021-unesco-open-science-no-gray.png)
 
 [Morrison 2021, citing Persic 2021]
+
+---
+
+# Open Scholarship
+
+## Open Scholarship: Expanding the Reach of Open Science
+
+- Broader Approach
+  - Extends beyond traditional scientific disciplines to include arts and humanities.
+  - Engages not just the research community but also the wider public, including non-experts, educators, and policymakers.
+- Supporting Collaboration and Innovation
+  - Facilitates interdisciplinary collaboration across arts, humanities, and other fields.
+  - Encourages the use of open educational resources for collaborative teaching and learning.
+  - Advances open data practices for the sharing and reuse of cultural heritage resources.
+
+[Tennant et al. 2020]
+
+<!-- 
+
+Relevance in Arts and Humanities
+  - Addresses complex cultural materials and narratives with societal implications.
+  - Promotes cultural understanding and engagement with broader societal issues.
+
+ -->
 
 ---
 
@@ -1042,7 +1171,7 @@ R1. (Meta)data are richly described with a plurality of accurate and relevant at
 
 CARE Principles for Indigenous Data Governance: https://www.gida-global.org/care
 
-[Carroll et al. 2020, 2021]
+[Carroll et al. 2020]
 
 <!-- 
 Indigenous data sovereignty reinforces the rights to engage in decision-making in accordance with Indigenous values and collective interests. 
@@ -1120,11 +1249,36 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 
 ---
 
+# CARE and FAIR
+
+## Operationalising CARE and FAIR
+
+![](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-021-00892-0/MediaObjects/41597_2021_892_Fig2_HTML.png)
+
+[Carroll et al. 2021]
+
+<!-- 
+
+FAIR and CARE are complementary perspectives which enable maximum value through the appropriate and ethical reuse of Indigenous data. However, assessing the FAIR-ness of a data set is typically a technical exercise which can be done independently by the researcher to prepare the final data set for reuse. On the other hand, the CARE Principles require engagement with people to address the cultural, ethical, legal, and social dimensions associated with the intended uses of the dataset. As Indigenous communities expect CARE-full data practices to be enacted at each step of the data lifecycle, we will need to reflect a broader temporal dimension to our application of the CARE Principles. At present there is no process to assess whether a research project meets the CARE Principles. Creating such an assessment represents the next stage towards an equitable cyberinfrastructure that supports the FAIR and CARE-full use of Indigenous data.
+
+[Carroll et al. 2021]
+
+ -->
+
+---
+
 # Collections as Data
 
-- Santa Barbara Statement [Padilla et al. 2017]
-- Vancouver Statement [Padilla, Scates Kettler, Varner, et al. 2023]
+## Summits
+
+- 2017: Santa Barbara Statement [Padilla et al. 2017]
+- 2023: Vancouver Statement [Padilla, Scates Kettler, Varner, et al. 2023]
+
+## Main outputs
+
 - 10 principles
+- 'Part to Whole' Report
+- Related checklist and initiatives
 
 https://collectionsasdata.github.io/statement/
 
@@ -1135,6 +1289,8 @@ The statement highlights the growing global engagement with collections as data.
 
 
 ---
+
+![bg 28% opacity:.1](https://raw.githubusercontent.com/collectionsasdata/part2whole/master/_posts/cad_logo_matte.png)
 
 # Collections as Data 
 
@@ -1149,6 +1305,8 @@ The statement highlights the growing global engagement with collections as data.
 
 ---
 
+![bg 28% opacity:.1](https://raw.githubusercontent.com/collectionsasdata/part2whole/master/_posts/cad_logo_matte.png)
+
 # Collections as Data 
 
 7. Collections as Data development values interoperability.
@@ -1161,19 +1319,81 @@ The statement highlights the growing global engagement with collections as data.
 
 # Collections as Data 
 
-## Something
+## Collections as Data: Part to Whole
+
+- **Boundary Object Concept**: Collections-as-data serve as flexible tools adaptable to various needs while maintaining a common identity.
+- **Ethical Considerations**: Emphasis on ethical development and use of collections, especially concerning marginalized communities.
+- **Community Engagement**: Essential for respecting and understanding the context of collections.
+- **Organisational Structure Support**: Effective initiatives require collaboration across various organisational departments.
+
+_Boundary Object, cf. Star & Griesemer [1989]_
+
+---
+# Collections as Data 
+
+## Collections as Data: Part to Whole
+
+
+- **Documentation Importance**: Crucial for understanding and maintaining collections in the future.
+- **Community of Practice**: Emphasises the need for skill sharing and collaborative environments.
+- **Future Challenges and Opportunities**
+  - Integration of AI and computational tools in collections.
+  - Navigating the balance between global collaboration and local cultural sensitivities.
+  - Addressing financial and resource limitations for global community growth.
+  - Potential and risks of using collections as data for AI training.
 
 [Padilla, Scates Kettler, & Shorish, 2023] 
-
 
 ---
 
 # Collections as Data 
 
-## Checklist 
+## Checklist to publish Collections as Data in GLAM institutions
+
+1. Provide a clear license allowing reuse of the dataset without restrictions 
+2. Provide a suggestion of how to cite your dataset 
+3. Include documentation about the dataset 
+4. Use a public platform to publish the dataset 
+5. Share examples of use as additional documentation 
+6. Give structure to the dataset 
+
+_Galleries, Libraries, Archives, Museums (GLAM)_
+
+<!-- 
+
+Purpose The purpose of this study is to offer a checklist that can be used for both creating and evaluating digital collections, which are also sometimes referred to as data sets as part of the collections as data movement, suitable for computational use. Design/methodology/approach The checklist was built by synthesising and analysing the results of relevant research literature, articles and studies and the issues and needs obtained in an observational study. The checklist was tested and applied both as a tool for assessing a selection of digital collections made available by galleries, libraries, archives and museums (GLAM) institutions as proof of concept and as a supporting tool for creating collections as data. Findings Over the past few years, there has been a growing interest in making available digital collections published by GLAM organisations for computational use. Based on previous work, the authors defined a methodology to build a checklist for the publication of Collections as data. The authors’ evaluation showed several examples of applications that can be useful to encourage other institutions to publish their digital collections for computational use. Originality/value While some work on making available digital collections suitable for computational use exists, giving particular attention to data quality, planning and experimentation, to the best of the authors’ knowledge, none of the work to date provides an easy-to-follow and robust checklist to publish collection data sets in GLAM institutions. This checklist intends to encourage small- and medium-sized institutions to adopt the collection as data principles in daily workflows following best practices and guidelines.
+
+ -->
+
+---
+
+# Collections as Data 
+
+## Checklist to publish Collections as Data in GLAM institutions
+
+7. Provide machine-readable metadata (about the dataset itself) 
+8. Include your dataset in collaborative edition platforms
+9. Offer an API to access your repository 
+10. Develop a portal page 
+11. Add a terms of use
 
 
 [Candela et al. 2023]
+
+
+---
+
+# Collection as Data
+
+## Implementation at the Royal Library of Belgium
+
+- Data-level access to collections
+- Digital Humanities Research
+
+![center w:550](https://www.kbr.be/wp-content/uploads/2020/11/data-level-access-to-collections.png)
+
+https://www.kbr.be/en/projects/data-kbr-be/
+
 
 ---
 
@@ -1260,6 +1480,244 @@ https://linked.art/loud/
 
 ---
 
+![center bg width:45% opacity:.1](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+# International Image Interoperability Framework (IIIF) 
+
+## IIIF
+
+- A model for presenting and annotating content
+- A global community that develops shared application programming interfaces (APIs), implements them in software, and exposes interoperable content
+
+https://iiif.io
+
+<!-- IIIF is a community-driven initiative, which brings together key players in the academic and CH fields, and has defined open and shared APIs to standardise the way in which image-based resources are delivered on the Web. Implementing the IIIF APIs enables institutions to make better use of their digitised or born-digital material by providing, for instance, deep zooming, comparison, full-text search of OCR objects or annotation capabilities.  -->
+
+
+---
+
+# IIIF – Deep Zoom with Large Images
+
+![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+
+https://purl.stanford.edu/hs631zg4177
+
+
+---
+
+
+# IIIF – Compare Images
+
+![center](https://julsraemy.ch/prezi/assets/compare.gif)
+
+Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35
+
+---
+
+# IIIF – Reunify
+
+![center w:600](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
+
+https://demos.biblissima.fr/chateauroux/demo/
+
+
+---
+
+# IIIF – Search within
+
+![center](https://julsraemy.ch/prezi/assets/content-search.gif)
+
+Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library.
+
+
+---
+
+# IIIF – Storytelling
+
+![center](https://julsraemy.ch/prezi/assets/storiiies.gif)
+
+Storiiies: http://storiiies.cogapp.com/
+
+
+---
+
+# IIIF – Crowdsource
+
+![center](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
+
+Crowdsourcing initiative from the National Library of Wales
+
+---
+
+# IIIF – Machine-generated Annotations
+
+![center width:750px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+
+See Cornut et al. [2023]
+
+---
+
+
+# IIIF – Beyond Images
+
+![center w:700](https://iiif.io/assets/uploads/ddmal_section.gif)
+
+
+https://ddmal.music.mcgill.ca/IIIF-AV-player/
+
+
+---
+
+
+# IIIF – Layers of digitisation
+
+![center width:680px](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
+
+
+Leiden Collection's Curtain Viewer: 
+https://www.theleidencollection.com/viewer/david-and-uriah/
+
+---
+
+# Application Programming Interface (API)
+
+![bg 80%](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
+
+---
+
+# IIIF Specifications
+
+- **Image API**
+- **Presentation API**
+- Authorization Flow API
+- Change Discovery API
+- Content Search API
+- Content State API
+
+_The Image and Presentation APIs are referred to as the core IIIF APIs_
+
+https://iiif.io/api
+
+---
+
+# IIIF Image and Presentation APIs
+
+![center w:700](https://training.iiif.io/iiif-online-workshop/day-one/img/apis.png)
+
+---
+
+# IIIF Image API
+
+The IIIF Image API specifies a RESTful web service that returns an image in response to a standard HTTP(S) request.
+
+![center w:600](https://iiif.io/api/image/3.0/img/transformation.png)
+
+https://iiif.io/api/image
+
+
+
+---
+
+# IIIF Presentation API
+
+The IIIF Presentation API is a JSON-LD based web service which provides the necessary information about the object or collection structure and layout.
+
+![bg right:30% auto w:95%](https://iiif.io/api/assets/images/data-model.png)
+
+https://iiif.io/api/presentation
+
+<!-- _header: " " -->
+
+<!-- _footer: " " -->
+
+
+---
+
+# IIIF Ecosystem
+
+![bg 80%](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
+
+---
+
+# IIIF Ecosystem
+
+![center](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
+
+---
+
+
+# IIIF Community Practices
+
+![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
+![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
+
+---
+
+# IIIF Community Practices
+
+![center bg 65%](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
+
+---
+
+# Web Annotation Data Model 
+
+![center](https://julsraemy.ch/prezi/assets/anno-model.png)
+
+https://www.w3.org/TR/annotation-model/
+
+
+---
+
+![center bg width:50% opacity:.1](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
+# Linked Art
+
+**Linked Art is a community collaborating to define a metadata application profile (the model) for describing cultural heritage, and the technical means for conveniently interacting with it (the API).** 
+
+https://linked.art
+
+---
+
+# Finding the right balance
+
+![center width:750px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+
+[Sanderson 2019]
+
+<!-- 
+
+- Linked Art is focused on usability, not full precision / completeness
+- Consistently solves actual challenges from real data
+- Development is iterative, as new use cases are found
+
+ -->
+
+---
+
+
+# Linked Art Data Model Fundamentals
+
+| Level         | Linked Art                      |
+|----------------|---------------------------------|
+| **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Ontology**   | RDF encoding of CRM 7.1, plus extensions       |
+| **Vocabulary** | Getty Vocabularies (mainly AAT) |
+| **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
+| **API**        | JSON-LD, following REST and web patterns                         |
+
+---
+
+# Linked Art from 50k feet
+
+![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+
+[Raemy et al. 2023, adapted from Sanderson 2018]
+
+
+---
+
+
+
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
 <!-- _header: " "  -->
@@ -1327,7 +1785,7 @@ https://www.swissubase.ch/
 * Institutionalised in 2017 by the Digital Humanities Lab of the University of Basel
 * Operated as a national research infrastructure since 2021 by DaSCH and primarily funded by the SNSF
 * Project-based data models that rely on a core base ontology (Knora), own metadata schema describing the whole project
-* RESTful API (JSON-LD), Archival Resource Keys (ARKs) with timestamps
+* RESTful API (JSON-LD), IIIF Image API, Archival Resource Keys (ARKs) with timestamps
 
 https://app.dasch.swiss/
 
@@ -1786,6 +2244,8 @@ https://doi.org/10.1007/s11229-012-0183-y
 
 Concordat Working Group. (2016). Concordat on Open Research Data. UK Research and Innovation. https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf
 
+Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
+
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
 Floridi, L. (2010). Information: A very short introduction. Oxford University Press.
@@ -1817,11 +2277,11 @@ Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of 
 
 Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
-Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
-
 ---
 
 # References $IV$
+
+Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
 
 Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part to Whole (p. 19) [Final Report]. Always Already Computational - Collections as Data. https://doi.org/10.5281/zenodo.10161976
 
@@ -1831,9 +2291,24 @@ Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
+Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
+
+Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
+
+
+
+---
+
+# References $V$
+
 Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
 
 Scholger, W. (2023, October 20). Legal Aspects of Arts and Humanities Data. DARIAH-CH Study Day 2023, Bern, Switzerland. https://www.dariah.ch/_files/ugd/8756fc_af72e01542284294ac0b7cf5c6064160.pdf
+
+Star, S. L., & Griesemer, J. R. (1989). Institutional Ecology, ‘Translations’ and Boundary Objects: Amateurs and Professionals in Berkeley’s Museum of Vertebrate Zoology, 1907-39. Social Studies of Science, 19(3), 387–420. https://www.jstor.org/stable/285080
+
+Tennant, J., Agarwal, R., Baždarić, K., Brassard, D., Crick, T., Dunleavy, D. J., Evans, T. R., Gardner, N., Gonzalez-Marquez, M., Graziotin, D., Greshake Tzovaras, B., Gunnarsson, D., Havemann, J., Hosseini, M., Katz, D. S., Knöchelmann, M., Madan, C. R., Manghi, P., Marocchino, A., … Yarkoni, T. (2020). A tale of two ‘opens’: Intersections between Free and Open Source Software and Open Scholarship [Preprint]. SocArXiv. https://doi.org/10.31235/osf.io/2kxq8
+
 
 Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
 
