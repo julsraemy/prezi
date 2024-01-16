@@ -425,10 +425,10 @@ https://linked.art
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
 | **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
-| **Ontology**   | RDF encoding of CRM 7.1, plus extensions       |
-| **Vocabulary** | Getty Vocabularies (mainly AAT) |
+| **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
+| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/) (mainly the Art & Architecture Thesaurus) |
 | **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
-| **API**        | JSON-LD, following REST and web patterns                         |
+| **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
 
 ---
 

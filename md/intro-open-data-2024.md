@@ -1496,6 +1496,39 @@ https://iiif.io
 
 ---
 
+![bg opacity:.3](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
+
+## <!-- fit --> Images are fundamental carriers of information
+
+<!-- So why do we need IIIF? Digital images are fundamental carriers of information across the fields of cultural heritage, STEM, and others. They help us understand complex processes through visualization. They grab our attention and help us quickly understand abstract concepts. They help document many the past--and the  present--and preserve it for the future. They are also ubiquitous: we interact with thousands of them every day both in real life and on the web. In short, images are important and we interact with large volumes of them online. 
+
+Image 1: Female Figurine, Chupicuaro, 500/300 B.C
+Image 2: Vision of Saint Gregory, unknown artist, n.d.
+Image 3: Iyo Province: Saijo, Utagawa Hiroshige, 1855
+-->
+
+---
+
+![bg contain opacity:.28](https://julsraemy.ch/prezi/assets/silos.png)
+
+# The Problem
+
+# A world of silos and duplication
+
+Image delivery on the Web has historically been hard, slow, expensive, disjointed, and locked-up in silos.
+
+---
+
+# The Problem
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/silos-repos.png)
+
+
+---
+
 # IIIF – Deep Zoom with Large Images
 
 ![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
@@ -1600,7 +1633,7 @@ https://iiif.io/api
 
 ---
 
-# IIIF Image and Presentation APIs
+# Core IIIF APIs
 
 ![center w:700](https://training.iiif.io/iiif-online-workshop/day-one/img/apis.png)
 
@@ -1614,6 +1647,22 @@ The IIIF Image API specifies a RESTful web service that returns an image in resp
 
 https://iiif.io/api/image
 
+---
+
+# IIIF Image API
+
+## Uniform Resource Identifier (URI) Syntax
+
+- Base URI
+`{scheme}://{server}{/prefix}/{identifier}`
+
+- Image Request
+`{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
+https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg
+
+- Image Information (Metadata)
+`{$BASE}/info.json`
+https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
 
 
 ---
@@ -1629,6 +1678,52 @@ https://iiif.io/api/presentation
 <!-- _header: " " -->
 
 <!-- _footer: " " -->
+
+
+---
+
+# IIIF Presentation API
+
+![bg 68%](https://julsraemy.ch/prezi/assets/presentationapi-resources.png)
+
+---
+
+# IIIF Presentation API
+
+```json
+
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.participatory-archives.ch/SGV_12N_08589/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "[Ringtanz während der Masüras auf der Alp Sura]"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "de": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "de": [
+          "[Ringtanz während der Masüras auf der Alp Sura]"
+        ]
+      }
+    },
+```
+
+https://iiif.participatory-archives.ch/SGV_12N_08589/manifest.json
+
+
+---
+
+# Core IIIF APIs in Mirador
+
+![bg 70%](https://julsraemy.ch/prezi/assets/mirador-coreapis.png)
 
 
 ---
@@ -1668,6 +1763,62 @@ https://www.w3.org/TR/annotation-model/
 
 ---
 
+# Web Annotation Data Model 
+
+## Motivations
+
+_To uderstand the reasons why the Annotation was created, or why the Textual Body was included in the Annotation._
+
+Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
+
+---
+
+# Web Annotation Data Model in a IIIF setting
+
+```json
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_08589-p1-list.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_08589-p1-list/annotation-436121.json",
+      "motivation": "commenting",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "person",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "Object Detection (vitrivr)",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "<br><small>Detection score: 0.9574</small>",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://iiif.participatory-archives.ch/SGV_12N_08589/canvas/p1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=319,2942,463,523"
+        },
+        "dcterms:isPartOf": {
+          "type": "Manifest",
+          "id": "https://iiif.participatory-archives.ch/SGV_12N_08589/manifest.json"
+        }}},
+```
+
+---
+
+
 ![center bg width:50% opacity:.1](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 # Linked Art
@@ -1678,9 +1829,11 @@ https://linked.art
 
 ---
 
-# Finding the right balance
+# Linked Art
 
-![center width:750px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+## Finding the right balance
+
+![center width:720px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
 
 [Sanderson 2019]
 
@@ -1694,16 +1847,16 @@ https://linked.art
 
 ---
 
-
 # Linked Art Data Model Fundamentals
 
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
 | **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
-| **Ontology**   | RDF encoding of CRM 7.1, plus extensions       |
-| **Vocabulary** | Getty Vocabularies (mainly AAT) |
+| **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
+| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/) (mainly the Art & Architecture Thesaurus) |
 | **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
-| **API**        | JSON-LD, following REST and web patterns                         |
+| **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
+
 
 ---
 
@@ -1713,6 +1866,47 @@ https://linked.art
 
 [Raemy et al. 2023, adapted from Sanderson 2018]
 
+
+---
+
+# Linked Art
+
+## Digital Object
+
+![center w:460](https://linked.art/api/1.0/endpoint/digital_object/digital_properties.png)
+
+https://linked.art/api/1.0/endpoint/digital_object/
+
+
+---
+
+# Linked Art
+
+## Digital Object
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://linked.art/example/digital/0",
+  "type": "DigitalObject",
+  "_label": "Digital Image of Self-Portrait of Van Gogh",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "Digital Image"
+    }
+  ],
+
+```
+
+---
+
+# LOUD-Driven Infrastructure
+
+![center w:1000](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+
+[Felsing et al. 2023]
 
 ---
 
@@ -2246,11 +2440,14 @@ Concordat Working Group. (2016). Concordat on Open Research Data. UK Research an
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
 
-Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. Digital Humanities in the Nordic and Baltic Countries Publications, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
 
 Floridi, L. (2010). Information: A very short introduction. Oxford University Press.
 
 FOSTER. (2019). Open Science. In Foster Taxonomy. FACILITATE OPEN SCIENCE TRAINING FOR EUROPEAN RESEARCH. https://www.fosteropenscience.eu/taxonomy/term/100
+
+
+Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
 Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA), Pub. L. No. FF 2023 787, 22.022 Confédération suisse. Secrétariat général DFF (2023). https://fedlex.data.admin.ch/eli/fga/2023/787
 
