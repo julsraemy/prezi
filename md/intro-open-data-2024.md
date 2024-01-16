@@ -1953,10 +1953,9 @@ http://www.re3data.org/
 
 ---
 
-
 # SwissUbase
 
-![bg 30% opacity:.11](https://www.swissubase.ch/assets/full328x80.png)
+![bg opacity:.1](https://www.swissubase.ch/en/assets/logo/swissubase-logo.webp)
 
 ##  National cross-disciplinary solution
 
@@ -2054,10 +2053,12 @@ https://zenodo.org/
 
 ![bg 70% opacity:.15](https://opendata.swiss/images/swiss_map.svg)
 
-* Platform something
-* For whom, for what
-* Applications
-* Metadata, PID
+## Swiss public administration’s central portal for OGD
+
+* National platform launched in 2013 (first as opendata.admin.ch) under the direction of the Swiss Federal Archives. It exists as opendata.swiss since 2016 and is overseen by the Federal Statistical Office since 2019.
+* It provides an overview of OGD published in Switzerland and is a joint project of the Confederation and the cantons.
+* [Sourcecode](https://github.com/opendata-swiss) accessible on GitHub
+* Metadata accessible via a JSON API and an XML file according to the DCAT-AP CH standard. Unique identifier per dataset.
 
 
 https://opendata.swiss/
@@ -2066,12 +2067,14 @@ https://opendata.swiss/
 
 # Open Data Basel-Stadt
 
+## Canton of Basel-Stadt's OGD
+
 ![bg 30% opacity:.15](https://data.bs.ch/assets/theme_image/ODBS_Logo_rund_gruen.png)
 
-* Platform something
-* For whom, for what
+* Cantonal platform officially launched in 2019 (pilot project in 2017-2018) 
+* OGD 
 * Applications
-* Metadata, PID
+* Metadata accessible via a JSON API and a dashboard
 
 https://data.bs.ch/ 
 
