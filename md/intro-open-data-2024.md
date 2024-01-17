@@ -49,7 +49,7 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 |------------	|----------------------------	|
 | 19.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
 | 26.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
-| 04.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Tools and Techniques](#tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
+| 04.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Software, Tools, and Techniques](#software-tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
 | 11.03.2024 	| [Showcases](#showcases), [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
 
 <!-- 
@@ -89,7 +89,7 @@ Courses take place over the course of four Monday afternoons
 - Select one or more datasets from one or several platforms discussed during the course (if several datasets are selected, there must be a common thread)
 - Analyse, describe and identify the potential uses of the dataset(s)
 - Attempt to associate your work with one or several aspects of the other courses covered by the cross-disciplinary module (communication, statistics, survey techniques).
-- Between 900 and 1,100 words (without references) **due by Thursday 28 March**
+- Between 900 and 1,100 words (without references) **due by Friday 22 March**
 
 This assignment is weighted at 20% of the 7C2-CT module.
 
@@ -1016,7 +1016,7 @@ Supports Interoperability: Ensures that open data from various sources can be in
 
 ## Conceptualising an Open Data Platform
 
-You create a new platform for open data. Imagine what kind of datasets you would accept and showcase one example. Please consider the following: 
+In pairs or small groups, you will conceptualise a new platform for open data. Imagine what kind of datasets you would accept and showcase one example. Please consider the following: 
 
 - Accepted datasets
   - Criteria and subjects
@@ -1921,6 +1921,15 @@ https://linked.art/api/1.0/endpoint/digital_object/
 
 ---
 
+# Linked Open Usable Data
+
+## LOUD in a nutshell
+
+- Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
+- LOUD standards, when used in conjunction, enhances semantic interoperability, even if it comes at the cost of ontological purity.
+- LOUD practices and standards should serve as common denominators for cultural heritage institutions, public bodies as well as research projects.
+
+---
 
 
 <!-- _backgroundColor: #465B64  -->
@@ -2066,10 +2075,9 @@ https://zenodo.org/
 
 ## Swiss public administration’s central portal for OGD
 
-* National platform launched in 2013 (first as opendata.admin.ch) under the direction of the Swiss Federal Archives. It exists as opendata.swiss since 2016 and is overseen by the Federal Statistical Office since 2019.
-* It provides an overview of OGD published in Switzerland and is a joint project of the Confederation and the cantons.
-* [Sourcecode](https://github.com/opendata-swiss) accessible on GitHub
-* Metadata accessible via a JSON API and an XML file according to the DCAT-AP CH standard. Unique identifier per dataset
+* National platform launched in 2013 (first as opendata.admin.ch) under the direction of the Swiss Federal Archives. It exists as opendata.swiss since 2016 and is overseen by the Federal Statistical Office since 2019. It provides an overview of OGD published in Switzerland and is a joint project of the Confederation and the cantons.
+* [Source code](https://github.com/opendata-swiss) accessible on GitHub
+* Metadata accessible via a JSON API (CKAN) and an XML file according to the DCAT-AP CH standard. Unique identifier per dataset
 
 
 https://opendata.swiss/
@@ -2084,7 +2092,7 @@ https://opendata.swiss/
 
 * Cantonal platform officially launched in 2019 (pilot project in 2017-2018) 
 * Plateform based on opendatasoft
-* Own Metadata schema which comprises some DCAT and DCAT-AP CH properties. JSON API to explore the catalogue and the datasets. Dedicated dashboard. Own Dataset Identifier
+* Own Metadata schema which comprises some DCAT and DCAT-AP CH properties. JSON API to explore the catalogue and the datasets. Dedicated dashboard. Opaque identifier per dataset.
 
 https://data.bs.ch/ 
 
@@ -2098,7 +2106,7 @@ https://data.bs.ch/
 
 * First OGD Platform in Switzerland, launched in 2012.
 * Documentation and dedicated scripts on [GitHub](https://github.com/openZH) – _Specialist Unit for Open Government Data Canton of Zurich_
-* Metadata, PID
+* Own metadata scheme which comprises DCAT-AP CH properties. (Geo)JSON APIs ([see documentation](https://opendatazurich.github.io/)). Non-opaque identifier per dataset
 
 https://data.stadt-zuerich.ch/
 
@@ -2111,10 +2119,9 @@ https://data.stadt-zuerich.ch/
 
 ## opendata.tpg
 
-* Platform something
-* For whom, for what
-* Applications
-* Metadata, PID
+* Platform launched in 2022. First open data initiative in 2015 through their real-time transit time data API.
+* Democratisation process: transparency, efficiency, innovation, and citizen participation
+* Several metadata schemes and download possibilities including DCAT in RDF/XML. Dataset schema in JSON which comprises [GeoJSON](https://geojson.org/), a format for encoding a variety of geographic data structures. Non-opaque identifier per dataset.
 
 https://opendata.tpg.ch/
 
@@ -2123,13 +2130,13 @@ https://opendata.tpg.ch/
 
 # European Data
 
-![bg 50% opacity:.15](https://data.europa.eu/themes/edp3/dist/ecl/preset-eu/dist/images/logo/standard-version/positive/logo-eu--en.svg)
+![bg 50% opacity:.13](https://data.europa.eu/themes/edp3/dist/ecl/preset-eu/dist/images/logo/standard-version/positive/logo-eu--en.svg)
 
-* Platform something
-* For whom, for what
-* Applications
-* Metadata, PID
+## The official portal for European data 
 
+* Platform launched in 2021 (beta version in 2015)
+* Source code available on [GitLab](https://gitlab.com/groups/european-data-portal)
+* Metadata displayed using DCAT-AP (currently version 2.1.1) and accessible through a variety of APIs and an SPARQL endpoint (see [documentation](https://dataeuropa.gitlab.io/data-provider-manual/)). Opaque identifier per dataset.
 
 https://data.europa.eu/
 
@@ -2143,8 +2150,7 @@ https://data.europa.eu/
 
 ## The Home of the U.S. Government's Open Data
 
-* Platform launched in 2009
-* It provides access to datasets published by agencies across the federal government of the United States
+* Platform launched in 2009 which provides access to datasets published by agencies across the federal government of the United States
 * Based on open source applications
 * Metadata displayed using [DCAT-US Schema v1.1](https://resources.data.gov/resources/dcat-us/)
 
@@ -2191,11 +2197,16 @@ https://opendata.ch/
 
 # Open Data Beer
 
-![bg 30% opacity:.25](https://opendatabeer.files.wordpress.com/2018/02/cropped-icon_transparent1.png)
+![bg 40% opacity:.22](https://opendatabeer.files.wordpress.com/2018/02/cropped-icon_transparent1.png)
 
-- Founded...
-- What it is
-- Where it is
+- Events since 2018 (around three events per year)
+- Founded by Open Data practicioners in Switzerland
+  - Federal Statistical Office
+  - Canton of Basel-Stadt
+  - Canton of Thurgau
+  - Canton of Zurich
+  - City of Zurich
+  - SBB CFF FFS
 
 https://opendatabeer.ch/
 
@@ -2215,6 +2226,13 @@ https://github.com/rnckp/awesome-ogd-switzerland
 
 # Exercise $II$
 
+## Short comparative analysis of open data portals
+
+ In pairs or small groups, you will conduct a comparative analysis of one ORD portal and one OGD portal, neither of which has been previously discussed in our course. Your analysis will involve comparing these portals with similar ones that have already been presented, based on specific criteria.
+
+1. Choose one ORD portal and one OGD portal now. Announce your chosen portals to ensure no overlap.
+2. Dimensions to conduct the analysis: Launch Year, Purpose and Theme, Data Types, Access, Metadata Standards, Dataset Identifiers
+3. Prepare a concise 5-minute presentation of your findings (with or without visual aids)
 
 ---
 
@@ -2256,7 +2274,8 @@ https://data.europa.eu/en/publications/open-data-maturity
 
 # ODM 2023
 
-35 participating countries
+- 35 participating countries: EU-27, 3 European Free Trade Association Countries (Iceland, Norway and Switzerland), 5 candidate countries (Bosnia and Herzegovina, Montenegro, Albania, Serbia and Ukraine)
+- Switzerland is 24th with an Open Data Maturity of 79%. 
 
 [Page et al. 2023]
 
@@ -2264,20 +2283,32 @@ https://data.europa.eu/en/publications/open-data-maturity/2023
 
 ---
 
+# Measuring Impact
+
+## Impact Monitoring Framework
+
+Used in Switzerland for the opendata.swiss platform
+
+- Method to measure the value of OGD initiatives and projects.
+- Based on a structured and consistent list of criteria
+- Leverages the Social Return on Investment (SROI) approach to measure impact (input, output, outcome, impact)
+
+[Stürmer 2016]
+
 ---
 
-Something about data quality...
+# Data Quality and Best Practices
 
-https://opendatahandbook.org/solutions/en/Enable-Quality-Assessment/
+## Data Quality
 
-https://checklists.opquast.com/fr/assurance-qualite-web/download/
+- Tracking the state of OGD: http://index.okfn.org/index.html
+- [Checklist Opquast - assurance qualité web](https://checklists.opquast.com/fr/assurance-qualite-web/download/)
+-  Data Quality Score for the metadata evaluatin of the datasets, e.g. https://data.winnipeg.ca/Organizational-Support-Services/Data-Quality-Score/73sq-j2qi/about_data
 
-https://data.winnipeg.ca/Organizational-Support-Services/Data-Quality-Score/73sq-j2qi/about_data
+## Best Practices, Toolkits
 
----
-
-Best practices
-
+- The Annotated 8 principles of OGD (US): https://opengovdata.org/
+- [Open Government Data Toolkit](https://opendatatoolkit.worldbank.org/en/data/opendatatoolkit/home)
 
 ---
 
@@ -2286,17 +2317,36 @@ Best practices
 <!-- _header: " "  -->
 <!-- _footer: " "  -->
 
-## Tools and Techniques
+## Software, Tools, and Techniques
 
 
 ---
 
-<!-- footer: Tools and Techniques  -->
+<!-- footer: Software, Tools, and Techniques  -->
 
-Some tools
+![bg 40% opacity:.1](https://ckan.org/static/img/logo.svg)
 
-OpenRefine
+# CKAN
 
+## Open Source Data Management System
+
+
+https://ckan.org/
+
+---
+
+![bg 30% opacity:.3](https://openrefine.org/img/openrefine_logo.svg)
+
+# OpenRefine
+
+## Open Source Tool for working with messy data
+
+- Faceting
+- Clustering
+- Reconciliation
+- Undo/Redo
+
+https://openrefine.org/
 
 ---
 
@@ -2317,9 +2367,11 @@ ETL
 
 ---
 
-<!-- footer: Assignment Workshop  -->
+<!-- footer: Assignment Workshop -->
 
-Work on your assignment
+# Assignement
+
+## Work on your assignment
 
 ---
 
@@ -2528,6 +2580,8 @@ Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémo
 Scholger, W. (2023, October 20). Legal Aspects of Arts and Humanities Data. DARIAH-CH Study Day 2023, Bern, Switzerland. https://www.dariah.ch/_files/ugd/8756fc_af72e01542284294ac0b7cf5c6064160.pdf
 
 Star, S. L., & Griesemer, J. R. (1989). Institutional Ecology, ‘Translations’ and Boundary Objects: Amateurs and Professionals in Berkeley’s Museum of Vertebrate Zoology, 1907-39. Social Studies of Science, 19(3), 387–420. https://www.jstor.org/stable/285080
+
+Stürmer, M. E. (2016). Measuring the promise of open data: Development of the Impact Monitoring Framework. 1–12. https://doi.org/10.7892/boris.75031
 
 Tennant, J., Agarwal, R., Baždarić, K., Brassard, D., Crick, T., Dunleavy, D. J., Evans, T. R., Gardner, N., Gonzalez-Marquez, M., Graziotin, D., Greshake Tzovaras, B., Gunnarsson, D., Havemann, J., Hosseini, M., Katz, D. S., Knöchelmann, M., Madan, C. R., Manghi, P., Marocchino, A., … Yarkoni, T. (2020). A tale of two ‘opens’: Intersections between Free and Open Source Software and Open Scholarship [Preprint]. SocArXiv. https://doi.org/10.31235/osf.io/2kxq8
 
