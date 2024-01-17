@@ -281,6 +281,17 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
+# Linked Open Usable Data (LOUD)
+
+## LOUD
+
+
+- The term was coined by Robert Sanderson who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field. 
+- LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven and JSON-LD-based specifications.
+- It has five main design principles to make the data more easily accessible to software developers, who play a key role in interacting with the data and building software and services on top of it, and to some extent to academics. 
+
+---
+
 ![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 # LOUD Design Principles
@@ -509,7 +520,7 @@ Load: The resulting dataset is then annotated with some additional features for 
 
 - Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
 - LOUD standards, when used in conjunction, enhances semantic interoperability, even if it comes at the cost of ontological purity.
-- LOUD practices and standards should serve as common denominators for cultural heritage institutions and research projects.
+- LOUD practices and standards should serve as common denominators for cultural heritage institutions, public bodies as well as research projects.
 
 <!-- 
 

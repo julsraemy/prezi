@@ -1455,6 +1455,17 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 # Linked Open Usable Data (LOUD)
 
+## LOUD
+
+
+- The term was coined by Robert Sanderson who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field. 
+- LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven and JSON-LD-based specifications.
+- It has five main design principles to make the data more easily accessible to software developers, who play a key role in interacting with the data and building software and services on top of it, and to some extent to academics. 
+
+---
+
+# Linked Open Usable Data (LOUD)
+
 ## LOUD design principles
 
 - The right Abstraction for the audience
@@ -1955,7 +1966,7 @@ http://www.re3data.org/
 
 # SwissUbase
 
-![bg opacity:.1](https://www.swissubase.ch/en/assets/logo/swissubase-logo.webp)
+![bg 70% opacity:.07](https://www.swissuniversities.ch/fileadmin/_processed_/a/1/csm_swissubase_Logo_new_5d0f758b86.png)
 
 ##  National cross-disciplinary solution
 
@@ -2058,7 +2069,7 @@ https://zenodo.org/
 * National platform launched in 2013 (first as opendata.admin.ch) under the direction of the Swiss Federal Archives. It exists as opendata.swiss since 2016 and is overseen by the Federal Statistical Office since 2019.
 * It provides an overview of OGD published in Switzerland and is a joint project of the Confederation and the cantons.
 * [Sourcecode](https://github.com/opendata-swiss) accessible on GitHub
-* Metadata accessible via a JSON API and an XML file according to the DCAT-AP CH standard. Unique identifier per dataset.
+* Metadata accessible via a JSON API and an XML file according to the DCAT-AP CH standard. Unique identifier per dataset
 
 
 https://opendata.swiss/
@@ -2072,9 +2083,8 @@ https://opendata.swiss/
 ![bg 30% opacity:.15](https://data.bs.ch/assets/theme_image/ODBS_Logo_rund_gruen.png)
 
 * Cantonal platform officially launched in 2019 (pilot project in 2017-2018) 
-* OGD 
-* Applications
-* Metadata accessible via a JSON API and a dashboard
+* Plateform based on opendatasoft
+* Own Metadata schema which comprises some DCAT and DCAT-AP CH properties. JSON API to explore the catalogue and the datasets. Dedicated dashboard. Own Dataset Identifier
 
 https://data.bs.ch/ 
 
@@ -2082,11 +2092,12 @@ https://data.bs.ch/
 
 # Stadt Zürich Open Data
 
-![bg 50% opacity:.15](https://data.stadt-zuerich.ch/logo.svg)
+## City of Zurich's OGD
 
-* Platform something
-* For whom, for what
-* Applications
+![bg 50% opacity:.12](https://data.stadt-zuerich.ch/logo.svg)
+
+* First OGD Platform in Switzerland, launched in 2012.
+* Documentation and dedicated scripts on [GitHub](https://github.com/openZH) – _Specialist Unit for Open Government Data Canton of Zurich_
 * Metadata, PID
 
 https://data.stadt-zuerich.ch/
@@ -2188,6 +2199,17 @@ https://opendata.ch/
 
 https://opendatabeer.ch/
 
+
+---
+
+# And much more...
+
+
+## Awesome Open Government Data Switzerland
+
+A curated list of OGD portals, websites, APIs, tools and other related resources in Switzerland (and beyond)
+
+https://github.com/rnckp/awesome-ogd-switzerland
 
 ---
 
