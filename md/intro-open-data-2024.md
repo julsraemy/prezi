@@ -49,8 +49,8 @@ Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf d
 |------------	|----------------------------	|
 | 19.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
 | 26.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
-| 04.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Software, Tools, and Techniques](#software-tools-and-techniques), [Assignment Workshop](#assignment-workshop)                  	|
-| 11.03.2024 	| [Showcases](#showcases), [Perspectives](#perspectives), [Conclusion](#conclusion)                  	|
+| 04.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Techniques, Software, and Tools](#techniques-software-and-tools)                  	|
+| 11.03.2024 	| [Assignment Workshop](#assignment-workshop), [Showcases](#showcases), [Conclusion](#conclusion)                  	|
 
 <!-- 
 Courses take place over the course of four Monday afternoons
@@ -1012,7 +1012,7 @@ Supports Interoperability: Ensures that open data from various sources can be in
 
 ---
 
-# Exercise $I$
+# Exercise $I$ – Imagine an ORD/OGD Platform
 
 ## Conceptualising an Open Data Platform
 
@@ -2151,7 +2151,7 @@ https://data.europa.eu/
 ## The Home of the U.S. Government's Open Data
 
 * Platform launched in 2009 which provides access to datasets published by agencies across the federal government of the United States
-* Based on open source applications
+* Based on open source applications (such as CKAN)
 * Metadata displayed using [DCAT-US Schema v1.1](https://resources.data.gov/resources/dcat-us/)
 
 https://data.gov/
@@ -2224,7 +2224,7 @@ https://github.com/rnckp/awesome-ogd-switzerland
 
 ---
 
-# Exercise $II$
+# Exercise $II$ – Comparing Open Data Portals
 
 ## Short comparative analysis of open data portals
 
@@ -2305,10 +2305,17 @@ Used in Switzerland for the opendata.swiss platform
 - [Checklist Opquast - assurance qualité web](https://checklists.opquast.com/fr/assurance-qualite-web/download/)
 -  Data Quality Score for the metadata evaluatin of the datasets, e.g. https://data.winnipeg.ca/Organizational-Support-Services/Data-Quality-Score/73sq-j2qi/about_data
 
+
+---
+
+# Data Quality and Best Practices
+
 ## Best Practices, Toolkits
 
 - The Annotated 8 principles of OGD (US): https://opengovdata.org/
 - [Open Government Data Toolkit](https://opendatatoolkit.worldbank.org/en/data/opendatatoolkit/home)
+
+_And of course the important principles from FAIR, CARE, Collections as Data, LOUD (and surely others)_
 
 ---
 
@@ -2317,43 +2324,178 @@ Used in Switzerland for the opendata.swiss platform
 <!-- _header: " "  -->
 <!-- _footer: " "  -->
 
-## Software, Tools, and Techniques
+## Techniques, Software, and Tools
+
+How to get and work with data?
+
+---
+
+<!-- footer: Techniques, Software, and Tools  -->
+
+# Techniques
+
+## Data Scraping
+
+- Process of extracting data from websites or other online sources, typically using automated software or scripts. 
+  - Advantages: It allows for efficient data collection from multiple sources, can automate repetitive tasks, and is capable of handling large volumes of data.
+  - Challenges: Data scraping faces issues like website layout changes, legal and ethical considerations, as well as handling dynamic content loaded through JavaScript.
+- Examples
+  - Extracting exhibition data from museum websites using [Beautiful Soup](https://pypi.org/project/beautifulsoup4/), a Python library;
+  - Scraping historical records or archives from government websites with [Scrapy](https://scrapy.org/).
+
+---
+
+# Techniques
+
+## API Integration
+
+- API integration involves connecting and pulling data from external services.
+  - Advantages: It provides structured and often real-time access to data, allows for automation, and ensures data consistency and reliability.
+  - Challenges: Complexity in handling API limits/rate limiting, maintaining integration after API updates, and managing data from disparate APIs.
+- Examples
+  - Integrating social media data from platforms like Instagram, LinkedIn or Mastodon;
+  - Retrieving weather information from meteorological APIs.
+
+---
+
+# Techniques
+
+## Data Mining
+
+- Data mining is the process of analyzing large datasets to discover patterns, correlations, and insights.
+  - Advantages: Helps in identifying trends, making predictions, and informing decision-making processes; can uncover hidden patterns in data.
+  - Challenges: Requires significant computational resources, potential privacy concerns, and the need for skilled interpretation of results.
+- Examples
+  - Analysing visitor data patterns using [RapidMiner](https://altair.com/altair-rapidminer), a Java-based data science platform;
+  - Mining public opinion data from government surveys with [WEKA](https://www.cs.waikato.ac.nz/~ml/weka/) (Waikato Environment for Knowledge Analysis), a Java-based Machine Learning software.
+
+---
+
+# Techniques
+
+## Data wrangling/munging
+
+- Data wrangling, or munging, involves transforming and mapping raw data into a more structured and usable format.
+  - Advantages: Makes data more accessible and useful for analysis, helps in cleaning and standardising data, and improves data quality.
+  - Challenges: Time-consuming, requires expertise in data manipulation, and can be complex with large and diverse datasets.
+- Examples 
+  - Formatting and combining different datasets for a research project using Python's [pandas](https://pandas.pydata.org/) library;
+  - Harmonising open government datasets from different departments for comparative analysis.
+
+---
+
+# Techniques
+
+## Data Integration
+
+- Data integration involves combining data from different sources to provide a unified view of the data.
+  - Advantages: Provides a comprehensive view of data, enhances data usability and analysis, and supports better decision-making.
+  - Challenges: Managing data format and schema discrepancies, ensuring data quality and consistency, and handling large-scale integration.
+- Examples: 
+  - Combining spatial data from various archaeological digs and historical GIS databases for comprehensive mapping and analysis;
+  - Combining financial data from various business units.
+
+---
+
+# Techniques
+
+## Stream processing
+
+- Stream processing is the technique of processing data in real-time as it flows in streams from various sources.
+  - Advantages: Enables real-time data analysis and decision-making, can handle high throughput, and is suitable for time-sensitive data.
+  - Challenges: Requires handling data velocity and volume, ensuring system scalability and reliability, and managing out-of-order data streams.
+- Examples: 
+  - Real-time analysis of social media feeds using [Apache Kafka](https://kafka.apache.org/);
+  - Processing live public transport data for city management using [Apache Flink](https://flink.apache.org/).
+
+---
+
+
+
+# Techniques
+
+## Data Quality Management
+
+- Data quality management involves ensuring the accuracy, completeness, and reliability of data in a dataset.
+  - Advantages: Increases the trustworthiness of data, improves decision-making, and reduces the risk of errors in data analysis.
+  - Challenges: Continuously maintaining data quality, especially with large and evolving datasets, and integrating quality management into existing processes.
+- Examples 
+  - Using [OpenRefine](https://openrefine.org/) to clean and standardise metadata across different collections of historical artifacts;
+  - Ensuring accuracy in patient data in healthcare databases.
+
+---
+
+# Techniques
+
+## Extract, Transform, Load (ETL)
+
+- ETL is a process where data is extracted from various sources, transformed into a suitable format, and loaded into a target system.
+  - Advantages: Facilitates data consolidation, supports complex data transformations, and enables effective data storage and analysis.
+  - Challenges: Managing data from disparate sources, ensuring data transformation accuracy, and maintaining ETL process performance.
+- Examples
+  - Extracting economic and demographic data from various government departments using [Apache NiFi](https://nifi.apache.org/) transforming it for consistency, and loading it into an aggregated portal.
+  - Analysing sales data from different systems.
 
 
 ---
 
-<!-- footer: Software, Tools, and Techniques  -->
+![bg 80% opacity:.1](https://ckan.org/static/img/logo.svg)
 
-![bg 40% opacity:.1](https://ckan.org/static/img/logo.svg)
+# Comprehensive Knowledge Archive Network (CKAN)
 
-# CKAN
+## Open Source Data Management System (DMS)
 
-## Open Source Data Management System
-
+- CKAN is an open source DMS, mainly written in Python, for powering data hubs and portals. It is maintained by the Open Knowledge Foundation since 2006. 
+- It contains a PostgeSQL database, a Solr index, an API, and has several extensions. 
 
 https://ckan.org/
+https://github.com/ckan/ckan
 
 ---
 
-![bg 30% opacity:.3](https://openrefine.org/img/openrefine_logo.svg)
+# Apache Tools
+
+- [Apache Kafka](https://kafka.apache.org/): a distributed event streaming platform designed for high-throughput, real-time data feeds, excelling as a scalable, durable, and fault-tolerant message broker for large-scale data integration and streaming
+- [Apache Flink](https://flink.apache.org/): a stream processing framework optimised for stateful computations and complex event processing on unbounded data streams, offering robust event time processing, advanced windowing, and real-time analytics capabilities.
+- [Apache NiFi](https://nifi.apache.org/): a data flow management tool providing a user-friendly interface for automating, controlling, and monitoring data flows between systems, with strengths in data routing, transformation, and ensuring data provenance and compliance.
+
+<!-- 
+While Kafka, Flink, and NiFi each serve distinct purposes in data streaming and processing – Kafka for data integration and transportation, Flink for in-depth processing and analytics, and NiFi for flow management and data routing – their combined use can create a comprehensive, efficient, and robust data management architecture.
+
+ -->
+
+
+---
+
+![bg 30% opacity:.2](https://openrefine.org/img/openrefine_logo.svg)
 
 # OpenRefine
 
-## Open Source Tool for working with messy data
-
-- Faceting
-- Clustering
-- Reconciliation
-- Undo/Redo
+- Open source tool initally released in 2010 (first as _Freebase Gridworks_ and then as _Google Refine_) for data cleanup and transformation backed up by a dedicated community
+- It operates as a local web application to clean messy data and can be installed on Windows, macOS and Linux 
+- It handles various types of data (CSV, TSV, JSON, XML) and can connect to and import data from databases and other sources
+- It supports scripting in langauges like General Refine Expression Language (GREL) and Jython, allowing for advanced data manipulation
+- It has various features: faceting/filtering, clustering, reconciliation, undo/redo
 
 https://openrefine.org/
+https://github.com/OpenRefine/OpenRefine
 
 ---
 
+![bg 30% opacity:.2](https://openrefine.org/img/openrefine_logo.svg)
 
-Some techniques
+# Exercise $III$ – OpenRefine
 
-ETL
+Goal: gain hands-on experience in setting up and navigating OpenRefine
+
+## Getting started with OpenRefine
+
+1. Install the software
+2. Run it locally (accessible at http://127.0.0.1:3333/)
+3. Import a dataset from one of the ORD/OGD portals
+
+https://openrefine.org/docs
+
 
 ---
 
@@ -2388,35 +2530,53 @@ ETL
 <!-- footer: Showcases  -->
 
 
----
-
 # Our World in Data
+
+> Research and data to make progress against the world’s largest problems
+
+- Our World in Data is a collaborative effert between researchers at the University of Oxford and the non-profit organisation [Global Change Data Lab](https://global-change-data-lab.org/) (GCDL).
+- It is a comprehensive online resource that presents empirical research and data on a wide array of global issues, focusing on large-scale problems like poverty, disease, hunger, climate change, war, existential risks, and inequality.
+- The platform aims to provide accessible, comprehensible, and transparent data to inform readers about the state of the world and to support informed decision-making.
 
 https://ourworldindata.org/
 
 
-
 ---
 
-# Infectious Diseases Dashboard
+# Infectious Diseases Dashboard (IDD)
+
+- The Infectious Diseases Dashboard (IDD) is managed by the Federal Office of Public Health (FOPH)
+- The IDD provides information on cases of infection and illness in Switzerland and the Principality of Liechtenstein caused by various pathogens.
 
 https://idd.bag.admin.ch/
 
 ---
 
-<iframe src="https://data.bs.ch/explore/embed/dataset/100332/map/?disjunctive.name&sort=-id_verbot&location=14,47.56167,7.61078&basemap=9fffa5&static=false&datasetcard=false&scrollWheelZoom=false" width="400" height="300" frameborder="0"></iframe>
+# Sportanlagen-Finder
+
+The sports facility finder shows sports and exercise facilities operated by the canton of Basel-Stadt as well as all cantonal sports facilities outside the cantonal and national borders. The dataset also lists cantonal premises that are used and rented for sports activities.
+
+- Dashboard: https://data.bs.ch/explore/embed/dataset/100151/custom/
+- Data source: https://data.bs.ch/explore/dataset/100151/
+
+
 
 
 ---
 
 # Heile Preise
 
-https://heisse-preise.io/ 
-https://www.wired.com/story/heisse-preise-food-prices/ 
+Launched in 2023 by Mario Zechner, this platform offers a comprehensive platform for comparing food prices across various supermarkets in Austria, tracking and analysing price trends over time.
+
+- Platform: https://heisse-preise.io/ 
+- News item: https://www.wired.com/story/heisse-preise-food-prices/ 
 
 ---
 
 # 12 sunsets: Exploring Ed Ruscha's Archive
+
+- Interactive platform launched in 2020 to explore Sunset Boulevard throughout 60 years as photographed by Ed Ruscha (between 1965 and 2007)
+- It compiles more than 65,000 photographs which are all linked to the Getty Research Institute
 
 https://12sunsets.getty.edu/
 
@@ -2434,23 +2594,6 @@ https://12sunsets.getty.edu/
 
 ---
 
-<!-- _backgroundColor: #465B64  -->
-<!-- _color: white  -->
-<!-- _header: " "  -->
-<!-- _footer: " "  -->
-
-## Perspectives
-
----
-
-
-<!-- footer: Perspectives  -->
-
-Something here
-
-
----
-
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -2464,9 +2607,81 @@ Something here
 
 ---
 
-Something here as well
+# Conclusion
+
+## Movements and principles impacting Open Data
+
+* The rise of movements such as Open Access and Open Science, along with principles like FAIR and CARE, significantly shape the relevance and implementation of open data.
+* However, achieving true openness requires not only adherence to these principles and movements but also the backing of sufficient funding and the cultivation of necessary skills among data practitioners. This is crucial for ensuring that open data is not just available but also meaningful and usable.
+
+---
+
+# Conclusion
+
+## The Evolution of Open Data
 
 
+* While open data in itself is a commendable goal, the concept of Linked Open (Usable) Data takes it a step further.
+* Linked Open Data enhances the value of open data by ensuring it is not only available but also interconnected, making it more discoverable and useful for a wider range of applications and analyses.
+* Linked Open Usable Data is about enhancing usability and semantic interoperability leveraging community-driven standards and practices.
+
+---
+
+# Conclusion
+
+## OGD and ORD for GLAM institutions
+
+* ORD and OGD can be viewed both as a service provided to the public and as a process that requires active management and continuous improvement.
+* Institutions in the GLAM sector need to consider how these open data initiatives fit within their practices, both in terms of contributing data and utilising data for research, curation, and public engagement.
+
+
+---
+
+# Conclusion
+
+## Public Engagement and Empowerment
+
+* Open data empowers the public by providing access to information that was previously inaccessible or difficult to obtain.
+* This not only fosters a more informed citizenry but also enables individuals and communities to participate more actively in civic and cultural discourses.
+
+---
+
+# Conclusion
+
+## Transparency and Accountability
+
+* Open data plays a pivotal role in enhancing transparency and accountability, particularly in sectors where public trust is paramount.
+* By making data freely accessible, open data initiatives allow for greater scrutiny and analysis, leading to more accountable governance and institutional practices.
+
+---
+
+# Conclusion
+
+## AI and ML
+
+* Open data serves as a critical fuel for AI systems, providing the large datasets necessary for training ML models. The availability of diverse, high-quality open datasets enables more robust and inclusive AI developments.
+* By leveraging open data, AI can transcend a wide array of domains, from improving healthcare diagnostics to enhancing climate change models, thus contributing significantly to societal advancements and problem-solving.
+* Open data plays a pivotal role in fostering transparency and ethical practices in AI. By using open datasets, AI researchers and developers can ensure a level of accountability in their models, allowing for external validation and reducing biases.
+
+
+---
+
+# Conclusion
+
+## Collaboration is Key
+
+* Collaboration is a fundamental aspect of open data initiatives.
+  * Discussing best practices grounded in collaboration, such as leveraging the Collections as Data checklist
+  * Participating in the IIIF and Linked Art communities for the cultural heritage field (and beyond, notably for the STEM sector)
+  * OGD meet-ups (Open Data Beer)
+  * Etc.
+* Such collaboration is vital for addressing global challenges, encouraging innovation, and ensuring the sustainable development of open data ecosystems.
+
+<!-- 
+
+In summary, open data is more than a concept; it's a dynamic ecosystem that thrives on principles, collaboration, and continuous evolution. Its impact spans from enhancing transparency to empowering public engagement, and its future hinges on effective funding, skill development, and collaborative efforts.
+
+ -->
 
 ---
 
