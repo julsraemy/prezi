@@ -1921,7 +1921,7 @@ https://linked.art/api/1.0/endpoint/digital_object/
 
 ---
 
-# Linked Open Usable Data
+# Linked Open Usable Data (LOUD)
 
 ## LOUD in a nutshell
 
@@ -2471,7 +2471,7 @@ While Kafka, Flink, and NiFi each serve distinct purposes in data streaming and 
 
 # OpenRefine
 
-- Open source tool initally released in 2010 (first as _Freebase Gridworks_ and then as _Google Refine_) for data cleanup and transformation backed up by a dedicated community
+- Open source tool initally released in 2010 (first as _Freebase Gridworks_ and then as _Google Refine_) for data cleanup and transformation
 - It operates as a local web application to clean messy data and can be installed on Windows, macOS and Linux 
 - It handles various types of data (CSV, TSV, JSON, XML) and can connect to and import data from databases and other sources
 - It supports scripting in langauges like General Refine Expression Language (GREL) and Jython, allowing for advanced data manipulation
@@ -2534,7 +2534,7 @@ https://openrefine.org/docs
 
 > Research and data to make progress against the world’s largest problems
 
-- Our World in Data is a collaborative effert between researchers at the University of Oxford and the non-profit organisation [Global Change Data Lab](https://global-change-data-lab.org/) (GCDL).
+- Our World in Data is a collaborative effort between researchers at the University of Oxford and the non-profit organisation [Global Change Data Lab](https://global-change-data-lab.org/) (GCDL).
 - It is a comprehensive online resource that presents empirical research and data on a wide array of global issues, focusing on large-scale problems like poverty, disease, hunger, climate change, war, existential risks, and inequality.
 - The platform aims to provide accessible, comprehensible, and transparent data to inform readers about the state of the world and to support informed decision-making.
 
@@ -2623,7 +2623,7 @@ https://12sunsets.getty.edu/
 
 * While open data in itself is a commendable goal, the concept of Linked Open (Usable) Data takes it a step further.
 * Linked Open Data enhances the value of open data by ensuring it is not only available but also interconnected, making it more discoverable and useful for a wider range of applications and analyses.
-* Linked Open Usable Data is about enhancing usability and semantic interoperability leveraging community-driven standards and practices.
+* LOUD is about enhancing usability and semantic interoperability leveraging community-driven standards and practices.
 
 ---
 
