@@ -30,7 +30,7 @@ Musée d'Art et d'Histoire de Genève | 26 Juin 2023
 # Linked Open Usable Data for Cultural Heritage
 ### Perspectives on Community Practices and Semantic Interoperability
 
-Thèse de doctorat - https://phd.julsraemy.ch - encadré par : 
+Thèse de doctorat - https://phd.julsraemy.ch - encadrée par : 
 - Peter Fornaro (University of Basel)
 - Walter Leimgruber (University of Basel)
 - Robert Sanderson (Yale University)

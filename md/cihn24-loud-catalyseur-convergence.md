@@ -26,3 +26,35 @@ Haute école de gestion de Genève | Carouge, Suisse | 13.02.2024
 
 
 --- 
+
+<!-- footer: Préambule -->
+
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+# Thèse de doctorat
+
+## Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability
+
+Thèse encadrée par :
+- Prof. Dr. Peter Fornaro (Université de Bâle)
+- Prof. Dr. Walter Leimgruber (Université de Bâle)
+- Dr. Robert Sanderson (Yale)
+
+https://phd.julsraemy.ch
+
+
+---
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# Déroulement
+
+## LOUD : Catalyseur de Convergence
+
+- Linked Open Usable Data (LOUD)
+- La plateforme LUX
+
+
+
+---
