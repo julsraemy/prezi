@@ -15,7 +15,7 @@ _paginate: false
 
 <!-- header: Julien A. Raemy | **LOUD : Catalyseur de Convergence** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
-<!-- _footer: Conférence internationale sur les humanités numériques (CIHN24) | [![width:120](https://zenodo.org/badge/DOI/10.5281/zenodo.10526542.svg)](https://doi.org/10.5281/zenodo.10526542) -->
+<!-- _footer: CIHN24 | Haute école de gestion de Genève | 13.02.2024 | [![width:100](https://zenodo.org/badge/DOI/10.5281/zenodo.10526542.svg)](https://doi.org/10.5281/zenodo.10526542) -->
 
 # LOUD : Catalyseur de Convergence
 Julien A. Raemy (Digital Humanities Lab, Université de Bâle)
