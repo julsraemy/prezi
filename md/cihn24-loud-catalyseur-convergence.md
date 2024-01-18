@@ -52,9 +52,118 @@ https://phd.julsraemy.ch
 
 ## LOUD : Catalyseur de Convergence
 
+- Interconnexion des données sur le web
 - Linked Open Usable Data (LOUD)
-- LOUD en pratique : LUX
+- La plateforme LUX, LOUD en pratique
+- Impact et perspectives
 - Conclusion
+
+
+---
+
+<!-- footer: Interconnexion des données sur le web -->
+
+# Une vision ouverte du web
+
+> The [World Wide Web] project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
+
+[Berners-Lee 1991]
+
+
+---
+
+# Le web sémantique
+
+Le Web sémantique est une extension du web, par le biais de normes, afin de le rendre compréhensible par les machines.
+
+![center width:500px](https://julsraemy.ch/prezi/assets/tweaked-semweb-layer-cake.webp)
+
+Tweaked Semantic Web Layer Cake [Idehen 2017]
+
+
+---
+
+#  Resource Description Framework (RDF)
+
+Avec RDF, tout va par trois. La pluplart des parties constitutives des triples ont des identifiants uniformes de ressources (_Uniform Resource Identifier_ - URI). 
+Syntaxe : **sujet, prédicat, objet** $(s \ \vec{p} \ o)$ 
+
+![center width:540px](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
+
+
+
+---
+
+# Linked Open Data (LOD)
+
+## Données ouvertes liées
+
+![center](https://5stardata.info/images/5-star-steps.png)
+
+Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.info/
+
+<!-- 5-star open data scheme 
+1) make your stuff available on the Web (whatever format) under an open license
+2) make it available as structured data
+3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
+4) use URIs to denote things, so that people can point at your stuff
+5) link your data to other data to provide context -->
+
+
+
+---
+
+<!-- footer: Linked Open Usable Data (LOUD) -->
+
+# Linked Open Usable Data (LOUD)
+
+## Données ouvertes liées et utilisables
+
+
+
+
+---
+
+
+---
+
+<!-- footer: La plateforme LUX, LOUD en pratique -->
+
+
+---
+
+# Chaîne de traitement et architecture
+
+![center width:600px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+
+[Raemy & Sanderson 2023]
+
+
+---
+
+<!-- footer: Impact et Perspectives -->
+
+# Impact des données ouvertes liées et utilisables 
+
+L'impact du LOUD sur la recherche et la gestion des données du patrimoine culturel.
+
+---
+
+# Perspectives
+
+## Perspectives pour les sciences de l'information et les humanités numériques
+
+
+---
+
+<!-- footer: Conclusion -->
+
+# Conclusion
+
+
+---
+
+# Conclusion
 
 
 ---
