@@ -591,7 +591,7 @@ UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United N
 
 # Image Credits
 
-## Cultural Anthropology Switzerland
+## Cultural Anthropology Switzerland (CAS)
 
 These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the _Swiss Society for Folklore Studies_, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 

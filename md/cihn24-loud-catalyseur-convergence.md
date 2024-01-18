@@ -61,6 +61,18 @@ https://phd.julsraemy.ch
 
 ---
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Interconnexion des données sur le web
+
+
+---
+
 <!-- footer: Interconnexion des données sur le web -->
 
 # Une vision ouverte du web
@@ -74,7 +86,7 @@ https://phd.julsraemy.ch
 
 # Le web sémantique
 
-Le Web sémantique est une extension du web, par le biais de normes, afin de le rendre compréhensible par les machines.
+Le web sémantique est une extension du web, par le biais de normes, afin de le rendre compréhensible par les machines.
 
 ![center width:500px](https://julsraemy.ch/prezi/assets/tweaked-semweb-layer-cake.webp)
 
@@ -113,6 +125,18 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 ---
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Linked Open Usable Data (LOUD)
+
+
+---
+
 <!-- footer: Linked Open Usable Data (LOUD) -->
 
 # Linked Open Usable Data (LOUD)
@@ -127,7 +151,35 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 ---
 
+![bg opacity:.2](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.2](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.2](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.2](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## La plateforme LUX, LOUD en pratique
+
+
+---
+
 <!-- footer: La plateforme LUX, LOUD en pratique -->
+
+# Yale Collections Discovery
+
+LUX – https://lux.collections.yale.edu/ – regroupe des collections des bibliothèques, musées et archives de l'université de Yale : _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery_. 
+
+## Basé sur des standards ouverts
+
+- Linked Art, IIIF, W3C Activity Streams – tous sérialisés en JSON-LD 
+- Technologies communes : Python, JavaScript, Node.js, React, AWS
+- Documentation et mise à disposition des chaînes de traitement, modélisation et correspondance des données
+- Base de données multimodale orientée documents (NoSQL) : MarkLogic Server
+
+<!-- Toutes les composantes de LUX, y compris le code spécifique pour MarkLogic, sera rendu open source.  -->
 
 
 ---
@@ -141,7 +193,30 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 ---
 
-<!-- footer: Impact et Perspectives -->
+# LOUD en pratique
+
+![center](https://julsraemy.ch/prezi/assets/lux-demo.gif)
+
+[Lien vers une résolution optimisée de la vidéo](https://julsraemy.ch/prezi/assets/lux-demo.webm)
+
+
+---
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Impact et perspectives
+
+
+---
+
+
+
+<!-- footer: Impact et perspectives -->
 
 # Impact des données ouvertes liées et utilisables 
 
@@ -152,6 +227,18 @@ L'impact du LOUD sur la recherche et la gestion des données du patrimoine cultu
 # Perspectives
 
 ## Perspectives pour les sciences de l'information et les humanités numériques
+
+
+---
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Conclusion
 
 
 ---
@@ -174,7 +261,11 @@ L'impact du LOUD sur la recherche et la gestion des données du patrimoine cultu
 
 # Références bibliographiques
 
+Berners-Lee, T. (1991, August 6). WorldWideWeb — Executive summary. Archive.Md. https://archive.md/Lfopj
 
+Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+
+Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
 
 ---
 

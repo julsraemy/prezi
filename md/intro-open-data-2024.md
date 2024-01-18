@@ -39,8 +39,6 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 - Expectations of the course
 - Open Data?
 
-Image Background: Brunner, Ernst. (1939). _[Ringtanz während der Masüras auf der Alp Sura]_, Guarda [Black and White Negative]. SGV_12 Ernst Brunner. DL 89, SGV_12N_08589. [Photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the Swiss Society for Folklore Studies, based in Basel, Switzerland. [![w:70](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-
 ---
 
 # Course Outline
@@ -58,6 +56,9 @@ Courses take place over the course of four Monday afternoons
  -->
 
 ---
+
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -94,6 +95,8 @@ Courses take place over the course of four Monday afternoons
 This assignment is weighted at 20% of the 7C2-CT module.
 
 ---
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -1028,6 +1031,8 @@ In pairs or small groups, you will conceptualise a new platform for open data. I
 
 ---
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
 <!-- _header: " "  -->
@@ -1932,6 +1937,9 @@ https://linked.art/api/1.0/endpoint/digital_object/
 ---
 
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
 <!-- _header: " "  -->
@@ -2236,6 +2244,9 @@ https://github.com/rnckp/awesome-ogd-switzerland
 
 ---
 
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
 <!-- _header: " "  -->
@@ -2318,6 +2329,9 @@ Used in Switzerland for the opendata.swiss platform
 _And of course the important principles from FAIR, CARE, Collections as Data, LOUD (and surely others)_
 
 ---
+
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -2499,6 +2513,9 @@ https://openrefine.org/docs
 
 ---
 
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
 <!-- _header: " "  -->
@@ -2516,6 +2533,9 @@ https://openrefine.org/docs
 ## Work on your assignment
 
 ---
+
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -2707,7 +2727,7 @@ Simply awaiting to be found.
 # References $I$
 
 <!-- class: tinytext --> 
-<!-- footer: References -->
+<!-- footer: References and Image Credits -->
 
 Alter, G., Rizzolo, F., & Schleidt, K. (2023). View points on data points: A shared vocabulary for cross-domain conversations on data and metadata. IASSIST Quarterly, 47(1), 1–39. https://doi.org/10.29173/iq1051
 
@@ -2737,7 +2757,6 @@ Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and
 Floridi, L. (2010). Information: A very short introduction. Oxford University Press.
 
 FOSTER. (2019). Open Science. In Foster Taxonomy. FACILITATE OPEN SCIENCE TRAINING FOR EUROPEAN RESEARCH. https://www.fosteropenscience.eu/taxonomy/term/100
-
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
@@ -2800,6 +2819,20 @@ Stürmer, M. E. (2016). Measuring the promise of open data: Development of the I
 
 Tennant, J., Agarwal, R., Baždarić, K., Brassard, D., Crick, T., Dunleavy, D. J., Evans, T. R., Gardner, N., Gonzalez-Marquez, M., Graziotin, D., Greshake Tzovaras, B., Gunnarsson, D., Havemann, J., Hosseini, M., Katz, D. S., Knöchelmann, M., Madan, C. R., Manghi, P., Marocchino, A., … Yarkoni, T. (2020). A tale of two ‘opens’: Intersections between Free and Open Source Software and Open Scholarship [Preprint]. SocArXiv. https://doi.org/10.31235/osf.io/2kxq8
 
-
 Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
 
+---
+
+
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# Image Credits
+
+## Cultural Anthropology Switzerland (CAS)
+
+These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the _Swiss Society for Folklore Studies_, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+
+- Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53. https://archiv.sgv-sstp.ch/resource/441788
+- Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89. https://archiv.sgv-sstp.ch/resource/430824
