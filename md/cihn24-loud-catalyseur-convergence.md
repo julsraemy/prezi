@@ -243,7 +243,7 @@ Linked Art est une communauté et un groupe de travail du CIDOC qui collabore à
 
 https://linked.art
 
-![center](https://julsraemy.ch/prezi/assets/la-model.svg)
+![center](https://julsraemy.ch/prezi/assets/la-overview.svg)
 
 ---
 
@@ -263,7 +263,7 @@ https://linked.art
 
 # Intégration numérique (IIIF) avec Linked Art
 
-![center](https://julsraemy.ch/prezi/assets/iiif-la-overview.svg)
+![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
 
 
 ---

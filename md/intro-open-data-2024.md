@@ -1863,6 +1863,13 @@ https://linked.art
 
 ---
 
+# Linked Art Overview
+
+![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+
+
+---
+
 # Linked Art Data Model Fundamentals
 
 | Level         | Linked Art                      |
@@ -1917,6 +1924,13 @@ https://linked.art/api/1.0/endpoint/digital_object/
 ```
 
 ---
+
+# Linked Art Digital Integration (with IIIF)
+
+![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+
+---
+
 
 # LOUD-Driven Infrastructure
 
