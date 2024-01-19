@@ -254,7 +254,7 @@ https://linked.art
 | **Modèle conceptuel**      | CIDOC Conceptual Reference Model (CRM)                       |
 | **Ontologie**   | [Encodage RDF de la version CRM 7.1]((https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html)), plus quelques extensions       |
 | **Vocabulaire** | [Getty]((https://www.getty.edu/research/tools/vocabularies/)) (AAT, ULAN, TGN) |
-| **Profile**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
+| **Profil**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
 | **API**        | JSON-LD, style d'architecture REST              |
 
 [Points de terminaison de l'API Linked Art](https://linked.art/api/1.0/endpoint/): _Concepts, Digital Objects, Events, Groups, People, Physical Objects, Places, Provenance Activities, Sets, Textual Works, Visual Works_

@@ -308,7 +308,7 @@ Linked Art est une communauté et un groupe de travail du CIDOC qui collabore à
 | **Modèle**      | CIDOC Conceptual Reference Model (CRM)                       |
 | **Ontologie**   | Encodage RDF de la version CRM 7.1, plus quelques extensions       |
 | **Vocabulaire** | Getty (AAT, ULAN, TGN) |
-| **Profile**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
+| **Profil**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
 | **API**        | JSON-LD, style d'architecture REST              |
 
 <!-- - Fait correspondre les classes et leurs relations respectives à partir de l’ontologie RDF CIDOC-CRM 7.1
