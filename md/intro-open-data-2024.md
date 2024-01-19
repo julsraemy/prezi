@@ -1865,7 +1865,7 @@ https://linked.art
 
 # Linked Art Overview
 
-![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+![center](https://julsraemy.ch/prezi/assets/la-overview.svg)
 
 
 ---
@@ -1874,7 +1874,7 @@ https://linked.art
 
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
-| **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Conceptual Model**      | CIDOC Conceptual Reference Model (CRM)                       |
 | **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
 | **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/) (mainly the Art & Architecture Thesaurus) |
 | **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |

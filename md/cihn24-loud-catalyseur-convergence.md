@@ -243,7 +243,7 @@ Linked Art est une communauté et un groupe de travail du CIDOC qui collabore à
 
 https://linked.art
 
-![center](https://julsraemy.ch/prezi/assets/la-overview.svg)
+![center w:570](https://julsraemy.ch/prezi/assets/la-overview.svg)
 
 ---
 
@@ -251,7 +251,7 @@ https://linked.art
 
 | Niveau d'abstraction         | Linked Art                      |
 |----------------|---------------------------------|
-| **Modèle**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Modèle conceptuel**      | CIDOC Conceptual Reference Model (CRM)                       |
 | **Ontologie**   | [Encodage RDF de la version CRM 7.1]((https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html)), plus quelques extensions       |
 | **Vocabulaire** | [Getty]((https://www.getty.edu/research/tools/vocabularies/)) (AAT, ULAN, TGN) |
 | **Profile**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
