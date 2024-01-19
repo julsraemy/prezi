@@ -142,12 +142,17 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 ## Données ouvertes liées et utilisables
 
-* Le concept a été proposé par Robert Sanderson, qui a participé à la conception et à la maintenance de normes web, principalement dans le domaine du patrimoine culturel. 
 * L'objectif du LOUD est de **concrétiser l'intention du web sémantique à une échelle globale d'une manière pragmatique** en s'appuyant sur des spécifications communautaires et basées sur le format **JSON-LD**.
 * LOUD repose sur cinq grands principes de conception visant à **rendre les données plus facilement accessibles aux développeurs de logiciels**, qui occupent un rôle déterminant dans l'interaction avec les données et la création de programmes et de services à partir de celles-ci, et, dans une certaine mesure, aux membres de la communauté universitaire.
 
 
 [Sanderson 2018, 2019]
+
+<!-- 
+
+Le concept a été proposé par Robert Sanderson, qui a participé à la conception et à la maintenance de normes web, principalement dans le domaine du patrimoine culturel. 
+
+ -->
 
 ---
 
@@ -206,7 +211,7 @@ Un modèle doit pouvoir contenir le moins d'exceptions possibles pour éviter d'
 ## IIIF
 
 - Un modèle pour la présentation et annotation d’objets numériques
-- Une communauté, qui développe des interfaces de programmation applicatives (API) partagées, les implémentent dans des logiciels et exposent des contenus interopérables sur le Web
+- Une communauté, qui développe des interfaces de programmation applicative (API) partagées, les implémentent dans des logiciels et exposent des contenus interopérables sur le Web
 
 https://iiif.io
 
@@ -381,7 +386,7 @@ LOUD émerge comme un catalyseur clé pour les sciences de l'information et les 
 
 ## Vers une convergence collaborative et interopérable
 
-* Le développement communautaire des normes IIIF et Linked Art dans un esprit de collaboration et de transparence constitue l'un des moteurs essentiels, même si la mise en œuvre doit être menée en parallèle (spécifications par opposition à la faisabilité).
+* Le développement communautaire des normes IIIF et Linked Art, caractérisé par un esprit de collaboration et de transparence, est un moteur essentiel. Il est impératif, en parallèle de l'élaboration de ces normes, de développer des logiciels et des outils qui soient compatibles avec ces spécifications pour en exploiter pleinement le potentiel.
 * Les standards LOUD, employés conjointement, améliorent l'interopérabilité sémantique, même si cela se fait au détriment d'une certaine pureté ontologique.
 * Les pratiques et les normes LOUD devraient servir de dénominateurs communs pour les institutions du patrimoine culturel, les organismes publics et les projets de recherche.
 
