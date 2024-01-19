@@ -142,9 +142,9 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 ## Données ouvertes liées et utilisables
 
-- Le concept a été proposé par Robert Sanderson, qui a participé à la conception et à la maintenance de normes web, principalement dans le domaine du patrimoine culturel. 
-- L'objectif du LOUD est de **concrétiser l'intention du web sémantique à une échelle globale d'une manière pragmatique** en s'appuyant sur des spécifications communautaires et basées sur le format **JSON-LD**.
-- LOUD repose sur cinq grands principes de conception visant à **rendre les données plus facilement accessibles aux développeurs de logiciels**, qui occupent un rôle déterminant dans l'interaction avec les données et la création de programmes et de services à partir de celles-ci, et, dans une certaine mesure, aux membres de la communauté universitaire.
+* Le concept a été proposé par Robert Sanderson, qui a participé à la conception et à la maintenance de normes web, principalement dans le domaine du patrimoine culturel. 
+* L'objectif du LOUD est de **concrétiser l'intention du web sémantique à une échelle globale d'une manière pragmatique** en s'appuyant sur des spécifications communautaires et basées sur le format **JSON-LD**.
+* LOUD repose sur cinq grands principes de conception visant à **rendre les données plus facilement accessibles aux développeurs de logiciels**, qui occupent un rôle déterminant dans l'interaction avec les données et la création de programmes et de services à partir de celles-ci, et, dans une certaine mesure, aux membres de la communauté universitaire.
 
 
 [Sanderson 2018, 2019]
@@ -155,11 +155,11 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 ## Principes de conception
 
-* La bonne abstraction en fonction du public (_The right Abstraction for the audience_)
-* Peu d'obstacles à l'entrée (_Few Barriers to entry_)
-* Compréhensible par introspection (_Comprehensible by introspection_)
-* Documentation comportant des exemples concrets (_Documentation with working examples_)
-* Peu d'exceptions, mais de nombreux modèles cohérents (_Few Exceptions, instead many consistent patterns_)
+- La bonne abstraction en fonction du public (_The right Abstraction for the audience_)
+- Peu d'obstacles à l'entrée (_Few Barriers to entry_)
+- Compréhensible par introspection (_Comprehensible by introspection_)
+- Documentation comportant des exemples concrets (_Documentation with working examples_)
+- Peu d'exceptions, mais de nombreux modèles cohérents (_Few Exceptions, instead many consistent patterns_)
 
 https://linked.art/loud/. Propre traduction [Raemy 2022]
 
@@ -280,7 +280,7 @@ https://linked.art
 
 # Yale Collections Discovery
 
-LUX – https://lux.collections.yale.edu/ – regroupe des collections des bibliothèques, musées et archives de l'université de Yale : _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery_. 
+LUX – https://lux.collections.yale.edu/ – regroupe les collections des bibliothèques, musées et archives de l'université de Yale : _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery_. 
 
 ## Plateforme reposant sur des normes ouvertes
 
