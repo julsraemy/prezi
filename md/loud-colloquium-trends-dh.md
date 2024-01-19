@@ -894,13 +894,14 @@ Yale Collections Discovery
 
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
-# Based on standards
-
-- Open Standards : Linked Art, IIIF, W3C Activity Streams 
-- Widespread technologies : Python, JavaScript, Node.js, React, AWS
-- Multimodal database (NoSQL) : MarkLogic Server
+# Built on open standards
 
 &rarr; LUX adheres to the _Linked Open Usable Data (LOUD)_ design principles
+
+* Linked Art, IIIF, W3C Activity Streams 
+* Widespread technologies: Python, JavaScript, Node.js, React, AWS
+* Multimodal database (NoSQL): MarkLogic Server
+
 
 <!-- _footer: "https://lux.collections.yale.edu/" -->
 

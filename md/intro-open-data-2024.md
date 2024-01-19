@@ -48,7 +48,7 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 | 19.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
 | 26.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
 | 04.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Techniques, Software, and Tools](#techniques-software-and-tools)                  	|
-| 11.03.2024 	| [Assignment Workshop](#assignment-workshop), [Showcases](#showcases), [Conclusion](#conclusion)                  	|
+| 11.03.2024 	| [Assignment Workshop](#assignment-workshop), [Showcases](#showcases), [Conclusion](#conclusion), [References and Image Credits](#references-and-image-credits)                  	|
 
 <!-- 
 Courses take place over the course of four Monday afternoons
@@ -2603,6 +2603,36 @@ https://12sunsets.getty.edu/
 
 ---
 
+![bg opacity:.15](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.15](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.15](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.15](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
+# LUX: Yale Collections Discovery 
+
+LUX  provides a unified gateway of cultural heritage resources to the holdings of Yale’s museums, archives, and libraries: _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery_. 
+
+## Built on open standards
+
+* Linked Art, IIIF, W3C Activity Streams 
+* Widespread technologies: Python, JavaScript, Node.js, React, AWS
+* Multimodal database (NoSQL): MarkLogic Server
+
+https://lux.collections.yale.edu/
+
+
+---
+
+# LUX: Yale Collections Discovery 
+
+## Data pipeline and architecture
+
+![center width:550px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+
+[Raemy & Sanderson 2023]
+
+---
+
 
 # LUX: Yale Collections Discovery 
 
@@ -2614,6 +2644,7 @@ https://12sunsets.getty.edu/
 
 ---
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -2721,6 +2752,17 @@ And a multitude of answers,
 Simply awaiting to be found.
 
 [Mr Gee 2023], Data Poet at EuropeanaTech 2023
+
+---
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## References and Image Credits
 
 ---
 
