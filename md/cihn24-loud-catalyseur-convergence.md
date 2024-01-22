@@ -143,6 +143,7 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 ## Données ouvertes liées et utilisables
 
 * L'objectif du LOUD est de **concrétiser l'intention du web sémantique à une échelle globale d'une manière pragmatique** en s'appuyant sur des spécifications communautaires et basées sur le format **JSON-LD**.
+
 * LOUD repose sur cinq grands principes de conception visant à **rendre les données plus facilement accessibles aux développeurs de logiciels**, qui occupent un rôle déterminant dans l'interaction avec les données et la création de programmes et de services à partir de celles-ci, et, dans une certaine mesure, aux membres de la communauté universitaire.
 
 
@@ -161,9 +162,13 @@ Le concept a été proposé par Robert Sanderson, qui a participé à la concept
 ## Principes de conception
 
 - La bonne abstraction en fonction du public (_The right Abstraction for the audience_)
+
 - Peu d'obstacles à l'entrée (_Few Barriers to entry_)
+
 - Compréhensible par introspection (_Comprehensible by introspection_)
+
 - Documentation comportant des exemples concrets (_Documentation with working examples_)
+
 - Peu d'exceptions, mais de nombreux modèles cohérents (_Few Exceptions, instead many consistent patterns_)
 
 https://linked.art/loud/. Propre traduction [Raemy 2022]
@@ -294,7 +299,7 @@ CIDOC - Comité international pour la documentation du conseil international des
 
 # Yale Collections Discovery
 
-LUX – https://lux.collections.yale.edu/ – regroupe les collections des bibliothèques, musées et archives de l'université de Yale : _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery_. 
+LUX – https://lux.collections.yale.edu/ – regroupe plus de 41 millions de resources des bibliothèques, musées et archives de l'université de Yale : _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery_. 
 
 ## Plateforme reposant sur des normes ouvertes
 
@@ -389,7 +394,9 @@ LOUD émerge comme un catalyseur clé pour les sciences de l'information et les 
 ## Vers une convergence collaborative et interopérable
 
 * Le développement communautaire des normes IIIF et Linked Art, caractérisé par un esprit de collaboration et de transparence, est un moteur essentiel. Il est impératif, en parallèle de l'élaboration de ces normes, de développer des logiciels et des outils qui soient compatibles avec ces spécifications pour en exploiter pleinement le potentiel.
+
 * Les standards LOUD, employés conjointement, améliorent l'interopérabilité sémantique, même si cela se fait au détriment d'une certaine pureté ontologique.
+
 * Les pratiques et les normes LOUD devraient servir de dénominateurs communs pour les institutions du patrimoine culturel, les organismes publics et les projets de recherche.
 
 
@@ -440,5 +447,7 @@ Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Cons
 Ces images font partie des [archives photographiques d'Anthropologie Culturelle Suisse](https://archiv.sgv-sstp.ch/), anciennement la _société suisse des traditions populaires_, sise à Bâle. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 - Brunner, Ernst. [Blick auf das Spalentor]. Basel, 1938. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_00115. Alte Bildnummer: AB 15. https://archiv.sgv-sstp.ch/resource/422350 
+
 - Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53. https://archiv.sgv-sstp.ch/resource/441788
+
 - Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89. https://archiv.sgv-sstp.ch/resource/430824

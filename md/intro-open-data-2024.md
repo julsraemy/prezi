@@ -2748,7 +2748,7 @@ https://12sunsets.getty.edu/
 
 # LUX: Yale Collections Discovery 
 
-LUX  provides a unified gateway of cultural heritage resources to the holdings of Yale’s museums, archives, and libraries: _Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery_. 
+LUX provides a unified gateway to more than 41 million cultural heritage resources held by Yale's museums, archives and libraries: Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery.
 
 ## Built on open standards
 

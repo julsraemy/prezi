@@ -286,8 +286,10 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 ## LOUD
 
 
-- The term was coined by Robert Sanderson who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field. 
+- The term was coined by Robert Sanderson who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field.
+
 - LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven and JSON-LD-based specifications.
+
 - It has five main design principles to make the data more easily accessible to software developers, who play a key role in interacting with the data and building software and services on top of it, and to some extent to academics. 
 
 ---
@@ -408,7 +410,7 @@ https://www.theleidencollection.com/viewer/david-and-uriah/
 
 # Linked Art
 
-**Linked Art is a community collaborating to define a metadata application profile (the model) for describing cultural heritage, and the technical means for conveniently interacting with it (the API).** 
+Linked Art is a community and a CIDOC (_ICOM International Committee for Documentation_) Working Group collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
 
 https://linked.art
 
@@ -435,9 +437,9 @@ https://linked.art
 
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
-| **Model**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Model**      | [CIDOC Conceptual Reference Model](https://www.cidoc-crm.org/) (CRM)                       |
 | **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
-| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/) (mainly the Art & Architecture Thesaurus) |
+| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/), mainly the Art & Architecture Thesaurus (AAT), as well as the Thesaurus of Geographic Names (TGN) and the Union List of Artist Names (ULAN) |
 | **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
 | **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
 
@@ -468,46 +470,43 @@ https://linked.art
 
 ---
 
-# LUX: Yale Collections Discovery
+![bg opacity:.15](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.15](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.15](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.15](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
 
-![bg opacity:.2](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
-![bg opacity:.2](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
-![bg opacity:.2](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
-![bg opacity:.2](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+# LUX: Yale Collections Discovery 
 
-- 41 million resources from 
-    - Yale University Library
-    - Yale Center for British Art
-    - Yale Peabody Museum
-    - Yale University Art Gallery 
-- Platform based on open and shared standards (IIIF, Linked Art)
+LUX provides a unified gateway to more than 41 million cultural heritage resources held by Yale's museums, archives and libraries: Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery.
+
+## Built on open standards
+
+* Linked Art, IIIF, W3C Activity Streams 
+* Widespread technologies: Python, JavaScript, Node.js, React, AWS
+* Multimodal database (NoSQL): MarkLogic Server
 
 https://lux.collections.yale.edu/
 
+
 ---
 
-# LUX Data Pipeline and Architecture
+# LUX: Yale Collections Discovery 
 
-![center width:600px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+## Data pipeline and architecture
+
+![center width:550px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
 
 [Raemy & Sanderson 2023]
 
-<!-- 
-
-Harvest: It runs nightly and is triggered by an operating system level scheduler to poll each stream to find and retrieve records that have changed since the previous harvest.
-Transform: The records are passed through source specific transformation routines in order to either map from arbitrary data formats, or to validate and clean up records already provided in Linked Art. 
-Reconcile: This process is conducted to discover further identities from the various datasets to be able to collect all information about a particular entity eventually into a single record.
-Re-Identify: It maps the original \acp{URI} of the records to the internal identifiers.
-Merge: The records from multiple sources that have been mapped to the same identifier are merged together to form the single record.
-Load: The resulting dataset is then annotated with some additional features for indexing and exported to MarkLogic.
-
--->
-
 ---
+
+
+# LUX: Yale Collections Discovery 
 
 ![center](https://julsraemy.ch/prezi/assets/lux-demo.gif)
 
 [Link to optimised video resolution](https://julsraemy.ch/prezi/assets/lux-demo.webm)
+
 
 
 ---
@@ -518,9 +517,11 @@ Load: The resulting dataset is then annotated with some additional features for 
 
 ## Some concluding thoughts about LOUD
 
-- Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
-- LOUD standards, when used in conjunction, enhances semantic interoperability, even if it comes at the cost of ontological purity.
-- LOUD practices and standards should serve as common denominators for cultural heritage institutions, public bodies as well as research projects.
+* Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
+
+* LOUD standards, when used in conjunction, enhances semantic interoperability, even if it comes at the cost of ontological purity.
+
+* LOUD practices and standards should serve as common denominators for cultural heritage institutions, public bodies as well as research projects.
 
 <!-- 
 
@@ -596,6 +597,8 @@ UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United N
 These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the _Swiss Society for Folklore Studies_, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 - Brunner, Ernst. [Blick auf das Spalentor]. Basel, 1938. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_00115. Alte Bildnummer: AB 15. https://archiv.sgv-sstp.ch/resource/422350 
+
 - Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53. https://archiv.sgv-sstp.ch/resource/441788
+
 - Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89. https://archiv.sgv-sstp.ch/resource/430824
 
