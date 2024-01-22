@@ -244,11 +244,13 @@ https://www.w3.org/TR/annotation-model/
 
 # Linked Art
 
-Linked Art est une communauté et un groupe de travail du CIDOC qui collabore à la définition d'un profil d'application de métadonnées (le modèle) pour décrire les données du patrimoine culturel et les moyens techniques pour interagir avec celles-ci (l'API). 
+Linked Art est une communauté et un groupe de travail du CIDOC (_ICOM International Committee for Documentation_) qui collabore à la définition d'un profil d'application de métadonnées pour décrire les données du patrimoine culturel et les moyens techniques pour interagir avec celles-ci (l'API). https://linked.art
 
-https://linked.art
+![center w:580](https://julsraemy.ch/prezi/assets/la-overview.svg)
 
-![center w:570](https://julsraemy.ch/prezi/assets/la-overview.svg)
+<!-- 
+CIDOC - Comité international pour la documentation du conseil international des musées
+ -->
 
 ---
 
@@ -256,9 +258,9 @@ https://linked.art
 
 | Niveau d'abstraction         | Linked Art                      |
 |----------------|---------------------------------|
-| **Modèle conceptuel**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Modèle conceptuel**      | [CIDOC Conceptual Reference Model](https://www.cidoc-crm.org/) (CRM)                       |
 | **Ontologie**   | [Encodage RDF de la version CRM 7.1]((https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html)), plus quelques extensions       |
-| **Vocabulaire** | [Getty]((https://www.getty.edu/research/tools/vocabularies/)) (AAT, ULAN, TGN) |
+| **Vocabulaire** | [Getty](https://www.getty.edu/research/tools/vocabularies/) (AAT, ULAN, TGN) |
 | **Profil**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
 | **API**        | JSON-LD, style d'architecture REST              |
 

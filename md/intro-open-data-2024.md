@@ -1040,7 +1040,9 @@ In pairs or small groups, you will conceptualise a new platform for open data. I
 
 ## Associated Movements and Principles
 
-- Open Access / Open Science / Open Scholarship
+- Open Access
+- Open Science / Open Scholarship
+- Open Source / Free Software / F(L)OSS
 - FAIR Data Principles
 - CARE Principles for Indigenous Data Governance
 - Collections as Data
@@ -1096,6 +1098,82 @@ In pairs or small groups, you will conceptualise a new platform for open data. I
 Relevance in Arts and Humanities
   - Addresses complex cultural materials and narratives with societal implications.
   - Promotes cultural understanding and engagement with broader societal issues.
+
+ -->
+
+---
+
+# Open Source
+
+- **Definition and Philosophy**: Open Source refers to software with source code that can be inspected, modified, and enhanced by anyone. It emphasizes collaboration and community-oriented development.
+- **Key Characteristics**: Includes free redistribution, access to source code, and allowance for derived works.
+
+---
+
+# Open Source
+
+## Criteria
+
+1. Free redistribution
+2. Source code must be included
+3. Derived works must be allowed
+4. Integrity of the author's source code
+5. No discrimation against persons or groups
+
+
+---
+
+# Open Source
+
+6. No discrimation against fields of endeavour
+7. Distribution of licence
+8. Licence must not be specific to a product
+9. Licence must not restrict other software
+10. Licence must be technology-neutral
+
+
+https://opensource.org/osd/
+
+---
+
+# Free Software
+
+- Free Software is centred around the idea of user freedom – the freedom to run, study, change, and distribute the software. "Free" refers to freedom, not price.
+- It has **four essential freedoms**
+  - The freedom to run the program as you wish, for any purpose (freedom 0).
+  - The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+  - The freedom to redistribute copies so you can help others (freedom 2).
+  - The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+
+<!-- 
+
+It emphasises users' rights and community benefits, going beyond mere practical advantages. Key projects include the GNU Operating System and Free Software Directory.
+
+ -->  
+
+---
+
+# Free Software
+
+> “Free software” means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, “free software” is a matter of liberty, not price. To understand the concept, you should think of “free” as in “free speech,” not as in “free beer.” We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom, to show we do not mean the software is gratis.
+
+https://www.gnu.org/philosophy/free-sw.en.html
+
+
+---
+
+# F(L)OSS
+
+## Free/Libre and Open Source Software
+
+> This is software for which the licensee can get the source code, and is allowed to modify this code and to redistribute the software and the modifications. Many terms are used: free, referring to the freedom to use (not to “free of charge”), libre, which is the French translation of Free/freedom, and which is preferred by some writers to avoid the ambiguous reference to free of charge, and open source, which focuses more on the access to the sources than on the freedom to redistribute. In practice, the differences are not great, and more and more scholars are choosing the term FLOSS to name this whole movement.
+
+[Jullien 2009]
+
+"Neutral stance": See https://www.gnu.org/philosophy/floss-and-foss.en.html
+
+<!-- 
+FLOSS merges the social and ethical emphasis of Free Software with the pragmatic model of Open Source.
 
  -->
 
@@ -1839,7 +1917,7 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 
 # Linked Art
 
-**Linked Art is a community collaborating to define a metadata application profile (the model) for describing cultural heritage, and the technical means for conveniently interacting with it (the API).** 
+Linked Art is a community and a CIDOC (_ICOM International Committee for Documentation_) Working Group collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
 
 https://linked.art
 
@@ -1874,9 +1952,9 @@ https://linked.art
 
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
-| **Conceptual Model**      | CIDOC Conceptual Reference Model (CRM)                       |
+| **Conceptual Model**      | [CIDOC Conceptual Reference Model](https://www.cidoc-crm.org/) (CRM)                       |
 | **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
-| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/) (mainly the Art & Architecture Thesaurus) |
+| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/), mainly the Art & Architecture Thesaurus (AAT), as well as the Thesaurus of Geographic Names (TGN) and the Union List of Artist Names (ULAN) |
 | **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
 | **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
 
@@ -2595,7 +2673,6 @@ The sports facility finder shows sports and exercise facilities operated by the 
 
 
 
-
 ---
 
 # Heile Preise
@@ -2607,13 +2684,36 @@ Launched in 2023 by Mario Zechner, this platform offers a comprehensive platform
 
 ---
 
+# Animal Crossing Art Generator
+
+- **Innovative tool for integrating virtual art**: The generator allows players to turn any image from the Getty Museum's open-access collection into miniature works of art for use in the Animal Crossing: New Horizons game.
+- **Creative Expression and Customisation**: Players can use the tool to add famous artworks to their game by applying them to clothing, wallpaper, canvas, etc., enhancing their virtual environment with museum-quality art.
+- **Technical foundation and accessibility**: Uses open source code from the Animal Crossing Pattern Tool and includes a IIIF manifest converter for broader art integration, making it easy to import art from various institutions into the game.
+
+https://experiments.getty.edu/ac-art-generator/
+
+---
+
+# Animal Crossing Art Generator
+
+![center](https://julsraemy.ch/prezi/assets/animal-crossing-art-generator.gif)
+
+
+---
+
 # 12 sunsets: Exploring Ed Ruscha's Archive
 
-- Interactive platform launched in 2020 to explore Sunset Boulevard throughout 60 years as photographed by Ed Ruscha (between 1965 and 2007)
-- It compiles more than 65,000 photographs which are all linked to the Getty Research Institute
+- Interactive platform launched in 2020 by the J. Paul Getty Trust to explore Sunset Boulevard throughout 60 years (between 1965 and 2007) as photographed by Ed Ruscha
+- The  65,000 photographs are IIIF-compliant and are all linked to the Getty Research Institute 
 
 https://12sunsets.getty.edu/
 
+
+---
+
+# 12 sunsets: Exploring Ed Ruscha's Archive
+
+![center](https://julsraemy.ch/prezi/assets/12sunsets.gif)
 
 ---
 
@@ -2797,12 +2897,12 @@ Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R.,
 
 Carroll, S. R., Herczog, E., Hudson, M., Russell, K., & Stall, S. (2021). Operationalizing the CARE and FAIR Principles for Indigenous data futures. Scientific Data, 8(1), 108. https://doi.org/10.1038/s41597-021-00892-0
 
-Chen, M., & Floridi, L. (2013). An analysis of information visualisation. Synthese, 190(16), 3421–3438. 
-https://doi.org/10.1007/s11229-012-0183-y
-
 ---
 
 # References $II$
+
+Chen, M., & Floridi, L. (2013). An analysis of information visualisation. Synthese, 190(16), 3421–3438. 
+https://doi.org/10.1007/s11229-012-0183-y
 
 Concordat Working Group. (2016). Concordat on Open Research Data. UK Research and Innovation. https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf
 
@@ -2814,20 +2914,27 @@ Floridi, L. (2010). Information: A very short introduction. Oxford University Pr
 
 FOSTER. (2019). Open Science. In Foster Taxonomy. FACILITATE OPEN SCIENCE TRAINING FOR EUROPEAN RESEARCH. https://www.fosteropenscience.eu/taxonomy/term/100
 
-Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
-
-Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA), Pub. L. No. FF 2023 787, 22.022 Confédération suisse. Secrétariat général DFF (2023). https://fedlex.data.admin.ch/eli/fga/2023/787
-
-OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
-
 
 ---
 
 # References $III$
 
+Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+
+Jullien, N. (2009). A Historical Analysis of the Emergence of Free Cooperative Software Production: In M. Pagani (Ed.), Encyclopedia of Multimedia Technology and Networking, Second Edition (pp. 605–612). IGI Global. https://doi.org/10.4018/978-1-60566-014-1.ch081
+
+Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA), Pub. L. No. FF 2023 787, 22.022 Confédération suisse. Secrétariat général DFF (2023). https://fedlex.data.admin.ch/eli/fga/2023/787
+
+OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
+
 Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
 
 Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Swiss_National_ORD_Strategy_en.pdf
+
+
+---
+
+# References $IV$
 
 Open Science Delegation. (2021b). Swiss National Strategy Open Research Data: Action Plan. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/ActionPlanV1.0_December_2021_def.pdf
 
@@ -2841,9 +2948,10 @@ Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of 
 
 Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
+
 ---
 
-# References $IV$
+# References $V$
 
 Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
 
@@ -2859,11 +2967,9 @@ Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically
 
 Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
 
-
-
 ---
 
-# References $V$
+# References $VI$
 
 Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
 
