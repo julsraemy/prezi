@@ -107,6 +107,7 @@ This assignment is weighted at 20% of the 7C2-CT module.
 
 - Definitions
 - History
+- The Impact of Open Data on Disciplines
 - Typology
 - Purposes
 - Requirements
@@ -230,6 +231,29 @@ Some activists and entrepreneurs who already used public data were attending the
 Source: https://www.paristechreview.com/2013/03/29/brief-history-open-data/
 
  -->
+
+
+---
+
+# The Impact of Open Data on Disciplines
+
+## Catalysing interdisciplinary progress
+
+- **A foundation for collaboration and innovation**: Open data drives interdisciplinary research by providing universally accessible datasets, fostering collaboration across diverse fields such as information science, digital humanities and data science.
+
+- **Enabling data-driven research**: Facilitates advanced analysis and research in disciplines that rely heavily on data, increasing the accuracy and depth of insights and discoveries.
+
+---
+
+# The Impact of Open Data on Disciplines
+
+## Open Data in Information Science, Digital Humanities, and Data Science
+
+- **Information Science**: Improves data management and accessibility, enabling more efficient data retrieval, archiving and dissemination practices.
+
+- **Digital Humanities**: Enabling new digital approaches to humanities research, providing new insights into historical, cultural and linguistic studies through data analysis.
+
+- **Data Science**: Leverages open data for predictive modelling, machine learning and big data analytics, enabling comprehensive analysis and informed decision-making in diverse fields such as health, finance and social sciences.
 
 
 ---
@@ -1105,7 +1129,7 @@ Relevance in Arts and Humanities
 
 # Open Source
 
-- **Definition and Philosophy**: Open Source refers to software with source code that can be inspected, modified, and enhanced by anyone. It emphasizes collaboration and community-oriented development.
+- **Definition and Philosophy**: Open Source refers to software with source code that can be inspected, modified, and enhanced by anyone. It emphasises collaboration and community-oriented development.
 - **Key Characteristics**: Includes free redistribution, access to source code, and allowance for derived works.
 
 ---
