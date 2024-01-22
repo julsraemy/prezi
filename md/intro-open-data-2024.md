@@ -2798,9 +2798,24 @@ https://lux.collections.yale.edu/
 
 # Conclusion
 
+## Long-term archiving of ORD
+
+* **Archival appraisal**: Identifying which research data warrants long-term preservation, taking into account scientific, historical or legal significance as data volumes increase.
+
+* **Documentation and contextualisation**: Ensuring comprehensive documentation for each dataset, including the context of its creation, to maintain its relevance and intelligibility over time.
+
+* **Infrastructure**: Addressing the challenges of physical and software obsolescence, file format changes and the risk of content loss over time.
+
+* **Methodology/Process**: Determining the most effective time and method for archiving, including periodic or project completion, to prevent data loss and ensure data integrity.
+
+---
+
+# Conclusion
+
 ## Movements and principles impacting Open Data
 
 * The rise of movements such as Open Access and Open Science, along with principles like FAIR and CARE, significantly shape the relevance and implementation of open data.
+
 * However, achieving true openness requires not only adherence to these principles and movements but also the backing of sufficient funding and the cultivation of necessary skills among data practitioners. This is crucial for ensuring that open data is not just available but also meaningful and usable.
 
 ---
@@ -2811,7 +2826,9 @@ https://lux.collections.yale.edu/
 
 
 * While open data in itself is a commendable goal, the concept of Linked Open (Usable) Data takes it a step further.
+
 * Linked Open Data enhances the value of open data by ensuring it is not only available but also interconnected, making it more discoverable and useful for a wider range of applications and analyses.
+
 * LOUD is about enhancing usability and semantic interoperability leveraging community-driven standards and practices.
 
 ---
@@ -2821,6 +2838,7 @@ https://lux.collections.yale.edu/
 ## OGD and ORD for GLAM institutions
 
 * ORD and OGD can be viewed both as a service provided to the public and as a process that requires active management and continuous improvement.
+
 * Institutions in the GLAM sector need to consider how these open data initiatives fit within their practices, both in terms of contributing data and utilising data for research, curation, and public engagement.
 
 
@@ -2831,6 +2849,7 @@ https://lux.collections.yale.edu/
 ## Public Engagement and Empowerment
 
 * Open data empowers the public by providing access to information that was previously inaccessible or difficult to obtain.
+
 * This not only fosters a more informed citizenry but also enables individuals and communities to participate more actively in civic and cultural discourses.
 
 ---
@@ -2840,6 +2859,7 @@ https://lux.collections.yale.edu/
 ## Transparency and Accountability
 
 * Open data plays a pivotal role in enhancing transparency and accountability, particularly in sectors where public trust is paramount.
+
 * By making data freely accessible, open data initiatives allow for greater scrutiny and analysis, leading to more accountable governance and institutional practices.
 
 ---
@@ -2849,7 +2869,9 @@ https://lux.collections.yale.edu/
 ## AI and ML
 
 * Open data serves as a critical fuel for AI systems, providing the large datasets necessary for training ML models. The availability of diverse, high-quality open datasets enables more robust and inclusive AI developments.
+
 * By leveraging open data, AI can transcend a wide array of domains, from improving healthcare diagnostics to enhancing climate change models, thus contributing significantly to societal advancements and problem-solving.
+
 * Open data plays a pivotal role in fostering transparency and ethical practices in AI. By using open datasets, AI researchers and developers can ensure a level of accountability in their models, allowing for external validation and reducing biases.
 
 
@@ -2864,6 +2886,7 @@ https://lux.collections.yale.edu/
   * Participating in the IIIF and Linked Art communities for the cultural heritage field (and beyond, notably for the STEM sector)
   * OGD meet-ups (Open Data Beer)
   * Etc.
+
 * Such collaboration is vital for addressing global challenges, encouraging innovation, and ensuring the sustainable development of open data ecosystems.
 
 <!-- 
