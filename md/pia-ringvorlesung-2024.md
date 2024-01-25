@@ -266,6 +266,13 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
+# LOD: CAS Data Model
+
+CAS Data Model?
+
+
+---
+
 # LOD: PIA Omeka-S Instance
 
 Example of an EKWS/PIA object on our Omeka-S instance
@@ -700,9 +707,7 @@ https://linked.art/api/1.0/endpoint/
 
 ---
 
-# Linked Art
-
-## Digital Object
+# Linked Art – Digital Object
 
 ![center w:460](https://linked.art/api/1.0/endpoint/digital_object/digital_properties.png)
 
@@ -711,16 +716,14 @@ https://linked.art/api/1.0/endpoint/digital_object/
 
 ---
 
-![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+# Linked Art – Digital Object
 
-![center](https.//julsraemy.ch/prezi/assets/la-SGV_12N_19553.svg)
+![center](https://julsraemy.ch/prezi/assets/la-SGV_12N_19553.svg)
 
 
 ---
 
-# Linked Art
-
-## Digital Object
+# Linked Art – Digital Object
 
 ```json
 {
