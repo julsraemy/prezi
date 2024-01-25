@@ -711,6 +711,13 @@ https://linked.art/api/1.0/endpoint/digital_object/
 
 ---
 
+![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+
+![center](https.//julsraemy.ch/prezi/assets/la-SGV_12N_19553.svg)
+
+
+---
+
 # Linked Art
 
 ## Digital Object
@@ -718,9 +725,9 @@ https://linked.art/api/1.0/endpoint/digital_object/
 ```json
 {
   "@context": "https://linked.art/ns/v1/linked-art.json", 
-  "id": "https://data.participatory-archives.ch/digital/232922.json",
+  "id": "https://data.participatory-archives.ch/digital/42.json",
   "type": "DigitalObject",
-  "_label": "PIA ID 232922 - [Schwyzer Fasnacht]",
+  "_label": "PIA ID 42 - [Katze auf einer Mauer]",
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/aat/300215302", 
