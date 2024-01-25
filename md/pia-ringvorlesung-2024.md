@@ -266,15 +266,15 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
-# LOD: DaSCH Service Platform
+# LOD: PIA Omeka-S Instance
 
-Example of an EKWS/PIA object on the DaSCH Service Platform
+Example of an EKWS/PIA object on our Omeka-S instance
 
 ---
 
-# LOD: PIA Omeka-S Instance
+# LOD: DaSCH Service Platform
 
-Example of an EKWS/PIA object on Omeka-S
+Example of an EKWS/PIA object on the DaSCH Service Platform
 
 ---
 
@@ -652,6 +652,54 @@ https://linked.art/community/
 
 ---
 
+# Linked Art API Endpoints
+
+- **Concepts** – Types, Materials, Languages, and others, as full records rather than external references
+- **Digital Objects** – Images, services and other digital objects
+- **Events** – Events and other non-specific activities that are related but not part of other entities
+- **Groups** – Groups and Organizations
+- **People** – Individuals
+- **Physical Objects** – Physical things, including artworks, buildings or other architecture, books, parts of objects, and more
+
+---
+
+# Linked Art API Endpoints
+
+
+- **Places** – Geographic places
+- **Provenance Activities** – The various events that take place during the history of a physical thing
+- **Sets** – Sets, including Collections and sets of objects used for exhibitions
+- **Textual Works** – Texts worthy of description as distinct entities, such as the content carried by a book or journal article
+- **Visual Works** – Image content worthy of description as distinct entities, such as the image shown by a painting or drawing
+
+https://linked.art/api/1.0/endpoint/
+
+---
+
+# Linked Art for PIA
+
+| **LA API Endpoint** | **CAS Class** | **Relevance to PIA**                                                                              |
+|---------------------|----------------|---------------------------------------------------------------------------------------------------|
+| Concept             | `sgv:Concept`  | The terms from the [Ernst Brunner Thesaurus](https://vocab.participatory-archives.ch/)            |
+| Digital Objects     | `sgv:Object`   | Digital-born resources as well as digital (positive) surrogates that were created from negatives. |
+| Events              | `sgv:Event`    | TBD                                                                                               |
+| Groups              | `sgv:Agent`    | Differentiate the different Agents                                                                |
+
+
+---
+
+# Linked Art for PIA
+
+| **LA API Endpoint**   | **CAS Class** | **Relevance to PIA**                                                      |
+|-----------------------|----------------|---------------------------------------------------------------------------|
+| People                | `sgv:Agent`    | Differentiate the different Agents                                        |
+| Physical Objects (HMO)     | `sgv:Object`   | "Everything that can easily be held in one's hands"                       |
+| Places                | None           | Not as top-level entity. Geonames -> Thesaurus of Geographic Names (TGN)? |
+| Provenance Activities | `sgv:Event`    | TBD                                                                       |
+
+
+---
+
 # Linked Art
 
 ## Digital Object
@@ -669,29 +717,20 @@ https://linked.art/api/1.0/endpoint/digital_object/
 
 ```json
 {
-  "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linked.art/example/digital/0",
+  "@context": "https://linked.art/ns/v1/linked-art.json", 
+  "id": "https://data.participatory-archives.ch/digital/232922.json",
   "type": "DigitalObject",
-  "_label": "Digital Image of Self-Portrait of Van Gogh",
+  "_label": "PIA ID 232922 - [Schwyzer Fasnacht]",
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300215302",
-      "type": "Type",
+      "id": "http://vocab.getty.edu/aat/300215302", 
+      "type": "Type", 
       "_label": "Digital Image"
     }
   ],
 
 ```
 
-
----
-
-
-# Linked Art
-
-## Event
-
-Example of a PIA Event in Linked Art
 
 ---
 
