@@ -351,6 +351,48 @@ https://iiif.io
 
 ---
 
+
+![bg opacity:.3](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
+
+## <!-- fit --> Images are fundamental carriers of information
+
+<!-- So why do we need IIIF? Digital images are fundamental carriers of information across the fields of cultural heritage, STEM, and others. They help us understand complex processes through visualization. They grab our attention and help us quickly understand abstract concepts. They help document many the past--and the  present--and preserve it for the future. They are also ubiquitous: we interact with thousands of them every day both in real life and on the web. In short, images are important and we interact with large volumes of them online. 
+
+Image 1: Female Figurine, Chupicuaro, 500/300 B.C
+Image 2: Vision of Saint Gregory, unknown artist, n.d.
+Image 3: Iyo Province: Saijo, Utagawa Hiroshige, 1855
+-->
+
+---
+
+![bg contain opacity:.28](https://julsraemy.ch/prezi/assets/silos.png)
+
+# The Problem
+
+# A world of silos and duplication
+
+Image delivery on the Web has historically been hard, slow, expensive, disjointed, and locked-up in silos.
+
+---
+
+# The Problem
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/silos-repos.png)
+
+
+---
+
+# IIIF – Deep Zoom with Large Images
+
+![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+
+https://purl.stanford.edu/hs631zg4177
+
+---
+
 # Compare Images
 
 ![center](https://julsraemy.ch/prezi/assets/compare.gif)
@@ -365,6 +407,14 @@ Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: 
 
 Storiiies: http://storiiies.cogapp.com/
 
+
+---
+
+# 12 sunsets: Exploring Ed Ruscha's Archive
+
+![center](https://julsraemy.ch/prezi/assets/12sunsets.gif)
+
+https://12sunsets.getty.edu/
 
 ---
 
@@ -388,6 +438,13 @@ https://www.theleidencollection.com/viewer/david-and-uriah/
 
 # IIIF Ecosystem
 
+![center](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
+
+
+---
+
+# IIIF Ecosystem
+
 ![center](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
 
 ---
@@ -403,6 +460,14 @@ https://www.theleidencollection.com/viewer/david-and-uriah/
 # IIIF Community Practices
 
 ![center bg 65%](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
+
+---
+
+# Web Annotation Data Model 
+
+![center](https://julsraemy.ch/prezi/assets/anno-model.png)
+
+https://www.w3.org/TR/annotation-model/
 
 ---
 
@@ -432,6 +497,12 @@ https://linked.art
 
 ---
 
+# Linked Art Overview
+
+![center](https://julsraemy.ch/prezi/assets/la-overview.svg)
+
+---
+
 
 # Linked Art Data Model Fundamentals
 
@@ -453,8 +524,48 @@ https://linked.art
 
 ---
 
+# Linked Art
 
-# Participation in both communities
+## Digital Object
+
+![center w:460](https://linked.art/api/1.0/endpoint/digital_object/digital_properties.png)
+
+https://linked.art/api/1.0/endpoint/digital_object/
+
+
+---
+
+# Linked Art
+
+## Digital Object
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://linked.art/example/digital/0",
+  "type": "DigitalObject",
+  "_label": "Digital Image of Self-Portrait of Van Gogh",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "Digital Image"
+    }
+  ],
+
+```
+
+---
+
+# Linked Art Digital Integration (with IIIF)
+
+![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+
+
+
+---
+
+# Participation in the IIIF and Linked Art communities
 
 ![center](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
 
@@ -466,6 +577,15 @@ https://linked.art
 2) People that have been active prior to 2021 tend to be more active
 
 -->
+
+
+---
+
+# LOUD-Driven Infrastructure
+
+![center w:1000](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+
+[Felsing et al. 2023]
 
 
 ---
@@ -560,6 +680,8 @@ Simply awaiting to be found.
 Berners-Lee, T. (1991, August 6). WorldWideWeb—Executive summary. Archive.Md. https://archive.md/Lfopj
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
+
+Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. Digital Humanities in the Nordic and Baltic Countries Publications, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
