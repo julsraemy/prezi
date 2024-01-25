@@ -1629,7 +1629,7 @@ https://bit.ly/iiifmap
 
 # IIIF Community
 
-## Types of organisations
+## Organisations
 
 - State and National Libraries
 - Archives
@@ -1646,7 +1646,9 @@ https://iiif.io/community/
 
 ## Individuals
 
-![center w:1000](https://iiif.io/assets/images/heroes/event_2.webp)
+![center w:900](https://iiif.io/assets/images/heroes/event_2.webp)
+
+2019 IIIF Conference, Göttingen, Germany
 
 ---
 

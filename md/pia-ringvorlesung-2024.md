@@ -15,14 +15,16 @@ _paginate: false
 
 <!-- header: Julien A. Raemy | **Interlinking Cultural Heritage Data** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
-<!-- _footer: PIA Lecture Series | 8 May 2024 -->
+<!-- _footer: 70931-01 – PIA Lecture Series | 8 May 2024 -->
 
 
-# Interlinking Cultural Heritage Data with Community-driven Principles and Standards
+# Interlinking Cultural Heritage Data
 
-Julien A. Raemy
+Julien A. Raemy (Digital Humanities Lab, University of Basel)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
+70931-01 - PIA Lecture Series
 University of Basel, Switzerland
+
 
 
 
@@ -53,7 +55,7 @@ https://phd.julsraemy.ch
 
 # Agenda
 
-## Interlinking Cultural Heritage Data with Community-driven Principles and Standards
+## Interlinking Cultural Heritage Data
 
 - Cultural Heritage Data (15')
 - Interlinking Data on the Web (15')
@@ -68,13 +70,14 @@ I'm first going to talk about the ways that data can be interlinked on the web i
 
 ---
 
-![bg opacity:0.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
-<!-- footer: Cultural Heritage Data -->
-
-# Cultural Heritage Data
-
+## Cultural Heritage Data
 
 - Tangible, Intangible, and Natural Heritage
 - Defining Cultural Heritage Data
@@ -90,6 +93,8 @@ From data to cultural heritage data. And I will divide this section into three p
  -->
 
 ---
+
+<!-- footer: Cultural Heritage Data -->
 
 # Tangible, Intangible, Natural
 
@@ -201,11 +206,14 @@ Rossenova & Di Franco (2022)
 
 ---
 
-![bg opacity:0.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
-<!-- footer: Interlinking Data on the Web -->
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
-# Interlinking Data on the Web
+## Interlinking Data on the Web
 
 - The Web
 - The Semantic Web
@@ -213,6 +221,8 @@ Rossenova & Di Franco (2022)
 - Linked Open Data
 
 ---
+
+<!-- footer: Interlinking Data on the Web -->
 
 
 # An Open Vision of the Web
@@ -236,21 +246,6 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ---
 
-#  Resource Description Framework (RDF)
-
-With RDF, everything goes in threes. Most of the triples' components have Uniform Resource Identifiers (URIs). Syntax: **subject, predicate, object** $(s \ \vec{p} \ o)$ 
-
-![center width:590px](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
-
-
-<!-- With RDF, everything goes in threes, the data model contains so-called triples: that is subject, predicate, object that form graphs.
-Most of the components of these triples use Uniform Resource Identifiers (URIs) and are generally web-addressable, whether for naming subjects and objects (which may themselves also be objects of other triples) or relationships 
-
- -->
-
-
----
-
 # Linked Open Data (LOD)
 
 ![center](https://5stardata.info/images/5-star-steps.png)
@@ -266,30 +261,20 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
-# LOD: CAS Data Model
+# PIA as Linked Open Data
 
-CAS Data Model?
-
-
----
-
-# LOD: PIA Omeka-S Instance
-
-Example of an EKWS/PIA object on our Omeka-S instance
+Example of an EKWS/PIA object on our Omeka-S instance and on the DaSCH Service Platform
 
 ---
 
-# LOD: DaSCH Service Platform
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
-Example of an EKWS/PIA object on the DaSCH Service Platform
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
----
-
-<!-- footer: Linked Open Usable Data -->
-
-![bg opacity:0.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-
-# Linked Open Usable Data (LOUD)
+## Linked Open Usable Data (LOUD)
 
 - Design Principles & Standards
 - Systematic Review
@@ -298,6 +283,8 @@ Example of an EKWS/PIA object on the DaSCH Service Platform
 
 ---
 
+<!-- footer: Linked Open Usable Data -->
+
 # Linked Open Usable Data (LOUD)
 
 ## LOUD
@@ -305,7 +292,7 @@ Example of an EKWS/PIA object on the DaSCH Service Platform
 
 - The term was coined by Robert Sanderson who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field.
 
-- LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven and JSON-LD-based specifications.
+- LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven standards.
 
 - It has five main design principles to make the data more easily accessible to software developers, who play a key role in interacting with the data and building software and services on top of it, and to some extent to academics. 
 
@@ -343,14 +330,6 @@ To be part of the Web, not just on the Web.  -->
 
 ---
 
-# LOUD Systematic Review
-
-![center width:590px](https://julsraemy.ch/prezi/assets/loud-references-venn.svg)
-
-_To be published as part of the PhD Thesis_
-
----
-
 ![center bg width:50% opacity:.1](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
 
 # International Image Interoperability Framework (IIIF) 
@@ -380,7 +359,7 @@ https://bit.ly/iiifmap
 
 # IIIF Community
 
-## Types of organisations
+## Organisations
 
 - State and National Libraries
 - Archives
@@ -397,7 +376,9 @@ https://iiif.io/community/
 
 ## Individuals
 
-![center w:1000](https://iiif.io/assets/images/heroes/event_2.webp)
+![center w:950](https://iiif.io/assets/images/heroes/event_2.webp)
+
+2019 IIIF Conference, Göttingen, Germany
 
 
 ---
@@ -514,12 +495,6 @@ https://12sunsets.getty.edu/
 
 ---
 
-# IIIF Ecosystem
-
-![center](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
-
----
-
 
 # IIIF Community Practices
 
@@ -542,7 +517,17 @@ https://www.w3.org/TR/annotation-model/
 
 ---
 
-# Web Annotation Data Model in a IIIF setting
+# Machine-generated annotations in a IIIF setting
+
+## Example from the PIA research project
+
+![center width:700px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+
+See Cornut et al. [2023]
+
+---
+
+# Machine-generated annotations in a IIIF setting
 
 ```json
 {
@@ -587,14 +572,6 @@ https://www.w3.org/TR/annotation-model/
 
 ---
 
-# Machine-generated annotations
-
-![center width:800px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
-
-See Cornut et al. [2023]
-
----
-
 ![center bg width:50% opacity:.1](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 # Linked Art
@@ -602,16 +579,6 @@ See Cornut et al. [2023]
 Linked Art is a community and a CIDOC (_ICOM International Committee for Documentation_) Working Group collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
 
 https://linked.art
-
----
-
-# Linked Art
-
-## Institutions (some of them)
-
-The American Numismatics Society, Europeana, The Frick Collection, J. Paul Getty Trust, The Metropolitan Museum of Art, The Museum of Modern Art (NY), National Gallery of Art (US), Oxford University (OERC), The Philadephia Museum of Art, Rijksmuseum (NL), University of Basel (Digital Humanities Lab), University of the Arts London, The Victoria and Albert Museum, Yale Center for British Art
-
-https://linked.art/community/
 
 
 ---
@@ -632,87 +599,11 @@ https://linked.art/community/
 
 ---
 
-# Linked Art Overview
-
-![center](https://julsraemy.ch/prezi/assets/la-overview.svg)
-
----
-
-
-# Linked Art Data Model Fundamentals
-
-| Level         | Linked Art                      |
-|----------------|---------------------------------|
-| **Model**      | [CIDOC Conceptual Reference Model](https://www.cidoc-crm.org/) (CRM)                       |
-| **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
-| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/), mainly the Art & Architecture Thesaurus (AAT), as well as the Thesaurus of Geographic Names (TGN) and the Union List of Artist Names (ULAN) |
-| **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
-| **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
-
----
-
 # Linked Art from 50k feet
 
 ![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
 
 [Raemy et al. 2023, adapted from Sanderson 2018]
-
----
-
-# Linked Art API Endpoints
-
-- **Concepts** – Types, Materials, Languages, and others, as full records rather than external references
-- **Digital Objects** – Images, services and other digital objects
-- **Events** – Events and other non-specific activities that are related but not part of other entities
-- **Groups** – Groups and Organizations
-- **People** – Individuals
-- **Physical Objects** – Physical things, including artworks, buildings or other architecture, books, parts of objects, and more
-
----
-
-# Linked Art API Endpoints
-
-
-- **Places** – Geographic places
-- **Provenance Activities** – The various events that take place during the history of a physical thing
-- **Sets** – Sets, including Collections and sets of objects used for exhibitions
-- **Textual Works** – Texts worthy of description as distinct entities, such as the content carried by a book or journal article
-- **Visual Works** – Image content worthy of description as distinct entities, such as the image shown by a painting or drawing
-
-https://linked.art/api/1.0/endpoint/
-
----
-
-# Linked Art for PIA
-
-| **LA API Endpoint** | **CAS Class** | **Relevance to PIA**                                                                              |
-|---------------------|----------------|---------------------------------------------------------------------------------------------------|
-| Concept             | `sgv:Concept`  | The terms from the [Ernst Brunner Thesaurus](https://vocab.participatory-archives.ch/)            |
-| Digital Objects     | `sgv:Object`   | Digital-born resources as well as digital (positive) surrogates that were created from negatives. |
-| Events              | `sgv:Event`    | TBD                                                                                               |
-| Groups              | `sgv:Agent`    | Differentiate the different Agents                                                                |
-
-
----
-
-# Linked Art for PIA
-
-| **LA API Endpoint**   | **CAS Class** | **Relevance to PIA**                                                      |
-|-----------------------|----------------|---------------------------------------------------------------------------|
-| People                | `sgv:Agent`    | Differentiate the different Agents                                        |
-| Physical Objects (HMO)     | `sgv:Object`   | "Everything that can easily be held in one's hands"                       |
-| Places                | None           | Not as top-level entity. Geonames -> Thesaurus of Geographic Names (TGN)? |
-| Provenance Activities | `sgv:Event`    | TBD                                                                       |
-
-
----
-
-# Linked Art – Digital Object
-
-![center w:460](https://linked.art/api/1.0/endpoint/digital_object/digital_properties.png)
-
-https://linked.art/api/1.0/endpoint/digital_object/
-
 
 ---
 
@@ -724,6 +615,8 @@ https://linked.art/api/1.0/endpoint/digital_object/
 ---
 
 # Linked Art – Digital Object
+
+![bg opacity:.85](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 ```json
 {
@@ -740,40 +633,6 @@ https://linked.art/api/1.0/endpoint/digital_object/
   ],
 
 ```
-
-
----
-
-# Linked Art Digital Integration (with IIIF)
-
-![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
-
-
-
----
-
-# Participation in the IIIF and Linked Art communities
-
-![center](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
-
-[Raemy 2023]
-
-<!-- 
-
-1) Belonging to a given commnity - before 2011
-2) People that have been active prior to 2021 tend to be more active
-
--->
-
-
----
-
-# LOUD-Driven Infrastructure
-
-![center w:1000](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
-
-[Felsing et al. 2023]
-
 
 ---
 
@@ -818,11 +677,23 @@ https://lux.collections.yale.edu/
 
 ---
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Conclusion
+
+
+---
+
 <!-- footer: Conclusion -->
 
 # Conclusion
 
-## Some concluding thoughts about LOUD
+## LOUD in a nutshell
 
 * Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
 
@@ -836,12 +707,22 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 -->
 
+---
+
+# Conclusion
+
+## PIA Connection
+
+...
+
+
+
 
 ---
 
-# _A multitude of tools_
+# Conclusion
 
-![](https://youtu.be/pOX9CrvAG7I)
+## _A multitude of tools_
 
 > For a better understanding of the past,
 Our images have to be enhanced,
@@ -858,9 +739,28 @@ Simply awaiting to be found.
 
 ---
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Discussion
+
+---
+
+<!-- footer: Discussion -->
+
 # Discussion
 
-LOUD Practices and Standards
+## Interlinking Cultural Heritage Data with Community-driven Principles and Standards
+
+LOUD Practices and Standards as common denominators?
+
+A common data space
+
+https://pro.europeana.eu/page/common-european-data-space-for-cultural-heritage
 
 
 ---
@@ -874,8 +774,6 @@ LOUD Practices and Standards
 Berners-Lee, T. (1991, August 6). WorldWideWeb—Executive summary. Archive.Md. https://archive.md/Lfopj
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
-
-Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. Digital Humanities in the Nordic and Baltic Countries Publications, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
@@ -917,4 +815,3 @@ These images are part of the [photographic archives of Cultural Anthropology Swi
 - Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53. https://archiv.sgv-sstp.ch/resource/441788
 
 - Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89. https://archiv.sgv-sstp.ch/resource/430824
-
