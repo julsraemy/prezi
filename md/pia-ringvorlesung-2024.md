@@ -858,6 +858,13 @@ Simply awaiting to be found.
 
 ---
 
+# Discussion
+
+LOUD Practices and Standards
+
+
+---
+
 <!-- footer: References and Image Credits -->
 
 <!-- class: tinytext --> 
