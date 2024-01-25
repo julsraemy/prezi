@@ -351,6 +351,40 @@ https://iiif.io
 
 ---
 
+# A global community...
+
+## ...but mostly from the Northern hemisphere
+
+![center w:700](https://julsraemy.ch/prezi/assets/iiif-map.png)
+
+https://bit.ly/iiifmap
+
+---
+
+# IIIF Community
+
+## Types of organisations
+
+- State and National Libraries
+- Archives
+- Museums & Galleries
+- Universities & Research Institutions
+- Aggregators/Facilitators
+
+https://iiif.io/community/
+
+
+---
+
+# IIIF Community
+
+## Individuals
+
+![center w:1000](https://iiif.io/assets/images/heroes/event_2.webp)
+
+
+---
+
 
 ![bg opacity:.3](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
 ![bg opacity:.3](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
@@ -385,7 +419,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 
 ---
 
-# IIIF – Deep Zoom with Large Images
+# Deep Zoom with Large Images
 
 ![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
 
@@ -478,6 +512,17 @@ https://www.w3.org/TR/annotation-model/
 Linked Art is a community and a CIDOC (_ICOM International Committee for Documentation_) Working Group collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
 
 https://linked.art
+
+---
+
+# Linked Art
+
+## Institutions (some of them)
+
+The American Numismatics Society, Europeana, The Frick Collection, J. Paul Getty Trust, The Metropolitan Museum of Art, The Museum of Modern Art (NY), National Gallery of Art (US), Oxford University (OERC), The Philadephia Museum of Art, Rijksmuseum (NL), University of Basel (Digital Humanities Lab), University of the Arts London, The Victoria and Albert Museum, Yale Center for British Art
+
+https://linked.art/community/
+
 
 ---
 
