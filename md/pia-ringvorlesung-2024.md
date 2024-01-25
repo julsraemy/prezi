@@ -47,8 +47,6 @@ https://phd.julsraemy.ch
 <!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Cultural Anthropology Switzerland (CAS), formerly the Swiss Society for Folklore Studies (SSFS).  -->
 
 
-
-
 ---
 
 ![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
@@ -57,11 +55,11 @@ https://phd.julsraemy.ch
 
 ## Interlinking Cultural Heritage Data with Community-driven Principles and Standards
 
-- Cultural Heritage Data 
-- Interlinking Data on the Web
-- Linked Open Usable Data
-- Conclusion
-- Discussion
+- Cultural Heritage Data (15')
+- Interlinking Data on the Web (15')
+- Linked Open Usable Data (25')
+- Conclusion (15')
+- Discussion (20')
 
 <!-- 
 
@@ -268,6 +266,18 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
+# LOD: DaSCH Service Platform
+
+Example of an EKWS/PIA object on the DaSCH Service Platform
+
+---
+
+# LOD: PIA Omeka-S Instance
+
+Example of an EKWS/PIA object on Omeka-S
+
+---
+
 <!-- footer: Linked Open Usable Data -->
 
 ![bg opacity:0.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
@@ -435,28 +445,31 @@ Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: 
 
 ---
 
+
+# Reunify
+
+![center w:600](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
+
+https://demos.biblissima.fr/chateauroux/demo/
+
+
+---
+
+# Search within
+
+![center](https://julsraemy.ch/prezi/assets/content-search.gif)
+
+Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library.
+
+
+---
+
 # Storytelling
 
 ![center](https://julsraemy.ch/prezi/assets/storiiies.gif)
 
 Storiiies: http://storiiies.cogapp.com/
 
-
----
-
-# 12 sunsets: Exploring Ed Ruscha's Archive
-
-![center](https://julsraemy.ch/prezi/assets/12sunsets.gif)
-
-https://12sunsets.getty.edu/
-
----
-
-# Machine-generated Annotations
-
-![center width:750px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
-
-See Cornut et al. [2023]
 
 ---
 
@@ -467,6 +480,23 @@ See Cornut et al. [2023]
 
 Leiden Collection's Curtain Viewer: 
 https://www.theleidencollection.com/viewer/david-and-uriah/
+
+---
+
+# Crowdsource
+
+![center](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
+
+Crowdsourcing initiative from the National Library of Wales
+
+---
+
+# 12 sunsets: Exploring Ed Ruscha's Archive
+
+![center](https://julsraemy.ch/prezi/assets/12sunsets.gif)
+
+https://12sunsets.getty.edu/
+
 
 ---
 
@@ -502,6 +532,59 @@ https://www.theleidencollection.com/viewer/david-and-uriah/
 ![center](https://julsraemy.ch/prezi/assets/anno-model.png)
 
 https://www.w3.org/TR/annotation-model/
+
+---
+
+# Web Annotation Data Model in a IIIF setting
+
+```json
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_08589-p1-list.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_08589-p1-list/annotation-436121.json",
+      "motivation": "commenting",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "person",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "Object Detection (vitrivr)",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "<br><small>Detection score: 0.9574</small>",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://iiif.participatory-archives.ch/SGV_12N_08589/canvas/p1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=319,2942,463,523"
+        },
+        "dcterms:isPartOf": {
+          "type": "Manifest",
+          "id": "https://iiif.participatory-archives.ch/SGV_12N_08589/manifest.json"
+        }}},
+```
+
+---
+
+# Machine-generated annotations
+
+![center width:800px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+
+See Cornut et al. [2023]
 
 ---
 
@@ -599,6 +682,16 @@ https://linked.art/api/1.0/endpoint/digital_object/
   ],
 
 ```
+
+
+---
+
+
+# Linked Art
+
+## Event
+
+Example of a PIA Event in Linked Art
 
 ---
 

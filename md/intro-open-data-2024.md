@@ -2077,6 +2077,7 @@ https://linked.art/api/1.0/endpoint/digital_object/
 
 ![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
 
+
 ---
 
 
