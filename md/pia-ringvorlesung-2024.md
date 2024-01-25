@@ -760,6 +760,8 @@ LOUD Practices and Standards as common denominators?
 
 A common data space
 
+Digital temporality - qualitative / quantitative
+
 https://pro.europeana.eu/page/common-european-data-space-for-cultural-heritage
 
 
