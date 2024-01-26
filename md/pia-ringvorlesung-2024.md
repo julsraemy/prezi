@@ -79,9 +79,9 @@ https://phd.julsraemy.ch
 ## Interlinking Cultural Heritage Data
 
 - Cultural Heritage Data (15')
-- Interlinking Data on the Web (15')
-- Linked Open Usable Data (25')
-- Conclusion (15')
+- Interlinking Data on the Web (10')
+- Linked Open Usable Data (30')
+- Conclusion (10')
 - Discussion (20')
 
 <!-- 
@@ -297,9 +297,9 @@ Example of an EKWS/PIA object on our Omeka-S instance and on the DaSCH Service P
 
 ## Linked Open Usable Data (LOUD)
 
-- Design Principles & Standards
-- Systematic Review
-- Communities: IIIF, Linked Art
+- Design Principles
+- Standards & Communities (IIIF, Linked Art)
+- (LOUD-driven) Infrastructure
 - LUX: Yale Collections Discovery 
 
 ---
@@ -311,7 +311,7 @@ Example of an EKWS/PIA object on our Omeka-S instance and on the DaSCH Service P
 ## LOUD
 
 
-- The term was coined by Robert Sanderson who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field.
+- The term was coined by Robert Sanderson [2018, 2019] who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field.
 
 - LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven standards.
 
@@ -419,11 +419,11 @@ https://bit.ly/iiifmap
 
 - **Archives**: Blavatnik Foundation Archive, Indigenous Digital Archive, Internet Archive, Swedish National Archives, Swiss Federal Archives, etc.
 
-- **Museums & Galleries**: J. Paul Getty Trust, Smithsonian, Victoria & Albert Museum, MIT Museum, National Gallery of Art, etc.
+- **Museums & Galleries**: Art Institute Chicago, J. Paul Getty Trust, Smithsonian, Victoria & Albert Museum, MIT Museum, National Gallery of Art, Van Gogh Worldwide, etc.
 
 - **Universities & Research Institutions**: Cambridge, Cornell University, Ghent University, Swiss National Data and Service Center for the Humanities (DaSCH), Kyoto University, Oxford, Stanford, University of Toronto, Yale University, etc.
 
-- **Aggregators/Facilitators**: Europeana, Cultural Japan, Cuba-IIIF, Jisc, OCLC, etc.
+- **Aggregators/Facilitators**: Europeana, Cuba-IIIF, Cultural Japan, OCLC ContentDM, etc.
 
 <!-- 
 
@@ -640,18 +640,38 @@ See Cornut et al. [2023]
 
 # Linked Art
 
-Linked Art is a community and a CIDOC (_ICOM International Committee for Documentation_) Working Group collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it (the API). 
+Linked Art is a community and a CIDOC (_ICOM International Committee for Documentation_) Working Group collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it.
 
 https://linked.art
 
 
 ---
 
-# Finding the right balance
 
-![center width:750px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+# Linked Art Community
 
-[Sanderson 2019]
+## Institutions (some of them)
+
+The American Numismatics Society, Europeana, The Frick Collection, J. Paul Getty Trust, The Metropolitan Museum of Art, The Museum of Modern Art (NY), National Gallery of Art (US), Oxford University (OERC), The Philadephia Museum of Art, Rijksmuseum (NL), University of Basel (Digital Humanities Lab), University of the Arts London, Victoria and Albert Museum, Yale Center for British Art
+
+https://linked.art/community/
+
+
+---
+
+# Linked Art Community Practices
+
+![center w:450](https://julsraemy.ch/prezi/assets/linked-art-call.png)
+
+https://groups.google.com/g/linked-art/c/8DcbDIExdS8/m/RTRQtOBsFQAJ
+
+---
+
+# Intent of Linked Art: finding the right balance
+
+![center width:800px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+
+[Sanderson 2023]
 
 <!-- 
 
@@ -700,33 +720,75 @@ https://linked.art
 
 ---
 
-![bg opacity:.15](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
-![bg opacity:.15](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
-![bg opacity:.15](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
-![bg opacity:.15](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+# Infrastructure [Star 1999]
 
-# LUX: Yale Collections Discovery 
+> People commonly envision infrastructure as a system of substrates – railroad, lines, pipes and plumbing, electrical power plants, and wires. **It is by definition invisible, part of the background for other kinds of work**. It is ready-to-hand. This image holds up well enough for many purposes – turn on the faucet for a drink of water and you use a vast infrastructure of plumbing and water regulation without usually thinking much about it.
 
-LUX provides a unified gateway to more than 41 million cultural heritage resources held by Yale's museums, archives and libraries: Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery.
+## Dimensions
 
-## Built on open standards
+Embeddedness, transparency, reach or scope, learned as part of membership, links with conventions of practice, embodiment of standards, built on an installed base, becomes visible upon breakdown, is fixed in modular increments, not all at once globally
 
-* Linked Art, IIIF, W3C Activity Streams 
-* Widespread technologies: Python, JavaScript, Node.js, React, AWS
-* Multimodal database (NoSQL): MarkLogic Server
+<!-- 
 
-https://lux.collections.yale.edu/
+Thee of the nine dimensions...
+
+Embeddedness: Infrastructure is sunk into and inside of other structures, social arrangements, and technologies. People do not necessarily distinguish the several coordinated aspects of infrastructure.
+
+Links with conventions of practice: Infrastructure both shapes and is shaped by the conventions of a community of practice.
+
+Embodiment of standards: Modified by scope and often by conflicting conventions, infrastructure takes on transparency by plugging into other infrastructures and tools in a standardised fashion.
+
+
+ -->
 
 
 ---
 
+
+# LOUD-Driven Infrastructure
+
+![center w:1000](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
+
+[Felsing et al. 2023]
+
+---
+
+# LOUD-Driven Infrastructure
+
+Impact
+
+Taking part of the wider community (directly or indirectly)
+
+Borrowing
+
+
+---
+
+![bg opacity:.13](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.13](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.13](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.13](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
 # LUX: Yale Collections Discovery 
 
-## Data pipeline and architecture
+LUX provides a unified gateway built on open standars (IIIF, Linked Art) to more than 41 million cultural heritage resources held by Yale's museums, archives and libraries: 
 
-![center width:550px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+- Yale University Library
+- Yale Center for British Art
+- Yale Peabody Museum
+- Yale University Art Gallery.
 
-[Raemy & Sanderson 2023]
+https://lux.collections.yale.edu/
+
+[Metcalfe Hurst 2023; Raemy & Sanderson 2023]
+
+<!-- 
+
+ LUX enhances and prepares Yale collections data for further collaboration,  use, and re-use. With the support of a well-resourced research university–including Yale’s Vice-Provost office–in addition to the support of active committees with members across Yale and a meticulous technical team, LUX is well-positioned to help bridge gaps and create more accessible and diverse representations of cultural heritage collections.  
+
+ [Metcalfe Hurst 2023]
+
+ -->
 
 ---
 
@@ -824,6 +886,8 @@ LOUD Practices and Standards as common denominators?
 
 A common data space
 
+Very technical, shift in terms of expertise
+
 Digital temporality - qualitative / quantitative
 
 https://pro.europeana.eu/page/common-european-data-space-for-cultural-heritage
@@ -841,7 +905,11 @@ Berners-Lee, T. (1991, August 6). WorldWideWeb—Executive summary. Archive.Md. 
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
 
+Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. Digital Humanities in the Nordic and Baltic Countries Publications, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
+
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+
+Metcalfe Hurst, E. (2023). LUX: Yale Collections Discovery. ARLIS/NA Multimedia & Technology Reviews, 2023(4), 1–4. https://doi.org/10.17613/3hy1-pv45
 
 Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
@@ -860,6 +928,10 @@ Rossenova, L., & Di Franco, K. (2022). Iterative Pasts and Linked Futures: A Fem
 Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
 
 Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
+
+Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
+
+Star, S. L. (1999). The Ethnography of Infrastructure. American Behavioral Scientist, 43(3), 377–391. https://doi.org/10.1177/00027649921955326
 
 UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United Nations Educational, Scientific and Cultural Organization. https://n2t.net/ark:/48223/pf0000229608
 

@@ -147,7 +147,7 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 * LOUD repose sur cinq grands principes de conception visant à **rendre les données plus facilement accessibles aux développeurs de logiciels**, qui occupent un rôle déterminant dans l'interaction avec les données et la création de programmes et de services à partir de celles-ci, et, dans une certaine mesure, aux membres de la communauté universitaire.
 
 
-[Sanderson 2018, 2019]
+[Sanderson 2019]
 
 <!-- 
 
@@ -205,7 +205,23 @@ Un modèle doit pouvoir contenir le moins d'exceptions possibles pour éviter d'
 - W3C Web Annotation Data Model
 - Linked Art
 
+---
 
+![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# Communautés LOUD
+
+## IIIF et Linked Art : des fondations solides de coopération technique et sociale
+
+- Synergie d'une intégration sociale et technique efficace mettant l'accent sur l'utilisabilité
+- Unies par la présence de membres communs apportant expertise et leadership
+- Collaboration transversale au-delà des frontières techniques
+- Inclusivité et diversité dans la participation
+- Ouverture d'esprit et convivialité comme valeurs fondamentales
+- Engagement envers la transparence
+- Organisation de réunions en ligne et en présentiel
+
+[Raemy 2023]
 
 ---
 
@@ -427,9 +443,9 @@ Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLin
 
 Raemy, J. A. (2022). Améliorer la valorisation des données du patrimoine culturel grâce au Linked Open Usable Data (LOUD). In N. Lasolle, O. Bruneau, & J. Lieber (Eds.), Actes des journées humanités numériques et Web sémantique (pp. 132–149). Les Archives Henri-Poincaré - Philosophie et Recherches sur les Sciences et les Technologies (AHP-PReST); Laboratoire lorrain de recherche en informatique et ses applications (LORIA). https://doi.org/10.5451/unibas-ep89725
 
-Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
+Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 
-Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
+Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
 
 Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
 

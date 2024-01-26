@@ -1565,7 +1565,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 ## LOUD
 
 
-- The term was coined by Robert Sanderson who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field. 
+- The term was coined by Robert Sanderson [2018, 2019] who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field. 
 
 - LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven and JSON-LD-based specifications.
 
@@ -1651,11 +1651,11 @@ https://bit.ly/iiifmap
 
 - **Archives**: Blavatnik Foundation Archive, Indigenous Digital Archive, Internet Archive, Swedish National Archives, Swiss Federal Archives, etc.
 
-- **Museums & Galleries**: J. Paul Getty Trust, Smithsonian, Victoria & Albert Museum, MIT Museum, National Gallery of Art, etc.
+- **Museums & Galleries**: Art Institute Chicago, J. Paul Getty Trust, Smithsonian, Victoria & Albert Museum, MIT Museum, National Gallery of Art, Van Gogh Worldwide, etc.
 
 - **Universities & Research Institutions**: Cambridge, Cornell University, Ghent University, Swiss National Data and Service Center for the Humanities (DaSCH), Kyoto University, Oxford, Stanford, University of Toronto, Yale University, etc.
 
-- **Aggregators/Facilitators**: Europeana, Cultural Japan, Cuba-IIIF, Jisc, OCLC, etc.
+- **Aggregators/Facilitators**: Europeana, Cuba-IIIF, Cultural Japan, OCLC ContentDM, etc.
 
 <!-- 
 
@@ -2012,24 +2012,30 @@ https://linked.art
 
 ---
 
-# Linked Art
+# Linked Art Community
 
 ## Institutions (some of them)
 
-The American Numismatics Society, Europeana, The Frick Collection, J. Paul Getty Trust, The Metropolitan Museum of Art, The Museum of Modern Art (NY), National Gallery of Art (US), Oxford University (OERC), The Philadephia Museum of Art, Rijksmuseum (NL), University of Basel (Digital Humanities Lab), University of the Arts London, The Victoria and Albert Museum, Yale Center for British Art
+The American Numismatics Society, Europeana, The Frick Collection, J. Paul Getty Trust, The Metropolitan Museum of Art, The Museum of Modern Art (NY), National Gallery of Art (US), Oxford University (OERC), The Philadephia Museum of Art, Rijksmuseum (NL), University of Basel (Digital Humanities Lab), University of the Arts London, Victoria and Albert Museum, Yale Center for British Art
 
 https://linked.art/community/
 
 
 ---
 
-# Linked Art
+# Linked Art Community Practices
 
-## Finding the right balance
+![center w:450](https://julsraemy.ch/prezi/assets/linked-art-call.png)
 
-![center width:720px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+https://groups.google.com/g/linked-art/c/8DcbDIExdS8/m/RTRQtOBsFQAJ
 
-[Sanderson 2019]
+---
+
+# Intent of Linked Art: finding the right balance
+
+![center width:800px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+
+[Sanderson 2023]
 
 <!-- 
 
@@ -2836,6 +2842,16 @@ LUX provides a unified gateway to more than 41 million cultural heritage resourc
 
 https://lux.collections.yale.edu/
 
+[Metcalfe Hurst 2023]
+
+<!-- 
+
+ LUX enhances and prepares Yale collections data for further collaboration,  use, and re-use. With the support of a well-resourced research university–including Yale’s Vice-Provost office–in addition to the support of active committees with members across Yale and a meticulous technical team, LUX is well-positioned to help bridge gaps and create more accessible and diverse representations of cultural heritage collections.  
+
+ [Metcalfe Hurst 2023]
+
+ -->
+
 
 ---
 
@@ -3039,33 +3055,20 @@ Floridi, L. (2010). Information: A very short introduction. Oxford University Pr
 
 FOSTER. (2019). Open Science. In Foster Taxonomy. FACILITATE OPEN SCIENCE TRAINING FOR EUROPEAN RESEARCH. https://www.fosteropenscience.eu/taxonomy/term/100
 
+Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
+
 
 ---
 
 # References $III$
 
-Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
-
 Jullien, N. (2009). A Historical Analysis of the Emergence of Free Cooperative Software Production: In M. Pagani (Ed.), Encyclopedia of Multimedia Technology and Networking, Second Edition (pp. 605–612). IGI Global. https://doi.org/10.4018/978-1-60566-014-1.ch081
 
 Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA), Pub. L. No. FF 2023 787, 22.022 Confédération suisse. Secrétariat général DFF (2023). https://fedlex.data.admin.ch/eli/fga/2023/787
 
-OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
-
-Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
-
-Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Swiss_National_ORD_Strategy_en.pdf
-
-
----
-
-# References $IV$
-
-Open Science Delegation. (2021b). Swiss National Strategy Open Research Data: Action Plan. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/ActionPlanV1.0_December_2021_def.pdf
-
-Oxford English Dictionary. (2023). Metadata. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/7968104326
-
 Max Planck Society & European Cultural Heritage Online. (2003). Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities. Max Planck Society. https://openaccess.mpg.de/Berlin-Declaration
+
+Metcalfe Hurst, E. (2023). LUX: Yale Collections Discovery. ARLIS/NA Multimedia & Technology Reviews, 2023(4), 1–4. https://doi.org/10.17613/3hy1-pv45
 
 MJL. (2020). Creative commons license spectrum. https://commons.wikimedia.org/wiki/File:Creative_commons_license_spectrum.svg 
 
@@ -3073,10 +3076,19 @@ Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of 
 
 Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
-
 ---
 
-# References $V$
+# References $IV$
+
+OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
+
+Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
+
+Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Swiss_National_ORD_Strategy_en.pdf
+
+Open Science Delegation. (2021b). Swiss National Strategy Open Research Data: Action Plan. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/ActionPlanV1.0_December_2021_def.pdf
+
+Oxford English Dictionary. (2023). Metadata. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/7968104326
 
 Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
 
@@ -3084,13 +3096,25 @@ Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part
 
 Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data [White paper]. Internet Archive Canada. https://doi.org/10.5281/zenodo.8341519
 
+
+---
+
+# References $V$
+
 Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2023). 2023 Open Data Maturity Report [ODM Report]. European Union. https://doi.org/10.2830/384422 
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
+Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
+
 Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
 
 Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
+
+Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
+
+Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
+
 
 ---
 
