@@ -15,14 +15,14 @@ _paginate: false
 
 <!-- header: Julien A. Raemy | **Interlinking Cultural Heritage Data** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
-<!-- _footer: 70931-01 – PIA Lecture Series | 8 May 2024 -->
+<!-- _footer: 70931-01 – PIA Lecture Series | 8th May 2024 -->
 
 
 # Interlinking Cultural Heritage Data
 
 Julien A. Raemy (Digital Humanities Lab, University of Basel)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
-70931-01 - PIA Lecture Series
+70931-01 - PIA Lecture Series | 8th May 2024
 University of Basel, Switzerland
 
 
@@ -31,6 +31,27 @@ University of Basel, Switzerland
 ---
 
 <!-- footer: Preamble -->
+
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+
+# Involvement in PIA
+
+## Role
+
+- PhD Candidate in Digital Humanities
+
+## Function
+
+- **Expansion of our digital infrastructure**: contributing to improving the way we store and share cultural heritage resources, making them more easily reusable.
+- **Revision of the CAS Data Model**: refinement of the data model to meet the requirements of both Cultural Anthropology Switzerland (CAS) and the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, as part of the database migration from Salsah to the DaSCH Service Platform (DSP). 
+
+<!-- 
+
+Introduce background as well here
+
+ -->
+
+---
 
 
 ![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
@@ -322,11 +343,46 @@ To be part of the Web, not just on the Web.  -->
 
 # LOUD Standards
 
-## Specifications that follow the LOUD principles:
+## Specifications that follow the LOUD principles
 
 - International Image Interoperability Framework (IIIF)
-- *W3C Web Annotation Data Model*
+- _W3C Web Annotation Data Model_
 - Linked Art
+
+---
+
+![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# LOUD-driven Communities
+
+## IIIF and Linked Art: social fabrics of sound socio-technical practices
+
+- Synergy of effective social and technical integration with an emphasis on usability
+- Unified by shared expertise and leadership
+- Collaboration beyond technical boundaries
+- Inclusivity and diversity in participation
+- Openness and friendliness as core values
+- Commitment to transparency
+- Organisation of online and face-to-face meetings
+
+[Raemy 2023]
+
+<!-- 
+Socio-technical aspects
+
+Emphasis on Usable Linked Data: Both IIIF (International Image Interoperability Framework) and Linked Art communities prioritize creating and using data that is interconnected, user-friendly, and easily accessible.
+
+Shared Leadership and Expertise: Key individuals play pivotal roles across both initiatives, bringing a wealth of shared knowledge and leadership.
+
+Joint Standards and Development Efforts: Collaboration is a cornerstone in these communities, evident in their joint efforts in standardizing, developing, and organizing meetings. This fosters a strong culture of community-led initiatives and collective wisdom.
+
+Inclusivity and Collaboration at Core: Both communities are known for their inclusive approach, welcoming contributions and ideas from diverse backgrounds and expertise.
+
+Openness and Friendliness as Guiding Principles: A welcoming atmosphere and an open-door policy characterize both IIIF and Linked Art, encouraging participation and innovation.
+
+Commitment to Transparency: Transparency is key in all their operations, from decision-making to development processes, ensuring that all actions are clear and accountable to the community.
+
+ -->
 
 ---
 
@@ -359,27 +415,49 @@ https://bit.ly/iiifmap
 
 # IIIF Community
 
-## Organisations
+- **State and National Libraries**: Bavarian State Library, French National Library (BnF), British Library, National Library of Estonia, New York Public Library, Vatican Library, etc.
 
-- State and National Libraries
-- Archives
-- Museums & Galleries
-- Universities & Research Institutions
-- Aggregators/Facilitators
+- **Archives**: Blavatnik Foundation Archive, Indigenous Digital Archive, Internet Archive, Swedish National Archives, Swiss Federal Archives, etc.
 
-https://iiif.io/community/
+- **Museums & Galleries**: J. Paul Getty Trust, Smithsonian, Victoria & Albert Museum, MIT Museum, National Gallery of Art, etc.
 
+- **Universities & Research Institutions**: Cambridge, Cornell University, Ghent University, Swiss National Data and Service Center for the Humanities (DaSCH), Kyoto University, Oxford, Stanford, University of Toronto, Yale University, etc.
+
+- **Aggregators/Facilitators**: Europeana, Cultural Japan, Cuba-IIIF, Jisc, OCLC, etc.
+
+<!-- 
+
+Organisations
+
+ -->
 
 ---
 
 # IIIF Community
 
-## Individuals
-
-![center w:950](https://iiif.io/assets/images/heroes/event_2.webp)
+![center w:1050](https://iiif.io/assets/images/heroes/event_2.webp)
 
 2019 IIIF Conference, Göttingen, Germany
 
+<!-- 
+
+And individuals/meetings
+
+ -->
+
+---
+
+
+# IIIF Community Practices
+
+![bg 85%](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
+![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
+
+---
+
+# IIIF Community Practices
+
+![center bg 65%](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
 
 ---
 
@@ -492,20 +570,6 @@ https://12sunsets.getty.edu/
 
 ![center](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
 
-
----
-
-
-# IIIF Community Practices
-
-![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
-![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
-
----
-
-# IIIF Community Practices
-
-![center bg 65%](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
 
 ---
 

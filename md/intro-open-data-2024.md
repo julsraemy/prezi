@@ -1592,11 +1592,29 @@ https://linked.art/loud/
 
 # LOUD Standards
 
-## Specifications that follow the LOUD principles:
+## Specifications that follow the LOUD principles
 
 - International Image Interoperability Framework (IIIF)
 - W3C Web Annotation Data Model
 - Linked Art
+
+---
+
+![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+# LOUD-driven Communities
+
+## IIIF and Linked Art: social fabrics of sound socio-technical practices
+
+- Synergy of effective social and technical integration with an emphasis on usability
+- Unified by shared expertise and leadership
+- Collaboration beyond technical boundaries
+- Inclusivity and diversity in participation
+- Openness and friendliness as core values
+- Commitment to transparency
+- Organisation of online and face-to-face meetings
+
+[Raemy 2023]
 
 ---
 
@@ -1629,26 +1647,48 @@ https://bit.ly/iiifmap
 
 # IIIF Community
 
-## Organisations
+- **State and National Libraries**: Bavarian State Library, French National Library (BnF), British Library, National Library of Estonia, New York Public Library, Vatican Library, etc.
 
-- State and National Libraries
-- Archives
-- Museums & Galleries
-- Universities & Research Institutions
-- Aggregators/Facilitators
+- **Archives**: Blavatnik Foundation Archive, Indigenous Digital Archive, Internet Archive, Swedish National Archives, Swiss Federal Archives, etc.
 
-https://iiif.io/community/
+- **Museums & Galleries**: J. Paul Getty Trust, Smithsonian, Victoria & Albert Museum, MIT Museum, National Gallery of Art, etc.
 
+- **Universities & Research Institutions**: Cambridge, Cornell University, Ghent University, Swiss National Data and Service Center for the Humanities (DaSCH), Kyoto University, Oxford, Stanford, University of Toronto, Yale University, etc.
+
+- **Aggregators/Facilitators**: Europeana, Cultural Japan, Cuba-IIIF, Jisc, OCLC, etc.
+
+<!-- 
+
+Organisations
+
+ -->
 
 ---
 
 # IIIF Community
 
-## Individuals
-
-![center w:900](https://iiif.io/assets/images/heroes/event_2.webp)
+![center w:1050](https://iiif.io/assets/images/heroes/event_2.webp)
 
 2019 IIIF Conference, Göttingen, Germany
+
+<!-- 
+
+And individuals/meetings
+
+ -->
+
+---
+
+# IIIF Community Practices
+
+![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
+![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
+
+---
+
+# IIIF Community Practices
+
+![center bg 65%](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
 
 ---
 
@@ -1894,19 +1934,6 @@ https://iiif.participatory-archives.ch/SGV_12N_08589/manifest.json
 
 ![center](https://julsraemy.ch/prezi/assets/iiif-ecosystem.png)
 
----
-
-
-# IIIF Community Practices
-
-![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-1.png)
-![bg 95%](https://julsraemy.ch/prezi/assets/iiif-trc-2.png)
-
----
-
-# IIIF Community Practices
-
-![center bg 65%](https://julsraemy.ch/prezi/assets/use_cases-specifications-1.svg)
 
 ---
 
