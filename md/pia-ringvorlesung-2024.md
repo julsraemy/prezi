@@ -282,9 +282,20 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ---
 
-# PIA as Linked Open Data
+# CAS as Linked Open Data
 
-Example of an EKWS/PIA object on our Omeka-S instance and on the DaSCH Service Platform
+## High-level overview of the CAS Data Model
+
+![center](https://julsraemy.ch/prezi/assets/cas-data-model-overview.svg)
+
+---
+
+# CAS as Linked Open Data
+
+## DaSCH Service Platform (DSP)
+
+Object that has link to one or several entities
+
 
 ---
 
