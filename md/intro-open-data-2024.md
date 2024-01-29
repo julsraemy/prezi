@@ -90,7 +90,8 @@ Courses take place over the course of four Monday afternoons
 - Select one or more datasets from one or several platforms discussed during the course (if several datasets are selected, there must be a common thread)
 - Analyse, describe and identify the potential uses of the dataset(s)
 - Attempt to associate your work with one or several aspects of the other courses covered by the cross-disciplinary module (communication, statistics, survey techniques).
-- Between 900 and 1,100 words (without references) **due by Friday 22 March**
+- Between 900 and 1,100 words (without references) 
+- File to be uploaded onto Cyberlearn **by Friday 22 March, 7pm** 
 
 This assignment is weighted at 20% of the 7C2-CT module.
 
