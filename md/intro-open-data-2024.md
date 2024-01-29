@@ -669,6 +669,75 @@ And of course the underlying infrastructure...
 
 ---
 
+# Infrastructure
+
+## Definition
+
+> People commonly envision infrastructure as a system of substrates – railroad, lines, pipes and plumbing, electrical power plants, and wires. **It is by definition invisible, part of the background for other kinds of work**. It is ready-to-hand. This image holds up well enough for many purposes – turn on the faucet for a drink of water and you use a vast infrastructure of plumbing and water regulation without usually thinking much about it.
+
+[Star 1999]
+
+<!-- 
+Definition of an infrastructure according to Susan Leigh Star
+ -->
+
+---
+
+# Infrastructure
+
+## Dimensions
+
+1. Embeddedness
+2. Transparency
+3. Reach or scope
+4. Learned as part of membership
+5. Links with conventions of practice
+
+<!-- 
+
+Thee of the nine dimensions...
+
+Embeddedness: Infrastructure is sunk into and inside of other structures, social arrangements, and technologies. People do not necessarily distinguish the several coordinated aspects of infrastructure.
+
+Links with conventions of practice: Infrastructure both shapes and is shaped by the conventions of a community of practice.
+
+Embodiment of standards: Modified by scope and often by conflicting conventions, infrastructure takes on transparency by plugging into other infrastructures and tools in a standardised fashion.
+
+
+ -->
+
+
+---
+
+# Infrastructure
+
+## Dimensions
+
+6. Embodiment of standards
+7. Built on an installed base
+8. Becomes visible upon breakdown
+9. Is fixed in modular increments
+10. Not all at once globally
+
+[Star 1999]
+
+
+<!-- 
+
+Thee of the nine dimensions...
+
+Embeddedness: Infrastructure is sunk into and inside of other structures, social arrangements, and technologies. People do not necessarily distinguish the several coordinated aspects of infrastructure.
+
+Links with conventions of practice: Infrastructure both shapes and is shaped by the conventions of a community of practice.
+
+Embodiment of standards: Modified by scope and often by conflicting conventions, infrastructure takes on transparency by plugging into other infrastructures and tools in a standardised fashion.
+
+
+ -->
+
+
+---
+
 # Text-based Formats
 
 ## Plain Text (TXT)
@@ -3038,12 +3107,12 @@ Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R.,
 
 Carroll, S. R., Herczog, E., Hudson, M., Russell, K., & Stall, S. (2021). Operationalizing the CARE and FAIR Principles for Indigenous data futures. Scientific Data, 8(1), 108. https://doi.org/10.1038/s41597-021-00892-0
 
+Chen, M., & Floridi, L. (2013). An analysis of information visualisation. Synthese, 190(16), 3421–3438. 
+https://doi.org/10.1007/s11229-012-0183-y
+
 ---
 
 # References $II$
-
-Chen, M., & Floridi, L. (2013). An analysis of information visualisation. Synthese, 190(16), 3421–3438. 
-https://doi.org/10.1007/s11229-012-0183-y
 
 Concordat Working Group. (2016). Concordat on Open Research Data. UK Research and Innovation. https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf
 
@@ -3051,18 +3120,18 @@ Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practice
 
 Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. Digital Humanities in the Nordic and Baltic Countries Publications, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
 
-Floridi, L. (2010). Information: A very short introduction. Oxford University Press.
+Floridi, L. (2010). Information: A very short introduction. Oxford University Press. ISBN 978-0-19-955137-8
 
 FOSTER. (2019). Open Science. In Foster Taxonomy. FACILITATE OPEN SCIENCE TRAINING FOR EUROPEAN RESEARCH. https://www.fosteropenscience.eu/taxonomy/term/100
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
+Jullien, N. (2009). A Historical Analysis of the Emergence of Free Cooperative Software Production: In M. Pagani (Ed.), Encyclopedia of Multimedia Technology and Networking, Second Edition (pp. 605–612). IGI Global. https://doi.org/10.4018/978-1-60566-014-1.ch081
+
 
 ---
 
 # References $III$
-
-Jullien, N. (2009). A Historical Analysis of the Emergence of Free Cooperative Software Production: In M. Pagani (Ed.), Encyclopedia of Multimedia Technology and Networking, Second Edition (pp. 605–612). IGI Global. https://doi.org/10.4018/978-1-60566-014-1.ch081
 
 Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA), Pub. L. No. FF 2023 787, 22.022 Confédération suisse. Secrétariat général DFF (2023). https://fedlex.data.admin.ch/eli/fga/2023/787
 
@@ -3076,11 +3145,11 @@ Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of 
 
 Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
+OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
+
 ---
 
 # References $IV$
-
-OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
 
 Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
 
@@ -3096,12 +3165,12 @@ Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part
 
 Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data [White paper]. Internet Archive Canada. https://doi.org/10.5281/zenodo.8341519
 
+Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2023). 2023 Open Data Maturity Report [ODM Report]. European Union. https://doi.org/10.2830/384422 
+
 
 ---
 
 # References $V$
-
-Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2023). 2023 Open Data Maturity Report [ODM Report]. European Union. https://doi.org/10.2830/384422 
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
@@ -3115,16 +3184,18 @@ Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Cons
 
 Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
 
+Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
+
 
 ---
 
 # References $VI$
 
-Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
-
 Scholger, W. (2023, October 20). Legal Aspects of Arts and Humanities Data. DARIAH-CH Study Day 2023, Bern, Switzerland. https://www.dariah.ch/_files/ugd/8756fc_af72e01542284294ac0b7cf5c6064160.pdf
 
 Star, S. L., & Griesemer, J. R. (1989). Institutional Ecology, ‘Translations’ and Boundary Objects: Amateurs and Professionals in Berkeley’s Museum of Vertebrate Zoology, 1907-39. Social Studies of Science, 19(3), 387–420. https://www.jstor.org/stable/285080
+
+Star, S. L. (1999). The Ethnography of Infrastructure. American Behavioral Scientist, 43(3), 377–391. https://doi.org/10.1177/00027649921955326
 
 Stürmer, M. E. (2016). Measuring the promise of open data: Development of the Impact Monitoring Framework. 1–12. https://doi.org/10.7892/boris.75031
 
