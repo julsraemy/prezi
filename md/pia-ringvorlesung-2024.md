@@ -286,6 +286,7 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ## High-level overview of the CAS Data Model
 
+
 ![center](https://julsraemy.ch/prezi/assets/cas-data-model-overview.svg)
 
 ---
@@ -295,6 +296,25 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 ## DaSCH Service Platform (DSP)
 
 Object that has link to one or several entities
+
+
+---
+
+# PIA as Linked Open Data
+
+## Omeka-S
+
+Same object but in the Omeka-S instance
+
+
+
+---
+
+# PIA as Linked Open Data
+
+## PIA User Interface
+
+Same object but in the PIA UI 
 
 
 ---
