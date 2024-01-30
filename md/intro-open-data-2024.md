@@ -169,7 +169,7 @@ The Open Definition according to the Open Knowledge Network: https://opendefinit
 
 > Data whose purpose is to describe and give information about other data.
 
-[Oxford English Dictionary 2023]
+[Oxford English Dictionary 2023b]
 
 ### (Meta)data: semantic transposition
 
@@ -436,7 +436,7 @@ Data is not subject to any copyright, patent, trademark or trade secret regulati
 
 ## Two main components
 
-1. **Legally open**: available under an open (data) license that permits anyone freely to access, reuse and redistribute
+1. **Legally open**: available under an open (data) licence that permits anyone freely to access, reuse and redistribute
 2. **Technically open**: data is available for no more than the cost of reproduction and in machine-readable and bulk form.
 
 Open Data Handbook [Open Knowledge 2016] 
@@ -672,7 +672,11 @@ And of course the underlying infrastructure...
 
 # Infrastructure
 
-## Definition
+## Definitions
+
+> A collective term for the subordinate parts of an undertaking; substructure, foundation.
+
+[Oxford English Dictionary 2023a]
 
 > People commonly envision infrastructure as a system of substrates – railroad, lines, pipes and plumbing, electrical power plants, and wires. **It is by definition invisible, part of the background for other kinds of work**. It is ready-to-hand. This image holds up well enough for many purposes – turn on the faucet for a drink of water and you use a vast infrastructure of plumbing and water regulation without usually thinking much about it.
 
@@ -983,7 +987,7 @@ Specifications based on DCAT for describing public sector datasets
 
 - DCAT Application Profile for data portals in Europe: [DCAT-AP 3.0](https://semiceu.github.io/DCAT-AP/releases/3.0.0/)
 - DCAT Application Profile for the United States of America: [DCAT-US - Version 3](https://doi-do.github.io/dcat-us/)
-- DCAT Application Profile for Data Portals in Switzerland (DCAT-AP CH): [eCH-0200]((https://ech.ch/fr/ech/ech-0200/2.0.0))
+- DCAT Application Profile for Data Portals in Switzerland (DCAT-AP CH): [eCH-0200](https://ech.ch/fr/ech/ech-0200/2.0.0)
 
 
 <!-- 
@@ -1538,7 +1542,7 @@ _Galleries, Libraries, Archives, Museums (GLAM)_
 
 <!-- 
 
-Purpose The purpose of this study is to offer a checklist that can be used for both creating and evaluating digital collections, which are also sometimes referred to as data sets as part of the collections as data movement, suitable for computational use. Design/methodology/approach The checklist was built by synthesising and analysing the results of relevant research literature, articles and studies and the issues and needs obtained in an observational study. The checklist was tested and applied both as a tool for assessing a selection of digital collections made available by galleries, libraries, archives and museums (GLAM) institutions as proof of concept and as a supporting tool for creating collections as data. Findings Over the past few years, there has been a growing interest in making available digital collections published by GLAM organisations for computational use. Based on previous work, the authors defined a methodology to build a checklist for the publication of Collections as data. The authors’ evaluation showed several examples of applications that can be useful to encourage other institutions to publish their digital collections for computational use. Originality/value While some work on making available digital collections suitable for computational use exists, giving particular attention to data quality, planning and experimentation, to the best of the authors’ knowledge, none of the work to date provides an easy-to-follow and robust checklist to publish collection data sets in GLAM institutions. This checklist intends to encourage small- and medium-sized institutions to adopt the collection as data principles in daily workflows following best practices and guidelines.
+Purpose The purpose of this study is to offer a checklist that can be used for both creating and evaluating digital collections, which are also sometimes referred to as data sets as part of the collections as data movement, suitable for computational use. Design/methodology/approach The checklist was built by synthesising and analysing the results of relevant research literature, articles and studies and the issues and needs obtained in an observational study. The checklist was tested and applied both as a tool for assessing a selection of digital collections made available by galleries, libraries, archives and museums (GLAM) institutions as proof of concept and as a supporting tool for creating collections as data. Findings Over the past few years, there has been a growing interest in making available digital collections published by GLAM organisations for computational use. Based on previous work, the authors defined a methodology to build a checklist for the publication of Collections as data. The authors’ evaluation showed several examples of applications that can be useful to encourage other institutions to publish their digital collections for computational use. Originality/value While some work on making available digital collections suitable for computational use exists, giving particular attention to data quality, planning and experimentation, to the best of the authors’ knowledge, none of the work to date provides an easy-to-follow and robust checklist to publish collection data sets in GLAM institutions. This checklist intends to encourage small- and medium-sized institutions to adopt the collections as data principles in daily workflows following best practices and guidelines.
 
  -->
 
@@ -1560,7 +1564,7 @@ Purpose The purpose of this study is to offer a checklist that can be used for b
 
 ---
 
-# Collection as Data
+# Collections as Data
 
 ## Implementation at the Royal Library of Belgium
 
@@ -1584,6 +1588,8 @@ https://www.kbr.be/en/projects/data-kbr-be/
 
 # Linked Data
 
+Linked Data refers to a set of best practices for publishing structured data on the Web.
+
 ## Linked Data Principles
 
 - Use Uniform Resource Identifiers (URIs) as names for things
@@ -1593,6 +1599,10 @@ https://www.kbr.be/en/projects/data-kbr-be/
 
 [Berners-Lee 2006]
 
+<!-- 
+Linked Data refers to a method of publishing structured data so that it can be interlinked and become more useful through semantic queries. It builds upon standard Web technologies such as HTTP, RDF, and URIs, but rather than using them to serve web pages for human readers, it extends them to share information in a way that can be read automatically by computers. This enables data from different sources to be connected and queried.
+ -->
+
 ---
 
 # Linked Open Data (LOD)
@@ -1600,6 +1610,11 @@ https://www.kbr.be/en/projects/data-kbr-be/
 ![center](https://5stardata.info/images/5-star-steps.png)
 
 5-star deployment scheme for Open Data: https://5stardata.info/
+
+<!-- 
+
+Linked Open Data is a subset of Linked Data that is open, meaning it is freely accessible and reusable by anyone. It adheres to the principles of being accessible under an open license, available in a machine-readable format, using open standards from the W3C (such as RDF and SPARQL), and linked to other datasets to increase its utility.
+ -->
 
 ---
 
@@ -1632,13 +1647,12 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 # Linked Open Usable Data (LOUD)
 
+The concept of LOUD extends LOD by emphasising not just the openness and interlinking of data but also its usability. 
+
 ## LOUD
 
-
 - The term was coined by Robert Sanderson [2018, 2019] who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field. 
-
 - LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven and JSON-LD-based specifications.
-
 - It has five main design principles to make the data more easily accessible to software developers, who play a key role in interacting with the data and building software and services on top of it, and to some extent to academics. 
 
 ---
@@ -2533,7 +2547,7 @@ https://github.com/rnckp/awesome-ogd-switzerland
 
 ## Annual assessment 
 
-Exercise done by the EU to measure the progress of European countries in promoting and facilitating the availability and reuse of public sector information (&rarr; _mostly OGD_). It exists since 2015.
+Exercise done by the EU since 2015 to measure the progress of European countries in promoting and facilitating the availability and reuse of public sector information (&rarr; _mostly OGD_).
 
 1. **Policy** – It investigates the open data policies and strategies in place in the participating countries, the national governance models for managing open data and the measures applied to implement those policies and strategies. 
 2. **Impact** –  It analyses the willingness, preparedness and ability of countries to measure both the reuse of open data and the impact created through this reuse. 
@@ -2646,7 +2660,7 @@ How to get and work with data?
 
 ## Data Mining
 
-- Data mining is the process of analyzing large datasets to discover patterns, correlations, and insights.
+- Data mining is the process of analysing large datasets to discover patterns, correlations, and insights.
   - Advantages: Helps in identifying trends, making predictions, and informing decision-making processes; can uncover hidden patterns in data.
   - Challenges: Requires significant computational resources, potential privacy concerns, and the need for skilled interpretation of results.
 - Examples
@@ -3158,7 +3172,9 @@ Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. sw
 
 Open Science Delegation. (2021b). Swiss National Strategy Open Research Data: Action Plan. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/ActionPlanV1.0_December_2021_def.pdf
 
-Oxford English Dictionary. (2023). Metadata. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/7968104326
+Oxford English Dictionary. (2023a). Infrastructure. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/1206711036
+
+Oxford English Dictionary. (2023b). Metadata. In Oxford English Dictionary (OED). Oxford University Press. https://doi.org/10.1093/OED/7968104326
 
 Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2017). Always Already Computational: Collections as Data. Collections as Data. https://doi.org/10.17605/OSF.IO/MX6UK
 
