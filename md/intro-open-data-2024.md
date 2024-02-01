@@ -3143,12 +3143,11 @@ Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLin
 
 Jullien, N. (2009). A Historical Analysis of the Emergence of Free Cooperative Software Production: In M. Pagani (Ed.), Encyclopedia of Multimedia Technology and Networking, Second Edition (pp. 605–612). IGI Global. https://doi.org/10.4018/978-1-60566-014-1.ch081
 
+Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA), Pub. L. No. FF 2023 787, 22.022 Confédération suisse. Secrétariat général DFF (2023). https://fedlex.data.admin.ch/eli/fga/2023/787
 
 ---
 
 # References $III$
-
-Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA), Pub. L. No. FF 2023 787, 22.022 Confédération suisse. Secrétariat général DFF (2023). https://fedlex.data.admin.ch/eli/fga/2023/787
 
 Max Planck Society & European Cultural Heritage Online. (2003). Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities. Max Planck Society. https://openaccess.mpg.de/Berlin-Declaration
 
@@ -3162,13 +3161,13 @@ Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTec
 
 OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
 
----
-
-# References $IV$
-
 Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
 
 Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Swiss_National_ORD_Strategy_en.pdf
+
+---
+
+# References $IV$
 
 Open Science Delegation. (2021b). Swiss National Strategy Open Research Data: Action Plan. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/ActionPlanV1.0_December_2021_def.pdf
 
@@ -3184,7 +3183,6 @@ Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Sta
 
 Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2023). 2023 Open Data Maturity Report [ODM Report]. European Union. https://doi.org/10.2830/384422 
 
-
 ---
 
 # References $V$
@@ -3192,6 +3190,8 @@ Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
 Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
+
+Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
 
 Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
 
@@ -3201,12 +3201,12 @@ Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Cons
 
 Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
 
-Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
-
 
 ---
 
 # References $VI$
+
+Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
 
 Scholger, W. (2023, October 20). Legal Aspects of Arts and Humanities Data. DARIAH-CH Study Day 2023, Bern, Switzerland. https://www.dariah.ch/_files/ugd/8756fc_af72e01542284294ac0b7cf5c6064160.pdf
 
@@ -3218,7 +3218,12 @@ Stürmer, M. E. (2016). Measuring the promise of open data: Development of the I
 
 Tennant, J., Agarwal, R., Baždarić, K., Brassard, D., Crick, T., Dunleavy, D. J., Evans, T. R., Gardner, N., Gonzalez-Marquez, M., Graziotin, D., Greshake Tzovaras, B., Gunnarsson, D., Havemann, J., Hosseini, M., Katz, D. S., Knöchelmann, M., Madan, C. R., Manghi, P., Marocchino, A., … Yarkoni, T. (2020). A tale of two ‘opens’: Intersections between Free and Open Source Software and Open Scholarship [Preprint]. SocArXiv. https://doi.org/10.31235/osf.io/2kxq8
 
+---
+
+# References $VII$
+
 Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
+
 
 ---
 

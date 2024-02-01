@@ -18,7 +18,7 @@ _paginate: false
 <!-- _footer: CIHN24 | Haute école de gestion de Genève | 13.02.2024 | [![width:100](https://zenodo.org/badge/DOI/10.5281/zenodo.10526542.svg)](https://doi.org/10.5281/zenodo.10526542) -->
 
 # LOUD : Catalyseur de Convergence
-Julien A. Raemy (Digital Humanities Lab, Université de Bâle)
+Julien A. Raemy (Digital Humanities Lab, Université de Bâle / DaSCH)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 
 Conférence internationale sur les humanités numériques (CIHN24)
@@ -90,18 +90,6 @@ Le web sémantique est une extension du web, par le biais de normes, afin de le 
 ![center width:500px](https://julsraemy.ch/prezi/assets/tweaked-semweb-layer-cake.webp)
 
 Tweaked Semantic Web Layer Cake [Idehen 2017]
-
-
----
-
-#  Resource Description Framework (RDF)
-
-Avec RDF, tout va par trois. La pluplart des parties constitutives des triples ont des identifiants uniformes de ressources (_Uniform Resource Identifier_ - URI). 
-Syntaxe : **sujet, prédicat, objet** $(s \ \vec{p} \ o)$ 
-
-![center width:540px](https://julsraemy.ch/prezi/assets/rdf-graph.svg)
-
-
 
 ---
 
@@ -286,6 +274,13 @@ CIDOC - Comité international pour la documentation du conseil international des
 | **API**        | JSON-LD, style d'architecture REST              |
 
 [Points de terminaison de l'API Linked Art](https://linked.art/api/1.0/endpoint/): _Concepts, Digital Objects, Events, Groups, People, Physical Objects, Places, Provenance Activities, Sets, Textual Works, Visual Works_
+
+---
+
+![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+
+[Raemy et al. 2023, adapted from Sanderson 2018]
+
 
 ---
 
