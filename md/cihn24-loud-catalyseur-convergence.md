@@ -132,7 +132,7 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 * L'objectif du LOUD est de **concrétiser l'intention du web sémantique à une échelle globale d'une manière pragmatique** en s'appuyant sur des spécifications communautaires et basées sur le format **JSON-LD**.
 
-* LOUD repose sur cinq grands principes de conception visant à **rendre les données plus facilement accessibles aux développeurs de logiciels**, qui occupent un rôle déterminant dans l'interaction avec les données et la création de programmes et de services à partir de celles-ci, et, dans une certaine mesure, aux membres de la communauté universitaire.
+* LOUD repose sur cinq grands principes de conception (https://linked.art/loud/) visant à **rendre les données plus facilement accessibles aux développeurs de logiciels**, qui occupent un rôle déterminant dans l'interaction avec les données et la création de programmes et de services à partir de celles-ci, et, dans une certaine mesure, aux membres de la communauté universitaire. 
 
 
 [Sanderson 2019]
@@ -142,44 +142,6 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 Le concept a été proposé par Robert Sanderson, qui a participé à la conception et à la maintenance de normes web, principalement dans le domaine du patrimoine culturel. 
 
  -->
-
----
-
-# Linked Open Usable Data (LOUD)
-
-## Principes de conception
-
-- La bonne abstraction en fonction du public (_The right Abstraction for the audience_)
-
-- Peu d'obstacles à l'entrée (_Few Barriers to entry_)
-
-- Compréhensible par introspection (_Comprehensible by introspection_)
-
-- Documentation comportant des exemples concrets (_Documentation with working examples_)
-
-- Peu d'exceptions, mais de nombreux modèles cohérents (_Few Exceptions, instead many consistent patterns_)
-
-https://linked.art/loud/. Propre traduction [Raemy 2022]
-
-<!-- 
-
-A. La bonne abstraction en fonction du public (The right Abstraction for the audience)
-Il faut privilégier les cas d'utilisation au lieu de la rigueur ontologique afin de déterminer le niveau d'interopérabilité.
-
-B. Peu d'obstacles à l'entrée (Few Barriers to entry)
-Les données, et le modèle sous-jacent, doivent être faciles à utiliser et à exploiter. La mise en place de tels systèmes incitera davantage de personnes à y recourir activement.
-
-C. Compréhensible par introspection (Comprehensible by introspection)
-Les données doivent être compréhensibles dans une large mesure simplement en les consultant, sans requérir de l'aide extérieure. Cela peut être achevé en sérialisant les informations en JSON-LD, un format d'encodage de donnée structurées simple à lire et répandu sur le Web.
-
-D. Documentation comportant des exemples concrets (Documentation with working examples)
-Une documentation des plus exhaustives doit être réalisée afin de clarifier la mise en œuvre des cas d'utilisation.
-
-E. Peu d'exceptions, mais de nombreux modèles cohérents (Few Exceptions, instead many consistent patterns)
-Un modèle doit pouvoir contenir le moins d'exceptions possibles pour éviter d'ajouter des règles demandant la création de champs personnalisés au cas par cas.
-
- -->
-
 
 ---
 
@@ -193,23 +155,27 @@ Un modèle doit pouvoir contenir le moins d'exceptions possibles pour éviter d'
 - W3C Web Annotation Data Model
 - Linked Art
 
+<!-- 
+
+IIIF et Linked Art: communautés unies par la présence de membres communs apportant expertise et leadership
+ -->
+
 ---
 
 ![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
 
 # Communautés LOUD
 
-## IIIF et Linked Art : des fondations solides de coopération technique et sociale
+## IIIF et Linked Art : des fondations solides de coopération sociale et technique
 
 - Synergie d'une intégration sociale et technique efficace mettant l'accent sur l'utilisabilité
-- Unies par la présence de membres communs apportant expertise et leadership
 - Collaboration transversale au-delà des frontières techniques
 - Inclusivité et diversité dans la participation
 - Ouverture d'esprit et convivialité comme valeurs fondamentales
 - Engagement envers la transparence
 - Organisation de réunions en ligne et en présentiel
 
-[Raemy 2023]
+[Newbury 2018; Raemy 2023]
 
 ---
 
@@ -240,27 +206,6 @@ https://www.theleidencollection.com/viewer/david-and-uriah/
 
 Storiiies: http://storiiies.cogapp.com/
 
-
----
-
-# W3C Web Annotation Data Model
-
-![center](https://julsraemy.ch/prezi/assets/anno-model.png)
-
-https://www.w3.org/TR/annotation-model/
-
----
-
-# Linked Art
-
-Linked Art est une communauté et un groupe de travail du CIDOC (_ICOM International Committee for Documentation_) qui collabore à la définition d'un profil d'application de métadonnées pour décrire les données du patrimoine culturel et les moyens techniques pour interagir avec celles-ci (l'API). https://linked.art
-
-![center w:580](https://julsraemy.ch/prezi/assets/la-overview.svg)
-
-<!-- 
-CIDOC - Comité international pour la documentation du conseil international des musées
- -->
-
 ---
 
 # Linked Art
@@ -273,13 +218,23 @@ CIDOC - Comité international pour la documentation du conseil international des
 | **Profil**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
 | **API**        | JSON-LD, style d'architecture REST              |
 
-[Points de terminaison de l'API Linked Art](https://linked.art/api/1.0/endpoint/): _Concepts, Digital Objects, Events, Groups, People, Physical Objects, Places, Provenance Activities, Sets, Textual Works, Visual Works_
+https://linked.art
+
+<!-- 
+
+Linked Art est une communauté et un groupe de travail du CIDOC (ICOM International Committee for Documentation) qui collabore à la définition d'un profil d'application de métadonnées pour décrire les données du patrimoine culturel et les moyens techniques pour interagir avec celles-ci (l'API). 
+
+ -->
+
+
 
 ---
 
+# Linked Art
+
 ![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
 
-[Raemy et al. 2023, adapted from Sanderson 2018]
+[Raemy et al. 2023, adapté de Sanderson 2018]
 
 
 ---
@@ -319,8 +274,9 @@ LUX – https://lux.collections.yale.edu/ – regroupe plus de 41 millions de re
 - Base de données multimodale orientée documents (NoSQL) : MarkLogic Server
 - Documentation et mise à disposition des chaînes de traitement, modélisation et correspondance des données
 
-<!-- Toutes les composantes de LUX, y compris le code spécifique pour MarkLogic, sera rendu open source.  -->
+Voir Metcalfe Hurst [2023]
 
+<!-- Toutes les composantes de LUX, y compris le code spécifique pour MarkLogic, sera rendu open source.  -->
 
 ---
 
@@ -380,7 +336,6 @@ Promotion de la Convergence entre Humanités Numériques et Sciences de l'Inform
 
  -->
 
-
 ---
 
 # Architecture orientée LOUD
@@ -428,7 +383,7 @@ LOUD émerge comme un catalyseur clé pour les sciences de l'information et les 
 
 <!-- class: tinytext --> 
 
-# Bibliographie
+# Bibliographie $I$
 
 Berners-Lee, T. (1991, August 6). WorldWideWeb — Executive summary. Archive.Md. https://archive.md/Lfopj
 
@@ -436,11 +391,23 @@ Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and
 
 Idehen, K. U. (2017, July 24). Semantic Web Layer Cake Tweak, Explained. OpenLink Software Blog. https://medium.com/openlink-software-blog/semantic-web-layer-cake-tweak-explained-6ba5c6ac3fab
 
+Metcalfe Hurst, E. (2023). LUX: Yale Collections Discovery. ARLIS/NA Multimedia & Technology Reviews, 2023(4), 1–4. https://doi.org/10.17613/3hy1-pv45
+
+Newbury, D. (2018). LOUD: Linked Open Usable Data and linked.art. 2018 CIDOC Conference, 1–11. https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf
+
 Raemy, J. A. (2022). Améliorer la valorisation des données du patrimoine culturel grâce au Linked Open Usable Data (LOUD). In N. Lasolle, O. Bruneau, & J. Lieber (Eds.), Actes des journées humanités numériques et Web sémantique (pp. 132–149). Les Archives Henri-Poincaré - Philosophie et Recherches sur les Sciences et les Technologies (AHP-PReST); Laboratoire lorrain de recherche en informatique et ses applications (LORIA). https://doi.org/10.5451/unibas-ep89725
 
 Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 
+---
+
+# Bibliographie $II$
+
+Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
+
 Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
+
+Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
 
 Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
 

@@ -1698,7 +1698,7 @@ https://linked.art/loud/
 - Commitment to transparency
 - Organisation of online and face-to-face meetings
 
-[Raemy 2023]
+[Newbury 2018; Raemy 2023]
 
 ---
 
@@ -3159,15 +3159,17 @@ Morrison, R. (2021). Redrawn slide from presentation of Ana Persic, Division of 
 
 Mr Gee. (2023, October 12). Day 2 Closing – A multitude of tools. EuropeanaTech 2023. EuropeanaTech 2023, The Hague, Netherlands. https://youtu.be/pOX9CrvAG7I
 
+Newbury, D. (2018). LOUD: Linked Open Usable Data and linked.art. 2018 CIDOC Conference, 1–11. https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf
+
 OFS. (2023). Masterplan Open Government Data 2024-2027 (p. 24) [Masterplan OGD]. Office fédérale de la statistique. https://www.newsd.admin.ch/newsd/message/attachments/84864.pdf
 
 Open Knowledge. (2016). The Open Data Handbook. Open Data Handbook. https://opendatahandbook.org/
 
-Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Swiss_National_ORD_Strategy_en.pdf
-
 ---
 
 # References $IV$
+
+Open Science Delegation. (2021a). Swiss National Open Research Data Strategy. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Swiss_National_ORD_Strategy_en.pdf
 
 Open Science Delegation. (2021b). Swiss National Strategy Open Research Data: Action Plan. swissuniversities. https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/ActionPlanV1.0_December_2021_def.pdf
 
@@ -3181,11 +3183,11 @@ Padilla, T., Scates Kettler, H., & Shorish, Y. (2023). Collections as Data: Part
 
 Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data [White paper]. Internet Archive Canada. https://doi.org/10.5281/zenodo.8341519
 
-Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2023). 2023 Open Data Maturity Report [ODM Report]. European Union. https://doi.org/10.2830/384422 
-
 ---
 
 # References $V$
+
+Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2023). 2023 Open Data Maturity Report [ODM Report]. European Union. https://doi.org/10.2830/384422 
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
@@ -3199,12 +3201,12 @@ Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018,
 
 Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
 
-Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
-
 
 ---
 
 # References $VI$
+
+Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
 
 Santos, A. (2020). Données de la recherche : cadre juridique et licences [Mémoire de master, HES-SO University of Applied Sciences and Arts, Haute école de gestion de Genève]. https://doi.org/10.5281/zenodo.3967402
 
@@ -3216,11 +3218,11 @@ Star, S. L. (1999). The Ethnography of Infrastructure. American Behavioral Scien
 
 Stürmer, M. E. (2016). Measuring the promise of open data: Development of the Impact Monitoring Framework. 1–12. https://doi.org/10.7892/boris.75031
 
-Tennant, J., Agarwal, R., Baždarić, K., Brassard, D., Crick, T., Dunleavy, D. J., Evans, T. R., Gardner, N., Gonzalez-Marquez, M., Graziotin, D., Greshake Tzovaras, B., Gunnarsson, D., Havemann, J., Hosseini, M., Katz, D. S., Knöchelmann, M., Madan, C. R., Manghi, P., Marocchino, A., … Yarkoni, T. (2020). A tale of two ‘opens’: Intersections between Free and Open Source Software and Open Scholarship [Preprint]. SocArXiv. https://doi.org/10.31235/osf.io/2kxq8
-
 ---
 
 # References $VII$
+
+Tennant, J., Agarwal, R., Baždarić, K., Brassard, D., Crick, T., Dunleavy, D. J., Evans, T. R., Gardner, N., Gonzalez-Marquez, M., Graziotin, D., Greshake Tzovaras, B., Gunnarsson, D., Havemann, J., Hosseini, M., Katz, D. S., Knöchelmann, M., Madan, C. R., Manghi, P., Marocchino, A., … Yarkoni, T. (2020). A tale of two ‘opens’: Intersections between Free and Open Source Software and Open Scholarship [Preprint]. SocArXiv. https://doi.org/10.31235/osf.io/2kxq8
 
 Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
 
