@@ -45,13 +45,13 @@ Haute école de gestion de Genève | Bachelor Information Science | Spring Semes
 
 | Date 	| Content 	|
 |------------	|----------------------------	|
-| 19.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
-| 26.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
-| 04.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Techniques, Software, and Tools](#techniques-software-and-tools)                  	|
-| 11.03.2024 	| [Assignment Workshop](#assignment-workshop), [Showcases](#showcases), [Conclusion](#conclusion), [References and Image Credits](#references-and-image-credits)                  	|
+| 20.02.2024 	| [Course Overview](#course-overview), [Characteristics of Open Data](#characteristics-of-open-data)	|
+| 27.02.2024 	| [Associated Movements and Principles](#associated-movements-and-principles), [Platforms and Organisations](#platforms-and-organisations)                  	|
+| 05.03.2024 	| [Assessment, Data Quality, and Best Practices](#assessment-data-quality-and-best-practices), [Techniques, Software, and Tools](#techniques-software-and-tools)                  	|
+| 12.03.2024 	| [Assignment Workshop](#assignment-workshop), [Showcases](#showcases), [Conclusion](#conclusion), [References and Image Credits](#references-and-image-credits)                  	|
 
 <!-- 
-Courses take place over the course of four Monday afternoons
+Courses take place over the course of four Tuesday afternoons
 
  -->
 
