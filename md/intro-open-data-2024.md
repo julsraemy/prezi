@@ -1566,6 +1566,17 @@ Purpose The purpose of this study is to offer a checklist that can be used for b
 
 # Collections as Data
 
+## Workflow
+
+![center w:750](https://julsraemy.ch/prezi/assets/cad-workflow.jpg)
+
+https://marketplace.sshopencloud.eu/workflow/I3JvP6
+
+
+---
+
+# Collections as Data
+
 ## Implementation at the Royal Library of Belgium
 
 - Data-level access to collections
