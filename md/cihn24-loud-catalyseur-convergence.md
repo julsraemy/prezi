@@ -25,6 +25,13 @@ Conférence internationale sur les humanités numériques (CIHN24)
 Haute école de gestion de Genève | Carouge, Suisse | 13.02.2024 
 :uk: [LOUD: Catalyst of Convergence](https://julsraemy.ch/prezi/cihn24-loud-catalyst-convergence.html)
 
+<!-- 
+Bonjour à toutes et à tous, c'est un plaisir de revenir à la HEG, là où j'ai étudié et travailler, pour évoquer la thématique de ma thèse de doctorat. 
+
+A savoir que je ferai la présentation en français... but there is an English version of this slide deck and I can give you the link to this HTML-hosted presentation.
+
+ -->
+
 
 --- 
 
@@ -43,6 +50,12 @@ Thèse encadrée par :
 - Dr. Robert Sanderson (Yale)
 
 https://phd.julsraemy.ch
+
+<!-- 
+
+Je réalise une thèse de doctorat sur la thématique des données ouvertes liées et utilisables - ou Linked Open Usable Data - dans le domaine du patrimoine culturel
+
+ -->
 
 
 ---
@@ -81,6 +94,11 @@ https://phd.julsraemy.ch
 
 [Berners-Lee 1991]
 
+<!-- 
+Le web a été créé au CERN en 1989 par Tim Berners-Lee. Le projet du World Wide Web est parti de l'idée que la plupart des informations académiques devraient être librement accessibles à toutes et tous.
+
+ -->
+
 
 ---
 
@@ -92,6 +110,11 @@ Le web sémantique est une extension du web, par le biais de normes, afin de le 
 
 Tweaked Semantic Web Layer Cake [Idehen 2017]
 
+<!-- 
+Le Web sémantique vise à rendre les pages explorables tout aussi bien par l'homme que par la machine. Il comprend un ensemble de standards ouverts et au coeur de celui-ci on peut nommer la syntaxe RDF (Resource Description Framework).
+
+ -->
+
 ---
 
 # Linked Open Data (LOD)
@@ -102,12 +125,13 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.info/
 
-<!-- 5-star open data scheme 
-1) make your stuff available on the Web (whatever format) under an open license
-2) make it available as structured data
-3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
-4) use URIs to denote things, so that people can point at your stuff
-5) link your data to other data to provide context -->
+<!--
+1) publiez vos données sur le Web (peu importe leur format) avec une licence ouverte
+2) publiez-les en tant que données structurées (par exemple, un document Excel au lieu d’une image scannée d’un tableau)
+3) publiez-les dans un format ouvert et non-propriétaire (par exemple, un CSV plutôt qu’un Excel)
+4) utilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci
+5) liez vos données à d’autres données pour y ajouter du contexte
+ -->
 
 
 
@@ -229,10 +253,8 @@ https://linked.art
 | **Profil**    | Patrimoine culturel, principalement axé sur les objets des musées d'art |
 | **API**        | JSON-LD, style d'architecture REST              |
 
-https://linked.art
-
 <!-- 
-
+Plus en détail. Ce qui est intéressant, c'est que Linked Art se base sur une partie de l'ontologie CIDOC-CRM, qui est un modèle de haut niveau, et c'est grâce aux vocabulaires du Getty que les entités, les ressources sont enrichies. 
 
  -->
 
