@@ -3,7 +3,28 @@
 /* beam license - GNU GPLv3 https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_beam */
 /* License of beamer which inspired this theme - GNU GPLv2 https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_GPLv2 */
 
-@import "default";
+@import "default"; 
+
+@font-face {
+  font-family: "CMUSansSerif";
+  src: local("CMUSansSerif"), url("https://phd.julsraemy.ch/assets/fonts/cmunbmr.ttf");
+}
+@font-face {
+  font-family: "CMUSansSerif-Italic";
+  src: local("CMUSansSerif-Italic"), url("https://phd.julsraemy.ch/assets/fonts/cmunbmo.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "CMUSansSerif-BoldItalic";
+  src: local("CMUSansSerif-BoldItalic"), url("https://phd.julsraemy.ch/assets/fonts/cmunbso.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "CMUSansSerif-Bold";
+  src: local("CMUSansSerif-Bold"), url("https://phd.julsraemy.ch/assets/fonts/cmunbsr.ttf");
+  font-weight: bold;
+}
 
 :root {
   font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif;
