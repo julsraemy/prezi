@@ -5,6 +5,8 @@
 
 @import "default"; 
 
+@import url('https://fonts.cdnfonts.com/css/cmu-bright');
+
 @font-face {
   font-family: "CMUSansSerif";
   src: local("CMUSansSerif"), url("https://phd.julsraemy.ch/assets/fonts/cmunbmr.ttf");
