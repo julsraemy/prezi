@@ -27,7 +27,7 @@
 }
 
 :root {
-  font-family: "CMU Sans Serif", "Segoe UI", Helvetica, sans-serif;
+  font-family: "CMUSansSerif", "Segoe UI", Helvetica, sans-serif;
   --main: #465B64;
   --secondary: #141414;
 }
@@ -79,7 +79,7 @@ h6 {
 
 /* only apply to the first occurrence of h1 */
 h1:nth-of-type(1) {
-  font-family: "CMU Bright", "Segoe UI Semibold";
+  font-family: "CMUSansSerif-Bold", "Segoe UI Semibold";
   color: #ffffff;
   background-color: var(--main);
   border-top: 0.3em solid var(--main);
