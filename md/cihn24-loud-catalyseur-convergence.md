@@ -28,7 +28,9 @@ Haute école de gestion de Genève | Carouge, Suisse | 13.02.2024
 <!-- 
 Bonjour à toutes et à tous, c'est un plaisir de revenir à la HEG, là où j'ai étudié et travailler, pour évoquer la thématique de ma thèse de doctorat. 
 
-A savoir que je ferai la présentation en français... but there is an English version of this slide deck and I can give you the link to this HTML-hosted presentation.
+I am now going to switch to English and do the opposite to what Professor Joyeux-Prunel did this morning, so the content will be in French, but I will be speaking English. 
+
+There is an English version of this slide deck and I can give you the link to this HTML-hosted presentation.
 
  -->
 
@@ -53,7 +55,7 @@ https://phd.julsraemy.ch
 
 <!-- 
 
-Je réalise une thèse de doctorat sur la thématique des données ouvertes liées et utilisables - ou Linked Open Usable Data - dans le domaine du patrimoine culturel
+I am doing a PhD in Digital Humanities at the University of Basel on Linked Open Usable Data. Interested by two perspectives...
 
  -->
 
@@ -71,6 +73,15 @@ Je réalise une thèse de doctorat sur la thématique des données ouvertes lié
 - La plateforme LUX, LOUD en pratique
 - Conclusion
 
+<!-- 
+
+Interlinking data on the web
+Linked Open Usable Data (LOUD)
+LUX, Yale Collections Discovery Platform
+Conclusion
+
+
+ -->
 
 ---
 
@@ -95,7 +106,7 @@ Je réalise une thèse de doctorat sur la thématique des données ouvertes lié
 [Berners-Lee 1991]
 
 <!-- 
-Le web a été créé au CERN en 1989 par Tim Berners-Lee. Le projet du World Wide Web est parti de l'idée que la plupart des informations académiques devraient être librement accessibles à toutes et tous.
+The web was created at CERN in 1989 by Tim Berners-Lee. The World Wide Web project was based on the idea that most academic information should be freely accessible to everyone.
 
  -->
 
@@ -111,7 +122,7 @@ Le web sémantique est une extension du web, par le biais de normes, afin de le 
 Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 <!-- 
-Le Web sémantique vise à rendre les pages explorables tout aussi bien par l'homme que par la machine. Il comprend un ensemble de standards ouverts et au coeur de celui-ci on peut nommer la syntaxe RDF (Resource Description Framework).
+The Semantic Web is an extension of the World Wide Web, through standards, to make it machine-readable. And it works with standard, and the syntax of it is Resource Description Framework (RDF)
 
  -->
 
@@ -126,11 +137,11 @@ Le Web sémantique vise à rendre les pages explorables tout aussi bien par l'ho
 Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.info/
 
 <!--
-1) publiez vos données sur le Web (peu importe leur format) avec une licence ouverte
-2) publiez-les en tant que données structurées (par exemple, un document Excel au lieu d’une image scannée d’un tableau)
-3) publiez-les dans un format ouvert et non-propriétaire (par exemple, un CSV plutôt qu’un Excel)
-4) utilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci
-5) liez vos données à d’autres données pour y ajouter du contexte
+1) publish your data on the Web (in any format) under an open licence
+2) publish it as structured data (for example, an Excel document rather than a scanned image of a table)
+3) publish it in an open, non-proprietary format (for example, a CSV rather than an Excel)
+4) use URIs to refer to things in your data, so that people can make references to them
+5) link your data to other data to provide context
  -->
 
 
@@ -164,7 +175,11 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 <!-- 
 
-Le concept a été proposé par Robert Sanderson, qui a participé à la conception et à la maintenance de normes web, principalement dans le domaine du patrimoine culturel. 
+The concept was suggested by Robert Sanderson, who has been involved in the design and maintenance of web standards, mainly in the cultural heritage field.
+
+LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven and JSON-LD-based specifications.
+
+5 design principles
 
  -->
 
@@ -182,7 +197,9 @@ Le concept a été proposé par Robert Sanderson, qui a participé à la concept
 
 <!-- 
 
-IIIF et Linked Art: communautés unies par la présence de membres communs apportant expertise et leadership
+Standards that adheres to the design principles.
+
+IIIF and Linked Art: communities linked by the presence of shared members providing expertise and leadership
  -->
 
 ---
@@ -202,6 +219,15 @@ IIIF et Linked Art: communautés unies par la présence de membres communs appor
 
 [Newbury 2018; Raemy 2023]
 
+<!-- 
+Synergy of effective social and technical integration with an emphasis on usability
+Collaboration beyond technical boundaries
+Inclusivity and diversity in participation
+Openness and friendliness as core values
+Commitment to transparency
+Organisation of online and face-to-face meetings
+ -->
+
 ---
 
 ![center bg width:45% opacity:.1](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
@@ -214,6 +240,13 @@ IIIF et Linked Art: communautés unies par la présence de membres communs appor
 - Une communauté, qui développe des interfaces de programmation applicative (API) partagées, les implémentent dans des logiciels et exposent des contenus interopérables sur le Web
 
 https://iiif.io
+
+<!-- 
+
+A model for presenting and annotating content
+A global community that develops shared application programming interfaces (APIs), implements them in software, and exposes interoperable content
+
+ -->
 
 ---
 
@@ -241,6 +274,11 @@ Linked Art est une communauté et un groupe de travail du CIDOC (_ICOM Internati
 
 https://linked.art
 
+<!-- 
+Linked Art is a community and a CIDOC (ICOM International Committee for Documentation) Working Group collaborating to define a metadata application profile for describing cultural heritage, and the technical means for conveniently interacting with it (the API).
+
+ -->
+
 ---
 
 # Linked Art
@@ -254,7 +292,9 @@ https://linked.art
 | **API**        | JSON-LD, style d'architecture REST              |
 
 <!-- 
-Plus en détail. Ce qui est intéressant, c'est que Linked Art se base sur une partie de l'ontologie CIDOC-CRM, qui est un modèle de haut niveau, et c'est grâce aux vocabulaires du Getty que les entités, les ressources sont enrichies. 
+Here in more detail. What's interesting is that Linked Art is based on the CIDOC-CRM ontology, which is a high-level model, and it's thanks to the Getty's vocabularies that the entities and resources are further defined.
+
+Object-based cultural heritage (mainly art museum oriented)
 
  -->
 
@@ -268,12 +308,24 @@ Plus en détail. Ce qui est intéressant, c'est que Linked Art se base sur une p
 
 [Raemy et al. 2023, adapté de Sanderson 2018]
 
+<!-- 
+Linked Art from 50k feet
+
+ -->
+
 
 ---
 
 # Intégration numérique (IIIF) avec Linked Art
 
 ![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+
+
+<!-- 
+
+Digital Integration available in Linked Art such as describing IIIF-compliant resources and pointing to their API context and treating this service as something that is semantically relevant
+.
+ -->
 
 
 ---
@@ -308,7 +360,10 @@ LUX – https://lux.collections.yale.edu/ – regroupe plus de 41 millions de re
 
 Voir Metcalfe Hurst [2023]
 
-<!-- Toutes les composantes de LUX, y compris le code spécifique pour MarkLogic, sera rendu open source.  -->
+<!-- 
+LUX provides a unified gateway to more than 41 million cultural heritage resources held by Yale's museums, archives and libraries: Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery. Widespread technologies: Python, JavaScript, Node.js, React, AWS
+
+-->
 
 ---
 
@@ -318,6 +373,11 @@ Voir Metcalfe Hurst [2023]
 
 [Raemy & Sanderson 2023]
 
+
+<!-- 
+Data pipeline. Each institition retain the way they describe cultural objects, they retain teir own practices, but we need somme common denominator and LOUD can serve as that. 
+
+ -->
 
 ---
 
@@ -352,19 +412,15 @@ Voir Metcalfe Hurst [2023]
 5. Promotion de la convergence entre humanités numériques et sciences de l'information
 
 <!-- 
+Improving Interoperability and Accessibility: Enhances data exchange and access across cultural and scientific datasets using standards like JSON-LD, IIIF, and Linked Art.
 
+Facilitating Interdisciplinary Collaboration: Lowers technical barriers and promotes cooperation among cultural heritage professionals, information scientists, and digital humanities researchers.
 
-Bien sûr, voici les cinq points résumant l'impact et les perspectives de LOUD (Linked Open Usable Data) sur la recherche et la gestion des données du patrimoine culturel, ainsi que sur les sciences de l'information et les humanités numériques :
+Enhanced Understanding of Cultural Heritage: Makes heritage data more accessible and understandable, improving cultural sharing and preservation efforts.
 
-Amélioration de l'Interopérabilité et de l'Accessibilité : LOUD facilite une meilleure interopérabilité entre diverses sources de données culturelles et scientifiques et améliore l'accessibilité pour un large éventail d'utilisateurs, grâce à l'utilisation de standards tels que JSON-LD, IIIF et Linked Art.
+Improving Research Methods and Data Management: Transforms research approaches and data management in digital humanities and information science towards more user-oriented and explicit management.
 
-Facilitation de la Collaboration Interdisciplinaire : LOUD abaisse les barrières techniques et promeut des principes adaptés aux besoins du public, encourageant la collaboration entre professionnels du patrimoine culturel, scientifiques de l'information et chercheurs en humanités numériques pour des projets innovants et interdisciplinaires.
-
-Renforcement de la Compréhension et de la Conservation du Patrimoine Culturel : L'approche de LOUD, en rendant les données du patrimoine culturel plus accessibles et compréhensibles, aide les institutions à mieux partager et préserver leur richesse culturelle, tout en fournissant aux chercheurs des outils plus efficaces pour l'analyse et l'étude.
-
-Avancées dans les Méthodes de Recherche et de Gestion des Données : Les principes de LOUD, tels que la facilité d'accès et la documentation explicative, peuvent transformer les méthodologies de recherche dans les humanités numériques et les sciences de l'information, permettant une gestion des données plus cohérente et orientée utilisateur.
-
-Promotion de la Convergence entre Humanités Numériques et Sciences de l'Information : LOUD encourage le rapprochement entre les humanités numériques et les sciences de l'information, favorisant une analyse et une interprétation enrichies des données culturelles et historiques, et ouvrant la voie à des études plus intégrées et innovantes dans ces domaines.
+Promoting Convergence between Digital Humanities and Information Science: Encourages in-depth analysis and interpretation of cultural and historical data, leading to more integrated and innovative studies in these fields.
 
  -->
 
@@ -379,7 +435,7 @@ Promotion de la Convergence entre Humanités Numériques et Sciences de l'Inform
 
 <!-- 
 
-LOUD émerge comme un catalyseur clé pour les sciences de l'information et les humanités numériques, équilibrant complétude, précision et accessibilité des données. L'approche illustrée par Yale démontre l'impact de LOUD dans l'amélioration de l'accès et de la valorisation des données du patrimoine culturel, marquant une avancée significative dans le domaine.
+LOUD is emerging as a key enabler for information science and digital humanities, balancing data completeness, accuracy and accessibility. The approach illustrated by Yale demonstrates the impact of LOUD in improving access to and enhancement of cultural heritage data, marking a significant advance in the field.
 
  -->
 
@@ -396,6 +452,19 @@ LOUD émerge comme un catalyseur clé pour les sciences de l'information et les 
 * Les standards LOUD, employés conjointement, améliorent l'interopérabilité sémantique, même si cela se fait au détriment d'une certaine pureté ontologique.
 
 * Les pratiques et les normes LOUD devraient servir de dénominateurs communs pour les institutions du patrimoine culturel, les organismes publics et les projets de recherche.
+
+<!-- 
+
+Towards collaborative and interoperable convergence
+
+Grassroots development of IIIF and Linked Art with collaboration and transparency are one of the key factors, but implementations are needed to be conducted in parallel (specifications versus demonstrability).
+
+LOUD standards, when used in conjunction, enhances semantic interoperability, even if it comes at the cost of ontological purity.
+
+LOUD practices and standards should serve as common denominators for cultural heritage institutions, public bodies as well as research projects.
+
+
+ -->
 
 
 ---
