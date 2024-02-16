@@ -346,6 +346,46 @@ https://www.snf.ch/en/dMILj9t4LNk8NwyR/topic/open-research-data
 
 ---
 
+# Research Data Management (RDM)
+
+## Definition
+
+RDM refers to the organisation, storage and preservation of data created during a research project.
+
+## Purpose
+
+RDM ensures that research data are well-organised, maintained and accessible for current and future research, thereby improving their reliability, validity and reproducibility.
+
+
+
+---
+
+# Data Management Plan (DMP)
+
+## Definition
+
+A DMP is a formal document that outlines how data will be handled during and after a research project, covering aspects from collection to sharing and preservation.
+
+## Purpose
+
+It serves as a guide for managing data efficiently and meets funding agency requirements for data stewardship. It is now mandatory for most funding agencies to require a DMP as part of the grant application process to secure funding. University libraries often have services and resources to assist researchers in creating these documents, providing expert guidance on best practices in data management.
+
+
+---
+
+# RDM and DMP
+
+## Interconnected Roles
+
+RDM encompasses the day-to-day management of research data, while a DMP provides a structured plan for how to manage, share, and preserve data throughout the research project.
+
+## Planning and Execution
+
+A DMP is essentially a blueprint for RDM. It outlines the policies and standards to be applied to the data, ensuring that data management practices are thought through from the outset of the project.
+
+
+---
+
 # Open Government Data (OGD)
 
 > The work of government involves collecting huge amounts of data, much of which is not confidential (economic data, demographic data, spending data, crime data, transport data, etc). The value of much of this data can be greatly enhanced by releasing it as open data, freeing it for re-use by business, research, civil society, data journalists, etc.
@@ -1161,7 +1201,93 @@ In pairs or small groups, you will conceptualise a new platform for open data. I
 
 ---
 
+![bg 20% opacity:.2](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Open_Access_logo_PLoS_transparent.svg/1280px-Open_Access_logo_PLoS_transparent.svg.png)
+
+# Open Access
+
+## Definition 
+
+> **Open access (OA) is a broad international movement that seeks to grant free and open online access to academic information**, such as publications and data. A publication is defined 'open access' when there are no financial, legal or technical barriers to accessing it - that is to say when anyone can read, download, copy, distribute, print, search for and search within the information, or use it in education or in any other way within the legal agreements. 
+
+https://www.openaccess.nl/en/what-is-open-access
+
+
+---
+
+![bg 20% opacity:.2](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Open_Access_logo_PLoS_transparent.svg/1280px-Open_Access_logo_PLoS_transparent.svg.png)
+
+# Open Access
+
+## Definition 
+
+> OA is a publishing model for scholarly communication that makes research information available to readers at no cost, as opposed to the traditional subscription model in which readers have access to scholarly information by paying a subscription (usually via libraries). 
+
+
+
+https://www.openaccess.nl/en/what-is-open-access
+
+
+<!-- 
+In a nutshell, OA refers to the practice of providing unrestricted access via the Internet to peer-reviewed scholarly research.
+
+ -->
+
+
+---
+
+# Open Access
+
+## Gold Open Access
+
+Publications are made freely accessible by the publisher immediately upon publication. It often involves Article Processing Charges (APCs) paid by the author, their institution, or a funder.
+
+&rarr; Immediate OA via publisher
+
+## Green Open Access (Self-Archiving)
+
+Authors publish their work in any journal and then self-archive an earlier version of the article (pre-print) for free public use in a repository (sometimes after an embargo period).
+
+&rarr; Immediate or delayed OA via self-archiving method/repository
+
+---
+
+# Open Access
+
+## Hybrid Open Access
+
+Subscription-based journals allow authors to make their individual articles OA upon payment of an APC.
+
+&rarr; Immediate OA via publisher
+
+## Diamond/Platinum Open Access
+
+Journals do not charge authors APCs and provide immediate OA to all their articles. It operates without direct cost to the authors; funding often comes from institutions, societies, or donations.
+
+&rarr; Immediate OA via publisher
+
+---
+
+# Open Access
+
+## Bronze Open Access
+
+Articles made freely accessible on the publisher's website without an explicit OA licence.
+
+## Blue Open Access
+
+Through blue OA, authors can archive the post-print or the publisher’s final version.
+
+## Black Open Access
+
+It refers to the unauthorised distribution of published content through various channels, such as pirate sites or peer-to-peer networks.
+
+
+
+---
+
 # Open Science
+
+## Definition
 
 > Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods.
 
@@ -1203,8 +1329,13 @@ Relevance in Arts and Humanities
 
 # Open Source
 
-- **Definition and Philosophy**: Open Source refers to software with source code that can be inspected, modified, and enhanced by anyone. It emphasises collaboration and community-oriented development.
-- **Key Characteristics**: Includes free redistribution, access to source code, and allowance for derived works.
+## Definition and Philosophy 
+
+Open Source refers to software with source code that can be inspected, modified, and enhanced by anyone. It emphasises collaboration and community-oriented development.
+
+## Key Characteristics
+
+It includes free redistribution, access to source code, and allowance for derived works.
 
 ---
 
