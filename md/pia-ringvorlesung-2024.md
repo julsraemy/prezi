@@ -954,7 +954,7 @@ Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling P
 
 Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
 
-Rossenova, L., & Di Franco, K. (2022). Iterative Pasts and Linked Futures: A Feminist Approach to Modeling Data in Archives and Collections of Artists’ Publishing. Perspectives on Data. https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-pasts-and-linked-futures
+Rossenova, L., & Di Franco, K. (2022). Iterative Pasts and Linked Futures: A Feminist Approach to Modeling Data in Archives and Collections of Artists’ Publishing. Perspectives on Data. https://doi.org/10.53269/9780865593152/05
 
 Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
 
