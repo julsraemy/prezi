@@ -83,6 +83,20 @@ Courses take place over the course of four Tuesday afternoons
 
 ---
 
+![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+
+
+# Methods
+
+- Ex cathedra presentations
+- Discussion
+- Theoretical and practical exercices
+- Exploration and comparison of online services
+- Individual assignement
+
+
+---
+
 # Assessment
 
 ## Individual assignment 
