@@ -89,10 +89,10 @@ Courses take place over the course of four Tuesday afternoons
 # Methods
 
 - Ex cathedra presentations
-- Discussion
-- Theoretical and practical exercices
+- Discussions
+- Theoretical and practical exercises
 - Exploration and comparison of online services
-- Individual assignement
+- Individual assignment
 
 
 ---
