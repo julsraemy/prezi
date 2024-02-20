@@ -112,6 +112,21 @@ _Further details can be discussed at any time during the course and during the w
 
 ---
 
+# Assessment
+
+## Criteria
+
+| **Assessment Criteria**            | **Points** |
+|------------------------------------|------------|
+| Introduction and Contextualisation | 5          |
+| Analysis and Argumentation         | 20         |
+| Structure and Writing              | 10         |
+| Presentation and Referencing       | 5          |
+| _Total_                              | _40_         |
+
+
+---
+
 ![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
