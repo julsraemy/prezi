@@ -103,11 +103,12 @@ Courses take place over the course of four Tuesday afternoons
 
 - Select one or more datasets from one or several platforms discussed during the course (if several datasets are selected, there must be a common thread)
 - Analyse, describe and identify the potential uses of the dataset(s)
-- Attempt to associate your work with one or several aspects of the other courses covered by the cross-disciplinary module (communication, statistics, survey techniques).
 - Between 900 and 1,100 words (without references) 
 - Short paper to be uploaded onto Cyberlearn **by Friday 22 March, 7pm** 
 
 This assignment is weighted at 20% of the 7C2-CT module.
+
+_Further details can be discussed at any time during the course and during the workshop._
 
 ---
 
@@ -411,13 +412,9 @@ https://opendatahandbook.org/glossary/en/terms/government-data/
 
 # OGD in Switzerland
 
-![center width:600px](https://julsraemy.ch/prezi/assets/ogd-masterplan.png)
+![center width:750px](https://julsraemy.ch/prezi/assets/ogd-masterplan.png)
 
 - Masterplan Open Government Data 2024-2027 [OFS 2023]: https://www.bfs.admin.ch/bfs/fr/home/services/ogd/masterplan.html 
-- i14y Interoperability platform: https://www.i14y.admin.ch/
-- Digital Switzerland Strategy: https://digital.swiss/
-
-<!-- i14y: National Data Catalogue which ensures the efficient exchange of data between authorities, companies and citizens -->
 
 ---
 
@@ -428,6 +425,34 @@ https://opendatahandbook.org/glossary/en/terms/government-data/
 > Les données sont mises en ligne gratuitement, en temps utile, sous une forme lisible par machine et dans un format ouvert. Elles peuvent être librement réutilisées, sous réserve d’obligations légales spéciales de mentionner la source des données.
 
 [Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA) 2023]
+
+<!-- 
+The data is made available online free of charge, in a timely manner, in machine-readable form and in an open format
+ -->
+
+---
+
+# OGD in Switzerland
+
+## Related efforts
+
+
+- National data management (NaDB): https://www.bfs.admin.ch/bfs/en/home/nadb/nadb.html
+- i14y Interoperability platform: https://www.i14y.admin.ch/
+- Digital Switzerland Strategy: https://digital.swiss/
+
+<!-- 
+
+NaDB: The Federal Council expects to make data management in the public sector easier and more efficient by reusing data: Persons and businesses will only need to report certain information once (once only principle).
+
+i14y: National Data Catalogue which ensures the efficient exchange of data between authorities, companies and citizens 
+
+The Digital Switzerland Division is part of the Federal Chancellery’s Digital Transformation and ICT Steering (DTI) Sector. The division coordinates the ongoing development and implementation of the Digital Switzerland Strategy.
+
+
+-->
+
+
 
 ---
 
