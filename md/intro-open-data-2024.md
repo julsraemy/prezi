@@ -2810,6 +2810,29 @@ _And of course the important principles from FAIR, CARE, Collections as Data, LO
 
 ---
 
+# Periodic Table of Open Data Elements
+
+![center w:450](https://odimpact.org/images/final-report/table.png)
+
+
+English: https://odimpact.org/periodic-table.html
+French: https://open.datactivist.coop/apps/periodic-table [Pichot Damon 2024]
+
+<!-- 
+
+A Periodic Table of Open Data Elements detailing the enabling conditions and disabling factors that often determine the impact of open data initiatives.
+
+Five main elements: 
+Problem and Demand Definition
+Capacity and Culture
+Governance
+Parternships
+Risks
+
+ -->
+
+---
+
 
 ![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
@@ -3059,6 +3082,17 @@ The sports facility finder shows sports and exercise facilities operated by the 
 - Dashboard: https://data.bs.ch/explore/embed/dataset/100151/custom/
 - Data source: https://data.bs.ch/explore/dataset/100151/
 
+
+
+---
+
+# Federal Popular Votes
+
+Managed by the Federal Sttistical Office where results of popular votes in Switzerland are continuously updated.
+
+![center w:500](https://julsraemy.ch/prezi/assets/abstimmung.png)
+
+https://abstimmungen.admin.ch/
 
 
 ---
@@ -3387,6 +3421,8 @@ Page, M., Hajduk, E., Lincklaen Arriëns, E. N., Cecconi, G., & Brinkhuis, S. (2
 
 Persic, A. (2021, February). Building a Global Consensus on Open Science – the future UNESCO Recommendation on Open Science. https://doi.org/10.5446/53434
 
+Pichot Damon, E. (2024, January 12). Table périodique: Les facteurs de succès d’un projet d’open data. Open Datactivist. https://open.datactivist.coop/docs/tableau-periodique
+
 Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 
 Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
@@ -3395,12 +3431,12 @@ Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically
 
 Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
 
-Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
-
 
 ---
 
 # References $VI$
+
+Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
 
 Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
 
