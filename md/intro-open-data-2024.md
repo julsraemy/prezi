@@ -2416,6 +2416,35 @@ https://linked.art/api/1.0/endpoint/digital_object/
 
 ---
 
+# Exercise $II$ – Identifying the Movements and Principles
+
+## Match the movements and principles to these statements
+
+In pairs or small groups, relate the movements and principles (OA, Open Data, Open Science, FLOSS, FAIR, CARE, Collections as Data, LOUD) to the following propositions (multiple answers possible).
+
+1. Software development
+2. Image dissemination
+3. Metadata dissemination
+4. Publication of scientific articles
+5. Persistent identifier assignment
+6. Digital object interoperability
+
+
+---
+
+# Exercise $II$ – Identifying the Movements and Principles
+
+7. Development and maintenance of APIs
+8. Documentation
+9. Open license
+10.  Inclusivity
+11. Machine-readable (meta)data
+12. Collaboration
+
+
+
+---
+
 
 ![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
@@ -2712,7 +2741,7 @@ https://github.com/rnckp/awesome-ogd-switzerland
 
 ---
 
-# Exercise $II$ – Comparing Open Data Portals
+# Exercise $III$ – Comparing Open Data Portals
 
 ## Short comparative analysis of open data portals
 
@@ -3001,7 +3030,7 @@ https://github.com/OpenRefine/OpenRefine
 
 ![bg 30% opacity:.2](https://openrefine.org/img/openrefine_logo.svg)
 
-# Exercise $III$ – OpenRefine
+# Exercise $IV$ – OpenRefine
 
 Goal: gain hands-on experience in setting up and navigating OpenRefine
 
@@ -3012,6 +3041,15 @@ Goal: gain hands-on experience in setting up and navigating OpenRefine
 3. Import a dataset from one of the ORD/OGD portals
 
 https://openrefine.org/docs
+
+
+---
+
+# Exercise $V$ – Analysing datasets from opendata.swiss
+
+TBD
+
+...
 
 
 ---
