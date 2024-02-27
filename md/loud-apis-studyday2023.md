@@ -106,55 +106,62 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 1. The Social Fabrics of IIIF and Linked Art
 2. PIA as a Laboratory
-3. Yale's LUX
+3. Yale's LUX and LOUD Consistency
 
 ---
 
 <!-- _backgroundColor: white -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-Social-Fabrics.svg)
 
-<!-- _paginate: false -->
-
 ---
 
 <!-- _backgroundColor: white -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-PIA.svg)
 
-<!-- _paginate: false -->
-
 
 ---
 
 <!-- _backgroundColor: white -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
 ![bg fit](https://julsraemy.ch/prezi/assets/Research-Scope-LUX.svg)
 
-<!-- _paginate: false -->
 
 ---
 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.18](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
-## Open questions and mitigations
-_What are DH worthy digital traces?_
+# Open questions and mitigations
+
+## What are DH worthy digital traces? 
 
 - Why can't all universities/departments provide accessible IaaS and institutional Git repositories? &rarr; **Own infrastructure / Standard GitHub and Codeberg accounts**
 - Who will maintain online the Linked Art API endpoints I developed? &rarr; **Self-publishing**
 
 ---
 
+<!-- class: tinytext --> 
+
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
 ![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
 
-## Image Credits
+# Image Credits
+
+## Cultural Anthropology Switzerland (CAS)
+
+These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the _Swiss Society for Folklore Studies_, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 
 - [Katze auf einer Mauer]. Ort und Datum unbekannt. Ernst Brunner. SGV_12N_19553
 - Luzerner Studenten studieren das Luzerner Bauernhaus. Kanton Luzern, August 1958. Ernst Brunner. SGV_12N_44825
 - ["Steffenbach-Brücke" der Furka-Bahn: Bau und Erneuern der Brücke]. Kanton Wallis, 1950. Ernst Brunner. SGV_12N_36937
-
-These images are part of the [photographic archives of the Swiss Society for Folklore Studies](https://archiv.sgv-sstp.ch/). Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
