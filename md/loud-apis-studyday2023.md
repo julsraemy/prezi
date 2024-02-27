@@ -6,16 +6,19 @@ description: This presentation is a "data pitch" done in the context of the DARI
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://julsraemy.ch/prezi/loud-apis-studyday2023.html
-theme: gaia
-class: invert
+theme: beam
 paginate: true
 _paginate: false
 ---
 
-<!-- _class: lead -->
+<!-- _class: title -->
 
-# <!-- fit -->  Linked Open Usable Data (LOUD) APIs
-[Julien A. Raemy](https://julsraemy.ch), PhD Candidate in Digital Humanities
+<!-- header: Julien A. Raemy | **LOUD APIs** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
+
+<!-- footer: DARIAH-CH Study Day 2023 | 20 October 2023 -->
+
+#  Linked Open Usable Data (LOUD) APIs
+Julien A. Raemy, PhD Candidate in Digital Humanities
 DHLab, University of Basel
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 
@@ -24,36 +27,37 @@ University of Bern | 20 October 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
 
-# Linked Open Usable Data for Cultural Heritage
-####  Perspectives on Community Practices and Semantic Interoperability
+# PhD Thesis
 
-PhD Thesis supervised by: 
-- Peter Fornaro (University of Basel)
-- Walter Leimgruber (University of Basel)
-- Robert Sanderson (Yale University)
+## Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability
 
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Swiss Society for Folklore Studies (SSFS).  -->
+Supervised by: 
+- Prof. Dr. Peter Fornaro (University of Basel)
+- Prof. Dr. Walter Leimgruber (University of Basel)
+- Dr. Robert Sanderson (Yale University)
 
-<!-- _footer: "https://phd.julsraemy.ch" -->
+https://phd.julsraemy.ch
+
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Cultural Anthropology Switzerland (CAS), formerly the Swiss Society for Folklore Studies (SSFS).  -->
 
 
 ---
 
-## LOUD Standards
-Specifications following the LOUD design principles:
+![bg center width:45% opacity:0.07](https://json-ld.org/images/json-ld-logo.png)  
 
-- International Image Interoperability Framework APIs (especially the IIIF Presentation API 3.0)
-- W3C Web Annotation Data Model
+# LOUD Standards
+
+## Specifications that follow the LOUD design principles
+
+- International Image Interoperability Framework (IIIF)
+- _W3C Web Annotation Data Model_
 - Linked Art
 
-![bg fit right:30% opacity:0.7](https://json-ld.org/images/json-ld-logo.png)  
-
-<!-- _footer: "https://linked.art/loud/" -->
+https://linked.art/loud/
 
 <!-- The overall idea of LOUD is to make data easy to use for humans, especially for developers. JSON-LD allows for some mapping of ontological constructs into JSON, which is the lingua-franca of modern developers and is a cornerstone technology of LOUD. Five design principles to promote data consumption have been conceived.  -->
-
 
 ---
 
@@ -83,19 +87,22 @@ Specifications following the LOUD design principles:
 
 ---
 
+![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
 
-<!-- _class: lead -->
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
-# <!-- fit --> Research Scope
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+## Research Scope
 
 Situating LOUD and its epistemological foundations for Cultural Heritage and Digital Humanities
 
 ---
 
-![bg right](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
 
-## A three-act empirical structure
+# A three-act empirical structure
 
 1. The Social Fabrics of IIIF and Linked Art
 2. PIA as a Laboratory
