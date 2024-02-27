@@ -2437,9 +2437,12 @@ In pairs or small groups, relate the movements and principles (OA, Open Data, Op
 7. Development and maintenance of APIs
 8. Documentation
 9. Open license
-10.  Inclusivity
+10. Inclusivity
 11. Machine-readable (meta)data
 12. Collaboration
+13. Ethical commitment 
+14. Semantic interoperability
+15. Reusability
 
 
 
