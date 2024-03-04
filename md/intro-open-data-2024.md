@@ -3043,16 +3043,23 @@ Goal: gain hands-on experience in setting up and navigating OpenRefine
 2. Run it locally (accessible at http://127.0.0.1:3333/)
 3. Import a dataset from one of the ORD/OGD portals
 
-https://openrefine.org/docs
+Documentation: https://openrefine.org/docs
 
+To go further (Tutorial from Library Carpentry): https://librarycarpentry.org/lc-open-refine/
 
 ---
 
 # Exercise $V$ – Analysing datasets from opendata.swiss
 
-TBD
+## Starter code for all CSV datasets on opendata.swiss
 
-...
+1. Find a dataset from the preconfigured starter code files: https://rnckp.github.io/starter-code_opendataswiss/
+2. Open it on Collab 
+3. Run the code snippets
+4. You can also open it on GitHub (Jupyter Notebook or Rmd) and download the file
+
+
+Explanation and Showcases: https://opendata.swiss/de/showcase/starter-code-fur-alle-csv-datensatze-auf-opendata-swiss
 
 
 ---
