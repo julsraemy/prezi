@@ -3037,15 +3037,34 @@ https://github.com/OpenRefine/OpenRefine
 
 Goal: gain hands-on experience in setting up and navigating OpenRefine
 
-## Getting started with OpenRefine
+## Step 1. Getting started with OpenRefine
 
-1. Install the software
+1. Install the software (https://openrefine.org/docs)
 2. Run it locally (accessible at http://127.0.0.1:3333/)
-3. Import a dataset from one of the ORD/OGD portals
+3. Have a look at the different pages and functionalities
+4. Create a new project by importing any supported files
 
-Documentation: https://openrefine.org/docs
+---
 
-To go further (Tutorial from Library Carpentry): https://librarycarpentry.org/lc-open-refine/
+# Exercise $IV$ – OpenRefine
+
+## Step 2. Create a project with an extract from the CAS photographic archives
+
+5. Create a project by importing the data extract from the CAS photographic archives: `ekws_extract.csv`
+6. Review the dataset
+7. Clean the dataset by removing unnecessary columns
+8. Undertake some reconciliation with external services for agents (people and institutions).
+
+---
+
+# Exercise $IV$ – OpenRefine
+
+## Step 3. Going further
+
+9. Create a new project by importing a dataset from one of the ORD/OGD portals
+10. Analyse and curate the dataset
+
+Alternatively: go through this tutorial from Library Carpentry: https://librarycarpentry.org/lc-open-refine/
 
 ---
 
