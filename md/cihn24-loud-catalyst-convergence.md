@@ -275,9 +275,9 @@ See Metcalfe Hurst [2023]
 
 ![center width:550px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
 
-Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
-
 [Raemy & Sanderson 2023]
+
+Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 
 ---
