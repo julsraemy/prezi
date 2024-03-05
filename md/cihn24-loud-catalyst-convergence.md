@@ -273,7 +273,9 @@ See Metcalfe Hurst [2023]
 
 # Data pipeline and architecture
 
-![center width:600px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+![center width:550px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+
+Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 [Raemy & Sanderson 2023]
 

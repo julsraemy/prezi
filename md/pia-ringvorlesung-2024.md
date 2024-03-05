@@ -809,7 +809,9 @@ LUX provides a unified gateway built on open standars (IIIF, Linked Art) to more
 - Yale Peabody Museum
 - Yale University Art Gallery.
 
-https://lux.collections.yale.edu/
+LUX: https://lux.collections.yale.edu/
+
+Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 [Metcalfe Hurst 2023; Raemy & Sanderson 2023]
 
