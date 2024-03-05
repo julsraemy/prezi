@@ -3023,7 +3023,7 @@ While Kafka, Flink, and NiFi each serve distinct purposes in data streaming and 
 - Open source tool initally released in 2010 (first as _Freebase Gridworks_ and then as _Google Refine_) for data cleanup and transformation
 - It operates as a local web application to clean messy data and can be installed on Windows, macOS and Linux 
 - It handles various types of data (CSV, TSV, JSON, XML) and can connect to and import data from databases and other sources
-- It supports scripting in langauges like General Refine Expression Language (GREL) and Jython, allowing for advanced data manipulation
+- It supports scripting in languages like General Refine Expression Language (GREL) and Jython, allowing for advanced data manipulation
 - It has various features: faceting/filtering, clustering, reconciliation, undo/redo
 
 https://openrefine.org/
@@ -3073,7 +3073,7 @@ Alternatively: go through this tutorial from Library Carpentry: https://libraryc
 ## Starter code for all CSV datasets on opendata.swiss
 
 1. Find a dataset from the preconfigured starter code files: https://rnckp.github.io/starter-code_opendataswiss/
-2. Open it on Collab 
+2. Open it on Google Colab 
 3. Run the code snippets
 4. You can also open it on GitHub (Jupyter Notebook or Rmd) and download the file
 
