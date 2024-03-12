@@ -15,7 +15,7 @@ _paginate: false
 
 <!-- header: Julien A. Raemy | **7C2-CT-4A Introduction to Open Data** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
-<!-- _footer: HEG-GE Bachelor Information Science | Spring Semester 2023-2024 -->
+<!-- _footer: HEG-GE Bachelor Information Science | Spring Semester 2023-2024 | [![width:100](https://zenodo.org/badge/DOI/10.5281/zenodo.10807519.svg)](https://doi.org/10.5281/zenodo.10807519) -->
 
 # Introduction to Open Data
 Julien A. Raemy (University of Basel / DaSCH)
