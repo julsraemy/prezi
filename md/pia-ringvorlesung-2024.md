@@ -42,8 +42,8 @@ University of Basel, Switzerland
 
 ## Function
 
-- **Expansion of our digital infrastructure**: contributing to improving the way we store and share cultural heritage resources, making them more easily reusable.
 - **Revision of the CAS Data Model**: refinement of the data model to meet the requirements of both Cultural Anthropology Switzerland (CAS) and the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, as part of the database migration from Salsah to the DaSCH Service Platform (DSP). 
+- **Expansion of the digital infrastructure**: contributing to improving the way we store and share cultural heritage resources, making them more easily reusable.
 
 <!-- 
 
@@ -78,11 +78,11 @@ https://phd.julsraemy.ch
 
 ## Interlinking Cultural Heritage Data
 
-- Cultural Heritage Data (15')
-- Interlinking Data on the Web (10')
+- Cultural Heritage Data (10')
+- Interlinking Data on the Web (20')
 - Linked Open Usable Data (30')
-- Conclusion (10')
-- Discussion (20')
+- Conclusion (15')
+- Discussion (15')
 
 <!-- 
 
@@ -870,30 +870,10 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 # Conclusion
 
-## PIA Connection
+## LOUD within PIA
 
 ...
 
-
-
-
----
-
-# Conclusion
-
-## _A multitude of tools_
-
-> For a better understanding of the past,
-Our images have to be enhanced,
-A new dialogue in three dimensions,
-Must have openness at its heart,
-For somewhere within the archive
-Of our aggregated minds
-Are a multitude of questions
-And a multitude of answers,
-Simply awaiting to be found.
-
-[Mr Gee 2023], Data Poet at EuropeanaTech 2023
 
 
 ---
