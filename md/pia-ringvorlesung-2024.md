@@ -295,7 +295,20 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ## DaSCH Service Platform (DSP)
 
-Object that has link to one or several entities
+![center w:710](https://julsraemy.ch/prezi/assets/dsp_cas.png)
+
+https://app.dasch.swiss/project/Wacpqk4-SfujXYw5EeUoCw
+
+
+---
+
+# CAS as Linked Open Data
+
+## DSP API - CAS Ontology Entry Point
+
+![center w:850](https://julsraemy.ch/prezi/assets/dsp_cas_json.png)
+
+https://api.dasch.swiss/ontology/0812/ekws/v2
 
 
 ---
