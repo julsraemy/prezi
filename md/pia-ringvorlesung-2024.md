@@ -313,6 +313,23 @@ https://api.dasch.swiss/ontology/0812/ekws/v2
 
 ---
 
+# CAS as Linked Open Data
+
+## SGV_10P_00026
+
+![](https://julsraemy.ch/prezi/assets/dsp_cas_SGV_10P_SGV_10P_00026.png)
+
+
+
+
+---
+
+# CAS as Linked Open Data
+
+## SGV_10P_00026
+
+---
+
 # PIA as Linked Open Data
 
 ## Omeka-S
@@ -640,12 +657,12 @@ See Cornut et al. [2023]
 ```json
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_08589-p1-list.json",
+  "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list.json",
   "type": "AnnotationPage",
   "items": [
     {
       "@context": "http://www.w3.org/ns/anno.jsonld",
-      "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_08589-p1-list/annotation-436121.json",
+      "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list/annotation-385261.json",
       "motivation": "commenting",
       "type": "Annotation",
       "body": [
@@ -661,21 +678,23 @@ See Cornut et al. [2023]
         },
         {
           "type": "TextualBody",
-          "value": "<br><small>Detection score: 0.9574</small>",
+          "value": "<br><small>Detection score: 0.9997</small>",
           "purpose": "commenting"
         }
       ],
       "target": {
-        "source": "https://iiif.participatory-archives.ch/SGV_12N_08589/canvas/p1",
+        "source": "https://iiif.participatory-archives.ch/SGV_12N_19783/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=319,2942,463,523"
+          "value": "xywh=2091,1119,1113,3413"
         },
         "dcterms:isPartOf": {
           "type": "Manifest",
-          "id": "https://iiif.participatory-archives.ch/SGV_12N_08589/manifest.json"
-        }}},
+          "id": "https://iiif.participatory-archives.ch/SGV_12N_19783/manifest.json"
+        }
+      }
+    },
 ```
 
 ---
