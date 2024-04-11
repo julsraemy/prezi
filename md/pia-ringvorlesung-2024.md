@@ -100,7 +100,6 @@ I'm first going to talk about the ways that data can be interlinked on the web i
 
 ## Cultural Heritage Data
 
-- Tangible, Intangible, and Natural Heritage
 - Defining Cultural Heritage Data
     - Heterogeneity
     - Knowledge Latency
@@ -117,28 +116,6 @@ From data to cultural heritage data. And I will divide this section into three p
 
 <!-- footer: Cultural Heritage Data -->
 
-# Tangible, Intangible, Natural
-
-![center bg width:360px opacity:.32](https://www.artic.edu/iiif/2/dec724f1-cb53-f8a7-8599-0b30ce0267e9/full/full/0/default.jpg)
-
-> Cultural heritage is, in its broadest sense, both a product and a process, which provides societies with a wealth of  resources  that  are  inherited  from  the  past,  created  in  the  present  and  bestowed  for  the  benefit  of  future  generations.  Most  importantly,  it  includes  not  only  **tangible**,  but  also  **natural**  and  **intangible  heritage**. 
-
-[UNESCO. Culture for Development Indicators 2014]
-
-
-Background image: Guro. (1900-1950). *Male Face Mask (Zamble)* [Wood and pigment]. Art Institute of Chicago, Chicago, IL, USA. https://www.artic.edu/artworks/239464
-
-<!-- 
-
-A broad definition of Cultural Heritage, often limited to its tangibility or materiality. 
-
-In thinking about the concept of cultural heritage, I find this definition particularly resonant. This broader perspective is motivated by my interest in Linked Open Usable Data standards as a research area, particularly because of their notable agnosticism towards data.
-
-The background image is a Male Face Mask from the Guro culture that embody tangible and intangible aspects as it is worn on the occasion of a man’s second funeral.
-
- -->
-
----
 
 # $I$ — Defining Cultural Heritage Data
 
@@ -146,6 +123,9 @@ The background image is a Male Face Mask from the Guro culture that embody tangi
 ## Heterogeneity 
 
 1. Cultural heritage data refer to digital or data-driven affordances of cultural heritage, embodying **a rich and varied compilation of insights  originating from a variety of disciplines, techniques, traditions, positions and technologies**. It encompasses both tangible and intangible aspects of a society's culture as well as natural heritage. 
+
+
+Cultural Heritage encompassing tangible, intangible as well as natural dimensions: Cf. UNESCO. Culture for Development Indicators [2014]
 
 <!--  
 
@@ -293,7 +273,7 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 # CAS as Linked Open Data
 
-## DaSCH Service Platform (DSP)
+## Overview of the dataset on DSP-APP
 
 ![center w:710](https://julsraemy.ch/prezi/assets/dsp_cas.png)
 
@@ -304,7 +284,7 @@ https://app.dasch.swiss/project/Wacpqk4-SfujXYw5EeUoCw
 
 # CAS as Linked Open Data
 
-## DSP API - CAS Ontology Entry Point
+## Ontology Entry Point on DSP-API
 
 ![center w:850](https://julsraemy.ch/prezi/assets/dsp_cas_json.png)
 
@@ -313,39 +293,33 @@ https://api.dasch.swiss/ontology/0812/ekws/v2
 
 ---
 
-# CAS as Linked Open Data
+# SGV_10P_00026
 
-## SGV_10P_00026
+## _Part of_ [Haus Kreis am Steinengraben 79 in Basel] served by SIPI
 
-![](https://julsraemy.ch/prezi/assets/dsp_cas_SGV_10P_SGV_10P_00026.png)
+![center w:275](https://iiif.dasch.swiss/0812/35kmGvN0wAY-sOh6QKN0xsX.jpx/138,98,2756,3704/max/0/default.jpg)
 
+https://iiif.dasch.swiss/0812/35kmGvN0wAY-sOh6QKN0xsX.jpx/138,98,2756,3704/1000,/0/default.jpg
+
+
+---
+
+# SGV_10P_00026
+
+## [Haus Kreis am Steinengraben 79 in Basel] on DSP-APP
+
+![center w:900](https://julsraemy.ch/prezi/assets/dsp_cas_SGV_10P_SGV_10P_00026.png)
+
+
+https://app.dasch.swiss/search/fulltext/SGV_10P_00026
 
 
 
 ---
 
-# CAS as Linked Open Data
+# A Linked Constellation
 
-## SGV_10P_00026
-
----
-
-# PIA as Linked Open Data
-
-## Omeka-S
-
-Same object but in the Omeka-S instance
-
-
-
----
-
-# PIA as Linked Open Data
-
-## PIA User Interface
-
-Same object but in the PIA UI 
-
+![](https://julsraemy.ch/prezi/assets/pia-archi-high-level.jpg)
 
 ---
 
@@ -359,9 +333,9 @@ Same object but in the PIA UI
 ## Linked Open Usable Data (LOUD)
 
 - Design Principles
-- Standards & Communities (IIIF, Linked Art)
-- (LOUD-driven) Infrastructure
-- LUX: Yale Collections Discovery 
+- Standards for (Semantic) Interoperability
+- Social Fabrics of IIIF and Linked Art
+- LUX, Yale Collections Discovery
 
 ---
 
@@ -374,9 +348,21 @@ Same object but in the PIA UI
 
 - The term was coined by Robert Sanderson [2018, 2019] who has been involved in the conception and maintenance of web standards, mainly in the cultural heritage field.
 
-- LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven standards.
+- LOUD's goal is to achieve the Semantic Web's intent on a global scale in a usable fashion by leveraging community-driven standards (e.g. IIIF, Linked Art).
 
 - It has five main design principles to make the data more easily accessible to software developers, who play a key role in interacting with the data and building software and services on top of it, and to some extent to academics. 
+
+---
+
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
+
+## Design Principles
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
 
 ---
 
@@ -412,40 +398,346 @@ To be part of the Web, not just on the Web.  -->
 
 ---
 
-![bg opacity:.1](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
 
-# LOUD-driven Communities
+## Standards for (Semantic) Interoperability
 
-## IIIF and Linked Art: social fabrics of sound socio-technical practices
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
 
-- Synergy of effective social and technical integration with an emphasis on usability
-- Unified by shared expertise and leadership
-- Collaboration beyond technical boundaries
-- Inclusivity and diversity in participation
-- Openness and friendliness as core values
-- Commitment to transparency
-- Organisation of online and face-to-face meetings
 
-[Raemy 2023]
+---
+
+
+![bg opacity:.3](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
+
+## <!-- fit --> Images are fundamental carriers of information
+
+<!-- So why do we need IIIF? Digital images are fundamental carriers of information across the fields of cultural heritage, STEM, and others. They help us understand complex processes through visualization. They grab our attention and help us quickly understand abstract concepts. They help document many the past--and the  present--and preserve it for the future. They are also ubiquitous: we interact with thousands of them every day both in real life and on the web. In short, images are important and we interact with large volumes of them online. 
+
+Image 1: Female Figurine, Chupicuaro, 500/300 B.C
+Image 2: Vision of Saint Gregory, unknown artist, n.d.
+Image 3: Iyo Province: Saijo, Utagawa Hiroshige, 1855
+-->
+
+---
+
+![bg contain opacity:.28](https://julsraemy.ch/prezi/assets/silos.png)
+
+# The Problem
+
+# A world of silos and duplication
+
+Image delivery on the Web has historically been hard, slow, expensive, disjointed, and locked-up in silos.
+
+---
+
+# The Problem
+
+
+![bg contain](https://julsraemy.ch/prezi/assets/silos-repos.png)
+
+
+---
+
+# The Solution
+
+![center bg width:45%](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+---
+
+# Deep Zoom with Large Images
+
+![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+
+https://purl.stanford.edu/hs631zg4177
+
+---
+
+# Compare Images
+
+![center](https://julsraemy.ch/prezi/assets/compare.gif)
+
+Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35
+
+---
+
+
+# Reunify
+
+![center w:600](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
+
+https://demos.biblissima.fr/chateauroux/demo/
+
+
+---
+
+# Search within
+
+![center](https://julsraemy.ch/prezi/assets/content-search.gif)
+
+Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library.
+
+
+---
+
+# Storytelling
+
+![center](https://julsraemy.ch/prezi/assets/storiiies.gif)
+
+Storiiies: https://www.cogapp.com/r-d/storiiies
+
+
+---
+
+# Layers of digitisation
+
+![center width:680px](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
+
+
+Leiden Collection's Curtain Viewer: 
+https://www.theleidencollection.com/viewer/david-and-uriah/
+
+---
+
+# Crowdsource
+
+![center](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
+
+Crowdsourcing initiative from the National Library of Wales
+
+---
+
+# Beyond images
+
+![center w:700](https://iiif.io/assets/uploads/ddmal_section.gif)
+
+IIIF AV Player Demo from McGill University: https://ddmal.music.mcgill.ca/IIIF-AV-player/
+
+---
+
+# 12 sunsets: Exploring Ed Ruscha's Archive
+
+![center](https://julsraemy.ch/prezi/assets/12sunsets.gif)
+
+https://12sunsets.getty.edu/
+
+
+---
+
+# IIIF Ecosystem
+
+![center](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
+
+
+---
+
+# IIIF Specifications
+
+- **Image API**
+- **Presentation API**
+- Authorization Flow API
+- Change Discovery API
+- Content Search API
+- Content State API
+
+_The Image and Presentation application programming interfaces (APIs) are referred to as the core IIIF APIs._
+
+https://iiif.io/api
+
+---
+
+# Web Annotation Data Model 
+
+![center](https://julsraemy.ch/prezi/assets/anno-model.png)
+
+https://www.w3.org/TR/annotation-model/
+
+---
+
+# Machine-generated annotations in a IIIF setting
+
+## Example from the PIA research project
+
+![center width:700px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+
+See Cornut et al. [2023]
+
+---
+
+# Machine-generated annotations in a IIIF setting
+
+```json
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list/annotation-385261.json",
+      "motivation": "commenting",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "person",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "Object Detection (vitrivr)",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "<br><small>Detection score: 0.9997</small>",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://iiif.participatory-archives.ch/SGV_12N_19783/canvas/p1",
+        "selector": {
+          "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=2091,1119,1113,3413"
+        },
+        "dcterms:isPartOf": {
+          "type": "Manifest",
+          "id": "https://iiif.participatory-archives.ch/SGV_12N_19783/manifest.json"
+        }
+      }
+    },
+```
+
+---
+
+![center bg width:45%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+
+# Cross-institutional interoperability without semantic?
+
+Here enters...
+
+
+---
+
+
+# Intent of Linked Art: finding the right balance
+
+![center width:800px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
+
+[Sanderson 2023]
 
 <!-- 
-Socio-technical aspects
 
-Emphasis on Usable Linked Data: Both IIIF (International Image Interoperability Framework) and Linked Art communities prioritize creating and using data that is interconnected, user-friendly, and easily accessible.
-
-Shared Leadership and Expertise: Key individuals play pivotal roles across both initiatives, bringing a wealth of shared knowledge and leadership.
-
-Joint Standards and Development Efforts: Collaboration is a cornerstone in these communities, evident in their joint efforts in standardizing, developing, and organizing meetings. This fosters a strong culture of community-led initiatives and collective wisdom.
-
-Inclusivity and Collaboration at Core: Both communities are known for their inclusive approach, welcoming contributions and ideas from diverse backgrounds and expertise.
-
-Openness and Friendliness as Guiding Principles: A welcoming atmosphere and an open-door policy characterize both IIIF and Linked Art, encouraging participation and innovation.
-
-Commitment to Transparency: Transparency is key in all their operations, from decision-making to development processes, ensuring that all actions are clear and accountable to the community.
+- Linked Art is focused on usability, not full precision / completeness
+- Consistently solves actual challenges from real data
+- Development is iterative, as new use cases are found
 
  -->
 
 ---
+
+
+| Level         | Linked Art                      |
+|----------------|---------------------------------|
+| **Conceptual Model**      | [CIDOC Conceptual Reference Model](https://www.cidoc-crm.org/) (CRM)                       |
+| **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
+| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/), mainly the Art & Architecture Thesaurus (AAT), as well as the Thesaurus of Geographic Names (TGN) and the Union List of Artist Names (ULAN) |
+| **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
+| **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
+
+---
+
+# Linked Art from 50k feet
+
+![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+
+[Raemy et al. 2023, adapted from Sanderson 2018]
+
+---
+
+# Linked Art – Digital Object
+
+![center](https://julsraemy.ch/prezi/assets/la-SGV_12N_19553.svg)
+
+
+---
+
+# Linked Art – Digital Object
+
+![bg opacity:.85](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json", 
+  "id": "https://data.participatory-archives.ch/digital/42.json",
+  "type": "DigitalObject",
+  "_label": "PIA ID 42 - [Katze auf einer Mauer]",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302", 
+      "type": "Type", 
+      "_label": "Digital Image"
+    }
+  ],
+
+```
+
+
+---
+
+
+
+# Linked Art Digital Integration (with IIIF)
+
+![center](https://julsraemy.ch/prezi/assets/IIIF-LA.svg)
+
+
+---
+
+
+# LOUD Standards
+
+## IIIF
+
+* IIIF facilitates the sharing of high-resolution images and audiovisual content through a series of specifications.
+
+## Web Annotation Data Model
+
+* The Web Annotation Data Model provides a standard for creating and sharing annotations across various platforms.
+
+## Linked Art
+
+* Linked Art provides a model and an API for semantically describing cultural heritage.
+
+<!-- 
+
+LOUX integrates technologies, mostly community-driven, like IIIF, WADM, and Linked Art. Together, they demonstrate a transformative potential in how cultural heritage data is interacted with and understood, reshaping traditional humanities and opening new research opportunities.
+
+ -->
+
+
+---
+
+
+
+![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
+
+## Social Fabrics of IIIF and Linked Art
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+
+---
+
 
 ![center bg width:50% opacity:.1](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
 
@@ -522,184 +814,13 @@ And individuals/meetings
 
 ---
 
+# IIIF Community Practices
 
-![bg opacity:.3](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
-![bg opacity:.3](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
-![bg opacity:.3](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
-
-## <!-- fit --> Images are fundamental carriers of information
-
-<!-- So why do we need IIIF? Digital images are fundamental carriers of information across the fields of cultural heritage, STEM, and others. They help us understand complex processes through visualization. They grab our attention and help us quickly understand abstract concepts. They help document many the past--and the  present--and preserve it for the future. They are also ubiquitous: we interact with thousands of them every day both in real life and on the web. In short, images are important and we interact with large volumes of them online. 
-
-Image 1: Female Figurine, Chupicuaro, 500/300 B.C
-Image 2: Vision of Saint Gregory, unknown artist, n.d.
-Image 3: Iyo Province: Saijo, Utagawa Hiroshige, 1855
--->
+![center bg 65%](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
 
 ---
 
-![bg contain opacity:.28](https://julsraemy.ch/prezi/assets/silos.png)
-
-# The Problem
-
-# A world of silos and duplication
-
-Image delivery on the Web has historically been hard, slow, expensive, disjointed, and locked-up in silos.
-
----
-
-# The Problem
-
-
-![bg contain](https://julsraemy.ch/prezi/assets/silos-repos.png)
-
-
----
-
-# Deep Zoom with Large Images
-
-![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
-
-https://purl.stanford.edu/hs631zg4177
-
----
-
-# Compare Images
-
-![center](https://julsraemy.ch/prezi/assets/compare.gif)
-
-Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35
-
----
-
-
-# Reunify
-
-![center w:600](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
-
-https://demos.biblissima.fr/chateauroux/demo/
-
-
----
-
-# Search within
-
-![center](https://julsraemy.ch/prezi/assets/content-search.gif)
-
-Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library.
-
-
----
-
-# Storytelling
-
-![center](https://julsraemy.ch/prezi/assets/storiiies.gif)
-
-Storiiies: http://storiiies.cogapp.com/
-
-
----
-
-# Layers of digitisation
-
-![center width:680px](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
-
-
-Leiden Collection's Curtain Viewer: 
-https://www.theleidencollection.com/viewer/david-and-uriah/
-
----
-
-# Crowdsource
-
-![center](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
-
-Crowdsourcing initiative from the National Library of Wales
-
----
-
-# 12 sunsets: Exploring Ed Ruscha's Archive
-
-![center](https://julsraemy.ch/prezi/assets/12sunsets.gif)
-
-https://12sunsets.getty.edu/
-
-
----
-
-# IIIF Ecosystem
-
-![center](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
-
-
----
-
-# Web Annotation Data Model 
-
-![center](https://julsraemy.ch/prezi/assets/anno-model.png)
-
-https://www.w3.org/TR/annotation-model/
-
----
-
-# Machine-generated annotations in a IIIF setting
-
-## Example from the PIA research project
-
-![center width:700px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
-
-See Cornut et al. [2023]
-
----
-
-# Machine-generated annotations in a IIIF setting
-
-```json
-{
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list.json",
-  "type": "AnnotationPage",
-  "items": [
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list/annotation-385261.json",
-      "motivation": "commenting",
-      "type": "Annotation",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "person",
-          "purpose": "commenting"
-        },
-        {
-          "type": "TextualBody",
-          "value": "Object Detection (vitrivr)",
-          "purpose": "tagging"
-        },
-        {
-          "type": "TextualBody",
-          "value": "<br><small>Detection score: 0.9997</small>",
-          "purpose": "commenting"
-        }
-      ],
-      "target": {
-        "source": "https://iiif.participatory-archives.ch/SGV_12N_19783/canvas/p1",
-        "selector": {
-          "type": "FragmentSelector",
-          "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=2091,1119,1113,3413"
-        },
-        "dcterms:isPartOf": {
-          "type": "Manifest",
-          "id": "https://iiif.participatory-archives.ch/SGV_12N_19783/manifest.json"
-        }
-      }
-    },
-```
-
----
-
-![center bg width:50% opacity:.1](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+![center bg width:45% opacity:.1](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 # Linked Art
 
@@ -730,58 +851,119 @@ https://groups.google.com/g/linked-art/c/8DcbDIExdS8/m/RTRQtOBsFQAJ
 
 ---
 
-# Intent of Linked Art: finding the right balance
 
-![center width:800px](https://julsraemy.ch/prezi/assets/la_usability_completeness.png)
 
-[Sanderson 2023]
+![bg opacity:.1](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+
+# LOUD-driven Communities
+
+## IIIF and Linked Art: social fabrics of sound socio-technical practices
+
+- Synergy of effective social and technical integration with an emphasis on usability
+- Unified by shared expertise and leadership
+- Collaboration beyond technical boundaries
+- Inclusivity and diversity in participation
+- Openness and friendliness as core values
+- Commitment to transparency
+- Organisation of online and face-to-face meetings
+
+[Raemy 2023]
+
+<!-- 
+Socio-technical aspects
+
+Emphasis on Usable Linked Data: Both IIIF (International Image Interoperability Framework) and Linked Art communities prioritize creating and using data that is interconnected, user-friendly, and easily accessible.
+
+Shared Leadership and Expertise: Key individuals play pivotal roles across both initiatives, bringing a wealth of shared knowledge and leadership.
+
+Joint Standards and Development Efforts: Collaboration is a cornerstone in these communities, evident in their joint efforts in standardizing, developing, and organizing meetings. This fosters a strong culture of community-led initiatives and collective wisdom.
+
+Inclusivity and Collaboration at Core: Both communities are known for their inclusive approach, welcoming contributions and ideas from diverse backgrounds and expertise.
+
+Openness and Friendliness as Guiding Principles: A welcoming atmosphere and an open-door policy characterize both IIIF and Linked Art, encouraging participation and innovation.
+
+Commitment to Transparency: Transparency is key in all their operations, from decision-making to development processes, ensuring that all actions are clear and accountable to the community.
+
+ -->
+
+ ---
+
+
+
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
+
+## LUX, Yale Collections Discovery 
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+
+---
+
+# LUX 
+
+![bg opacity:.16](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.16](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.16](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.16](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
+LUX provides a unified gateway built on open standards to more than 41 million cultural heritage resources held by Yale's museums, archives and libraries: 
+
+- Yale University Library
+- Yale Center for British Art
+- Yale Peabody Museum
+- Yale University Art Gallery.
+
+LUX: https://lux.collections.yale.edu/
+
+[Metcalfe Hurst 2023]
 
 <!-- 
 
-- Linked Art is focused on usability, not full precision / completeness
-- Consistently solves actual challenges from real data
-- Development is iterative, as new use cases are found
+ LUX enhances and prepares Yale collections data for further collaboration,  use, and re-use. With the support of a well-resourced research university–including Yale’s Vice-Provost office–in addition to the support of active committees with members across Yale and a meticulous technical team, LUX is well-positioned to help bridge gaps and create more accessible and diverse representations of cultural heritage collections.  
+
+ [Metcalfe Hurst 2023]
 
  -->
 
 ---
 
-# Linked Art from 50k feet
+# Data pipeline and architecture
 
-![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
+![center width:550px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
 
-[Raemy et al. 2023, adapted from Sanderson 2018]
+[Raemy & Sanderson 2023]
 
----
-
-# Linked Art – Digital Object
-
-![center](https://julsraemy.ch/prezi/assets/la-SGV_12N_19553.svg)
-
+Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 ---
 
-# Linked Art – Digital Object
 
-![bg opacity:.85](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+# LUX
 
-```json
-{
-  "@context": "https://linked.art/ns/v1/linked-art.json", 
-  "id": "https://data.participatory-archives.ch/digital/42.json",
-  "type": "DigitalObject",
-  "_label": "PIA ID 42 - [Katze auf einer Mauer]",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300215302", 
-      "type": "Type", 
-      "_label": "Digital Image"
-    }
-  ],
+![center](https://julsraemy.ch/prezi/assets/lux-demo.gif)
 
-```
+[Link to optimised video resolution](https://julsraemy.ch/prezi/assets/lux-demo.webm)
+
+
 
 ---
+
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Conclusion
+
+
+---
+
+<!-- footer: Conclusion -->
 
 # Infrastructure [Star 1999]
 
@@ -814,73 +996,8 @@ Embodiment of standards: Modified by scope and often by conflicting conventions,
 
 [Felsing et al. 2023]
 
----
-
-# LOUD-Driven Infrastructure
-
-Impact
-
-Taking part of the wider community (directly or indirectly)
-
-Borrowing
-
 
 ---
-
-![bg opacity:.13](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
-![bg opacity:.13](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
-![bg opacity:.13](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
-![bg opacity:.13](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
-
-# LUX: Yale Collections Discovery 
-
-LUX provides a unified gateway built on open standars (IIIF, Linked Art) to more than 41 million cultural heritage resources held by Yale's museums, archives and libraries: 
-
-- Yale University Library
-- Yale Center for British Art
-- Yale Peabody Museum
-- Yale University Art Gallery.
-
-LUX: https://lux.collections.yale.edu/
-
-Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
-
-[Metcalfe Hurst 2023; Raemy & Sanderson 2023]
-
-<!-- 
-
- LUX enhances and prepares Yale collections data for further collaboration,  use, and re-use. With the support of a well-resourced research university–including Yale’s Vice-Provost office–in addition to the support of active committees with members across Yale and a meticulous technical team, LUX is well-positioned to help bridge gaps and create more accessible and diverse representations of cultural heritage collections.  
-
- [Metcalfe Hurst 2023]
-
- -->
-
----
-
-
-# LUX: Yale Collections Discovery 
-
-![center](https://julsraemy.ch/prezi/assets/lux-demo.gif)
-
-[Link to optimised video resolution](https://julsraemy.ch/prezi/assets/lux-demo.webm)
-
-
-
----
-
-![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
-
-<!-- _backgroundColor: #465B64  -->
-<!-- _color: white  -->
-<!-- _header: " "  -->
-<!-- _footer: " "  -->
-
-## Conclusion
-
-
----
-
-<!-- footer: Conclusion -->
 
 # Conclusion
 
@@ -904,7 +1021,11 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 ## LOUD within PIA
 
-...
+Impact
+
+Taking part of the wider community (directly or indirectly)
+
+Borrowing
 
 
 
@@ -986,6 +1107,7 @@ UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United N
 ![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 ![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 ![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
 
 # Image Credits
 
@@ -998,3 +1120,5 @@ These images are part of the [photographic archives of Cultural Anthropology Swi
 - Brunner, Ernst. [Katze auf einer Mauer]. Ort und Datum unbekannt. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_19553. Alte Bildnummer: HV 53. https://archiv.sgv-sstp.ch/resource/441788
 
 - Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89. https://archiv.sgv-sstp.ch/resource/430824
+
+- Brunner, Ernst. Luzerner Studenten studieren das Luzerner Bauernhaus. Kanton Luzern, August 1958. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_44825. Alter Bildnummer:  SY 25. https://archiv.sgv-sstp.ch/resource/467060 
