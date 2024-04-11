@@ -204,6 +204,7 @@ During community discussions, the sheer range of possible relations across editi
 Rossenova & Di Franco (2022)
 
  -->
+ 
 
 ---
 
@@ -518,26 +519,12 @@ Crowdsourcing initiative from the National Library of Wales
 
 IIIF AV Player Demo from McGill University: https://ddmal.music.mcgill.ca/IIIF-AV-player/
 
----
-
-# 12 sunsets: Exploring Ed Ruscha's Archive
-
-![center](https://julsraemy.ch/prezi/assets/12sunsets.gif)
-
-https://12sunsets.getty.edu/
-
 
 ---
 
 # IIIF Ecosystem
 
 ![center](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
-
----
-
-# IIIF Specifications
-
-![center](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
 
 
 ---
@@ -659,35 +646,11 @@ Linked Art presents a layered framework that distinguishes between the conceptua
 
 ---
 
-# Linked Art Data Model
-
-
-| Level         | Linked Art                      |
-|----------------|---------------------------------|
-| **Conceptual Model**      | [CIDOC Conceptual Reference Model](https://www.cidoc-crm.org/) (CRM)                       |
-| **Ontology**   | [RDF encoding of CRM 7.1](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html), plus extensions       |
-| **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/), mainly the Art & Architecture Thesaurus (AAT), as well as the Thesaurus of Geographic Names (TGN) and the Union List of Artist Names (ULAN) |
-| **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
-| **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
-
-<!-- 
-Here in more details, the bstraction and implementation Levels of Linked Art in terms of layers.
- -->
-
----
-
 # Linked Art from 50k feet
 
 ![center](https://julsraemy.ch/prezi/assets/linkedart_50k_feet.svg)
 
 [Raemy et al. 2023, adapted from Sanderson 2018]
-
----
-
-# Linked Art – Digital Object
-
-![center](https://julsraemy.ch/prezi/assets/la-SGV_12N_19553.svg)
-
 
 ---
 
@@ -843,7 +806,7 @@ And individuals/meetings
 
 ---
 
-![center bg width:45% opacity:.1](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
+![center bg width:45% opacity:.06](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
 
 # Linked Art
 
@@ -851,18 +814,7 @@ Linked Art is a community and a CIDOC (_ICOM International Committee for Documen
 
 https://linked.art
 
-
----
-
-
-# Linked Art Community
-
-## Institutions (some of them)
-
-The American Numismatics Society, Europeana, The Frick Collection, J. Paul Getty Trust, The Metropolitan Museum of Art, The Museum of Modern Art (NY), National Gallery of Art (US), Oxford University (OERC), The Philadephia Museum of Art, Rijksmuseum (NL), University of Basel (Digital Humanities Lab), University of the Arts London, Victoria and Albert Museum, Yale Center for British Art
-
-https://linked.art/community/
-
+Some institutions: _The American Numismatics Society, Europeana, The Frick Collection, J. Paul Getty Trust, The Metropolitan Museum of Art, The Museum of Modern Art, National Gallery of Art (US), Rijksmuseum, Victoria and Albert Museum, Yale Center for British Art_
 
 ---
 
@@ -953,7 +905,9 @@ LUX provides a unified gateway built on open standards to more than 41 million c
 
 LUX: https://lux.collections.yale.edu/
 
-[Metcalfe Hurst 2023]
+[Metcalfe Hurst 2023; Raemy & Sanderson 2023]
+
+Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 <!-- 
 
@@ -962,16 +916,6 @@ LUX: https://lux.collections.yale.edu/
  [Metcalfe Hurst 2023]
 
  -->
-
----
-
-# Data pipeline and architecture
-
-![center width:550px](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
-
-[Raemy & Sanderson 2023]
-
-Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 ---
 
