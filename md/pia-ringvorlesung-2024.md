@@ -703,17 +703,17 @@ Here enters...
 
 # LOUD Standards
 
-## IIIF
+### IIIF
 
-* IIIF facilitates the sharing of high-resolution images and audiovisual content through a series of specifications.
+* IIIF facilitates the sharing of high-resolution image-based content through a series of specifications. It also makes use of some resource types defined by the Web Annotation Data Model. Semantic metadata can be linked from IIIF resources via `seeAlso`.
 
-## Web Annotation Data Model
+### Web Annotation Data Model
 
 * The Web Annotation Data Model provides a standard for creating and sharing annotations across various platforms.
 
-## Linked Art
+###  Linked Art
 
-* Linked Art provides a model and an API for semantically describing cultural heritage.
+* Linked Art provides a model and an API for semantically describing cultural heritage. With this specification, it is possible as well to describe web services such as IIIF.
 
 <!-- 
 
