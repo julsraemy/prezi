@@ -533,6 +533,12 @@ https://12sunsets.getty.edu/
 
 ![center](https://julsraemy.ch/assets/images/silos_to_iiif.gif)
 
+---
+
+# IIIF Specifications
+
+![center](https://julsraemy.ch/prezi/assets/iiif-apis.gif)
+
 
 ---
 
@@ -642,6 +648,19 @@ Here enters...
 
 ---
 
+# Linked Art Data Model
+
+![center](https://julsraemy.ch/prezi/assets/la-overview.svg)
+
+<!-- 
+Linked Art presents a layered framework that distinguishes between the conceptual and implementation aspects of its model. This diagram illustrates five layers, delineating the transition from shared abstractions (in blue) to their sustainable implementations (in green) in the Linked Art ecosystem.
+
+ -->
+
+---
+
+# Linked Art Data Model
+
 
 | Level         | Linked Art                      |
 |----------------|---------------------------------|
@@ -650,6 +669,10 @@ Here enters...
 | **Vocabulary** | [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/), mainly the Art & Architecture Thesaurus (AAT), as well as the Thesaurus of Geographic Names (TGN) and the Union List of Artist Names (ULAN) |
 | **Profile**    | Object-based cultural heritage (mainly art museum oriented)  |
 | **API**        | [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/), following REST (representational state transfer) and web patterns                         |
+
+<!-- 
+Here in more details, the bstraction and implementation Levels of Linked Art in terms of layers.
+ -->
 
 ---
 
@@ -677,7 +700,7 @@ Here enters...
   "@context": "https://linked.art/ns/v1/linked-art.json", 
   "id": "https://data.participatory-archives.ch/digital/42.json",
   "type": "DigitalObject",
-  "_label": "PIA ID 42 - [Katze auf einer Mauer]",
+  "_label": "[Katze auf einer Mauer]",
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/aat/300215302", 
@@ -851,6 +874,18 @@ https://groups.google.com/g/linked-art/c/8DcbDIExdS8/m/RTRQtOBsFQAJ
 
 ---
 
+# Linked Art Community Call
+
+![bg 61%](https://julsraemy.ch/prezi/assets/attendance_stacked_bar_la.svg)
+
+<!-- 
+
+This bar plot provides a snapshot of the Linked Art meetings from January 2019 to March 2024. The group convenes fortnightly to deliberate on refining the model and the API. It indicates participation trends over this period, showing that 130 different individuals attended the 115 meetings held, predominantly in a virtual format, with five of these meetings being face-to-face. Each participant attended an average of 13.57 of sessions, but the median attendance was only 2, indicating a very long tail of participation. This suggests a core group of highly engaged members who contribute consistently, while a larger number of participants engage more sporadically.
+
+ -->
+
+---
+
 
 
 ![bg opacity:.1](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
@@ -1021,11 +1056,20 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 ## LOUD within PIA
 
-Impact
 
-Taking part of the wider community (directly or indirectly)
+* Leveraging software developed by the wider IIIF community, alongside adopting best practices from Linked Art.
 
-Borrowing
+* Benefiting from cross-interoperability capabilities.
+
+* Engaging public contributions and enriching narratives through crowdsourcing and storytelling approaches.
+
+* Creating opportunities to meet and collaborate.
+
+<!-- 
+
+Taking part of the community (directly or indirectly)
+
+ -->
 
 
 
@@ -1048,15 +1092,13 @@ Borrowing
 
 ## Interlinking Cultural Heritage Data with Community-driven Principles and Standards
 
-LOUD Practices and Standards as common denominators?
+- Can LOUD practices and standards serve as unifying elements across diverse cultural heritage data? What are their limitations?
 
-A common data space
+- What strategies should be essential for developing a common data space in the cultural heritage field?
 
-Very technical, shift in terms of expertise
+- How does the technical complexity of these integrations affect the required expertise?
 
-Digital temporality - qualitative / quantitative
-
-https://pro.europeana.eu/page/common-european-data-space-for-cultural-heritage
+- In terms of digital temporality, how can we balance qualitative insights with quantitative data to enrich our understanding of cultural heritage?
 
 
 ---
