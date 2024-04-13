@@ -219,7 +219,6 @@ Rossenova & Di Franco (2022)
 
 - The Web
 - The Semantic Web
-- Resource Description Framework
 - Linked Open Data
 
 ---
