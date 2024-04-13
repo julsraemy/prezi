@@ -318,9 +318,20 @@ https://app.dasch.swiss/search/fulltext/SGV_10P_00026
 
 ---
 
+# SGV_10P_00026
+
+## PIA Omeka-S UI and API
+
+![](https://julsraemy.ch/prezi/assets/infrastructure_constellation.svg)
+![](https://julsraemy.ch/prezi/assets/pia_omeka_s_SGV_10P_00026_json.png)
+
+---
+
+
+
 # A Linked Constellation
 
-![](https://julsraemy.ch/prezi/assets/pia-archi-high-level.jpg)
+![](https://julsraemy.ch/prezi/assets/infrastructure_constellation.svg)
 
 ---
 
