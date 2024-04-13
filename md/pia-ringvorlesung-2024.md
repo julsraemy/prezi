@@ -276,7 +276,7 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ## Overview of the dataset on DSP-APP
 
-![center w:710](https://julsraemy.ch/prezi/assets/dsp_cas.png)
+![center w:715](https://julsraemy.ch/prezi/assets/dsp_cas.png)
 
 https://app.dasch.swiss/project/Wacpqk4-SfujXYw5EeUoCw
 
@@ -287,43 +287,48 @@ https://app.dasch.swiss/project/Wacpqk4-SfujXYw5EeUoCw
 
 ## Ontology Entry Point on DSP-API
 
-![center w:850](https://julsraemy.ch/prezi/assets/dsp_cas_json.png)
+![center w:870](https://julsraemy.ch/prezi/assets/dsp_cas_json.png)
 
 https://api.dasch.swiss/ontology/0812/ekws/v2
 
 
 ---
 
-# SGV_10P_00026
+# Cropped image of SGV_10P_00026
 
-## _Part of_ [Haus Kreis am Steinengraben 79 in Basel] served by SIPI
-
-![center w:275](https://iiif.dasch.swiss/0812/35kmGvN0wAY-sOh6QKN0xsX.jpx/138,98,2756,3704/max/0/default.jpg)
+![center w:315](https://iiif.dasch.swiss/0812/35kmGvN0wAY-sOh6QKN0xsX.jpx/138,98,2756,3704/max/0/default.jpg)
 
 https://iiif.dasch.swiss/0812/35kmGvN0wAY-sOh6QKN0xsX.jpx/138,98,2756,3704/1000,/0/default.jpg
+
+<!-- 
+
+SGV_10P_00026
+[Haus Kreis am Steinengraben 79 in Basel]
+
+ -->
 
 
 ---
 
-# SGV_10P_00026
+# SGV_10P_00026 on DSP-APP
 
-## [Haus Kreis am Steinengraben 79 in Basel] on DSP-APP
-
-![center w:900](https://julsraemy.ch/prezi/assets/dsp_cas_SGV_10P_SGV_10P_00026.png)
+![center w:970](https://julsraemy.ch/prezi/assets/dsp_cas_SGV_10P_SGV_10P_00026.png)
 
 
 https://app.dasch.swiss/search/fulltext/SGV_10P_00026
 
+<!-- 
+
+`Object` and `ImageRepresentation`
+
+ -->
 
 
 ---
 
-# SGV_10P_00026
+# SGV_10P_00026 on PIA Omeka-S UI and API
 
-## PIA Omeka-S UI and API
-
-![](https://julsraemy.ch/prezi/assets/infrastructure_constellation.svg)
-![](https://julsraemy.ch/prezi/assets/pia_omeka_s_SGV_10P_00026_json.png)
+![bg 97%](https://julsraemy.ch/prezi/assets/pia_omeka_s_SGV_10P_00026_ui.png) ![bg 73%](https://julsraemy.ch/prezi/assets/pia_omeka_s_SGV_10P_00026_json.png)
 
 ---
 
@@ -332,6 +337,12 @@ https://app.dasch.swiss/search/fulltext/SGV_10P_00026
 # A Linked Constellation
 
 ![](https://julsraemy.ch/prezi/assets/infrastructure_constellation.svg)
+
+<!-- 
+
+Synoptic View of the PIA Infrastructure: Showcasing its Connection to DSP and the CAS Photo Archive Website
+
+ -->
 
 ---
 
