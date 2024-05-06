@@ -26,6 +26,10 @@ Julien A. Raemy (Swiss Federal Archives; DaSCH)
 University of Basel, Switzerland
 
 
+<!-- 
+Hello everyone, welcome to a new PIA Ringvorlesung session and this time in English where I will be talking about interlinking cultural heritage data and taking examples from my PhD thesis and the PIA research project. At the end of the session, you can also ask questions in German or in French.
+
+ -->
 
 
 ---
@@ -47,7 +51,9 @@ University of Basel, Switzerland
 
 <!-- 
 
-Introduce background as well here
+My name is Julien Raemy, I am a PhD Candidate in Digital Humanities and until March 2024 I belonged officially to the research project and the Digital Humanities Lab of the University of Basel. I am still working on my thesis but since last month I work as a Data Scientist at the Swiss Federal Archives and also as a scientific collaborator at DaSCH, the Swiss National Data and Service Center for the Humanities. 
+
+My role within the project has been around the revision of the Cultural Anthropology Swizerland or EKWS data model following the database migration that has been a couple of times mentioned during this lecture series, as well as expanding the digital infrastructure by implementing a series of so-called APIs or application programming interfaces.
 
  -->
 
@@ -67,7 +73,7 @@ Supervised by:
 
 https://phd.julsraemy.ch
 
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. My research is grounded as part of the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, which aims to develop a Citizen Science platform around three photographic collections of the Cultural Anthropology Switzerland (CAS), formerly the Swiss Society for Folklore Studies (SSFS).  -->
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability.  -->
 
 
 ---
@@ -86,7 +92,7 @@ https://phd.julsraemy.ch
 
 <!-- 
 
-I'm first going to talk about the ways that data can be interlinked on the web in terms of vision and standards, then I will deconstruct a little bit the definition of what is cultural heritage data with a few examples and finally talk about two communities active in the cultural heritage field that develop and maintain specifications, that goes often hand in hand with the Open Science, Open Access movement.
+I will start by a  definition of cultural heritage data, then talk about the ways that data can be interlinked on the web, discuss what is Linked Open Usable Data or LOUD and provide a few examples and then it will be time to wrap-up.
  -->
 
 ---
@@ -108,7 +114,7 @@ I'm first going to talk about the ways that data can be interlinked on the web i
 
 <!-- 
 
-From data to cultural heritage data. And I will divide this section into three parts, three keywords.
+From data to cultural heritage data. And I have divided this definition into three parts and give one use case that I thought was interesting enough to mention. 
 
  -->
 
