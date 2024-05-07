@@ -51,9 +51,9 @@ Hello everyone, welcome to a new PIA Ringvorlesung session and this time in Engl
 
 <!-- 
 
-My name is Julien Raemy, I am a PhD Candidate in Digital Humanities and until March 2024 I belonged officially to the research project and the Digital Humanities Lab of the University of Basel. I am still working on my thesis but since last month I work as a Data Scientist at the Swiss Federal Archives and also as a scientific collaborator at DaSCH, the Swiss National Data and Service Center for the Humanities. 
+My name is Julien Raemy, I am a PhD Candidate in Digital Humanities and until March 2024 I worked at officially at the Digital Humanities Lab for the PIA research project. I am still working on my thesis but since last month I work as a Data Scientist at the Swiss Federal Archives and also as a scientific collaborator at DaSCH, the Swiss National Data and Service Center for the Humanities. 
 
-My role within the project has been around the revision of the Cultural Anthropology Swizerland or EKWS data model following the database migration that has been a couple of times mentioned during this lecture series, as well as expanding the digital infrastructure by implementing a series of so-called APIs or application programming interfaces.
+My role within PIA has been around the revision of the Cultural Anthropology Swizerland or EKWS data model following the database migration that has been a couple of times mentioned during this lecture series, as well as expanding the digital infrastructure by implementing a series of so-called APIs or application programming interfaces.
 
  -->
 
@@ -73,7 +73,7 @@ Supervised by:
 
 https://phd.julsraemy.ch
 
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability.  -->
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. Through the next slides I hope to make clear the meaning of my dissertation title.  -->
 
 
 ---
@@ -92,7 +92,7 @@ https://phd.julsraemy.ch
 
 <!-- 
 
-I will start by a  definition of cultural heritage data, then talk about the ways that data can be interlinked on the web, discuss what is Linked Open Usable Data or LOUD and provide a few examples and then it will be time to wrap-up.
+I will start by a  definition of cultural heritage data, then talk about the ways that data can be interlinked on the web, discuss what is Linked Open Usable Data or LOUD and then it will be time to wrap-up.
  -->
 
 ---
@@ -114,7 +114,7 @@ I will start by a  definition of cultural heritage data, then talk about the way
 
 <!-- 
 
-From data to cultural heritage data. And I have divided this definition into three parts and give one use case that I thought was interesting enough to mention. 
+From data to cultural heritage data. And I have divided this definition into three parts and give one use case of technically interliking a series of objects and performances from artist Carolee Schneemann that I thought was interesting enough to mention. 
 
  -->
 
@@ -135,7 +135,9 @@ Cultural Heritage encompassing tangible, intangible as well as natural dimension
 
 <!--  
 
-As a fundamental characteristic, heterogeneity signifies the diverse forms and origins that shape heritage. E.g. Different techniques and varying viewpoints in treating data modelling.
+"Digital or data-driven affordances" refers to the capabilities and opportunities provided by converting cultural heritage into digital data. This allows us to use technology to access, analyze, and interact with cultural elements. Metadata, Online Exhibitions, you name it. 
+
+Cultural heritage data includes the digitised forms of tangible heritage like buildings and artefacts, intangible heritage such as traditions and music, and natural heritage represented by landscapes and biodiversity.
 
 -->
 
@@ -166,7 +168,7 @@ This second characteristic also highlights the temporal dimension, presenting cu
 
 <!-- 
 
-This dimension reinforces the essential role played by a variety of entities, predominantly CHIs, in safeguarding and managing resources, ensuring their preservation and accessibility for present and future generations. However, it's crucial to acknowledge the great divide in terms of resources, with indigenous and local communities often facing challenges in custodianship responsibilities.
+This dimension reinforces the essential role played by a variety of entities, predominantly classic cultural heritage institions sometimes called the GLAM or LAM sector or academic instituitions, in safeguarding and managing resources, ensuring their preservation and accessibility for present and future generations. However, it's crucial to acknowledge the great divide in terms of resources, with indigenous and local communities often facing challenges in custodianship responsibilities.
 
  -->
 
@@ -180,13 +182,11 @@ This dimension reinforces the essential role played by a variety of entities, pr
 
 <!-- 
 
-Rossenova and Di Franco's article delves into artists' books, focusing on Carolee Schneeman's "Parts of a Body House." Unlike traditional art acquisitions, artists' books landed in libraries of art institutions, following the 1960s' surge in their recognition as art objects. These collections don't fit neatly into curatorial realms; instead, they're cataloged under library definitions. The challenge intensifies when materials resist categorization or adopt archival, serial, or ephemeral labels. Many artists' publications purposefully defy conventional library, archive, and collection norms.
+Rossenova and Di Franco's article examines artists' books, focusing on Carolee Schneemann's "Parts of a Body House". Carolee Schneemann was an influential artist known for her explorations of the body and sexuality. Artists' books, particularly from the 1960s, have gained recognition as art objects and are typically housed in art libraries rather than in traditional museum spaces. These books present challenges of classification as they can be archival, serial or ephemeral and often defy traditional library and archival norms. The study notes that Schneemann's works are categorised differently in different institutions, highlighting the complexity of integrating such unique art forms into standard collections.
 
-The study uncovered linked collections and publications from Schneeman's contributions, though these distinct versions find varying categorization across institution-specific catalogs.
+For unconventional art archives such as artist's books, the network model of linked data provides a means of mapping relationships between indefinable embodied versions, constructing complex histories beyond categorisation or canonisation.
 
-For unconventional art archives like artist's books, linked data's network model provides a means to chart relationships of indefinable embodied versions, constructing intricate histories beyond categorization or canonization.
-
-However, community discussions revealed difficulty in fully describing the array of relationships across editions, reinterpretations, serializations, or appropriations of publications within the LOD model structure.
+However, community discussions revealed difficulty in fully describing the array of relationships across editions, reinterpretations, serializations, or appropriations of publications within the model structure.
 
 -->
 
