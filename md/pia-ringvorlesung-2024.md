@@ -182,11 +182,10 @@ This dimension reinforces the essential role played by a variety of entities, pr
 
 <!-- 
 
-Rossenova and Di Franco's article examines artists' books, focusing on Carolee Schneemann's "Parts of a Body House". Carolee Schneemann was an influential artist known for her explorations of the body and sexuality. Artists' books, particularly from the 1960s, have gained recognition as art objects and are typically housed in art libraries rather than in traditional museum spaces. These books present challenges of classification as they can be archival, serial or ephemeral and often defy traditional library and archival norms. The study notes that Schneemann's works are categorised differently in different institutions, highlighting the complexity of integrating such unique art forms into standard collections.
+I would like now to provide an example of cultural heritage resources from a study and article written by Rossenova and Di Franco examining artists' books, namely on Carolee Schneemann's "Parts of a Body House". 
 
-For unconventional art archives such as artist's books, the network model of linked data provides a means of mapping relationships between indefinable embodied versions, constructing complex histories beyond categorisation or canonisation.
+Carolee Schneemann was an influential artist known for her explorations of the body and sexuality. Artists' books, particularly from the 1960s, have gained recognition as art objects and are typically housed in art libraries rather than in traditional museum spaces. These books present challenges of classification as they can be archival, serial or ephemeral and often defy traditional library and archival norms. The study notes that Schneemann's works are categorised differently in different institutions, highlighting the complexity of integrating such unique art forms into standard collections.
 
-However, community discussions revealed difficulty in fully describing the array of relationships across editions, reinterpretations, serializations, or appropriations of publications within the model structure.
 
 -->
 
@@ -201,11 +200,9 @@ However, community discussions revealed difficulty in fully describing the array
 
 <!-- 
 
-While the case-study research revealed the interconnections among the collections and publications activated by Schneemann’s contribution, these discrete iterations are sorted into different categories within a group of collection catalogs across institutions.
+For unconventional art archives such as artist's books, the network model of linked data provides a means of mapping relationships between indefinable embodied versions, constructing complex histories beyond categorisation or canonisation.
 
-For archives of nonstandard art objects such as net art or artists’ publishing (e.g., Schneemann’s work), the network model of LOD offers an opportunity to map out relations of embodied iterations that defy categorization (or canonization) and thus construct new, fuller and more nuanced histories around these materials.
-
-During community discussions, the sheer range of possible relations across editions, reinterpretations, serializations, or appropriations of publications proved challenging to describe completely within the structure of the LOD model.
+However, community discussions revealed difficulty in fully describing the array of relationships across editions, reinterpretations, serializations, or appropriations of publications within the model structure.
 
 Rossenova & Di Franco (2022)
 
@@ -227,6 +224,11 @@ Rossenova & Di Franco (2022)
 - The Semantic Web
 - Linked Open Data
 
+<!-- 
+I am going to deep dive a little bit more about how data, as the example from the previous two slides, can be interlinked on the web, I will try not be too technical. 
+
+ -->
+
 ---
 
 <!-- footer: Interlinking Data on the Web -->
@@ -237,6 +239,11 @@ Rossenova & Di Franco (2022)
 > The [World Wide Web] project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
 
 [Berners-Lee 1991]
+
+<!-- 
+The first thing I want to highlight is that the web was openly created, in 1989 at CERN by Tim Berners-Lee.
+
+ -->
 
 
 ---
@@ -275,6 +282,11 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ![center](https://julsraemy.ch/prezi/assets/cas-data-model-overview.svg)
 
+<!-- 
+Example of the updated data model, their classes or entities if you will and how they are connected to each other through properties, that are actually metadata fields. 
+
+ -->
+
 ---
 
 # CAS as Linked Open Data
@@ -284,6 +296,11 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 ![center w:715](https://julsraemy.ch/prezi/assets/dsp_cas.png)
 
 https://app.dasch.swiss/project/Wacpqk4-SfujXYw5EeUoCw
+
+<!-- 
+You can see here the same entities on the DaSCH Service Platform application and the number of resources that exist for each of these. 
+
+ -->
 
 
 ---
@@ -296,6 +313,11 @@ https://app.dasch.swiss/project/Wacpqk4-SfujXYw5EeUoCw
 
 https://api.dasch.swiss/ontology/0812/ekws/v2
 
+<!-- 
+Technically, this is how the data model looks like through the application programming interface or API, in a format called JSON-LD.
+
+ -->
+
 
 ---
 
@@ -306,6 +328,8 @@ https://api.dasch.swiss/ontology/0812/ekws/v2
 https://iiif.dasch.swiss/0812/35kmGvN0wAY-sOh6QKN0xsX.jpx/138,98,2756,3704/1000,/0/default.jpg
 
 <!-- 
+
+The DaSCH Service Platform has also implemented another API, which is the IIIF Image API - and I am going to talk more about this afterwards. Here is the URL you that provides you a cropped image.
 
 SGV_10P_00026
 [Haus Kreis am Steinengraben 79 in Basel]
@@ -335,6 +359,11 @@ https://app.dasch.swiss/search/fulltext/SGV_10P_00026
 
 ![bg 97%](https://julsraemy.ch/prezi/assets/pia_omeka_s_SGV_10P_00026_ui.png) ![bg 73%](https://julsraemy.ch/prezi/assets/pia_omeka_s_SGV_10P_00026_json.png)
 
+<!-- 
+Another view of the same resource but on our prototype which also comes with its own API, here it's not the representation of the all model but the representation of this particular resource through the API.
+
+ -->
+
 ---
 
 
@@ -344,6 +373,8 @@ https://app.dasch.swiss/search/fulltext/SGV_10P_00026
 ![](https://julsraemy.ch/prezi/assets/infrastructure_constellation.svg)
 
 <!-- 
+
+Lots of different entry points you may ask...
 
 Synoptic View of the PIA Infrastructure: Showcasing its Connection to DSP and the CAS Photo Archive Website
 
