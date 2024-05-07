@@ -73,7 +73,7 @@ Supervised by:
 
 https://phd.julsraemy.ch
 
-<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the Humanities and the perspectives it could bring in terms of community practices and semantic interoperability. Through the next slides I hope to make clear the meaning of my dissertation title.  -->
+<!-- I am doing my PhD in Digital Humanities on Linked Open Usable Data, with a focus on its (potential) use in the cultural heritage field and the perspectives it could bring in terms of community practices and semantic interoperability. Through the next slides I hope to make clear the meaning of my dissertation title.  -->
 
 
 ---
@@ -378,6 +378,8 @@ Lots of different entry points you may ask...
 
 Synoptic View of the PIA Infrastructure: Showcasing its Connection to DSP and the CAS Photo Archive Website
 
+How to ensure that this linked constellation remains universally usable by developers that create tools, services, and interfaces? How to make things easier for PIA in terms of external collaboration? What I mean by this is that not everything needs to happen on our front-end...
+
  -->
 
 ---
@@ -395,6 +397,11 @@ Synoptic View of the PIA Infrastructure: Showcasing its Connection to DSP and th
 - Standards for (Semantic) Interoperability
 - Social Fabrics of IIIF and Linked Art
 - LUX, Yale Collections Discovery
+
+<!-- 
+This is the basis of my answer: Linked Open Usable Data, not ony linked, not only open, but usable data. I will talk about it design principles, the different standards, then discuss their social fabrics that develop and maintain such standards as well as briefly showcasing a platform that embodies the implementation of such community-driven standards on a large scale.
+
+ -->
 
 ---
 
@@ -599,6 +606,11 @@ IIIF AV Player Demo from McGill University: https://ddmal.music.mcgill.ca/IIIF-A
 _The Image and Presentation application programming interfaces (APIs) are referred to as the core IIIF APIs._
 
 https://iiif.io/api
+
+<!-- 
+A series of APIs for different purposes...
+
+ -->
 
 ---
 
