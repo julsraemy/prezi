@@ -27,7 +27,11 @@ University of Basel, Switzerland
 
 
 <!-- 
-Hello everyone, welcome to a new PIA Ringvorlesung session and this time in English where I will be talking about interlinking cultural heritage data and taking examples from my PhD thesis and the PIA research project. At the end of the session, you can also ask questions in German or in French.
+Hello everyone, welcome to a new PIA Ringvorlesung session and this time in English where I will be talking about interlinking cultural heritage data and taking examples from my PhD thesis and the PIA research project. 
+
+My name is Julien Raemy, I am a PhD Candidate in Digital Humanities and until March 2024 I worked at officially at the Digital Humanities Lab for the PIA research project. I am still working on my thesis but since last month I work as a Data Scientist at the Swiss Federal Archives and also as a scientific collaborator at DaSCH, the Swiss National Data and Service Center for the Humanities. 
+
+At the end of the session, you can also ask questions in German or in French.
 
  -->
 
@@ -51,9 +55,7 @@ Hello everyone, welcome to a new PIA Ringvorlesung session and this time in Engl
 
 <!-- 
 
-My name is Julien Raemy, I am a PhD Candidate in Digital Humanities and until March 2024 I worked at officially at the Digital Humanities Lab for the PIA research project. I am still working on my thesis but since last month I work as a Data Scientist at the Swiss Federal Archives and also as a scientific collaborator at DaSCH, the Swiss National Data and Service Center for the Humanities. 
-
-My role within PIA has been around the revision of the Cultural Anthropology Swizerland or EKWS data model following the database migration that has been a couple of times mentioned during this lecture series, as well as expanding the digital infrastructure by implementing a series of so-called APIs or application programming interfaces.
+My role within the project has been around the revision of the Cultural Anthropology Swizerland or EKWS data model following the database migration that has been a couple of times mentioned during this lecture series, as well as expanding the digital infrastructure by implementing a series of so-called APIs or application programming interfaces.
 
  -->
 
@@ -114,7 +116,7 @@ I will start by a  definition of cultural heritage data, then talk about the way
 
 <!-- 
 
-From data to cultural heritage data. And I have divided this definition into three parts and give one use case of technically interliking a series of objects and performances from artist Carolee Schneemann that I thought was interesting enough to mention. 
+I have divided this definition into three parts and will give one interesting use case dealing with a series of objects and performances, Parts of a Body House, from artist Carolee Schneemann.
 
  -->
 
@@ -135,7 +137,9 @@ Cultural Heritage encompassing tangible, intangible as well as natural dimension
 
 <!--  
 
-"Digital or data-driven affordances" refers to the capabilities and opportunities provided by converting cultural heritage into digital data. This allows us to use technology to access, analyze, and interact with cultural elements. Metadata, Online Exhibitions, you name it. 
+Heteregenous in two instances, one is the agnosticism of data, where you flatten artefacts into bits, formats. So you have a very diverse arrays of entitites that are on the same level and also thiking of cultural heritage beyond just its materiality. 
+
+"Digital or data-driven affordances" refers to the capabilities and opportunities provided by converting cultural heritage into digital forms. This allows us to access, analyze, and interact with cultural elements through technologicl means. Metadata, Online Exhibitions, you name it. 
 
 Cultural heritage data includes the digitised forms of tangible heritage like buildings and artefacts, intangible heritage such as traditions and music, and natural heritage represented by landscapes and biodiversity.
 
@@ -266,7 +270,11 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 5-star deployment scheme for Open Data: https://5stardata.info/
 
-<!-- 5-star open data scheme 
+<!-- 
+
+In 2010, Tim Berners-Lee introduced the Five-Star Open Data Deployment Scheme to provide a structured framework for publishing and promoting data on the web. 
+
+5-star open data scheme 
 1) make your stuff available on the Web (whatever format) under an open license
 2) make it available as structured data
 3) make it available in a non-proprietary open format (e.g., CSV instead of Excel
