@@ -28,9 +28,7 @@ Doctoral Examination | University of Basel, 18th November 2024
 
 
 
-<div style="font-size: 72%;">
-
-<br/>
+<div style="font-size: 70%;">
 
 
 PhD in Digital Humanities supervised by: 
