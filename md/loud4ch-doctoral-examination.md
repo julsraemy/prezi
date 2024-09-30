@@ -14,7 +14,7 @@ _paginate: false
 ![bg opacity:.15](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 
-<div style="text-align: center; font-size: 114%">
+<div style="text-align: center; font-size: 105%">
 
 ## Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability
 
@@ -28,7 +28,7 @@ Doctoral Examination | University of Basel, 18th November 2024
 
 
 
-<div style="font-size: 78%;">
+<div style="font-size: 75%;">
 
 <br/>
 
