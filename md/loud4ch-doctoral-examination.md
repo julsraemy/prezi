@@ -52,19 +52,6 @@ Examination chaired by:
 <!-- footer: Doctoral Examination | University of Basel, 18th November 2024 -->
 
 
-# <!-- fit --> Participatory Knowledge Practices in Analogue and Digital Image Archives
-
-## PIA
-
-- Funded by the Swiss National Science Foundation, Sinergia, 02.2021-01.2025.
-    - Institute for Cultural Anthropology and European Ethnology, University of Basel
-    - Digital Humanities Lab, University of Basel
-    - Bern Academy of the Arts, Bern University of Applied Sciences
-- Based on three photographic collections from the Cultural Anthropology Switzerland's archives (*Fotoarchiv der Empirischen Kulturwissenschaft Schweiz - EKWS*)
-
-https://about.participatory-archives.ch/
-
----
 
 # Something
 
@@ -123,29 +110,44 @@ Storytelling 3
 
 ---
 
-# Research Questions
+# Research Question
 
 
-How can the concept of LOUD be situated within the broader framework of cultural heritage and digital humanities, and to what extent has it influenced — or is likely to influence — the perception and use of Linked Data in these fields?
+<div style="text-align: center;">
+
+## How can the concept of LOUD be situated within the broader framework of cultural heritage and digital humanities?
+
+### ... and to what extent has it influenced — or is likely to influence — the perception and use of Linked Data in these fields?
+
+</div>
 
 <!-- 
 
  -->
 
-
-
 ---
 
-# Literature Review
+# Context
 
+PIA
 
-Create an image
+- Funded by the Swiss National Science Foundation, Sinergia, 02.2021-01.2025.
+    - Institute for Cultural Anthropology and European Ethnology, University of Basel
+    - Digital Humanities Lab, University of Basel
+    - Bern Academy of the Arts, Bern University of Applied Sciences
+- Based on three photographic collections from the Cultural Anthropology Switzerland's archives (*Fotoarchiv der Empirischen Kulturwissenschaft Schweiz - EKWS*)
+
+https://about.participatory-archives.ch/
+
+IIIF and Linked Art Communities
+
+LUX / Yale
 
 ---
 
 # Theoretical Framework
 
-![](https://julsraemy.ch/prezi/assets/sympoiesis-theories.svg)
+![center w:1150](https://julsraemy.ch/prezi/assets/sympoiesis-theories.svg)
 
 
 ---
@@ -171,6 +173,10 @@ A three-act empirical structure
 
 # Objective $I$ and Methodology
 
+![center w:640](https://julsraemy.ch/prezi/assets/Research-Scope-Social-Fabrics.svg)
+
+
+
 
 <!-- 
 
@@ -180,6 +186,7 @@ A three-act empirical structure
 
 # Objective $II$ and Methodology
 
+![center w:700](https://julsraemy.ch/prezi/assets/Research-Scope-PIA.svg)
 
 <!-- 
 
@@ -189,6 +196,8 @@ A three-act empirical structure
 ---
 
 # Objective $III$ and Methodology
+
+![center w:750](https://julsraemy.ch/prezi/assets/Research-Scope-LUX.svg)
 
 
 <!-- 
@@ -289,11 +298,9 @@ https://phd.julsraemy.ch/research
 
 ---
 
-# Machine-generated annotations in a IIIF setting
+# Machine-generated annotations in a IIIF setting (PIA)
 
-## Example from the PIA research project
-
-![center width:700px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+![center width:780px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
 
 See Cornut et al. [2023]
 
@@ -336,7 +343,7 @@ See Cornut et al. [2023]
           "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=2091,1119,1113,3413"
         },
-        "dcterms:isPartOf": {
+        "dct:isPartOf": {
           "type": "Manifest",
           "id": "https://iiif.participatory-archives.ch/SGV_12N_19783/manifest.json"
         }
