@@ -145,7 +145,7 @@ Create an image
 
 # Theoretical Framework
 
-Image of PI...
+![](https://julsraemy.ch/prezi/assets/sympoiesis-theories.svg)
 
 
 ---
