@@ -47,16 +47,20 @@ Examination chaired by:
 
 ---
 
+![bg fit 50%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+
+
 <!-- header: Julien A. Raemy | **Linked Open Usable Data for Cultural Heritage** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
 <!-- footer: Doctoral Examination | University of Basel, 18th November 2024 -->
 
+---
 
 
-# Something
 
-Storytelling 1
-
+<iframe width="960" height="auto"
+src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4">
+</iframe> 
 
 <!-- 
 
@@ -65,9 +69,7 @@ Storytelling 1
 
 ---
 
-# Something
 
-Storytelling 2
 
 
 <!-- 
@@ -78,14 +80,44 @@ Storytelling 2
 
 ---
 
-# Something
 
-Storytelling 3
-
-
-<!-- 
-
- -->
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json", 
+  "id": "https://data.participatory-archives.ch/object/123456.json",
+  "type": "HumanMadeObject",
+  "_label": "[Ringtanz während der Masüras auf der Alp Sura]",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300128343", 
+      "type": "Type", 
+      "_label": "Black and white negative",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ]
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://data.participatory-archives.ch/set/12.json",
+      "type": "Set",
+      "_label": "SGV_12 Ernst Brunner",
+      "classified_as": [
+        {
+        "id": "http://vocab.getty.edu/aat/300025976",
+        "type": "Type",
+        "_label": "Collection"
+        }
+      ]
+    }
+  ],
+...
+}
+```
 
 
 
@@ -298,15 +330,18 @@ https://phd.julsraemy.ch/research
 
 ---
 
-# Machine-generated annotations in a IIIF setting (PIA)
+# Machine-generated annotations
 
-![center width:780px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+![center width:864px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
 
-See Cornut et al. [2023]
+<div style="font-size: 70%;">
+    See Cornut et al. [2023]
+</div>
+
 
 ---
 
-# Machine-generated annotations in a IIIF setting
+# Machine-generated annotations
 
 ```json
 {
