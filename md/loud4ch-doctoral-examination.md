@@ -207,12 +207,12 @@ A three-act empirical structure
  -->
 
 
-
-
 ---
 
 
 # The Social Fabrics of IIIF and Linked Art
+
+![bg 68%](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
 
 
 <!-- 
@@ -220,6 +220,24 @@ A three-act empirical structure
  -->
 
 
+
+---
+
+# The Social Fabrics of IIIF and Linked Art
+
+![center w=75%](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
+
+<div style="font-size: 70%;">
+    Raemy [2023]
+</div>
+
+
+---
+
+# The Social Fabrics of IIIF and Linked Art
+
+
+![center w:740px](https://julsraemy.ch/prezi/assets/attendance_stacked_bar_la.svg)
 
 ---
 
@@ -264,12 +282,36 @@ A Linked Constellation
 
 # Yale's LUX and LOUD Consistency
 
+![bg opacity:.2](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.2](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.2](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.2](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
+
+1-2 quotes
 
 <!-- 
+
+LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery
 
  -->
 
 
+
+---
+
+# Yale's LUX and LOUD Consistency
+
+Shared terminology
+
+
+---
+
+# Yale's LUX and LOUD Consistency
+
+Valid/Invalid Manifests
+
+BO See Raemy [2022]
 
 ---
 
@@ -317,6 +359,8 @@ A Linked Constellation
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. _Journal on Computing and Cultural Heritage_, 16(4), 1–19. https://doi.org/10.1145/3625301
 
 Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. _Digital Humanities in the Nordic and Baltic Countries Publications_, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
+
+Raemy, J. A. (2022, October 20). Back and Forth from Boundary Objects to IIIF Resources: The Recipes of a Community-driven Initiative Specifying Standards. _DARIAH-CH Study Day 2022 Posters_. DARIAH-CH Study Day, Mendrisio, Switzerland. https://doi.org/10.5281/zenodo.7015256
 
 Raemy, J. A. (2023). _Characterising the IIIF and Linked Art Communities: Survey report_ (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 
