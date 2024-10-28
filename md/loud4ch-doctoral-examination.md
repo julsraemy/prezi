@@ -57,10 +57,13 @@ Examination chaired by:
 ---
 
 
+<div style="text-align: center;">
+  <video controls style="width: 100%; max-width: 1000px; height: auto;">
+    <source src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-<iframe width="960" height="auto"
-src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4">
-</iframe> 
 
 <!-- 
 
@@ -69,6 +72,9 @@ src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4">
 
 ---
 
+HMO
+
+Exhibition - Family of Man (MoMA)
 
 
 
@@ -184,57 +190,22 @@ LUX / Yale
 
 ---
 
-# Empirical Research
 
+# Methodology
 
-1. The Social Fabrics of IIIF and Linked Art
-2. PIA as a Laboratory
-3. Yale's LUX and LOUD Consistency
-
+- **Mixed methods**: Combined quantitative and qualitative techniques, guided by ANT
+- **Data collection and curation**: Collected and curated data from guidelines, meeting minutes, GitHub issues, surveys and project implementations; modelled this data for deeper analysis.
+- **Data analysis and reporting**: Used Python (including libraries like NetworkX), Gephi as well as RStudio for data analysis and visualisation; shared scripts and results on GitHub to improve publication and transparency.
+- **Empirical studies across three case studies**: Explored the IIIF and Linked Art communities, the PIA research project, and Yale's LUX platform to assess the implementation and impact of LOUD standards.
 
 <!-- 
+
+Two perspectives have served as threads interwoven across chapters
 
 A three-act empirical structure
 
  -->
 
-
-
----
-
-
-# Objective $I$ and Methodology
-
-![center w:640](https://julsraemy.ch/prezi/assets/Research-Scope-Social-Fabrics.svg)
-
-
-
-
-<!-- 
-
- -->
-
----
-
-# Objective $II$ and Methodology
-
-![center w:700](https://julsraemy.ch/prezi/assets/Research-Scope-PIA.svg)
-
-<!-- 
-
- -->
-
-
----
-
-# Objective $III$ and Methodology
-
-![center w:750](https://julsraemy.ch/prezi/assets/Research-Scope-LUX.svg)
-
-
-<!-- 
-
- -->
 
 
 
@@ -278,6 +249,19 @@ A Linked Constellation
 ---
 
 
+
+# Machine-generated annotations
+
+![center width:864px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+
+<div style="font-size: 70%;">
+    See Cornut et al. [2023]
+</div>
+
+
+---
+
+
 # Yale's LUX and LOUD Consistency
 
 
@@ -291,20 +275,15 @@ A Linked Constellation
 
 # Further Contributions
 
+<br>
 
-https://phd.julsraemy.ch/research
+➡️ https://phd.julsraemy.ch/research
 
+![center w:920](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
 
-<!-- 
-
- -->
-
-
-
----
-
-
-# Discussion
+<div style="font-size: 70%;">
+[Felsing et al. 2023]
+</div>
 
 
 <!-- 
@@ -330,104 +309,19 @@ https://phd.julsraemy.ch/research
 
 ---
 
-# Machine-generated annotations
-
-![center width:864px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
-
-<div style="font-size: 70%;">
-    See Cornut et al. [2023]
-</div>
-
-
----
-
-# Machine-generated annotations
-
-```json
-{
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list.json",
-  "type": "AnnotationPage",
-  "items": [
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "id": "https://iiif.participatory-archives.ch/annotations/SGV_12N_19783-p1-list/annotation-385261.json",
-      "motivation": "commenting",
-      "type": "Annotation",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "person",
-          "purpose": "commenting"
-        },
-        {
-          "type": "TextualBody",
-          "value": "Object Detection (vitrivr)",
-          "purpose": "tagging"
-        },
-        {
-          "type": "TextualBody",
-          "value": "<br><small>Detection score: 0.9997</small>",
-          "purpose": "commenting"
-        }
-      ],
-      "target": {
-        "source": "https://iiif.participatory-archives.ch/SGV_12N_19783/canvas/p1",
-        "selector": {
-          "type": "FragmentSelector",
-          "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=2091,1119,1113,3413"
-        },
-        "dct:isPartOf": {
-          "type": "Manifest",
-          "id": "https://iiif.participatory-archives.ch/SGV_12N_19783/manifest.json"
-        }
-      }
-    },
-```
-
-
----
-
-
-# LOUD-Driven Infrastructure
-
-![center w:1000](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
-
-[Felsing et al. 2023]
-
-
----
 
 <!-- class: tinytext --> 
 
-# References $I$
+# References
 
-Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. Journal on Computing and Cultural Heritage, 16(4), 1–19. https://doi.org/10.1145/3625301
+Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. _Journal on Computing and Cultural Heritage_, 16(4), 1–19. https://doi.org/10.1145/3625301
 
-Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. Digital Humanities in the Nordic and Baltic Countries Publications, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
+Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. _Digital Humanities in the Nordic and Baltic Countries Publications_, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
 
-Raemy, J. A. (2023). Characterising the IIIF and Linked Art Communities: Survey report (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
+Raemy, J. A. (2023). _Characterising the IIIF and Linked Art Communities: Survey report_ (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 
-Raemy, J. A., Gray, T., Collinson, A., & Page, K. R. (2023, July 12). Enabling Participatory Data Perspectives for Image Archives through a Linked Art Workflow (Poster). Digital Humanities 2023 Posters. Digital Humanities 2023, Graz, Austria. https://doi.org/10.5281/zenodo.7878358
+Raemy, J. A., & Sanderson, R. (2024). Analysis of the Usability of Automatically Enriched Cultural Heritage Data. In F. Moral-Andrés, E. Merino-Gómez, & P. Reviriego (Eds.), _Decoding Cultural Heritage: A Critical Dissection and Taxonomy of Human Creativity through Digital Tools_ (pp. 69–93). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-57675-1_4
 
----
-
-# References $II$
-
-Raemy, J. A., & Sanderson, R. (2023). Analysis of the Usability of Automatically Enriched Cultural Heritage Data (arXiv:2309.16635). arXiv. https://doi.org/10.48550/arXiv.2309.16635
-
-Rossenova, L., & Di Franco, K. (2022). Iterative Pasts and Linked Futures: A Feminist Approach to Modeling Data in Archives and Collections of Artists’ Publishing. Perspectives on Data. https://doi.org/10.53269/9780865593152/05
-
-Sanderson, R. (2018, May 15). Shout it Out: LOUD. EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018
-
-Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Consistent Data, Usable Applications. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 28. https://doi.org/10.1109/JCDL.2019.00009
-
-Sanderson, R. (2023, October 13). Understanding Linked Art. Linked Art face-to-face meeting, Amsterdam, The Netherlands. https://www.slideshare.net/azaroth42/understanding-linked-art
-
-Star, S. L. (1999). The Ethnography of Infrastructure. American Behavioral Scientist, 43(3), 377–391. https://doi.org/10.1177/00027649921955326
-
-UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United Nations Educational, Scientific and Cultural Organization. https://n2t.net/ark:/48223/pf0000229608
 
 
 ---
