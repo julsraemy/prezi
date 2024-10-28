@@ -258,7 +258,7 @@ A Linked Constellation
 
 
 
-# Machine-generated annotations
+# PIA as a Laboratory 
 
 ![center width:864px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
 
@@ -269,16 +269,26 @@ A Linked Constellation
 
 ---
 
+# PIA as a Laboratory 
+
+![](https://julsraemy.ch/prezi/assets/ant-linked-art-api.svg)
+
+
+
+---
+
 
 # Yale's LUX and LOUD Consistency
 
-![bg opacity:.2](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
-![bg opacity:.2](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
-![bg opacity:.2](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
-![bg opacity:.2](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+![bg opacity:.12](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.12](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.12](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.12](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
 
 
-1-2 quotes
+> The LUX initiative has created a model of collegial and productive collaboration that colleagues at Yale can look to. This collaborative approach extends beyond Yale, and I hope it has a trickle-down effect on the thinking of those who develop systems for libraries and museums. It remains to be seen how this initiative will influence the broader community and shape the future of museum system development.
+
+Heather Gendron, Director, Robert B. Haas Family Arts Library, Yale University Library
 
 <!-- 
 
@@ -292,16 +302,44 @@ LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, 
 
 # Yale's LUX and LOUD Consistency
 
-Shared terminology
+![bg opacity:.12](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.12](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.12](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.12](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+
+
+
+> I do have concerns about how LUX is perceived at times and its positioning as a highly sophisticated technical tool. While it certainly possesses advanced capabilities, it is important to remember that it is not solely defined by its technical complexity.
+
+Emmanuelle Delmas-Glass, Head of Collections Information Access, Yale Center for British Art
+
+
+
 
 
 ---
 
 # Yale's LUX and LOUD Consistency
 
-Valid/Invalid Manifests
 
-BO See Raemy [2022]
+
+---
+
+# Yale's LUX and LOUD Consistency
+
+![center w:660](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+
+<div style="font-size: 70%;">
+See [Raemy and Sanderson 2024]
+</div>
+
+---
+
+
+
+# Yale's LUX and LOUD Consistency
+
+![](https://julsraemy.ch/prezi/assets/lux-vocab-ycba-yuag.png)
 
 ---
 
@@ -357,8 +395,6 @@ key difference between IIIF and Linked Art: While software engineers often treat
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. _Journal on Computing and Cultural Heritage_, 16(4), 1–19. https://doi.org/10.1145/3625301
 
 Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. _Digital Humanities in the Nordic and Baltic Countries Publications_, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
-
-Raemy, J. A. (2022, October 20). Back and Forth from Boundary Objects to IIIF Resources: The Recipes of a Community-driven Initiative Specifying Standards. _DARIAH-CH Study Day 2022 Posters_. DARIAH-CH Study Day, Mendrisio, Switzerland. https://doi.org/10.5281/zenodo.7015256
 
 Raemy, J. A. (2023). _Characterising the IIIF and Linked Art Communities: Survey report_ (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
 
