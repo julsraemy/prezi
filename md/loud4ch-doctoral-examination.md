@@ -169,7 +169,7 @@ https://www.moma.org/calendar/exhibitions/2429
 
 # Context
 
-![](https://julsraemy.ch/prezi/assets/phd-context.svg)
+![center w:410](https://julsraemy.ch/prezi/assets/phd-context.svg)
 
 ---
 
