@@ -271,7 +271,7 @@ A Linked Constellation
 
 # PIA as a Laboratory 
 
-![](https://julsraemy.ch/prezi/assets/ant-linked-art-api.svg)
+![center w:500](https://julsraemy.ch/prezi/assets/ant-linked-art-api.svg)
 
 
 
@@ -314,14 +314,11 @@ LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, 
 Emmanuelle Delmas-Glass, Head of Collections Information Access, Yale Center for British Art
 
 
-
-
-
 ---
 
 # Yale's LUX and LOUD Consistency
 
-
+![center](https://julsraemy.ch/prezi/assets/lux-demo.gif)
 
 ---
 
