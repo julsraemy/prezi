@@ -169,7 +169,7 @@ https://www.moma.org/calendar/exhibitions/2429
 
 # Context
 
-![center w:410](https://julsraemy.ch/prezi/assets/phd-context.svg)
+![center w:640](https://julsraemy.ch/prezi/assets/phd-context.svg)
 
 ---
 
@@ -329,14 +329,22 @@ BO See Raemy [2022]
 
 # Conclusion
 
+<div style="font-size: 86%;">
+
+- Advocated for LOUD to improve the accessibility and usability of cultural heritage data through collaborative efforts such as IIIF and Linked Art
+- Emphasised that these de-facto standards act as a lingua franca, with their design principles serving as common denominators, facilitating interoperability and collaboration across institutions.
+- Demonstrated in the PIA project how the implementation of IIIF APIs facilitated participatory practices and data reuse, demonstrating the practical benefits of LOUD.
+- Observed that the perception of Linked Data hasn't evolved significantly despite the introduction of LOUD
+- Acknowledged shortcomings, such as a greater focus on community practices rather than semantic interoperability, and the need to address limitations such as broad scope and limited appeal to technical audiences.
+- Suggested future research, including exploring the benefits of early adopters, fully implementing Linked Art in projects, and encouraging participation from the Global South.
+
+</div>
 
 <!-- 
 
+key difference between IIIF and Linked Art: While software engineers often treat resources as JSON, overlooking the graph structure—which is acceptable for IIIF's focus on content interoperability and presentation—this approach limits Linked Art's ability to realise full semantic relationships and rich interconnections, highlighting the need to integrate semantic web principles.
+
  -->
-
-
-
-
 
 
 ---
