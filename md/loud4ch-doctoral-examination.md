@@ -169,19 +169,7 @@ https://www.moma.org/calendar/exhibitions/2429
 
 # Context
 
-PIA
-
-- Funded by the Swiss National Science Foundation, Sinergia, 02.2021-01.2025.
-    - Institute for Cultural Anthropology and European Ethnology, University of Basel
-    - Digital Humanities Lab, University of Basel
-    - Bern Academy of the Arts, Bern University of Applied Sciences
-- Based on three photographic collections from the Cultural Anthropology Switzerland's archives (*Fotoarchiv der Empirischen Kulturwissenschaft Schweiz - EKWS*)
-
-https://about.participatory-archives.ch/
-
-IIIF and Linked Art Communities
-
-LUX / Yale
+![](https://julsraemy.ch/prezi/assets/phd-context.svg)
 
 ---
 
