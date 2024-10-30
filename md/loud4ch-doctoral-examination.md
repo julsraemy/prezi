@@ -47,7 +47,7 @@ Examination chaired by:
 
 ---
 
-![bg fit 50%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg fit 51%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 
 <!-- header: Julien A. Raemy | **Linked Open Usable Data for Cultural Heritage** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
@@ -58,7 +58,7 @@ Examination chaired by:
 
 
 <div style="text-align: center;">
-  <video controls loop style="width: 100%; max-width: 1000px; height: auto;">
+  <video controls autoplay style="width: 100%; max-width: 1150px; height: auto;">
     <source src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -66,6 +66,8 @@ Examination chaired by:
 
 
 <!-- 
+
+Ernst Brunner. Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative. Family of Man Exhibition (Museum of Modern Art, NY)
 
  -->
 
@@ -173,7 +175,7 @@ https://www.moma.org/calendar/exhibitions/2429
 
 # Theoretical Framework
 
-![center w:1150](https://julsraemy.ch/prezi/assets/sympoiesis-theories.svg)
+![center w:1200](https://julsraemy.ch/prezi/assets/sympoiesis-theories.svg)
 
 
 ---
@@ -200,7 +202,7 @@ A three-act empirical structure
 
 # The Social Fabrics of IIIF and Linked Art
 
-![bg 68%](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
+![bg 71%](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
 
 
 <!-- 
@@ -211,21 +213,8 @@ A three-act empirical structure
 
 ---
 
-# The Social Fabrics of IIIF and Linked Art
 
-![center w=75%](https://julsraemy.ch/prezi/assets/survey_heatmap.svg)
-
-<div style="font-size: 70%;">
-    Raemy [2023]
-</div>
-
-
----
-
-# The Social Fabrics of IIIF and Linked Art
-
-
-![center w:740px](https://julsraemy.ch/prezi/assets/attendance_stacked_bar_la.svg)
+![center w:910px](https://julsraemy.ch/prezi/assets/attendance_stacked_bar_la.svg)
 
 ---
 
@@ -254,11 +243,7 @@ A Linked Constellation
 
 ---
 
-
-
-# PIA as a Laboratory 
-
-![center width:864px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
+![center width:1050px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
 
 <div style="font-size: 70%;">
     See Cornut et al. [2023]
@@ -290,7 +275,23 @@ LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, 
 
 ---
 
-# Yale's LUX and LOUD Consistency
+<div style="text-align: center;">
+  <video controls autoplay style="width: 100%; max-width: 1050px; height: auto;">
+    <source src="https://julsraemy.ch/prezi/assets/lux-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
+
+
+![center w:770](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
+
+<div style="font-size: 70%;">
+See [Raemy and Sanderson 2024]
+</div>
+
+---
 
 ![bg opacity:.12](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
 ![bg opacity:.12](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
@@ -305,31 +306,6 @@ Emmanuelle Delmas-Glass, Head of Collections Information Access, Yale Center for
 
 
 ---
-
-# Yale's LUX and LOUD Consistency
-
-<div style="text-align: center;">
-  <video controls loop style="width: 100%; max-width: 1000px; height: auto;">
-    <source src="https://julsraemy.ch/prezi/assets/lux-demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
----
-
-# Yale's LUX and LOUD Consistency
-
-![center w:660](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
-
-<div style="font-size: 70%;">
-See [Raemy and Sanderson 2024]
-</div>
-
----
-
-
-
-# Yale's LUX and LOUD Consistency
 
 ![](https://julsraemy.ch/prezi/assets/lux-vocab-ycba-yuag.png)
 
@@ -349,6 +325,8 @@ See [Raemy and Sanderson 2024]
 
 
 <!-- 
+
+Say something about LOUD and Linked Data (the perception of the latter)
 
  -->
 
@@ -377,34 +355,36 @@ key difference between IIIF and Linked Art: While software engineers often treat
  -->
 
 
+
 ---
 
 
-<!-- class: tinytext --> 
 
-# References
+![bg opacity:.17](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.17](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+
+# References and Image Credits
+
+### References
+
+<div style="font-size: 55%;">
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. _Journal on Computing and Cultural Heritage_, 16(4), 1–19. https://doi.org/10.1145/3625301
 
 Felsing, U., Fornaro, P., Frischknecht, M., & Raemy, J. A. (2023). Community and Interoperability at the Core of Sustaining Image Archives. _Digital Humanities in the Nordic and Baltic Countries Publications_, 5(1), 40–54. https://doi.org/10.5617/dhnbpub.10649
 
-Raemy, J. A. (2023). _Characterising the IIIF and Linked Art Communities: Survey report_ (p. 29) [Report]. University of Basel. https://doi.org/10.5451/unibas-ep95340
-
 Raemy, J. A., & Sanderson, R. (2024). Analysis of the Usability of Automatically Enriched Cultural Heritage Data. In F. Moral-Andrés, E. Merino-Gómez, & P. Reviriego (Eds.), _Decoding Cultural Heritage: A Critical Dissection and Taxonomy of Human Creativity through Digital Tools_ (pp. 69–93). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-57675-1_4
 
+</div>
 
+### Image Credits
 
----
-
-![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
-![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
-
-# Image Credits
-
-## Cultural Anthropology Switzerland (CAS)
+<div style="font-size: 55%;">
 
 These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the _Swiss Society for Folklore Studies_, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 - Brunner, Ernst. [Blick auf das Spalentor]. Basel, 1938. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_00115. Alte Bildnummer: AB 15. https://archiv.sgv-sstp.ch/resource/422350 
 
 - Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89. https://archiv.sgv-sstp.ch/resource/430824
+
+</div>
