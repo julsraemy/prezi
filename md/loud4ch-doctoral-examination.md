@@ -58,7 +58,7 @@ Examination chaired by:
 
 
 <div style="text-align: center;">
-  <video controls autoplay style="width: 100%; max-width: 1150px; height: auto;">
+  <video controls loop style="width: 100%; max-width: 1150px; height: auto;">
     <source src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -276,7 +276,7 @@ LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, 
 ---
 
 <div style="text-align: center;">
-  <video controls autoplay style="width: 100%; max-width: 1050px; height: auto;">
+  <video controls loop style="width: 100%; max-width: 1050px; height: auto;">
     <source src="https://julsraemy.ch/prezi/assets/lux-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
