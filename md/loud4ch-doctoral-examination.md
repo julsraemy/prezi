@@ -58,7 +58,7 @@ Examination chaired by:
 
 
 <div style="text-align: center;">
-  <video controls style="width: 100%; max-width: 1000px; height: auto;">
+  <video controls loop style="width: 100%; max-width: 1000px; height: auto;">
     <source src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -167,9 +167,7 @@ https://www.moma.org/calendar/exhibitions/2429
 
 ---
 
-# Context
-
-![center w:640](https://julsraemy.ch/prezi/assets/phd-context.svg)
+![center w:790](https://julsraemy.ch/prezi/assets/phd-context.svg)
 
 ---
 
@@ -269,14 +267,6 @@ A Linked Constellation
 
 ---
 
-# PIA as a Laboratory 
-
-![center w:500](https://julsraemy.ch/prezi/assets/ant-linked-art-api.svg)
-
-
-
----
-
 
 # Yale's LUX and LOUD Consistency
 
@@ -318,7 +308,12 @@ Emmanuelle Delmas-Glass, Head of Collections Information Access, Yale Center for
 
 # Yale's LUX and LOUD Consistency
 
-![center](https://julsraemy.ch/prezi/assets/lux-demo.gif)
+<div style="text-align: center;">
+  <video controls loop style="width: 100%; max-width: 1000px; height: auto;">
+    <source src="https://julsraemy.ch/prezi/assets/lux-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ---
 
