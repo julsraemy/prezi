@@ -334,6 +334,8 @@ Say something about LOUD and Linked Data (the perception of the latter)
 
 ---
 
+![bg opacity:.10](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+
 
 # Conclusion
 
