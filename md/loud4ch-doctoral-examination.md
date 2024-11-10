@@ -79,9 +79,7 @@ Ernst Brunner. Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. B
 
 ---
 
-HMO
-
-Exhibition - Family of Man (MoMA)
+![center](https://julsraemy.ch/prezi/assets/ringtanz.drawio.svg)
 
 
 
