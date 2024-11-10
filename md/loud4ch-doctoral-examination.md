@@ -54,6 +54,11 @@ Examination chaired by:
 
 <!-- footer: Doctoral Examination | University of Basel, 18th November 2024 -->
 
+<!-- 
+
+ -->
+
+
 ---
 
 
@@ -177,6 +182,10 @@ https://www.moma.org/calendar/exhibitions/2429
 
 ![center w:1200](https://julsraemy.ch/prezi/assets/sympoiesis-theories.svg)
 
+<!-- 
+Anticipate questions on the relevance of each theory, especially ANT. Emphasize that ANT was essential for analyzing LOUD’s socio-technical networks, while other frameworks (e.g., Situated Knowledge) provided complementary insights but weren’t central.
+ -->
+
 
 ---
 
@@ -194,6 +203,9 @@ Two perspectives have served as threads interwoven across chapters
 
 A three-act empirical structure
 
+
+Justify the mixed-methods approach as necessary for interdisciplinary work, explaining how it allowed for a balance of depth and breadth. Acknowledge that while it sacrifices some depth, it was essential for covering LOUD’s socio-technical scope.
+
  -->
 
 
@@ -206,7 +218,7 @@ A three-act empirical structure
 
 
 <!-- 
-
+Be ready to discuss how community practices within IIIF and Linked Art underpin the adoption of LOUD standards. Focus on the importance of consensus-building as a sustaining factor.
  -->
 
 
@@ -231,13 +243,10 @@ Synoptic View of the PIA Infrastructure: Showcasing its Connection to DSP and th
 
 How to ensure that this linked constellation remains universally usable by developers that create tools, services, and interfaces? How to make things easier for PIA in terms of external collaboration? What I mean by this is that not everything needs to happen on our front-end...
 
- -->
 
-<!-- 
-
-A Linked Constellation
 
  -->
+
 
 
 
@@ -248,6 +257,10 @@ A Linked Constellation
 <div style="font-size: 70%;">
     See Cornut et al. [2023]
 </div>
+
+<!-- 
+Position PIA as a practical testbed for LOUD, highlighting both the achievements in participation and data reuse and the challenges (e.g., end-user involvement, socio-technical balancing).
+ -->
 
 
 ---
@@ -281,6 +294,10 @@ LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, 
     Your browser does not support the video tag.
   </video>
 </div>
+
+<!-- 
+Discuss LUX as an example of LOUD at scale, showing its adaptability for institutional needs. Mention identified challenges in data consistency and accessibility for non-specialists.
+ -->
 
 ---
 
@@ -351,9 +368,7 @@ Say something about LOUD and Linked Data (the perception of the latter)
 </div>
 
 <!-- 
-
-key difference between IIIF and Linked Art: While software engineers often treat resources as JSON, overlooking the graph structure—which is acceptable for IIIF's focus on content interoperability and presentation—this approach limits Linked Art's ability to realise full semantic relationships and rich interconnections, highlighting the need to integrate semantic web principles.
-
+Acknowledge critiques on the balance between community practices and interoperability, explaining that it reflects the current adoption challenges of LOUD. Frame future research as addressing this balance, specifically through engagement with the Global South and enhancing semantic web integration.
  -->
 
 
