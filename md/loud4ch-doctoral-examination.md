@@ -303,7 +303,7 @@ Discuss LUX as an example of LOUD at scale, showing its adaptability for institu
 ![center w:770](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
 
 <div style="font-size: 70%;">
-See [Raemy and Sanderson 2024]
+See Raemy and Sanderson [2024]
 </div>
 
 ---
