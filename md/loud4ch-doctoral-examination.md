@@ -164,10 +164,6 @@ https://www.moma.org/calendar/exhibitions/2429
 
 ---
 
-![center w:790](https://julsraemy.ch/prezi/assets/phd-context.svg)
-
----
-
 # Theoretical Framework
 
 ![center w:1200](https://julsraemy.ch/prezi/assets/sympoiesis-theories.svg)
@@ -180,12 +176,23 @@ Anticipate questions on the relevance of each theory, especially ANT. Emphasize 
 ---
 
 
-# Methodology
+# Scope
 
-- **Mixed methods**: Combined quantitative and qualitative techniques, guided by ANT
-- **Data collection and curation**: Collected and curated data from guidelines, meeting minutes, GitHub issues, surveys and project implementations; modelled this data for deeper analysis.
-- **Data analysis and reporting**: Used Python (including libraries like NetworkX), Gephi as well as RStudio for data analysis and visualisation; shared scripts and results on GitHub to improve publication and transparency.
-- **Empirical studies across three case studies**: Explored the IIIF and Linked Art communities, the PIA research project, and Yale's LUX platform to assess the implementation and impact of LOUD standards.
+<div style="font-size: 90%;">
+
+## Methodology
+
+- **Mixed methods**: Combined quantitative and qualitative approaches, guided by ANT.
+- **Data collection**: Curated data from guidelines, meeting minutes, GitHub issues, surveys, and project implementations; modeled for analysis.
+- **Analysis & reporting**: Used R, Python, and Gephi for analysis and visualization; shared scripts and results on GitHub to support transparency.
+
+## Empirical studies
+
+1. IIIF and Linked Art communities
+2. Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
+3. LUX: Yale Collections Discovery
+
+</div>
 
 <!-- 
 
@@ -243,10 +250,16 @@ Position PIA as a practical testbed for LOUD, highlighting both the achievements
 ---
 
 <div style="text-align: center;">
-  <video controls loop style="width: 100%; max-width: 1150px; height: auto;">
+  <video controls loop style="width: 100%; max-width: 1000px; height: auto;">
     <source src="https://julsraemy.ch/prezi/assets/mirador-album-layers.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+</div>
+
+<div style="font-size: 50%;">
+
+https://projectmirador.org/embed/?iiif-content=https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json
+
 </div>
 
 
