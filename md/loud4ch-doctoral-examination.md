@@ -43,11 +43,16 @@ Examination chaired by:
 
 <!-- 
 
+Hi everyone...
+
  -->
 
 ---
 
-![bg fit 51%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+<iframe src="https://mejackreed.github.io/Leaflet-IIIF/examples/?url=https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json" 
+        width="100%" height="600px" style="border:none;">
+</iframe>
+
 
 
 <!-- header: Julien A. Raemy | **Linked Open Usable Data for Cultural Heritage** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
@@ -56,28 +61,15 @@ Examination chaired by:
 
 <!-- 
 
- -->
+Ernst Brunner. Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative. Leaflet-IIIF
 
-
----
-
-
-<div style="text-align: center;">
-  <video controls loop style="width: 100%; max-width: 1150px; height: auto;">
-    <source src="https://julsraemy.ch/prezi/assets/iiif-ringtanz.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-
-<!-- 
-
-Ernst Brunner. Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative. Family of Man Exhibition (Museum of Modern Art, NY)
+Family of Man Exhibition (Museum of Modern Art, NY. 
 
  -->
 
 
 ---
+
 
 ![center](https://julsraemy.ch/prezi/assets/ringtanz.drawio.svg)
 
@@ -241,7 +233,7 @@ Synoptic View of the PIA Infrastructure: Showcasing its Connection to DSP and th
 
 How to ensure that this linked constellation remains universally usable by developers that create tools, services, and interfaces? How to make things easier for PIA in terms of external collaboration? What I mean by this is that not everything needs to happen on our front-end...
 
-
+Position PIA as a practical testbed for LOUD, highlighting both the achievements in participation and data reuse and the challenges (e.g., end-user involvement, socio-technical balancing).
 
  -->
 
@@ -250,14 +242,20 @@ How to ensure that this linked constellation remains universally usable by devel
 
 ---
 
-![center width:1050px](https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png)
-
-<div style="font-size: 70%;">
-    See Cornut et al. [2023]
+<div style="text-align: center;">
+  <video controls loop style="width: 100%; max-width: 1150px; height: auto;">
+    <source src="https://julsraemy.ch/prezi/assets/mirador-album-layers.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
+
 <!-- 
-Position PIA as a practical testbed for LOUD, highlighting both the achievements in participation and data reuse and the challenges (e.g., end-user involvement, socio-technical balancing).
+
+Protective films as layers
+Loose photographs
+Very boutique
+
  -->
 
 
@@ -266,10 +264,10 @@ Position PIA as a practical testbed for LOUD, highlighting both the achievements
 
 # Yale's LUX and LOUD Consistency
 
-![bg opacity:.12](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
-![bg opacity:.12](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
-![bg opacity:.12](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
-![bg opacity:.12](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
+![bg opacity:.15](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
+![bg opacity:.15](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
+![bg opacity:.15](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
+![bg opacity:.15](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
 
 
 > The LUX initiative has created a model of collegial and productive collaboration that colleagues at Yale can look to. This collaborative approach extends beyond Yale, and I hope it has a trickle-down effect on the thinking of those who develop systems for libraries and museums. It remains to be seen how this initiative will influence the broader community and shape the future of museum system development.
@@ -277,6 +275,8 @@ Position PIA as a practical testbed for LOUD, highlighting both the achievements
 Heather Gendron, Director, Robert B. Haas Family Arts Library, Yale University Library
 
 <!-- 
+
+LUX as an example of LOUD at scale, showing its adaptability for institutional needs.
 
 LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale University Art Gallery
 
@@ -286,39 +286,12 @@ LUX: Yale University Library, Yale Center for British Art, Yale Peabody Museum, 
 
 ---
 
-<div style="text-align: center;">
-  <video controls loop style="width: 100%; max-width: 1050px; height: auto;">
-    <source src="https://julsraemy.ch/prezi/assets/lux-demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<!-- 
-Discuss LUX as an example of LOUD at scale, showing its adaptability for institutional needs. Mention identified challenges in data consistency and accessibility for non-specialists.
- -->
-
----
-
 
 ![center w:770](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
 
 <div style="font-size: 70%;">
 See Raemy and Sanderson [2024]
 </div>
-
----
-
-![bg opacity:.12](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
-![bg opacity:.12](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
-![bg opacity:.12](https://th-thumbnailer.cdn-si-edu.com/DZU5wD7JlgYEjvqC0RGXWZ_45EM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/fa/49/fa494e15-0d54-403d-9c50-3af1c5890780/ypmarexhgreathall001web.jpg)
-![bg opacity:.12](https://artgallery.yale.edu/sites/default/files/styles/max_2600x2600/public/2023-03/2023-ag-exb-4581-0003-pub.jpg)
-
-
-
-> I do have concerns about how LUX is perceived at times and its positioning as a highly sophisticated technical tool. While it certainly possesses advanced capabilities, it is important to remember that it is not solely defined by its technical complexity.
-
-Emmanuelle Delmas-Glass, Head of Collections Information Access, Yale Center for British Art
-
 
 ---
 
@@ -332,16 +305,21 @@ Emmanuelle Delmas-Glass, Head of Collections Information Access, Yale Center for
 
 ➡️ https://phd.julsraemy.ch/research
 
-![center w:920](https://julsraemy.ch/prezi/assets/loud-infra-example.jpg)
-
-<div style="font-size: 70%;">
-[Felsing et al. 2023]
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; width: 100%;">
+    <div style="text-align: center; width: 50%;">
+        <img src="https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png" alt="Cornut et al. 2023" style="width: 100%; height: auto;">
+        <div style="font-size: 70%;">[Cornut et al. 2023]</div>
+    </div>
+    <div style="text-align: center; width: 50%;">
+        <img src="https://julsraemy.ch/prezi/assets/loud-infra-example.jpg" alt="Felsing et al. 2023" style="width: 100%; height: auto;">
+        <div style="font-size: 70%;">[Felsing et al. 2023]</div>
+    </div>
 </div>
+
 
 
 <!-- 
 
-Say something about LOUD and Linked Data (the perception of the latter)
 
  -->
 
