@@ -53,7 +53,11 @@ Hi everyone...
         width="100%" height="600px" style="border:none;">
 </iframe>
 
+<div style="font-size: 50%;">
 
+https://mejackreed.github.io/Leaflet-IIIF/examples/?url=https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json
+
+</div>
 
 <!-- header: Julien A. Raemy | **Linked Open Usable Data for Cultural Heritage** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
@@ -205,8 +209,20 @@ Justify the mixed-methods approach as necessary for interdisciplinary work, expl
 
 # The Social Fabrics of IIIF and Linked Art
 
-![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
-
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; width: 100%;">
+    <div style="text-align: center; width: 50%;">
+        <img src="https://iiif.io/assets/images/heroes/event_2.webp" alt="IIIF Image" style="width:100%; max-width:600px; height:auto;">
+        <div style="font-size: 50%;">
+            <a href="https://iiif.io" target="_blank">https://iiif.io</a>
+        </div>
+    </div>
+    <div style="text-align: center; width: 50%;">
+        <img src="https://julsraemy.ch/prezi/assets/linked-art-call.png" alt="Linked Art Agenda" style="width: 100%; height: auto;">
+        <div style="font-size: 50%;">
+            <a href="https://linked.art" target="_blank">https://linked.art</a>
+        </div>
+    </div>
+</div>
 
 
 ---
@@ -231,6 +247,12 @@ Be ready to discuss how community practices within IIIF and Linked Art underpin 
 # PIA as a Laboratory 
 
 
+
+<div style="font-size: 50%;">
+
+https://about.participatory-archives.ch/
+
+</div>
 
 ---
 
@@ -264,7 +286,7 @@ Position PIA as a practical testbed for LOUD, highlighting both the achievements
 
 https://projectmirador.org/embed/?iiif-content=https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json
 
-</div>
+
 
 
 <!-- 
@@ -281,7 +303,13 @@ Very boutique
 
 # Yale's LUX and LOUD Consistency
 
+![center w:1000px](https://julsraemy.ch/prezi/assets/lux-ui.png)
 
+<div style="font-size: 50%;">
+
+https://lux.collections.yale.edu/
+
+</div>
 
 ---
 
