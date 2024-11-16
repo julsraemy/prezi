@@ -102,10 +102,7 @@ https://www.moma.org/calendar/exhibitions/2429
           "id": "http://vocab.getty.edu/aat/300435443",
           "type": "Type",
           "_label": "Type of Work"
-        }
-      ]
-    }
-  ],
+        }]}],
   "member_of": [
     {
       "id": "https://data.participatory-archives.ch/set/12.json",
@@ -116,10 +113,7 @@ https://www.moma.org/calendar/exhibitions/2429
         "id": "http://vocab.getty.edu/aat/300025976",
         "type": "Type",
         "_label": "Collection"
-        }
-      ]
-    }
-  ],
+        }]}],
 ...
 }
 ```
@@ -150,7 +144,7 @@ https://www.moma.org/calendar/exhibitions/2429
 # Research Question
 
 
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 118%">
 
 ## How can the concept of LOUD be situated within the broader framework of cultural heritage and digital humanities?
 
@@ -211,7 +205,13 @@ Justify the mixed-methods approach as necessary for interdisciplinary work, expl
 
 # The Social Fabrics of IIIF and Linked Art
 
-![bg 71%](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
+![bg contain](https://iiif.io/assets/images/heroes/event_2.webp)
+
+
+
+---
+
+![bg 85%](https://julsraemy.ch/prezi/assets/use_cases-specifications-2.svg)
 
 
 <!-- 
@@ -229,6 +229,10 @@ Be ready to discuss how community practices within IIIF and Linked Art underpin 
 
 
 # PIA as a Laboratory 
+
+
+
+---
 
 ![](https://julsraemy.ch/prezi/assets/infrastructure_constellation.svg)
 
@@ -276,6 +280,10 @@ Very boutique
 
 
 # Yale's LUX and LOUD Consistency
+
+
+
+---
 
 ![bg opacity:.15](https://library.yale.edu/sites/default/files/beinecke720.jpeg)
 ![bg opacity:.15](https://britishart.yale.edu/sites/default/files/img/overview/2020-06/2016EF11.572_D8.jpg)
