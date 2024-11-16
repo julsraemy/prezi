@@ -246,6 +246,15 @@ Be ready to discuss how community practices within IIIF and Linked Art underpin 
 
 # PIA as a Laboratory 
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; width: 100%;">
+    <div style="text-align: center; width: 50%;">
+        <img src="https://julsraemy.ch/prezi/assets/pia-header.png" alt="PIA Header (Project Website)" style="width:100%; max-width:600px; height:auto;">
+    </div>
+    <div style="text-align: center; width: 50%;">
+        <img src="https://julsraemy.ch/prezi/assets/pia-team.png" alt="PIA Team" style="width: 100%; height: auto;">
+        </div>
+    </div>
+</div>
 
 
 <div style="font-size: 50%;">
@@ -269,8 +278,6 @@ How to ensure that this linked constellation remains universally usable by devel
 Position PIA as a practical testbed for LOUD, highlighting both the achievements in participation and data reuse and the challenges (e.g., end-user involvement, socio-technical balancing).
 
  -->
-
-
 
 
 ---
