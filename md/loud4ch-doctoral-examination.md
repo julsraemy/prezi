@@ -45,11 +45,9 @@ Examination chaired by:
 
 Hello everyone,
 
-Thank you for joining me today for my PhD defense on "Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability." 
+Thank you for joining me today for my PhD defense. I’d like to extend my gratitude to my supervisors for their guidance and insights throughout this journey.
 
 My thesis examines how collaborative structures and standardized data can support meaningful exchange and reuse of information. It also reflects my interest for using web-based and community-driven technologies to transform the way we understand, share and value cultural heritage.
-
-I’d like to extend my sincere gratitude to my supervisors for their guidance and insights throughout this journey. With that, I’m looking forward to sharing some key findings.
 
  -->
 
@@ -73,7 +71,7 @@ https://mejackreed.github.io/Leaflet-IIIF/examples/?url=https://iiif.dasch.swiss
 
 Let's start with a famous picture taken by Ernst Brunner in 1939 in Guarda showcasing people dancing in a circle.
 
-With the protocols and tools available, it is now relatively easy to zoom in on a digital image, in this case the digitisation of a 5 x 5 centimetre negative. What you are actually seeing is not one image, but several of them, or parts of them, known as tiles, delivered by a server, in this case DaSCH, which preserves the digital images of Cultural Anthropology Switzerland, and displayed by a client, here Leaflet. Both programs support the IIIF Image API, allowing compatible images to be displayed in different environments.
+With the protocols and tools available, it is now relatively easy to zoom in on a digital image. What you are actually seeing is not one image, but several of them, or parts of them, known as tiles, delivered by a server and displayed by a client, here Leaflet. Both programs support the IIIF Image API, allowing compatible images to be displayed in different environments.
 
  -->
 
@@ -87,7 +85,7 @@ With the protocols and tools available, it is now relatively easy to zoom in on 
 
 <!-- 
 
-This image offers multiple avenues for exploration. It can be studied through various lenses: the date it was taken, when it was acquired by Cultural Anthropology Switzerland, or even when it was digitized. Notably, the photograph was also part of the iconic "Family of Man" exhibition, organized by Edward Steichen and first shown at the Museum of Modern Art in New York in 1955. This exhibition was intended as a declaration of global solidarity in the decade following World War II, capturing shared human experiences across cultures.
+This image offers multiple avenues for exploration. It can be studied through various lenses: the date it was taken, when it was acquired by the photographic archives, or even when it was digitized. Notably, the photograph was also part of the iconic "Family of Man" exhibition, organized by Edward Steichen and first shown at the Museum of Modern Art in New York in 1955. This exhibition was intended as a declaration of global solidarity in the decade following World War II, capturing shared human experiences across cultures.
 
 Family of Man Exhibition
 https://www.moma.org/calendar/exhibitions/2429
@@ -135,9 +133,7 @@ Now, the question is: while we as humans understand the semantics, how can we en
 
 <!-- 
 
-This JSON-LD snippet represents just the surface, or "the tip of the iceberg." It illustrates one step toward realizing the broader vision of the Semantic Web: a network of linked, machine-readable data that can be shared and understood across systems. Behind it lies the challenge of organizing these pieces of information in ways that different systems can interpret consistently. Achieving this level of interoperability requires consensus on metadata standards and structures.
-
-To address these challenges, Linked Open Usable Data (LOUD) introduces a framework designed to bring the Semantic Web's vision, specifically tailored for cultural heritage data.
+This JSON-LD snippet represents just "the tip of the iceberg." It illustrates one step toward realizing the broader vision of the Semantic Web: a network of linked, machine-readable data that can be shared and understood across systems. Behind it lies the challenge of organizing these pieces of information in ways that different systems can interpret consistently. Achieving this level of interoperability requires consensus on metadata standards and structures.
 
 -->
 
@@ -151,16 +147,20 @@ To address these challenges, Linked Open Usable Data (LOUD) introduces a framewo
 
 - LOUD aims to bring the vision of the Semantic Web into practical, global use, especially within cultural heritage, by building on community-driven standards like the International Image Interoperability Framework (IIIF) and Linked Art.
 
-- It has five main design principles to make the data more easily accessible to software developers, who play a key role in interacting with the data and building software and services.
-
 - It is centred on JavaScript Object Notation for Linked Data (JSON-LD) as the preferred serialisation format.
 
 
+<div style="font-size: 50%;">
+
+https://linked.art/loud
+
+</div>
+
 <!-- 
 
-LOUD introduces design principles that align with public and organizational needs. These principles provide structured, user-friendly interfaces embedded within socio-technical practices, meeting a wide range of requirements from developers, institutions, and users alike.
+Linked Open Usable Data - or LOUD - aims to bring the vision of the Semantic Web into practical, global use, especially within cultural heritage, by building on community-driven standards like the International Image Interoperability Framework (IIIF) and Linked Art.
 
-Two ommunity-driven standards that follow these principles are the IIIF Presentation API 3.0 and Linked Art, a shared model to describe cultural heritage.
+LOUD has five design principles as the baseline for usability and are targeted primarily to software developers.
 
  -->
 
@@ -180,9 +180,9 @@ Two ommunity-driven standards that follow these principles are the IIIF Presenta
 
 <!-- 
 
-The primary research question of my thesis seeks to evaluate the role and impact of LOUD. It seeks as well to uncover the depth of LOUD's contribution to cultural heritage and digital humanities, and to some extent explore its potential to reshape the perception and use of Linked Data.
+The main research question of my thesis seeks to situate LOUD within the borader framework of cultural heritage and digital humanities. To some extent, I also explore its potential to reshape the perception and use of Linked Data.
 
-To answer this question, the thesis draws on a blend of theories that together provide an analytical framework. Each theory contributes distinct perspectives on how LOUD operates within and impacts socio-technical networks.
+To answer this question, the thesis draws on a blend of theories that together provide a framework.
 
  -->
 
@@ -194,11 +194,11 @@ To answer this question, the thesis draws on a blend of theories that together p
 
 <!-- 
 
-The theoretical framework of this thesis is primarily grounded in Actor-Network Theory (ANT), supported by frameworks like Situated Knowledges, Boundary Objects, and the Philosophy of Information.
+The theoretical framework of this thesis is primarily grounded in Actor-Network Theory (ANT), supported by theories like Situated Knowledges, Boundary Objects, and the Philosophy of Information.
 
-ANT was chosen as the central framework due to its strength in analyzing socio-technical networks, essential for understanding interactions within communities. ANT provides the tools to map relationships between human and non-human actors, highlighting LOUD’s role as a networked entity in practice.
+ANT was chosen as the central framework due to its strength in analyzing socio-technical networks, essential for understanding and map relationships between human and non-human actors.
 
-Complementary theories add further insight, helping to interpret specific dynamics. However, they are not always central to the analysis but rather serve to deepen understanding of contextual and collaborative aspects.
+Complementary theories add further insight, helping to interpret specific dynamics. However, they are not always central to the analysis but rather serve to deepen understanding of contextual aspects.
 
  -->
 
@@ -226,9 +226,11 @@ Complementary theories add further insight, helping to interpret specific dynami
 
 <!-- 
 
-By combining quantitative and qualitative approaches, the research achieved a balance between depth and breadth. While this approach may sacrifice some depth in individual areas, it was crucial for covering LOUD’s wide-ranging applications across cultural heritage fields.
+As a Digital Humanitis, I combined quantitative and qualitative approaches. I collected data from web pages, meeting minutes, or GitHub issues. 
 
-The empirical studies follow a three-act structure, each study offering a distinct perspective on LOUD’s role and effectiveness. Two central perspectives—community practices and semantic interoperability—interweave throughout, linking these studies and showing how LOUD is applied in various socio-technical contexts, namely as empirical chapters I studied the social fabrics of the IIIF and Linked Art communities, the PIA research project as a laboratory to implement LOUD standards, and investigated LUX, Yale Collections Discovery platform. 
+The empirical studies follow a three-act structure, namely I studied the social fabrics of the IIIF and Linked Art communities, the PIA research project as a laboratory to implement LOUD standards, and investigated LUX, Yale Collections Discovery platform. 
+
+While I may have sacrificed some depth in individual areas, it was crucial for covering LOUD’s wide-ranging applications.
 
  -->
 
@@ -255,9 +257,7 @@ The empirical studies follow a three-act structure, each study offering a distin
 
 <!-- 
 
-The analysis of the IIIF and Linked Art communities focuses on how consensus building and advocacy promote the adoption of LOUD and the role fo community participation in the adoption of the standards vetted by both communities.
-
-With the exception of annual conferences or face-to-face workshops, the vast majority of meetings take place online. These are open, with a clear agenda written on Google Docs, and use GitHub as a central platform for collecting use cases and collaboratively writing specifications as well as cookbook recipes to help publishers to adopt common patterns and to demonstrate the applicability of use cases.
+With the exception of annual conferences or face-to-face workshops, the vast majority of meetings take place online. These are open, with a clear agenda written on Google Docs, and use GitHub as a central platform for collecting use cases and collaboratively writing specifications.
 
  -->
 
@@ -269,11 +269,11 @@ With the exception of annual conferences or face-to-face workshops, the vast maj
 
 <!-- 
 
-Consensus-building is indeed a sustaining factor, as demonstrated here with the release of the IIIF Image and Presentation APIs 3.0 in 2020. The diagram illustrates the process undertaken by the IIIF community to review, validate, and integrate specific GitHub issues for the final release of these specifications. 
+Consensus-building is indeed a sustaining factor, as demonstrated here with the release of the IIIF Image and Presentation APIs 3.0 in 2020. The diagram illustrates the process undertaken by the IIIF community to review, validate, and release both specifications.
 
-This structured approach begins with groups such as the IIIF Editorial Committee, who identify and propose changes. These changes are then rigorously discussed and reviewed by members of the Technical Review Committee (or TRC). Key milestones, such as the API 3.0 Release Candidate, mark the stages of this consensus-driven development process.
+This structured approach begins with groups such as the Editors, who identify and propose changes. These changes are then rigorously discussed and reviewed by members of the Technical Review Committee (or TRC).
 
-The TRC’s involvement is crucial, as their formal review and approval validate each update. Compliance checks, including JSON-LD context validation and compatibility assessments, ensure that each release integrates smoothly into the broader IIIF ecosystem, supporting a range of compliant software clients. We can also see the distributed agency that defines community-driven practices.
+We can see the distributed agency that defines this community-driven process.
 
  -->
 
@@ -287,9 +287,9 @@ The TRC’s involvement is crucial, as their formal review and approval validate
 
 <!-- 
 
-Building on the consensus-driven process, this chart illustrates the patterns of community participation in Linked Art meetings held between January 2019 and March 2024. During this period, 130 individuals attended 115 meetings, most of which were virtual, with five face-to-face gatherings. The average attendance was 13.57 sessions per participant, but the median was only 2, suggesting a small core of consistently active members alongside a larger group with sporadic involvement. This pattern reflects the challenges and successes of maintaining sustained engagement, especially within a volunteer-driven environment.
+This chart illustrates the patterns of community participation in Linked Art meetings held between January 2019 and March 2024. During this period, 130 individuals attended 115 meetings, most of which were virtual, with five face-to-face gatherings. The average attendance was 13.57 sessions per participant, but the median was only 2, suggesting a small core of consistently active members alongside a larger group with sporadic involvement. This pattern reflects the challenges and successes of maintaining sustained engagement, especially within a volunteer-driven environment.
 
-There is an opportunity to broaden engagement to include more diverse cultural and geographical communities, enhancing the inclusivity and representativeness of LOUD standards. The challenge lies not only in attracting more participants but in encouraging those who are currently passive to engage more actively. A similar participation pattern is observed in the IIIF community, where both community and technical specification group calls show a concentration of core contributors with less frequent input from the broader community.
+The challenge lies not only in attracting more participants but in encouraging those who are currently passive to engage more actively. A similar participation pattern is observed in the IIIF community.
 
  -->
 
@@ -317,11 +317,7 @@ https://about.participatory-archives.ch/
 
 <!-- 
 
-The social fabrics of both IIIF and Linked Art demonstrate the value of collaborative standards and community-driven development. Similarly, the PIA research project presents a unique opportunity to explore LOUD standards in a practical setting.
-
-Using three collections from the photo archives of Cultural Anthropology Switzerland as examples, PIA has developed interfaces that support indexing and interaction with digital resources, and are designed to foster reflective engagement with archival content.
-
-PIA provided an opportunity to demonstrate how it could act as a testbed for the implementation of LOUD standards and to benefit from the best practices and tools created by the communities. 
+PIA provided an opportunity to demonstrate how it could act as a testbed for the implementation of LOUD standards and to benefit from the best practices and tools created by the communities. PIA has developed interfaces that support indexing and interaction with digital resources, and are designed to foster reflective engagement.
 
  -->
 
@@ -332,11 +328,9 @@ PIA provided an opportunity to demonstrate how it could act as a testbed for the
 <!-- 
 
 
-This is a synoptic View of the PIA Infrastructure and it showcases its Connection to the DaSCH Service Platform and the Cultural Anthroplogy Switzerland Photo Archive Website. 
+This is a synoptic View of the PIA infrastructure and it showcases its Connection to the DaSCH Service Platform, where the data is preserved for the long-term, and the Cultural Anthroplogy Switzerland Photo Archive Website. 
 
 The use of LOUD standards in this exploratory setting has shown how quickly these APIs can be implemented, while underscoring the importance of a sustainable, long-term strategy for their maintenance. For instance, IIIF Image API compliance could be later managed via the DSP’s SIPI image server, reducing backend maintenance demands. However, sustained operational support for the IIIF Presentation and Change Discovery APIs—potentially in a read-only format—would require managing hosting costs post-project. DaSCH could perhaps help mitigate these costs by extending its hosting services to include these APIs.
-
-This approach not only ensures long-term access to these digital resources but also aligns with future organizational hosting policies. The question remains: How can this linked infrastructure be made universally accessible to developers building tools, services, and interfaces, and how can PIA facilitate external collaboration more effectively? Not everything needs to be managed on our front end, but establishing a sustainable framework for external collaboration is essential.
 
 
  -->
@@ -360,7 +354,7 @@ https://projectmirador.org/embed/?iiif-content=https://julsraemy.ch/hostiiing/ma
 
 <!-- 
 
-This video recording illustrates a materiality use case within the PIA project, where the protective films of a photo album are modeled as IIIF resources. You can also see a loose photograph alongside its original placement on the album page. In total, there are four photographs that can each be displayed as layers in the Mirador viewer.
+This video recording illustrates a materiality use case within the PIA project, where the protective films of a photo album are modeled as a IIIF resource. You can also see a loose photograph alongside its original placement on the album page. In total, there are four photographs that can each be displayed as layers in the Mirador viewer.
 
 Modeling complex digital objects like this is typically handled on a case-by-case basis to faithfully represent the materiality of photographic albums. This approach, selectively applied, reflects practices at institutions like the Getty Institute, which similarly addresses unique cases by adapting standards to capture complex physical details.
 
