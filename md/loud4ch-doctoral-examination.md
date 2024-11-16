@@ -310,7 +310,16 @@ Very boutique
 
 # Yale's LUX and LOUD Consistency
 
-![center w:1000px](https://julsraemy.ch/prezi/assets/lux-ui.png)
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; width: 100%;">
+    <div style="text-align: center; width: 50%;">
+        <img src="https://julsraemy.ch/prezi/assets/lux-ui.png" alt="LUX User Interface" style="width:100%; max-width:600px; height:auto;">
+    </div>
+    <div style="text-align: center; width: 50%;">
+        <img src="https://julsraemy.ch/prezi/assets/lux-launch.jpg" alt="LUX Launch Event" style="width: 100%; height: auto;">
+        </div>
+    </div>
+</div>
 
 <div style="font-size: 50%;">
 
