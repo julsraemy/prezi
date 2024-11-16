@@ -148,7 +148,7 @@ https://www.moma.org/calendar/exhibitions/2429
 # Research Question
 
 
-<div style="text-align: center; font-size: 118%">
+<div style="text-align: center; font-size: 112%">
 
 ## How can the concept of LOUD be situated within the broader framework of cultural heritage and digital humanities?
 
