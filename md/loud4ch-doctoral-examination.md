@@ -78,6 +78,8 @@ With the protocols and tools available, it is now relatively easy to zoom in on 
 
 ---
 
+![bg opacity:.5](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+
 
 ![center](https://julsraemy.ch/prezi/assets/ringtanz.drawio.svg)
 
@@ -99,6 +101,15 @@ Now, the question is: while we as humans understand the semantics, how can we en
 ---
 
 
+![bg opacity:.10](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+
+# Linked Open Usable Data (LOUD)
+
+LOUD aims to bring the vision of the Semantic Web into practical, global use, especially within cultural heritage, by building on community-driven standards like the International Image Interoperability Framework (IIIF) and Linked Art.
+
+
+<div style="font-size: 70%;">
+
 ```json
 {
   "@context": "https://linked.art/ns/v1/linked-art.json", 
@@ -116,44 +127,8 @@ Now, the question is: while we as humans understand the semantics, how can we en
           "type": "Type",
           "_label": "Type of Work"
         }]}],
-  "member_of": [
-    {
-      "id": "https://data.participatory-archives.ch/set/12.json",
-      "type": "Set",
-      "_label": "SGV_12 Ernst Brunner",
-      "classified_as": [
-        {
-        "id": "http://vocab.getty.edu/aat/300025976",
-        "type": "Type",
-        "_label": "Collection"
-        }]}],
-...
 }
 ```
-
-<!-- 
-
-This JSON-LD snippet represents just "the tip of the iceberg." It illustrates one step toward realizing the broader vision of the Semantic Web: a network of linked, machine-readable data that can be shared and understood across systems. Behind it lies the challenge of organizing these pieces of information in ways that different systems can interpret consistently. Achieving this level of interoperability requires consensus on metadata standards and structures.
-
--->
-
-
----
-
-
-![bg opacity:.10](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
-
-# Linked Open Usable Data (LOUD)
-
-- LOUD aims to bring the vision of the Semantic Web into practical, global use, especially within cultural heritage, by building on community-driven standards like the International Image Interoperability Framework (IIIF) and Linked Art.
-
-- It is centred on JavaScript Object Notation for Linked Data (JSON-LD) as the preferred serialisation format.
-
-
-<div style="font-size: 50%;">
-
-https://linked.art/loud
-
 </div>
 
 <!-- 
@@ -161,6 +136,8 @@ https://linked.art/loud
 Linked Open Usable Data - or LOUD - aims to bring the vision of the Semantic Web into practical, global use, especially within cultural heritage, by building on community-driven standards like the International Image Interoperability Framework (IIIF) and Linked Art.
 
 LOUD has five design principles as the baseline for usability and are targeted primarily to software developers.
+
+It is centred on JavaScript Object Notation for Linked Data (JSON-LD) as the preferred serialisation format. This snippet represents "the tip of the iceberg." Behind it lies the challenge of organizing these pieces of information in ways that different systems can interpret consistently. Achieving this level of interoperability requires consensus on metadata standards and structures.
 
  -->
 
@@ -409,28 +386,9 @@ As part of the research, I conducted interviews with people involved in the LUX 
 
 The success of Yale’s collaboration can be attributed to a shared vision that values the connections between diverse collections across various domains. This vision has fostered active contributions over the years, with resources from each participating unit supporting committees, working groups, and unit-level development efforts. This commitment highlights how sustained engagement and a unified approach can enhance the effectiveness and reach of institutional initiatives.
 
- -->
-
-
-
----
-
-
-![center w:770](https://julsraemy.ch/prezi/assets/lux-arch-simple.png)
-
-<div style="font-size: 70%;">
-See Raemy and Sanderson [2024]
-</div>
-
-
-<!-- 
-
-Beyond the collaborative vision, LUX’s effectiveness relies on a carefully constructed infrastructure that supports its diverse data connections. This site of assemblage brings together various sources to provide a cohesive and enriched experience for users.
-
-The architecture of LUX comprises interconnected components: data harvesting, a data pipeline, a back-end database, a middle tier, and a front-end. LUX’s extensive connections span across Yale units and beyond, integrating external Linked Data sources from different fields. This setup broadens the platform’s scope, allowing users to explore cultural heritage information through a range of interconnected perspectives.
-
 
  -->
+
 
 ---
 
@@ -438,9 +396,14 @@ The architecture of LUX comprises interconnected components: data harvesting, a 
 
 <!-- 
 
-Moving from LUX’s technical architecture, I examined the vocabulary consistency, which plays a critical role in aligning and connecting the metadata across Yale’s collections.
+Beyond the collaborative vision, LUX’s effectiveness relies on a carefully constructed infrastructure that supports its diverse data connections. This infrastructre, or site of assemblages, comprises several components, such as data harvesting and a data pipeline.
 
-This plot highlights how Getty Vocabularies are applied within the Yale Center for British Art (YCBA) and Yale University Art Gallery (YUAG) collections, focusing on shared terms across both units. The UpSet plot shows that ULAN is heavily used for referencing people, while AAT has the highest overlap between collections. TGN is less frequently applied. This approach facilitates interoperability without restricting the potential for programmatically generated connections.
+I examined the vocabulary consistency, which plays a critical role in aligning and connecting the metadata across Yale’s collections.
+
+This plot highlights how Getty Vocabularies are applied within the Yale Center for British Art (YCBA) and Yale University Art Gallery (YUAG) collections, focusing on shared terms across both units. 
+
+
+This approach facilitates interoperability without restricting the potential for programmatically generated connections.
 
  -->
 
@@ -452,14 +415,18 @@ This plot highlights how Getty Vocabularies are applied within the Yale Center f
 
 ➡️ https://phd.julsraemy.ch/research
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px; width: 100%;">
-    <div style="text-align: center; width: 50%;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 15px; width: 100%;">
+    <div style="text-align: center; width: 30%;">
         <img src="https://julsraemy.ch/prezi/assets/pia_iiif_mirador.png" alt="Cornut et al. 2023" style="width: 100%; height: auto;">
-        <div style="font-size: 70%;">[Cornut et al. 2023]</div>
+        <div style="font-size: 80%;">[Cornut et al. 2023]</div>
     </div>
-    <div style="text-align: center; width: 50%;">
+    <div style="text-align: center; width: 38%;">
         <img src="https://julsraemy.ch/prezi/assets/loud-infra-example.jpg" alt="Felsing et al. 2023" style="width: 100%; height: auto;">
-        <div style="font-size: 70%;">[Felsing et al. 2023]</div>
+        <div style="font-size: 80%;">[Felsing et al. 2023]</div>
+    </div>
+    <div style="text-align: center; width: 30%;">
+        <img src="https://julsraemy.ch/prezi/assets/lux-arch-simple.png" alt="Raemy and Sanderson 2024" style="width: 100%; height: auto;">
+        <div style="font-size: 80%;">[Raemy and Sanderson 2024]</div>
     </div>
 </div>
 
@@ -471,7 +438,7 @@ Following the analysis of the three empirical cases, I also engaged in related p
 
 In addition to the dissertation, I wrote multiple articles, often with PIA project members, and published most of the scripts and data models on GitHub to promote transparency and reusability. 
 
-The two highlighted contributions focus on (1) machine-generated annotations using IIIF and the Web Annotation Data Model and (2) envisioning what a LOUD ecosystem could look like for any institutions interested in deploying those specifications.
+The three highlighted contributions focus on (1) machine-generated annotations using IIIF and the Web Annotation Data Model, (2) envisioning what a LOUD ecosystem could look like for any institutions interested in deploying those specifications, and (3) demonstrating that LUXj, through its data pipeline and architecture, enables the automated enrichment in the cultural heritage sector.
 
 
  -->
