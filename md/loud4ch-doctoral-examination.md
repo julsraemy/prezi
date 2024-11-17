@@ -87,12 +87,9 @@ With the protocols and tools available, it is now relatively easy to zoom in on 
 
 <!-- 
 
-This image offers multiple avenues for exploration. It can be studied through various lenses: the date it was taken, when it was acquired by the photographic archives, or even when it was digitized. Notably, the photograph was also part of the iconic "Family of Man" exhibition, organized by Edward Steichen and first shown at the Museum of Modern Art in New York in 1955. This exhibition was intended as a declaration of global solidarity in the decade following World War II, capturing shared human experiences across cultures.
+This image offers multiple avenues for exploration. It can be studied through various lenses: the date it was taken, when it was acquired by the photographic archives, or even when it was digitized. Notably, the photograph was also part of the iconic "Family of Man" exhibition, organized by Edward Steichen and first shown at the Museum of Modern Art in New York in 1955.
 
-Family of Man Exhibition
-https://www.moma.org/calendar/exhibitions/2429
-
-Now, the question is: while we as humans understand the semantics, how can we ensure that machines do as well? How do we make catalogues of metadata easily shareable and interoperable across memory institutions?
+Now, the question is: while we as humans understand the semantics and these different entities (object, people, exhibition), how can we ensure that machines do as well? How do we make catalogues of metadata easily shareable and interoperable across memory institutions?
 
  -->
 
@@ -203,7 +200,7 @@ Complementary theories add further insight, helping to interpret specific dynami
 
 <!-- 
 
-As a Digital Humanitis, I combined quantitative and qualitative approaches. I collected data from web pages, meeting minutes, or GitHub issues. 
+As a Digital Humanist, I indeed combined quantitative and qualitative approaches. I collected data from web pages, meeting minutes, GitHub issues and conducted a survey as well as interviews. For analysis and report, I mainly used R or Python as wel as Gephi.
 
 The empirical studies follow a three-act structure, namely I studied the social fabrics of the IIIF and Linked Art communities, the PIA research project as a laboratory to implement LOUD standards, and investigated LUX, Yale Collections Discovery platform. 
 
@@ -264,11 +261,30 @@ We can see the distributed agency that defines this community-driven process.
 
 <!-- 
 
-This chart illustrates the patterns of community participation in Linked Art meetings held between January 2019 and March 2024. During this period, 130 individuals attended 115 meetings, most of which were virtual, with five face-to-face gatherings. The average attendance was 13.57 sessions per participant, but the median was only 2, suggesting a small core of consistently active members alongside a larger group with sporadic involvement. This pattern reflects the challenges and successes of maintaining sustained engagement, especially within a volunteer-driven environment.
+This chart illustrates the patterns of community participation in Linked Art meetings held between January 2019 and March 2024. During this period, 130 individuals attended 115 meetings. The average attendance was 13.57 sessions per participant, but the median was only 2, suggesting a small core of consistently active members alongside a larger group with sporadic involvement. This pattern reflects the challenges and successes of maintaining sustained engagement, especially within a volunteer-driven environment.
 
 The challenge lies not only in attracting more participants but in encouraging those who are currently passive to engage more actively. A similar participation pattern is observed in the IIIF community.
 
  -->
+
+ 
+---
+
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
+
+## The IIIF and Linked Art communities offer a model for transparent, open collaboration that fosters growth and innovation, though their future relevance will depend on integrating diverse perspectives to avoid perceptions of exclusivity and Anglo-Saxon bias.
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+<!-- 
+
+The IIIF and Linked Art communities offer a model for transparent, open collaboration that fosters growth and innovation, though their future relevance will depend on integrating diverse perspectives to avoid perceptions of exclusivity and Anglo-Saxon bias.
+
+-->
+
 
 ---
 
@@ -307,7 +323,7 @@ PIA provided an opportunity to demonstrate how it could act as a testbed for the
 
 This is a synoptic View of the PIA infrastructure and it showcases its Connection to the DaSCH Service Platform, where the data is preserved for the long-term, and the Cultural Anthroplogy Switzerland Photo Archive Website. 
 
-The use of LOUD standards in this exploratory setting has shown how quickly these APIs can be implemented, while underscoring the importance of a sustainable, long-term strategy for their maintenance. For instance, IIIF Image API compliance could be later managed via the DSP’s SIPI image server, reducing backend maintenance demands. However, sustained operational support for the IIIF Presentation and Change Discovery APIs—potentially in a read-only format—would require managing hosting costs post-project. DaSCH could perhaps help mitigate these costs by extending its hosting services to include these APIs.
+The use of LOUD standards in this exploratory setting has shown how quickly these APIs can be implemented, while underscoring the importance of a sustainable, long-term strategy for their maintenance. For instance, the IIIF Image API service could be later managed uniquely through the DaSCH infrastructure, reducing backend maintenance demands. However, sustained operational support for the IIIF Presentation and Change Discovery APIs—potentially in a read-only format—would require managing hosting costs post-project.
 
 
  -->
@@ -337,6 +353,24 @@ Modeling complex digital objects like this is typically handled on a case-by-cas
 
  -->
 
+---
+
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
+
+## PIA demonstrates how LOUD specifications, especially IIIF APIs, have the potential to support public engagement through proxy mechanisms and participatory practices, though, for now, this engagement relies primarily on reusing tools developed by community-driven processes; achieving scalability and lasting impact will require ongoing commitments to both data preservation and service maintenance beyond the project’s duration.
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+
+<!-- 
+
+PIA demonstrates how LOUD specifications, especially IIIF APIs, have the potential to support public engagement through proxy mechanisms and participatory practices, though, for now, this engagement relies primarily on reusing tools developed by community-driven processes; achieving scalability and lasting impact will require ongoing commitments to both data preservation and service maintenance beyond the project’s duration.
+
+-->
+
 
 ---
 
@@ -364,7 +398,7 @@ https://lux.collections.yale.edu/
 
 Transitioning from a project-specific implementation, we now look at LUX as an example of LOUD applied on a larger institutional scale, demonstrating its adaptability to meet diverse needs across multiple institutions.
 
-LUX integrates collections from the Yale University Library, Yale Center for British Art, Yale Peabody Museum, and Yale University Art Gallery. This example showcases how LOUD standards can scale effectively, supporting the complex needs of major cultural heritage institutions and facilitating interconnected access to their vast resources.
+LUX integrates collections from the Yale University Library, Yale Center for British Art, Yale Peabody Museum, and Yale University Art Gallery. 
 
  -->
 
@@ -384,7 +418,7 @@ Heather Gendron, Director, Robert B. Haas Family Arts Library, Yale University L
 
 As part of the research, I conducted interviews with people involved in the LUX initiative to gain insight into its collaborative impact and adaptability. Here is an excerpt from an interview with Heather Gendron, Director of the Robert B. Haas Family Arts Library at Yale University, who reflects on LUX as a model for collegial and productive collaboration within Yale and potentially beyond.
 
-The success of Yale’s collaboration can be attributed to a shared vision that values the connections between diverse collections across various domains. This vision has fostered active contributions over the years, with resources from each participating unit supporting committees, working groups, and unit-level development efforts. This commitment highlights how sustained engagement and a unified approach can enhance the effectiveness and reach of institutional initiatives.
+The success of Yale’s collaboration can be attributed to a shared vision that values the connections between diverse collections across various domains. This vision has fostered active contributions over the years. This commitment shows how sustained engagement and a unified approach can improve the effectiveness and reach of institutional initiatives.
 
 
  -->
@@ -396,14 +430,30 @@ The success of Yale’s collaboration can be attributed to a shared vision that 
 
 <!-- 
 
-Beyond the collaborative vision, LUX’s effectiveness relies on a carefully constructed infrastructure that supports its diverse data connections. This infrastructre, or site of assemblages, comprises several components, such as data harvesting and a data pipeline.
+Beyond the collaborative vision, LUX’s effectiveness relies on a carefully constructed infrastructure that supports its diverse data connections. For instance, I examined the vocabulary consistency, which plays a critical role in aligning and connecting the metadata across Yale’s collections.
 
-I examined the vocabulary consistency, which plays a critical role in aligning and connecting the metadata across Yale’s collections.
+This plot highlights the shared usage patterns of Getty Vocabulary terms between the Yale Center for British Art and the Art Gallery, revealing significant intersections in how both institutions apply controlled terms. 
 
-This plot highlights how Getty Vocabularies are applied within the Yale Center for British Art (YCBA) and Yale University Art Gallery (YUAG) collections, focusing on shared terms across both units. 
+Reconciliation through the LUX pipeline ensures that terms from controlled vocabularies align seamlessly, allowing the collections to be enriched with consistent metadata across units.
 
 
-This approach facilitates interoperability without restricting the potential for programmatically generated connections.
+ -->
+
+---
+
+
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
+
+### As a large-scale Linked Data initiative, LUX illustrates how socio-technical principles can align data and human contributors around common goals, achieved through iterative development and interdisciplinary collaboration. Going forward, LUX will need to prioritise user feedback, expand collections and refine metadata to improve representation and maintain its role as a flagship cultural heritage project that sets a benchmark for other institutions - although the full impact of this work is still unfolding.
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+<!-- 
+
+As a large-scale Linked Data initiative, LUX illustrates how socio-technical principles can align data and human contributors around common goals, achieved through iterative development and interdisciplinary collaboration. Going forward, LUX will need to prioritise user feedback, expand collections and refine metadata to improve representation and maintain its role as a flagship cultural heritage project that sets a benchmark for other institutions - although the full impact of this work is still unfolding.
 
  -->
 
@@ -434,11 +484,9 @@ This approach facilitates interoperability without restricting the potential for
 
 <!-- 
 
-Following the analysis of the three empirical cases, I also engaged in related publications and open-source contributions.
-
 In addition to the dissertation, I wrote multiple articles, often with PIA project members, and published most of the scripts and data models on GitHub to promote transparency and reusability. 
 
-The three highlighted contributions focus on (1) machine-generated annotations using IIIF and the Web Annotation Data Model, (2) envisioning what a LOUD ecosystem could look like for any institutions interested in deploying those specifications, and (3) demonstrating that LUXj, through its data pipeline and architecture, enables the automated enrichment in the cultural heritage sector.
+The three highlighted contributions focus on (1) machine-generated annotations using IIIF and the Web Annotation Data Model, (2) envisioning what a LOUD ecosystem could look like, and (3) demonstrating that LUX, through its data pipeline and architecture, enables the automated enrichment in the cultural heritage sector.
 
 
  -->
@@ -452,22 +500,22 @@ The three highlighted contributions focus on (1) machine-generated annotations u
 
 # Conclusion
 
-<div style="font-size: 86%;">
+<div style="font-size: 88%;">
 
-- Advocated for LOUD to improve the accessibility and usability of cultural heritage data through collaborative efforts such as IIIF and Linked Art
-- Emphasised that these de-facto standards act as a lingua franca, with their design principles serving as common denominators, facilitating interoperability and collaboration across institutions.
-- Demonstrated in the PIA project how the implementation of IIIF APIs facilitated participatory practices and data reuse, demonstrating the practical benefits of LOUD.
-- Observed that the perception of Linked Data hasn't evolved significantly despite the introduction of LOUD
-- Acknowledged shortcomings, such as a greater focus on community practices rather than semantic interoperability, and the need to address limitations such as broad scope and limited appeal to technical audiences.
-- Suggested future research, including exploring the benefits of early adopters, fully implementing Linked Art in projects, and encouraging participation from the Global South.
+- Advocated LOUD as a means of improving the accessibility and usability of cultural heritage data through community-driven standards such as IIIF and Linked Art, establishing a common language that promotes interoperability between institutions.
+- Demonstrated in the PIA research project how IIIF APIs can support participatory practices and data reuse, illustrating the practical benefits of LOUD in real-world settings.
+- Recognised that while JSON-LD makes Linked Data more accessible, it hasn't yet significantly changed the broader perception of Linked Data, but offers a pragmatic, flexible approach that many institutions can adopt without full graph-based interpretation.
+- Acknowledged areas for improvement, such as balancing community-driven practices with semantic interoperability, and addressing the broad scope that can limit technical engagement.
+- Suggested future research focused on early adopter benefits, expanded implementation of Linked Art, and greater inclusion of Global South perspectives to broaden LOUD's impact and reach.
 
 </div>
 
 <!-- 
 
-In conclusion, I emphasized LOUD’s role in improving cultural heritage data accessibility and usability through collaborative standards like IIIF and Linked Art. The PIA project illustrated how LOUD supports participatory practices and data reuse, while JSON-LD enables both accessibility and technical rigor—though it may not significantly shift perceptions of Linked Data, as JSON-LD can also function seamlessly as JSON. Nonetheless, increasing the implementation of Linked Data across institutions remains valuable, with LOUD offering an accessible pathway that doesn’t require full graph-based interpretation.
+In conclusion, I emphasized LOUD’s role in improving accessibility and usability in cultural heritage through IIIF and Linked Art. The PIA project showed LOUD’s impact on participatory practices and data reuse, while JSON-LD allows for both technical rigor and accessibility, even if it doesn’t transform perceptions of Linked Data entirely.
 
-I acknowledge critiques about balancing community practices with semantic interoperability, noting that this balance reflects current adoption challenges. Future research could address this by expanding engagement with the Global South, adding diverse cultural perspectives and extending LOUD’s reach. Strengthening semantic web integration will also be essential to improve interoperability without compromising accessibility for a broad range of users.
+I acknowledge critiques about balancing community practices with semantic interoperability, reflecting current adoption challenges. Future research could address this by expanding engagement with the Global South, which would add cultural diversity and extend LOUD’s reach. Strengthening semantic web integration will also be important to improve interoperability without compromising accessibility.
+
 
  -->
 
@@ -484,7 +532,7 @@ I acknowledge critiques about balancing community practices with semantic intero
 
 ### References
 
-<div style="font-size: 55%;">
+<div style="font-size: 50%;">
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. _Journal on Computing and Cultural Heritage_, 16(4), 1–19. https://doi.org/10.1145/3625301
 
@@ -496,13 +544,15 @@ Raemy, J. A., & Sanderson, R. (2024). Analysis of the Usability of Automatically
 
 ### Image Credits
 
-<div style="font-size: 55%;">
+<div style="font-size: 50%;">
 
 These images are part of the [photographic archives of Cultural Anthropology Switzerland](https://archiv.sgv-sstp.ch/), formerly the _Swiss Society for Folklore Studies_, based in Basel, Switzerland. Licence: CC BY-NC 4.0 [![w:60](https://julsraemy.ch/prezi/assets/cc-by-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 - Brunner, Ernst. [Blick auf das Spalentor]. Basel, 1938. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_00115. Alte Bildnummer: AB 15. https://archiv.sgv-sstp.ch/resource/422350 
 
 - Brunner, Ernst. [Ringtanz während der Masüras auf der Alp Sura]. Guarda, 1939. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_08589. Alte Bildnummer: DL 89. https://archiv.sgv-sstp.ch/resource/430824
+
+- Brunner, Ernst. Luzerner Studenten studieren das Luzerner Bauernhaus. Kanton Luzern, August 1958. Black and White Negative, 6x6cm. SGV_12 Ernst Brunner. SGV_12N_44825. Alter Bildnummer:  SY 25. https://archiv.sgv-sstp.ch/resource/467060 
 
 </div>
 
