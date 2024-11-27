@@ -41,6 +41,7 @@ Examination chaired by:
 
 </div>
 
+
 <!-- 
 
 Hello everyone,
@@ -65,7 +66,8 @@ https://mejackreed.github.io/Leaflet-IIIF/examples/?url=https://iiif.dasch.swiss
 
 <!-- header: Julien A. Raemy | **Linked Open Usable Data for Cultural Heritage** | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
-<!-- footer: Doctoral Examination | University of Basel, 18th November 2024 -->
+<!-- footer: Doctoral Examination | Basel, 18th November 2024 | [![width:100](https://zenodo.org/badge/DOI/10.5281/zenodo.14175953.svg)](https://doi.org/10.5281/zenodo.14175953)
+ -->
 
 <!-- 
 
