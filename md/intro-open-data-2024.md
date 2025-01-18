@@ -24,6 +24,8 @@ Julien A. Raemy (University of Basel / DaSCH)
 HES-SO University of Applied Sciences and Arts of Western Switzerland
 HEG-GE Bachelor Information Science | Spring Semester 2023-2024
 
+New version &rarr; https://julsraemy.ch/intro-open-data/
+
 --- 
 
 <!-- footer: Preamble -->
