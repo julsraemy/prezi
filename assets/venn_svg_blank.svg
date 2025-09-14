@@ -1,0 +1,31 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .circle {
+        fill-opacity: 0.3;
+        stroke-width: 4;
+      }
+      .working-circle {
+        fill: #ff4444;
+        stroke: #cc0000;
+      }
+      .designing-circle {
+        fill: #4444ff;
+        stroke: #0000cc;
+      }
+      .developing-circle {
+        fill: #ffff44;
+        stroke: #cccc00;
+      }
+    </style>
+  </defs>
+  
+  <!-- Working with AI Circle (Red) -->
+  <circle cx="320" cy="250" r="180" class="circle working-circle"/>
+  
+  <!-- Designing with AI Circle (Blue) -->
+  <circle cx="580" cy="250" r="180" class="circle designing-circle"/>
+  
+  <!-- Developing for AI Circle (Yellow) -->
+  <circle cx="450" cy="390" r="180" class="circle developing-circle"/>
+</svg>
