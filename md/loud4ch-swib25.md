@@ -21,11 +21,9 @@ _paginate: false
 
 </div>
 
-<div style="text-align: center; font-size: 105%">
+<div style="text-align: center;">
 
 ## Community Building and Semantic Interoperability in Practice
-
-</div>
 
 <div style="text-align: center;">
 
