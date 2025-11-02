@@ -21,7 +21,7 @@ _paginate: false
 
 </div>
 
-<div style="text-align: center; font-size: 130%">
+<div style="text-align: center; font-size: 120%">
 
 ### Community Building and Semantic Interoperability in Practice
 
