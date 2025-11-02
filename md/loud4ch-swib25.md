@@ -15,9 +15,14 @@ _paginate: false
 ![bg opacity:.15](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 
-<div style="text-align: center; font-size: 140%">
+<div style="text-align: center; font-size: 145%">
 
 ## Linked Open Usable Data for Cultural Heritage
+
+</div>
+
+<div style="text-align: center; font-size: 130%">
+
 ### Community Building and Semantic Interoperability in Practice
 
 </div>
