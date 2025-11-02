@@ -23,7 +23,7 @@ _paginate: false
 
 <div style="text-align: center;">
 
-## Community Building and Semantic Interoperability in Practice
+### Community Building and Semantic Interoperability in Practice
 
 <div style="text-align: center;">
 
