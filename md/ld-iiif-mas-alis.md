@@ -1,11 +1,11 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: IIIF & Linked Data, Use Cases
-description: Presentation on IIIF and Linked Data given by Julien A. Raemy in the context of MAS ALIS programme in Bern on 20 December 2025
+title: Linked Data & IIIF, Use Cases
+description: Presentation on Linked Data and the International Image Interoperability Framework (IIIF) given by Julien A. Raemy in the context of MAS ALIS programme in Bern on 20 December 2025
 keywords: Cultural Heritage, IIIF, Linked Art, Linked Data, LOUD, Community Practices, Semantic Interoperability, Web Annotation
 image: https://julsraemy.ch/assets/images/portrait-px.png
-url: https://julsraemy.ch/prezi/iiif-ld-mas-alis.html
+url: https://julsraemy.ch/prezi/ld-iiif-mas-alis.html
 theme: beam
 paginate: true
 _paginate: false
@@ -18,7 +18,7 @@ _paginate: false
 
 <div style="text-align: center; font-size: 145%">
 
-## IIIF & Linked Data: Use Cases
+## Linked Data & International Image Interoperability Framework (IIIF): Use Cases
 
 </div>
 
@@ -32,8 +32,8 @@ MAS ALIS 2024-2026 Modul 3a | 20.12.2025
 
 ---
 
-<!-- header: Julien A. Raemy | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
-<!-- footer: IIIF & Linked Data: Use Cases | MAS ALIS 2024-2026 Modul 3a
+<!-- header: Julien A. Raemy | Linked Data & IIIF: Use Cases  | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
+<!-- footer: MAS ALIS 2024-2026 Modul 3a | 20.12.2025
  -->
 
 # Eine offene Vision des Webs
@@ -107,7 +107,119 @@ In 2010, Tim Berners-Lee introduced the Five-Star Open Data Deployment Scheme to
 ---
 
 
+# Das Problem
+
+
+![center w:800](https://julsraemy.ch/prezi/assets/silos-repos.png)
+
+
 ---
+
+# Die Lösung
+
+![center bg width:45%](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+
+---
+
+# Deep Zoom with Large Images
+
+![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
+
+<div style="font-size: 60%;">
+
+https://purl.stanford.edu/hs631zg4177
+
+</div>
+
+---
+
+# Compare Images
+
+![center](https://julsraemy.ch/prezi/assets/compare.gif)
+
+<div style="font-size: 60%;">
+
+Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35
+
+</div>
+
+---
+
+
+# Reunify
+
+![center w:600](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
+
+<div style="font-size: 60%;">
+
+https://demos.biblissima.fr/chateauroux/demo/
+
+</div>
+
+
+---
+
+# Search within
+
+![center](https://julsraemy.ch/prezi/assets/content-search.gif)
+
+<div style="font-size: 60%;">
+
+Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library.
+
+</div>
+
+---
+
+# Storytelling
+
+![center](https://julsraemy.ch/prezi/assets/storiiies.gif)
+
+<div style="font-size: 60%;">
+
+Storiiies: https://www.cogapp.com/r-d/storiiies
+
+</div>
+
+---
+
+# Layers of digitisation
+
+![center width:680px](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
+
+<div style="font-size: 60%;">
+
+Leiden Collection's Curtain Viewer: https://www.theleidencollection.com/viewer/david-and-uriah/
+
+</div>
+
+---
+
+# Crowdsource
+
+![center](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
+
+<div style="font-size: 60%;">
+
+Crowdsourcing initiative from the National Library of Wales
+
+</div>
+
+---
+
+# Beyond images
+
+![center w:700](https://iiif.io/assets/uploads/ddmal_section.gif)
+
+<div style="font-size: 60%;">
+
+IIIF AV Player Demo from McGill University: https://ddmal.music.mcgill.ca/IIIF-AV-player/
+
+</div>
+
+---
+
+# Tile Pyramid
 
 <div style="text-align: center;">
   <video controls loop style="width: 100%; max-width: 1000px; height: auto;">

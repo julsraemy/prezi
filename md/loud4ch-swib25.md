@@ -30,6 +30,12 @@ Walter Benjamin Kolleg, University of Bern; Swiss Federal Archives
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 17th Semantic Web in Libraries Conference (SWIB25) | 18th November 2025
 
+<div style="text-align: center; font-size: 60%">
+
+Extended transcript: https://boris-portal.unibe.ch/handle/20.500.12422/222942
+
+</div>
+
 </div>
 
 <!-- 
@@ -532,7 +538,7 @@ These future directions would help LOUD fulfill its potential for transforming h
 
 # References
 
-<div style="font-size: 55%;">
+<div style="font-size: 52%;">
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. _Journal on Computing and Cultural Heritage_, 16(4), 1–19. https://doi.org/10.1145/3625301.
 
@@ -544,7 +550,10 @@ Haraway, D. J. (2016). _Staying with the trouble: Making kin in the Chthulucene.
 
 Raemy, J. A., & Sanderson, R. (2024). Analysis of the Usability of Automatically Enriched Cultural Heritage Data. In F. Moral-Andrés, E. Merino-Gómez, & P. Reviriego (Eds.), _Decoding Cultural Heritage: A Critical Dissection and Taxonomy of Human Creativity through Digital Tools_ (pp. 69–93). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-57675-1_4.
 
- Raemy, J. A. (2024). _Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability_ [Doctoral Thesis, University of Basel]. https://hdl.handle.net/20.500.14716/148352.
+Raemy, J. A. (2024). _Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability_ [Doctoral Thesis, University of Basel]. https://hdl.handle.net/20.500.14716/148352.
+
+Raemy, J. A. (2025). _Linked Open Usable Data for Cultural Heritage: Community Building and Semantic Interoperability in Practice._ 17th Semantic Web in Libraries Conference (SWIB25). https://boris-portal.unibe.ch/handle/20.500.12422/222942
+
 
 Sanderson, R. (2018, May 15). _Shout it Out: LOUD._ EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018.
 
