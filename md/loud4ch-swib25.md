@@ -21,18 +21,24 @@ _paginate: false
 
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 125%">
 
 ### Community Building and Semantic Interoperability in Practice
+
+</div>
+
+<div style="text-align: center;">
 
 **Dr. Julien A. Raemy**
 Walter Benjamin Kolleg, University of Bern; Swiss Federal Archives
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
 17th Semantic Web in Libraries Conference (SWIB25) | 18th November 2025
 
+</div>
+
 <div style="text-align: center; font-size: 60%">
 
-Extended transcript: https://boris-portal.unibe.ch/handle/20.500.12422/222942
+Extended transcript: https://doi.org/10.48620/92261
 
 </div>
 
@@ -552,8 +558,7 @@ Raemy, J. A., & Sanderson, R. (2024). Analysis of the Usability of Automatically
 
 Raemy, J. A. (2024). _Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability_ [Doctoral Thesis, University of Basel]. https://hdl.handle.net/20.500.14716/148352.
 
-Raemy, J. A. (2025). _Linked Open Usable Data for Cultural Heritage: Community Building and Semantic Interoperability in Practice._ 17th Semantic Web in Libraries Conference (SWIB25). https://boris-portal.unibe.ch/handle/20.500.12422/222942
-
+Raemy, J. A. (2025). _Linked Open Usable Data for Cultural Heritage: Community Building and Semantic Interoperability in Practice._ 17th Semantic Web in Libraries Conference (SWIB25). https://doi.org/10.48620/92261
 
 Sanderson, R. (2018, May 15). _Shout it Out: LOUD._ EuropeanaTech Conference 2018, Rotterdam, the Netherlands. https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018.
 
