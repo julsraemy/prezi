@@ -36,6 +36,19 @@ MAS ALIS 2024-2026 Modul 3a | 20.12.2025
 <!-- footer: MAS ALIS 2024-2026 Modul 3a | 20.12.2025
  -->
 
+
+ ![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Semantic Web, Linked Data
+
+
+---
+
 # Eine offene Vision des Webs
 
 > The [World Wide Web] project merges the techniques of information retrieval and hypertext to make an easy but powerful global information system. The project started with **the philosophy that much academic information should be freely available to anyone**.
@@ -91,6 +104,45 @@ In 2010, Tim Berners-Lee introduced the Five-Star Open Data Deployment Scheme to
 
 ---
 
+ ![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Linked Data in Archiven und Bibliotheken
+
+
+---
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+ ![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## Linked Open Usable Data
+
+
+---
+
 # Linked Open Usable Data (LOUD)
 
 - Der Begriff wurde von Robert Sanderson [2018, 2019] geprägt, der sich mit der Entwicklung und dem Betrieb von webbasierten Standards insbesondere im Bereich des Kulturerbes auseinandersetzt.
@@ -102,12 +154,65 @@ In 2010, Tim Berners-Lee introduced the Five-Star Open Data Deployment Scheme to
 
 ---
 
+![bg opacity:.14](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+
+# LOUD Design Principles
+
+A) The right Abstraction for the audience
+B) Few Barriers to entry
+C) Comprehensible by introspection
+D) Documentation with working examples
+E) Few Exceptions, instead many consistent patterns
+
+<div style="font-size: 60%;">
+
+https://linked.art/loud
+
+</div>
+
+---
+
+![bg center width:45% opacity:0.07](https://json-ld.org/images/json-ld-logo.png) 
+
+# LOUD Standards
+
+- International Image Interoperability Framework (IIIF)
+- Linked Art
+- Web Annotation Data Model
 
 
 ---
 
 
-# Das Problem
+ ![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+
+<!-- _backgroundColor: #465B64  -->
+<!-- _color: white  -->
+<!-- _header: " "  -->
+<!-- _footer: " "  -->
+
+## International Image Interoperability Framework (IIIF)
+
+
+---
+
+![bg opacity:.3](https://www.artic.edu/iiif/2/a6b1cdb3-accf-a52f-78df-cb39de3be5c6/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/400aafd7-392c-cd87-b8b4-0ff2faedf967/full/1000,/0/default.jpg)
+![bg opacity:.3](https://www.artic.edu/iiif/2/1542469c-b658-6e13-5701-dad656f51733/full/1000,/0/default.jpg)
+
+## <!-- fit --> Bilder sind fundamentale Informationsträger 
+
+<!-- 
+
+Female Figurine, Chupicuaro, 500/300 B.C
+Vision of Saint Gregory, unknown artist, n.d.
+Iyo Province: Saijo, Utagawa Hiroshige, 1855
+-->
+
+---
+
+
+# Das Problem: eine Welt von Silos und Doppelarbeit
 
 
 ![center w:800](https://julsraemy.ch/prezi/assets/silos-repos.png)
@@ -121,19 +226,19 @@ In 2010, Tim Berners-Lee introduced the Five-Star Open Data Deployment Scheme to
 
 ---
 
-# Deep Zoom with Large Images
+# Tiefe Ausschnittvergrösserung mit riesigen Bildern
 
 ![center w:800](https://julsraemy.ch/prezi/assets/iiif_deepzoom.gif)
 
 <div style="font-size: 60%;">
 
-https://purl.stanford.edu/hs631zg4177
+近江國絵圖 (Ōmi Kuni-ezu). 1837. Stanford University Libraries. https://purl.stanford.edu/hs631zg4177
 
 </div>
 
 ---
 
-# Compare Images
+# Bilder vergleichen
 
 ![center](https://julsraemy.ch/prezi/assets/compare.gif)
 
@@ -146,7 +251,7 @@ Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: 
 ---
 
 
-# Reunify
+# Wiedervereinigen
 
 ![center w:600](https://julsraemy.ch/prezi/assets/biblissima-demo.gif)
 
@@ -159,7 +264,7 @@ https://demos.biblissima.fr/chateauroux/demo/
 
 ---
 
-# Search within
+# Suche innerhalb
 
 ![center](https://julsraemy.ch/prezi/assets/content-search.gif)
 
@@ -183,7 +288,7 @@ Storiiies: https://www.cogapp.com/r-d/storiiies
 
 ---
 
-# Layers of digitisation
+# Unterschiedliche Digitalisierungstechniken (Layers)
 
 ![center width:680px](https://julsraemy.ch/prezi/assets/Leiden_curtain_viewer.gif)
 
@@ -195,31 +300,31 @@ Leiden Collection's Curtain Viewer: https://www.theleidencollection.com/viewer/d
 
 ---
 
-# Crowdsource
+# Crowdsourcing
 
 ![center](https://julsraemy.ch/prezi/assets/crowdsourcing-nlw.gif)
 
 <div style="font-size: 60%;">
 
-Crowdsourcing initiative from the National Library of Wales
+Crowdsourcing-Initiative der Nationalbibliothek von Wales
 
 </div>
 
 ---
 
-# Beyond images
+# Ausserhalb von Bildern
 
 ![center w:700](https://iiif.io/assets/uploads/ddmal_section.gif)
 
 <div style="font-size: 60%;">
 
-IIIF AV Player Demo from McGill University: https://ddmal.music.mcgill.ca/IIIF-AV-player/
+IIIF AV Player Demo von der McGill University: https://ddmal.music.mcgill.ca/IIIF-AV-player/
 
 </div>
 
 ---
 
-# Tile Pyramid
+# Bildpyramide
 
 <div style="text-align: center;">
   <video controls loop style="width: 100%; max-width: 1000px; height: auto;">
@@ -233,3 +338,23 @@ IIIF AV Player Demo from McGill University: https://ddmal.music.mcgill.ca/IIIF-A
 https://observablehq.com/@allmaps/tile-pyramid
 
 </div>
+
+<!-- La pyramide est une représentation multi-résolution d'une image (JPEG2000, Multi-Resolution (Pyramidal) TIFF) -->
+
+
+---
+
+
+# PIA – Eine verknüpfte Konstellation
+
+![](https://julsraemy.ch/prezi/assets/infrastructure_constellation.svg)
+
+<!-- 
+
+Lots of different entry points you may ask...
+
+Synoptic View of the PIA Infrastructure: Showcasing its Connection to DSP and the CAS Photo Archive Website
+
+How to ensure that this linked constellation remains universally usable by developers that create tools, services, and interfaces? How to make things easier for PIA in terms of external collaboration? What I mean by this is that not everything needs to happen on our front-end...
+
+ -->
