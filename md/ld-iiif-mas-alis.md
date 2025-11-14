@@ -16,7 +16,7 @@ _paginate: false
 ![bg opacity:.15](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 
-<div style="text-align: center; font-size: 145%">
+<div style="text-align: center; font-size: 150%">
 
 ## Linked Data & International Image Interoperability Framework (IIIF): Use Cases
 
@@ -79,6 +79,55 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ---
 
+# Resource Description Framework (RDF)
+
+![center](https://www.w3.org/TR/rdf11-primer/example-graph.jpg)
+
+<div style="font-size: 60%;">
+
+Informal graph of the sample triples. RDF 1.1 Primer: https://www.w3.org/TR/rdf11-primer/
+
+</div>
+
+---
+
+# Resource Description Framework (RDF)
+
+<div style="font-size: 80%;">
+
+```
+01    BASE   <http://example.org/>
+02    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+03    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+04    PREFIX schema: <http://schema.org/>
+05    PREFIX dcterms: <http://purl.org/dc/terms/>
+06    PREFIX wd: <http://www.wikidata.org/entity/>
+07 
+08    <bob#me>
+09        a foaf:Person ;
+10        foaf:knows <alice#me> ;
+11        schema:birthDate "1990-07-04"^^xsd:date ;
+12        foaf:topic_interest wd:Q12418 .
+13   
+14    wd:Q12418
+15        dcterms:title "Mona Lisa" ;
+16        dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
+17  
+18    <http://data.europeana.eu/item/04802/243FA8618938F4117025F17A8B813C5F9AA4D619>
+19        dcterms:subject wd:Q12418 .
+```
+
+</div>
+
+<div style="font-size: 60%;">
+
+Turtle Serialization. RDF 1.1 Primer: https://www.w3.org/TR/rdf11-primer/
+
+</div>
+
+---
+
+
 # Linked Open Data (LOD)
 
 ![center](https://5stardata.info/images/5-star-steps.png)
@@ -104,6 +153,25 @@ In 2010, Tim Berners-Lee introduced the Five-Star Open Data Deployment Scheme to
 
 ---
 
+# Wissensgraph
+
+
+![center w:640](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Wikidata_knowledge_graph_-_Christine_Choy.png/1200px-Wikidata_knowledge_graph_-_Christine_Choy.png)
+
+
+<div style="font-size: 60%;">
+
+https://www.wikidata.org/entity/Q33002955
+
+</div>
+
+<!-- 
+Beispiel eines Wissensgraphen über die Regisseurin Christine Choy. 
+
+-->
+
+---
+
  ![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
@@ -111,21 +179,152 @@ In 2010, Tim Berners-Lee introduced the Five-Star Open Data Deployment Scheme to
 <!-- _header: " "  -->
 <!-- _footer: " "  -->
 
-## Linked Data in Archiven und Bibliotheken
+## Linked Data in Archiven, Bibliotheken und Museen
 
 
 ---
 
+# Französische Nationalbibliothek (BnF)
+
+# Normdatei
+
+![](https://julsraemy.ch/prezi/assets/latour-databnf.png)
+
+
+<div style="font-size: 60%;">
+
+https://data.bnf.fr/
+https://data.bnf.fr/ark:/12148/cb12012722c
+
+</div>
 
 ---
 
+# Rijksmuseum 
+
+![center](https://iiif.micr.io/PJEZO/full/550,/0/default.jpg)
+
+<div style="font-size: 60%;">
+
+**Rembrandt van Rijn**, *The Night Watch*, 1642, oil on canvas, 379.5 × 453.5 cm, Rijksmuseum, Amsterdam (SK-C-5), https://id.rijksmuseum.nl/200107928
+
+</div>
+
+---
+
+# Rijksmuseum
+
+**Content Negotiation für Linked Data (W3C-Standard)**
+
+<div style="font-size: 80%;">
+
+```bash
+# Standard: Linked Art (JSON-LD) mit verfügbaren Profilen
+curl https://data.rijksmuseum.nl/200107928
+
+# Linked Art in N-Triples
+curl -H "Accept-Profile: <https://linked.art/ns/terms/>" \
+     -H "Accept: application/n-triples" \
+     https://data.rijksmuseum.nl/200107928
+
+# Europeana Data Model (EDM) in RDF/XML  
+curl -H "Accept-Profile: <http://www.europeana.eu/schemas/edm/>" \
+     -H "Accept: application/rdf+xml" \
+     https://data.rijksmuseum.nl/200107928
+```
+
+**Profile:** Linked Art (Standard), EDM, Dublin Core, OAI-DC  
+**Formate:** JSON-LD, N-Triples, RDF/XML  
+**Methoden:** HTTP-Header oder Query-Parameter (`?_profile=edm`)
+
+</div>
+
+<div style="font-size: 60%;">
+
+Rijksmuseum Data Services. https://data.rijksmuseum.nl/
+
+</div>
+
+---
+
+# Schweizer Archiv der Darstellenden Künste (SAPA)
+
+
+## Zytglogge Theater, Bern BE 
+
+
+![](https://julsraemy.ch/prezi/assets/zytglogge.svg)
+
+<div style="font-size: 60%;">
+
+https://www.performing-arts.ch/
+http://data.performing-arts.ch/r/57057c26-c46d-4d23-a4f2-e205afcbaaa3
+
+</div>
+
+<!-- Archives suisses des arts de la scène -->
+
+---
+
+# Linked Data Services (LINDAS)
+
+![center w:600](https://lindas.admin.ch/static-assets/img/lindaslogo_web.png)
+
+- Ermöglicht öffentlichen Verwaltungen, ihre Daten in Form von Wissensgraphen zu veröffentlichen.
+- Wird vom Schweizerischen Bundesarchiv verwaltet.
+
+
+<div style="font-size: 60%;">
+
+https://lindas.admin.ch
+
+</div>
 
 
 ---
 
+# Linked Data Services (LINDAS)
 
+## Archivdatenbank des Schweizerischen Bundesarchiv 
 
----
+<div style="font-size: 55%;">
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+
+SELECT ?record ?identifier ?title ?beginDate ?endDate ?expressedDate ?holder WHERE {
+  GRAPH <https://lindas.admin.ch/sfa/ais> {
+    ?record rdf:type rico:Record .
+    ?record rico:title ?title .
+    ?record rico:identifier ?identifier .
+    
+    OPTIONAL { ?record rico:hasOrHadHolder ?holder }
+    
+    # Follow the date relationship
+    OPTIONAL {
+      ?record rico:isAssociatedWithDate ?date .
+      OPTIONAL { ?date rico:beginningDate ?beginDate }
+      OPTIONAL { ?date rico:endDate ?endDate }
+      OPTIONAL { ?date rico:expressedDate ?expressedDate }
+    }
+    
+    FILTER(CONTAINS(LCASE(?title), "bern"))
+  }
+} 
+ORDER BY ?beginDate
+LIMIT 100
+
+```
+
+</div>
+
+<div style="font-size: 60%;">
+
+100 `Records`, die „Bern“ im Titel haben. https://s.zazuko.com/3y3M6P9
+
+</div>
 
 
 
