@@ -538,9 +538,22 @@ Iyo Province: Saijo, Utagawa Hiroshige, 1855
 
 ---
 
-# Die Lösung
+# Die Lösung: _Triple-eye-eff_
 
-![center bg width:45%](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; width: 100%;">
+    <div style="text-align: center; width: 40%;">
+        <img src="https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png" alt="Linked Art Workshop attendees in Amsterdam (2023)" style="width: 90%; height: auto;">
+        <div style="font-size: 60%;">
+            <a href="https://iiif.io" target="_blank">https://iiif.io</a>
+        </div>
+    </div>
+    <div style="text-align: center; width: 60%;">
+        <img src="https://iiif.io/assets/images/heroes/event_2.webp" alt="Photo of the 2023 IIIF Conference attendees" style="width:90%; max-width:600px; height:auto;">
+        <div style="font-size: 60%;"> 
+            IIIF Annual Conference in Göttingen (2019)
+        </div>
+    </div>
+</div>
 
 ---
 
@@ -786,6 +799,28 @@ Mirador-Demoinstanz: https://projectmirador.org/demo/
 <!-- _footer: " "  -->
 
 ## Linked Art
+
+---
+
+# Linked Art
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; width: 100%;">
+    <div style="text-align: center; width: 40%;">
+        <img src="https://julsraemy.ch/prezi/assets/Linked_Art_logo.png" alt="Photo of the 2023 IIIF Conference attendees" style="width:90%; max-width:600px; height:auto;">
+        <div style="font-size: 50%;"> 
+            <a href="https://linked.art" target="_blank">https://linked.art</a>
+        </div>
+    </div>
+    <div style="text-align: center; width: 60%;">
+        <img src="https://julsraemy.ch/prezi/assets/linked-art-rijks-2023.jpeg" alt="Linked Art Workshop attendees in Amsterdam (2023)" style="width: 90%; height: auto;">
+        <div style="font-size: 60%;">
+Linked Art Editorial Face-to-Face and Outreach Event in Amsterdam (2023)
+        </div>
+    </div>
+</div>
+
+
+
 
 ---
 
