@@ -575,7 +575,8 @@ Letter from Alexander Hamilton Papers (September 6, 1780), Library of Congress: 
 
 <div style="font-size: 60%;">
 
-https://demos.biblissima.fr/chateauroux/demo/
+Démo de reconstitution virtuelle du manuscrit 5 de Châteauroux. https://demos.biblissima.fr/chateauroux/demo/
+IIIF Manifest: https://iiif.biblissima.fr/chateauroux/B360446201_MS0005/manifest.json
 
 </div>
 
@@ -588,7 +589,8 @@ https://demos.biblissima.fr/chateauroux/demo/
 
 <div style="font-size: 60%;">
 
-Franks, Kendal; Royal College of Surgeons of England. _The Germ Theory_. via Wellcome Library.
+Franks, Kendal; Royal College of Surgeons of England. 1883. _The Germ Theory_. Wellcome Library. https://wellcomecollection.org/works/fcvqahh3
+IIIF Manifest: https://iiif.wellcomecollection.org/presentation/v2/b22458876
 
 </div>
 
@@ -636,7 +638,8 @@ Crowdsourcing-Initiative der Nationalbibliothek von Wales
 
 <div style="font-size: 60%;">
 
-IIIF AV Player Demo von der McGill University: https://ddmal.music.mcgill.ca/IIIF-AV-player/
+IIIF AV Player Demo von der McGill University: https://gta.arch.ethz.ch/en/the-institute/open-positions.html
+IIIF Manifest: https://ddmal.ca/IIIF-AV-player/samples/Chopin_Etude_Op_10_No_9_vid/manifest_chopin_etude_vid_multicanvas.json
 
 </div>
 
@@ -768,6 +771,7 @@ https://iiif.io/api/presentation
 <div style="font-size: 60%;">
 
 Anleitungen zum Auffinden von IIIF-Ressourcen und zur Verwendung von Viewern: https://guides.iiif.io/ 
+Mirador-Demoinstanz: https://projectmirador.org/demo/
 
 </div>
 
