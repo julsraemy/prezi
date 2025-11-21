@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: Linked Data & IIIF, Use Cases
+title: "Linked Data & IIIF: Use Cases"
 description: Presentation on Linked Data and the International Image Interoperability Framework (IIIF) given by Julien A. Raemy in the context of MAS ALIS programme in Bern on 20 December 2025
 keywords: Cultural Heritage, IIIF, Linked Art, Linked Data, LOUD, Community Practices, Semantic Interoperability, Web Annotation
 image: https://julsraemy.ch/assets/images/portrait-px.png
@@ -22,12 +22,13 @@ _paginate: false
 
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; font-size: 84%">
 
 **Dr. Julien A. Raemy**
 Walter Benjamin Kolleg, Universität Bern
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0000-0002-4711-5759&color=A6CE39&logo=orcid)](https://orcid.org/0000-0002-4711-5759) [![Google Scholar](https://img.shields.io/static/v1?label=Google%20Scholar&message=Julien%20A.%20Raemy&color=4285F4&logo=googlescholar)](https://scholar.google.ch/citations?user=pGROUG0AAAAJ&hl) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=julsraemy&color=181717&logo=github)](https://github.com/julsraemy) [![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@julsraemy@hcommons.social&color=6364FF&logo=mastodon)](https://hcommons.social/@julsraemy)
-MAS ALIS 2024-2026 Modul 3a | 20.12.2025
+Master of Advanced Studies in Archival, Library and Information Science (MAS ALIS) 2024-2026 Modul 3a
+Bern | 20.12.2025
 
 </div>
 
@@ -1098,6 +1099,11 @@ Snydman, S., Sanderson, R., & Cramer, T. (2015). The International Image Interop
 
 
 ---
+
+![bg opacity:.15](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.15](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg opacity:.15](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.15](https://iiif.dasch.swiss:443/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 # Bildnachweise
 

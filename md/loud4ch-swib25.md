@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Julien A. Raemy
-title: Linked Open Usable Data for Cultural Heritage - Community Building and Semantic Interoperability in Practice
+title: "Linked Open Usable Data for Cultural Heritage: Community Building and Semantic Interoperability in Practice"
 description: Presentation on Linked Open Usable Data (LOUD) given by Julien A. Raemy in the context of the 17th Semantic Web in Libraries Conference (SWIB25) on 18 November 2025. 
 keywords: Cultural Heritage, IIIF, Linked Art, Linked Data, LOUD, Community Practices, Semantic Interoperability, Web Annotation
 image: https://julsraemy.ch/assets/images/portrait-px.png
