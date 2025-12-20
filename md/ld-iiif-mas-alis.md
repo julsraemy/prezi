@@ -859,6 +859,15 @@ IIIF Manifest: https://manifests.collections.yale.edu/ycba/obj/34
       ]
     }
   },
+
+```
+
+
+---
+
+# Linking Properties
+
+```json
   "logo": [
     {
       "id": "https://static.britishart.yale.edu/images/ycba_logo.jpg",
@@ -877,15 +886,6 @@ IIIF Manifest: https://manifests.collections.yale.edu/ycba/obj/34
       "type": "Text"
     }
   ],
-
-```
-
-
----
-
-# Linking Properties
-
-```json
   "seeAlso": [
     {
       "format": "text/xml",
