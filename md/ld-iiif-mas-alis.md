@@ -774,6 +774,181 @@ https://iiif.io/api/presentation
 
 ---
 
+<div style="width:100%; max-width:1200px; height:600px; margin:0 auto;">
+  <iframe 
+    src="https://projectmirador.org/embed/?iiif-content=https://manifests.collections.yale.edu/ycba/obj/34" 
+    title="Theseus Viewer" 
+    style="width:100%; height:100%; border:none;">
+  </iframe>
+</div>
+
+<div style="font-size: 50%;">
+
+IIIF Manifest: https://manifests.collections.yale.edu/ycba/obj/34 
+
+</div>
+
+
+---
+
+# Technical (& Descriptive) Properties
+
+```json
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://manifests.collections.yale.edu/ycba/obj/34",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Joseph Mallord William Turner, 1775–1851, Dort, or Dordrecht: The Dort Packet-Boat from Rotterdam Becalmed, 1818"
+    ]
+  },
+```
+
+
+---
+
+# Descriptive Properties
+
+```json
+"metadata": [
+    {
+      "label": {
+        "en": [
+          "Copyright Statement"
+        ]
+      },
+      "value": {
+        "en": [
+          "Public Domain"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator"
+        ]
+      },
+      "value": {
+        "en": [
+          "Joseph Mallord William Turner, born in London, England,1775; active in England; died in London, England, 1851"
+        ]
+      }
+    },
+
+```
+
+
+---
+
+# Descriptive Properties
+
+
+```json
+ "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Rights Description"
+      ]
+    },
+    "value": {
+      "en": [
+        "Metadata describing Yale Center for British Art collections is public domain under CC0. Copyright or other restrictions may apply to cultural works or images of those works in this record."
+      ]
+    }
+  },
+  "logo": [
+    {
+      "id": "https://static.britishart.yale.edu/images/ycba_logo.jpg",
+      "type": "Image"
+    }
+  ],
+  "homepage": [
+    {
+      "format": "text/html",
+      "id": "https://collections.britishart.yale.edu/catalog/tms:34",
+      "label": {
+        "en": [
+          "catalog entry at the Yale Center for British Art"
+        ]
+      },
+      "type": "Text"
+    }
+  ],
+
+```
+
+
+---
+
+# Linking Properties
+
+```json
+  "seeAlso": [
+    {
+      "format": "text/xml",
+      "id": "https://harvester-bl.britishart.yale.edu/oaicatmuseum/OAIHandler?verb=GetRecord\u0026identifier=oai:tms.ycba.yale.edu:34\u0026metadataPrefix=lido",
+      "profile": "http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd",
+      "type": "Dataset"
+    },
+    {
+      "format": "text/rdf+n3",
+      "id": "http://collection.britishart.yale.edu/id/page/object/34",
+      "type": "Dataset"
+    }
+  ],
+```
+
+---
+
+# Structural (& Technical) Properties
+
+```json
+ "items": [
+    {
+      "id": "https://manifests.collections.yale.edu/canvas/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "recto, cropped to image"
+        ]
+      },
+      "height": 9741,
+      "width": 14484,
+      "items": [
+        {
+          "id": "https://manifests.collections.yale.edu/annopage/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://manifests.collections.yale.edu/annotation/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.collections.yale.edu/iiif/2/ycba:4f227f08-7842-46cc-b05a-e3c6a4614cc1/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://images.collections.yale.edu/iiif/2/ycba:4f227f08-7842-46cc-b05a-e3c6a4614cc1",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "height": 9741,
+                "width": 14484
+              },
+              "target": "https://manifests.collections.yale.edu/canvas/ycba/4f227f08-7842-46cc-b05a-e3c6a4614cc1"
+            }
+          ]
+        }
+      ],
+```
+
+---
+
 ![bg opacity:.15](https://iiif.dasch.swiss:443/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 # Übung
