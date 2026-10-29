@@ -13,7 +13,6 @@ _paginate: false
 ---
 
 
-![bg opacity:.15](https://julsraemy.ch/prezi/assets/euromed2026/album31-cover.jpg)
 
 
 <div style="text-align: center; font-size: 150%">
