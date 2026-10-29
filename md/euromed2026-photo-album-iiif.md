@@ -21,6 +21,12 @@ _paginate: false
 
 </div>
 
+<div style="text-align: center;">
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23762494.svg)](https://doi.org/10.5281/zenodo.23762494)
+
+</div>
+
 <div style="display: flex; gap: 2em; justify-content: center; text-align: center; font-size: 84%">
 <div style="flex: 1;">
 
@@ -44,7 +50,6 @@ University of Bern
 
 11th International Conference on Digital Heritage (EuroMed 2026)
 Online | November 2026
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23762494.svg)](https://doi.org/10.5281/zenodo.23762494)
 
 </div>
 
