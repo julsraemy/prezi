@@ -21,7 +21,7 @@ _paginate: false
 
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: -1.2em;">
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23762494.svg)](https://doi.org/10.5281/zenodo.23762494)
 
