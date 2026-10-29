@@ -132,7 +132,7 @@ The standard digital surrogate is one stabilised view per page.
 
 Loose photographs on page 6, two on page 14, one on page 22: left unattached on purpose during conservation, because their original placement could not be determined. Page 17 still shows the corner traces of missing photographs.
 
-The screenshot already hints at our answer: page 5 offers five layers in Mirador. Which state is "the" page?
+The screenshot already hints at our answer: Mirador's layers panel shows the whole spread, so one layer for page 4 (a single image) plus the four states of page 5. Which state is "the" page?
 -->
 
 ---
@@ -181,7 +181,7 @@ Three LOUD specifications: Presentation API 3.0, W3C Web Annotation Data Model, 
 <div style="font-size: 60%;">
 
 Page 5: four states on one Canvas (bare, `mit_Schutz`, `mit_Zusatz`, `mit_Zusatz_mit_Schutz`)
-Manifest (currently under reconstruction): [julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json](https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json)
+Manifest: [julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json](https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json) (under reconstruction with [iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-photoalbum), republished soon)
 
 </div>
 
@@ -197,7 +197,7 @@ Three patterns:
 
 Even-numbered Canvases (structurally simpler surfaces such as pastedowns) carry a single image, no Choice.
 
-If asked why this is a recording and not live: the image server (Cantaloupe, migrated from SIPI) is currently not responsive, and the Manifest is being reconstructed.
+If asked why this is a recording and not live: the PIA image server (Cantaloupe, migrated from SIPI) is no longer publicly reachable, so the Manifests are being regenerated with the iiif-photoalbum script, which now takes the images from Memobase, and will be republished soon under the same URLs.
 -->
 
 ---
@@ -233,7 +233,7 @@ Johnson: for personal artefacts, researchers still seek the physical encounter. 
 
 - **Validity**: checked with the [IIIF Presentation API validator](https://presentation-validator.iiif.io/); URIs must survive migrations (SIPI to Cantaloupe)
 - **Users**: toggle states in any IIIF viewer, compare across collections, add human and machine-generated annotations
-- **Scalability**: curators decide which layers matter, Manifest generation tooling automates the rest
+- **Scalability**: curators decide which layers matter, Manifest generation tooling ([iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-photoalbum)) automates the rest
 - **Takeaway**: digitisation as **interpretive modelling**, not mass reproduction
 
 <div style="font-size: 60%;">
@@ -253,11 +253,11 @@ Collaboration: conservators, archivists, anthropologists and technicians, none o
 
 Users: the Manifest loads in any compliant viewer (Mirador, Universal Viewer). Researchers can juxtapose the Italian travel photographs with vedute from other institutions publishing IIIF. Archivists, family members or automated systems (handwriting recognition, object detection) can layer annotations without altering the resource; competing identifications can coexist.
 
-Identifiers: the image server is now Cantaloupe, yet its host is still called sipi.participatory-archives.ch, precisely so that the URIs in the Manifest keep resolving.
+Identifiers: the image server became Cantaloupe but kept the host name sipi.participatory-archives.ch so that URIs kept resolving; it is no longer public. The Manifests are now rebuilt on another image host without changing their own ids, which is what the published URLs rely on.
 
 Validity: conformance is checked with the IIIF Presentation API validator (https://presentation-validator.iiif.io/), the community's own tool against the 3.0 specification. The IIIF community defines the technical criteria; whether the layers serve users is a curatorial question, see scalability.
 
-Scalability: a boutique Manifest for each of the 93 albums by hand is not realistic. The answer is a human in the loop: curators decide which layers are important for a given album or page (interleaves, loose photographs, binding), and Manifest generation tooling such as iiif-prezi3 automates the rest from those decisions and the file naming. Scalability is an effect of network-building, not its precondition.
+Scalability: a boutique Manifest for each of the 93 albums by hand is not realistic. The answer is a human in the loop: curators decide which layers are important for a given album or page (interleaves, loose photographs, binding), and Manifest generation tooling automates the rest from those decisions and the file naming. Our iiif-photoalbum script (built on iiif-prezi3) generates three Manifests per album (individuals, paged, layers), already for SGV_10A_00031 and SGV_10A_00050. It tries configurable image sources in order, takes all dimensions from info.json, and never writes a Canvas without dimensions. Scalability is an effect of network-building, not its precondition.
 
 Thank you. Questions.
 
