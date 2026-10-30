@@ -76,7 +76,7 @@ My talk revolves around one question: how do we model an object whose pages exis
 <div style="flex: 3;">
 
 - **CAS**, Basel: acquired 1991, c. 20,000 photographs (1850 to 1980)
-- **93 albums** restored, catalogued, digitised in PIA (2021 to 2025)
+- **93 albums** restored, catalogued, digitised in [PIA](https://data.snf.ch/grants/grant/193788), an SNSF-funded project (2021 to 2025)
 - **Album 31**: 1926 to 1928, 28.3 × 38.4 × 3.3 cm, 40 pages with parchment interleaves, 6+ silver gelatin prints each
 - **Materiality**: "bulky", restless objects; meaning emerges through form, sequence and use
 
@@ -100,7 +100,7 @@ Cover of SGV_10A_00031, Cultural Anthropology Switzerland (CAS), Basel. CC BY-NC
 
 Our case comes from Cultural Anthropology Switzerland in Basel. In 1991 it acquired the collection of the Kreis family, a local family of physicians and printers, and a good example of urban bourgeois culture. That is around 20,000 photographs, and about a quarter of them are arranged in 93 albums.
 
-In our research project PIA, Participatory Knowledge Practices in Analogue and Digital Image Archives, all 93 albums were restored, catalogued and digitised.
+In our research project PIA, Participatory Knowledge Practices in Analogue and Digital Image Archives, funded by the Swiss National Science Foundation, all 93 albums were restored, catalogued and digitised.
 
 The one I will focus on is Album 31. You can see its blue textile cover, with two holes where a cord binding used to be. It opens with a family trip through northern Italy in 1927: Milan, Venice, Pisa, Florence. The later pages follow the youngest son, Walter, on his student trips to Grenoble, Arles, Lyon, Strasbourg and the Valais.
 
