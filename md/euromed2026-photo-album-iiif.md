@@ -146,7 +146,7 @@ So which of these is "the" page? The screenshot on the right already hints at ou
 <div style="display: flex; gap: 1.2em; align-items: flex-start;">
 <div style="flex: 1; font-size: 72%;">
 
-| Archive | Presentation API 3.0 |
+| Digital Objects | Presentation API 3.0 |
 |---|---|
 | Album | `Manifest`, `paged`, left-to-right |
 | Page | `Canvas`, size of default capture |
@@ -156,7 +156,7 @@ So which of these is "the" page? The screenshot on the right already hints at ou
 
 LOUD: the right abstraction for the audience, few barriers to entry
 
-**Why IIIF**: few post-digitisation systems can handle layers; IIIF lets us remodel afterwards
+**Why this approach**: few post-digitisation systems can handle layers, so we remodel afterwards
 
 </div>
 <div style="flex: 1.3; font-size: 52%;">
@@ -191,7 +191,7 @@ LOUD: the right abstraction for the audience, few barriers to entry
 
 <div style="font-size: 115%;">
 
-Manifest: IIIF Presentation API 3.0 | Images served by Memobase: IIIF Image API 2.1
+Manifest: Presentation API 3.0 | Memobase images: Image API 2.1
 
 </div>
 
