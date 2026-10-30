@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 330" width="1160" height="330" font-family="CMU Bright, CMUSansSerif, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>iiif-photoalbum: curators decide, the tool builds, checks and publishes boutique Manifests</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#465B64"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F38C5"/>
+    </marker>
+  </defs>
+
+  <!-- Bands: who does what -->
+  <rect x="10" y="8" width="200" height="30" rx="4" fill="#1F38C5"/>
+  <text x="110" y="29" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff" letter-spacing="1">HUMAN</text>
+  <rect x="246" y="8" width="672" height="30" rx="4" fill="#465B64"/>
+  <text x="582" y="29" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff" letter-spacing="1">AUTOMATED, ON EVERY PUSH (GITHUB ACTIONS)</text>
+  <rect x="954" y="8" width="196" height="30" rx="4" fill="#141414"/>
+  <text x="1052" y="29" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff" letter-spacing="1">OPEN</text>
+
+  <!-- 1 Curators -->
+  <rect x="10" y="52" width="200" height="168" rx="8" fill="#E8ECFB" stroke="#1F38C5" stroke-width="2.5"/>
+  <text x="110" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="#1F38C5">Curators</text>
+  <text x="110" y="112" text-anchor="middle" font-size="17" fill="#141414">
+    <tspan x="110">images.csv: which</tspan>
+    <tspan x="110" dy="22">images are layers</tspan>
+    <tspan x="110" dy="22">of one page</tspan>
+    <tspan x="110" dy="22">album.yml: metadata</tspan>
+  </text>
+
+  <!-- 2 Build -->
+  <rect x="246" y="52" width="200" height="168" rx="8" fill="#ffffff" stroke="#465B64" stroke-width="2"/>
+  <text x="346" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="#465B64">Build</text>
+  <text x="346" y="112" text-anchor="middle" font-size="17" fill="#141414">
+    <tspan x="346">finds each image,</tspan>
+    <tspan x="346" dy="22">reads its size,</tspan>
+    <tspan x="346" dy="22">checks the layers:</tspan>
+    <tspan x="346" dy="22">shape, resolution</tspan>
+  </text>
+
+  <!-- 3 Manifests -->
+  <rect x="482" y="52" width="200" height="168" rx="8" fill="#ffffff" stroke="#465B64" stroke-width="2"/>
+  <text x="582" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="#465B64">Manifests</text>
+  <text x="582" y="112" text-anchor="middle" font-size="17" fill="#141414">
+    <tspan x="582">3 views per album:</tspan>
+    <tspan x="582" dy="22">individuals, paged,</tspan>
+    <tspan x="582" dy="22" font-weight="bold">layers (Choice)</tspan>
+    <tspan x="582" dy="22">+ Collections</tspan>
+  </text>
+
+  <!-- 4 Validate -->
+  <rect x="718" y="52" width="200" height="168" rx="8" fill="#ffffff" stroke="#465B64" stroke-width="2"/>
+  <text x="818" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="#465B64">Validate</text>
+  <text x="818" y="112" text-anchor="middle" font-size="17" fill="#141414">
+    <tspan x="818">IIIF Presentation</tspan>
+    <tspan x="818" dy="22">API validator,</tspan>
+    <tspan x="818" dy="22">images answer,</tspan>
+    <tspan x="818" dy="22">Collections complete</tspan>
+  </text>
+
+  <!-- 5 Publish -->
+  <rect x="954" y="52" width="196" height="168" rx="8" fill="#ffffff" stroke="#141414" stroke-width="2"/>
+  <text x="1052" y="82" text-anchor="middle" font-size="22" font-weight="bold" fill="#141414">Publish</text>
+  <text x="1052" y="112" text-anchor="middle" font-size="17" fill="#141414">
+    <tspan x="1052">stable URLs,</tspan>
+    <tspan x="1052" dy="22">any IIIF viewer:</tspan>
+    <tspan x="1052" dy="22">switch layers</tspan>
+    <tspan x="1052" dy="22">in Mirador</tspan>
+  </text>
+
+  <!-- Forward flow -->
+  <line x1="212" y1="136" x2="243" y2="136" stroke="#465B64" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="448" y1="136" x2="479" y2="136" stroke="#465B64" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="684" y1="136" x2="715" y2="136" stroke="#465B64" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="920" y1="136" x2="951" y2="136" stroke="#465B64" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Feedback loop: the report goes back to the curators -->
+  <path d="M346,222 L346,282 L560,282" fill="none" stroke="#1F38C5" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <path d="M818,222 L818,282 L760,282" fill="none" stroke="#1F38C5" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <rect x="560" y="264" width="200" height="36" rx="18" fill="#ffffff" stroke="#1F38C5" stroke-width="2.5"/>
+  <text x="660" y="288" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F38C5">build report</text>
+  <path d="M560,300 L560,312 L110,312 L110,224" fill="none" stroke="#1F38C5" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrow-blue)"/>
+  <text x="335" y="306" text-anchor="middle" font-size="16" font-style="italic" fill="#1F38C5">what needs attention goes back to the curators</text>
+</svg>

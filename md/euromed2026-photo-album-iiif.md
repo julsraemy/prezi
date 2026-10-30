@@ -231,14 +231,14 @@ Johnson: for personal artefacts, researchers still seek the physical encounter. 
 
 # A boutique Manifest: the cost of care
 
-- **Validity**: checked with the [IIIF Presentation API validator](https://presentation-validator.iiif.io/); URIs must survive migrations (SIPI to Cantaloupe)
-- **Users**: toggle states in any IIIF viewer, compare across collections, add human and machine-generated annotations
-- **Scalability**: curators decide which layers matter, Manifest generation tooling ([iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-photoalbum)) automates the rest
+![center w:1060](https://julsraemy.ch/prezi/assets/euromed2026/iiif-photoalbum-workflow.svg)
+
+- **Users**: switch states in any IIIF viewer, compare across collections, annotate
 - **Takeaway**: digitisation as **interpretive modelling**, not mass reproduction
 
 <div style="font-size: 60%;">
 
-[Cornut et al. 2023; Felsing et al. 2023]
+Tool: [iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-photoalbum) [Raemy 2026] | [Cornut et al. 2023; Felsing et al. 2023]
 
 </div>
 
@@ -255,9 +255,17 @@ Users: the Manifest loads in any compliant viewer (Mirador, Universal Viewer). R
 
 Identifiers: the image server became Cantaloupe but kept the host name sipi.participatory-archives.ch so that URIs kept resolving; it is no longer public. The Manifests are now rebuilt on another image host without changing their own ids, which is what the published URLs rely on.
 
-Validity: conformance is checked with the IIIF Presentation API validator (https://presentation-validator.iiif.io/), the community's own tool against the 3.0 specification. The IIIF community defines the technical criteria; whether the layers serve users is a curatorial question, see scalability.
+Walk through the diagram, left to right.
 
-Scalability: a boutique Manifest for each of the 93 albums by hand is not realistic. The answer is a human in the loop: curators decide which layers are important for a given album or page (interleaves, loose photographs, binding), and Manifest generation tooling automates the rest from those decisions and the file naming. Our iiif-photoalbum script (built on iiif-prezi3) generates three Manifests per album (individuals, paged, layers), already for SGV_10A_00031 and SGV_10A_00050. It tries configurable image sources in order, takes all dimensions from info.json, and never writes a Canvas without dimensions. Scalability is an effect of network-building, not its precondition.
+Human (scalability): a boutique Manifest for each of the 93 albums by hand is not realistic, so the human stays where judgement is needed. Curators fill in a spreadsheet, images.csv: one line per image in album order, and images sharing the same page value become the layers of one Canvas (interleave, loose photograph, cord binding). album.yml holds the title and metadata. new-album.py drafts both files from a list of file names. No code, no pixel sizes to know.
+
+Automated (iiif-photoalbum, built on iiif-prezi3): the build finds each image on the configured image sources (IIIF services or plain JPEG/PNG), reads its size, and checks the layers of each page against the first one: different shape (layer would look stretched), different resolution, missing CORS header. It writes three Manifests per album (individuals, paged, layers with Choice) and a Collection.
+
+Validity (reviewer 1): three checks, because the IIIF Presentation API validator (https://presentation-validator.iiif.io/) only checks schema conformance: the schema, every image and info.json answers, and the Collections are complete. GitHub Actions rebuilds and validates on every push. The IIIF community defines the technical criteria; whether the layers are meaningful is decided by the curators, and the build report sends what needs attention back to them.
+
+Publish: stable URLs, loaded in any IIIF viewer. While the images are being moved, the Manifests carry an "Under construction" notice with their image coverage.
+
+Scalability is an effect of network-building, not its precondition.
 
 Thank you. Questions.
 
@@ -272,7 +280,7 @@ Reviewer feedback to keep in mind (EuroMed 2026): originality and impact, user a
 
 # References
 
-<div style="font-size: 52%;">
+<div style="font-size: 48%;">
 
 Cornut, M., Raemy, J. A., & Spiess, F. (2023). Annotations as Knowledge Practices in Image Archives: Application of Linked Open Usable Data and Machine Learning. *Journal on Computing and Cultural Heritage*, *16*(4), 1-19. https://doi.org/10.1145/3625301
 
@@ -283,6 +291,8 @@ Johnson, V. (2025). Exploring the Digital Analogue Archive. In E. Goudarouli & A
 Latour, B. (2005). *Reassembling the Social: An Introduction to Actor-Network-Theory*. Oxford University Press. ISBN 978-0-19-925604-4
 
 Raemy, J. A. (2024). *Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability* [Doctoral Thesis, University of Basel]. https://hdl.handle.net/20.500.14716/148352
+
+Raemy, J. A. (2026). *iiif-photoalbum* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23794321
 
 Raemy, J. A., & Sanderson, R. (2024). Analysis of the Usability of Automatically Enriched Cultural Heritage Data. In F. Moral-Andrés, E. Merino-Gómez, & P. Reviriego (Eds.), *Decoding Cultural Heritage: A Critical Dissection and Taxonomy of Human Creativity through Digital Tools* (pp. 69-93). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-57675-1_4
 
