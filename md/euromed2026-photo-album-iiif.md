@@ -150,30 +150,50 @@ So which of these is "the" page? The screenshot on the right already hints at ou
 |---|---|
 | Album | `Manifest`, `paged`, left-to-right |
 | Page | `Canvas`, size of default capture |
-| Capture | `painting` `Annotation`, Image API 2 or 3 |
+| Capture | `painting` `Annotation`, Image API 2.1 or 3.0 |
 | States | **`Choice`** of `Image` bodies |
 | Context | Web Annotation, Linked Art |
 
 LOUD: the right abstraction for the audience, few barriers to entry
 
+**Why IIIF**: few post-digitisation systems can handle layers; IIIF lets us remodel afterwards
+
 </div>
-<div style="flex: 1.15; font-size: 60%;">
+<div style="flex: 1.3; font-size: 52%;">
 
 ```json
-{ "id": ".../SGV_10A_00031_layers/canvas/p5",
-  "type": "Canvas", "height": 1759, "width": 2400,
-  "items": [{ "type": "AnnotationPage", "items": [{
-    "type": "Annotation", "motivation": "painting",
-    "body": { "type": "Choice", "items": [
-      { "type": "Image", "label": { "en": ["005"] },
-        "service": [{ "@type": "ImageService2" }] },
-      { "type": "Image", "label": { "en": ["005_mit_Schutz"] },
-        "service": [{ "type": "ImageService3" }] },
-      { "type": "Image", "label": { "en": ["005_mit_Zusatz"] } },
-      { "type": "Image",
-        "label": { "en": ["005_mit_Zusatz_mit_Schutz"] } } ] },
-    "target": ".../canvas/p5" }] }] }
+{ "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": ".../manifests/SGV_10A_00031_layers.json",
+  "type": "Manifest",
+  "behavior": ["paged"], "viewingDirection": "left-to-right",
+  "items": [ ...,
+    { "id": ".../canvas/p5", "type": "Canvas",
+      "height": 1759, "width": 2400,
+      "items": [{ "type": "AnnotationPage", "items": [{
+        "type": "Annotation", "motivation": "painting",
+        "body": { "type": "Choice", "items": [
+          { "id": ".../full/full/0/default.jpg",
+            "type": "Image", "format": "image/jpeg",
+            "height": 1759, "width": 2400,
+            "label": { "en": ["005"] },
+            "service": [{
+              "@id": "https://media.memobase.ch/iiif/...",
+              "@type": "ImageService2", "profile": "level2" }] },
+          { "type": "Image", "height": 2707, "width": 3694,
+            "label": { "en": ["005_mit_Schutz"] },
+            "service": [{ "type": "ImageService3", ... }] },
+          { "label": { "en": ["005_mit_Zusatz"] }, ... },
+          { "label": { "en": ["005_mit_Zusatz_mit_Schutz"] }, ... }
+        ] },
+        "target": ".../canvas/p5" }] }] },
+    ... ] }
 ```
+
+<div style="font-size: 115%;">
+
+Manifest: IIIF Presentation API 3.0 | Images served by Memobase: IIIF Image API 2.1
+
+</div>
 
 </div>
 </div>
@@ -188,11 +208,13 @@ Built with [iiif-prezi3](https://iiif-prezi.github.io/iiif-prezi3/), the IIIF co
 <!--
 [1:30]
 
-Our answer was to use IIIF, the International Image Interoperability Framework, which has been developed by a community since 2011, not as a display technology but as a modelling layer.
+Why did we have to do this at all? Because in many projects, the systems that receive the files after digitisation simply cannot process this kind of layering. They expect one image per page, and the structural information about which capture belongs to which state gets lost along the way.
+
+Our answer was to use IIIF, the International Image Interoperability Framework, which has been developed by a community since 2011, not as a display technology but as a modelling layer. It lets us redo and remodel, after the fact, things that used to be much harder to do. Of course, if you have a good digital asset management system, or another system where such metadata and structural information can be recorded, you can plug that in much more easily. IIIF does not replace it; it gives us a standard way to express that structure.
 
 The mapping is quite intuitive. The album becomes a Manifest, each page a Canvas, and the scans are painted onto the Canvas through annotations. The key piece is the Choice construct: all the captures of one page become alternatives within a single annotation, on a single Canvas. So no separate record for each state, nothing thrown away, and one place to describe the page.
 
-On the right you see the actual Canvas for page 5, slightly abridged: one painting annotation whose body is a Choice of four images. The Canvas takes the size of the default capture, and each image keeps its own. You may notice that the first image comes from an Image API 2 service and the others from Image API 3: the Choice does not care, and that is precisely the point of interoperability.
+On the right you see the actual Canvas for page 5, slightly abridged: one painting annotation whose body is a Choice of four images. The Canvas takes the size of the default capture, and each image keeps its own. You may notice that the first image comes from an Image API 2.1 service (Memobase) and the others from Image API 3.0: the Choice does not care, and that is precisely the point of interoperability.
 
 Context and enrichment go on top, with Web Annotations and Linked Art. Together with the Presentation API, these are the three specifications that follow the Linked Open Usable Data principles, or LOUD: the right abstraction for the audience, and few barriers to entry.
 
@@ -256,7 +278,7 @@ From a science and technology studies perspective, this is mediation, not substi
 
 ![center w:900](https://julsraemy.ch/prezi/assets/euromed2026/iiif-photoalbum-workflow.svg)
 
-- **Scope so far**: 2 albums, 199 images, 6 Manifests, 2 Collections; layer checks at ±2 % aspect ratio and ×2 resolution
+- **Proof of concept**: 2 albums, 199 images, 6 Manifests, 2 Collections; generic beyond CAS and PIA
 - **Users**: switch states in any IIIF viewer, compare across collections, annotate
 - **Takeaway**: digitisation as **interpretive modelling**, not mass reproduction
 
@@ -280,7 +302,9 @@ Everything in the middle is automated and runs on every change. Under the hood i
 
 On the right, the result is published under stable URLs, and anyone can open it in any IIIF viewer, compare it with other collections, or annotate it.
 
-So far this covers two albums: 199 images, six Manifests and two Collections. A layer is flagged when its aspect ratio differs by more than two percent, or its resolution by more than a factor of two.
+This is a proof of concept, and it works: so far two albums, 199 images, six Manifests and two Collections. A layer is flagged when its aspect ratio differs by more than two percent, or its resolution by more than a factor of two.
+
+And it is not tied to our case. The repository is generic: it takes a spreadsheet and images that are already online, on any IIIF image server or as plain JPEG or PNG files, so it can be used for other layered objects and other institutions, well beyond Cultural Anthropology Switzerland and the PIA project. If your digital asset management system already holds the structure, you can export it into that spreadsheet and you are done.
 
 So my takeaway: digitisation is interpretive modelling, not mass reproduction. Thank you very much, I am happy to take your questions.
 
