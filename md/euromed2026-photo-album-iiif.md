@@ -2,7 +2,7 @@
 marp: true
 author: Julien A. Raemy and Murielle Cornut
 title: Rethinking Photo Album Representation Through IIIF
-description: Presentation by Julien A. Raemy and Murielle Cornut at the 11th International Conference on Digital Heritage (EuroMed 2026) in November 2026
+description: Presentation by Julien A. Raemy and Murielle Cornut at the 11th International Conference on Digital Heritage (EuroMed 2026) on 4 November 2026
 keywords: Cultural Anthropology, Digital Materiality, IIIF, Linked Open Usable Data, Semantic Interoperability
 image: https://julsraemy.ch/assets/images/portrait-px.png
 url: https://julsraemy.ch/prezi/euromed2026-photo-album-iiif.html
@@ -49,7 +49,7 @@ University of Bern
 <div style="text-align: center; font-size: 84%">
 
 11th International Conference on Digital Heritage (EuroMed 2026)
-Online | November 2026
+Online | 4th November 2026
 
 </div>
 
@@ -68,7 +68,7 @@ My talk revolves around one question: how do we model an object whose pages exis
 ---
 
 <!-- header: Cornut & Raemy | Rethinking Photo Album Representation Through IIIF -->
-<!-- footer: EuroMed 2026 | 11.2026 | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
+<!-- footer: EuroMed 2026 | 04.11.2026 | [![w:35 CC BY 4.0](https://julsraemy.ch/prezi/assets/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/) -->
 
 # Album 31, Kreis Family Collection
 
