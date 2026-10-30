@@ -60,7 +60,7 @@ Thank you, and thank you to the organisers for having me.
 
 My name is Julien Raemy, and I am now at the Walter Benjamin Kolleg, in Digital Humanities, at the University of Bern.
 
-I wrote this abstract and carried out this project while Murielle Cornut and I were both PhD candidates in Basel. Murielle is now a Project Collaborator at the Photothek of the Kunsthistorisches Institut in Florenz, Max-Planck-Institut, and the work is very much a collaboration between the two of us.
+I wrote this abstract based on a project that Murielle Cornut and I carried out while we were both PhD candidates in Basel. Murielle is now a Project Collaborator at the Photothek of the Kunsthistorisches Institut in Florenz, Max-Planck-Institut, and the work is very much a collaboration between the two of us.
 
 My talk revolves around one question: how do we model an object whose pages exist in several material states at once?
 -->
@@ -143,8 +143,10 @@ So which of these is "the" page? The screenshot on the right already hints at ou
 
 # IIIF and LOUD as a modelling layer
 
+<style scoped>table th, table td { padding: 0.3em 0.6em; }</style>
+
 <div style="display: flex; gap: 1.2em; align-items: flex-start;">
-<div style="flex: 1; font-size: 72%;">
+<div style="flex: 1; font-size: 64%;">
 
 | Digital Objects | Presentation API 3.0 |
 |---|---|
@@ -152,11 +154,29 @@ So which of these is "the" page? The screenshot on the right already hints at ou
 | Page | `Canvas`, size of default capture |
 | Capture | `painting` `Annotation`, Image API 2.1 or 3.0 |
 | States | **`Choice`** of `Image` bodies |
-| Context | Web Annotation, Linked Art |
+| Context | Web Annotation; Linked Art (next step, below) |
 
-LOUD: the right abstraction for the audience, few barriers to entry
+<div style="font-size: 68%;">
 
-**Why this approach**: few post-digitisation systems can handle layers, so we remodel afterwards
+```json
+{ "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": ".../object/SGV_10A_00031",
+  "type": "HumanMadeObject", "_label": "Album 31 (SGV_10A_00031)",
+  "classified_as": [{ "type": "Type", "_label": "photo album",
+    "id": "http://vocab.getty.edu/aat/300026695" }],
+  "produced_by": { "type": "Production",
+    "timespan": { "type": "TimeSpan",
+      "begin_of_the_begin": "1926-01-01T00:00:00Z",
+      "end_of_the_end": "1928-12-31T23:59:59Z" } },
+  "subject_of": [{ "type": "LinguisticObject",
+    "digitally_carried_by": [{ "type": "DigitalObject",
+      "access_point": [{ "type": "DigitalObject",
+        "id": ".../manifests/SGV_10A_00031_layers.json" }],
+      "conforms_to": [{ "type": "InformationObject",
+        "id": "http://iiif.io/api/presentation/" }] }] }] }
+```
+
+</div>
 
 </div>
 <div style="flex: 1.3; font-size: 52%;">
@@ -200,25 +220,23 @@ Manifest: Presentation API 3.0 | Memobase images: Image API 2.1
 
 <div style="font-size: 60%;">
 
-Built with [iiif-prezi3](https://iiif-prezi.github.io/iiif-prezi3/), the IIIF community's Python library for Presentation API 3.0
-[Snydman et al. 2015; Raemy 2024; Raemy & Sanderson 2024]
+**Why this approach**: few post-digitisation systems can handle layers, so we remodel afterwards
+Built with [iiif-prezi3](https://iiif-prezi.github.io/iiif-prezi3/), the IIIF community's Python library for Presentation API 3.0 | [Snydman et al. 2015; Raemy 2024; Raemy & Sanderson 2024]
 
 </div>
 
 <!--
 [1:30]
 
-Why did we have to do this at all? Because in many projects, the systems that receive the files after digitisation simply cannot process this kind of layering. They expect one image per page, and the structural information about which capture belongs to which state gets lost along the way.
+Why did we have to do this at all? Most systems that receive the files after digitisation expect one image per page, so the information about which capture belongs to which state gets lost. IIIF lets us remodel this after the fact. With a good digital asset management system that already holds such structure, you could plug it in even more easily.
 
-Our answer was to use IIIF, the International Image Interoperability Framework, which has been developed by a community since 2011, not as a display technology but as a modelling layer. It lets us redo and remodel, after the fact, things that used to be much harder to do. Of course, if you have a good digital asset management system, or another system where such metadata and structural information can be recorded, you can plug that in much more easily. IIIF does not replace it; it gives us a standard way to express that structure.
+So we use IIIF not as a display technology, but as a modelling layer. The album becomes a Manifest, each page a Canvas, and the scans are painted onto it through annotations. The key piece is the Choice: all the captures of a page become alternatives within one annotation, on one Canvas. No separate record per state, nothing thrown away.
 
-The mapping is quite intuitive. The album becomes a Manifest, each page a Canvas, and the scans are painted onto the Canvas through annotations. The key piece is the Choice construct: all the captures of one page become alternatives within a single annotation, on a single Canvas. So no separate record for each state, nothing thrown away, and one place to describe the page.
+On the right is the actual Canvas for page 5: a Choice of four images. The first comes from Memobase through Image API 2.1, the others through 3.0. The Choice does not mind; that is interoperability at work.
 
-On the right you see the actual Canvas for page 5, slightly abridged: one painting annotation whose body is a Choice of four images. The Canvas takes the size of the default capture, and each image keeps its own. You may notice that the first image comes from an Image API 2.1 service (Memobase) and the others from Image API 3.0: the Choice does not care, and that is precisely the point of interoperability.
+Context goes on top with the other two LOUD specifications. Web Annotations add knowledge to regions of a page. Linked Art is our next step: IIIF says how the album is presented, Linked Art says what the album is. The snippet on the left shows how it would look: the album as a physical object, classified as a photo album with the Getty AAT, produced between 1926 and 1928, and pointing to its Manifest. The Manifest would point back with seeAlso.
 
-Context and enrichment go on top, with Web Annotations and Linked Art. Together with the Presentation API, these are the three specifications that follow the Linked Open Usable Data principles, or LOUD: the right abstraction for the audience, and few barriers to entry.
-
-We did not write the JSON by hand. We built the Manifest with iiif-prezi3, a Python library for the Presentation API 3.0 that is built and maintained by the IIIF community itself. Because it follows the specification, it lets us rely on a standard tool and produce compliant patterns, such as the ones documented in the IIIF Cookbook recipes, rather than an ad hoc format. The Manifest uses a paged layout, read from left to right.
+And we did not write this JSON by hand: we used iiif-prezi3, the Python library maintained by the IIIF community, so the output follows the specification.
 -->
 
 ---
@@ -235,7 +253,7 @@ We did not write the JSON by hand. We built the Manifest with iiif-prezi3, a Pyt
 <div style="font-size: 60%;">
 
 Page 5: four states on one Canvas (bare, `mit_Schutz`, `mit_Zusatz`, `mit_Zusatz_mit_Schutz`). Layers Manifest: 86 Canvases, 40 with a `Choice`
-Manifest: [julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json](https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json) (under reconstruction with [iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-photoalbum), republished soon)
+Manifest: [julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json](https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json) (published in reduced form; full layers once the CAS files are served)
 
 </div>
 
@@ -248,7 +266,9 @@ Here we are on page 5. First I switch on the interleave, "mit Schutz" in German.
 
 Across the album there are three patterns. On the cover, you can switch between its current state and the remnants of the original cord binding. Most pages alternate between the bare page and the page with its interleave. Page 5 is the most complex case, with four alternatives. Simpler surfaces, like the pastedowns, just have a single image. In total, the layers Manifest has 86 Canvases, and 40 of them carry a Choice.
 
-If asked why this is a recording and not live: our former image server is no longer publicly reachable. The Manifests are being regenerated with our iiif-photoalbum tool, with images now coming from Memobase, and they will be republished soon under the same URLs.
+If asked why this is a recording and not live: our former image server is no longer publicly reachable. The Manifest is already republished under the same URL in a reduced form, with images from Memobase and an "Under construction" notice. The layers will display again once the CAS files are served.
+
+If asked why 84 page views on slide 3 but 86 Canvases here: the two extra Canvases are the recto and verso of a loose photograph (09861), which the paged view leaves out.
 -->
 
 ---
@@ -257,19 +277,17 @@ If asked why this is a recording and not live: our former image server is no lon
 
 - **Simultaneity**: states that never coexist in the analogue encounter
 - **Ambiguity as structure**: uncertainty is modelled, not resolved
-- **Fragmentation**: separate acts of handling (cover: 3662 × 2730 vs 3663 × 2729 px) and of hosting (layers of one page up to 5.2× apart in resolution)
+- **Fragmentation**: separate acts of handling (cover: 3662 × 2730 vs 3663 × 2729 px) and of hosting (page 29: layers 2400 vs 12583 px wide)
 - **Mediation**: the Manifest is a new actor in the album's network [Latour 2005]; the physical encounter keeps its authority [Johnson 2025]
 
 <!--
 [1:30]
 
-This brings us to a paradox. The digital album shows more than you could ever see in the reading room: states that never exist side by side when you hold the album in your hands. In that sense it is "more than real".
+This brings us to a paradox. The digital album shows more than you could ever see in the reading room: states that never coexist when you hold the album. In that sense it is "more than real". And the Manifest does not pick a winner: the ambiguity is part of the structure.
 
-And the Manifest deliberately does not pick a winner. No state is the authoritative one; the ambiguity is part of the structure.
+The price is fragmentation. Every state is a separate act of handling: the cover was captured at 3662 by 2730 pixels in one state and 3663 by 2729 in the other, because the album moved between shots. Hosting leaves traces too: on page 29, one layer is currently 2400 pixels wide and the other 12583, because one is a web derivative and the other the master. The bulkiness Stiegler describes does not disappear; it becomes a multitude of images and choices.
 
-But this comes at a price: fragmentation. Every state is a separate act of handling. Even the cover was captured at 3662 by 2730 pixels in one state and 3663 by 2729 in the other, simply because the album was moved between shots. And hosting leaves traces too: today, the layers of one page can differ by a factor of 5.2 in resolution, because some come from web derivatives and others from the full-resolution masters. The bulkiness that Stiegler describes does not disappear; it turns into a multitude of images and choices.
-
-From a science and technology studies perspective, this is mediation, not substitution. In Latour's terms, the Manifest is a new actor in the network around the album: the album, the archival record, the scanner, the image server, the viewer and the researcher toggling between states all shape what the album can mean. And as Valerie Johnson reminds us, researchers still seek the physical encounter with personal objects; the material original keeps an authority the surrogate cannot replicate.
+From a science and technology studies perspective, this is mediation, not substitution. In Latour's terms, the Manifest is a new actor in the album's network, alongside the archive, the scanner, the image server and the viewer. And as Valerie Johnson reminds us, researchers still seek the physical encounter with personal objects.
 -->
 
 ---
@@ -292,21 +310,19 @@ Tool: [iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-pho
 <!--
 [1:45]
 
-We call this a "boutique" Manifest, a term I borrowed from colleagues at the Getty, who made a custom Manifest for their Bayard Album. It is carefully crafted, made for close examination of one complex object. And care has a cost: it took conservators, archivists, anthropologists and technicians working together.
+We call this a "boutique" Manifest, a term borrowed from colleagues at the Getty, who made a custom Manifest for their Bayard Album. Care has a cost: it took conservators, archivists, anthropologists and technicians. Can it scale to the other 92 albums? Not by hand. So we built iiif-photoalbum, and the diagram shows how it splits the work in three.
 
-The obvious question is: can this scale to the other 92 albums? Not by hand. So we built a small tool, iiif-photoalbum, and the diagram shows how it splits the work.
+First, the human part: curators fill in a spreadsheet, and images that share a page become its layers. That is where judgement is needed.
 
-On the left, the human part. Curators fill in a simple spreadsheet: one line per image, and images that share a page become the layers of that page. That is where judgement is needed, so that is where people stay.
+Second, the automated part, run on every change and built on iiif-prezi3. It finds each image, reads its size, checks that the layers match, builds three Manifests per album and validates them, with the IIIF validator and by checking that every image answers. What needs attention goes back to the curators as a report.
 
-Everything in the middle is automated and runs on every change. Under the hood it relies on iiif-prezi3, the community library, so the output stays compliant with the specification. The tool finds each image, reads its size, and checks whether the layers of a page actually match in shape and resolution. It then builds three Manifests per album, including the layered one, and validates them: with the official IIIF Presentation API validator, but also by checking that every image really answers. Whatever needs attention goes back to the curators as a build report.
+Third, publication under stable URLs, open in any IIIF viewer.
 
-On the right, the result is published under stable URLs, and anyone can open it in any IIIF viewer, compare it with other collections, or annotate it.
+This is a proof of concept, and it works: two albums, 199 images, six Manifests. And it is generic: a spreadsheet and images already online, so other institutions can use it beyond CAS and PIA, for instance from a DAM export.
 
-This is a proof of concept, and it works: so far two albums, 199 images, six Manifests and two Collections. A layer is flagged when its aspect ratio differs by more than two percent, or its resolution by more than a factor of two.
+My takeaway: digitisation is interpretive modelling, not mass reproduction. Thank you, I am happy to take your questions.
 
-And it is not tied to our case. The repository is generic: it takes a spreadsheet and images that are already online, on any IIIF image server or as plain JPEG or PNG files, so it can be used for other layered objects and other institutions, well beyond Cultural Anthropology Switzerland and the PIA project. If your digital asset management system already holds the structure, you can export it into that spreadsheet and you are done.
-
-So my takeaway: digitisation is interpretive modelling, not mass reproduction. Thank you very much, I am happy to take your questions.
+If asked about the checks: a layer is flagged when its aspect ratio differs by more than two percent from the default capture, or its resolution by more than a factor of two.
 
 If asked who defines quality: technical validity is defined by the IIIF specification and checked by its validator. Whether a layer is meaningful is a curatorial decision, made by curators together with conservators and researchers.
 
