@@ -143,65 +143,35 @@ So which of these is "the" page? The screenshot on the right already hints at ou
 
 # IIIF and LOUD as a modelling layer
 
-<style scoped>table th, table td { padding: 0.3em 0.6em; }</style>
-
-<div style="display: flex; gap: 1.2em; align-items: flex-start;">
-<div style="flex: 1; font-size: 64%;">
+<div style="display: flex; gap: 1.4em; align-items: center;">
+<div style="flex: 0 0 38%; font-size: 70%;">
 
 | Digital Objects | Presentation API 3.0 |
 |---|---|
-| Album | `Manifest`, `paged`, left-to-right |
-| Page | `Canvas`, size of default capture |
-| Capture | `painting` `Annotation`, Image API 2.1 or 3.0 |
-| States | **`Choice`** of `Image` bodies |
-| Context | Web Annotation; Linked Art (next step, below) |
-
-<div style="font-size: 68%;">
-
-```json
-{ "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": ".../object/SGV_10A_00031",
-  "type": "HumanMadeObject", "_label": "Album 31 (SGV_10A_00031)",
-  "classified_as": [{ "type": "Type", "_label": "photo album",
-    "id": "http://vocab.getty.edu/aat/300026695" }],
-  "produced_by": { "type": "Production",
-    "timespan": { "type": "TimeSpan",
-      "begin_of_the_begin": "1926-01-01T00:00:00Z",
-      "end_of_the_end": "1928-12-31T23:59:59Z" } },
-  "subject_of": [{ "type": "LinguisticObject",
-    "digitally_carried_by": [{ "type": "DigitalObject",
-      "access_point": [{ "type": "DigitalObject",
-        "id": ".../manifests/SGV_10A_00031_layers.json" }],
-      "conforms_to": [{ "type": "InformationObject",
-        "id": "http://iiif.io/api/presentation/" }] }] }] }
-```
+| Album | `Manifest`, `paged` |
+| Page | `Canvas` |
+| Capture | `painting` `Annotation` |
+| States | **`Choice`** of `Image` |
+| Images | Image API 2.1 (Memobase), 3.0 |
+| Context | Web Annotation, Linked Art |
 
 </div>
-
-</div>
-<div style="flex: 1.3; font-size: 52%;">
+<div style="flex: 1; min-width: 0; font-size: 60%;">
 
 ```json
-{ "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": ".../manifests/SGV_10A_00031_layers.json",
-  "type": "Manifest",
-  "behavior": ["paged"], "viewingDirection": "left-to-right",
+{ "id": ".../manifests/SGV_10A_00031_layers.json",
+  "type": "Manifest", "behavior": ["paged"],
+  "seeAlso": [{
+    "id": ".../objects/SGV_10A_00031.json",
+    "type": "Dataset",
+    "profile": "https://linked.art/ns/v1/linked-art.json" }],
   "items": [ ...,
     { "id": ".../canvas/p5", "type": "Canvas",
-      "height": 1759, "width": 2400,
       "items": [{ "type": "AnnotationPage", "items": [{
         "type": "Annotation", "motivation": "painting",
         "body": { "type": "Choice", "items": [
-          { "id": ".../full/full/0/default.jpg",
-            "type": "Image", "format": "image/jpeg",
-            "height": 1759, "width": 2400,
-            "label": { "en": ["005"] },
-            "service": [{
-              "@id": "https://media.memobase.ch/iiif/...",
-              "@type": "ImageService2", "profile": "level2" }] },
-          { "type": "Image", "height": 2707, "width": 3694,
-            "label": { "en": ["005_mit_Schutz"] },
-            "service": [{ "type": "ImageService3", ... }] },
+          { "label": { "en": ["005"] }, ... },
+          { "label": { "en": ["005_mit_Schutz"] }, ... },
           { "label": { "en": ["005_mit_Zusatz"] }, ... },
           { "label": { "en": ["005_mit_Zusatz_mit_Schutz"] }, ... }
         ] },
@@ -209,19 +179,14 @@ So which of these is "the" page? The screenshot on the right already hints at ou
     ... ] }
 ```
 
-<div style="font-size: 115%;">
-
-Manifest: Presentation API 3.0 | Memobase images: Image API 2.1
-
-</div>
-
 </div>
 </div>
 
 <div style="font-size: 60%;">
 
+**Two-way, cross-API links**: Manifest `seeAlso` → [Linked Art record](https://julsraemy.ch/hostiiing/objects/SGV_10A_00031.json), record `subject_of` → Manifests
 **Why this approach**: few post-digitisation systems can handle layers, so we remodel afterwards
-Built with [iiif-prezi3](https://iiif-prezi.github.io/iiif-prezi3/), the IIIF community's Python library for Presentation API 3.0 | [Snydman et al. 2015; Raemy 2024; Raemy & Sanderson 2024]
+Built with [iiif-prezi3](https://iiif-prezi.github.io/iiif-prezi3/) | [Snydman et al. 2015; Raemy 2024; Raemy & Sanderson 2024]
 
 </div>
 
@@ -232,9 +197,9 @@ Why did we have to do this at all? Most systems that receive the files after dig
 
 So we use IIIF not as a display technology, but as a modelling layer. The album becomes a Manifest, each page a Canvas, and the scans are painted onto it through annotations. The key piece is the Choice: all the captures of a page become alternatives within one annotation, on one Canvas. No separate record per state, nothing thrown away.
 
-On the right is the actual Canvas for page 5: a Choice of four images. The first comes from Memobase through Image API 2.1, the others through 3.0. The Choice does not mind; that is interoperability at work.
+On the right is the actual Canvas for page 5, abridged: a Choice of four images. The default capture comes from Memobase through Image API 2.1, the others through 3.0. The Choice does not mind; that is interoperability at work.
 
-Context goes on top with the other two LOUD specifications. Web Annotations add knowledge to regions of a page. Linked Art is our next step: IIIF says how the album is presented, Linked Art says what the album is. The snippet on the left shows how it would look: the album as a physical object, classified as a photo album with the Getty AAT, produced between 1926 and 1928, and pointing to its Manifest. The Manifest would point back with seeAlso.
+Context goes on top with the other two LOUD specifications. Web Annotations add knowledge to regions of a page. And since this week, Linked Art is in place too. IIIF says how the album is presented, Linked Art says what the album is. The record, linked at the bottom of the slide, describes the album as a physical object, classified as a photo album with the Getty AAT, produced between 1926 and 1928. The two point to each other: the Manifest links to the record with seeAlso, which you see at the top of the excerpt, and the record links to all three Manifests with subject_of. Two-way links across two different APIs: that is interoperability in practice.
 
 And we did not write this JSON by hand: we used iiif-prezi3, the Python library maintained by the IIIF community, so the output follows the specification.
 -->
@@ -296,7 +261,7 @@ From a science and technology studies perspective, this is mediation, not substi
 
 ![center w:900](https://julsraemy.ch/prezi/assets/euromed2026/iiif-photoalbum-workflow.svg)
 
-- **Proof of concept**: 2 albums, 199 images, 6 Manifests, 2 Collections; generic beyond CAS and PIA
+- **Proof of concept**: 2 albums, 199 images, 6 Manifests, 2 Collections, 2 Linked Art records; generic beyond CAS and PIA
 - **Users**: switch states in any IIIF viewer, compare across collections, annotate
 - **Takeaway**: digitisation as **interpretive modelling**, not mass reproduction
 
@@ -314,11 +279,11 @@ We call this a "boutique" Manifest, a term borrowed from colleagues at the Getty
 
 First, the human part: curators fill in a spreadsheet, and images that share a page become its layers. That is where judgement is needed.
 
-Second, the automated part, run on every change and built on iiif-prezi3. It finds each image, reads its size, checks that the layers match, builds three Manifests per album and validates them, with the IIIF validator and by checking that every image answers. What needs attention goes back to the curators as a report.
+Second, the automated part, run on every change and built on iiif-prezi3. It finds each image, reads its size, checks that the layers match, builds three Manifests per album and, optionally, a Linked Art record: more structured data for machines, linked both ways to the Manifests. Then it validates them, with the IIIF validator and by checking that every image answers. What needs attention goes back to the curators as a report.
 
 Third, publication under stable URLs, open in any IIIF viewer.
 
-This is a proof of concept, and it works: two albums, 199 images, six Manifests. And it is generic: a spreadsheet and images already online, so other institutions can use it beyond CAS and PIA, for instance from a DAM export.
+This is a proof of concept, and it works: two albums, 199 images, six Manifests and two Linked Art records. And it is generic: a spreadsheet and images already online, so other institutions can use it beyond CAS and PIA, for instance from a DAM export.
 
 My takeaway: digitisation is interpretive modelling, not mass reproduction. Thank you, I am happy to take your questions.
 

@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 330" width="1160" height="330" font-family="CMU Bright, CMUSansSerif, Segoe UI, Helvetica, Arial, sans-serif">
-  <title>iiif-photoalbum: curators decide, the tool builds, checks and publishes boutique Manifests</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 338" width="1160" height="338" font-family="CMU Bright, CMUSansSerif, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>iiif-photoalbum: curators decide, the tool builds, checks and publishes boutique Manifests, optionally with a Linked Art record for machines</title>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#465B64"/>
+    </marker>
+    <marker id="arrow-dark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#141414"/>
     </marker>
     <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1F38C5"/>
@@ -25,6 +28,7 @@
     <tspan x="110" dy="22">images are layers</tspan>
     <tspan x="110" dy="22">of one page</tspan>
     <tspan x="110" dy="22">album.yml: metadata</tspan>
+    <tspan x="110" dy="22" font-style="italic">(+ Linked Art, optional)</tspan>
   </text>
 
   <!-- 2 Build -->
@@ -66,6 +70,14 @@
     <tspan x="1052" dy="22">switch layers</tspan>
     <tspan x="1052" dy="22">in Mirador</tspan>
   </text>
+
+  <!-- Optional: structured data for machines, linked both ways to the Manifests -->
+  <line x1="1052" y1="224" x2="1052" y2="254" stroke="#141414" stroke-width="2.5" marker-start="url(#arrow-dark)" marker-end="url(#arrow-dark)"/>
+  <rect x="954" y="257" width="196" height="76" rx="8" fill="#ffffff" stroke="#141414" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="1052" y="280" text-anchor="middle" font-size="18" font-weight="bold" fill="#141414">Linked Art</text>
+  <text x="1052" y="301" text-anchor="middle" font-size="15" fill="#141414">optional: structured</text>
+  <text x="1052" y="320" text-anchor="middle" font-size="15" fill="#141414">data for machines</text>
+  <text x="1042" y="244" text-anchor="end" font-size="14" font-style="italic" fill="#141414">seeAlso / subject_of</text>
 
   <!-- Forward flow -->
   <line x1="212" y1="136" x2="243" y2="136" stroke="#465B64" stroke-width="2.5" marker-end="url(#arrow)"/>
