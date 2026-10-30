@@ -238,6 +238,7 @@ Johnson: for personal artefacts, researchers still seek the physical encounter. 
 
 <div style="font-size: 60%;">
 
+"Boutique" after the Getty: [Bayard Album](https://www.getty.edu/art/collection/object/1040J2) and its [custom Manifest](https://data.getty.edu/media/manifest/bayard-custom)
 Tool: [iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-photoalbum) [Raemy 2026] | [Cornut et al. 2023; Felsing et al. 2023]
 
 </div>
@@ -245,7 +246,7 @@ Tool: [iiif-photoalbum](https://github.com/Participatory-Image-Archives/iiif-pho
 <!--
 1:45
 
-"Boutique", a term borrowed from colleagues at the Getty: carefully crafted, purpose-built, for close examination of one materially complex object.
+"Boutique", a term borrowed from colleagues at the Getty: carefully crafted, purpose-built, for close examination of one materially complex object. Their example is the Bayard Album (https://www.getty.edu/art/collection/object/1040J2), which besides its standard Manifest has a custom one (https://data.getty.edu/media/manifest/bayard-custom).
 
 Long-term preservation is technical, institutional and economic: the Manifest references image services by URI, so every migration means updating identifiers.
 
