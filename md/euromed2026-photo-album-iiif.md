@@ -91,7 +91,7 @@ My talk revolves around one question: how do we model an object whose pages exis
 <div style="font-size: 60%;">
 
 [Stiegler 2021; Stiegler & Yacavone 2021]
-Cover of SGV_10A_00031, Cultural Anthropology Switzerland (CAS), Basel. CC BY-NC 4.0
+Cover of SGV_10A_00031, [Cultural Anthropology Switzerland (CAS)](https://www.ekws.ch/), Basel. CC BY-NC 4.0
 
 </div>
 
