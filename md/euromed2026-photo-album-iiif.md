@@ -4,7 +4,7 @@ author: Julien A. Raemy and Murielle Cornut
 title: Rethinking Photo Album Representation Through IIIF
 description: Presentation by Julien A. Raemy and Murielle Cornut at the 11th International Conference on Digital Heritage (EuroMed 2026) on 4 November 2026
 keywords: Cultural Anthropology, Digital Materiality, IIIF, Linked Open Usable Data, Semantic Interoperability
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/euromed2026-photo-album-iiif.jpg
 url: https://julsraemy.ch/prezi/euromed2026-photo-album-iiif.html
 theme: beam
 paginate: true

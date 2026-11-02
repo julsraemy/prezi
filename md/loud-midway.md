@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Linked Open Usable Data (LOUD) for Cultural Heritage
 description: This presentation is about my PhD Thesis
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/loud-midway.jpg
 url: https://julsraemy.ch/prezi/loud-midway.html
 theme: gaia
 class: invert

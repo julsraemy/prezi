@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: The intersection of ARKs and IIIF
 description: This presentation is about the intersection of Archival Resource Keys (ARKs) and IIIF resources
 keywords: ARKs, IIIF, PID
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/ark-iiif.jpg
 url: https://julsraemy.ch/prezi/ark-iiif.html
 theme: gaia
 class: invert

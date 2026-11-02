@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Linked Art at PIA
 description: This presentation is about the deployment of Linked Art within the PIA research project
 keywords: LOUD, Linked Art, IIIF, PIA
-image: https://julsraemy.ch/prezi/assets/Linked_Art_logo.png
+image: https://julsraemy.ch/prezi/assets/og/linkedart-pia.jpg
 url: https://julsraemy.ch/prezi/linkedart-pia.html
 theme: gaia
 class: invert

@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Introduction to Open Data
 description: This is the slide deck of the Introduction to Open Data course given at the Haute école de gestion de Genève (HEG-GE) in Carouge, Switzerland, as part of the Bachelor of Information Science curriculum
 keywords: HEG-GE, Information Science, Data Science, Open Data, OGD, ORD, Open Science, Open Access, Open Scholarship, Licences, FAIR, CARE, Linked Data, Linked Open Usable Data, Collections as Data 
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/intro-open-data-2024.jpg
 url: https://julsraemy.ch/prezi/intro-open-data-2024.html
 theme: beam
 paginate: true

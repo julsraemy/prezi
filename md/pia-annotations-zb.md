@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Machine Learning-based Annotations Embedded into IIIF Presentation API 3.0 Resources. Use Case from the PIA Research Project 
 description: This presentation is about how machine learning-based annotations have been embedded into IIIF Presentation API 3.0 Resources within the PIA research project. This presentation was created in the context of an informal one-day event at the Zentralbibliothek Zürich.
 keywords: IIIF, PIA, Annotations, Object Detection, Machine Learning
-image: https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png
+image: https://julsraemy.ch/prezi/assets/og/pia-annotations-zb.jpg
 url: https://julsraemy.ch/prezi/pia-annotations-zb.html
 theme: gaia
 class: invert

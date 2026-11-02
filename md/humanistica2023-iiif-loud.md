@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Les données ouvertes liées et utilisables (LOUD) — Les protocoles IIIF et Linked Art 
 description: Cette présentation est réalisée dans le cadre d'une table ronde intitulée 'Ouvrir les musées au(x) numérique(s)' lors de la conférence Humanistica 2023 à Genève
 keywords: LOUD, IIIF, Humanités numériques, Musées
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/humanistica2023-iiif-loud.jpg
 url: https://julsraemy.ch/prezi/humanistica2023-iiif-loud.html
 theme: gaia
 class: invert

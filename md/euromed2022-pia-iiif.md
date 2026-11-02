@@ -4,7 +4,7 @@ author: Julien A. Raemy, Adrian Demleitner
 title: Implementation of the IIIF Presentation API 3.0 based on Software Support
 description: This presentation is about the implementation of the International Image Interoperability Framework (IIIF) within the PIA research project. It was created in the context of the EuroMed 2022 Conference in Cyprus.
 keywords: LOUD, IIIF, PIA, EuroMed
-image: https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png
+image: https://julsraemy.ch/prezi/assets/og/euromed2022-pia-iiif.jpg
 url: https://doi.org/10.5281/zenodo.7194021 
 theme: gaia
 class: invert

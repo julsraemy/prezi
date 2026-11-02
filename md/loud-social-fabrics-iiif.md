@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: The LOUD Social Fabrics of IIIF
 description: This presentation is an opportunity to delve into one of my research questions which is related to the practices of IIIF and Linked Art by drawing attention to the social fabrics that constitute these communities notably from the standpoint of the Actor-Network Theory (ANT), a constructivist approach widely spread in Science and Technology Studies (STS) which should help me to better comprehend the roles and relationships of all actors in the implementation of LOUD standards within the cultural heritage domain and more broadly across the Digital Humanities. It was presented at the 2023 IIIF Conference in Naples on 8 June 2023.
 keywords: LOUD, Social Fabrics, IIIF, Linked Art, STS, ANT, Latour
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/loud-social-fabrics-iiif.jpg
 url: https://doi.org/10.5281/zenodo.7825411
 theme: gaia
 class: invert

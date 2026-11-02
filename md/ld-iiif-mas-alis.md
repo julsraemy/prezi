@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: "Linked Data & IIIF: Use Cases"
 description: Presentation on Linked Data and the International Image Interoperability Framework (IIIF) given by Julien A. Raemy in the context of MAS ALIS programme in Bern on 20 December 2025
 keywords: Cultural Heritage, IIIF, Linked Art, Linked Data, LOUD, Community Practices, Semantic Interoperability, Web Annotation
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/ld-iiif-mas-alis.jpg
 url: https://julsraemy.ch/prezi/ld-iiif-mas-alis.html
 theme: beam
 paginate: true

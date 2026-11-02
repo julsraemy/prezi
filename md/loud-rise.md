@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Linked Open Usable Data (LOUD)
 description: This presentation is about Linked Open Usable Data (LOUD) and how we have been implementing LOUD Standards (IIIF, Web Annotation Data Model, Linked Art) within the PIA research project
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/loud-rise.jpg
 url: https://julsraemy.ch/prezi/loud-rise.html
 theme: gaia
 class: invert

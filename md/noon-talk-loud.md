@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Interconnected Resources on the Web – Unveiling Cultural Heritage through Linked Open Usable Data
 description: Presentation given in the context of a "noon-talk" on 19 December 2023 at the University of Basel
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/noon-talk-loud.jpg
 url: https://julsraemy.ch/prezi/noon-talk-loud.html
 theme: beam
 paginate: true

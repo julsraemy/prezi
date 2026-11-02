@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Summary of the survey report – Characterising the IIIF and Linked Art Communities 
 description: Summary of the survey report "Characterising the IIIF and Linked Art Communities" presented during a Linked Art Working Group Call in September 2023.
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/iiif-la-surveyreport.jpg
 url: https://julsraemy.ch/prezi/iiif-la-surveyreport.html
 theme: gaia
 class: invert

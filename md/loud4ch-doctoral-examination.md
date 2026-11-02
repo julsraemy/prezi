@@ -4,7 +4,7 @@ author: Julien A. Raemy
 title: Linked Open Usable Data for Cultural Heritage - Doctoral Examination
 description: Presentation given in the context of the doctoral examination on 18 November 2024 at the University of Basel
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Community Practices, Semantic Interoperability
-image: https://julsraemy.ch/assets/images/portrait-px.png
+image: https://julsraemy.ch/prezi/assets/og/loud4ch-doctoral-examination.jpg
 url: https://doi.org/10.5281/zenodo.14175952
 theme: beam
 paginate: true
