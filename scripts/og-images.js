@@ -30,7 +30,7 @@ for (const deck of decks) {
 
   fs.writeFileSync(tmp, titleSlideOnly(fs.readFileSync(path.join(mdDir, deck), 'utf8')))
   try {
-    execFileSync('npx', ['marp', '--html', '--no-stdin', '--image', 'jpeg', tmp, '-o', out], {
+    execFileSync('npx', ['marp', '--html', '--no-stdin', '--image', 'jpeg', '--image-scale', '2', '--jpeg-quality', '95', tmp, '-o', out], {
       env: { ...process.env, PUPPETEER_TIMEOUT: '120000' },
       stdio: ['ignore', 'ignore', 'pipe'],
     })
