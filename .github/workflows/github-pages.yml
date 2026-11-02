@@ -1,53 +1,60 @@
-name: GitHub Pages
+name: Build changed decks
+
+# Rebuilds the HTML and link preview image of each deck edited in md/ and commits
+# them back to master, which GitHub Pages then publishes as usual. Other decks are
+# left untouched.
 
 on:
   push:
     branches:
       - master
-
-  workflow_dispatch:
+    paths:
+      - 'md/*.md'
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: build-decks
+  cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           cache: npm
-          node-version-file: '.nvmrc'
+          node-version: 22
 
-      - name: Install dependencies and Puppeteer
-        run: npm ci && npm i puppeteer --no-save
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Build Marp slide deck
-        run: CHROME_PATH=$(node -e "console.log(require('puppeteer').executablePath())") npm run build
+      - name: Build changed decks
         env:
-          # Please update URL if you want to use custom domain
-          URL: https://julsraemy.ch/${{ github.event.repository.name }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          # The hosted runners' preinstalled Chrome cannot use its sandbox
+          CHROME_NO_SANDBOX: 1
+          LANG: en-GB
+        run: |
+          changed=$(git diff --name-only --diff-filter=d "$BEFORE" "$AFTER" -- 'md/*.md')
+          for deck in $changed; do
+            npx marp --html --no-stdin "$deck" -o "$(basename "${deck%.md}").html"
+          done
+          node scripts/og-images.js assets/og $changed
 
-          # Recommend to set lang for your deck to get better rendering for Open Graph image
-          LANG: en-US
-
-      - name: Upload page artifacts
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: public
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@main
+      - name: Commit the results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.html' assets/og
+          git diff --cached --quiet && exit 0
+          git commit -m 'Rebuild changed decks'
+          git pull --rebase origin master
+          git push origin HEAD:master
