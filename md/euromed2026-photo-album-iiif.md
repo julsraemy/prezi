@@ -49,6 +49,7 @@ University of Bern
 <div style="text-align: center; font-size: 84%">
 
 11th International Conference on Digital Heritage (EuroMed 2026)
+Session 8 | Beyond Digitisation: Unlocking the Power of Cultural Heritage - Use & Reuse - Part III
 Online | 4th November 2026
 
 </div>
