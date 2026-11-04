@@ -23,7 +23,7 @@ _paginate: false
 
 <div style="text-align: center; margin-top: -1.2em;">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23762494.svg)](https://doi.org/10.5281/zenodo.23762494)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23762493.svg)](https://doi.org/10.5281/zenodo.23762493)
 
 </div>
 
@@ -219,7 +219,7 @@ And we did not write this JSON by hand: we used iiif-prezi3, the Python library 
 <div style="font-size: 60%;">
 
 Page 5: four states on one Canvas (bare, `mit_Schutz`, `mit_Zusatz`, `mit_Zusatz_mit_Schutz`). Layers Manifest: 86 Canvases, 40 with a `Choice`
-Manifest: [julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json](https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json) (published in reduced form; full layers once the CAS files are served)
+Manifest: [julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json](https://julsraemy.ch/hostiiing/manifests/SGV_10A_00031_layers.json) (124 of 128 images served; still under construction)
 
 </div>
 
@@ -232,9 +232,13 @@ Here we are on page 5. First I switch on the interleave, "mit Schutz" in German.
 
 Across the album there are three patterns. On the cover, you can switch between its current state and the remnants of the original cord binding. Most pages alternate between the bare page and the page with its interleave. Page 5 is the most complex case, with four alternatives. Simpler surfaces, like the pastedowns, just have a single image. In total, the layers Manifest has 86 Canvases, and 40 of them carry a Choice.
 
-If asked why this is a recording and not live: our former image server is no longer publicly reachable. The Manifest is already republished under the same URL in a reduced form, with images from Memobase and an "Under construction" notice. The layers will display again once the CAS files are served.
+Since yesterday the layers are back in the published Manifest. 124 of its 128 images display, so you can open it in any IIIF viewer yourself.
 
-If asked why 84 page views on slide 3 but 86 Canvases here: the two extra Canvases are the recto and verso of a loose photograph (09861), which the paged view leaves out.
+If asked why this is a recording and not live: it is simply safer in an online talk. Our former image server is no longer publicly reachable, so the Manifest was rebuilt under the same URL. Memobase holds only the default capture of pages with photographs; the page variants and the pages without photographs are tiled from the files delivered by CAS and served from hostiiing.
+
+If asked about the 4 missing images: 029_mit_Schutz, 039, 055_mit_Schutz and the verso of the loose photograph 09861 have not been delivered yet, so they stay at their pending address and do not display. That is why the Manifest still carries an "Under construction" notice.
+
+If asked why 84 page views on slide 3 but 86 Canvases here: the two extra Canvases are the recto and verso of a loose photograph (09861), which the paged view leaves out. The verso is one of the 4 images not delivered yet.
 -->
 
 ---
@@ -251,7 +255,7 @@ If asked why 84 page views on slide 3 but 86 Canvases here: the two extra Canvas
 
 This brings us to a paradox. The digital album shows more than you could ever see in the reading room: states that never coexist when you hold the album. In that sense it is "more than real". And the Manifest does not pick a winner: the ambiguity is part of the structure.
 
-The price is fragmentation. Every state is a separate act of handling: the cover was captured at 3662 by 2730 pixels in one state and 3663 by 2729 in the other, because the album moved between shots. Hosting leaves traces too: on page 29, the default capture is currently a 2400-pixel web derivative from Memobase, while the interleave layer keeps its recorded width of 12583 pixels. Even in the original captures, the two differed: 3700 against 12583. The bulkiness Stiegler describes does not disappear; it becomes a multitude of images and choices.
+The price is fragmentation. Every state is a separate act of handling: the cover was captured at 3662 by 2730 pixels in one state and 3663 by 2729 in the other, because the album moved between shots. Hosting leaves traces too: Memobase holds only the default capture, at 2400 pixels, so on page 5 it now sits next to sharper variants of about 3,700 pixels from another host. Page 29, on the slide, is the extreme case: its interleave layer has a recorded width of 12583 pixels, but that file has not been delivered yet. The bulkiness Stiegler describes does not disappear; it becomes a multitude of images and choices.
 
 From a science and technology studies perspective, this is mediation, not substitution. In Latour's terms, the Manifest is a new actor in the album's network, alongside the archive, the scanner, the image server and the viewer. And as Valerie Johnson reminds us, researchers still seek the physical encounter with personal objects.
 -->
@@ -262,7 +266,7 @@ From a science and technology studies perspective, this is mediation, not substi
 
 ![center w:900](https://julsraemy.ch/prezi/assets/euromed2026/iiif-photoalbum-workflow.svg)
 
-- **Proof of concept**: 2 albums, 199 images, 6 Manifests, 2 Collections, 2 Linked Art records; generic beyond CAS and PIA
+- **Proof of concept**: 2 albums, 200 images, 6 Manifests, 2 Collections, 2 Linked Art records; generic beyond CAS and PIA
 - **Users**: switch states in any IIIF viewer, compare across collections, annotate
 - **Takeaway**: digitisation as **interpretive modelling**, not mass reproduction
 
@@ -284,15 +288,17 @@ Second, the automated part, run on every change and built on iiif-prezi3. It fin
 
 Third, publication under stable URLs, open in any IIIF viewer.
 
-This is a proof of concept, and it works: two albums, 199 images, six Manifests and two Linked Art records. And it is generic: a spreadsheet and images already online, so other institutions can use it beyond CAS and PIA, for instance from a DAM export.
+This is a proof of concept, and it works: two albums, 200 images, six Manifests and two Linked Art records. And it is generic: a spreadsheet and images already online, so other institutions can use it beyond CAS and PIA, for instance from a DAM export.
 
 My takeaway: digitisation is interpretive modelling, not mass reproduction. Thank you, I am happy to take your questions.
+
+If asked about the figures: 195 of the 200 images are served: 124 of 128 for Album 31, 71 of 72 for Album 50.
 
 If asked about the checks: a layer is flagged when its aspect ratio differs by more than two percent from the default capture, or its resolution by more than a factor of two.
 
 If asked who defines quality: technical validity is defined by the IIIF specification and checked by its validator. Whether a layer is meaningful is a curatorial decision, made by curators together with conservators and researchers.
 
-If asked about long-term preservation: the Manifest points to image services by URI, so every migration means updating identifiers. Our image server moved from SIPI to Cantaloupe but kept its host name so the URIs would keep working. It is now no longer public, so the tool rebuilds the Manifests on another image host without changing their own identifiers, which is what the published URLs rely on. Meanwhile the Manifests carry an "Under construction" notice.
+If asked about long-term preservation: the Manifest points to image services by URI, so every migration means updating identifiers. Our image server moved from SIPI to Cantaloupe but kept its host name so the URIs would keep working. It is now no longer public, so the tool rebuilt the Manifests on Memobase and hostiiing without changing their own identifiers, which is what the published URLs rely on. They keep an "Under construction" notice until the last images are delivered.
 
 If asked about users: archivists, family members or automated systems such as handwriting recognition or object detection can all add annotations without touching the resource, and competing identifications can coexist.
 -->
