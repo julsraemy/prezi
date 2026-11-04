@@ -323,7 +323,7 @@ Latour, B. (2005). *Reassembling the Social: An Introduction to Actor-Network-Th
 
 Raemy, J. A. (2024). *Linked Open Usable Data for Cultural Heritage: Perspectives on Community Practices and Semantic Interoperability* [Doctoral Thesis, University of Basel]. https://hdl.handle.net/20.500.14716/148352
 
-Raemy, J. A. (2026). *iiif-photoalbum* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23794321
+Raemy, J. A. (2026). *iiif-photoalbum* (Version 1.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23794320
 
 Raemy, J. A., & Sanderson, R. (2024). Analysis of the Usability of Automatically Enriched Cultural Heritage Data. In F. Moral-Andrés, E. Merino-Gómez, & P. Reviriego (Eds.), *Decoding Cultural Heritage: A Critical Dissection and Taxonomy of Human Creativity through Digital Tools* (pp. 69-93). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-57675-1_4
 
