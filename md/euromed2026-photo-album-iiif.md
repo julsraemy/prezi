@@ -303,9 +303,6 @@ If asked about long-term preservation: the Manifest points to image services by 
 If asked about users: archivists, family members or automated systems such as handwriting recognition or object detection can all add annotations without touching the resource, and competing identifications can coexist.
 -->
 
-<!--
-Reviewer feedback to keep in mind (EuroMed 2026): originality and impact, user accessibility, quality assessment and validation, scalability to large digitisation workflows, practical benefits for researchers and collection managers.
--->
 
 ---
 
