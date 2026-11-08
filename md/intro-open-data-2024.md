@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/intro-open-data-2024.jpg
 url: https://julsraemy.ch/prezi/intro-open-data-2024.html
 presented: 2024-02
 event: '16-hour lecture given as part of the Bachelor of Information Science curriculum at the HES-SO University of Applied Sciences and Arts (HEG de Genève)'
+place: 'Carouge, Switzerland'
 theme: beam
 paginate: true
 _paginate: false

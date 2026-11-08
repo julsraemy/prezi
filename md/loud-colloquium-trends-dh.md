@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/loud-colloquium-trends-dh.jpg
 url: https://julsraemy.ch/prezi/loud-colloquium-trends-dh.html
 presented: 2023-11-01
 event: 'Colloquium "Trends in Digital Humanities"'
+place: 'Basel, Switzerland'
 theme: gaia
 class: invert
 paginate: true

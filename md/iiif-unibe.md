@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/iiif-unibe.jpg
 url: https://julsraemy.ch/prezi/iiif-unibe.html
 presented: 2023-04-04
 event: 'DH@Universtiy of Bern Lecture'
+place: 'Bern, Switzerland'
 theme: gaia
 class: invert
 paginate: true

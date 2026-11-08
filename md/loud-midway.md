@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/loud-midway.jpg
 url: https://julsraemy.ch/prezi/loud-midway.html
 presented: 2023-02-01
 event: 'PhD Meeting with supervisors'
+place: 'Online'
 theme: gaia
 class: invert
 paginate: true

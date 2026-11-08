@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/ark-iiif.jpg
 url: https://julsraemy.ch/prezi/ark-iiif.html
 presented: 2023-01-25
 event: 'IIIF Community Call'
+place: 'Online'
 theme: gaia
 class: invert
 paginate: true

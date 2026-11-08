@@ -9,6 +9,7 @@ url: https://julsraemy.ch/prezi/cihn24-loud-catalyseur-convergence.html
 lang: fr
 presented: 2024-02-13
 event: 'Conférence internationale sur les humanités numériques (CIHN24)'
+place: 'Carouge, Switzerland'
 theme: beam
 paginate: true
 _paginate: false

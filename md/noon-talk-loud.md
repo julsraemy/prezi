@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/noon-talk-loud.jpg
 url: https://julsraemy.ch/prezi/noon-talk-loud.html
 presented: 2023-12-19
 event: 'G3S Noon-Talk'
+place: 'Online'
 theme: beam
 paginate: true
 _paginate: false

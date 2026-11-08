@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/iiif-la-surveyreport.jpg
 url: https://julsraemy.ch/prezi/iiif-la-surveyreport.html
 presented: 2023-09-20
 event: 'Linked Art Call'
+place: 'Online'
 theme: gaia
 class: invert
 paginate: true

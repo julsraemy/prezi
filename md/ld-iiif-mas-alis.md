@@ -9,6 +9,7 @@ url: https://julsraemy.ch/prezi/ld-iiif-mas-alis.html
 lang: de
 presented: 2025-12-20
 event: 'Master of Advanced Studies in Archival, Library and Information Science (MAS ALIS) 2024-2026, Modul 3a'
+place: 'Bern, Switzerland'
 theme: beam
 paginate: true
 _paginate: false

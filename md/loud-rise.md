@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/loud-rise.jpg
 url: https://julsraemy.ch/prezi/loud-rise.html
 presented: 2022-11-23
 event: 'Research & Infrastructure Support (RISE) Internal Talk'
+place: 'Basel, Switzerland'
 theme: gaia
 class: invert
 paginate: true

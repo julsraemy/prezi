@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/loud4ch-swib25.jpg
 url: https://julsraemy.ch/prezi/loud4ch-swib25.html
 presented: 2025-11-18
 event: '17th Semantic Web in Libraries Conference (SWIB25)'
+place: 'Online'
 theme: beam
 paginate: true
 _paginate: false

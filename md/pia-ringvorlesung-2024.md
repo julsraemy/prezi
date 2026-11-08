@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/pia-ringvorlesung-2024.jpg
 url: https://julsraemy.ch/prezi/pia-ringvorlesung-2024.html
 presented: 2024-05-08
 event: 'PIA Lecture Series'
+place: 'Basel, Switzerland'
 theme: beam
 paginate: true
 _paginate: false

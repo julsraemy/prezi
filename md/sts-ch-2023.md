@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/sts-ch-2023.jpg
 url: https://doi.org/10.5281/zenodo.8250117
 presented: 2023-08-31
 event: 'STS-CH 2023 Conference'
+place: 'Basel, Switzerland'
 theme: gaia
 class: invert
 paginate: true

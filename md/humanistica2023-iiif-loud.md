@@ -9,6 +9,7 @@ url: https://julsraemy.ch/prezi/humanistica2023-iiif-loud.html
 lang: fr
 presented: 2023-06-26
 event: 'Humanistica 2023'
+place: 'Geneva, Switzerland'
 theme: gaia
 class: invert
 paginate: true

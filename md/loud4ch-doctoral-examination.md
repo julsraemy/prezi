@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/loud4ch-doctoral-examination.jpg
 url: https://doi.org/10.5281/zenodo.14175952
 presented: 2024-11-18
 event: 'Doctoral Examination'
+place: 'Basel, Switzerland'
 theme: beam
 paginate: true
 _paginate: false

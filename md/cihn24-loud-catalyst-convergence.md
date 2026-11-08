@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/cihn24-loud-catalyst-convergence.jpg
 url: https://julsraemy.ch/prezi/cihn24-loud-catalyst-convergence.html
 presented: 2024-02-13
 event: 'International Conference on Digital Humanities (CIHN24)'
+place: 'Carouge, Switzerland'
 theme: beam
 paginate: true
 _paginate: false

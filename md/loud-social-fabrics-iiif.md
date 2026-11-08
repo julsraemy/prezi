@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/loud-social-fabrics-iiif.jpg
 url: https://doi.org/10.5281/zenodo.7825411
 presented: 2023-06-08
 event: '2023 IIIF Conference'
+place: 'Naples, Italy'
 theme: gaia
 class: invert
 paginate: true

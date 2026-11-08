@@ -9,6 +9,7 @@ url: https://doi.org/10.5281/zenodo.8178671
 lang: fr
 presented: 2023-08-31
 event: 'LibreABC'
+place: 'Geneva, Switzerland'
 theme: gaia
 class: invert
 paginate: true

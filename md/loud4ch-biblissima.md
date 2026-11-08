@@ -9,6 +9,7 @@ url: https://julsraemy.ch/prezi/loud4ch-biblissima.html
 lang: fr
 presented: 2025-12-11
 event: 'Journée d’étude en ligne Biblissima+ : Nouveaux usages de IIIF pour l’enrichissement des collections numériques et la recherche'
+place: 'Online'
 theme: beam
 paginate: true
 _paginate: false

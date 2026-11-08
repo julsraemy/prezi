@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/linkedart-pia.jpg
 url: https://julsraemy.ch/prezi/linkedart-pia.html
 presented: 2022-11-02
 event: 'Linked Art Call'
+place: 'Online'
 theme: gaia
 class: invert
 paginate: true

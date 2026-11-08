@@ -1,6 +1,6 @@
 // Adds Highwire Press <meta name="citation_*"> tags (Google Scholar, Zotero) to
 // the <head> of each built deck: the deck itself, taken from its front matter
-// (title, author, presented, event, lang, keywords, url), and one citation_reference
+// (title, author, presented, event, place, lang, keywords, url), and one citation_reference
 // per entry found on its References / Bibliographie / Literatur slides.
 //
 // References are parsed from their APA-style text, so this is best effort:
@@ -223,7 +223,12 @@ function citationTags(deck, source) {
   meta('citation_title', fm.title)
   for (const a of deckAuthors(fm.author)) meta('citation_author', a)
   meta('citation_publication_date', deckDate(fm.presented))
-  meta('citation_conference_title', fm.event)
+  // Zotero: a presentation, not the conference paper citation_conference_title
+  // would make it (Highwire types override every other tag), with the event as
+  // its meeting name and the city as its place
+  meta('z.itemType', 'presentation')
+  meta('bib.presentedAt', fm.event)
+  meta('eprints.event_location', fm.place)
   meta('citation_language', (fm.lang || 'en').split('-')[0])
   const doi = (fm.url || '').match(/doi\.org\/(.+)$/i)
   if (doi) meta('citation_doi', doi[1])

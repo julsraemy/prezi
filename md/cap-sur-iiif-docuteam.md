@@ -9,6 +9,7 @@ image: https://julsraemy.ch/prezi/assets/og/cap-sur-iiif-docuteam.jpg
 url: https://julsraemy.ch/prezi/cap-sur-iiif-docuteam.html
 presented: 2026-11-12
 event: 'docuteam Community Day 2026'
+place: 'Lausanne, Switzerland'
 theme: docuteam
 paginate: true
 _paginate: false

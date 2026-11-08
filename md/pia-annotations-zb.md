@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/pia-annotations-zb.jpg
 url: https://julsraemy.ch/prezi/pia-annotations-zb.html
 presented: 2023-02-20
 event: 'IIIF Meeting at the Zentralbibliothek Zurich'
+place: 'Zurich, Switzerland'
 theme: gaia
 class: invert
 paginate: true

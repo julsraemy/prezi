@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/loud-apis-studyday2023.jpg
 url: https://julsraemy.ch/prezi/loud-apis-studyday2023.html
 presented: 2023-10-20
 event: 'DARIAH-CH Study Day 2023'
+place: 'Bern, Switzerland'
 theme: beam
 paginate: true
 _paginate: false

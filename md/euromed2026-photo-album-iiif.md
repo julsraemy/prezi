@@ -8,6 +8,7 @@ image: https://julsraemy.ch/prezi/assets/og/euromed2026-photo-album-iiif.jpg
 url: https://julsraemy.ch/prezi/euromed2026-photo-album-iiif.html
 presented: 2026-11-04
 event: '11th International Conference on Digital Heritage (EuroMed 2026)'
+place: 'Online'
 theme: beam
 paginate: true
 _paginate: false
