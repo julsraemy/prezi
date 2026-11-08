@@ -26,7 +26,7 @@ Last updated: 22 November 2022
 
 <!-- footer: 'Julien A. Raemy | Linked Art at PIA' -->
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 ### Linked Open Usable Data for Cultural Heritage
 #### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
@@ -41,13 +41,13 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 --- 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 
 # <!-- fit --> PIA
 
 ---
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # PIA Teams
 
@@ -62,7 +62,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 We explore the phases of the analogue and digital archive from the perspectives of cultural anthropology, technology and design. The common goal of this project is to design a visual interface with machine learning-based tools to make it easy to annotate, contextualize, organize, and link both images and their meta-information, to deliberately encourage the participatory use of archives. -->
 
 ---
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 #### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
 
@@ -77,7 +77,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 <!-- _class: lead -->
 
 # <!-- fit --> Linked Art
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
@@ -179,7 +179,7 @@ Events - Events and other non-specific activities that are related but not part 
 <!-- _class: lead -->
 
 # <!-- fit --> PIA goes LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 <!-- _footer: " " -->
@@ -250,10 +250,10 @@ Events - Events and other non-specific activities that are related but not part 
 <!-- _class: lead -->
 
 # Implementation of Linked Art
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 ##### Why do we need/want Linked Art at PIA?
 
@@ -301,7 +301,7 @@ _Conveying semantically enriched events and as a benchmark against other collect
 
 ---
 
-![bg right:50%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg)
+![bg right:50%](https://iiif.dasch.swiss/0812/3I1X1XllUwx-0b6NcJrLSZW.jpx/full/max/0/default.jpg)
 
 ## Schwyzer Fasnacht
 
@@ -667,12 +667,12 @@ Black and White Negative modelled as a `DigitalObject`
 <!-- _class: lead -->
 
 # Collaboration with the Linked Art II Project (University of Oxford)
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
 ### Linked Art II
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 - Collaboration between PIA and the University of Oxford over the Summer 2022 after completion of a survey (centred on the application of Linked Art)
 - Workflow for the transformation of photographic collection data to Linked Art
@@ -716,12 +716,12 @@ https://linked.art/community/projects/linkedartii/
 <!-- _class: lead -->
 
 # <!-- fit --> Future Work
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
 ### Endpoints
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 1. Deployment of the PIA Linked Art API at https://data.participatory-archives.ch. The PIA JSON API will be deprecated, but still accessible (at https://json.participatory-archives.ch)
 2. Workflow Source: PIA JSON API → 
@@ -731,7 +731,7 @@ https://linked.art/community/projects/linkedartii/
 ---
 
 ### Templates 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 - Updating and creating new boilerplates for each (useful) top-level entity
 - Generic vs specific: another workflow? Software?
@@ -739,7 +739,7 @@ https://linked.art/community/projects/linkedartii/
 ---
 
 # Acknowledgements
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 Many thanks to:
 
@@ -751,10 +751,10 @@ Many thanks to:
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 

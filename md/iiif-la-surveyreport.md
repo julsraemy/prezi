@@ -27,7 +27,7 @@ Linked Art WG Call | 20 September 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # Agenda
 
@@ -40,7 +40,7 @@ Linked Art WG Call | 20 September 2023
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Context
@@ -48,7 +48,7 @@ Linked Art WG Call | 20 September 2023
 ---
 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # Linked Open Usable Data for Cultural Heritage
 ####  Perspectives on Community Practices and Semantic Interoperability
@@ -93,7 +93,7 @@ PhD Thesis supervised by:
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Socio-demographics data
@@ -126,7 +126,7 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Findings
@@ -144,7 +144,7 @@ Gender identification: 50 Males (63.3%), 26 Females (32.9%), 3 Prefer not to say
 
 <!-- _class: lead -->
 ![bg w:300px](https://julsraemy.ch/prezi/assets/IIIF-logo-500w.png)
-![bg](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 
 ---
@@ -173,7 +173,7 @@ Participants frequently uses a combination of tools, such as image viewers (Mira
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/1000,/0/default.jpg)
 
 ## Enablers
 
@@ -191,7 +191,7 @@ Participants frequently uses a combination of tools, such as image viewers (Mira
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 ## Inhibitors
 
@@ -215,7 +215,7 @@ Suggestions for improvement included better communication, emphasis on accessibi
 
 <!-- _class: lead -->
 ![bg 70%](https://julsraemy.ch/prezi/assets/Linked_Art_logo.png)
-![bg](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 ---
 
@@ -235,7 +235,7 @@ Community Enagement through:
 ---
 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/1000,/0/default.jpg)
 
 ## Enablers
 
@@ -248,7 +248,7 @@ Community Enagement through:
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 ## Inhibitors
 
@@ -260,7 +260,7 @@ Community Enagement through:
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 ## Situating IIIF and Linked Art
 
@@ -316,7 +316,7 @@ principles. While the number of participants is significant, further exploration
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 ## Non involvement
 
@@ -343,7 +343,7 @@ Among the 25 survey respondents that stated that they were not involved in eithe
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 ## Potential actions for the Linked Art community
@@ -364,10 +364,10 @@ A more inclusive environment, tapping into the expertise of the Editorial Board 
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/1000,/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 

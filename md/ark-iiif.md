@@ -35,7 +35,7 @@ IIIF Community Call | Wednesday, 25 January 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2W45raVjex4-q3zAjLJHAJi.jpx/full/960,/0/default.jpg)
 
 # ARKs and IIIF
 
@@ -73,7 +73,7 @@ https://khirin-i.rekihaku.ac.jp/iiif/nmjh_rekimin_h/13348049_02.tif/info.json
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2W45raVjex4-q3zAjLJHAJi.jpx/full/960,/0/default.jpg)
 
 ### IIIF Image API expressed via identifiers
 
@@ -85,7 +85,7 @@ https://khirin-i.rekihaku.ac.jp/iiif/nmjh_rekimin_h/13348049_02.tif/info.json
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2W45raVjex4-q3zAjLJHAJi.jpx/full/960,/0/default.jpg)
 
 ### IIIF Presentation API expressed via identifiers
 
@@ -100,7 +100,7 @@ https://iiif.io/api/presentation/3.0/#61-uri-recommendations
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2W45raVjex4-q3zAjLJHAJi.jpx/full/960,/0/default.jpg)
 
 ### Congruence of ARK extensions and IIIF paths
 
@@ -117,7 +117,7 @@ https://iiif.io/api/presentation/3.0/#61-uri-recommendations
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2W45raVjex4-q3zAjLJHAJi.jpx/full/960,/0/default.jpg)
 
 ### ARKs and IIIF in practice
 
@@ -126,7 +126,7 @@ https://iiif.io/api/presentation/3.0/#61-uri-recommendations
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2W45raVjex4-q3zAjLJHAJi.jpx/full/960,/0/default.jpg)
 
 ### Some questions
 
@@ -138,7 +138,7 @@ https://iiif.io/api/presentation/3.0/#61-uri-recommendations
 
 
 ![bg opacity:.2](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_26488.jp2/full/960,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/2W45raVjex4-q3zAjLJHAJi.jpx/full/960,/0/default.jpg)
 
 ### Image Credits
 - A rectangular detail region of interest (coordinates 2131,4016,1467,948) requested via [IIIF-compliant path elements](https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg) from the folio 29 of: _Grande Bible hitoriale complétée. Maître du livre d'heures de Johanette Ravenelle._ 1395-1401. BnF Département des Manuscrits. Français 159. https://gallica.bnf.fr/ark:/12148/btv1b8449691v

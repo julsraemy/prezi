@@ -30,7 +30,7 @@ New version &rarr; https://julsraemy.ch/intro-open-data/
 
 <!-- footer: Preamble -->
 
-![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.12](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Round of introductions
 
@@ -60,7 +60,7 @@ Courses take place over the course of four Tuesday afternoons
 ---
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -73,7 +73,7 @@ Courses take place over the course of four Tuesday afternoons
 
 <!-- footer: Course Overview -->
 
-![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.12](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 
 # Objectives
@@ -85,7 +85,7 @@ Courses take place over the course of four Tuesday afternoons
 
 ---
 
-![bg opacity:.12](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.12](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 
 # Methods
@@ -129,7 +129,7 @@ _Further details can be discussed at any time during the course and during the w
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -1225,7 +1225,7 @@ In pairs or small groups, you will conceptualise a new platform for open data. I
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -1882,7 +1882,7 @@ https://linked.art/loud/
 
 ---
 
-![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.1](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # LOUD-driven Communities
 
@@ -2136,11 +2136,11 @@ https://iiif.io/api/image
 
 - Image Request
 `{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/1000,/0/default.jpg
 
 - Image Information (Metadata)
 `{$BASE}/info.json`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json
 
 
 ---
@@ -2451,7 +2451,7 @@ In pairs or small groups, relate the movements and principles (OA, Open Data, Op
 ---
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 
 <!-- _backgroundColor: #465B64  -->
@@ -2759,7 +2759,7 @@ https://github.com/rnckp/awesome-ogd-switzerland
 ---
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -2868,7 +2868,7 @@ Risks
 ---
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -3086,7 +3086,7 @@ Explanation and Showcases: https://opendata.swiss/de/showcase/starter-code-fur-a
 ---
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -3107,7 +3107,7 @@ Explanation and Showcases: https://opendata.swiss/de/showcase/starter-code-fur-a
 ---
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -3261,7 +3261,7 @@ Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -3395,7 +3395,7 @@ Simply awaiting to be found.
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -3533,8 +3533,8 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 ---
 
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Image Credits
 

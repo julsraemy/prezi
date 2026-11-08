@@ -30,7 +30,7 @@ Hi everyone, my name is Julien Raemy and I am a PhD Candidate in Digital Humanit
 
 <!-- footer: Preamble -->
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # PhD Thesis
 
@@ -52,7 +52,7 @@ I am affiliated with the doctoral programme of the Graduate School of Social Sci
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # <!-- fit --> Participatory Knowledge Practices in Analogue and Digital Image Archives
 
@@ -78,7 +78,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 
 ---
 
-![bg opacity:.16](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.16](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Agenda
 
@@ -97,7 +97,7 @@ I'm first going to talk about the ways that data can be interlinked on the web i
 
 ---
 
-![bg opacity:0.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:0.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 <!-- footer: Cultural Heritage Data -->
@@ -190,7 +190,7 @@ This dimension reinforces the essential role played by a variety of entities, pr
 
 ---
 
-![bg opacity:0.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:0.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 <!-- footer: Interlinking Data on the Web -->
 
@@ -259,7 +259,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 <!-- footer: Linked Open Usable Data -->
 
-![bg opacity:0.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:0.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 # Linked Open Usable Data (LOUD)
 
@@ -270,7 +270,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # LOUD Design Principles
 
@@ -467,9 +467,9 @@ UNESCO. Culture for Development Indicators. (2014). Methodology Manual. United N
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Image Credits
 

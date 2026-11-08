@@ -25,7 +25,7 @@ Universität Bern | 04.04.2023
 
 --- 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1500,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1500,/0/default.jpg)
 
 ### Linked Open Usable Data for Cultural Heritage
 #### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
@@ -40,7 +40,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 --- 
 
 # Agenda
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
 
 - What is IIIF?
 - Why do we need IIIF?
@@ -55,7 +55,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> What is IIIF?
@@ -116,7 +116,7 @@ https://iiif.io/community/
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> Why do we need IIIF?
@@ -154,7 +154,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> What does IIIF do?
@@ -236,7 +236,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> How does IIIF work?
@@ -254,7 +254,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 ---
 
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/1000,/0/default.jpg)
 
 # IIIF Specifications
 
@@ -294,11 +294,11 @@ https://iiif.io/api/image
 
 - Image Request
 `{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/1000,/0/default.jpg
 
 - Image Information (Metadata)
 `{$BASE}/info.json`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json
 
 
 ---
@@ -340,7 +340,7 @@ https://iiif.io/api/presentation
 <!-- _class: lead -->
 
 # <!-- fit --> Try it yourself
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 ---
 
@@ -357,7 +357,7 @@ Guides to find IIIF resources and how to use viewers: https://guides.iiif.io/
 <!-- _class: lead -->
 
 # <!-- fit --> Web Annotation Data Model
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 ---
 
@@ -392,11 +392,11 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 <!-- _class: lead -->
 
 # <!-- fit --> PIA IIIF Annotation Workflow
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # PIA
 
@@ -411,7 +411,7 @@ Some of the Motivations: `commenting`, `highlighting`, `identifying`, `tagging`
 We explore the phases of the analogue and digital archive from the perspectives of cultural anthropology, technology and design. The common goal of this project is to design a visual interface with machine learning-based tools to make it easy to annotate, contextualize, organize, and link both images and their meta-information, to deliberately encourage the participatory use of archives. -->
 
 ---
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 #### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
 
@@ -423,7 +423,7 @@ Developing a Citizen Science platform on the basis of:
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 ## PIA Infrastructure / APIs
 
@@ -444,7 +444,7 @@ In the future:
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 ## Annotations
 
@@ -528,10 +528,10 @@ Example of a Manifest displayed in our Mirador instance: https://mirador.partici
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/1000,/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 

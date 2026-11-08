@@ -25,7 +25,7 @@ Research & Infrastructure Support (RISE) Internal Talk | 23.11.2022
 
 --- 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 ### Linked Open Usable Data for Cultural Heritage
 #### <!-- fit --> Perspectives on Community Practices and Semantic Interoperability
@@ -40,7 +40,7 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 --- 
 
 # Agenda
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 - Preamble
 - Linked Open Usable Data (LOUD)
@@ -54,14 +54,14 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 
 # <!-- fit --> Preamble
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # The usual suspects
 
@@ -103,11 +103,11 @@ PhD Thesis - https://phd.julsraemy.ch - supervised by:
 <!-- _class: lead -->
 
 # <!-- fit --> LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # LOUD Design Principles
 
@@ -124,7 +124,7 @@ To be part of the Web, not just on the Web.  -->
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # LOUD Standards
 Examples of specifications following the LOUD design principles:
@@ -190,7 +190,7 @@ Some of them:
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # IIIF Specifications
 
@@ -230,11 +230,11 @@ https://iiif.io/api/image
 
 - Image Request
 `{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg
 
 - Image Information (Metadata)
 `{$BASE}/info.json`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json
 
 
 ---
@@ -387,14 +387,14 @@ Events - Events and other non-specific activities that are related but not part 
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 
 # <!-- fit --> PIA
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 ## Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA)
 
@@ -404,7 +404,7 @@ Research project funded by the Swiss National Science Foundation (SNSF) under th
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # PIA Teams
 
@@ -417,7 +417,7 @@ Research project funded by the Swiss National Science Foundation (SNSF) under th
 We explore the phases of the analogue and digital archive from the perspectives of cultural anthropology, technology and design. The common goal of this project is to design a visual interface with machine learning-based tools to make it easy to annotate, contextualize, organize, and link both images and their meta-information, to deliberately encourage the participatory use of archives. -->
 
 ---
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 #### Collections of the Swiss Society for Fokflore Studies (SSFS) within PIA
 
@@ -433,7 +433,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 <!-- _class: lead -->
 
 # <!-- fit --> PIA goes LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 <!-- _footer: " " -->
@@ -494,7 +494,7 @@ We explore the phases of the analogue and digital archive from the perspectives 
 ```
 --- 
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 ##### Why do we need/want Linked Art at PIA?
 
@@ -543,7 +543,7 @@ _Conveying semantically enriched events and as a benchmark against other collect
 
 ---
 
-![bg right:50%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg)
+![bg right:50%](https://iiif.dasch.swiss/0812/3I1X1XllUwx-0b6NcJrLSZW.jpx/full/max/0/default.jpg)
 
 ## Schwyzer Fasnacht
 
@@ -931,12 +931,12 @@ Black and White Negative modelled as a `DigitalObject`
 <!-- _class: lead -->
 
 # Collaboration with the Linked Art II Project (University of Oxford)
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
 ### Linked Art II
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 - Collaboration between PIA and the University of Oxford over the Summer 2022 after completion of a survey (centred on the application of Linked Art)
 - Workflow for the transformation of photographic collection data to Linked Art
@@ -978,7 +978,7 @@ https://linked.art/community/projects/linkedartii/
 <!-- _class: lead -->
 
 # PhD Data Model
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 # Rationale
@@ -1015,10 +1015,10 @@ Leveraging Linked Art as/for:
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 

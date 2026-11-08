@@ -31,7 +31,7 @@ Geneva School of Business Administration | Carouge, Switzerland | 13.02.2024
 <!-- footer: Preambule -->
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # PhD Thesis
 
@@ -47,7 +47,7 @@ https://phd.julsraemy.ch
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Agenda
 
@@ -61,7 +61,7 @@ https://phd.julsraemy.ch
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -111,7 +111,7 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -150,7 +150,7 @@ Tweaked Semantic Web Layer Cake [Idehen 2017]
 
 ---
 
-![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.1](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # LOUD-driven Communities
 
@@ -292,7 +292,7 @@ Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -338,7 +338,7 @@ Data Transformation Pipeline Code: https://github.com/project-lux/data-pipeline
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -384,9 +384,9 @@ Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Cons
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Image Credits
 

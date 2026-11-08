@@ -26,7 +26,7 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 --- 
 
 # Agenda
-![bg opacity:.17](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.17](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 - **15:00** Current state
 - **15:30** Research Scope, Methodology and Empirical Research
@@ -41,7 +41,7 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 ---
 
 # Meeting Goals
-![bg opacity:.17](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.17](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 - Giving an update
 - Setting research directions for 2023
@@ -53,14 +53,14 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 ---
 
 <!-- _class: lead -->
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 
 # <!-- fit --> Current state
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 ##  Academic progress
 
@@ -73,7 +73,7 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 ## Important documents/links
 
@@ -92,7 +92,7 @@ PhD Midway Meeting | Wednesday, 1 February 2023
 <!-- Here is how it looks like, with the editor on the left-hand side and the output, which is a PDF, on the right-hand side. -->
 
 ---
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # PhD Website
 
@@ -121,11 +121,11 @@ https://phd.julsraemy.ch
 <!-- _class: lead -->
 
 # Research Scope, Methodology and Empirical Research
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 # Research Scope
 
@@ -154,7 +154,7 @@ https://phd.julsraemy.ch
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 # Next slides
 
@@ -210,11 +210,11 @@ I have tried to provide an overview of the different actors showing the relation
 <!-- _class: lead -->
 
 # <!-- fit --> Dissertation's structure
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # A pretty standard ToC
 
@@ -231,7 +231,7 @@ I have tried to provide an overview of the different actors showing the relation
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 
 # Literature Review
@@ -249,10 +249,10 @@ I have tried to provide an overview of the different actors showing the relation
 
 # <!-- fit --> Theoretical Framework
 ### Through and beyond an Actor-Network Theory (ANT) Lens
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 
 # Theoretical Framework
@@ -310,11 +310,11 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 <!-- _class: lead -->
 
 # <!-- fit --> Next steps
-![bg left:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:30%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 
 # After this meeting
@@ -342,7 +342,7 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 
 # Short visit(s) at Yale?
@@ -362,10 +362,10 @@ Cf. [Back and Forth from Boundry Objects to IIIF Resources](https://julsraemy.ch
 
 <!-- _footer: " " -->
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 

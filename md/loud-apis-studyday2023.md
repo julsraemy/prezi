@@ -27,7 +27,7 @@ University of Bern | 20 October 2023
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # PhD Thesis
 
@@ -87,7 +87,7 @@ https://linked.art/loud/
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -100,7 +100,7 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
 
 # A three-act empirical structure
 
@@ -137,7 +137,7 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 ---
 
 
-![bg opacity:.18](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.18](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 # Open questions and mitigations
 
@@ -150,10 +150,10 @@ Situating LOUD and its epistemological foundations for Cultural Heritage and Dig
 
 <!-- class: tinytext --> 
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_36937.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/2z2vWczu8BU-kPpspxL78cS.jpx/full/max/0/default.jpg)
 
 # Image Credits
 

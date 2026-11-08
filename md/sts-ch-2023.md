@@ -31,7 +31,7 @@ Hi everyone, my name is Julien Raemy, I am a Phd Candidate in Digital Humanities
 --- 
 
 # Agenda
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
 
 - Interlinking Data on the Web
 - Cultural Heritage Data 
@@ -46,7 +46,7 @@ I'm first going to talk about the ways that data can be interlinked on the web i
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> Interlinking Data on the Web
 
@@ -93,7 +93,7 @@ As for instance, in this graph where the subject, STS-CH is a conference, that i
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> Cultural Heritage Data
 Heterogeneity, Knowledge Latency, Custodianship
@@ -296,7 +296,7 @@ Tracing "from use cases to specifications" in IIIF and Linked Art reveals key ac
 ---
 
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # Linked Open Usable Data for Cultural Heritage
 ####  Perspectives on Community Practices and Semantic Interoperability
@@ -340,8 +340,8 @@ https://www.artic.edu/digital-publications/37/perspectives-on-data/28/iterative-
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 ## Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 

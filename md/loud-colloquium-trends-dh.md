@@ -24,7 +24,7 @@ Basel, Switzerland | 1 November 2023
 
 ---
 
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # Linked Open Usable Data for Cultural Heritage
 ####  Perspectives on Community Practices and Semantic Interoperability
@@ -41,7 +41,7 @@ PhD Thesis supervised by:
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Agenda
 
@@ -59,7 +59,7 @@ PhD Thesis supervised by:
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 
 # <!-- fit --> Preamble
@@ -68,7 +68,7 @@ PhD Thesis supervised by:
 ---
 
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # <!-- fit --> Movements, Principles, Linked Data
 
@@ -145,7 +145,7 @@ Interoperability is a state in which two or more tested, independently developed
 
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 
 # <!-- fit --> Interlinking Data on the Web
@@ -156,7 +156,7 @@ Interoperability is a state in which two or more tested, independently developed
 
 <!-- _class: lead -->
 
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 # Open Web
 
 
@@ -226,7 +226,7 @@ Most of the components of these triples use Uniform Resource Identifiers (URIs) 
 
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> Cultural Heritage Data
 
@@ -358,13 +358,13 @@ Structured data (using CRM) fails to map the more natural modes of expression fo
 <!-- _class: lead -->
 
 # <!-- fit --> LOUD
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 Design Principles, Standards
 
 ---
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # LOUD Design Principles
 
@@ -461,7 +461,7 @@ Examples of specifications following the LOUD design principles:
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 ## Why do we need IIIF ?
 
@@ -498,7 +498,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> What does IIIF do?
@@ -580,7 +580,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 
 # <!-- fit --> How does IIIF work?
@@ -598,7 +598,7 @@ Image delivery on the Web has historically been hard, slow, expensive, disjointe
 ---
 
 
-![bg right:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg)
+![bg right:33%](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/1000,/0/default.jpg)
 
 # IIIF Specifications
 
@@ -639,11 +639,11 @@ It specifies a RESTful web service that returns an image in response to a standa
 
 - Image Request
 `{$BASE}/{region}/{size}/{rotation}/{quality}.{format}`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/1000,/0/default.jpg
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/1000,/0/default.jpg
 
 - Image Information (Metadata)
 `{$BASE}/info.json`
-https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/info.json
+https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json
 
 
 ---
@@ -765,7 +765,7 @@ Linked Art is a community collaborating to define a metadata application profile
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 ### Linked Art API Endpoints (1)
 
@@ -780,7 +780,7 @@ Events - Events and other non-specific activities that are related but not part 
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 ### Linked Art API Endpoints (2)
 
@@ -795,7 +795,7 @@ Events - Events and other non-specific activities that are related but not part 
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 ### Linked Art API Endpoints (3)
 
@@ -810,7 +810,7 @@ Events - Events and other non-specific activities that are related but not part 
 
 ---
 
-![bg right:50%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg)
+![bg right:50%](https://iiif.dasch.swiss/0812/3I1X1XllUwx-0b6NcJrLSZW.jpx/full/max/0/default.jpg)
 
 ## Schwyzer Fasnacht
 
@@ -875,7 +875,7 @@ Black and White Negative modelled as a `DigitalObject`
 
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> LUX
 Yale Collections Discovery 
@@ -891,7 +891,7 @@ Yale Collections Discovery
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Built on open standards
 
@@ -931,7 +931,7 @@ Load: The resulting dataset is then annotated with some additional features for 
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> Perspectives
 Community Practices
@@ -974,7 +974,7 @@ Semantic Interoperability
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # <!-- fit --> Some concluding thoughts about LOUD
 
@@ -990,10 +990,10 @@ An important proposition arises from the observation that adherence to the \ac{L
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 ### Image Credits
 - [Blick auf das Spalentor]. Basel, 1938. Ernst Brunner. SGV_12N_00115 

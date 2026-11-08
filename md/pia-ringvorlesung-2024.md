@@ -428,7 +428,7 @@ This is the basis of my answer: Linked Open Usable Data, not ony linked, not onl
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
 
 ## Design Principles
 
@@ -472,7 +472,7 @@ To be part of the Web, not just on the Web.  -->
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
 
 ## Standards for (Semantic) Interoperability
 
@@ -790,7 +790,7 @@ LOUX integrates technologies, mostly community-driven, like IIIF, WADM, and Link
 
 
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_44825.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3Z1k2I7LDap-Ww23UPF4EXk.jpx/full/max/0/default.jpg)
 
 ## Social Fabrics of IIIF and Linked Art
 

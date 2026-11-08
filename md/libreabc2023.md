@@ -29,7 +29,7 @@ Musée d'ethnographie de Genève | 31 août 2023
 
 # Linked Open Usable Data for Cultural Heritage
 #### Perspectives on Community Practices and Semantic Interoperability
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
 
 Thèse de doctorat encadré par : 
 - Peter Fornaro (University of Basel)
@@ -43,7 +43,7 @@ Thèse de doctorat encadré par :
 ---
 
 # Déroulement
-![bg right:30%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
+![bg right:30%](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
 
 - Préambule : axes d'exploration
 - International Image Interoperability Framework (IIIF)
@@ -56,7 +56,7 @@ Thèse de doctorat encadré par :
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> Préambule
 Axes d'exploration
@@ -147,7 +147,7 @@ J'en ai maintenant terminé avec cette phase exploratoire et je vais vous parler
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 ## Pourquoi avons-nous besoin de IIIF ?
 
@@ -187,7 +187,7 @@ Historiquement, la diffusion d'images sur le Web a rencontré beaucoup de limite
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 ## Quelques cas d'application de IIIF
 
@@ -242,7 +242,7 @@ Historiquement, la diffusion d'images sur le Web a rencontré beaucoup de limite
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> Comment fonctionne IIIF ?
 Les protocoles IIIF
@@ -362,7 +362,7 @@ JSON-LD : sérialisation JSON basée sur la syntaxe RDF ($s \ \vec{p} \ o$)
 ---
 
 <!-- _class: lead -->
-![bg left:33%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
+![bg left:33%](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> IIIF et Linked Art 
 
@@ -438,7 +438,7 @@ Transparence, Collaboration
 ---
 
 <!-- _class: lead -->
-![bg right:40%](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg right:40%](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 # <!-- fit --> LUX
 Yale Collections Discovery 
@@ -498,9 +498,9 @@ Yale University Library, Yale Center for British Art, Yale Peabody Museum, Yale 
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/1000,/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19566.jp2/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/1000,/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/4nRoagkhDye-PkDwbBAe8H8.jpx/full/1000,/0/default.jpg)
 
 # Bibliographie et crédits photo
 

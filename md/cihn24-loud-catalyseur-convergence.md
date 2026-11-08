@@ -40,7 +40,7 @@ There is an English version of this slide deck and I can give you the link to th
 <!-- footer: Préambule -->
 
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
 
 # Thèse de doctorat
 
@@ -62,7 +62,7 @@ I am doing a PhD in Digital Humanities at the University of Basel on Linked Open
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Déroulement
 
@@ -85,7 +85,7 @@ Conclusion
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -148,7 +148,7 @@ Programme de déploiement en 5 étoiles pour l'Open Data : https://5stardata.inf
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -204,7 +204,7 @@ IIIF and Linked Art: communities linked by the presence of shared members provid
 
 ---
 
-![bg opacity:.1](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.1](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Communautés LOUD
 
@@ -393,7 +393,7 @@ Data pipeline. Each institition retain the way they describe cultural objects, t
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -471,7 +471,7 @@ LOUD practices and standards should serve as common denominators for cultural he
 
 ---
 
-![bg opacity:.14](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
+![bg opacity:.14](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
 
 <!-- _backgroundColor: #465B64  -->
 <!-- _color: white  -->
@@ -517,9 +517,9 @@ Sanderson, R. (2019). Keynote: Standards and Communities: Connected People, Cons
 
 ---
 
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00115.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_19553.jp2/full/max/0/default.jpg)
-![bg opacity:.2](https://sipi.participatory-archives.ch/SGV_12/SGV_12N_08589.jp2/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/3GiQt3LMMgl-ToSOskchDW7.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/5fZk9n63llU-v6bWewMrtCz.jpx/full/max/0/default.jpg)
+![bg opacity:.2](https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/full/max/0/default.jpg)
 
 # Crédits photographiques
 
