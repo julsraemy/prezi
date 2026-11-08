@@ -54,13 +54,14 @@ My thesis examines how collaborative structures and standardized data can suppor
 
 ---
 
-<iframe src="https://mejackreed.github.io/Leaflet-IIIF/examples/?url=https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json" 
+<iframe src="https://julsraemy.ch/prezi/assets/iiif-image.html?url=https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json" 
+        title="Ringtanz während der Masüras auf der Alp Sura (Ernst Brunner, 1939)"
         width="100%" height="600px" style="border:none;">
 </iframe>
 
 <div style="font-size: 50%;">
 
-https://mejackreed.github.io/Leaflet-IIIF/examples/?url=https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json
+https://julsraemy.ch/prezi/assets/iiif-image.html?url=https://iiif.dasch.swiss/0812/276uIbjSulF-k5RrtYZ3LUA.jpx/info.json
 
 </div>
 

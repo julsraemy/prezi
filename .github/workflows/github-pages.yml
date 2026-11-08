@@ -2,7 +2,8 @@ name: Build changed decks
 
 # Rebuilds the HTML and link preview image of each deck edited in md/ and commits
 # them back to master, which GitHub Pages then publishes as usual. Other decks are
-# left untouched.
+# left untouched. Run it by hand (Actions > Build changed decks > Run workflow) to
+# rebuild every deck, e.g. after upgrading Marp CLI or changing a theme.
 
 on:
   push:
@@ -10,6 +11,7 @@ on:
       - master
     paths:
       - 'md/*.md'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -43,7 +45,11 @@ jobs:
           CHROME_NO_SANDBOX: 1
           LANG: en-GB
         run: |
-          changed=$(git diff --name-only --diff-filter=d "$BEFORE" "$AFTER" -- 'md/*.md')
+          if [ "$GITHUB_EVENT_NAME" = workflow_dispatch ]; then
+            changed=$(ls md/*.md)
+          else
+            changed=$(git diff --name-only --diff-filter=d "$BEFORE" "$AFTER" -- 'md/*.md')
+          fi
           for deck in $changed; do
             npx marp --html --no-stdin "$deck" -o "$(basename "${deck%.md}").html"
           done
