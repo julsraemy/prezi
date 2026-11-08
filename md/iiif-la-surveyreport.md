@@ -6,6 +6,8 @@ description: Summary of the survey report "Characterising the IIIF and Linked Ar
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/prezi/assets/og/iiif-la-surveyreport.jpg
 url: https://julsraemy.ch/prezi/iiif-la-surveyreport.html
+date: 2023-09-20
+event: 'Linked Art Call'
 theme: gaia
 class: invert
 paginate: true

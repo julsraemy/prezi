@@ -6,6 +6,8 @@ description: Presentation given in the context of a "noon-talk" on 19 December 2
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD
 image: https://julsraemy.ch/prezi/assets/og/noon-talk-loud.jpg
 url: https://julsraemy.ch/prezi/noon-talk-loud.html
+date: 2023-12-19
+event: 'G3S Noon-Talk'
 theme: beam
 paginate: true
 _paginate: false

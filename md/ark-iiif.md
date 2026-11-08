@@ -6,6 +6,8 @@ description: This presentation is about the intersection of Archival Resource Ke
 keywords: ARKs, IIIF, PID
 image: https://julsraemy.ch/prezi/assets/og/ark-iiif.jpg
 url: https://julsraemy.ch/prezi/ark-iiif.html
+date: 2023-01-25
+event: 'IIIF Community Call'
 theme: gaia
 class: invert
 paginate: true

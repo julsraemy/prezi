@@ -6,6 +6,8 @@ description: Presentation by Julien A. Raemy and Murielle Cornut at the 11th Int
 keywords: Cultural Anthropology, Digital Materiality, IIIF, Linked Open Usable Data, Semantic Interoperability
 image: https://julsraemy.ch/prezi/assets/og/euromed2026-photo-album-iiif.jpg
 url: https://julsraemy.ch/prezi/euromed2026-photo-album-iiif.html
+date: 2026-11-04
+event: '11th International Conference on Digital Heritage (EuroMed 2026)'
 theme: beam
 paginate: true
 _paginate: false

@@ -6,6 +6,8 @@ description: This presentation is about the International Image Interoperability
 keywords: LOUD, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/prezi/assets/og/iiif-unibe.jpg
 url: https://julsraemy.ch/prezi/iiif-unibe.html
+date: 2023-04-04
+event: 'DH@Universtiy of Bern Lecture'
 theme: gaia
 class: invert
 paginate: true

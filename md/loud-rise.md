@@ -6,6 +6,8 @@ description: This presentation is about Linked Open Usable Data (LOUD) and how w
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/prezi/assets/og/loud-rise.jpg
 url: https://julsraemy.ch/prezi/loud-rise.html
+date: 2022-11-23
+event: 'Research & Infrastructure Support (RISE) Internal Talk'
 theme: gaia
 class: invert
 paginate: true

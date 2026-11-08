@@ -6,6 +6,9 @@ description: Cette présentation est réalisée dans le cadre d'une table ronde 
 keywords: LOUD, IIIF, Humanités numériques, Musées
 image: https://julsraemy.ch/prezi/assets/og/humanistica2023-iiif-loud.jpg
 url: https://julsraemy.ch/prezi/humanistica2023-iiif-loud.html
+lang: fr
+date: 2023-06-26
+event: 'Humanistica 2023'
 theme: gaia
 class: invert
 paginate: true

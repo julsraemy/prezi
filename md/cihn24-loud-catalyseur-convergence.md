@@ -6,6 +6,9 @@ description: L'émergence du Linked Open Usable Data (LOUD) – littéralement �
 keywords: CIHN24, HEG-GE, Humanités numériques, IIIF, Interopérabilité Sémantique, Linked Art, Linked Data, Linked Open Usable Data, LOUD, LUX, Patrimoine Culturel, Standardisation, Web Annotation Data Model
 image: https://julsraemy.ch/prezi/assets/og/cihn24-loud-catalyseur-convergence.jpg
 url: https://julsraemy.ch/prezi/cihn24-loud-catalyseur-convergence.html
+lang: fr
+date: 2024-02-13
+event: 'Conférence internationale sur les humanités numériques (CIHN24)'
 theme: beam
 paginate: true
 _paginate: false

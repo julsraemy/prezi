@@ -6,6 +6,8 @@ description: This presentation is about how machine learning-based annotations h
 keywords: IIIF, PIA, Annotations, Object Detection, Machine Learning
 image: https://julsraemy.ch/prezi/assets/og/pia-annotations-zb.jpg
 url: https://julsraemy.ch/prezi/pia-annotations-zb.html
+date: 2023-02-20
+event: 'IIIF Meeting at the Zentralbibliothek Zurich'
 theme: gaia
 class: invert
 paginate: true

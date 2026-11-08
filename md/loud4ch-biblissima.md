@@ -6,6 +6,9 @@ description: "Le Linked Open Usable Data (LOUD) représente une démarche et des
 keywords: Cultural Heritage, IIIF, Linked Art, Linked Data, LOUD, Community Practices, Semantic Interoperability, Web Annotation
 image: https://julsraemy.ch/prezi/assets/og/loud4ch-biblissima.jpg
 url: https://julsraemy.ch/prezi/loud4ch-biblissima.html
+lang: fr
+date: 2025-12-11
+event: 'Journée d’étude en ligne Biblissima+ : Nouveaux usages de IIIF pour l’enrichissement des collections numériques et la recherche'
 theme: beam
 paginate: true
 _paginate: false

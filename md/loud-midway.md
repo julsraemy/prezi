@@ -6,6 +6,8 @@ description: This presentation is about my PhD Thesis
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/prezi/assets/og/loud-midway.jpg
 url: https://julsraemy.ch/prezi/loud-midway.html
+date: 2023-02-01
+event: 'PhD Meeting with supervisors'
 theme: gaia
 class: invert
 paginate: true
