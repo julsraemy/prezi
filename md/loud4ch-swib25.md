@@ -6,7 +6,7 @@ description: Presentation on Linked Open Usable Data (LOUD) given by Julien A. R
 keywords: Cultural Heritage, IIIF, Linked Art, Linked Data, LOUD, Community Practices, Semantic Interoperability, Web Annotation
 image: https://julsraemy.ch/prezi/assets/og/loud4ch-swib25.jpg
 url: https://julsraemy.ch/prezi/loud4ch-swib25.html
-date: 2025-11-18
+presented: 2025-11-18
 event: '17th Semantic Web in Libraries Conference (SWIB25)'
 theme: beam
 paginate: true

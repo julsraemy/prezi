@@ -7,7 +7,7 @@ keywords: API, IIIF, Linked Art, LOUD
 image: https://julsraemy.ch/prezi/assets/og/libreabc2023.jpg
 url: https://doi.org/10.5281/zenodo.8178671
 lang: fr
-date: 2023-08-31
+presented: 2023-08-31
 event: 'LibreABC'
 theme: gaia
 class: invert

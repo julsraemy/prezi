@@ -7,7 +7,7 @@ keywords: Cultural Heritage, IIIF, Linked Art, Linked Data, LOUD, Community Prac
 image: https://julsraemy.ch/prezi/assets/og/ld-iiif-mas-alis.jpg
 url: https://julsraemy.ch/prezi/ld-iiif-mas-alis.html
 lang: de
-date: 2025-12-20
+presented: 2025-12-20
 event: 'Master of Advanced Studies in Archival, Library and Information Science (MAS ALIS) 2024-2026, Modul 3a'
 theme: beam
 paginate: true

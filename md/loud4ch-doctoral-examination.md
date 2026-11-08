@@ -6,7 +6,7 @@ description: Presentation given in the context of the doctoral examination on 18
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Community Practices, Semantic Interoperability
 image: https://julsraemy.ch/prezi/assets/og/loud4ch-doctoral-examination.jpg
 url: https://doi.org/10.5281/zenodo.14175952
-date: 2024-11-18
+presented: 2024-11-18
 event: 'Doctoral Examination'
 theme: beam
 paginate: true

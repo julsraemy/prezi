@@ -6,7 +6,7 @@ description: Presentation given in the context of the "Trends in Digital Humanit
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Semantic Web
 image: https://julsraemy.ch/prezi/assets/og/loud-colloquium-trends-dh.jpg
 url: https://julsraemy.ch/prezi/loud-colloquium-trends-dh.html
-date: 2023-11-01
+presented: 2023-11-01
 event: 'Colloquium "Trends in Digital Humanities"'
 theme: gaia
 class: invert

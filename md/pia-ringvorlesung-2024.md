@@ -6,7 +6,7 @@ description: Presentation given in the context of the PIA Ringvorlesung on 8 May
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Community Practices, Semantic Interoperability
 image: https://julsraemy.ch/prezi/assets/og/pia-ringvorlesung-2024.jpg
 url: https://julsraemy.ch/prezi/pia-ringvorlesung-2024.html
-date: 2024-05-08
+presented: 2024-05-08
 event: 'PIA Lecture Series'
 theme: beam
 paginate: true

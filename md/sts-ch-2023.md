@@ -6,7 +6,7 @@ description: This presentation focuses on situating data produced by humans and 
 keywords: Cultural Heritage, IIIF, Linked Art, LOUD, Semantic Web
 image: https://julsraemy.ch/prezi/assets/og/sts-ch-2023.jpg
 url: https://doi.org/10.5281/zenodo.8250117
-date: 2023-08-31
+presented: 2023-08-31
 event: 'STS-CH 2023 Conference'
 theme: gaia
 class: invert

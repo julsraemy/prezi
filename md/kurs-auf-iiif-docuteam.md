@@ -7,7 +7,7 @@ description: Präsentation von Julien A. Raemy am docuteam Community Day 2026 in
 keywords: IIIF, docuteam, Archive, Interoperabilität, Image API, Presentation API, docuteam context
 image: https://julsraemy.ch/prezi/assets/og/kurs-auf-iiif-docuteam.jpg
 url: https://julsraemy.ch/prezi/kurs-auf-iiif-docuteam.html
-date: 2026-11-05
+presented: 2026-11-05
 event: 'docuteam Community Day 2026'
 theme: docuteam
 paginate: true

@@ -6,7 +6,7 @@ description: This presentation is a "data pitch" done in the context of the DARI
 keywords: LOUD, Linked Art, IIIF, Web Annotation Data Model, PIA
 image: https://julsraemy.ch/prezi/assets/og/loud-apis-studyday2023.jpg
 url: https://julsraemy.ch/prezi/loud-apis-studyday2023.html
-date: 2023-10-20
+presented: 2023-10-20
 event: 'DARIAH-CH Study Day 2023'
 theme: beam
 paginate: true
