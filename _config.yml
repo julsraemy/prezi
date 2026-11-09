@@ -1,0 +1,25 @@
+# Built by GitHub Pages (classic Jekyll build). The decks themselves are
+# prebuilt HTML files; Jekyll only renders README.md as the index page and
+# generates sitemap.xml, which the main site's robots.txt points to.
+
+url: https://julsraemy.ch
+baseurl: /prezi
+
+plugins:
+  - jekyll-sitemap
+
+# Marp sources and build tooling are not part of the published site
+exclude:
+  - md
+  - themes
+  - scripts
+  - marp.config.js
+  - package.json
+  - package-lock.json
+  - node_modules
+
+defaults:
+  - scope:
+      path: assets
+    values:
+      sitemap: false
