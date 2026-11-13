@@ -79,14 +79,16 @@ const graph = {
 }
 
 // --- COinS (OpenURL ContextObject in SPAN) -----------------------------------
-// OpenURL has no presentation type: Zotero saves these as documents. A deck
-// saved from its own page is a presentation (see citation-meta.js).
+// Zotero's OpenURL parser (zotero/utilities openurl.js): genre=document makes
+// a document, whose title only rft.title sets (rft.btitle is ignored, and a
+// span without a title is looked up by DOI or dropped); rft.type, read last,
+// then turns it into a presentation.
 function coins(d) {
   const p = new URLSearchParams()
   p.append('ctx_ver', 'Z39.88-2004')
   p.append('rft_val_fmt', 'info:ofi/fmt:kev:mtx:book')
   p.append('rft.genre', 'document')
-  p.append('rft.btitle', d.title)
+  p.append('rft.title', d.title)
   for (const a of plainNames(d.author)) p.append('rft.au', a)
   if (d.presented) p.append('rft.date', d.presented)
   if (d.place && !/^online$/i.test(d.place)) p.append('rft.place', d.place)
@@ -94,6 +96,7 @@ function coins(d) {
   if (d.description) p.append('rft.description', d.description)
   if (d.doi) p.append('rft_id', `info:doi/${d.doi}`)
   p.append('rft_id', d.page)
+  p.append('rft.type', 'presentation')
   return `<span class="Z3988" title="${esc(p.toString())}"></span>`
 }
 
