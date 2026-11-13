@@ -96,7 +96,7 @@ _paginate: false
 
 <div class="stage" style="grid-template-columns:repeat(3,526px); column-gap:28px; height:686px">
 <div class="panel" style="background:#000; color:#fff">
-<p class="t34"><b>Gemeinsame Plattformen</b></p>
+<p class="t34"><b>Verbundplattformen</b></p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-codices.ch/"><b>e-codices</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">Handschriften</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-manuscripta.ch/"><b>e-manuscripta</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">handschriftliche Quellen</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-rara.ch/"><b>e-rara</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">digitalisierte Drucke</p>
