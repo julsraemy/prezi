@@ -248,7 +248,7 @@ function citationTags(deck, source) {
   return tags
 }
 
-module.exports = { parseReference, referenceParagraphs, referenceContent }
+module.exports = { parseReference, referenceParagraphs, referenceContent, frontMatter, deckAuthors }
 if (require.main !== module) return
 
 let failed = 0

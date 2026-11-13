@@ -1,7 +1,8 @@
 name: Build changed decks
 
 # Rebuilds the HTML (with its Google Scholar / Zotero citation tags) and link
-# preview image of each deck edited in md/ and commits them back to master,
+# preview image of each deck edited in md/, regenerates the index page's
+# metadata (_includes/head-custom.html), and commits them back to master,
 # which GitHub Pages then publishes as usual. Other decks are left untouched.
 # Run it by hand (Actions > Build changed decks > Run workflow) to rebuild every
 # deck, e.g. after upgrading Marp CLI or changing a theme.
@@ -55,13 +56,14 @@ jobs:
             npx marp --html --no-stdin "$deck" -o "$(basename "${deck%.md}").html"
           done
           node scripts/citation-meta.js . $changed
+          node scripts/index-meta.js
           node scripts/og-images.js assets/og $changed
 
       - name: Commit the results
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- '*.html' assets/og
+          git add -- '*.html' assets/og _includes
           git diff --cached --quiet && exit 0
           git commit -m 'Rebuild changed decks'
           git pull --rebase origin master

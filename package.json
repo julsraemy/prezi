@@ -10,6 +10,7 @@
     "og-image": "marp --no-stdin PITCHME.md -o public/og-image.jpg",
     "og": "node scripts/og-images.js",
     "citations": "node scripts/citation-meta.js",
+    "index-meta": "node scripts/index-meta.js",
     "start": "marp -ps .",
     "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run build"
   },
