@@ -94,11 +94,10 @@ _paginate: false
 
 <div class="stage" style="grid-template-columns:repeat(3,526px); column-gap:28px; height:686px">
 <div class="panel" style="background:#000; color:#fff">
-<p class="t34"><b>Plateformes</b></p>
+<p class="t34"><b>Plateformes partagées</b></p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-codices.ch/"><b>e-codices</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">manuscrits médiévaux et modernes</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-manuscripta.ch/"><b>e-manuscripta</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">manuscrits numérisés</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-rara.ch/"><b>e-rara</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">imprimés numérisés</p>
-<p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-newspaperarchives.ch/"><b>e-newspaperarchives</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">presse</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://fragmentarium.ms/"><b>Fragmentarium</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">fragments médiévaux</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://zentralgut.ch/"><b>ZentralGut</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">Suisse centrale</p>
 </div>
@@ -121,7 +120,7 @@ _paginate: false
 <p style="color:#d0101b; margin-top:12px; line-height:1.15"><a href="https://digital.skkg.ch/"><b>SKKG</b></a></p><p class="t24" style="color:#8c8c8c; line-height:1.15">fondation, Winterthour</p>
 </div>
 </div>
-<p class="grey" style="position:absolute; top:958px; left:146px; width:1540px; font-size:20px">Raemy, J. A. (2026). IIIF in Switzerland: A Landscape of Compatible Platforms and Engaged Institutions. University of Bern. <a href="https://doi.org/10.5281/zenodo.23242983">https://doi.org/10.5281/zenodo.23242983</a></p>
+<p class="grey" style="position:absolute; top:956px; left:146px; width:1540px; font-size:20px"><b>Liste non exhaustive :</b> le rapport <i>IIIF in Switzerland</i> (voir ci-dessous) en donne un aperçu plus large. D'autres implémentations de IIIF existent en Suisse, mais ne sont pas (entièrement) compatibles avec les spécifications.<br>Raemy, J. A. (2026). <i>IIIF in Switzerland: A landscape of compatible platforms and engaged institutions</i> [Report]. University of Bern. <a href="https://doi.org/10.5281/zenodo.23242983">https://doi.org/10.5281/zenodo.23242983</a></p>
 
 <!-- Tous les liens sont cliquables. Montrer un ou deux exemples si le temps le permet, par exemple e-rara ou les procès-verbaux du Conseil fédéral. -->
 
@@ -220,9 +219,7 @@ _paginate: false
 <div class="panel">
 <p class="verb">Comparer</p>
 <p class="lead">Afficher côte à côte des documents, qu'ils viennent de la même institution ou non.</p>
-<p class="caption">Lettre du 6 septembre 1780</p>
-<p class="online">Voir en ligne</p>
-<p class="link"><a href="https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35">Library of Congress, papiers d'Alexander Hamilton</a></p>
+<p class="caption">Lettre du 6 septembre 1780, Library of Congress, papiers d'Alexander Hamilton</p>
 </div>
 </div>
 

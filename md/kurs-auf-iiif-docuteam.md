@@ -96,11 +96,10 @@ _paginate: false
 
 <div class="stage" style="grid-template-columns:repeat(3,526px); column-gap:28px; height:686px">
 <div class="panel" style="background:#000; color:#fff">
-<p class="t34"><b>Plattformen</b></p>
+<p class="t34"><b>Gemeinsame Plattformen</b></p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-codices.ch/"><b>e-codices</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">Handschriften</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-manuscripta.ch/"><b>e-manuscripta</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">handschriftliche Quellen</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-rara.ch/"><b>e-rara</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">digitalisierte Drucke</p>
-<p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://www.e-newspaperarchives.ch/"><b>e-newspaperarchives</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">Zeitungen</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://fragmentarium.ms/"><b>Fragmentarium</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">mittelalterliche Fragmente</p>
 <p style="color:#ff8a8a; margin-top:12px; line-height:1.15"><a href="https://zentralgut.ch/"><b>ZentralGut</b></a></p><p class="t24" style="color:#cfcfcf; line-height:1.15">Zentralschweiz</p>
 </div>
@@ -123,7 +122,7 @@ _paginate: false
 <p style="color:#d0101b; margin-top:12px; line-height:1.15"><a href="https://digital.skkg.ch/"><b>SKKG</b></a></p><p class="t24" style="color:#8c8c8c; line-height:1.15">Stiftung, Winterthur</p>
 </div>
 </div>
-<p class="grey" style="position:absolute; top:958px; left:146px; width:1540px; font-size:20px">Raemy, J. A. (2026). IIIF in Switzerland: A Landscape of Compatible Platforms and Engaged Institutions. University of Bern. <a href="https://doi.org/10.5281/zenodo.23242983">https://doi.org/10.5281/zenodo.23242983</a></p>
+<p class="grey" style="position:absolute; top:956px; left:146px; width:1540px; font-size:20px"><b>Nicht abschliessende Liste:</b> Der Bericht <i>IIIF in Switzerland</i> (siehe unten) bietet einen breiteren Überblick. Es gibt in der Schweiz weitere IIIF-Umsetzungen, die nicht (vollständig) mit den Spezifikationen kompatibel sind.<br>Raemy, J. A. (2026). <i>IIIF in Switzerland: A landscape of compatible platforms and engaged institutions</i> [Report]. University of Bern. <a href="https://doi.org/10.5281/zenodo.23242983">https://doi.org/10.5281/zenodo.23242983</a></p>
 
 <!-- Die Einführung von IIIF in der Schweiz begann zunächst mit Plattformen für Handschriften und alte Bücher, hauptsächlich von Kulturerbe- und Universitätsbibliotheken, und mittlerweile gibt es immer mehr Umsetzungen im akademischen Bereich, in Archiven und Museen. -->
 
@@ -222,9 +221,7 @@ _paginate: false
 <div class="panel">
 <p class="verb">Vergleichen</p>
 <p class="lead">Dokumente nebeneinander anzeigen, ob sie aus derselben Institution stammen oder nicht.</p>
-<p class="caption">Brief vom 6. September 1780</p>
-<p class="online">Online ansehen</p>
-<p class="link"><a href="https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35">Library of Congress, Alexander Hamilton Papers</a></p>
+<p class="caption">Brief vom 6. September 1780, Library of Congress, Alexander Hamilton Papers</p>
 </div>
 </div>
 
