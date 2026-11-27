@@ -4,6 +4,7 @@
 
 | **Date**   	| **Title**                                                                                                                                                                          	| **Event/Context**                                           	| **Place**           	|
 |------------	|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------------------------	|---------------------	|
+| 2027.01.22 	| [Des données liées aux données utilisables : IIIF, Linked Art et l'approche LOUD](https://julsraemy.ch/prezi/iiif-loud-cas-alis-dl.html) 	| CAS ALIS-DL, Interopérabilité sémantique du patrimoine culturel : données liées, identifiants, vocabulaires et IIIF 	| Bern, Switzerland 	|
 | 2026.11.12 	| [Cap sur IIIF : ce qui se prépare chez docuteam](https://julsraemy.ch/prezi/cap-sur-iiif-docuteam.html) 	| docuteam Community Day 2026 	| Lausanne, Switzerland 	|
 | 2026.11.05 	| [Kurs auf IIIF: Was bei docuteam in Vorbereitung ist](https://julsraemy.ch/prezi/kurs-auf-iiif-docuteam.html) 	| docuteam Community Day 2026 	| Zürich, Switzerland 	|
 | 2026.11.04 	| [Rethinking Photo Album Representation Through IIIF](https://julsraemy.ch/prezi/euromed2026-photo-album-iiif.html)                                 	| 11th International Conference on Digital Heritage (EuroMed 2026)                                             	| Online              	|
