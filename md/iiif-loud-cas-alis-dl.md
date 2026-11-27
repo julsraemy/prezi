@@ -299,7 +299,7 @@ Question à la salle : votre institution sert-elle déjà ses images en IIIF ? S
 
 # Notre fil rouge dans une visionneuse
 
-<div style="width:100%; max-width:1200px; height:560px; margin:0 auto;">
+<div style="width:100%; max-width:1000px; height:430px; margin:0 auto;">
   <iframe 
     src="https://julsraemy.ch/prezi/assets/clover.html?iiif-content=https://www.e-rara.ch/i3f/v20/30561631/manifest" 
     title="Clover IIIF : Sous les étoiles d'Isabelle Kaiser" 
