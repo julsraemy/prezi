@@ -199,7 +199,7 @@ Une suite de **spécifications ouvertes** et une **communauté mondiale** (bibli
 
 <div style="font-size: 60%;">
 
-Lettre des Alexander Hamilton Papers (6 septembre 1780), Library of Congress : https://prtd.app/#72f604db-6869-4c08-91ce-7c79502a7f35
+Lettre des Alexander Hamilton Papers (6 septembre 1780), Library of Congress
 
 </div>
 
@@ -307,11 +307,10 @@ Question à la salle : votre institution sert-elle déjà ses images en IIIF ? S
   </iframe>
 </div>
 
-<div style="font-size: 50%;">
+<div style="font-size: 40%;">
 
 Kaiser, Isabelle. _Sous les étoiles : poésies_. Genève : H. Georg, 1890. Zentralbibliothek Zürich, CFM K 955. https://doi.org/10.3931/e-rara-139152
-Manifest IIIF : https://www.e-rara.ch/i3f/v20/30561631/manifest
-Visionneuse : [Clover IIIF](https://clover.iiif.library.northwestern.edu/?iiif-content=https://www.e-rara.ch/i3f/v20/30561631/manifest) (Northwestern University)
+Manifest IIIF : https://www.e-rara.ch/i3f/v20/30561631/manifest. Visionneuse : [Clover IIIF](https://clover.iiif.library.northwestern.edu/?iiif-content=https://www.e-rara.ch/i3f/v20/30561631/manifest) (Northwestern University)
 
 </div>
 

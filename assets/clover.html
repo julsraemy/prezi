@@ -9,7 +9,7 @@
      The hosted demo (clover.iiif.library.northwestern.edu) refuses to be
      framed (X-Frame-Options: SAMEORIGIN), so the viewer is loaded here. -->
 <style>
-  html, body, #viewer { height: 100%; margin: 0; }
+  html, body, #viewer { height: 100%; margin: 0; overflow: hidden; }
   body { background: #fff; font: 16px/1.4 system-ui, sans-serif; }
   .message { display: grid; place-items: center; height: 100%; padding: 1em; text-align: center; }
 </style>
@@ -28,7 +28,22 @@
       const React = (await import("https://esm.sh/react@18.3.1")).default;
       const { createRoot } = await import("https://esm.sh/react-dom@18.3.1/client");
       const Viewer = (await import("https://esm.sh/@samvera/clover-iiif@3.16.2/viewer" + deps)).default;
-      createRoot(el).render(React.createElement(Viewer, { iiifContent: content }));
+      // Fit Clover inside the frame: the canvas gets the frame's height minus
+      // the space taken by the toolbar and the thumbnail strip below it.
+      // ?chrome=<px> adjusts that space, ?title=1 shows the Manifest's label.
+      const params = new URLSearchParams(location.search);
+      const chrome = parseInt(params.get("chrome"), 10) || 190;
+      const showTitle = params.get("title") === "1";
+      const canvasHeight = Math.max(200, window.innerHeight - chrome - (showTitle ? 60 : 0)) + "px";
+      createRoot(el).render(React.createElement(Viewer, {
+        iiifContent: content,
+        options: {
+          canvasHeight,
+          showTitle,
+          showIIIFBadge: false,
+          openSeadragon: { gestureSettingsMouse: { scrollToZoom: false } }
+        }
+      }));
     } catch (e) {
       fail("The viewer could not be loaded.");
     }
